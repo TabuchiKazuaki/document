@@ -1,19 +1,64 @@
 @charset "UTF-8";
-* { padding: 0; margin: 0; line-height: 1; color: #3a352a; }
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  color: #3a352a;
+}
 
-body { font-family: "Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Meiryo,メイリオ,sans-serif"; }
-body li { list-style: none; }
+body {
+  font-family: "Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Meiryo,メイリオ,sans-serif";
+}
+body li {
+  list-style: none;
+}
 
-a { -webkit-transition: .3s; transition: .3s; text-decoration: none; }
-a:hover { text-decoration: none; opacity: .8; }
+a {
+  -webkit-transition: .3s;
+  transition: .3s;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  opacity: .8;
+}
 
-img { width: 100%; }
+img {
+  width: 100%;
+}
 
-.wrap_header { position: relative; width: 960%; }
-.wrap_header .img1 { position: absolute; left: 20%; top: 20%; max-width: 200px; }
-.wrap_header .img1 img { width: 80%; }
-.wrap_header .img2 { max-width: 200px; position: absolute; left: 40%; top: 20%; }
-.wrap_header .img3 { position: absolute; left: 16.5%; bottom: -1%; }
-.wrap_header .img3 img { max-width: 564px; }
-.wrap_header .base { width: 80%; margin: 0 auto; max-height: 400px; }
-.wrap_header .base img { width: 65%; }
+.wrap_header {
+  position: relative;
+  width: 960px;
+}
+.wrap_header .img1 {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  max-width: 200px;
+}
+.wrap_header .img1 img {
+  width: 80%;
+}
+.wrap_header .img2 {
+  max-width: 200px;
+  position: absolute;
+  left: 40%;
+  top: 20%;
+}
+.wrap_header .img3 {
+  position: absolute;
+  left: 16.5%;
+  bottom: -1%;
+}
+.wrap_header .img3 img {
+  max-width: 564px;
+}
+.wrap_header .base {
+  width: 80%;
+  margin: 0 auto;
+  max-height: 400px;
+}
+.wrap_header .base img {
+  width: 65%;
+}
