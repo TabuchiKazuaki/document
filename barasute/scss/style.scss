@@ -28,7 +28,6 @@ header {
 }
 .wrap_header {
 	position: relative;
-	width: 960px;
 
 	.img1 {
 		position: absolute;
@@ -54,11 +53,12 @@ header {
 		}
 	}
 	.base {
-		width: 80%;
+		width: 100%;
 		margin: 0 auto;
-		max-height: 400px;
+		text-align:center;
+		max-width: 960px;
 		img{
-			width: 65%;
+			width: 100%;
 		}
 	}
 }

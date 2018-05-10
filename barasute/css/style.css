@@ -29,7 +29,6 @@ img {
 
 .wrap_header {
   position: relative;
-  width: 960px;
 }
 .wrap_header .img1 {
   position: absolute;
@@ -55,10 +54,11 @@ img {
   max-width: 564px;
 }
 .wrap_header .base {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  max-height: 400px;
+  text-align: center;
+  max-width: 960px;
 }
 .wrap_header .base img {
-  width: 65%;
+  width: 100%;
 }
