@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+	padding:0;
+	margin: 0;
+	line-height: 1;
+	color: #3a352a;
+}
+body {
+	font-family: "Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Meiryo,メイリオ,sans-serif";
+	li {
+		list-style: none;
+	}
+}
+a {
+	transition: .3s;
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+		opacity: .8;
+	}
+}
+img  { width: 100%;}
+
+
+
+.top_ten {
+	overflow-x: hidden;
+	li {
+		float: left;
+	}
+}
