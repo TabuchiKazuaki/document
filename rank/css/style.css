@@ -19,5 +19,58 @@ img { width: 100%; }
 .top_ten li { display: inline-block;
     width: 220px;}
 
-
+#wrap{
+  background-color: #ddd;
+  padding: 50px 0;
+}
+#slider{
+  width: 300px;
+  margin: 5% auto 0;
+  img{
+    width: 100%;
+  }
+}
+.slider {
+	margin: 5% 0 0;
+}
+.slick-dots {
+	top: -32px;
+	height: 0;
+}
+button{
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.slick-dots li {
+	display: flex;
+	float: left;
+	width: 21%;
+	white-space: nowrap;
+}
+.slick-dots li button:before {
+	content: 'AbemaSPECIAL';
+	width: 30%;
+	font-size: 16px;
+	text-indent: 0px;
+	position: absolute;
+	top: 0;
+	left: 0;
+    text-align: left;
+}
+.slick-dots li:nth-child(2) button:before {
+    content: 'ドラマ';
+  }
+.slick-dots li:nth-child(3) button:before {
+    content: '韓流・KPOP';
+  }
+.slick-dots li:nth-child(4) button:before {
+    content: 'アニメ';
+  }
 
