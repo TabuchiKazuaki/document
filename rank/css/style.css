@@ -55,7 +55,7 @@ button{
 	white-space: nowrap;
 }
 .slick-dots li button:before {
-	content: 'AbemaSPECIAL';
+	content: '';
 	width: 30%;
 	font-size: 16px;
 	text-indent: 0px;
@@ -64,6 +64,12 @@ button{
 	left: 0;
     text-align: left;
 }
+.slick-initialized .slick-slide {
+	height: auto!important;
+}
+.slick-dots li:nth-child(1) button:before {
+    content: 'AbemaSPECIAL';
+  }
 .slick-dots li:nth-child(2) button:before {
     content: 'ドラマ';
   }
