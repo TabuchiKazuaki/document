@@ -23,16 +23,21 @@ a {
 img  { width: 100%;}
 
 
+.one-time {
+	overflow-x: hidden;
+}
 
+.slick-dots li button:before {
+	font-family: "Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Meiryo,メイリオ,sans-serif";
+}
 #wrap{
   background-color: #ddd;
   padding: 50px 0;
 }
-.one-time{
+#slider{
   margin: 5% auto 0;
-
 }
-.slider {
+.rank {
 	margin: 5% 0 0;
 }
 .slick-dots {
@@ -70,7 +75,7 @@ button{
 	height: auto !important;
 }
 .slick-dots li:nth-child(1) button:before {
-    content: 'AbemaSPECIAL';
+    content: "AbemaSPECIAL";
   }
 .slick-dots li:nth-child(2) button:before {
     content: 'ドラマ';
