@@ -19,7 +19,7 @@ img { width: 100%; }
 @media screen and (max-width: 480px) { .header_logo { margin: 2% 3% 2%; }
   .header_logo img { width: 50%; }
   .heading_area h2 img { width: 60%; } }
-.slide_wrap { width: 100%; height: 100%; padding: 12px 0; overflow-x: scroll; -webkit-overflow-scrolling: touch; overflow-scrolling: touch; white-space: nowrap; }
+.slide_wrap { width: 100%; height: auto; padding: 12px 0; overflow-x: scroll; -webkit-overflow-scrolling: touch; overflow-scrolling: touch; white-space: nowrap; }
 
 .side_box { position: relative; background: #fff; width: 91%; margin: 2px; text-align: center; display: inline-block; border-radius: 5px; vertical-align: top; }
 .side_box:first-child { padding: 0; }
@@ -30,3 +30,17 @@ img { width: 100%; }
 .side_box .inner .inner_text { font-weight: bold; white-space: normal; padding: 3% 3% 3% 75px; font-size: 25px; line-height: 1.3; text-align: left; color: #fff; }
 
 .contents { margin: 4% 0 0; padding: 0 4%; min-height: 400px; }
+
+.tab_area { padding: 5%; }
+
+.tabs { overflow: hidden; margin: 5% 0 0; }
+.tabs li { float: left; width: 22.7%; background: #313131; margin: 0 0 0 3%; text-align: center; }
+.tabs li:first-child { margin: 0; }
+.tabs li a { display: block; padding: 3% 0; font-weight: bold; color: #fff; }
+.tabs .active { background: #56c123; }
+
+.tab_content { margin: 3% 0 0; }
+.tab_content .ranking_row { overflow: hidden; }
+.tab_content .ranking_row li { float: left; width: 48%; margin: 0 0 0 4%; }
+.tab_content .ranking_row li:first-child { margin: 0; }
+.tab_content .ranking_row li:nth-child(2n+1) { margin: 0; }
