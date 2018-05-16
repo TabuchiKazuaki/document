@@ -222,7 +222,7 @@ img  { width: 100%;}
 	.rank_item {
 		margin: 3% 0 0;
 		.rank_list {
-			border-radius: 5px;
+			border-radius: 4px;
 		}
 		li {
 			width: 88%;
@@ -317,7 +317,7 @@ img  { width: 100%;}
 	.rank_item {
 		margin: 3% 0 0;
 		.rank_list {
-			border-radius: 5px;
+			border-radius: 3px;
 		}
 		li {
 			width: 86%;
@@ -343,6 +343,9 @@ img  { width: 100%;}
 				float: left;
 				padding: 3%;
 				width: 59%;
+				font-size: calc(42vw/12);
+				line-height: 1;
+
 			}
 
 			&:nth-child(2):before {
