@@ -207,7 +207,7 @@ img  { width: 100%;}
 	.contents {
 		padding: 4% 4% 7%;
 		.contents_heading {
-			font-size: calc(50vw/12);
+			font-size: calc(64vw/12);
 		}
 		.contents_link{
 			margin: 2% 0 0;
@@ -248,7 +248,8 @@ img  { width: 100%;}
 				float: left;
 				padding: 3%;
 				width: 59%;
-				font-size: calc(32vw/12);
+				font-size: calc(48vw/12);
+				line-height: 1.1;
 			}
 
 			&:nth-child(2):before {
@@ -469,7 +470,7 @@ footer {
 			&:after {
 				content: '/';
 				position: absolute;
-				top: -1px;
+				top: 1px;
 				right: 0 ;
 			}
 			&:last-child:after {
