@@ -437,10 +437,23 @@ footer {
 			content: '';
 		}
 	}
+
 	.footer_text {
+		overflow: hidden;
 		margin: 4% 0 0;
 		font-size: 14px;
 		line-height: 1.5;
+		color: #878787;
+		li {
+			float: left;
+		}
+	}
+	.footer_small_wrap {
+		margin: 1% 0 0;
+		text-align: center;
+	}
+	.footer_small {
+		font-size: 12px;
 		color: #878787;
 	}
 	.take {
@@ -519,6 +532,11 @@ footer {
 			&:last-child:after {
 				content: '';
 			}
+		}
+		.footer_small {
+			margin: 3% 0 0;
+			font-size: calc(34vw/12);
+			color: #878787;
 		}
 		.footer_text {
 			margin: 3% 0 0;
