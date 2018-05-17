@@ -480,6 +480,10 @@ img  { width: 100%;}
 	padding: 2% 5% 0;
 	max-width: 980px;
 	margin: 0 auto;
+
+	.tab_heading {
+		font-size: 37px;
+	}
 }
 
 
@@ -525,6 +529,14 @@ img  { width: 100%;}
 	}
 }
 @media screen and (max-width: 768px) {
+.tab_area {
+	padding: 2% 5% 0;
+
+	.tab_heading {
+		font-size: calc(67vw/12);
+	}
+}
+
 .tabs {
 	margin: 5% 0 0;
 
@@ -563,11 +575,18 @@ img  { width: 100%;}
 }
 }
 @media screen and (max-width: 480px) {
+	.tab_area {
+		padding: 2% 5% 0;
+
+		.tab_heading {
+			font-size: calc(57vw/12);
+		}
+	}
 	.tabs {
 
 		li {
 			a {
-				padding: 4% 0;
+				padding: 11% 0;
 				font-size: calc(28vw/12);
 			}
 			&:nth-child(1) {
