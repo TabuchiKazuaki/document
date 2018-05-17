@@ -89,7 +89,7 @@ img { width: 100%; }
   .contents .rank_row li:nth-child(2) .rank_row_text:before { background-size: 32px 24px; width: 32px; height: 24px; }
   .contents .rank_row li:nth-child(3) .rank_row_text:before { background-size: 30px 30px; width: 30px; height: 30px; }
   .contents .rank_row li:nth-child(4) .rank_row_text:before { background-size: 30px 30px; width: 30px; height: 30px; } }
-.tab_area { padding: 2% 5% 10%; max-width: 980px; margin: 0 auto; }
+.tab_area { padding: 2% 5% 0; max-width: 980px; margin: 0 auto; }
 
 .tabs { overflow: hidden; margin: 3% 0 0; }
 .tabs li { position: relative; float: left; width: 22.7%; background: #313131; margin: 0 0 15px 3%; text-align: center; border-radius: 4px; }
@@ -191,7 +191,7 @@ footer .take { margin: 5% auto 0; padding: 0.7% 0 1%; width: 120px; border-radiu
   footer .footer_text { margin: 3% 0 0; font-size: calc(28vw/12); line-height: 1.4; color: #878787; }
   footer .footer_small { font-size: calc(28vw/12); color: #878787; }
   footer .take { margin: 3% auto 0; padding: 0.7% 0 1%; border: 1px solid #878787; text-align: center; font-size: calc(28vw/12); } }
-@media screen and (max-width: 480px) { footer { padding: 1% 4% 7%; }
+@media screen and (max-width: 480px) { footer { padding: 1% 4% 3%; }
   footer li { padding: 0 3% 0 2%; line-height: 1.8; }
   footer li a { display: block; font-size: calc(34vw/12); color: #fff; }
   footer li:after { content: '/'; position: absolute; top: -6px; right: 0; }
