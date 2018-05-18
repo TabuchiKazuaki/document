@@ -594,7 +594,7 @@ img  { width: 100%;}
 				padding: 11% 0;
 				font-size: calc(28vw/12);
 			}
-			&:nth-child(1) {
+			&:first-child(1) {
 				a {
 					padding: 11% 0 12%;
 					letter-spacing: -0.5px;
@@ -634,13 +634,18 @@ img  { width: 100%;}
 	.tabs {
 		li {
 			a {
-				padding: 6% 0;
+				padding: 11% 0 12%;
 				font-size: calc(28vw/12);
 			}
 			&:nth-child(1) {
 				a {
 					letter-spacing: -1px;
 				}
+			}
+		}
+		.active {
+			&:after{
+				bottom: -6px;
 			}
 		}
 	}
