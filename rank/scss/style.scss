@@ -192,6 +192,17 @@ img  { width: 100%;}
 			}
 		}
 	}
+	.wrap {
+		overflow: hidden;
+	}
+	.contents_link {
+		float: right;
+		margin: 2% 0 0;
+		a {
+			font-size: 28px;
+			color: #56c123;
+		}
+	}
 	.rank_row {
 		overflow: hidden;
 		margin: 1% 0 0;
@@ -296,6 +307,12 @@ img  { width: 100%;}
 		.contents_date {
 			margin: 0 0 0 6px;
 			font-size: calc(38vw/12);
+		}
+		.contents_link{
+			margin: 2% 0 0;
+			a {
+				font-size: calc(44vw/12);
+			}
 		}
 		.rank_first {
 			border-radius: 4px;
