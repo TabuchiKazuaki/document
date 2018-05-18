@@ -545,6 +545,11 @@ img  { width: 100%;}
 			padding: 10% 0;
 			font-size: calc(28vw/12);
 		}
+		&:first-child {
+			a {
+				padding: 11% 0;
+			}
+		}
 		&:nth-child(2) {
 			a {
 				font-size: calc(32vw/12);
