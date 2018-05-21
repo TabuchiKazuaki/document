@@ -450,7 +450,7 @@ img  { width: 100%;}
 .tab_area {
 	padding: 2% 4% 3%;
 	max-width: 980px;
-	margin: 3% auto 0;
+	margin: 2% auto 0;
 
 	.tab_heading {
 		font-size: 37px;
@@ -1282,19 +1282,16 @@ footer {
 	margin: 0 0 0 -13%;
 }
 
-.sp-arrow {
-	// width: 20px;
-	// height: 85px;
-	width: 132px;
-	height: 394px;
-}
+
 .sp-horizontal .sp-next-arrow {
 	background: url(https://goo.gl/Tj973P) 0 0 repeat-y;
 	background-size: contain;
 	opacity: 0.9;
-	right: 0;
-	left: auto;
+	right: 0!important;
+	left: auto !important;
 	top: -171px;
+	width: 132px;
+	height: 394px;
 }
 .sp-horizontal .sp-arrows {
 	top: 45%;
@@ -1308,7 +1305,7 @@ footer {
 	height: 17%;
 }
 .sp-previous-arrow {
-	display: none;
+	display: none !important;
 }
 
 .sp-caption-container{
