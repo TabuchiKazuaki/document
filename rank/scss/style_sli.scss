@@ -1590,8 +1590,19 @@ footer {
 		}
 	}
 
+}
 
-
+@media screen and (max-width: 414px) {
+	.sp-horizontal .sp-next-arrow {
+		background: url(https://goo.gl/EKJt7x) 0 0 repeat-y;
+		background-size: 76px 1px;
+		opacity: 0.85;
+		right: 0;
+		left: auto;
+		top: -83px;
+		width: 76px;
+		height: 218px;
+	}
 
 }
 
