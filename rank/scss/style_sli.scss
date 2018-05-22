@@ -1514,6 +1514,9 @@ footer {
 			font-size: calc(38vw/12);
 		}
 	}
+	.contents {
+		padding: 4% 4% 2%;
+	}
 }
 @media screen and (max-width: 560px) {
 	.sp-slide {
@@ -1522,6 +1525,9 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+	.contents {
+		padding: 4% 4% 0;
+	}
 	.sp-slide {
 		margin: 0 0 0 -16%;
 		.sp-caption {
