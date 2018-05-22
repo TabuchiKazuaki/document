@@ -1289,7 +1289,7 @@ footer {
 	left: auto !important;
 	top: -169px;
 	width: 132px;
-	height: 354px;
+	height: 371px;
 }
 .sp-horizontal .sp-arrows {
 	top: 45%;
@@ -1322,6 +1322,7 @@ footer {
 		background: #303030;
 		background: url(https://goo.gl/eXJ1gX) 15px 11px no-repeat;
 		background-size: 50px 38px;
+		min-height: 80px;
 		padding: 2% 5% 0 90px;
 		font-size: 27px;
 		line-height: 1.3;
@@ -1391,9 +1392,14 @@ footer {
 	}
 }
 
-
-
-
+@media screen and (max-width: 980px) {
+	.sp-slide {
+		margin: 0 0 0 -15%;
+		.sp-caption {
+			min-height: 80px;
+		}
+	}
+}
 @media screen and (max-width: 768px) {
 	.sp-arrow {
 		width: 132px;
