@@ -1727,8 +1727,9 @@ footer {
 	.sp-slide {
 		margin: 0 0 0 -20%;
 		.sp-caption {
-			min-height: 50px;
-			max-height: 50px;
+			min-height: 70px;
+			max-height: 70px;
+			box-sizing: border-box;
 			padding: 6% 5% 2% 52px;
 			line-height: 1.3;
 			font-size: calc(37vw/12);
@@ -1814,6 +1815,7 @@ footer {
 			max-height: 45px;
 			padding: 6% 5% 2% 53px;
 			font-size: calc(35vw/12);
+			box-sizing: border-box;
 		}
 
 		&:nth-child(1) {
