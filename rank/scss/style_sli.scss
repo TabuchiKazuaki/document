@@ -1809,19 +1809,21 @@ footer {
 	.sp-slide {
 		margin: 0 0 0 -16%;
 		.sp-caption {
-			min-height: 38px;
-			padding: 6% 5% 2% 59px;
+			min-height: 45px;
+			max-height: 45px;
+			padding: 6% 5% 2% 53px;
+			font-size: calc(35vw/12);
 		}
 
 		&:nth-child(1) {
 			.sp-caption {
-				background: url(https://goo.gl/eXJ1gX) 13px 11px no-repeat;
+				background: url(https://goo.gl/eXJ1gX) 11px 11px no-repeat;
 				background-size: 32px 24px;
 			}
 		}
 		&:nth-child(2) {
 			.sp-caption {
-				background: url(https://goo.gl/aDMkFi) 13px 11px no-repeat;
+				background: url(https://goo.gl/aDMkFi) 11px 11px no-repeat;
 				background-size: 32px 24px;
 			}
 		}
