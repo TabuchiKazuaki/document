@@ -1315,7 +1315,7 @@ footer {
 
 
 .sp-slide {
-	margin: 0 0 0 -13%;
+	margin: 0 0 0 -24%;
 	.sp-caption {
 		position: relative;
 		background: #303030;
@@ -1611,16 +1611,34 @@ footer {
 }
 
 @media screen and (max-width: 375px) {
-
+	.sp-horizontal .sp-next-arrow {
+		background: url(https://goo.gl/EKJt7x) 0 0 repeat-y;
+		background-size: 76px 1px;
+		opacity: 0.85;
+		right: 0;
+		left: auto;
+		top: -83px;
+		width: 76px;
+		height: 218px;
+	}
 	.sp-slide {
-		margin: 0 0 0 -15%;
+		margin: 0 0 0 -20%;
 	}
 
 }
 @media screen and (max-width: 320px) {
-
+	.sp-horizontal .sp-next-arrow {
+		background: url(https://goo.gl/EKJt7x) 0 0 repeat-y;
+		background-size: 76px 1px;
+		opacity: 0.85;
+		right: 0;
+		left: auto;
+		top: -63px;
+		width: 76px;
+		height: 152px;
+	}
 	.sp-slide {
-		margin: 0 0 0 -15%;
+		margin: 0 0 0 -16%;
 	}
 
 }
