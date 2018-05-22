@@ -501,7 +501,7 @@ img  { width: 100%;}
 }
 @media screen and (max-width: 768px) {
 .tab_area {
-	padding: 3% 4% 0;
+	padding: 1% 4% 0;
 
 	.tab_heading {
 		font-size: calc(43vw/12);
@@ -552,7 +552,7 @@ img  { width: 100%;}
 }
 @media screen and (max-width: 480px) {
 	.tab_area {
-		padding: 4% 4% 0;
+		padding: 2% 4% 0;
 
 		.tab_heading {
 			font-size: calc(57vw/12);
@@ -1499,6 +1499,17 @@ footer {
 
 }
 
+@media screen and (max-width: 640x) {
+	.sp-slide {
+		margin: 0 0 0 -19%;
+		.sp-caption {
+			min-height: 40px;
+			padding: 3% 5% 0 60px;
+			line-height: 1.3;
+			font-size: calc(38vw/12);
+		}
+	}
+}
 
 @media screen and (max-width: 480px) {
 	.sp-arrow {
