@@ -1637,7 +1637,8 @@ footer {
 	.sp-slide {
 		margin: 0 0 0 -19%;
 		.sp-caption {
-			min-height: 30px;
+			min-height: 38px;
+			max-height: 38px;
 			padding: 6% 5% 2% 59px;
 			line-height: 1.3;
 			font-size: calc(33vw/12);
@@ -1719,6 +1720,13 @@ footer {
 	}
 	.sp-slide {
 		margin: 0 0 0 -20%;
+		.sp-caption {
+			min-height: 38px;
+			max-height: 38px;
+			padding: 6% 5% 2% 59px;
+			line-height: 1.3;
+			font-size: calc(33vw/12);
+		}
 	}
 
 }
@@ -1735,6 +1743,13 @@ footer {
 	}
 	.sp-slide {
 		margin: 0 0 0 -16%;
+		.sp-caption {
+			min-height: 38px;
+			max-height: 38px;
+			padding: 6% 5% 2% 59px;
+			line-height: 1.3;
+			font-size: calc(33vw/12);
+		}
 	}
 
 }
