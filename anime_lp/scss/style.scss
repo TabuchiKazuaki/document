@@ -396,7 +396,6 @@ footer {
 .heding_text_sp {
 	max-width: 591px;
 	margin: 5% auto 0;
-
 }
 
 .contents_sp {
@@ -535,6 +534,23 @@ footer {
 
 
 @media screen and (max-width: 640px) {
+	.logo_sp {
+		margin: 1% 0 0 2%;
+		img {
+			width: 70%;
+		}
+	}
+	.heding_img_sp {
+		width: 100%;
+		margin: 2% auto 0;
+		text-align: center;
+		img {
+			width: 60%;
+		}
+	}
+	.heding_text_sp {
+		margin: 5% 10% 0;
+	}
 	.line_t_sp {
 		font-size: calc(62vw/14);
 		line-height: 1.4;
