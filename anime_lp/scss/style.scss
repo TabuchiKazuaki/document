@@ -132,18 +132,93 @@ img  { width: 100%;}
 }
 
 
-.badge_before img{
+.badge_before , .badge_web {
 	position: relative;
 	&:before {
 		content: '地上波先行';
 		position: absolute;
-		top: 0;
-		left: 0;
+		bottom: 12px;
+		left: 12px;
 		background: #ec2840;
-
+		z-index: 1;
+		width: 125px;
+		height: 34px;
+		text-align: center;
+		border-radius: 5px;
+		line-height: 34px;
+		font-size: 20px;
+		color: #fff;
 	}
 }
-
+.badge_web {
+	&:before {
+		content: 'WEB最速';
+		width: 115px;
+	}
+}
+@media screen and (max-width: 1100px) {
+	.badge_before {
+		&:before {
+			bottom: 9px;
+			left: 9px;
+			width: 100px;
+			height: 28px;
+			text-align: center;
+			line-height: 28px;
+			font-size: 15px;
+			color: #fff;
+		}
+	}
+}
+@media screen and (max-width: 768px) {
+	.badge_before {
+		&:before {
+			bottom: 9px;
+			left: 9px;
+			width: 34%;
+			height: 32px;
+			border-radius: 4px;
+			line-height: 32px;
+			font-size: 20px;
+			font-size: calc(31vw/12);
+		}
+	}
+}
+@media screen and (max-width: 580px) {
+	.badge_before {
+		&:before {
+			bottom: 7px;
+			left: 7px;
+			width: 36%;
+			height: 26px;
+			line-height: 26px;
+		}
+	}
+}
+@media screen and (max-width: 480px) {
+	.badge_before {
+		&:before {
+			bottom: 5px;
+			left: 5px;
+			border-radius: 3px;
+			height: 20px;
+			line-height: 20px;
+		}
+	}
+}
+@media screen and (max-width: 320px) {
+	.badge_before {
+		&:before {
+			bottom: 3px;
+			left: 3px;
+			width: 40%;
+			border-radius: 3px;
+			height: 18px;
+			line-height: 18px;
+			font-size: calc(26vw/12);
+		}
+	}
+}
 
 .lineup_wrap {
 	width: 100%;
