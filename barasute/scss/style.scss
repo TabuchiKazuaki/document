@@ -28,6 +28,17 @@ img  { width: 100%;}
 header {
 	position: relative;
 	background: #efeeff;
+	.figure_img {
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%,-50%);
+		-moz-transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		-o-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
+		width: 1920px;
+		height: 617px;
+	}
 
 	.header_wrap {
 		background: url(https://goo.gl/K3iZsb) center top no-repeat;
