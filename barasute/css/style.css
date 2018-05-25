@@ -9,8 +9,9 @@ a:hover { text-decoration: none; opacity: .8; }
 
 img { width: 100%; }
 
-header .box { padding: 2% 0; margin: 0 0 8px; -webkit-box-shadow: 0px 4px 4px rgba(223, 222, 246, 0.4); box-shadow: 0px 4px 4px rgba(223, 222, 246, 0.4); text-align: center; }
-header .box .header_logo { max-width: 1080px; }
+header .box { background: none; text-align: center; padding: 0 0 10px; }
+header .box .box_inner { background: #fff; padding: 2% 0; margin: 0 0 8px; -webkit-box-shadow: 0px 4px 4px rgba(223, 222, 246, 0.4); box-shadow: 0px 4px 4px rgba(223, 222, 246, 0.4); }
+header .box .box_inner .header_logo { max-width: 1080px; margin: 0 auto; }
 header .wrap_header { background: #eeedff; max-width: 1080px; margin: -4px auto 0; }
 header .wrap_header .base { margin: 0 auto; }
 
