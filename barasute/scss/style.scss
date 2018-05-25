@@ -37,7 +37,11 @@ header {
 		-o-transform: translate(-50%,-50%);
 		transform: translate(-50%,-50%);
 		width: 1920px;
-		height: 617px;
+		max-height: 617px;
+		img {
+			max-width: 1920px;
+			height: 617px;
+		}
 	}
 
 	.header_wrap {
