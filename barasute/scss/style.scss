@@ -26,8 +26,11 @@ img  { width: 100%;}
 
 // header
 header {
-	position: relative;
-	background: url(https://goo.gl/K3iZsb) 0 0 no-repeat;
+	background: #efeeff;
+	.header_inner {
+		position: relative;
+		background: url(https://goo.gl/K3iZsb) 0 0 no-repeat;
+	}
 
 	figure {
 		.header_bg {
@@ -38,6 +41,7 @@ header {
 			bottom: 0;
 			margin: auto;
 			width: 100%;
+			max-width: 1080px;
 		}
 	}
 
