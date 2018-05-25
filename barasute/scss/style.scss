@@ -22,16 +22,22 @@ a {
 }
 img  { width: 100%;}
 
-body[data-page-num="1951722"] .page__main {
-	max-width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0;
+
+
+// header
+header {
+	.header_logo {
+		padding: 2% 0;
+		text-align: center;
+	}
+	.wrap_header {
+		background: #eeedff;
+		.base {
+			max-width: 1080px;
+			margin: 0 auto;
+		}
+	}
 }
-
-
-
-
 
 
 
@@ -59,9 +65,9 @@ body[data-page-num="1951722"] div[data-reactid="58"] h2 {
 	margin: 10px 0 0 !important;
 }
 
-.page__main {
 
-}
+
+
 
 @media screen and (max-width: 768px) {
 }
