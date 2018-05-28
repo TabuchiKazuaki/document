@@ -628,8 +628,13 @@ body[data-page-num="1951722"] {
 			background: #f4f3ff;
 		}
 		.block__outer {
-			width: 45%;
 			float: left;
+			width: 45%;
+			margin: 0 0 0 3%;
+			&:nth-of-type(1) {
+				margin: 0;
+			}
+
 
 		}
 		.img__item--center {
