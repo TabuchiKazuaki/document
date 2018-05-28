@@ -29,16 +29,18 @@ header {
 	position: relative;
 	background: #efeeff;
 	.figure_img {
-		top: 50%;
-		left: 50%;
-		img {
-		}
+		background-image:url(https://goo.gl/xB68Wx),
+			url(https://goo.gl/K3iZsb);
+		background-repeat:no-repeat,
+							no-repeat;
+		background-position:center top,
+						center top;
+		background-size: cover, cover;
+		max-width: 1920px;
+		margin: 0 auto;
 	}
 
 	.header_wrap {
-		background: url(https://goo.gl/K3iZsb) center top no-repeat;
-		max-width: 1080px;
-		background-size: cover;
 		max-height: 547px;
 	}
 	.header_inner {
@@ -46,30 +48,13 @@ header {
 		margin: 0 auto;
 	}
 
-	figure {
-
-		.header_bg {
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			margin: auto;
-			width: 100%;
-			max-width: 1080px;
-		}
-	}
-
-	.wrap_header {
-
-	}
 
 	.header_logo {
 		max-width: 1080px;
 		margin: 0 auto;
 	}
 	.wrap_header {
-		background: #eeedff;
+		height: 500px;
 		padding: 92px 0 0;
 		.base {
 			max-width: 1080px;
@@ -99,6 +84,15 @@ body[data-page-num="1951722"] div[data-reactid="50"] h2 {
 
 body[data-page-num="1951722"] div[data-reactid="58"] h2 {
 	margin: 10px 0 0 !important;
+}
+@media only screen and (min-width: 801px){
+	.grid>[class*=col]>* {
+		margin-top: 0;
+	}
+}
+body[data-page-num="1951722"] div[data-reactid="27"] {
+	max-width: 1080px;
+	margin: 0 auto;
 }
 
 
