@@ -485,10 +485,10 @@ body[data-page-num="1951722"] div[data-reactid="58"] h2 {
 	margin: 10px 0 0 !important;
 }
 @media only screen and (min-width: 801px){
-	.grid>[class*=col]>* {
-		margin-top: 0;
+	body[data-page-num="1951722"] .grid>[class*=col]>* {
+		margin-top: 0 !important;
 	}
-	.grid {
+	body[data-page-num="1951722"] .grid {
 		padding: 0 !important;
 	}
 }
