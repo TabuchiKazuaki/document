@@ -621,15 +621,24 @@ body[data-page-num="1951722"] {
 	body[data-page-num="1951722"] div[data-reactid="53"] {
 
 	}
-	body[data-page-num="1951722"] .grid .col1-3 {
+	body[data-page-num="1951722"] .grid .col1-3--gtr-l {
 		overflow: hidden;
 		width: 100%;
 		&:nth-of-type(odd) {
 			background: #f4f3ff;
 		}
+		&:nth-of-type(1) {
+			width: 35%;
+		}&:nth-of-type(2) {
+			width: 65%;
+		}
 		.block__outer {
 			float: left;
-			width: 45%;
+			&:nth-of-type(1) {
+				width: 35%;
+			}&:nth-of-type(2) {
+				width: 65%;
+			}
 		}
 		.img__item--center {
 		}
