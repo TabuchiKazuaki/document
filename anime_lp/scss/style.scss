@@ -223,58 +223,56 @@ img  { width: 100%;}
 	}
 }
 
+.badge {
+	background: #ec2840;
+	width: 27%;
+	padding: 1.2% 0;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 20px;
+	color: #fff;
+}
+.badge_web_se {
+	width: 39%;
+	padding: 2% 0 2.5%;
+	letter-spacing: 1.3px;
+}
+.badge_abema {
+	width: 58%;
+	padding: 2% 0;
+	letter-spacing: 1.2px;
+}
 
-.badge_before , .badge_web {
-	position: relative;
-	&:before {
-		content: '地上波先行';
-		position: absolute;
-		bottom: 12px;
-		left: 12px;
-		background: #ec2840;
-		z-index: 1;
-		width: 125px;
-		height: 34px;
-		text-align: center;
-		border-radius: 5px;
-		line-height: 34px;
-		font-size: 20px;
-		color: #fff;
-	}
-}
-.badge_web {
-	&:before {
-		content: 'WEB最速';
-		width: 115px;
-	}
-}
+
 @media screen and (max-width: 1100px) {
-	.badge_before {
-		&:before {
-			bottom: 9px;
-			left: 9px;
-			width: 100px;
-			height: 28px;
-			text-align: center;
-			line-height: 28px;
-			font-size: 15px;
-			color: #fff;
-		}
+	.badge {
+		font-size: calc(27vw/15);
 	}
 }
 @media screen and (max-width: 768px) {
-	.badge_before {
-		&:before {
-			bottom: 9px;
-			left: 9px;
-			width: 34%;
-			height: 32px;
-			border-radius: 4px;
-			line-height: 32px;
-			font-size: 20px;
-			font-size: calc(31vw/12);
-		}
+	.badge {
+		width: 20%;
+		font-size: calc(35vw/14);
+		border-radius: 4px;
+		padding: 1.3% 0 1.2%;
+		margin: 0 0 2%;
 	}
+	.badge_2col {
+		width: 45%;
+		margin: 0 0 3%;
+		padding: 2% 0 2.2%;
+	}
+	.badge_web_se {
+		width: 39%;
+		padding: 2% 0 2.5%;
+		letter-spacing: 1.3px;
+	}
+	.badge_abema {
+		width: 58%;
+		padding: 2% 0;
+		letter-spacing: 1.2px;
+	}
+
 }
 @media screen and (max-width: 580px) {
 	.badge_before {
@@ -326,7 +324,7 @@ img  { width: 100%;}
 		justify-content: flex-end;
 		background: #fff;
 		width: 48.5%;
-		margin: 0 0 0 3%;
+		margin: 0 0 0 2.5%;
 		box-sizing: border-box;
 		border-radius: 5px;
 		&:first-child {
@@ -337,7 +335,7 @@ img  { width: 100%;}
 
 		border-radius: 5px;
 		.item_text {
-			padding: 4% 6% 29%;
+			padding: 6% 6% 23%;
 		}
 
 		img {
@@ -348,6 +346,7 @@ img  { width: 100%;}
 }
 
 .line_t {
+	margin: 2% 0 0;
 	font-size: 24px;
 	line-height: 1.5;
 	letter-spacing: 1.5px;
@@ -385,7 +384,7 @@ img  { width: 100%;}
 	li {
 		position: relative;
 		width: 31.5%;
-		padding: 0 0 11%;
+		padding: 0 0 7%;
 		margin: 0 0 0 2.5%;
 		border-radius: 6px;
 		figure {
@@ -399,6 +398,7 @@ img  { width: 100%;}
 	}
 
 .line_3t {
+	margin: 2% 0 0;
 	font-size: 24px;
 	line-height: 1.5;
 	letter-spacing: 1.2px;
@@ -475,7 +475,7 @@ footer {
 		padding: 6% 0 4%;
 	}
 	.lineup_item .item_wrap .item_text {
-		padding: 4% 6% 30%;
+		padding: 7% 6% 30%;
 	}
 	.lineup_item li {
 	}
