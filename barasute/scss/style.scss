@@ -629,13 +629,13 @@ body[data-page-num="1951722"] {
 		}
 		.block__outer {
 			float: left;
-			width: 48.5%;
 			margin: 0 0 0 3%;
+
 			&:nth-of-type(1) {
+				width: 38.5%;
 				margin: 0;
-			}
-			&:nth-of-type(2n+1) {
-				margin: 0;
+			}&:nth-of-type(2) {
+				width: 60.5%;
 			}
 		}
 	}
