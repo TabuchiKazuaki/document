@@ -499,47 +499,6 @@ body[data-page-num="1951722"] div[data-reactid="169"] h2 {
 		font-size: calc(42vw/13);
 	}
 }
-@media screen and (max-width: 768px) {
-	body[data-page-num="1951722"] div[data-reactid="42"]  {
-		margin: -5% 5% 0;
-		h2 {
-			line-height: 1;
-			b {
-				font-size: calc(51vw/13);
-			}
-		}
-	}
-	body[data-page-num="1951722"] div[data-reactid="45"]  {
-		margin: 0% 5% 0;
-	}
-	body[data-page-num="1951722"] div[data-reactid="50"] h2 {
-		width: 30%;
-	}
-	body[data-page-num="1951722"] div[data-reactid="53"] {
-
-	}
-	body[data-page-num="1951722"] .grid .col1-3 {
-		overflow: hidden;
-		width: 100%;
-		&:nth-of-type(odd) {
-			background: #f4f3ff;
-		}
-		.block__outer {
-			float: left;
-			width: 48.5%;
-			margin: 0 0 0 3%;
-			&:nth-of-type(1) {
-				margin: 0;
-			}
-			&:nth-of-type(2n+1) {
-				margin: 0;
-			}
-		}
-	}
-	body[data-page-num="1951722"] .col1-3--gtr-l .block__inner{
-		border-bottom: none;
-	}
-}
 
 body[data-page-num="1951722"] div[data-reactid="58"] h2 {
 	margin: 10px 0 0 !important;
@@ -616,9 +575,11 @@ body[data-page-num="1951722"] .grid .col1-2 {
 
 body[data-page-num="1951722"] {
 	.u-lnk-clr:hover, .u-clr-area a:hover {
+		text-decoration:none;
 		color: #000 !important;
 	}
 	.u-lnk-clr:visited, .u-clr-area a:visited {
+		text-decoration:none;
 		color: #000 !important;
 	}
 }
@@ -634,12 +595,51 @@ body[data-page-num="1951722"] {
 body[data-page-num="1951722"] {
 
 }
-
 
 
 
 
 @media screen and (max-width: 768px) {
+	body[data-page-num="1951722"] .col1-3--gtr-l .block__inner{
+		border-bottom: none;
+	}
+	body[data-page-num="1951722"] div[data-reactid="42"]  {
+		margin: -5% 5% 0;
+		h2 {
+			line-height: 1;
+			b {
+				font-size: calc(51vw/13);
+			}
+		}
+	}
+	body[data-page-num="1951722"] div[data-reactid="45"]  {
+		margin: 0% 5% 0;
+	}
+	body[data-page-num="1951722"] div[data-reactid="50"] h2 {
+		width: 30%;
+	}
+	body[data-page-num="1951722"] div[data-reactid="53"] {
+
+	}
+	body[data-page-num="1951722"] .grid .col1-3 {
+		overflow: hidden;
+		width: 100%;
+		&:nth-of-type(odd) {
+			background: #f4f3ff;
+		}
+		.block__outer {
+			float: left;
+			width: 48.5%;
+			margin: 0 0 0 3%;
+			&:nth-of-type(1) {
+				margin: 0;
+			}
+			&:nth-of-type(2n+1) {
+				margin: 0;
+			}
+		}
+	}
+	body[data-page-num="1951722"] .col1-3--gtr-l .block__inner{
+		border-bottom: none;
+	}
 }
-
-
