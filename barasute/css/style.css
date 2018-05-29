@@ -1,191 +1,43 @@
-@charset "UTF-8";
-* { padding: 0; margin: 0; line-height: 1; color: #3a352a; }
+/*
+Error: Invalid CSS after "}": expected selector or at-rule, was "}"
+        on line 526 of C:/Users/S01292/Desktop/document/barasute/scss/style.scss
 
-body { font-family: "Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Meiryo,メイリオ,sans-serif"; }
-body li { list-style: none; }
+521: 
+522: 
+523: 
+524: 
+525: 
+526: }
+527: 
+528: body[data-page-num="1951722"] .col1-3--gtr-m .block__outer--base{
+529: 	border-bottom: 5px solid #ff3287;
+530: 	padding: 0 0 3%;
+531: }
 
-a { -webkit-transition: .3s; transition: .3s; text-decoration: none; }
-a:hover { text-decoration: none; opacity: .8; }
-
-img { width: 100%; }
-
-header { position: relative; background: #efeeff; }
-header .figure_img { background-image: url(https://goo.gl/trNdXR), url(https://goo.gl/K3iZsb); background-repeat: no-repeat, no-repeat; background-position: center top, center top; background-size: 100%, cover; max-width: 1920px; margin: 0 auto; }
-header .header_wrap h1 { max-width: 225px; padding: 8px 0 0; }
-header .header_wrap h1 img { width: 100%; }
-header .header_inner { max-width: 1080px; margin: 0 auto; text-align: center; }
-header .header_inner .base { margin: 2.5% 0 0 0; }
-header .header_inner .base_chara { max-width: 497px; margin: 0 0 -5% 23%; }
-header .header_inner .base_logo { max-width: 862px; margin: 3.8% 0 0 9%; }
-header .header_inner .base_obi { max-width: 245px; margin: -1% 0 0 35%; padding: 0 0 4%; }
-
-@media screen and (max-width: 1500px) { header .header_wrap h1 { padding: 8px 0 0; }
-  header .header_wrap h1 img { width: 80%; }
-  header .header_inner { margin: 0 auto; }
-  header .header_inner .base { margin: 0.5% 0 0 -5%; }
-  header .header_inner .base_chara { margin: 0 auto -5%; }
-  header .header_inner .base_chara img { width: 80%; }
-  header .header_inner .base_logo { margin: 4.05% 0 0 13%; }
-  header .header_inner .base_logo img { width: 80%; }
-  header .header_inner .base_obi { margin: -1% auto 0; padding: 0 0 4%; }
-  header .header_inner .base_obi img { width: 70%; } }
-@media screen and (max-width: 1280px) { header .header_wrap h1 { padding: 8px 0 0; }
-  header .header_wrap h1 img { width: 60%; }
-  header .header_inner { margin: 0 auto; }
-  header .header_inner .base { margin: 0 0 0 -5%; }
-  header .header_inner .base_chara { margin: 0 auto -5%; }
-  header .header_inner .base_chara img { width: 70%; }
-  header .header_inner .base_logo { margin: 4.1% 0 0 13%; }
-  header .header_inner .base_logo img { width: 70%; }
-  header .header_inner .base_obi { margin: -1% auto 0; padding: 0 0 3%; }
-  header .header_inner .base_obi img { width: 70%; } }
-@media screen and (max-width: 1080px) { header .header_wrap h1 { padding: 8px 0 0 10px; text-align: left; }
-  header .header_wrap h1 img { width: 60%; }
-  header .header_inner { margin: 0 auto; }
-  header .header_inner .base { margin: 0% 0 0 -5%; }
-  header .header_inner .base_chara { margin: 0 auto -5%; }
-  header .header_inner .base_chara img { width: 56%; }
-  header .header_inner .base_logo { margin: 4.1% 0 0 11%; }
-  header .header_inner .base_logo img { width: 52%; }
-  header .header_inner .base_obi { margin: -0.5% auto 0; padding: 0 0 2%; }
-  header .header_inner .base_obi img { width: 60%; } }
-@media screen and (max-width: 860px) { header .header_wrap h1 { padding: 8px 0 0 10px; text-align: left; }
-  header .header_wrap h1 img { width: 60%; }
-  header .header_inner { margin: 0 auto; }
-  header .header_inner .base { margin: -1% 0 0 -5%; }
-  header .header_inner .base_chara { margin: 0 auto -5%; }
-  header .header_inner .base_chara img { width: 50%; }
-  header .header_inner .base_logo { margin: 4.1% 0 0 5%; }
-  header .header_inner .base_logo img { width: 47%; }
-  header .header_inner .base_obi { margin: -0.5% auto 0; padding: 0 0 2%; }
-  header .header_inner .base_obi img { width: 50%; } }
-@media screen and (max-width: 768px) { header .figure_img { background-image: url(https://goo.gl/9PxnJz), url(https://goo.gl/vHSLfK); }
-  header .header_wrap h1 { padding: 3% 0 0 3%; text-align: left; }
-  header .header_wrap h1 img { width: 65%; }
-  header .header_inner { margin: 0 auto; }
-  header .header_inner .base { width: 100%; margin: 1% 0 0 0; }
-  header .header_inner .base_chara { margin: 0 0 -5% 12%; }
-  header .header_inner .base_chara img { width: 75%; }
-  header .header_inner .base_logo { margin: 3.8% 0 0 0; }
-  header .header_inner .base_logo img { width: 84%; }
-  header .header_inner .base_obi { margin: -1.5% 0 0 30%; padding: 0 0 2%; }
-  header .header_inner .base_obi img { width: 65%; } }
-@media screen and (max-width: 640px) { header .figure_img { background-image: url(https://goo.gl/9PxnJz), url(https://goo.gl/vHSLfK); }
-  header .header_wrap h1 { padding: 3% 0 0 3%; }
-  header .header_wrap h1 img { width: 65%; }
-  header .header_inner { margin: 0 auto; }
-  header .header_inner .base { width: 100%; margin: 1% 0 0 0; }
-  header .header_inner .base_chara { margin: 0 0 -5% 6%; }
-  header .header_inner .base_chara img { width: 65%; }
-  header .header_inner .base_logo { margin: 3.8% 0 0 0; }
-  header .header_inner .base_logo img { width: 83%; }
-  header .header_inner .base_obi { margin: -1.5% 0 0 27%; padding: 0 0 2%; }
-  header .header_inner .base_obi img { width: 55%; } }
-@media screen and (max-width: 480px) { header .header_wrap h1 { line-height: 0; padding: 2% 0 0 2%; }
-  header .header_wrap h1 img { width: 50%; }
-  header .header_inner { margin: 0 auto; }
-  header .header_inner .base { width: 100%; margin: 2% 0 0 0; }
-  header .header_inner .base_chara { margin: 0 0 -5% -6%; }
-  header .header_inner .base_chara img { width: 45%; }
-  header .header_inner .base_logo { margin: 3.5% 0 0 0; }
-  header .header_inner .base_logo img { width: 83%; }
-  header .header_inner .base_obi { margin: -1.5% 0 0 20%; padding: 0 0 2%; }
-  header .header_inner .base_obi img { width: 50%; } }
-@media screen and (max-width: 414px) { header .header_wrap h1 { padding: 1% 0 0 1%; }
-  header .header_wrap h1 img { width: 40%; }
-  header .header_inner { margin: 0 auto; }
-  header .header_inner .base { width: 100%; margin: 5% 0 0 0; }
-  header .header_inner .base_chara { margin: -3% 0 -5% -11%; }
-  header .header_inner .base_chara img { width: 46%; }
-  header .header_inner .base_logo { margin: 3.5% 0 0 0; }
-  header .header_inner .base_logo img { width: 83%; }
-  header .header_inner .base_obi { margin: -1.5% 0 0 16%; padding: 0 0 2%; }
-  header .header_inner .base_obi img { width: 45%; } }
-@media screen and (max-width: 375px) { header .header_wrap h1 { padding: 1% 0 0 1%; }
-  header .header_wrap h1 img { width: 40%; }
-  header .header_inner { margin: 0 auto; }
-  header .header_inner .base { width: 100%; margin: 5% 0 0 0; }
-  header .header_inner .base_chara { margin: -3% 0 -5% -11%; }
-  header .header_inner .base_chara img { width: 46%; }
-  header .header_inner .base_logo { margin: 3.5% 0 0 0; }
-  header .header_inner .base_logo img { width: 83%; }
-  header .header_inner .base_obi { margin: -1.5% 0 0 11%; padding: 0 0 2%; }
-  header .header_inner .base_obi img { width: 45%; } }
-.app-banner { display: none; }
-
-body[data-page-num="1951722"] div[data-reactid="42"] h2 { line-height: 1.3; }
-body[data-page-num="1951722"] div[data-reactid="42"] h2 b { font-size: 30px; color: #ff3287; }
-
-body[data-page-num="1951722"] div[data-reactid="169"] h2 { line-height: 1.3; }
-body[data-page-num="1951722"] div[data-reactid="169"] h2 b { font-size: 30px; color: #ff3287; }
-
-body[data-page-num="1951722"] div[data-reactid="50"] h2 { background: #ff3287; display: inline-block; padding: 10px 20px; border-radius: 35px; font-weight: bold; text-align: center; color: #fff; }
-
-body[data-page-num="1951722"] div[data-reactid="169"] h2 { display: inline-block; background: #ff3287; padding: 10px 20px; border-radius: 32px; font-weight: bold; text-align: center; font-size: 32px; color: #fff; }
-
-@media screen and (max-width: 1100px) { body[data-page-num="1951722"] div[data-reactid="42"] h2 { line-height: 1.1; }
-  body[data-page-num="1951722"] div[data-reactid="42"] h2 b { font-size: calc(35vw/13); }
-  body[data-page-num="1951722"] div[data-reactid="169"] h2 { padding: 1% 20px; font-size: calc(42vw/13); }
-  body[data-page-num="1951722"] div[data-reactid="50"] h2 { padding: 1% 20px; font-size: calc(42vw/13); } }
-body[data-page-num="1951722"] div[data-reactid="58"] h2 { margin: 10px 0 0 !important; }
-
-@media only screen and (min-width: 801px) { body[data-page-num="1951722"] .page-container-inner { max-width: 100%; }
-  body[data-page-num="1951722"] .page-container__main { max-width: 100%; } }
-body[data-page-num="1951722"] .col1-3--gtr-m .block__outer--base { border-bottom: 5px solid #ff3287; padding: 0 0 3%; }
-
-body[data-page-num="1951722"] .grid--col3 { max-width: 1080px; margin: 4% auto 0; }
-
-body[data-page-num="1951722"] .page-container { padding: 0; }
-
-body[data-page-num="1951722"] div[data-reactid="41"] { max-width: 1080px; margin: 3% auto 0%; }
-
-body[data-page-num="1951722"] div[data-reactid="49"] { max-width: 1080px; margin: 3% auto 0%; }
-
-body[data-page-num="1951722"] div[data-reactid="135"] { max-width: 1080px; margin: 0 auto; }
-
-body[data-page-num="1951722"] div[data-reactid="149"] { max-width: 1080px; margin: 0 auto; }
-
-body[data-page-num="1951722"] div[data-reactid="154"] { max-width: 1080px; margin: 0 auto; }
-
-body[data-page-num="1951722"] div[data-reactid="164"] { max-width: 1080px; margin: 4% auto 0; }
-
-body[data-page-num="1951722"] div[data-reactid="168"] { max-width: 1080px; margin: 4% auto 0; }
-
-body[data-page-num="1951722"] .blog-list--list .blog-item__text { margin: 1% 0 0; }
-body[data-page-num="1951722"] .blog-list--list .blog-item__text .u-txt-clr { line-height: 1.4; }
-
-body[data-page-num="1951722"] .grid-mode--summary { max-width: 1080px; margin: 2% auto 0; }
-
-body[data-page-num="1951722"] .page__main { max-width: 100%; margin-left: auto; margin-right: auto; padding: 0; }
-
-body[data-page-num="1951722"] .grid .col1-2 { width: 18%; }
-body[data-page-num="1951722"] .grid .col1-2 .img__item--m { width: 100%; }
-
-body[data-page-num="1951722"] .u-lnk-clr:hover, body[data-page-num="1951722"] .u-clr-area a:hover { text-decoration: none !important; color: #000 !important; }
-body[data-page-num="1951722"] .u-lnk-clr:visited, body[data-page-num="1951722"] .u-clr-area a:visited { text-decoration: none !important; color: #000 !important; }
-body[data-page-num="1951722"] .u-lnk-clr:visited, body[data-page-num="1951722"] .u-clr-area a { text-decoration: none !important; }
-
-@media screen and (max-width: 768px) { body[data-page-num="1951722"] .col1-3--gtr-l .block__inner { border-bottom: none; }
-  body[data-page-num="1951722"] div[data-reactid="42"] { margin: -5% 5% 0; }
-  body[data-page-num="1951722"] div[data-reactid="42"] h2 { line-height: 1; }
-  body[data-page-num="1951722"] div[data-reactid="42"] h2 b { font-size: calc(51vw/13); }
-  body[data-page-num="1951722"] .grid--col3:nth-of-type(2) { margin: 0 0 0; }
-  body[data-page-num="1951722"] .grid--col3:nth-of-type(3) { margin: 0 0 0; }
-  body[data-page-num="1951722"] .grid--col3:nth-of-type(4) { margin: 0 0 0; }
-  body[data-page-num="1951722"] div[data-reactid="45"] { margin: 0% 5% 0; }
-  body[data-page-num="1951722"] div[data-reactid="50"] h2 { width: 30%; }
-  body[data-page-num="1951722"] div[data-reactid="53"] { padding: 0 5%; }
-  body[data-page-num="1951722"] div[data-reactid="90"] { padding: 0 5%; }
-  body[data-page-num="1951722"] div[data-reactid="127"] { padding: 0 5%; }
-  body[data-page-num="1951722"] div[data-reactid="164"] { padding: 0 5%; }
-  body[data-page-num="1951722"] div[data-reactid="172"] { padding: 0 5%; }
-  body[data-page-num="1951722"] .grid--col2 { overflow: hidden; }
-  body[data-page-num="1951722"] .grid--col2 .col1-2--gtr-l { float: left; width: 45%; }
-  body[data-page-num="1951722"] .grid .col1-3--gtr-l { overflow: hidden; width: 100%; }
-  body[data-page-num="1951722"] .grid .col1-3--gtr-l:nth-of-type(odd) { background: #f4f3ff; }
-  body[data-page-num="1951722"] .grid .col1-3--gtr-l .block__outer { float: left; width: 45%; margin: 0 0 0 3%; }
-  body[data-page-num="1951722"] .grid .col1-3--gtr-l .block__outer:nth-of-type(1) { margin: 0; }
-  body[data-page-num="1951722"] .grid .col1-3--gtr-l .img__item--center { padding: 6%; }
-  body[data-page-num="1951722"] .grid .col1-3--gtr-l .block__outer--base { float: left; width: 100%; }
-  body[data-page-num="1951722"] .col1-3--gtr-l .block__inner { border-bottom: none; }
-  body[data-page-num="1951722"] .block-txt:last-child { margin: 8% 0 0; } }
+Backtrace:
+C:/Users/S01292/Desktop/document/barasute/scss/style.scss:526
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Program Files (x86)/Koala/rubygems/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
+C:/Program Files (x86)/Koala/rubygems/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
+C:/Program Files (x86)/Koala/rubygems/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+C:/Program Files (x86)/Koala/rubygems/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+C:/Program Files (x86)/Koala/rubygems/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/Program Files (x86)/Koala/rubygems/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/Program Files (x86)/Koala/rubygems/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+C:/Program Files (x86)/Koala/rubygems/gems/compass-1.0.3/bin/compass:44:in `call'
+C:/Program Files (x86)/Koala/rubygems/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/compass:22:in `load'
+C:/Program Files (x86)/Koala/bin/compass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"}\": expected selector or at-rule, was \"}\"\A         on line 526 of C:/Users/S01292/Desktop/document/barasute/scss/style.scss\A \A 521: \A 522: \A 523: \A 524: \A 525: \A 526: }\A 527: \A 528: body[data-page-num=\"1951722\"] .col1-3--gtr-m .block__outer--base{\A 529: 	border-bottom: 5px solid #ff3287;\A 530: 	padding: 0 0 3%;\A 531: }"; }
