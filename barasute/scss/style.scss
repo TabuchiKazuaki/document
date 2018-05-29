@@ -816,22 +816,27 @@ body[data-page-num="1951722"] {
 			background: #ff3287;
 			display: inline-block;
 			padding: 10px 20px;
+			margin: 2% 0 1% 4%;
+			border-radius: 30px;
+			font-size: calc(38vw/13);
+			font-weight: bold;
+			text-align: center;
+			color: #fff;
+		}
+	}
+	body[data-page-num="1951722"] div[data-reactid="186"] {
+		margin: 0 0 0 4%;
+		h2 {
+			background: #ff3287;
+			display: inline-block;
+			padding: 10px 20px;
+			margin: 2% 0 1% 4%;
 			font-size: calc(38vw/13);
 			border-radius: 30px;
 			font-weight: bold;
 			text-align: center;
 			color: #fff;
 		}
-	}
-	body[data-page-num="1951722"] div[data-reactid="186"] h2 {
-		background: #ff3287;
-		display: inline-block;
-		padding: 10px 20px;
-		border-radius: 30px;
-		font-size: calc(38vw/13);
-		font-weight: bold;
-		text-align: center;
-		color: #fff;
 	}
 	body[data-page-num="1951722"] .page__main>.grid:first-child {
 		padding: 0;
@@ -848,7 +853,7 @@ body[data-page-num="1951722"] {
 		}
 		.block-txt:last-child {
 			padding: 0;
-			margin: 0 0 0 4%;
+			margin: 0;
 		}
 	}
 }
