@@ -612,13 +612,35 @@ body[data-page-num="1951722"] {
 		line-height: 1.5;
 	}
 	.btn--summary a {
+		position: relative;
+		display: block;
 		background: none;
+		padding: 3px;
 		font-size: 25px;
 		font-weight: bold;
+		text-decoration: none;
 		color: #ff3287;
-		&:hover {
-			background: none;
+		&::before,
+		&::after {
+			border-bottom: solid 2px #f00;
+			bottom: 0;
+			content: "";
+			display: block;
+			position: absolute;
+			transition: all .3s ease;
+			-webkit-transition: all .3s ease;
+			width: 0;
+		}
 
+		&:before {
+			left: 50%;
+		}
+		&:after {
+			right: 50%;
+		}
+		&:hover::before,
+		&:hover::after {
+			width: 50%;
 		}
 	}
 }
