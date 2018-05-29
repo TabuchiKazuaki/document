@@ -506,23 +506,18 @@ body[data-page-num="1951722"] div[data-reactid="58"] h2 {
 	margin: 10px 0 0 !important;
 }
 @media only screen and (min-width: 801px){
-	body[data-page-num="1951722"] .grid>[class*=col]>* {
+	html body[data-page-num="1951722"] .blog-category>a, .blog-category>span {
+		color: none!important;
 	}
 	body[data-page-num="1951722"] .page-container-inner {
 		max-width: 100%;
 	}
-	body[data-page-num="1951722"] .page-container__main {
-		max-width: 100%;
+	body[data-page-num="1951722"] .blog-category>a, .blog-category>span {
+		color: none!important;
+		.page-container__main {
+			max-width: 100%;
+		}
 	}
-	body[data-page-num="1951722"] html .blog-category>a, .blog-category>span {
-		color: none;
-	}
-}
-
-
-
-
-
 }
 
 body[data-page-num="1951722"] .col1-3--gtr-m .block__outer--base{
