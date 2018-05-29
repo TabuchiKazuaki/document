@@ -671,7 +671,9 @@ body[data-page-num="1951722"] {
 .global-nav__item>a {
 	display: none;
 }
-
+.page-container .page-container__main {
+	max-width: 100%;
+}
 @media screen and (max-width: 801px) {
 	.home .block-type--html {
 	margin-top: 0!important;
