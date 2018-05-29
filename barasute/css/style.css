@@ -11,7 +11,7 @@ img { width: 100%; }
 .footer__inner { background: #f4f3ff !important; }
 
 header { position: relative; background: #efeeff; }
-header .figure_img { background-image: url(https://goo.gl/trNdXR), url(https://goo.gl/K3iZsb); background-repeat: no-repeat, no-repeat; background-position: center top, center top; background-size: 100%, cover; max-width: 1920px; margin: 0 auto; }
+header .figure_img { background-image: url(https://goo.gl/trNdXR), url(https://goo.gl/K3iZsb); background-repeat: no-repeat, no-repeat; background-position: center top, center top; background-size: 100%, cover; max-width: 1920px; margin: 60px auto 0; }
 header .header_wrap h1 { max-width: 225px; padding: 8px 0 0; }
 header .header_wrap h1 img { width: 100%; }
 header .header_inner { max-width: 1080px; margin: 0 auto; text-align: center; }
@@ -178,7 +178,8 @@ body[data-page-num="1951722"] .btn--summary a:hover::before, body[data-page-num=
 body[data-page-num="1951722"] .blog-body__text p { line-height: 1.4; }
 body[data-page-num="1951722"] .blog-title__text { color: #fff; }
 
-@media screen and (max-width: 801px) { body[data-page-num="1951722"] div[data-reactid="49"] { margin: 0% auto 0%; }
+@media screen and (max-width: 801px) { body[data-page-num="1951722"] .header { position: absolute; top: 0; }
+  body[data-page-num="1951722"] div[data-reactid="49"] { margin: 0% auto 0%; }
   body[data-page-num="1951722"] .page-container-inner { max-width: 100%; }
   body[data-page-num="1951722"] .page-container__main { max-width: 100%; }
   body[data-page-num="1951722"] div[data-reactid="42"] h2 { line-height: 0.5; }
