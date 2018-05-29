@@ -511,18 +511,18 @@ body[data-page-num="1951722"] div[data-reactid="176"] {
 	body[data-page-num="1951722"] div[data-reactid="42"] {
 		margin: 0% auto 0%;
 	}
-	body[data-page-num="1951722"] div[data-reactid="48"] h2 {
+	.block__inner h2 {
 		line-height: 0.7;
 		b {
 			font-size: calc(35vw/13);
 		}
 	}
-	body[data-page-num="1951722"] div[data-reactid="176"] h3 {
+	.block__inner h3 {
 		padding: 1% 20px;
 		font-size: calc(42vw/13);
 	}
 	// ラインナップ
-	body[data-page-num="1951722"] div[data-reactid="57"] h3 {
+	.block__inner h3 {
 		padding: 1% 20px;
 		font-size: calc(42vw/13);
 	}
@@ -715,7 +715,7 @@ body[data-page-num="1951722"] {
 			max-width: 100% !important;
 		}
 	}
-	body[data-page-num="1951722"] div[data-reactid="48"] h2 {
+	.block__inner h2 {
 		line-height: 0.5;
 	}
 	body[data-page-num="1951722"] div[data-reactid="41"] {
@@ -765,7 +765,7 @@ body[data-page-num="1951722"] {
 	body[data-page-num="1951722"] div[data-reactid="45"]  {
 		margin: 0;
 	}
-	body[data-page-num="1951722"] div[data-reactid="50"] h2 {
+	.block__inner h2 {
 		font-size: calc(55vw/13);
 	}
 	body[data-page-num="1951722"] div[data-reactid="53"] {
@@ -860,33 +860,16 @@ body[data-page-num="1951722"] {
 			}
 		}
 	}
-	body[data-page-num="1951722"] div[data-reactid="67"]{
-		margin: 0 0 0 4%;
-		h2 {
-			background: #ff3287;
-			display: inline-block;
-			padding: 10px 20px;
-			margin: 2% 0 1% 4%;
-			border-radius: 30px;
-			font-size: calc(38vw/13);
-			font-weight: bold;
-			text-align: center;
-			color: #fff;
-		}
-	}
-	body[data-page-num="1951722"] div[data-reactid="186"] {
-		margin: 0 0 0 4%;
-		h2 {
-			background: #ff3287;
-			display: inline-block;
-			padding: 10px 20px;
-			margin: 4% 0 1% 4%;
-			font-size: calc(38vw/13);
-			border-radius: 30px;
-			font-weight: bold;
-			text-align: center;
-			color: #fff;
-		}
+	.block__inner h3 {
+		background: #ff3287;
+		display: inline-block;
+		padding: 10px 20px;
+		margin: 4% 0 1% 4%;
+		font-size: calc(38vw/13);
+		border-radius: 30px;
+		font-weight: bold;
+		text-align: center;
+		color: #fff;
 	}
 }
 
