@@ -791,5 +791,15 @@ body[data-page-num="1951722"] {
 				border-top: none;
 			}
 		}
+		.btn--summary a {
+			font-size: calc(38vw/13);
+			width: 30%;
+			text-decoration: 2px solid #ff3287;
+			color: #ff3287;
+			&::before,
+			&::after {
+				border-bottom: none;
+			}
+		}
 	}
 }
