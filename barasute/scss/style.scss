@@ -607,7 +607,20 @@ body[data-page-num="1951722"] {
 			border-top: none;
 		}
 	}
+	.pager__item--bg .pager__date, .pager__item--bg .pager__description {
+		color: #fff;
+		line-height: 1.5;
+	}
+	.btn--summary a {
+		background: none;
+		font-size: 25px;
+		font-weight: bold;
+		color: #ff3287;
+		&:hover {
+			background: none;
 
+		}
+	}
 }
 
 
