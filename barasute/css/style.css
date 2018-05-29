@@ -191,7 +191,8 @@ body[data-page-num="1951722"] .blog-title__text { color: #fff; }
 
 .page-container .page-container__main { max-width: 100%; }
 
-@media screen and (min-width: 800px) { .home .block-type--html { margin-top: 0 !important; } }
+@media screen and (min-width: 800px) { .home .block-type--html { margin-top: 0 !important; }
+  .header__icon { display: none; } }
 @media screen and (max-width: 801px) { .home .page__main > .grid:first-child { margin-bottom: 0; }
   .home .block-type--html { margin-top: 0 !important; }
   .page-container .page-container__main { max-width: 100%; }
