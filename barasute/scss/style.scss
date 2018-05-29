@@ -235,6 +235,9 @@ header {
 		.figure_img {
 			background-image:url(https://goo.gl/wtemEJ),
 				url(https://goo.gl/vHSLfK);
+			margin: 50px auto 0;
+			padding: 0 0 50px;
+
 		}
 
 		.header_wrap {
@@ -505,6 +508,9 @@ body[data-page-num="1951722"] div[data-reactid="176"] {
 	color: #fff;
 }
 @media screen and (max-width: 1100px) {
+	body[data-page-num="1951722"] div[data-reactid="42"] {
+		margin: 0% auto 0%;
+	}
 	body[data-page-num="1951722"] div[data-reactid="48"] h2 {
 		line-height: 0.7;
 		b {
@@ -687,6 +693,9 @@ body[data-page-num="1951722"] {
 }
 }
 @media screen and (max-width: 801px) {
+	.home .page__main > .grid:first-child {
+		margin-bottom: 0;
+	}
 	.home .block-type--html {
 		margin-top: 0!important;
 	}
