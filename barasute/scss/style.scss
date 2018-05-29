@@ -729,13 +729,16 @@ body[data-page-num="1951722"] {
 	body[data-page-num="1951722"] div[data-reactid="48"]  {
 		margin: 0 0 0;
 		width: 100%;
-		h2 {
-			line-height: 1;
-			b {
-				font-size: calc(51vw/13);
-			}
+
+	}
+	.block__inner h2 {
+		line-height: 1;
+		margin: 0 4%;
+		b {
+			font-size: calc(51vw/13);
 		}
 	}
+
 	body[data-page-num="1951722"] .grid--col3 {
 		margin: 0;
 		padding: 0;
@@ -826,7 +829,7 @@ body[data-page-num="1951722"] {
 		margin: 7% 0 0;
 	}
 	body[data-page-num="1951722"] .block-txt:last-child {
-		margin: 3% 0 0;
+		margin: 3% 0 2%;
 	}
 	body[data-page-num="1951722"] .grid-mode--summary {
 		padding: 0 5%;
@@ -864,7 +867,7 @@ body[data-page-num="1951722"] {
 		background: #ff3287;
 		display: inline-block;
 		padding: 10px 20px;
-		margin: 4% 0 1% 4%;
+		margin: 0 0 1% 4%;
 		font-size: calc(38vw/13);
 		border-radius: 30px;
 		font-weight: bold;
