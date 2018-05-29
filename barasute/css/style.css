@@ -8,7 +8,7 @@ a:hover { text-decoration: none; opacity: .8; }
 
 img { width: 100%; }
 
-.footer__inner { background: #f4f3ff !important; }
+.footer__inner { background: #f4f3ff !important; padding: 0 0 1%; }
 
 header { position: relative; background: #efeeff; }
 header .figure_img { background-image: url(https://goo.gl/trNdXR), url(https://goo.gl/K3iZsb); background-repeat: no-repeat, no-repeat; background-position: center top, center top; background-size: 100%, cover; max-width: 1920px; }
@@ -72,6 +72,8 @@ header .header_inner .base_obi { max-width: 245px; margin: -1% 0 0 35%; padding:
   header .header_inner .base_obi { margin: -1.5% 0 0 30%; padding: 0 0 2%; }
   header .header_inner .base_obi img { width: 65%; } }
 .owndbar__footer { margin: -500px; }
+
+.powered-by { display: none; }
 
 @media screen and (max-width: 640px) { header .header_wrap h1 { padding: 3% 0 0 3%; }
   header .header_wrap h1 img { width: 65%; }
@@ -233,7 +235,8 @@ body[data-page-num="1951722"] .page-container-inner { max-width: 100%; }
   body[data-page-num="1951722"] .btn--summary a { font-size: calc(38vw/13); width: 30%; -webkit-text-decoration: 2px solid #ff3287; text-decoration: 2px solid #ff3287; color: #ff3287; }
   body[data-page-num="1951722"] .btn--summary a::before, body[data-page-num="1951722"] .btn--summary a::after { border-bottom: none; }
   .block__inner h3 { background: #ff3287; display: inline-block; padding: 10px 20px; margin: 0 0 1% 0%; font-size: calc(38vw/13); border-radius: 30px; font-weight: bold; text-align: center; color: #fff; } }
-@media screen and (max-width: 480px) { div[data-reactid="82"], div[data-reactid="70"] { margin: 0 !important; }
+@media screen and (max-width: 480px) { .footer__copyright { padding-bottom: 17px; }
+  div[data-reactid="82"], div[data-reactid="70"] { margin: 0 !important; }
   body[data-page-num="1951722"] .col1-3--gtr-m .block__inner { margin: 7% 0 0 4%; }
   body[data-page-num="1951722"] .grid--col3 { margin: 0 4%; width: 92%; }
   body[data-page-num="1951722"] .grid--col3 h2 { background: #ff3287; display: inline-block; padding: 10px 20px; margin: 2% 0 1% 4%; border-radius: 30px; font-size: calc(38vw/13); font-weight: bold; text-align: center; color: #fff; }
