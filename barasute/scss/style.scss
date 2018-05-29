@@ -670,7 +670,10 @@ body[data-page-num="1951722"] {
 		width: 100%;
 		height: auto !important;
 		&:nth-of-type(odd) {
-			background: #f4f3ff;
+			// background: #f4f3ff;
+		}
+		.grid--col3 {
+			margin: 0 auto;
 		}
 		.block__outer {
 			float: left;
@@ -679,6 +682,9 @@ body[data-page-num="1951722"] {
 			&:nth-of-type(1) {
 				margin: 0;
 			}
+		}
+		.blog-body__text :last-child, .txt :last-child {
+			text-decoration: none;
 		}
 
 		.img__item--center {
