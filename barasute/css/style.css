@@ -178,8 +178,9 @@ body[data-page-num="1951722"] .btn--summary a:hover::before, body[data-page-num=
 body[data-page-num="1951722"] .blog-body__text p { line-height: 1.4; }
 body[data-page-num="1951722"] .blog-title__text { color: #fff; }
 
-@media screen and (max-width: 801px) { body[data-page-num="1951722"] .header { position: absolute; top: 0; }
-  body[data-page-num="1951722"] div[data-reactid="49"] { margin: 0% auto 0%; }
+.page__header { position: absolute; top: 0 !important; }
+
+@media screen and (max-width: 801px) { body[data-page-num="1951722"] div[data-reactid="49"] { margin: 0% auto 0%; }
   body[data-page-num="1951722"] .page-container-inner { max-width: 100%; }
   body[data-page-num="1951722"] .page-container__main { max-width: 100%; }
   body[data-page-num="1951722"] div[data-reactid="42"] h2 { line-height: 0.5; }
