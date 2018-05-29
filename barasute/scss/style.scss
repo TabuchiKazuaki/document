@@ -551,6 +551,7 @@ body[data-page-num="1951722"] div[data-reactid="168"] {
 }
 body[data-page-num="1951722"] .blog-list--list .blog-item__text {
 	margin: 1% 0 0;
+
 	.u-txt-clr {
 		line-height: 1.4;
 	}
@@ -602,6 +603,9 @@ body[data-page-num="1951722"] {
 body[data-page-num="1951722"] {
 	.blog-list--list .blog-item {
 		border-top: 1px dashed #c5c2ff;
+		&:first-of-type {
+			border-top: none;
+		}
 	}
 
 }
