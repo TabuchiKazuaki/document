@@ -609,6 +609,7 @@ body[data-page-num="1951722"] {
 body[data-page-num="1951722"] {
 	div[data-reactid="31"] {
 		max-width: 100%;
+		padding: 0 0 6%;
 	}
 	div[data-reactid="32"] {
 		max-width: 100%;
@@ -684,8 +685,12 @@ body[data-page-num="1951722"] {
 	max-width: 100%;
 }
 body[data-page-num="1951722"] .page-container-inner {
-		max-width: 100%;
-	}
+	max-width: 100%;
+}
+.block-txt:last-child {
+	margin: 0 auto;
+	max-width: 1080px;
+}
 @media screen and (min-width: 800px){
 .home .block-type--html {
     margin-top: 0!important;
