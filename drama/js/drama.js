@@ -14,4 +14,50 @@ $(document).ready(function() {
      });
 });
 
+$(document).ready(function() {
+     //初期表示
+     $(".tab_content02").hide();//全ての.tab_contentを非表示
+     $("ul.tabs02 li:first").addClass("active").show();//tabs内最初のliに.activeを追加
+     $(".tab_content02:first").show();//最初の.tab_contentを表示
+     //タブクリック時
+     $("ul.tabs02 li").click(function() {
+          $("ul.tabs02 li").removeClass("active");//.activeを外す
+          $(this).addClass("active");//クリックタブに.activeを追加
+          $(".tab_content02").hide();//全ての.tab_contentを非表示
+          var activeTab = $(this).find("a").attr("href");//アクティブタブコンテンツ
+          $(activeTab).fadeIn();//アクティブタブコンテンツをフェードイン
+          return false;
+     });
+});
 
+$(document).ready(function() {
+     //初期表示
+     $(".tab_content03").hide();//全ての.tab_contentを非表示
+     $("ul.tabs03 li:first").addClass("active").show();//tabs内最初のliに.activeを追加
+     $(".tab_content03:first").show();//最初の.tab_contentを表示
+     //タブクリック時
+     $("ul.tabs03 li").click(function() {
+          $("ul.tabs03 li").removeClass("active");//.activeを外す
+          $(this).addClass("active");//クリックタブに.activeを追加
+          $(".tab_content03").hide();//全ての.tab_contentを非表示
+          var activeTab = $(this).find("a").attr("href");//アクティブタブコンテンツ
+          $(activeTab).fadeIn();//アクティブタブコンテンツをフェードイン
+          return false;
+     });
+});
+
+$(document).ready(function() {
+     //初期表示
+     $(".tab_content04").hide();//全ての.tab_contentを非表示
+     $("ul.tabs04 li:first").addClass("active").show();//tabs内最初のliに.activeを追加
+     $(".tab_content04:first").show();//最初の.tab_contentを表示
+     //タブクリック時
+     $("ul.tabs04 li").click(function() {
+          $("ul.tabs04 li").removeClass("active");//.activeを外す
+          $(this).addClass("active");//クリックタブに.activeを追加
+          $(".tab_content04").hide();//全ての.tab_contentを非表示
+          var activeTab = $(this).find("a").attr("href");//アクティブタブコンテンツ
+          $(activeTab).fadeIn();//アクティブタブコンテンツをフェードイン
+          return false;
+     });
+});
