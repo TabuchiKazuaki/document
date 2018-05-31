@@ -544,6 +544,7 @@ img  { width: 100%;}
 				letter-spacing: 2px;
 				transition: .3s;
 				text-decoration: none;
+				text-align: center;
 				color: #fff!important;
 				&:after {
 					content: "";
@@ -571,13 +572,12 @@ img  { width: 100%;}
 		display: block;
 		background: #0096ff;
 		width: 370px;
-		padding: 4% 0 3%;
+		padding: 20px 0;
 		border-radius: 8px;
 		font-size: 28px;
 		text-decoration: none;
+		text-align: center;
 		letter-spacing: 7.5px;
-		-webkit-transition: .3s;
-		transition: .3s;
 		color: #fff !important;
 
 		&:after {
@@ -1804,12 +1804,12 @@ img  { width: 100%;}
 			margin: 18px auto 0;
 		}
 		.movie_inner iframe {
-		    position: absolute;
-		    z-index: 5;
-		    left: 0;
-		    top: 0;
-		    width: 100% !important;
-		    height: 100% !important;
+			position: absolute;
+			z-index: 5;
+			left: 0;
+			top: 0;
+			width: 100% !important;
+			height: 100% !important;
 		}
 	}
 }
@@ -1852,12 +1852,12 @@ img  { width: 100%;}
 		margin: 18px auto 0;
 	}
 	.movie_inner iframe {
-	    position: absolute;
-	    z-index: 5;
-	    left: 0;
-	    top: 0;
-	    width: 100% !important;
-	    height: 100% !important;
+		position: absolute;
+		z-index: 5;
+		left: 0;
+		top: 0;
+		width: 100% !important;
+		height: 100% !important;
 	}
 }
 body { line-height: 1; color: #3a352a; font-family: "Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Meiryo,メイリオ,sans-serif"; }
@@ -1903,12 +1903,12 @@ body li { list-style: none; }
 		margin: 18px auto 0;
 	}
 	.movie_inner iframe {
-	    position: absolute;
-	    z-index: 5;
-	    left: 0;
-	    top: 0;
-	    width: 100% !important;
-	    height: 100% !important;
+		position: absolute;
+		z-index: 5;
+		left: 0;
+		top: 0;
+		width: 100% !important;
+		height: 100% !important;
 	}
 }
 
@@ -2562,124 +2562,124 @@ body li { list-style: none; }
 
 @media screen and (max-width: 640px) {
   .pc {
-    display: none;
+	display: none;
   }
   .sp {
-    display: block;
+	display: block;
   }
   .sns_sp {
-    padding: 8px 5% 2%;
-    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/423150/43800940f80a8933c317d02cdb6d3b98_8292a1244031fb332ab26528513d4c5c.jpg) #fffefa 0 8px no-repeat;
-    background-size: 60px 61px;
-    .sns_heading {
-      padding: 0;
-      .sns_sub {
-        margin: 0 0 0 10.5%;
-        letter-spacing: 0px;
-        font-style: italic;
-        font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-        font-size: 11px;
-        color: #ff4bac;
-      }
-      .sns_title {
-        margin: 3px 0 0;
-        letter-spacing: 3px;
-        font-size: 16px;
-        font-weight: bold;
-        color: #797979;
-      }
-    }
+	padding: 8px 5% 2%;
+	background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/423150/43800940f80a8933c317d02cdb6d3b98_8292a1244031fb332ab26528513d4c5c.jpg) #fffefa 0 8px no-repeat;
+	background-size: 60px 61px;
+	.sns_heading {
+	  padding: 0;
+	  .sns_sub {
+		margin: 0 0 0 10.5%;
+		letter-spacing: 0px;
+		font-style: italic;
+		font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+		font-size: 11px;
+		color: #ff4bac;
+	  }
+	  .sns_title {
+		margin: 3px 0 0;
+		letter-spacing: 3px;
+		font-size: 16px;
+		font-weight: bold;
+		color: #797979;
+	  }
+	}
   }
   .sns_inner {
-    overflow: hidden;
-    width: 90%;
-    margin: 16px auto;
-    text-align: center;
-    .sns_tw {
-      float: none;
-      width: 94%;
-      margin: 0 0 0 4%;
-      border: 1px solid #bfbfbf;
-      overflow-y: scroll;
-      overflow-y: auto !important;
-      .timeline-Widget--edge {
-        overflow-y: scroll;
-      }
-    }
-    .sns_fb {
-      float: none;
-      margin: 6% 0 0;
-    }
+	overflow: hidden;
+	width: 90%;
+	margin: 16px auto;
+	text-align: center;
+	.sns_tw {
+	  float: none;
+	  width: 94%;
+	  margin: 0 0 0 4%;
+	  border: 1px solid #bfbfbf;
+	  overflow-y: scroll;
+	  overflow-y: auto !important;
+	  .timeline-Widget--edge {
+		overflow-y: scroll;
+	  }
+	}
+	.sns_fb {
+	  float: none;
+	  margin: 6% 0 0;
+	}
   }
 }
 
 .sns_inner .SandboxRoot {
   &.env-bp-550 .timeline-Tweet-text, &.env-bp-660 .timeline-Tweet-text, &.env-bp-820 .timeline-Tweet-text, &.env-bp-970 .timeline-Tweet-text {
-    font-size: 12pt !important;
+	font-size: 12pt !important;
   }
 }
 
 .sns {
   background: #fffefa;
   .sns_wrap {
-    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/423150/4b0288266fa16f5cf7ea2713dede850e_e383002f7c8b24639dd52204d27f2d4a.png) 0 32px no-repeat;
-    max-width: 1100px;
-    padding: 22px 0 0 0;
-    margin: 0 auto;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+	background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/423150/4b0288266fa16f5cf7ea2713dede850e_e383002f7c8b24639dd52204d27f2d4a.png) 0 32px no-repeat;
+	max-width: 1100px;
+	padding: 22px 0 0 0;
+	margin: 0 auto;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
   }
   .sns_heading {
-    padding: 0 0 0 1%;
-    .sns_sub {
-      margin: 0 0 0 111px;
-      letter-spacing: 0px;
-      font-style: italic;
-      font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-      font-size: 26px;
-      color: #ff4bac;
-    }
-    .sns_title {
-      margin: 12px 0 0 35px;
-      letter-spacing: 3px;
-      font-size: 34px;
-      font-weight: normal;
-      color: #797979;
-    }
+	padding: 0 0 0 1%;
+	.sns_sub {
+	  margin: 0 0 0 111px;
+	  letter-spacing: 0px;
+	  font-style: italic;
+	  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	  font-size: 26px;
+	  color: #ff4bac;
+	}
+	.sns_title {
+	  margin: 12px 0 0 35px;
+	  letter-spacing: 3px;
+	  font-size: 34px;
+	  font-weight: normal;
+	  color: #797979;
+	}
   }
   .sns_inner {
-    overflow: hidden;
-    width: 80%;
-    padding: 10px;
-    margin: 30px auto 0;
-    .sns_tw {
-      float: left;
-      overflow-y: scroll;
-      width: 45%;
-      height: 300px;
-      margin: 0 0 5% 5%;
-      border: 1px solid #bfbfbf;
-    }
-    .sns_fb {
-      float: right;
-      width: 45%;
-    }
+	overflow: hidden;
+	width: 80%;
+	padding: 10px;
+	margin: 30px auto 0;
+	.sns_tw {
+	  float: left;
+	  overflow-y: scroll;
+	  width: 45%;
+	  height: 300px;
+	  margin: 0 0 5% 5%;
+	  border: 1px solid #bfbfbf;
+	}
+	.sns_fb {
+	  float: right;
+	  width: 45%;
+	}
   }
 }
 
 .sns_btn {
   margin: 2% 0 0 5%;
   .sns_btn_item {
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    li {
-      float: left;
-      list-style: none;
-    }
-    .sns_btn_fb {
-      margin: 0 0 0 5px;
-    }
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	li {
+	  float: left;
+	  list-style: none;
+	}
+	.sns_btn_fb {
+	  margin: 0 0 0 5px;
+	}
   }
 }
 
