@@ -1,0 +1,362 @@
+@charset "shift_jis";
+
+/* Table Of Contents [ base format ]
+----------------------------------------
+
+ 1 Structure
+ 2 Text
+     Heading
+     Block
+     Inline
+ 3 Hypertext
+ 4 List
+ 5 Object
+ 6 Presentation
+ 7 Edit
+ 8 Bi-directional Text
+ 9 Forms
+10 Tables
+11 Image
+12 Client-side Image Map
+13 Server-side
+14 Intrinsic Events
+15 Metainformation
+16 Base
+17 Ruby Annotation
+
+----------------------------------------*/
+
+
+/* Structure Module
+----------------------------------------------------------------------------------------------------*/
+html {
+}
+
+head {}
+
+title {}
+
+body {
+	margin: 0;
+	font-family:'?l?r ?o?S?V?b?N','MS P Gothic', '?q???M?m?p?S Pro W3','Hiragino Kaku Gothic Pro',Osaka, sans-serif;
+}
+
+
+/* Text Module
+----------------------------------------------------------------------------------------------------*/
+
+/* Heading */
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+/* Block */
+
+address {}
+
+blockquote {
+	margin: 0 0 0.5em 30px;
+}
+
+div {}
+
+p {
+	margin:0 0 0;
+}
+
+pre {
+	font-family: monospace;
+	white-space: pre;
+}
+
+/* Inline */
+
+abbr {
+	letter-spacing: 0.1em;
+}
+
+acronym {
+	letter-spacing: 0.1em;
+}
+
+br {}
+
+cite {
+	font-style: italic;
+}
+
+code {
+	font-family: monospace;
+}
+
+dfn {
+	font-style: italic;
+}
+
+em {
+	font-style: normal;
+	font-weight: bold;
+}
+
+kbd {
+	font-family: monospace;
+}
+
+q {
+	font-style: italic;
+	quotes: "\"" "\"" "\'" "\'";
+}
+
+q:before {
+	content: open-quote;
+}
+
+q:after {
+	content: close-quote;
+}
+
+samp {
+	font-family: monospace;
+}
+
+span {}
+
+strong {
+	font-weight: bold;
+}
+
+var {
+	font-family: monospace;
+}
+
+/* Hypertext Module
+----------------------------------------------------------------------------------------------------*/
+a {
+	color: #0C4497;
+	text-decoration: none;
+}
+
+:link {}
+:visited {}
+a:hover,
+a:active {
+	text-decoration: underline;
+}
+
+a:focus{
+	outline: #00f 1px dotted;
+}
+
+/*List Module
+----------------------------------------------------------------------------------------------------*/
+dl {
+	padding: 0;
+	margin: 0 0 0.3em 40px;
+}
+
+dt {}
+
+dd {
+	margin: 0 0 0.3em 40px;
+}
+
+ol {
+	padding: 0;
+	margin: 0 0 0.3em 25px;
+}
+
+ul {
+	padding: 0;
+	margin: 0 0 0.3em 15px;
+}
+
+li {
+	margin: 0 0.3em;
+}
+
+/*Object Module
+----------------------------------------------------------------------------------------------------*/
+object {}
+
+param {}
+
+/*Presentation Module
+----------------------------------------------------------------------------------------------------*/
+b {
+	font-weight: bold;
+}
+
+big {
+	font-size: 1.17em;
+}
+
+hr {
+	border:#4B4B4B 1px dotted;
+}
+
+i {
+	font-style: italic;
+}
+
+small {
+	font-size: 0.83em;
+}
+
+sub {
+	vertical-align: text-bottom;
+}
+
+sup {
+	vertical-align: text-top;
+}
+
+tt {
+	font-family: monospace;
+}
+
+/*Edit Module
+----------------------------------------------------------------------------------------------------*/
+del {
+	text-decoration: line-through;
+}
+
+ins {
+	text-decoration: underline;
+}
+
+/*Bi-directional Text Module
+----------------------------------------------------------------------------------------------------*/
+bdo {
+	unicode-bidi: bidi-override;
+	direction: rtl;
+}
+
+/*Forms Module
+----------------------------------------------------------------------------------------------------*/
+button {vertical-align:middle;}
+
+fieldset {}
+
+form {
+margin:0;}
+
+input {
+font-size: 100%;
+font-family: '???C???I',Meiryo,'?q???M?m?p?S Pro W3','Hiragino Kaku Gothic Pro','?l?r ?o?S?V?b?N','MS P Gothic',Osaka,Verdana,Arial, Helvetica, sans-serif /*for Mac FF*/;
+vertical-align:middle;
+}
+
+label {}
+
+legend {}
+
+select {
+font-size: 100%;
+}
+
+optgroup {}
+
+option {}
+
+textarea {
+font-size: 100%;
+margin:0;
+vertical-align:middle;
+}
+
+/*Tables Module
+----------------------------------------------------------------------------------------------------*/
+caption {}
+
+col {}
+
+colgroup {}
+
+table {
+margin-bottom: 0.3em;
+font-size: 100% /*for IE*/;
+line-height:1.6 /*for IE*/;
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+tbody {}
+
+td {}
+
+tfoot {}
+
+th {}
+
+thead {}
+
+tr {}
+
+/*Image Module
+----------------------------------------------------------------------------------------------------*/
+img {
+	border: 0;
+	vertical-align: middle;
+}
+
+/*Client-side Image Map Module
+----------------------------------------------------------------------------------------------------*/
+area {}
+
+map {}
+
+/*Server-side Image Map Module
+----------------------------------------------------------------------------------------------------*/
+
+/*Intrinsic Events Module
+----------------------------------------------------------------------------------------------------*/
+
+/*Metainformation Module
+----------------------------------------------------------------------------------------------------*/
+meta {}
+
+/*Scripting Module
+----------------------------------------------------------------------------------------------------*/
+noscript {}
+
+script {}
+
+/*Style Sheet Module
+----------------------------------------------------------------------------------------------------*/
+style {}
+
+/*Link Module
+----------------------------------------------------------------------------------------------------*/
+link {}
+
+/*Base Module
+----------------------------------------------------------------------------------------------------*/
+base {}
+
+/*Ruby Annotation Module
+----------------------------------------------------------------------------------------------------*/
+/*
+ruby {}
+
+rbc {}
+
+rtc {}
+
+rb {}
+
+rt {}
+
+rp {}
+
+*/
+
+@media print {
+  h1,h2,h3,h4,h5,h6{
+	page-break-after: auto ;
+	page-break-inside: avoid;
+}
+
+}
