@@ -61,6 +61,7 @@ $(document).ready(function() {
           return false;
      });
 });
+
 $(function(){
     // #で始まるアンカーをクリックした場合に処理
     $('.scrollTo').click(function() {
