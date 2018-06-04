@@ -261,13 +261,26 @@ header {
 
 
 .tab_content {
+	position: relative;
+	padding: 3% 4% 14%;
 	margin: 0;
 	background: #fff;
 
 	.content_area {
 		background: #fff;
-		padding: 3% 4% 4%;
 		margin: -0.1px 0 0;
+
+		.c_h {
+			font-size: 26px;
+			&:nth-of-type(2) {
+				margin: 2% 0 0;
+			}
+		}
+		.contents_m_t {
+			margin: 2% 0 0;
+			font-size: 22px;
+			color: #6a6a6a;
+		}
 
 		img {
 			border: 1px solid #ededed;
@@ -278,27 +291,47 @@ header {
 			font-size: 30px;
 		}
 		a {
+			position: absolute;
+			bottom: 5%;
+			left: 7%;
 			display: block;
 			background: #51c300;
+			width: 85%;
 			padding: 2% 0;
-			margin: 4% 3% 0;
+			margin: 0;
 			border-radius: 4px;
 			text-align: center;
 			font-size: 30px;
 			color: #fff;
 		}
+
 		.contents_text {
 			font-size: 22px;
 			line-height: 1.5;
 		}
 		.contents_corp01 , .contents_corp02 , .contents_corp03 , .contents_corp04 {
-			margin: 34.1% 0.5% 0 0;
+			margin: 1% 0.5% 0 0;
 			text-align: right;
 			font-size: 16px;
 			color: #7d7d7d;
 		}
 		.contents_corp02 {
 
+		}
+	}
+}
+.gallery {
+	overflow: hidden;
+	margin: 4% 0 0;
+	li {
+		float: left;
+		width: 32%;
+		margin: 0 0 0 2%;
+		&:first-child {
+			margin: 0;
+		}
+		img {
+			max-width: 250px;
 		}
 	}
 }
@@ -326,15 +359,22 @@ header {
 	.tab_content {
 
 		.content_area {
+			.c_h {
+				font-size: calc(45vw/13);
+			}
+			.contents_m_t {
+				font-size: calc(40vw/13);
+			}
 
 			.content_area_text {
 				font-size: calc(38vw/13);
 			}
 			a {
 				padding: 2% 0;
-				margin: 4% 3% 0;
+				margin: 0;
 				font-size: calc(40vw/13);
 			}
+
 
 			.contents_corp01 , .contents_corp02 , .contents_corp03 , .contents_corp04 {
 				margin: 34% 0.5% 0 0;
@@ -372,7 +412,6 @@ header {
 			}
 			a {
 				padding: 3% 0;
-				margin: 4% 3% 0;
 				font-size: calc(48vw/13);
 			}
 			.contents_text {
@@ -426,7 +465,6 @@ header {
 			}
 			a {
 				padding: 3% 0;
-				margin: 4% 3% 0;
 				font-size: calc(48vw/13);
 			}
 			.contents_text {
