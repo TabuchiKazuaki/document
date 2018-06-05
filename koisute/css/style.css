@@ -251,7 +251,7 @@ img { width: 100%; }
 .cast .cast_inner_area figure { margin: 0; }
 .cast .cast_inner_area figure img { width: 100%; }
 .cast .nickname { margin: 19% 0 0; font-weight: bold; font-size: 18px; }
-.cast .name { margin: 7% 0 0; font-size: 13px; }
+.cast .name { margin: 7% 0 0; font-size: 13px; line-height: 1.3; }
 
 @media screen and (max-width: 1024px) { .cast { padding: 0 0 5%; }
   .cast .cast_heading .cast_sub { margin: 5px 0 0 10%; font-size: 22px; }
@@ -434,14 +434,14 @@ img { width: 100%; }
   .highlight .highlight_inner .highlight_text_left { line-height: 1.7; letter-spacing: 1.5px; }
   .highlight .highlight_inner .highlight_text_right { line-height: 1.7; letter-spacing: 1.5px; }
   .highlight .contents_reserve { width: 100%; margin: 6% auto 0; }
-  .highlight .contents_reserve a { width: 50%; padding: 3% 0 2%; margin: 0 auto; border-radius: 6px; font-size: 24px; letter-spacing: 4.5px; }
+  .highlight .contents_reserve a { width: 50%; padding: 3% 0 3%; margin: 0 auto; border-radius: 6px; font-size: 24px; letter-spacing: 4.5px; }
   .highlight .contents_reserve a:after { content: ""; top: 20px; right: 16px; background-size: 14px 23px; width: 14px; height: 23px; }
   .highlight .contents_reserve a:hover { background: #06f; }
   .highlight .highlight_thumbnail { width: 26.5%; margin: 0 3.7% 0 0; }
   .highlight .highlight_thumbnail_text { padding: 4% 6% 6%; font-size: 14px; line-height: 1.5; } }
 @media screen and (max-width: 768px) { .highlight .highlight_inner { margin: -3% 0 0 5%; }
   .highlight .highlight_inner .highlight_text { width: 67%; }
-  .highlight .contents_reserve a { width: 60%; padding: 3% 0 2%; font-size: 16px; }
+  .highlight .contents_reserve a { width: 60%; padding: 3% 0 3%; font-size: 16px; }
   .highlight .contents_reserve a:after { content: ""; top: 15px; right: 10px; background-size: 11px 18px; width: 11px; height: 18px; }
   .highlight .highlight_thumbnail { margin: 0 2.5% 0 0; } }
 .header_koisute_sp { background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/423150/38bc8a38a224c05b71f3fdac4c565f84_b5e047258d897a4e8b8e41b76042c76f.jpg) center 0 no-repeat; background-size: 100% auto; -webkit-box-sizing: border-box; box-sizing: border-box; }
@@ -468,7 +468,7 @@ img { width: 100%; }
 .header_koisute .header_heading img { margin: 0 auto; width: 100%; max-width: 837px; }
 
 @media screen and (max-width: 1024px) { .header_btn { display: block; background: none; padding: 1% 0 5%; margin: 0 auto; border: none; }
-  .header_btn a { padding: 3% 0 2%; border-radius: 6px; font-size: 21px; }
+  .header_btn a { padding: 3% 0 3%; border-radius: 6px; font-size: 21px; }
   .header_btn a:after { content: ""; top: 15px; right: 16px; } }
 @media screen and (max-width: 768px) { .sns_sp_case { padding: 3% 5% 2%; background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/423150/43800940f80a8933c317d02cdb6d3b98_8292a1244031fb332ab26528513d4c5c.jpg) #eff8fd 0 18px no-repeat; background-size: 60px 61px; }
   .sns_sp_case .sns_heading { padding: 0; }
