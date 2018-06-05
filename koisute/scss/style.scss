@@ -822,7 +822,7 @@ img  { width: 100%;}
 				position: relative;
 				display: block;
 				background: #0096ff;
-				width: 40%;
+				width: 60%;
 				margin: 0 auto;
 				padding: 3% 0 3%;
 				border-radius: 4px;
@@ -1034,7 +1034,7 @@ img  { width: 100%;}
 
 // ブロック4 cast sp
 .cast_sp {
-	padding: 18px 5% 7%;
+	padding: 18px 4% 7%;
 	background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/423150/43800940f80a8933c317d02cdb6d3b98_8292a1244031fb332ab26528513d4c5c.jpg) #fffefa 0 22px no-repeat;
 	background-size: 60px 61px;
 	.cast_wrap {
@@ -1054,7 +1054,7 @@ img  { width: 100%;}
 			color: #0096ff;
 		}
 		.cast_title {
-			margin: 3px 0 0;
+			margin: 3px 0 0 3%;
 			letter-spacing: 2px;
 			font-size: 16px;
 			font-weight: bold;
@@ -2431,7 +2431,43 @@ img  { width: 100%;}
 		}
 	}
 }
+@media screen and (max-width: 480px) {
+	.highlight_sp {
 
+		.contents_reserve {
+			display: block;
+			margin: 9% auto 0;
+			padding: 0;
+			margin: 9% 0 0%;
+			width: 100%;
+			a {
+				position: relative;
+				display: block;
+				background: #0096ff;
+				width: 60%;
+				margin: 0 auto;
+				padding: 3% 0 3%;
+				border-radius: 4px;
+				font-size: 16px;
+				font-weight: normal;
+				letter-spacing: 2px;
+				transition: .3s;
+				text-decoration: none;
+				color: #fff!important;
+				&:after {
+					content: "";
+					position: absolute;
+					top: 34%;
+					right: 12px;
+					background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/423150/bc01359588b92469dcb7695abcba65dc_d4aacaec95ec0c6dcd3665fa91545688.png) 0 0 no-repeat;
+					background-size: 8px 14px;
+					width: 8px;
+					height: 14px;
+				}
+			}
+		}
+	}
+}
 
 // ブロック１
 
