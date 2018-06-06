@@ -408,6 +408,13 @@ header {
 			margin: 4% 0 0 4%;
 			font-size: calc(64vw/13);
 		}
+		&:first-of-type {
+			.tab_inner {
+				.tab_heading {
+					margin: 0 0 0 4%;
+				}
+			}
+		}
 	}
 
 	.tab_content {
@@ -521,9 +528,33 @@ header {
 }
 
 @media screen and (max-width: 414px) {
+	.tab_content {
+		padding: 3% 4% 26%;
+	}
+	.tab_content_two {
+		padding: 3% 4% 22%;
+	}
+	.tab_content_three {
+		padding: 3% 4% 18%;
+	}
+	.tab_content_four {
+		padding: 3% 4% 8%;
+	}
 
 }
 @media screen and (max-width: 375px) {
+	.tab_content {
+		padding: 3% 4% 2%;
+	}
+	.tab_content_two {
+		padding: 3% 4% 22%;
+	}
+	.tab_content_three {
+		padding: 3% 4% 21%;
+	}
+	.tab_content_four {
+		padding: 3% 4% 8%;
+	}
 
 }
 
