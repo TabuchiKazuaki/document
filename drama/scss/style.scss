@@ -212,12 +212,12 @@ header {
 		padding: 0;
 	}
 
-	.tab_inner {
+	.t_i {
 		max-width: 768px;
 		margin: 0 auto;
 	}
 
-	.tab_heading {
+	.t_h {
 		font-size: 36px;
 		margin: 4% 0 0 7%;
 	}
@@ -346,7 +346,7 @@ header {
 
 @media screen and (max-width: 1024px) {
 	.t_a {
-		.tab_heading {
+		.t_h {
 			margin: 4% 0 0 4%;
 			font-size: calc(45vw/13);
 		}
@@ -404,12 +404,12 @@ header {
 @media screen and (max-width: 768px) {
 
 	.t_a {
-		.tab_heading {
+		.t_h {
 			margin: 4% 0 0 4%;
 			font-size: calc(64vw/13);
 		}
-		.tab_inner {
-			.tab_heading_middle {
+		.t_i {
+			.t_h_middle {
 				margin: 0 0 0 4%;
 			}
 		}
@@ -467,7 +467,7 @@ header {
 }
 @media screen and (max-width: 480px) {
 	.t_a {
-		.tab_heading {
+		.t_h {
 			margin: 4% 0 0 4%;
 			font-size: calc(66vw/13);
 		}
