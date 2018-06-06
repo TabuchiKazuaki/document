@@ -1,3 +1,4 @@
+@charset "utf-8";
 
 *{margin: 0; padding:0;}
 body { line-height: 1; min-width: 320px; font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important; color: #000; margin: 0 auto; background: #efefef;
@@ -465,6 +466,7 @@ header {
 			}
 		}
 	}
+	.tabs_last
 }
 @media screen and (max-width: 480px) {
 	.tab_area {
@@ -544,13 +546,13 @@ header {
 }
 @media screen and (max-width: 375px) {
 	.t_c {
-		padding: 3% 4% 27%;
+		padding: 3% 4% 30%;
 	}
 	.tab_content_two {
-		padding: 3% 4% 22%;
+		padding: 3% 4% 30%;
 	}
 	.tab_content_three {
-		padding: 3% 4% 21%;
+		padding: 3% 4% 26%;
 	}
 	.tab_content_four {
 		padding: 3% 4% 8%;
