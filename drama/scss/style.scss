@@ -326,7 +326,6 @@ header {
 }
 .tab_content_four {
 	padding: 3% 4% 16%;
-
 }
 
 .gallery {
@@ -366,6 +365,7 @@ header {
 	}
 
 	.tab_content {
+		padding: 3% 4% 37%;
 
 		.content_area {
 			.c_h {
@@ -390,6 +390,15 @@ header {
 			}
 		}
 	}
+	.tab_content_two {
+		padding: 3% 4% 24%;
+	}
+	.tab_content_three {
+		padding: 3% 4% 24%;
+	}
+	.tab_content_four {
+		padding: 3% 4% 16%;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -408,6 +417,15 @@ header {
 			.content_area_text {
 				font-size: calc(58vw/13);
 			}
+			.c_h {
+				font-size: calc(45vw/13);
+			}
+			.contents_m_t {
+				font-size: calc(37vw/13);
+			}
+			.content_area_text {
+				font-size: calc(38vw/13);
+			}
 			a {
 				padding: 3% 0;
 				font-size: calc(48vw/13);
@@ -417,7 +435,7 @@ header {
 				line-height: 1.7;
 			}
 			.contents_corp01 , .contents_corp02 , .contents_corp03 , .contents_corp04 {
-				font-size: 18px;
+				font-size: 14px;
 			}
 		}
 	}
@@ -450,13 +468,22 @@ header {
 			.content_area_text {
 				font-size: calc(58vw/13);
 			}
+			.c_h {
+				font-size: calc(48vw/13);
+			}
+			.contents_m_t {
+				font-size: calc(41vw/13);
+			}
+			.content_area_text {
+				font-size: calc(38vw/13);
+			}
 			a {
 				padding: 3% 0;
 				font-size: calc(48vw/13);
 			}
 			.contents_text {
-				font-size: calc(51vw/13);
-				line-height: 1.5;
+				font-size: calc(47vw/13);
+				line-height: 1.4;
 			}
 			.contents_corp01 , .contents_corp02 , .contents_corp03 , .contents_corp04 {
 				font-size: calc(42vw/13);
