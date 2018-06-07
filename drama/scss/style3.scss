@@ -267,9 +267,8 @@ header {
 	margin: 0;
 	background: #fff;
 
-	.content_area , .content_area_one {
+	.content_area {
 		background: #fff;
-		padding: 3% 4% 17%;
 		margin: -0.1px 0 0;
 
 		.c_h {
@@ -321,14 +320,17 @@ header {
 	}
 }
 .tab_content {
+	.content_area_one {
+		padding: 3% 4% 17%;
+	}
 	.content_area_two {
-		padding: 3% 4% 10%;
+		padding: 3% 4% 15%;
 	}
 	.content_area_three {
-		padding: 3% 4% 6%;
+		padding: 3% 4% 14%;
 	}
 	.content_area_four {
-		padding: 3% 4% 16%;
+		padding: 3% 4% 5%;
 	}
 }
 
