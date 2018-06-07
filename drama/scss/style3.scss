@@ -262,14 +262,14 @@ header {
 
 
 
-.tab_content , .tab_content_one {
+.tab_content  {
+	position: relative;
 	margin: 0;
 	background: #fff;
 
-	.content_area {
-		position: relative;
+	.content_area , .content_area_one {
 		background: #fff;
-		padding: 3% 4% 3%;
+		padding: 3% 4% 17%;
 		margin: -0.1px 0 0;
 
 		.c_h {
@@ -320,15 +320,18 @@ header {
 		}
 	}
 }
-.tab_content_two {
-	padding: 3% 4% 24%;
+.tab_content {
+	.content_area_two {
+		padding: 3% 4% 10%;
+	}
+	.content_area_three {
+		padding: 3% 4% 6%;
+	}
+	.content_area_four {
+		padding: 3% 4% 16%;
+	}
 }
-.tab_content_three {
-	padding: 3% 4% 24%;
-}
-.tab_content_four {
-	padding: 3% 4% 16%;
-}
+
 
 .gallery {
 	overflow: hidden;
@@ -346,7 +349,7 @@ header {
 	}
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 840px) {
 	.tab_area {
 		.tab_heading {
 			margin: 4% 0 0 4%;
