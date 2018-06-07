@@ -61,3 +61,7 @@ $(document).ready(function() {
           return false;
      });
 });
+
+$(document).ready(function() {
+    $(".content_area").tile(3)
+  });
