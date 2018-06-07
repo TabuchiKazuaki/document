@@ -371,8 +371,7 @@ header {
 		}
 	}
 
-	.tab_content , .tab_content_one {
-		padding: 3% 4% 37%;
+	.tab_content {
 
 		.content_area {
 			.c_h {
@@ -397,14 +396,19 @@ header {
 			}
 		}
 	}
-	.tab_content_two {
-		padding: 3% 4% 24%;
-	}
-	.tab_content_three {
-		padding: 3% 4% 24%;
-	}
-	.tab_content_four {
-		padding: 3% 4% 16%;
+	.tab_content {
+		.content_area_one {
+			padding: 3% 4% 17%;
+		}
+		.content_area_two {
+			padding: 3% 4% 15%;
+		}
+		.content_area_three {
+			padding: 3% 4% 14%;
+		}
+		.content_area_four {
+			padding: 3% 4% 35%;
+		}
 	}
 }
 
@@ -422,8 +426,7 @@ header {
 		}
 	}
 
-	.tab_content , .tab_content_one {
-		padding: 3% 4% 35%;
+	.tab_content {
 
 		.content_area {
 
@@ -450,14 +453,19 @@ header {
 		}
 	}
 
-	.tab_content_two {
-		padding: 3% 4% 26%;
-	}
-	.tab_content_three {
-		padding: 3% 4% 22%;
-	}
-	.tab_content_four {
-		padding: 3% 4% 24%;
+	.tab_content {
+		.content_area_one {
+			padding: 3% 4% 17%;
+		}
+		.content_area_two {
+			padding: 3% 4% 15%;
+		}
+		.content_area_three {
+			padding: 3% 4% 14%;
+		}
+		.content_area_four {
+			padding: 3% 4% 35%;
+		}
 	}
 
 	.tabs {
@@ -481,8 +489,7 @@ header {
 	}
 
 
-	.tab_content , .tab_content_one {
-		padding: 3% 4% 22%;
+	.tab_content  {
 
 		.content_area {
 			padding: 3% 0 5.5%;
@@ -511,14 +518,19 @@ header {
 		}
 	}
 
-	.tab_content_two {
-		padding: 3% 4% 22%;
-	}
-	.tab_content_three {
-		padding: 3% 4% 20%;
-	}
-	.tab_content_four {
-		padding: 3% 4% 11%;
+	.tab_content {
+		.content_area_one {
+			padding: 3% 4% 17%;
+		}
+		.content_area_two {
+			padding: 3% 4% 15%;
+		}
+		.content_area_three {
+			padding: 3% 4% 14%;
+		}
+		.content_area_four {
+			padding: 3% 4% 35%;
+		}
 	}
 	.tabs {
 		li {
@@ -534,32 +546,36 @@ header {
 }
 
 @media screen and (max-width: 414px) {
-	.tab_content_one {
-		padding: 3% 4% 26%;
-	}
-	.tab_content_two {
-		padding: 3% 4% 22%;
-	}
-	.tab_content_three {
-		padding: 3% 4% 18%;
-	}
-	.tab_content_four {
-		padding: 3% 4% 8%;
+	.tab_content {
+		.content_area_one {
+			padding: 3% 4% 17%;
+		}
+		.content_area_two {
+			padding: 3% 4% 15%;
+		}
+		.content_area_three {
+			padding: 3% 4% 14%;
+		}
+		.content_area_four {
+			padding: 3% 4% 35%;
+		}
 	}
 
 }
 @media screen and (max-width: 375px) {
-	.tab_content_one {
-		padding: 3% 4% 31%;
-	}
-	.tab_content_two {
-		padding: 3% 4% 30%;
-	}
-	.tab_content_three {
-		padding: 3% 4% 26%;
-	}
-	.tab_content_four {
-		padding: 3% 4% 8%;
+	.tab_content {
+		.content_area_one {
+			padding: 3% 4% 17%;
+		}
+		.content_area_two {
+			padding: 3% 4% 15%;
+		}
+		.content_area_three {
+			padding: 3% 4% 14%;
+		}
+		.content_area_four {
+			padding: 3% 4% 35%;
+		}
 	}
 }
 
