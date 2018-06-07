@@ -263,13 +263,13 @@ header {
 
 
 .tab_content , .tab_content_one {
-	position: relative;
-	padding: 3% 4% 41%;
 	margin: 0;
 	background: #fff;
 
 	.content_area {
+		position: relative;
 		background: #fff;
+		padding: 3% 4% 3%;
 		margin: -0.1px 0 0;
 
 		.c_h {
@@ -544,14 +544,14 @@ header {
 
 }
 @media screen and (max-width: 375px) {
-	.t_c {
-		padding: 3% 4% 27%;
+	.tab_content_one {
+		padding: 3% 4% 31%;
 	}
 	.tab_content_two {
-		padding: 3% 4% 22%;
+		padding: 3% 4% 30%;
 	}
 	.tab_content_three {
-		padding: 3% 4% 21%;
+		padding: 3% 4% 26%;
 	}
 	.tab_content_four {
 		padding: 3% 4% 8%;
@@ -559,10 +559,9 @@ header {
 }
 
 
-
 footer {
 	background: #000;
-	margin: 6% 0 0;
+	margin: 9% 0 0;
 	small {
 		display: block;
 		width: 80%;
