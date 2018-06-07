@@ -263,11 +263,11 @@ header {
 
 
 .tab_content  {
+	position: relative;
 	margin: 0;
 	background: #fff;
 
 	.content_area {
-		position: relative;
 		background: #fff;
 		margin: -0.1px 0 0;
 
@@ -292,20 +292,6 @@ header {
 			line-height: 1.3;
 			font-size: 30px;
 		}
-		a {
-			position: absolute;
-			bottom: 5%;
-			left: 7%;
-			display: block;
-			background: #51c300;
-			width: 85%;
-			padding: 2% 0;
-			margin: 0;
-			border-radius: 4px;
-			text-align: center;
-			font-size: 30px;
-			color: #fff;
-		}
 
 		.contents_text {
 			font-size: 22px;
@@ -317,6 +303,20 @@ header {
 			font-size: 16px;
 			color: #7d7d7d;
 		}
+	}
+	a {
+		position: absolute;
+		bottom: 5%;
+		left: 7%;
+		display: block;
+		background: #51c300;
+		width: 85%;
+		padding: 2% 0;
+		margin: 0;
+		border-radius: 4px;
+		text-align: center;
+		font-size: 30px;
+		color: #fff;
 	}
 }
 .tab_content {
