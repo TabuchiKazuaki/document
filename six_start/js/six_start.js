@@ -129,18 +129,18 @@ var el12 = document.getElementById('s_12');
 var el13 = document.getElementById('s_13');
 
 if (now.getTime() > ss01.getTime()){
-	el1.innerText = '今すぐ視聴する';
+	el01.innerText = '今すぐ視聴する';
 } if (now.getTime() > out1.getTime()) {
-	el1.innerText = '放送終了しました';
-	el1.style.backgroundColor = "#bbb";
-	el1.href = "javascript:void(0)";
+	el01.innerText = '放送終了しました';
+	el01.style.backgroundColor = "#bbb";
+	el01.href = "javascript:void(0)";
 }
 if (now.getTime() > ss02.getTime()){
-	el2.innerText = '今すぐ視聴する';
+	el02.innerText = '今すぐ視聴する';
 } if (now.getTime() > out2.getTime()) {
-	el2.innerText = '放送終了しました';
-	el2.style.backgroundColor = "#bbb";
-	el2.href = "javascript:void(0)";
+	el02.innerText = '放送終了しました';
+	el02.style.backgroundColor = "#bbb";
+	el02.href = "javascript:void(0)";
 }
 if (now.getTime() > ss3.getTime()){
 	el3.innerText = '今すぐ視聴する';
