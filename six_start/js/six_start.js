@@ -95,11 +95,11 @@ if (now.getTime() > ss22.getTime()){
 // 2nd
 var now = new Date();
 // s_01
-var ss01 = new Date("2018/06/16 01:59");
-var out1 = new Date("2018/06/18 02:59");
+var ss01 = new Date("2018/02/16 01:59");
+var out1 = new Date("2018/02/18 02:59");
 // s_02
-var ss02 = new Date("2018/06/16 11:29");
-var out2 = new Date("2018/06/16 13:40");
+var ss02 = new Date("2018/02/16 11:29");
+var out2 = new Date("2018/02/16 13:40");
 // s_03
 var ss03 = new Date("2018/04/14 22:59");
 var ss04 = new Date("2018/04/14 22:59");
