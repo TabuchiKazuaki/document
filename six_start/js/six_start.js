@@ -97,11 +97,11 @@ if (now.getTime() > ss22.getTime()){
 $(document).ready(function() {
 var now = new Date();
 // s_01
-var ss01 = new Date("2018/02/16 01:59");
-var out1 = new Date("2018/02/18 02:59");
+// var ss01 = new Date("2018/02/16 01:59");
+// var out1 = new Date("2018/02/18 02:59");
 // s_02
-var ss02 = new Date("2018/02/16 11:29");
-var out2 = new Date("2018/02/16 13:40");
+var ss02 = new Date("2018/06/16 11:29");
+var out2 = new Date("2018/06/16 13:40");
 // s_03
 var ss03 = new Date("2018/04/14 22:59");
 var ss04 = new Date("2018/04/14 22:59");
@@ -142,11 +142,11 @@ if (now.getTime() > ss02.getTime()){
 	el02.style.backgroundColor = "#bbb";
 	el02.href = "javascript:void(0)";
 }
-if (now.getTime() > ss3.getTime()){
-	el3.innerText = '今すぐ視聴する';
+if (now.getTime() > ss03.getTime()){
+	el03.innerText = '今すぐ視聴する';
 } if (now.getTime() > out3.getTime()) {
-	el3.innerText = '放送終了しました';
-	el3.style.backgroundColor = "#bbb";
-	el3.href = "javascript:void(0)";
+	el03.innerText = '放送終了しました';
+	el03.style.backgroundColor = "#bbb";
+	el03.href = "javascript:void(0)";
 }
 });
