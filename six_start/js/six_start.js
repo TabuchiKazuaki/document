@@ -1,56 +1,56 @@
 
-	var now = new Date();
-	var tt01 = new Date("2018/04/15 21:59");
-	var outs1 = new Date("2018/04/14 22:59");
-	var tt02 = new Date("2018/04/14 22:59");
-	var tt03 = new Date("2018/04/14 22:59");
-	var tt04 = new Date("2018/04/14 22:59");
-	var tt05 = new Date("2018/04/14 22:59");
-	var tt06 = new Date("2018/04/14 22:59");
-	var tt07 = new Date("2018/04/14 22:59");
-	var tt08 = new Date("2018/04/14 22:59");
-	var tt09 = new Date("2018/04/14 22:59");
-	var tt10 = new Date("2018/04/14 22:59");
-	var tt11 = new Date("2018/04/14 22:59");
-	var tt12 = new Date("2018/04/14 22:59");
-	var tt13 = new Date("2018/04/14 22:59");
-	var tt14 = new Date("2018/04/14 22:59");
-	var tt15 = new Date("2018/04/14 22:59");
-	var tt16 = new Date("2018/04/14 22:59");
-	var tt17 = new Date("2018/04/14 22:59");
-	var tt18 = new Date("2018/04/14 22:59");
-	var tt19 = new Date("2018/04/14 22:59");
-	var tt20 = new Date("2018/04/14 22:59");
-	var tt21 = new Date("2018/04/14 22:59");
-	var el01 = document.getElementById('e_01');
-	var el02 = document.getElementById('e_02');
-	var el03 = document.getElementById('e_03');
-	var el04 = document.getElementById('e_04');
-	var el05 = document.getElementById('e_05');
-	var el06 = document.getElementById('e_06');
-	var el07 = document.getElementById('e_07');
-	var el08 = document.getElementById('e_08');
-	var el09 = document.getElementById('e_09');
-	var el10 = document.getElementById('e_10');
-	var el11 = document.getElementById('e_11');
-	var el12 = document.getElementById('e_12');
-	var el13 = document.getElementById('e_13');
-	var el14 = document.getElementById('e_14');
-	var el15 = document.getElementById('e_15');
-	var el16 = document.getElementById('e_16');
-	var el17 = document.getElementById('e_17');
-	var el18 = document.getElementById('e_18');
-	var el19 = document.getElementById('e_19');
-	var el20 = document.getElementById('e_20');
-	var el21 = document.getElementById('e_21');
-	if (now.getTime() > tt01.getTime()){
-		el1.innerText = '今すぐ視聴する';
-	} if (now.getTime() > outs1.getTime()) {
-		el1.innerText = 'ビデオを視聴';
-		el1.href = "https://abema.tv/video/title/90-977";
-	} if (now.getTime() > outs1.getTime()) {
-		texp1.innerText = '放送後いつでも無料で視聴可能！';
-	}
+	// var now = new Date();
+	// var tt01 = new Date("2018/04/15 21:59");
+	// var outs1 = new Date("2018/04/14 22:59");
+	// var tt02 = new Date("2018/04/14 22:59");
+	// var tt03 = new Date("2018/04/14 22:59");
+	// var tt04 = new Date("2018/04/14 22:59");
+	// var tt05 = new Date("2018/04/14 22:59");
+	// var tt06 = new Date("2018/04/14 22:59");
+	// var tt07 = new Date("2018/04/14 22:59");
+	// var tt08 = new Date("2018/04/14 22:59");
+	// var tt09 = new Date("2018/04/14 22:59");
+	// var tt10 = new Date("2018/04/14 22:59");
+	// var tt11 = new Date("2018/04/14 22:59");
+	// var tt12 = new Date("2018/04/14 22:59");
+	// var tt13 = new Date("2018/04/14 22:59");
+	// var tt14 = new Date("2018/04/14 22:59");
+	// var tt15 = new Date("2018/04/14 22:59");
+	// var tt16 = new Date("2018/04/14 22:59");
+	// var tt17 = new Date("2018/04/14 22:59");
+	// var tt18 = new Date("2018/04/14 22:59");
+	// var tt19 = new Date("2018/04/14 22:59");
+	// var tt20 = new Date("2018/04/14 22:59");
+	// var tt21 = new Date("2018/04/14 22:59");
+	// var el01 = document.getElementById('e_01');
+	// var el02 = document.getElementById('e_02');
+	// var el03 = document.getElementById('e_03');
+	// var el04 = document.getElementById('e_04');
+	// var el05 = document.getElementById('e_05');
+	// var el06 = document.getElementById('e_06');
+	// var el07 = document.getElementById('e_07');
+	// var el08 = document.getElementById('e_08');
+	// var el09 = document.getElementById('e_09');
+	// var el10 = document.getElementById('e_10');
+	// var el11 = document.getElementById('e_11');
+	// var el12 = document.getElementById('e_12');
+	// var el13 = document.getElementById('e_13');
+	// var el14 = document.getElementById('e_14');
+	// var el15 = document.getElementById('e_15');
+	// var el16 = document.getElementById('e_16');
+	// var el17 = document.getElementById('e_17');
+	// var el18 = document.getElementById('e_18');
+	// var el19 = document.getElementById('e_19');
+	// var el20 = document.getElementById('e_20');
+	// var el21 = document.getElementById('e_21');
+	// if (now.getTime() > tt01.getTime()){
+	// 	el1.innerText = '今すぐ視聴する';
+	// } if (now.getTime() > outs1.getTime()) {
+	// 	el1.innerText = 'ビデオを視聴';
+	// 	el1.href = "https://abema.tv/video/title/90-977";
+	// } if (now.getTime() > outs1.getTime()) {
+	// 	texp1.innerText = '放送後いつでも無料で視聴可能！';
+	// }
 
 
 $(function(){
