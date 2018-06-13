@@ -126,14 +126,14 @@ var el11 = document.getElementById('s_11');
 var el12 = document.getElementById('s_12');
 var el13 = document.getElementById('s_13');
 
-if (now.getTime() > ss1.getTime()){
+if (now.getTime() > ss01.getTime()){
 	el1.innerText = '今すぐ視聴する';
 } if (now.getTime() > out1.getTime()) {
 	el1.innerText = '放送終了しました';
 	el1.style.backgroundColor = "#bbb";
 	el1.href = "javascript:void(0)";
 }
-if (now.getTime() > ss2.getTime()){
+if (now.getTime() > ss02.getTime()){
 	el2.innerText = '今すぐ視聴する';
 } if (now.getTime() > out2.getTime()) {
 	el2.innerText = '放送終了しました';
