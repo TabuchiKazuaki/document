@@ -18,6 +18,7 @@ $(function(){
 
 
 // 1st
+$(document).ready(function() {
 var now = new Date();
 var tt01 = new Date("2018/04/15 21:59");
 var outs1 = new Date("2018/04/14 22:59");
@@ -88,11 +89,12 @@ if (now.getTime() > ss22.getTime()){
 	texp22.innerText = 'いつでも無料で視聴可能！';
 }
 
-
+});
 
 
 
 // 2nd
+$(document).ready(function() {
 var now = new Date();
 // s_01
 var ss01 = new Date("2018/02/16 01:59");
@@ -147,3 +149,4 @@ if (now.getTime() > ss3.getTime()){
 	el3.style.backgroundColor = "#bbb";
 	el3.href = "javascript:void(0)";
 }
+});
