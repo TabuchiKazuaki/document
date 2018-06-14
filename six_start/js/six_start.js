@@ -63,31 +63,31 @@ var ele18 = document.getElementById('e_18');
 var ele19 = document.getElementById('e_19');
 var ele20 = document.getElementById('e_20');
 var ele21 = document.getElementById('e_21');
-if (now.getTime() > tt01.getTime()){
-	ele1.innerText = '今すぐ視聴する';
-} if (now.getTime() > outs1.getTime()) {
-	el1.innerText = 'ビデオを視聴';
-	el1.href = "https://abema.tv/video/title/90-977";
-} if (now.getTime() > outs1.getTime()) {
-	texp1.innerText = '放送後いつでも無料で視聴可能！';
-}
-if (now.getTime() > ss2.getTime()){
-	el2.innerText = '今すぐ視聴する';
-} if (now.getTime() > outs2.getTime()) {
-	el2.innerText = 'ビデオを視聴';
-	el2.href = "https://abema.tv/video/title/90-964";
-} if (now.getTime() > outs2.getTime()) {
-	texp2.innerText = 'いつでも無料で視聴可能！';
-}
+// if (now.getTime() > tt01.getTime()){
+// 	ele1.innerText = '今すぐ視聴する';
+// } if (now.getTime() > outs1.getTime()) {
+// 	el1.innerText = 'ビデオを視聴';
+// 	el1.href = "https://abema.tv/video/title/90-977";
+// } if (now.getTime() > outs1.getTime()) {
+// 	texp1.innerText = '放送後いつでも無料で視聴可能！';
+// }
+// if (now.getTime() > ss2.getTime()){
+// 	el2.innerText = '今すぐ視聴する';
+// } if (now.getTime() > outs2.getTime()) {
+// 	el2.innerText = 'ビデオを視聴';
+// 	el2.href = "https://abema.tv/video/title/90-964";
+// } if (now.getTime() > outs2.getTime()) {
+// 	texp2.innerText = 'いつでも無料で視聴可能！';
+// }
 
-if (now.getTime() > ss22.getTime()){
-	el22.innerText = '今すぐ視聴する';
-} if (now.getTime() > outs22.getTime()) {
-	el22.innerText = 'ビデオを視聴';
-	el22.href = "https://abema.tv/channels/abema-special/slots/F9KYYWmorf2znb";
-} if (now.getTime() > outs22.getTime()) {
-	texp22.innerText = 'いつでも無料で視聴可能！';
-}
+// if (now.getTime() > ss22.getTime()){
+// 	el22.innerText = '今すぐ視聴する';
+// } if (now.getTime() > outs22.getTime()) {
+// 	el22.innerText = 'ビデオを視聴';
+// 	el22.href = "https://abema.tv/channels/abema-special/slots/F9KYYWmorf2znb";
+// } if (now.getTime() > outs22.getTime()) {
+// 	texp22.innerText = 'いつでも無料で視聴可能！';
+// }
 
 });
 
@@ -131,7 +131,7 @@ var el21 = document.getElementById('s_21');
 // 	el01.href = "javascript:void(0)";
 // }
 // s_02
-var ss02 = new Date("2018/06/16 11:29");
+var ss02 = new Date("2018/06/14 11:29");
 var out2 = new Date("2018/06/16 13:40");
 if (now.getTime() > ss02.getTime()){
 	el02.innerText = '今すぐ視聴する';
@@ -142,8 +142,8 @@ if (now.getTime() > ss02.getTime()){
 }
 
 // s_03
-var ss03 = new Date("2018/06/16 15:29");
-var out3 = new Date("2018/06/17 21:30");
+var ss03 = new Date("2018/02/16 15:29");
+var out3 = new Date("2018/02/17 21:30");
 if (now.getTime() > ss03.getTime()){
 	el03.innerText = '今すぐ視聴する';
 } if (now.getTime() > out3.getTime()) {
