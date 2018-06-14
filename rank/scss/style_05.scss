@@ -1933,14 +1933,13 @@ footer {
 .rank_area_anker{
 	position: absolute;
 	bottom: 22%;
-	left: 0;
-	// width: 100%;
+	left: 5%;
+	width: 90%;
 }
 
 .slider-pro a {
 	display: block;
 	background: #51c300;
-	width: 90%;
 	padding: 4% 0;
 	margin: 0 auto;
 	border-radius: 5px;
@@ -2114,6 +2113,13 @@ footer {
 			border-radius: 5px 5px 0 0;
 		}
 	}
+	.rank_area_anker{
+		position: absolute;
+		bottom: 12%;
+		left: 5%;
+		width: 90%;
+	}
+
 
 }
 
@@ -2262,16 +2268,18 @@ footer {
 		}
 	}
 	.slider-pro a {
-		position: absolute;
-		bottom: 12%;
-		left: 5%;
-		width: 90%;
 		padding: 3.5% 0 3%;
 		border-radius: 5px;
 		font-size: calc(45vw/13);
 		img {
 			border-radius: 5px 5px 0 0;
 		}
+	}
+	.rank_area_anker{
+		position: absolute;
+		bottom: 12%;
+		left: 5%;
+		width: 90%;
 	}
 
 	.sp-arrow {
