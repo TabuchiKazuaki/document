@@ -121,15 +121,15 @@ $(document).ready(function() {
 
 
 	// s_01
-	var ss01 = new Date("2018/02/16 01:59");
-	var out1 = new Date("2018/02/18 02:59");
-	if (now.getTime() > ss01.getTime()){
-		el01.innerText = '今すぐ視聴する';
-	} if (now.getTime() > out1.getTime()) {
-		el01.innerText = '放送終了しました';
-		el01.style.backgroundColor = "#bbb";
-		el01.href = "javascript:void(0)";
-	}
+	// var ss01 = new Date("2018/02/16 01:59");
+	// var out1 = new Date("2018/02/18 02:59");
+	// if (now.getTime() > ss01.getTime()){
+	// 	el01.innerText = '今すぐ視聴する';
+	// } if (now.getTime() > out1.getTime()) {
+	// 	el01.innerText = '放送終了しました';
+	// 	el01.style.backgroundColor = "#bbb";
+	// 	el01.href = "javascript:void(0)";
+	// }
 	// s_02
 	var ss02 = new Date("2018/06/14 11:29");
 	var out2 = new Date("2018/06/16 13:40");
@@ -142,8 +142,8 @@ $(document).ready(function() {
 	}
 
 	// s_03
-	var ss03 = new Date("2018/02/16 15:29");
-	var out3 = new Date("2018/02/17 21:30");
+	var ss03 = new Date("2018/06/16 15:29");
+	var out3 = new Date("2018/06/17 21:30");
 	if (now.getTime() > ss03.getTime()){
 		el03.innerText = '今すぐ視聴する';
 	} if (now.getTime() > out3.getTime()) {
