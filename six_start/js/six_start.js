@@ -251,8 +251,18 @@ $(document).ready(function() {
 	}
 
 	// 13 anime
-	var ss14 = new Date("2018/06/29 22:59");
-	var out14= new Date("2018/07/01 01:15");
+	var ss13 = new Date("2018/06/29 22:59");
+	var out13= new Date("2018/07/01 01:15");
+	if (now.getTime() > ss13.getTime()){
+		el13.innerText = '今すぐ視聴する';
+	} if (now.getTime() > out13.getTime()) {
+		el13.innerText = '放送終了しました';
+		el13.style.backgroundColor = "#bbb";
+		el13.href = "javascript:void(0)";
+	}
+
+	var ss14 = new Date("2018/06/30 11:29");
+	var out14= new Date("2018/06/30 14:00");
 	if (now.getTime() > ss14.getTime()){
 		el14.innerText = '今すぐ視聴する';
 	} if (now.getTime() > out14.getTime()) {
@@ -260,16 +270,6 @@ $(document).ready(function() {
 		el14.style.backgroundColor = "#bbb";
 		el14.href = "javascript:void(0)";
 	}
-
-	// var ss14 = new Date("2018/06/30 11:29");
-	// var out14= new Date("2018/06/20 23:49");
-	// if (now.getTime() > ss04.getTime()){
-	// 	el14.innerText = '今すぐ視聴する';
-	// } if (now.getTime() > out4.getTime()) {
-	// 	el14.innerText = '放送終了しました';
-	// 	el14.style.backgroundColor = "#bbb";
-	// 	el14.href = "javascript:void(0)";
-	// }
 
 	// var ss15 = new Date("2018/06/30 11:29");
 	// var out15= new Date("2018/06/20 23:49");
@@ -281,15 +281,15 @@ $(document).ready(function() {
 	// 	el15.href = "javascript:void(0)";
 	// }
 
-	var ss16 = new Date("2018/06/17 19:59");
-	var out16= new Date("2018/06/25 01:00");
-	if (now.getTime() > ss16.getTime()){
-		el16.innerText = '今すぐ視聴する';
-	} if (now.getTime() > out16.getTime()) {
-		el16.innerText = '放送終了しました';
-		el16.style.backgroundColor = "#bbb";
-		el16.href = "javascript:void(0)";
-	}
+	// var ss17 = new Date("2018/06/17 19:59");
+	// var out17= new Date("2018/06/25 01:00");
+	// if (now.getTime() > ss17.getTime()){
+	// 	el17.innerText = '今すぐ視聴する';
+	// } if (now.getTime() > out17.getTime()) {
+	// 	el17.innerText = '放送終了しました';
+	// 	el17.style.backgroundColor = "#bbb";
+	// 	el17.href = "javascript:void(0)";
+	// }
 
 
 
