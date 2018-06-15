@@ -393,7 +393,7 @@ footer .take { margin: 5% auto 0; padding: 0.7% 0 1%; width: 120px; border-radiu
 @media screen and (max-width: 560px) { .sp-slide { margin: 0 0 0 -12%; }
   .sp-horizontal .sp-next-arrow { background: url(https://goo.gl/EKJt7x) 0 0 repeat-y; background-size: contain; opacity: 0.85; right: 0; left: auto; top: -119px; width: 90px; height: 342px; } }
 @media screen and (max-width: 480px) { .contents { padding: 4% 4% 2%; }
-  .sp-slide { margin: 0 0 0 -16%; }
+  .sp-slide { height: 100% !important; margin: 0 0 10px -16%; }
   .sp-slide .sp-caption { min-height: 70px; max-height: 70px; background-size: 30px 23px; padding: 5% 5% 0 64px; line-height: 1.3; font-size: calc(46vw/12); }
   .sp-slide:nth-child(1) .sp-caption { background: url(https://goo.gl/eXJ1gX) 18px 14px no-repeat; background-size: 32px 25px; }
   .sp-slide:nth-child(2) .sp-caption { background: url(https://goo.gl/aDMkFi) 18px 14px no-repeat; background-size: 32px 25px; }
