@@ -489,6 +489,7 @@ header {
 			position: absolute;
 			top: -1px;
 			right: 0;
+			font-size: 12px;
 		}
 	}
 }
@@ -541,6 +542,7 @@ header {
 			&:after {
 				top: 1px;
 				right: 0;
+				font-size: 11px;
 			}
 		}
 	}
@@ -592,8 +594,10 @@ header {
 				color: #fff;
 			}
 			&:after {
-				top: 1px;
+				top: -1px;
 				right: 0;
+				font-size: 11px;
+
 			}
 		}
 	}

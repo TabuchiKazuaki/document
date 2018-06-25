@@ -482,6 +482,7 @@ header .header_title {
   position: absolute;
   top: -1px;
   right: 0;
+  font-size: 12px;
 }
 
 @media screen and (max-width: 768px) {
@@ -529,6 +530,7 @@ header .header_title {
   .nav_item li:after {
     top: 1px;
     right: 0;
+    font-size: 11px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -574,7 +576,8 @@ header .header_title {
     color: #fff;
   }
   .nav_item li:after {
-    top: 1px;
+    top: -1px;
     right: 0;
+    font-size: 11px;
   }
 }
