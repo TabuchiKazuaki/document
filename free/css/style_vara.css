@@ -296,10 +296,13 @@ header .header_heading {
   }
   .contents .more:after {
     right: 3%;
-    top: 33%;
+    top: 45%;
     background-size: 14px 24px;
     width: 14px;
     height: 24px;
+  }
+  .contents .date_single:after {
+    top: 41%;
   }
 }
 @media screen and (max-width: 640px) {
@@ -374,13 +377,13 @@ header .header_heading {
   }
   .contents .more:after {
     right: 3%;
-    top: 35%;
+    top: 38%;
     background-size: 10px 17px;
     width: 10px;
     height: 17px;
   }
   .contents .date_single:after {
-    top: 33%;
+    top: 33.5%;
   }
 }
 .banner {
