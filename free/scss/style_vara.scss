@@ -326,13 +326,13 @@ header {
 			padding: 3% 4% 0;
 		}
 		.contents_heading {
-			font-size: calc(54vw/12);
+			font-size: calc(56vw/12);
 			line-height: 1.4;
 			letter-spacing: 1.3px;
 		}
 		.title {
 			margin: 2% 0 0;
-			font-size: calc(39vw/12);
+			font-size: calc(42vw/12);
 			line-height: 1.6;
 		}
 		.new {
@@ -390,10 +390,15 @@ header {
 			}
 			&:after {
 				right: 3%;
-				top: 38%;
+				top: 35%;
 				background-size: 14px 24px;
 				width: 14px;
 				height: 24px;
+			}
+		}
+		.date_single {
+			&:after {
+				top: 33%;
 			}
 		}
 	}
