@@ -212,13 +212,13 @@ header {
 .ani_list01 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 3s 1 forwards; }
 
 
-
-
-
 .contents {
 	max-width: 800px;
 	padding: 80px 0 0;
 	margin: 0 auto;
+	&:first-of-type {
+		padding: 30px 4% 0;
+	}
 	.contents_heading {
 		font-size: 35px;
 		font-weight: bold;
@@ -236,7 +236,7 @@ header {
 		&:before {
 			content: 'NEW';
 			position: absolute;
-			top: 7%;
+			top: 5px;
 			left: 0;
 			background: #ec2840;
 			width: 9%;
@@ -246,11 +246,6 @@ header {
 			text-indent: 0;
 			text-align: center;
 			color: #fff;
-		}
-	}
-	.point_free {
-		&:before {
-			content: '一部無料';
 		}
 	}
 
@@ -275,13 +270,10 @@ header {
 				top: 0;
 				width: 100% !important;
 				height: 100% !important;
-				border-radius: 4px 4px 0 0;
-				body {
-					border-radius: 4px 4px 0 0 !important;
-				}
 			}
 		}
 	}
+
 	.more {
 		position: relative;
 		background: #171717;
@@ -296,6 +288,7 @@ header {
 			letter-spacing: 1.5px;
 			color: #56c123;
 			span {
+				font-size: 23px;
 				color: #fff;
 			}
 
@@ -322,45 +315,72 @@ header {
 @media screen and (max-width: 768px) {
 
 	.contents {
-		padding: 6% 4% 0;
+		padding: 7% 4% 0;
+		&:first-of-type {
+			padding: 3% 4% 0;
+		}
 		.contents_heading {
-			font-size: calc(50vw/12);
+			font-size: calc(52vw/12);
 			line-height: 1.3;
 			letter-spacing: 1.3px;
 		}
-
-		.date {
+		.title {
 			margin: 2% 0 0;
-			font-size: calc(45vw/12);
-			letter-spacing: 1.4px;
-			color: #8c8c8c;
+			font-size: calc(39vw/12);
+			line-height: 1.6;
 		}
-		.all_free , .point_free {
+		.new {
 			position: relative;
-			padding: 0 0 0 19%;
+			text-indent: 12%;
 			&:before {
-				top: 16%;
+				content: 'NEW';
+				position: absolute;
+				top: 10px;
 				left: 0;
-				width: 15%;
-				padding: 0.8% 0;
+				background: #ec2840;
+				width: 8%;
+				padding: 1px 0;
 				border-radius: 4px;
-				font-size: calc(28vw/12);
+				font-size: 12px;
+				text-indent: 0;
+				text-align: center;
+				color: #fff;
 			}
 		}
 
 		.inner {
 			margin: 4% 0 0;
 			border-radius: 4px;
-			img {
-				border-radius: 6px 6px 0 0;
+			.movie_wrap {
+				.movie_inner {
+					position: relative;
+					width: 100%;
+					padding-top: 56.25%;
+					margin: 18px auto 0;
+
+				}
+				iframe {
+					position: absolute;
+					z-index: 5;
+					left: 0;
+					top: 0;
+					width: 100% !important;
+					height: 100% !important;
+				}
 			}
 		}
+
 		.more {
 			border-radius: 0 0 6px 6px;
 			a {
 				padding: 4% 0;
 				font-size: calc(43vw/12);
 				letter-spacing: 1.2px;
+				span {
+					font-size: calc(38vw/12);
+					color: #fff;
+				}
+
 			}
 			&:after {
 				right: 3%;
@@ -373,55 +393,93 @@ header {
 	}
 }
 
+@media screen and (max-width: 640px) {
+
+	.contents {
+		.new {
+			&:before {
+				top: 6px;
+			}
+		}
+	}
+}
+
 @media screen and (max-width: 480px) {
 
 	.contents {
-		padding: 8% 5% 0;
+		padding: 7% 4% 0;
+		&:first-of-type {
+			padding: 3% 4% 0;
+		}
 		.contents_heading {
-			font-size: calc(53vw/12);
+			font-size: calc(52vw/12);
 			line-height: 1.3;
 			letter-spacing: 1.3px;
 		}
-
-		.date {
+		.title {
 			margin: 2% 0 0;
-			font-size: calc(45vw/12);
-			letter-spacing: 1.4px;
-			color: #8c8c8c;
+			font-size: calc(39vw/12);
+			line-height: 1.6;
 		}
-		.all_free , .point_free {
+		.new {
 			position: relative;
-			padding: 0 0 0 19%;
+			text-indent: 14%;
 			&:before {
-				top: 3%;
+				content: 'NEW';
+				position: absolute;
+				top: 4px;
 				left: 0;
-				width: 16%;
-				padding: 0.8% 0;
-				border-radius: 3px;
-				font-size: calc(28vw/12);
+				background: #ec2840;
+				width: 10%;
+				padding: 0.5px 0;
+				border-radius: 4px;
+				font-size: 10px;
+				text-indent: 0;
+				text-align: center;
+				color: #fff;
 			}
 		}
 
 		.inner {
-			margin: 20px 0 0;
+			margin: 4% 0 0;
 			border-radius: 4px;
-			img {
-				border-radius: 6px 6px 0 0;
+			.movie_wrap {
+				.movie_inner {
+					position: relative;
+					width: 100%;
+					padding-top: 56.25%;
+					margin: 18px auto 0;
+
+				}
+				iframe {
+					position: absolute;
+					z-index: 5;
+					left: 0;
+					top: 0;
+					width: 100% !important;
+					height: 100% !important;
+				}
 			}
 		}
+
 		.more {
 			border-radius: 0 0 6px 6px;
 			a {
-				padding: 5% 0;
-				font-size: calc(44vw/12);
-				letter-spacing: 1px;
+				padding: 4% 0;
+				font-size: calc(43vw/12);
+				letter-spacing: 1.2px;
+				span {
+					font-size: calc(38vw/12);
+					color: #fff;
+				}
+
 			}
 			&:after {
 				right: 3%;
-				top: 33%;
-				background-size: 10px 17px;
-				width: 10px;
-				height: 17px;
+				top: 38%;
+				background-size: 14px 24px;
+				width: 14px;
+				height: 24px;
 			}
 		}
 	}
