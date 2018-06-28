@@ -153,15 +153,15 @@ $(document).ready(function() {
 	}
 
 	// s_04
-	var ss04 = new Date("2018/06/17 21:29");
-	var out4= new Date("2018/06/20 23:49");
-	if (now.getTime() > ss04.getTime()){
-		el04.innerText = '今すぐ視聴する';
-	} if (now.getTime() > out4.getTime()) {
-		el04.innerText = '放送終了しました';
-		el04.style.backgroundColor = "#bbb";
-		el04.href = "javascript:void(0)";
-	}
+	// var ss04 = new Date("2018/06/17 21:29");
+	// var out4= new Date("2018/06/20 23:49");
+	// if (now.getTime() > ss04.getTime()){
+	// 	el04.innerText = '今すぐ視聴する';
+	// } if (now.getTime() > out4.getTime()) {
+	// 	el04.innerText = '放送終了しました';
+	// 	el04.style.backgroundColor = "#bbb";
+	// 	el04.href = "javascript:void(0)";
+	// }
 
 	// s_05
 	// var ss05 = new Date("2018/04/14 22:59");
