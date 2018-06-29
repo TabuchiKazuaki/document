@@ -410,8 +410,8 @@ header {
 		}
 	}
 }
-@media screen and (max-width: 480px) {
 
+@media screen and (max-width: 480px) {
 	.contents {
 		padding: 8% 5% 0;
 		.contents_heading {
@@ -478,8 +478,58 @@ header {
 }
 
 
+@media screen and (max-width: 414px) {
+	.contents {
+		.inner_btn {
+			figure{
+				a {
+					&:before {
+						top: 32%;
+						left: 38%;
+						background-size: 75px 75px;
+						width: 75px;
+						height: 75px;
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 375px) {
+	.contents {
+		.inner_btn {
+			figure{
+				a {
+					&:before {
+						top: 34%;
+						left: 39%;
+						background-size: 65px 65px;
+						width: 65px;
+						height: 65px;
+					}
+				}
+			}
+		}
+	}
+}
 
-
+@media screen and (max-width: 320px) {
+	.contents {
+		.inner_btn {
+			figure{
+				a {
+					&:before {
+						top: 35%;
+						left: 39%;
+						background-size: 55px 55px;
+						width: 55px;
+						height: 55px;
+					}
+				}
+			}
+		}
+	}
+}
 
 
 
