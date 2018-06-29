@@ -279,7 +279,7 @@ header {
 					position: absolute;
 					top: 36%;
 					left: 42%;
-					background: url(https://goo.gl/kN236C) 0 0 no-repeat;
+					background: url(https://goo.gl/5152om) 0 0 no-repeat;
 					background-size: 126px 126px;
 					width: 126px;
 					height: 126px;
@@ -287,7 +287,6 @@ header {
 				}
 			}
 		}
-
 	}
 	.more {
 		position: relative;
@@ -357,6 +356,19 @@ header {
 				border-radius: 6px 6px 0 0;
 			}
 		}
+		.inner_btn {
+			figure{
+				a {
+					&:before {
+						top: 33%;
+						left: 41%;
+						background-size: 105px 105px;
+						width: 105px;
+						height: 105px;
+					}
+				}
+			}
+		}
 		.more {
 			border-radius: 0 0 6px 6px;
 			a {
@@ -375,6 +387,23 @@ header {
 	}
 }
 
+@media screen and (max-width: 480px) {
+	.contents {
+		.inner_btn {
+			figure{
+				a {
+					&:before {
+						top: 33%;
+						left: 41%;
+						background-size: 80px 80px;
+						width: 80px;
+						height: 80px;
+					}
+				}
+			}
+		}
+	}
+}
 @media screen and (max-width: 480px) {
 
 	.contents {
