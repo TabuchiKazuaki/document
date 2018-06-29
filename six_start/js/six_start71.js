@@ -42,8 +42,8 @@ var ele19 = document.getElementById('e_19');
 var ele20 = document.getElementById('e_20');
 var ele21 = document.getElementById('e_21');
 
-var tt02 = new Date("2018/04/02 22:59");
-var outs2 = new Date("2018/04/10 00:50");
+var tt02 = new Date("2018/07/02 22:59");
+var outs2 = new Date("2018/07/10 00:50");
 if (now.getTime() > tt02.getTime()){
 	ele02.innerText = '今すぐ視聴する';
 } if (now.getTime() > outs2.getTime()) {
@@ -52,8 +52,8 @@ if (now.getTime() > tt02.getTime()){
 	ele02.href = "javascript:void(0)";
 }
 
-var tt07 = new Date("2018/04/05 22:59");
-var outs7 = new Date("2018/04/13 00:50");
+var tt07 = new Date("2018/07/05 22:59");
+var outs7 = new Date("2018/07/13 00:50");
 if (now.getTime() > tt07.getTime()){
 	ele07.innerText = '今すぐ視聴する';
 } if (now.getTime() > outs7.getTime()) {
@@ -62,8 +62,8 @@ if (now.getTime() > tt07.getTime()){
 	ele07.href = "javascript:void(0)";
 }
 
-var tt17 = new Date("2018/04/11 22:59");
-var outs17 = new Date("2018/04/15 00:51");
+var tt17 = new Date("2018/07/11 22:59");
+var outs17 = new Date("2018/07/15 00:51");
 if (now.getTime() > tt17.getTime()){
 	ele17.innerText = '今すぐ視聴する';
 } if (now.getTime() > outs17.getTime()) {
