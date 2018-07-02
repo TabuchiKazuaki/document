@@ -1052,8 +1052,8 @@ img {
 .cast_sp .cast_inner_sp .cast_mens_item_mens_sp:after {
   content: '';
   position: absolute;
-  top: -200%;
-  left: 43%;
+  top: -172%;
+  left: 44%;
   background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/423150/d43937ca898813d3f909fcb75390d766_be61948c8c6d82e5b220f8bf157c1d83.png) 0 0 no-repeat;
   background-size: 60px 60px;
   width: 60px;
@@ -1169,7 +1169,7 @@ img {
     top: 4px;
     left: 0%;
     font-weight: bold;
-    font-size: 13px;
+    font-size: calc(40vw/13);
     letter-spacing: 1.3px;
     z-index: 1;
     color: #ff4bac;
@@ -1213,7 +1213,7 @@ img {
   .cast_sp .cast_inner_sp .nickname {
     margin: 10% 0 0;
     font-weight: bold;
-    font-size: calc(36vw/12);
+    font-size: calc(50vw/12);
     white-space: nowrap;
   }
   .cast_sp .cast_inner_sp .name {
