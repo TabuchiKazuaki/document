@@ -441,7 +441,7 @@ footer {
 						&:after {
 							top: 0;
 							left: 12px;
-							font-size: 28px;
+							font-size: calc(46vw/12);
 						}
 					}
 				}
@@ -457,7 +457,7 @@ footer {
 						&:after {
 							top: 0;
 							left: 12px;
-							font-size: 28px;
+							font-size: calc(46vw/12);
 						}
 					}
 				}
@@ -473,7 +473,7 @@ footer {
 						&:after {
 							top: 0;
 							left: 12px;
-							font-size: 28px;
+							font-size: calc(46vw/12);
 						}
 					}
 				}
@@ -489,7 +489,7 @@ footer {
 						&:after {
 							top: 0;
 							left: 12px;
-							font-size: 28px;
+							font-size: calc(46vw/12);
 						}
 					}
 				}
@@ -497,22 +497,18 @@ footer {
 					padding: 0 0 0 9%;
 					font-size: calc(45vw/12);
 					span {
-						display: block;
-						margin: 10px 0 0;
-						line-height: 1.4;
-						font-size: 26px;
-						color: #979797;
+						margin: 4% 0 0;
+						line-height: 1.5;
+						font-size: calc(38vw/12);
 					}
 					.span_inner {
-						margin: 10px 0 10px;
-						font-size: 28px;
-						color: #fff;
+						margin: 2% 0 2%;
+						font-size: calc(42vw/12);
 					}
 				}
 
 				figure {
-					margin: 10px auto 0;
-					text-align: center;
+					margin: 4% auto 0;
 					img {
 						width: 60%;
 					}
@@ -521,7 +517,7 @@ footer {
 		}
 		.content_item {
 			overflow: hidden;
-			margin: 30px 0 0;
+			margin: 5% 0 0;
 			dd {
 				float: left;
 				width: 32.5%;
@@ -540,7 +536,7 @@ footer {
 					margin: 1.2% 0 0 1.2%;
 				}
 				img {
-					border-radius: 4px;
+					border-radius: 6px;
 				}
 			}
 		}
@@ -548,34 +544,30 @@ footer {
 
 
 	.howto {
-		padding: 0 0 0;
+		padding: 0 5% 0;
 		.howto_wrap {
-			max-width: 800px;
-			padding: 80px 0 0;
-			margin: 60px auto 0;
-			border-top: 1px solid #979797;
+			padding: 8% 0 0;
+			margin: 6% auto 0;
 		}
 		.howto_heading {
 			text-align: center;
-			font-size: 45px;
+			font-size: calc(55vw/12);
 			font-weight: normal;
 		}
 
 		.howto_inner {
-			margin: 80px 10px 0;
+			margin: 8% 4% 0;
 			li {
 				padding: 0 0 0;
 			}
 			.howto_title {
-				padding: 0 0 0 30px;
-				border-left: 8px solid #7fc32e;
-				font-size: 35px;
-				line-height: 1.4;
-				font-weight: normal;
+				padding: 0 0 0 5%;
+				border-left: 5px solid #7fc32e;
+				font-size: calc(50vw/12);
+				line-height: 1.5;
 			}
 			figure {
-				max-width: 640px;
-				margin: 20px auto 0;
+				margin: 5% auto 0;
 				text-align: center;
 				img {
 				}
@@ -585,29 +577,29 @@ footer {
 
 
 	footer {
-		margin: 60px 0 0;
+		padding: 0 5%;
+		margin: 8% 0 0;
 
 		.footer_wrap {
-			max-width: 800px;
-			padding: 35px 0 115px;
+			padding: 5% 0 18%;
 			margin: 0 auto 0;
 			border-top: 1px solid #979797;
 			text-align: center;
 
 			small {
-				font-size: 19px;
+				font-size: calc(32vw/12);
 				color: #979797;
 			}
 		}
 	}
 }
 
+
+
+
 @media screen and (max-width: 480px) {
 
 }
-
-
-
 
 
 
@@ -651,8 +643,28 @@ footer {
 	}
 }
 
+@media screen and (max-width: 768px) {
+	.fixed_btn {
+		margin: 0 auto;
+
+		a {
+			padding: 4% 0;
+			font-size: calc(57vw/12);
+
+			&:after {
+				top: 39%;
+				right: 5%;
+				background-size: 16px 27px;
+				width: 16px;
+				height: 27px;
+			}
+		}
+	}
+}
 
 
 
 
+@media screen and (max-width: 480px) {
 
+}

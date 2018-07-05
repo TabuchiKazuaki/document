@@ -415,7 +415,7 @@ footer .footer_wrap small {
   .contents .contents_inner li:nth-child(1) .content_title:after {
     top: 0;
     left: 12px;
-    font-size: 28px;
+    font-size: calc(46vw/12);
   }
   .contents .contents_inner li:nth-child(2) .content_title:before {
     top: -4px;
@@ -426,7 +426,7 @@ footer .footer_wrap small {
   .contents .contents_inner li:nth-child(2) .content_title:after {
     top: 0;
     left: 12px;
-    font-size: 28px;
+    font-size: calc(46vw/12);
   }
   .contents .contents_inner li:nth-child(3) .content_title:before {
     top: -4px;
@@ -437,7 +437,7 @@ footer .footer_wrap small {
   .contents .contents_inner li:nth-child(3) .content_title:after {
     top: 0;
     left: 12px;
-    font-size: 28px;
+    font-size: calc(46vw/12);
   }
   .contents .contents_inner li:nth-child(4) .content_title:before {
     top: -4px;
@@ -448,34 +448,30 @@ footer .footer_wrap small {
   .contents .contents_inner li:nth-child(4) .content_title:after {
     top: 0;
     left: 12px;
-    font-size: 28px;
+    font-size: calc(46vw/12);
   }
   .contents .contents_inner li .content_title {
     padding: 0 0 0 9%;
     font-size: calc(45vw/12);
   }
   .contents .contents_inner li .content_title span {
-    display: block;
-    margin: 10px 0 0;
-    line-height: 1.4;
-    font-size: 26px;
-    color: #979797;
+    margin: 4% 0 0;
+    line-height: 1.5;
+    font-size: calc(38vw/12);
   }
   .contents .contents_inner li .content_title .span_inner {
-    margin: 10px 0 10px;
-    font-size: 28px;
-    color: #fff;
+    margin: 2% 0 2%;
+    font-size: calc(42vw/12);
   }
   .contents .contents_inner li figure {
-    margin: 10px auto 0;
-    text-align: center;
+    margin: 4% auto 0;
   }
   .contents .contents_inner li figure img {
     width: 60%;
   }
   .contents .content_item {
     overflow: hidden;
-    margin: 30px 0 0;
+    margin: 5% 0 0;
   }
   .contents .content_item dd {
     float: left;
@@ -495,54 +491,50 @@ footer .footer_wrap small {
     margin: 1.2% 0 0 1.2%;
   }
   .contents .content_item dd img {
-    border-radius: 4px;
+    border-radius: 6px;
   }
 
   .howto {
-    padding: 0 0 0;
+    padding: 0 5% 0;
   }
   .howto .howto_wrap {
-    max-width: 800px;
-    padding: 80px 0 0;
-    margin: 60px auto 0;
-    border-top: 1px solid #979797;
+    padding: 8% 0 0;
+    margin: 6% auto 0;
   }
   .howto .howto_heading {
     text-align: center;
-    font-size: 45px;
+    font-size: calc(55vw/12);
     font-weight: normal;
   }
   .howto .howto_inner {
-    margin: 80px 10px 0;
+    margin: 8% 4% 0;
   }
   .howto .howto_inner li {
     padding: 0 0 0;
   }
   .howto .howto_inner .howto_title {
-    padding: 0 0 0 30px;
-    border-left: 8px solid #7fc32e;
-    font-size: 35px;
-    line-height: 1.4;
-    font-weight: normal;
+    padding: 0 0 0 5%;
+    border-left: 5px solid #7fc32e;
+    font-size: calc(50vw/12);
+    line-height: 1.5;
   }
   .howto .howto_inner figure {
-    max-width: 640px;
-    margin: 20px auto 0;
+    margin: 5% auto 0;
     text-align: center;
   }
 
   footer {
-    margin: 60px 0 0;
+    padding: 0 5%;
+    margin: 8% 0 0;
   }
   footer .footer_wrap {
-    max-width: 800px;
-    padding: 35px 0 115px;
+    padding: 5% 0 18%;
     margin: 0 auto 0;
     border-top: 1px solid #979797;
     text-align: center;
   }
   footer .footer_wrap small {
-    font-size: 19px;
+    font-size: calc(32vw/12);
     color: #979797;
   }
 }
@@ -577,4 +569,21 @@ footer .footer_wrap small {
   background-size: 16px 27px;
   width: 16px;
   height: 27px;
+}
+
+@media screen and (max-width: 768px) {
+  .fixed_btn {
+    margin: 0 auto;
+  }
+  .fixed_btn a {
+    padding: 4% 0;
+    font-size: calc(57vw/12);
+  }
+  .fixed_btn a:after {
+    top: 39%;
+    right: 5%;
+    background-size: 16px 27px;
+    width: 16px;
+    height: 27px;
+  }
 }
