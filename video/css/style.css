@@ -199,7 +199,13 @@ header .header_text {
 .contents .contents_inner {
   margin: 60px 0 0;
 }
-.contents .contents_inner li:nth-child(1) .content_title :before {
+.contents .contents_inner li {
+  margin: 30px 0 0;
+}
+.contents .contents_inner li:nth-child(1) {
+  margin: 0;
+}
+.contents .contents_inner li:nth-child(1) .content_title:before {
   content: '';
   position: absolute;
   top: -3px;
@@ -217,7 +223,7 @@ header .header_text {
   font-size: 28px;
   color: #fff;
 }
-.contents .contents_inner li:nth-child(2) .content_title :before {
+.contents .contents_inner li:nth-child(2) .content_title:before {
   content: '';
   position: absolute;
   top: -3px;
@@ -235,7 +241,7 @@ header .header_text {
   font-size: 28px;
   color: #fff;
 }
-.contents .contents_inner li:nth-child(3) .content_title :before {
+.contents .contents_inner li:nth-child(3) .content_title:before {
   content: '';
   position: absolute;
   top: -3px;
@@ -253,7 +259,7 @@ header .header_text {
   font-size: 28px;
   color: #fff;
 }
-.contents .contents_inner li:nth-child(4) .content_title :before {
+.contents .contents_inner li:nth-child(4) .content_title:before {
   content: '';
   position: absolute;
   top: -3px;
