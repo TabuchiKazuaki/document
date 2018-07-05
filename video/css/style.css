@@ -173,11 +173,15 @@ header .header_text {
 }
 
 .contents {
+  padding: 60px 0 0;
+}
+.contents:first-of-type {
   padding: 0 0 0;
 }
 .contents .contents_wrap {
   border-top: 1px solid #979797;
   max-width: 800px;
+  padding: 50px 0 0;
   margin: 60px auto 0;
 }
 .contents:nth-of-type(1) {

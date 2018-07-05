@@ -162,11 +162,16 @@ header {
 .ani_list01 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 1s 1 forwards; }
 
 .contents {
-	padding: 0 0 0;
+	padding: 60px 0 0;
+
+	&:first-of-type {
+		padding: 0 0 0;
+	}
 
 	.contents_wrap {
 		border-top: 1px solid #979797;
 		max-width: 800px;
+		padding: 50px 0 0;
 		margin: 60px auto 0;
 	}
 	&:nth-of-type(1) {
