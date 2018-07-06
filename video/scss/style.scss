@@ -432,14 +432,14 @@ footer {
 					margin: 0;
 					.content_title {
 						&:before {
-							top: -4px;
+							top: -5px;
 							left: 0;
 							width: 40px;
 							height: 40px;
 						}
 
 						&:after {
-							top: 0;
+							top: -2px;
 							left: 12px;
 							font-size: calc(46vw/12);
 						}
@@ -448,15 +448,15 @@ footer {
 				&:nth-child(2) {
 					.content_title {
 						&:before {
-							top: -4px;
+							top: -5px;
 							left: 0;
 							width: 40px;
 							height: 40px;
 						}
 
 						&:after {
-							top: 0;
-							left: 12px;
+							top: -1px;
+							left: 13px;
 							font-size: calc(46vw/12);
 						}
 					}
@@ -495,7 +495,7 @@ footer {
 				}
 				.content_title {
 					padding: 0 0 0 9%;
-					font-size: calc(45vw/12);
+					font-size: calc(55vw/12);
 					span {
 						margin: 4% 0 0;
 						line-height: 1.5;
@@ -536,7 +536,7 @@ footer {
 					margin: 1.2% 0 0 1.2%;
 				}
 				img {
-					border-radius: 6px;
+					border-radius: 5px;
 				}
 			}
 		}
