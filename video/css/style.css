@@ -994,3 +994,19 @@ footer .footer_wrap small {
     height: 16px;
   }
 }
+@media screen and (max-width: 320px) {
+  .fixed_btn {
+    margin: 0 auto;
+  }
+  .fixed_btn a {
+    padding: 4% 0;
+    font-size: calc(55vw/12);
+  }
+  .fixed_btn a:after {
+    top: 37%;
+    right: 5%;
+    background-size: 10px 16px;
+    width: 10px;
+    height: 16px;
+  }
+}
