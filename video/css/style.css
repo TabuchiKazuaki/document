@@ -777,3 +777,19 @@ footer .footer_wrap small {
     height: 27px;
   }
 }
+@media screen and (max-width: 480px) {
+  .fixed_btn {
+    margin: 0 auto;
+  }
+  .fixed_btn a {
+    padding: 4% 0;
+    font-size: calc(54vw/12);
+  }
+  .fixed_btn a:after {
+    top: 40%;
+    right: 5%;
+    background-size: 10px 16px;
+    width: 10px;
+    height: 16px;
+  }
+}
