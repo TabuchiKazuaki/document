@@ -1,6 +1,6 @@
 $(function(){
     var $setElm = $('.title');
-    var cutFigure = '26'; // カットする文字数
+    var cutFigure = '34'; // カットする文字数
     var afterTxt = ' …'; // 文字カット後に表示するテキスト
 
     $setElm.each(function(){
