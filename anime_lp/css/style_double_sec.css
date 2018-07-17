@@ -1,8 +1,9 @@
 body { line-height: 1; min-width: 320px; font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important; color: #000; margin: 0 auto; background: none; }
 
-.section_wrap { background: #efefef; background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #efefef), color-stop(93%, #efefef), color-stop(93%, #000000), color-stop(93%, #efefef), to(#000000)); background: linear-gradient(to bottom, #efefef 25%, #efefef 93%, #000000 93%, #efefef 93%, #000000 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#000000',GradientType=0 ); }
+.section_wrap { background: #efefef; background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #efefef), color-stop(93%, #efefef), color-stop(93%, #000000), color-stop(93%, #efefef), to(#000000)); background: linear-gradient(to bottom, #efefef 25%, #efefef 93%, #000000 93%, #efefef 93%, #000000 100%); }
 
 .contents { padding: 50px 0 0; }
 
-@media screen and (max-width: 768px) { .contents { padding: 0 0 0; } }
+@media screen and (max-width: 768px) { .section_wrap { background: none; }
+  .contents { padding: 0 0 0; } }
 @media screen and (max-width: 480px) { .contents { padding: 0 0 2%; } }

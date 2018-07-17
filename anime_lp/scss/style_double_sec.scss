@@ -5,14 +5,16 @@ body { line-height: 1; min-width: 320px; font-family: -apple-system, blinkMacSys
 .section_wrap {
 	background: #efefef;
 	background: -moz-linear-gradient(top, #efefef 25%, #efefef 93%, #000000 93%, #efefef 93%, #000000 100%);
-background: -webkit-linear-gradient(top, #efefef 25%,#efefef 93%,#000000 93%,#efefef 93%,#000000 100%);
-background: linear-gradient(to bottom, #efefef 25%,#efefef 93%,#000000 93%,#efefef 93%,#000000 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#000000',GradientType=0 );
+	background: -webkit-linear-gradient(top, #efefef 25%,#efefef 93%,#000000 93%,#efefef 93%,#000000 100%);
+	background: linear-gradient(to bottom, #efefef 25%,#efefef 93%,#000000 93%,#efefef 93%,#000000 100%);
 }
 .contents {
 	padding: 50px 0 0;
 }
 @media screen and (max-width: 768px) {
+	.section_wrap {
+		background: none;
+	}
 	.contents {
 		padding: 0 0 0;
 	}
