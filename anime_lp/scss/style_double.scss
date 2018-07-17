@@ -644,7 +644,7 @@ header {
 					margin: 4% 0 0;
 
 					&:nth-child(1):before {
-						top: 1px;
+						top: -1px;
 						left: 5px;
 						width: 20px;
 						height: 20px;
@@ -652,14 +652,14 @@ header {
 						margin: 0;
 					}
 					&:nth-child(1):after {
-						top: 2px;
+						top: 0px;
 						left: 10px;
 						font-size: 15px;
 						padding: 0;
 						margin: 0;
 					}
 					&:nth-child(2):before {
-						top: 1px;
+						top: -1px;
 						left: 5px;
 						width: 20px;
 						height: 20px;
@@ -667,7 +667,7 @@ header {
 						margin: 0;
 					}
 					&:nth-child(2):after {
-						top: 2px;
+						top: 0px;
 						left: 10px;
 						font-size: 15px;
 						padding: 0;
@@ -704,12 +704,12 @@ header {
 				.date {
 					font-size: calc(48vw/13);
 					font-weight: normal;
-					letter-spacing: 1.2px;
+					letter-spacing: 1px;
 					color: #919191;
 				}
 				.title {
 					margin: 3% 0 8%;
-					font-size: calc(52vw/13);
+					font-size: calc(56vw/13);
 					line-height: 1.3;
 					font-weight:bold;
 					color: #000;
@@ -727,7 +727,7 @@ header {
 		margin: 3% 0 5%;
 		.contents_heading {
 			line-height: 1.3;
-			font-size: calc(64vw/13);
+			font-size: calc(68vw/13);
 		}
 		.inner_wrap {
 			margin: 3% 0 0;
@@ -762,7 +762,7 @@ header {
 		.inner_box {
 			padding: 7.5%;
 			.title {
-				font-size: calc(50vw/13);
+				font-size: calc(54vw/13);
 				line-height: 1.3;
 			}
 			.title_pic {
@@ -778,15 +778,15 @@ header {
 		}
 		.footer_item {
 			li {
-				line-height: 1.5;
-				font-size: calc(20vw/14);
+				line-height: 1.6;
+				font-size: calc(28vw/14);
 			}
 		}
 		small {
 			padding: 3% 0 0;
 			margin: 3% 0 0;
 			border-top: 1px solid #9f9f9f;
-			font-size: calc(20vw/14);
+			font-size: calc(23vw/14);
 		}
 	}
 }
