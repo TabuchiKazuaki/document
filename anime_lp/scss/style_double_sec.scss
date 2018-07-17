@@ -3,7 +3,11 @@ body { line-height: 1; min-width: 320px; font-family: -apple-system, blinkMacSys
 }
 
 .section_wrap {
-	background:none;
+	background: #efeefe;
+	background: -moz-linear-gradient(top, #efeefe 25%, #efeefe 51%, #000000 71%, #000000 71%, #000000 94%);
+	background: -webkit-linear-gradient(top, #efeefe 25%,#efeefe 51%,#000000 71%,#000000 71%,#000000 94%);
+	background: linear-gradient(to bottom, #efeefe 25%,#efeefe 51%,#000000 71%,#000000 71%,#000000 94%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efeefe', endColorstr='#000000',GradientType=0 );
 }
 .contents {
 	padding: 50px 0 0;
