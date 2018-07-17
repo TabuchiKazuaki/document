@@ -5,3 +5,13 @@ body { line-height: 1; min-width: 320px; font-family: -apple-system, blinkMacSys
 .contents {
 	padding: 50px 0 0;
 }
+@media screen and (max-width: 768px) {
+	.contents {
+		padding: 0 0 0;
+	}
+}
+@media screen and (max-width: 480px) {
+	.contents {
+		padding: 0 0 2%;
+	}
+}
