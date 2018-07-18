@@ -126,8 +126,8 @@ if (now.getTime() > tt_10.getTime()){
 	ele10.innerText = 'ビデオを視聴する';
 	ele10.href = "https://abema.tv/video/episode/248-3_s0_p1";
 }
-var tt_11 = new Date("2018/06/29 00:00");
-var out11 = new Date("2018/06/28 01:00");
+var tt_11 = new Date("2018/06/28 00:00");
+var out11 = new Date("2018/06/29 00:52");
 if (now.getTime() > tt_11.getTime()){
 	ele11.innerText = '今すぐ視聴する';
 } if (now.getTime() > out11.getTime()) {
