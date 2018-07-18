@@ -34,6 +34,8 @@ var ele22 = document.getElementById('s_22');
 var ele23 = document.getElementById('s_23');
 
 
+
+
 var tt_13 = new Date("2018/06/16 23:00");
 var out13 = new Date("2018/06/17 00:00");
 if (now.getTime() > tt_13.getTime()){
@@ -42,6 +44,17 @@ if (now.getTime() > tt_13.getTime()){
 	ele13.innerText = 'ビデオを視聴する';
 	ele13.href = "https://abema.tv/video/episode/90-1061";
 }
+var hosi = new Date("2018/06/23 23:00");
+var hosi_out = new Date("2018/06/23 23:30");
+if (now.getTime() > hosi.getTime()){
+	ele13.innerText = '今すぐ視聴する';
+	ele13.href = "https://abema.tv/channels/special-plus/slots/DWLco1kiv9TudR";
+	$('#img_02').show();
+	$('#img_01').hide();
+} if (now.getTime() > hosi_out.getTime()) {
+	ele13.innerText = 'ビデオを視聴する';
+}
+
 var tt_14 = new Date("2018/06/28 10:00");
 var out14 = new Date("2018/06/28 10:30");
 if (now.getTime() > tt_14.getTime()){
