@@ -41,8 +41,8 @@ var out13 = new Date("2018/07/17 00:00");
 if (now.getTime() > tt_13.getTime()){
 	ele13.innerText = '今すぐ視聴する';
 } if (now.getTime() > out13.getTime()) {
-	ele13.innerText = 'ビデオを視聴する';
-	ele13.href = "https://abema.tv/video/episode/90-1061";
+	ele13.innerText = '視聴予約する';
+	ele13.href = "https://abema.tv/channels/special-plus/slots/DWLco1kiv9TudR";
 }
 var hosi = new Date("2018/07/23 23:00");
 var hosi_out = new Date("2018/07/23 23:30");
