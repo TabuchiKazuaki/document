@@ -45,7 +45,7 @@ if (now.getTime() > tt_01.getTime()){
 var ttb_02 = new Date("2018/06/16 23:00");
 var tt_02 = new Date("2018/06/19 00:50");
 var out02 = new Date("2018/06/20 00:50");
-if (now.getTime() > tt_02.getTime()){
+if (now.getTime() > ttb_02.getTime()){
 	ele02.innerText = '今すぐ視聴する';
 }
 if (now.getTime() > tt_02.getTime()){
@@ -54,7 +54,7 @@ if (now.getTime() > tt_02.getTime()){
 } if (now.getTime() > out02.getTime()) {
 	ele02.innerText = '放送終了しました';
 	ele02.style.backgroundColor = "#bbb";
-	ele02.href = "https://abema.tv/video/episode/26-42_s0_p1";
+	ele02.href = "javascript:void(0)";
 }
 
 var tt_03 = new Date("2018/06/18 17:00");
