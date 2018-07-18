@@ -41,6 +41,8 @@ var ele18 = document.getElementById('s_18');
 var ele19 = document.getElementById('s_19');
 var ele20 = document.getElementById('s_20');
 var ele21 = document.getElementById('s_21');
+var ele22 = document.getElementById('s_22');
+var ele23 = document.getElementById('s_23');
 
 var tt_01 = new Date("2018/06/16 18:00");
 var out01 = new Date("2018/06/16 18:55");
