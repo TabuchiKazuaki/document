@@ -285,6 +285,10 @@ header {
 		}
 	}
 }
+.content_ballon {
+	max-width: 560px;
+	margin: 50px auto 0;
+}
 
 @media screen and (max-width: 1024px) {
 	header {
@@ -456,8 +460,232 @@ header {
 
 		.t_c_w {
 			background: #fff;
-			padding: 32px 35px 39px;
-			margin: 72px 0 0;
+			padding: 4% 4% 4.5%;
+			margin: 9% 0 0;
+
+			&:first-of-type {
+				margin: 0;
+			}
+
+			.tab_heading {
+				font-size: calc(39vw/12);
+			}
+			.time {
+				margin: 2% 0 0;
+				font-size: calc(27vw/12);
+				letter-spacing: 1.3px;
+			}
+			.text {
+				margin: 2% 0 0;
+				font-size: calc(24vw/12);
+				letter-spacing: 1.3px;
+			}
+			.btn {
+				margin: 4% 0 0;
+				a {
+					padding: 3% 0;
+					font-size: calc(36vw/12);
+					border-radius: 5px;
+				}
+			}
+			.more {
+				margin: 5% 0 0;
+				a {
+					padding: 0 6% 0 0;
+					font-size: calc(26vw/12);
+					&:after {
+						top: 20%;
+						right: 0;
+						background-size: 12px 20px;
+						width: 12px;
+						height: 20px;
+					}
+				}
+			}
+		}
+		.movie_wrap {
+			max-width: 680px;
+			margin: 0 auto;
+
+			.movie_inner {
+				position: relative;
+				width: 100%;
+				padding-top: 56.25%;
+				margin: 15px auto 0;
+			}
+			iframe {
+				position: absolute;
+				z-index: 5;
+				left: 0;
+				top: 0;
+				width: 100% !important;
+				height: 100% !important;
+			}
+		}
+	}
+	.content_ballon {
+		width: 76%;
+		margin: 5% auto 0;
+	}
+}
+@media screen and (max-width: 480px) {
+	header {
+		.header_area {
+			background-size: cover;
+			padding: 4% 0 7%;
+			margin:  2% auto 0;
+		}
+		.header_logo {
+			padding: 2% 0 0 4%;
+		}
+		.header_heading {
+			padding: 13% 0 8%;
+			margin: 0 auto 0;
+			width: 100%;
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+	.content_wrap {
+		padding: 6% 0 6%;
+		.content_heading {
+			line-height: 1.3;
+			font-size: calc(44vw/12);
+		}
+		.content_text {
+			margin: 4% 0 0;
+			line-height: 1.5;
+			font-size: calc(35vw/12);
+			letter-spacing: 1.2px;
+		}
+	}
+	.c_a {
+		width: 90%;
+		margin: 0 auto;
+		.c_at {
+			font-size: calc(47vw/12);
+			letter-spacing:1.2px;
+		}
+		.i_i {
+			padding: 10px 45px;
+			margin: 0 auto;
+			&:before {
+				top: 45%;
+				left: 1%;
+				font-size: calc(56vw/12);
+			}
+			&:after {
+				top: 43%;
+				right: 0;
+				font-size: calc(47vw/12);
+			}
+			li {
+				width: 49.2%;
+				padding: 6%;
+				margin: 0 0 0 1.6%;
+				box-sizing: border-box;
+				a {
+					display: block;
+				}
+
+				&:nth-child(1) {
+					background: url(https://goo.gl/QyAXiA) 0 0 no-repeat;
+					background-size: cover;
+					margin: 0;
+				}
+				&:nth-child(2) {
+					background: url(https://goo.gl/5S3h8K) 0 0 no-repeat;
+					background-size: cover;
+				}
+				&:nth-child(3) {
+					background: url(https://goo.gl/4yJhDw) 0 0 no-repeat;
+					background-size: cover;
+					margin: 1% 0 0 0;
+
+				}
+				&:nth-child(4) {
+					background: url(https://goo.gl/HEt1tH) 0 0 no-repeat;
+					background-size: cover;
+					margin: 1% 0 0 1.6%;
+				}
+			}
+			.active:nth-child(1) {
+				background: url(https://goo.gl/SzDs4q) 0 0 no-repeat;
+				background-size: cover;
+			}
+			.active:nth-child(2) {
+				background: url(https://goo.gl/JmK5Ef) 0 0 no-repeat;
+				background-size: cover;
+			}
+			.active:nth-child(3) {
+				background: url(https://goo.gl/x2B8uS) 0 0 no-repeat;
+				background-size: cover;
+			}
+			.active:nth-child(4) {
+				background: url(https://goo.gl/PZf9n6) 0 0 no-repeat;
+				background-size: cover;
+			}
+		}
+		.tb {
+			margin: 5.5% auto 0;
+			width: 100%;
+			li {
+				float: left;
+				background: #efefef;
+				width: 24%;
+				padding: 0 0 10px;
+				margin: 0 0 0 1.3%;
+				text-align: center;
+				a {
+					padding: 9% 0;
+					border-radius: 5px;
+					font-size: calc(34vw/12);
+					white-space: nowrap;
+					span {
+						font-size: calc(30vw/12);
+					}
+				}
+
+				&:first-child {
+					margin: 0;
+				}
+			}
+			.active {
+				a {
+					position: relative;
+					background: #e02b6c;
+					&:before {
+						content: '';
+						position: absolute;
+						bottom: -9px;
+						left: 45%;
+						background: url(https://goo.gl/QPzmtH) 0 0 no-repeat;
+						background-size: 18px 9px;
+						width: 18px;
+						height: 9px;
+					}
+				}
+			}
+		}
+
+	}
+
+	.tab_con {
+		margin: 30px 0 0;
+
+		.tab_area {
+			max-width: 750px;
+			margin: 0 auto;
+		}
+		.tab_content {
+		}
+
+		.t_c_w {
+			background: #fff;
+			padding: 4% 4% 4.5%;
+			margin: 9% 0 0;
 
 			&:first-of-type {
 				margin: 0;
@@ -520,17 +748,6 @@ header {
 		}
 	}
 }
-@media screen and (max-width: 480px) {
-	header {
-		.header_logo {
-			padding: 3% 0 0 4%;
-			line-height: 0;
-			img {
-				width: 45%;
-			}
-		}
-	}
-}
 
 @media screen and (max-width: 414px) {
 	header {
@@ -551,10 +768,7 @@ header {
 .ani_list03 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 4s 1 forwards; }
 .ani_list04 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 4.5s 1 forwards; }
 
-.content_ballon {
-	max-width: 560px;
-	margin: 50px auto 0;
-}
+
 .content_ballon {
 	-webkit-animation-name:fuwafuwa; /* 上下のアニメーション */
 	-webkit-animation-duration:2s;
