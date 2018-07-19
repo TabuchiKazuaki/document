@@ -410,6 +410,7 @@ header .header_heading {
     padding: 9% 0;
     border-radius: 5px;
     font-size: calc(34vw/12);
+    white-space: nowrap;
   }
   .c_a .tb li a span {
     font-size: calc(30vw/12);
@@ -448,50 +449,36 @@ header .header_heading {
     margin: 0;
   }
   .tab_con .t_c_w .tab_heading {
-    font-size: 35px;
+    font-size: calc(39vw/12);
   }
   .tab_con .t_c_w .time {
-    margin: 15px 0 0;
-    font-size: 24px;
-    line-height: 1.2;
-    letter-spacing: 1.4px;
-    color: #8c8c8c;
+    margin: 2% 0 0;
+    font-size: calc(27vw/12);
+    letter-spacing: 1.3px;
   }
   .tab_con .t_c_w .text {
-    margin: 13px 0 0;
-    font-size: 20px;
-    line-height: 1.5;
-    color: #8c8c8c;
+    margin: 2% 0 0;
+    font-size: calc(24vw/12);
+    letter-spacing: 1.3px;
   }
   .tab_con .t_c_w .btn {
-    margin: 26px 0 0;
+    margin: 4% 0 0;
   }
   .tab_con .t_c_w .btn a {
-    display: block;
-    background: #51c300;
-    padding: 20px 0;
-    font-size: 32px;
-    border-radius: 4px;
-    text-align: center;
-    color: #fff;
+    padding: 3% 0;
+    font-size: calc(36vw/12);
+    border-radius: 5px;
   }
   .tab_con .t_c_w .more {
-    margin: 33px 0 0;
-    text-align: right;
+    margin: 5% 0 0;
   }
   .tab_con .t_c_w .more a {
-    position: relative;
-    padding: 0 40px 0 0;
-    font-size: 23px;
-    font-weight: bold;
-    color: #56c123;
+    padding: 0 6% 0 0;
+    font-size: calc(26vw/12);
   }
   .tab_con .t_c_w .more a:after {
-    content: '';
-    position: absolute;
     top: 20%;
     right: 0;
-    background: url(https://goo.gl/xKEb2u) 0 0 no-repeat;
     background-size: 12px 20px;
     width: 12px;
     height: 20px;
