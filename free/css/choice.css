@@ -346,6 +346,31 @@ header .header_heading {
   margin: 50px auto 0;
 }
 
+.content_ballon {
+  -webkit-animation-name: fuwafuwa;
+  /* 上下のアニメーション */
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  /*-webkit-animation-direction:alternate;*/
+  -webkit-animation-timing-function: ease;
+  -moz-animation-name: fuwafuwa;
+  -moz-animation-duration: 2s;
+  -moz-animation-iteration-count: infinite;
+  /*-moz-animation-direction:alternate;*/
+  -moz-animation-timing-function: ease;
+}
+
+@-webkit-keyframes fuwafuwa {
+  0% {
+    -webkit-transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(0, -10px);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+  }
+}
 .contents {
   max-width: 800px;
   padding: 80px 0 0;
