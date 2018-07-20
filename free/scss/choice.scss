@@ -468,16 +468,16 @@ header {
 			}
 
 			.tab_heading {
-				font-size: calc(39vw/12);
+				font-size: calc(54vw/12);
 			}
 			.time {
 				margin: 2% 0 0;
-				font-size: calc(27vw/12);
+				font-size: calc(40vw/12);
 				letter-spacing: 1.3px;
 			}
 			.text {
 				margin: 2% 0 0;
-				font-size: calc(24vw/12);
+				font-size: calc(35vw/12);
 				letter-spacing: 1.3px;
 			}
 			.btn {
@@ -492,7 +492,7 @@ header {
 				margin: 5% 0 0;
 				a {
 					padding: 0 6% 0 0;
-					font-size: calc(26vw/12);
+					font-size: calc(31vw/12);
 					&:after {
 						top: 20%;
 						right: 0;
@@ -529,6 +529,7 @@ header {
 	}
 }
 @media screen and (max-width: 480px) {
+
 	header {
 		.header_area {
 			background-size: cover;
@@ -692,16 +693,16 @@ header {
 			}
 
 			.tab_heading {
-				font-size: calc(39vw/12);
+				font-size: calc(54vw/12);
 			}
 			.time {
 				margin: 2% 0 0;
-				font-size: calc(27vw/12);
+				font-size: calc(40vw/12);
 				letter-spacing: 1.3px;
 			}
 			.text {
 				margin: 2% 0 0;
-				font-size: calc(24vw/12);
+				font-size: calc(35vw/12);
 				letter-spacing: 1.3px;
 			}
 			.btn {
@@ -716,7 +717,7 @@ header {
 				margin: 5% 0 0;
 				a {
 					padding: 0 6% 0 0;
-					font-size: calc(26vw/12);
+					font-size: calc(31vw/12);
 					&:after {
 						top: 20%;
 						right: 0;
@@ -746,6 +747,10 @@ header {
 				height: 100% !important;
 			}
 		}
+	}
+	.content_ballon {
+		width: 76%;
+		margin: 5% auto 0;
 	}
 }
 
