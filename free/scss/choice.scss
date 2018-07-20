@@ -539,6 +539,9 @@ header {
 		}
 		.header_logo {
 			padding: 2% 0 0 4%;
+			img {
+				width: 63%;
+			}
 		}
 		.header_heading {
 			padding: 12% 0 9%;
@@ -551,7 +554,7 @@ header {
 	}
 
 	.content_wrap {
-		padding: 6% 0 6%;
+		padding: 6% 0 4%;
 		.content_heading {
 			line-height: 1.3;
 			font-size: calc(46vw/12);
@@ -642,11 +645,13 @@ header {
 				text-align: center;
 				a {
 					padding: 9% 0;
-					border-radius: 5px;
+					border-radius: 4px;
 					font-size: calc(34vw/12);
 					white-space: nowrap;
 					span {
-						font-size: calc(30vw/12);
+						display: inline-block;
+						margin: 0 2%;
+						font-size: calc(32vw/12);
 					}
 				}
 
@@ -694,23 +699,23 @@ header {
 			}
 
 			.tab_heading {
-				font-size: calc(54vw/12);
+				font-size: calc(57vw/12);
 			}
 			.time {
 				margin: 2% 0 0;
-				font-size: calc(40vw/12);
+				font-size: calc(43vw/12);
 				letter-spacing: 1.3px;
 			}
 			.text {
 				margin: 2% 0 0;
-				font-size: calc(35vw/12);
+				font-size: calc(38vw/12);
 				letter-spacing: 1.3px;
 			}
 			.btn {
 				margin: 4% 0 0;
 				a {
 					padding: 3% 0;
-					font-size: calc(36vw/12);
+					font-size: calc(39vw/12);
 					border-radius: 5px;
 				}
 			}
@@ -718,13 +723,13 @@ header {
 				margin: 5% 0 0;
 				a {
 					padding: 0 6% 0 0;
-					font-size: calc(31vw/12);
+					font-size: calc(34vw/12);
 					&:after {
 						top: 20%;
 						right: 0;
-						background-size: 12px 20px;
-						width: 12px;
-						height: 20px;
+						background-size: 6px 10px;
+						width: 6px;
+						height: 10px;
 					}
 				}
 			}
@@ -920,14 +925,6 @@ header {
 					height: 17px;
 				}
 			}
-		}
-	}
-
-	.footer_area {
-		padding: 5% 5% 3%;
-		small {
-			margin: 4% 0 0;
-			font-size: calc(28vw/12);
 		}
 	}
 }

@@ -522,6 +522,9 @@ header .header_heading {
   header .header_logo {
     padding: 2% 0 0 4%;
   }
+  header .header_logo img {
+    width: 63%;
+  }
   header .header_heading {
     padding: 12% 0 9%;
     margin: 0 auto 0;
@@ -532,7 +535,7 @@ header .header_heading {
   }
 
   .content_wrap {
-    padding: 6% 0 6%;
+    padding: 6% 0 4%;
   }
   .content_wrap .content_heading {
     line-height: 1.3;
@@ -626,12 +629,14 @@ header .header_heading {
   }
   .c_a .tb li a {
     padding: 9% 0;
-    border-radius: 5px;
+    border-radius: 4px;
     font-size: calc(34vw/12);
     white-space: nowrap;
   }
   .c_a .tb li a span {
-    font-size: calc(30vw/12);
+    display: inline-block;
+    margin: 0 2%;
+    font-size: calc(32vw/12);
   }
   .c_a .tb li:first-child {
     margin: 0;
@@ -667,16 +672,16 @@ header .header_heading {
     margin: 0;
   }
   .tab_con .t_c_w .tab_heading {
-    font-size: calc(54vw/12);
+    font-size: calc(57vw/12);
   }
   .tab_con .t_c_w .time {
     margin: 2% 0 0;
-    font-size: calc(40vw/12);
+    font-size: calc(43vw/12);
     letter-spacing: 1.3px;
   }
   .tab_con .t_c_w .text {
     margin: 2% 0 0;
-    font-size: calc(35vw/12);
+    font-size: calc(38vw/12);
     letter-spacing: 1.3px;
   }
   .tab_con .t_c_w .btn {
@@ -684,7 +689,7 @@ header .header_heading {
   }
   .tab_con .t_c_w .btn a {
     padding: 3% 0;
-    font-size: calc(36vw/12);
+    font-size: calc(39vw/12);
     border-radius: 5px;
   }
   .tab_con .t_c_w .more {
@@ -692,14 +697,14 @@ header .header_heading {
   }
   .tab_con .t_c_w .more a {
     padding: 0 6% 0 0;
-    font-size: calc(31vw/12);
+    font-size: calc(34vw/12);
   }
   .tab_con .t_c_w .more a:after {
     top: 20%;
     right: 0;
-    background-size: 12px 20px;
-    width: 12px;
-    height: 20px;
+    background-size: 6px 10px;
+    width: 6px;
+    height: 10px;
   }
   .tab_con .movie_wrap {
     max-width: 680px;
@@ -901,13 +906,5 @@ header .header_heading {
     background-size: 10px 17px;
     width: 10px;
     height: 17px;
-  }
-
-  .footer_area {
-    padding: 5% 5% 3%;
-  }
-  .footer_area small {
-    margin: 4% 0 0;
-    font-size: calc(28vw/12);
   }
 }
