@@ -22,6 +22,22 @@ $(document).ready(function() {
 			$(this).addClass('active');
 			$('.wp').find("#ta04").addClass("active");
 		});
+		$('#ta01').on('click',function() {
+			$(this).addClass('active');
+			$('.wp').find("#wa01").addClass("active");
+		});
+		$('#ta02').on('click',function() {
+			$(this).addClass('active');
+			$('.wp').find("#wa02").addClass("active");
+		});
+		$('#ta03').on('click',function() {
+			$(this).addClass('active');
+			$('.wp').find("#wa03").addClass("active");
+		});
+		$('#ta04').on('click',function() {
+			$(this).addClass('active');
+			$('.wp').find("#wa04").addClass("active");
+		});
 	     // $(this).addClass("active");//クリックタブに.activeを追加
 	     $(".tab_content").hide();//全ての.tab_contentを非表示
 	     var activeTab = $(this).find("a").attr("href");//アクティブタブコンテンツ
