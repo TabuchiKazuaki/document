@@ -12,11 +12,11 @@ $(document).ready(function() {
 		});
 		$('#wa02').on('click',function() {
 			$(this).addClass('active');
-			$('.wp').find("#ta02").addClass("active");
+			$('.wp').find("#ta03").addClass("active");
 		});
 		$('#wa03').on('click',function() {
 			$(this).addClass('active');
-			$('.wp').find("#ta03").addClass("active");
+			$('.wp').find("#ta02").addClass("active");
 		});
 		$('#wa04').on('click',function() {
 			$(this).addClass('active');
@@ -28,11 +28,11 @@ $(document).ready(function() {
 		});
 		$('#ta02').on('click',function() {
 			$(this).addClass('active');
-			$('.wp').find("#wa02").addClass("active");
+			$('.wp').find("#wa03").addClass("active");
 		});
 		$('#ta03').on('click',function() {
 			$(this).addClass('active');
-			$('.wp').find("#wa03").addClass("active");
+			$('.wp').find("#wa02").addClass("active");
 		});
 		$('#ta04').on('click',function() {
 			$(this).addClass('active');
