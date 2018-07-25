@@ -734,7 +734,7 @@ header .header_heading {
     width: 50%;
   }
   header .header_area {
-    padding: 14% 0 11%;
+    padding: 14% 0 13%;
     margin: 2% auto 0;
   }
   header .header_heading {
@@ -742,7 +742,23 @@ header .header_heading {
     width: 100%;
   }
   header .header_heading img {
-    width: 64%;
+    width: 58%;
+  }
+}
+@media screen and (max-width: 375px) {
+  header .header_logo img {
+    width: 50%;
+  }
+  header .header_area {
+    padding: 14% 0 13%;
+    margin: 2% auto 0;
+  }
+  header .header_heading {
+    margin: 0 auto 0;
+    width: 100%;
+  }
+  header .header_heading img {
+    width: 58%;
   }
 }
 @-webkit-keyframes item_sp {
