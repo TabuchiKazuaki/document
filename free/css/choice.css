@@ -515,7 +515,7 @@ header .header_heading {
 @media screen and (max-width: 480px) {
   header .header_area {
     background-size: cover;
-    padding: 4% 0 7%;
+    padding: 14% 0 11%;
     margin: 2% auto 0;
   }
   header .header_logo {
@@ -525,7 +525,6 @@ header .header_heading {
     width: 63%;
   }
   header .header_heading {
-    padding: 12% 0 9%;
     margin: 0 auto 0;
     width: 100%;
   }
@@ -733,6 +732,17 @@ header .header_heading {
 @media screen and (max-width: 414px) {
   header .header_logo img {
     width: 50%;
+  }
+  header .header_area {
+    padding: 14% 0 11%;
+    margin: 2% auto 0;
+  }
+  header .header_heading {
+    margin: 0 auto 0;
+    width: 100%;
+  }
+  header .header_heading img {
+    width: 64%;
   }
 }
 @-webkit-keyframes item_sp {
