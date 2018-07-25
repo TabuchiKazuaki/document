@@ -774,7 +774,7 @@ header {
 			margin: 0 auto 0;
 			width: 100%;
 			img {
-				width: 58%;
+				width: 57%;
 			}
 		}
 	}
@@ -795,7 +795,27 @@ header {
 			margin: 0 auto 0;
 			width: 100%;
 			img {
-				width: 58%;
+				width: 54%;
+			}
+		}
+	}
+}
+@media screen and (max-width: 320px) {
+	header {
+		.header_logo {
+			img {
+				width: 50%;
+			}
+		}
+		.header_area {
+			padding: 14% 0 11%;
+			margin:  2% auto 0;
+		}
+		.header_heading {
+			margin: 0 auto 0;
+			width: 100%;
+			img {
+				width: 50%;
 			}
 		}
 	}
