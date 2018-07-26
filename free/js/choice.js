@@ -51,10 +51,16 @@ $(document).ready(function() {
 });
 
 // 動画再生
-$('.play, .i_a:before').on('click', function(ev) {
+$('.play').on('click', function(ev) {
 	$(this).next('iframe')[0].src += "&amp;autoplay=1";
 	ev.preventDefault();
-	$('.i_a:before').removeClass();
-
+	$(this).parent().parent().find('.movie_inner').removeClass('i_a');
 	$(this).fadeOut('slow');
 });
+$('.i_a').on('click', function(ev) {
+	$(this).find('iframe')[0].src += "&amp;autoplay=1";
+	ev.preventDefault();
+	$(this).removeClass('i_a');
+	$(this).find('.play').fadeOut('slow');
+});
+
