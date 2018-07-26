@@ -307,18 +307,18 @@ header {
 			cursor: pointer;
 		}
 		.i_a {
-			&:before {
-				content: '';
-				position: absolute;
-				top: 36%;
-				left: 42%;
-				background: url(https://goo.gl/5152om) 0 0 no-repeat;
-				background-size: 126px 126px;
-				width: 126px;
-				height: 126px;
-				opacity: .9;
-				z-index: 100;
-			}
+				&:before {
+					content: '';
+					position: absolute;
+					top: 36%;
+					left: 42%;
+					background: url(https://goo.gl/5152om) 0 0 no-repeat;
+					background-size: 126px 126px;
+					width: 126px;
+					height: 126px;
+					opacity: .9;
+					z-index: 100;
+				}
 		}
 		iframe {
 			position: absolute;
@@ -424,7 +424,6 @@ header {
 					background: url(https://goo.gl/4yJhDw) 0 0 no-repeat;
 					background-size: cover;
 					margin: 1% 0 0 0;
-
 				}
 				&:nth-child(4) {
 					background: url(https://goo.gl/HEt1tH) 0 0 no-repeat;
