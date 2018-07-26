@@ -221,11 +221,10 @@ header .header_heading {
 .tab_con .t_c_w figure {
   margin: 15px 0 0;
 }
-.tab_con .t_c_w .icon_movie a {
+.tab_con .t_c_w .icon_movie {
   position: relative;
-  display: block;
 }
-.tab_con .t_c_w .icon_movie a:before {
+.tab_con .t_c_w .icon_movie:before {
   content: '';
   position: absolute;
   top: 36%;
@@ -236,6 +235,9 @@ header .header_heading {
   height: 126px;
   opacity: .9;
   z-index: 2;
+}
+.tab_con .t_c_w .icon_movie a {
+  display: block;
 }
 .tab_con .t_c_w .tab_heading {
   font-size: 35px;
@@ -472,7 +474,7 @@ header .header_heading {
   .tab_con .t_c_w figure {
     margin: 4% 0 0;
   }
-  .tab_con .t_c_w .icon_movie a:before {
+  .tab_con .t_c_w .icon_movie:before {
     top: 33%;
     left: 41%;
     background-size: 105px 105px;
@@ -545,7 +547,7 @@ header .header_heading {
   .tab_con .t_c_w figure {
     margin: 3% 0 0;
   }
-  .tab_con .t_c_w .icon_movie a:before {
+  .tab_con .t_c_w .icon_movie:before {
     top: 33%;
     left: 41%;
     background-size: 80px 80px;
@@ -708,7 +710,7 @@ header .header_heading {
     padding: 4% 4% 4.5%;
     margin: 9% 0 0;
   }
-  .tab_con .t_c_w .icon_movie a:before {
+  .tab_con .t_c_w .icon_movie:before {
     top: 32%;
     left: 38%;
     background-size: 75px 75px;
@@ -793,7 +795,7 @@ header .header_heading {
     width: 57%;
   }
 
-  .tab_con .t_c_w .icon_movie a:before {
+  .tab_con .t_c_w .icon_movie:before {
     top: 32%;
     left: 39%;
     background-size: 75px 75px;
@@ -817,7 +819,7 @@ header .header_heading {
     width: 51%;
   }
 
-  .tab_con .t_c_w .icon_movie a:before {
+  .tab_con .t_c_w .icon_movie:before {
     top: 34%;
     left: 39%;
     background-size: 65px 65px;
@@ -841,7 +843,7 @@ header .header_heading {
     width: 44%;
   }
 
-  .tab_con .t_c_w .icon_movie a:before {
+  .tab_con .t_c_w .icon_movie:before {
     top: 35%;
     left: 39%;
     background-size: 55px 55px;
