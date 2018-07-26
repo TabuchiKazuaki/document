@@ -46,4 +46,12 @@ $(document).ready(function() {
 		$(this).addClass('active');
 		$('.wp').find("#wa04").addClass("active");
 	});
+
+	// 動画再生
+	$('.play').on('click', function(ev) {
+		$(this).next('iframe')[0].src += "&amp;autoplay=1";
+		ev.preventDefault();
+		$(this).fadeOut('slow');
+	});
 });
+
