@@ -51,7 +51,7 @@ $(document).ready(function() {
 });
 
 // 動画再生
-$('.play').on('click', function(ev) {
+$('.play, .i_a:before').on('click', function(ev) {
 	$(this).next('iframe')[0].src += "&amp;autoplay=1";
 	ev.preventDefault();
 	$('.i_a:before').removeClass();
