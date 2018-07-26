@@ -157,35 +157,6 @@ header .header_date {
     width: 50%;
   }
 }
-@-webkit-keyframes item_sp {
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes item_list {
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes item_list {
-  100% {
-    opacity: 1;
-  }
-}
-.ani_list01 {
-  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
-  animation: item_sp 1s ease 1.5s 1 forwards;
-}
-
-.ani_list02 {
-  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
-  animation: item_sp 1s ease 2s 1 forwards;
-}
-
-.ani_list01, .ani_list02 {
-  opacity: 0;
-}
-
 .content_wrap {
   background: #000;
   padding: 0 0 0;
