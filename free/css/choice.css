@@ -218,6 +218,23 @@ header .header_heading {
 .tab_con .t_c_w:first-of-type {
   margin: 0;
 }
+.tab_con .t_c_w figure {
+  margin: 15px 0 0;
+}
+.tab_con .t_c_w .icon_movie a {
+  position: relative;
+}
+.tab_con .t_c_w .icon_movie a:before {
+  content: '';
+  position: absolute;
+  top: 36%;
+  left: 42%;
+  background: url(https://goo.gl/5152om) 0 0 no-repeat;
+  background-size: 126px 126px;
+  width: 126px;
+  height: 126px;
+  z-index: 2;
+}
 .tab_con .t_c_w .tab_heading {
   font-size: 35px;
 }
@@ -450,6 +467,16 @@ header .header_heading {
     padding: 4% 4% 4.5%;
     margin: 9% 0 0;
   }
+  .tab_con .t_c_w figure {
+    margin: 4% 0 0;
+  }
+  .tab_con .t_c_w .icon_movie a:before {
+    top: 33%;
+    left: 41%;
+    background-size: 105px 105px;
+    width: 105px;
+    height: 105px;
+  }
   .tab_con .t_c_w:first-of-type {
     margin: 0;
   }
@@ -510,6 +537,18 @@ header .header_heading {
   .content_ballon {
     width: 76%;
     margin: 5% auto 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  .tab_con .t_c_w figure {
+    margin: 3% 0 0;
+  }
+  .tab_con .t_c_w .icon_movie a:before {
+    top: 33%;
+    left: 41%;
+    background-size: 80px 80px;
+    width: 80px;
+    height: 80px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -667,6 +706,13 @@ header .header_heading {
     padding: 4% 4% 4.5%;
     margin: 9% 0 0;
   }
+  .tab_con .t_c_w .icon_movie a:before {
+    top: 32%;
+    left: 38%;
+    background-size: 75px 75px;
+    width: 75px;
+    height: 75px;
+  }
   .tab_con .t_c_w:first-of-type {
     margin: 0;
   }
@@ -744,6 +790,14 @@ header .header_heading {
   header .header_heading img {
     width: 57%;
   }
+
+  .tab_con .t_c_w .icon_movie a:before {
+    top: 32%;
+    left: 38%;
+    background-size: 75px 75px;
+    width: 75px;
+    height: 75px;
+  }
 }
 @media screen and (max-width: 375px) {
   header .header_logo img {
@@ -760,6 +814,14 @@ header .header_heading {
   header .header_heading img {
     width: 51%;
   }
+
+  .tab_con .t_c_w .icon_movie a:before {
+    top: 34%;
+    left: 39%;
+    background-size: 65px 65px;
+    width: 65px;
+    height: 65px;
+  }
 }
 @media screen and (max-width: 320px) {
   header .header_logo img {
@@ -775,6 +837,14 @@ header .header_heading {
   }
   header .header_heading img {
     width: 44%;
+  }
+
+  .tab_con .t_c_w .icon_movie a:before {
+    top: 35%;
+    left: 39%;
+    background-size: 55px 55px;
+    width: 55px;
+    height: 55px;
   }
 }
 @-webkit-keyframes item_sp {
