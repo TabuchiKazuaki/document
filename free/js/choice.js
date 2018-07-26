@@ -54,5 +54,6 @@ $(document).ready(function() {
 $('.play').on('click', function(ev) {
 	$(this).next('iframe')[0].src += "&amp;autoplay=1";
 	ev.preventDefault();
+
 	$(this).fadeOut('slow');
 });
