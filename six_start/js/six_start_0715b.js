@@ -61,7 +61,7 @@ if (now.getTime() > tt_14.getTime()){
 	ele14.innerText = '今すぐ視聴する';
 } if (now.getTime() > out14.getTime()) {
 	ele14.innerText = 'ビデオを視聴する';
-	ele14.href = "https://abema.tv/video/episode/90-1081";
+	ele14.href = "https://abema.tv/video/title/90-1081";
 }
 var tt_15 = new Date("2018/07/29 22:00");
 var out15 = new Date("2018/07/29 23:00");
@@ -69,7 +69,7 @@ if (now.getTime() > tt_15.getTime()){
 	ele15.innerText = '今すぐ視聴する';
 } if (now.getTime() > out15.getTime()) {
 	ele15.innerText = 'ビデオを視聴する';
-	ele15.href = "https://abema.tv/video/episode/90-1053";
+	ele15.href = "https://abema.tv/video/title/90-1053";
 }
 var tt_16 = new Date("2018/07/25 22:10");
 var out16 = new Date("2018/07/25 23:20");
