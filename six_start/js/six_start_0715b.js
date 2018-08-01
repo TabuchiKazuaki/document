@@ -64,7 +64,7 @@ if (now.getTime() > tt_14.getTime()){
 	ele14.href = "https://abema.tv/video/title/90-1081";
 }
 var tt_15 = new Date("2018/07/29 22:00");
-var out15 = new Date("2018/07/29 23:00");
+var out15 = new Date("2018/07/29 22:59");
 if (now.getTime() > tt_15.getTime()){
 	ele15.innerText = '今すぐ視聴する';
 } if (now.getTime() > out15.getTime()) {
