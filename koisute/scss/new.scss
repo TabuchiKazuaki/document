@@ -431,7 +431,7 @@ img  { width: 100%;}
 
 .video_inner {
 	max-width: 1100px;
-	padding: 60px 60px 0;
+	padding: 70px 0 0 57px;
 	margin: 0 auto;
 	box-sizing: border-box;
 
@@ -445,6 +445,115 @@ img  { width: 100%;}
 	.video_inner_box {
 		overflow: hidden;
 		margin: 20px 0 0;
+		.video_inner_img {
+			float: left;
+			width : -webkit-calc(100% - 420px) ;
+			width : calc(100% - 420px);
+
+			.btn {
+				a {
+					position: relative;
+					display: block;
+					background: #0096ff;
+					width: 100%;
+					max-width: 372px;
+					padding: 15px 0;
+					margin: 60px auto 0;
+					border-radius: 6px;
+					text-align: center;
+					font-size: 28px;
+					font-weight: bold;
+					letter-spacing: 1.5px;
+					color: #fff;
+
+					&:before {
+						content: '';
+						position: absolute;
+						top: 40%;
+						right: 15px;
+						background:url(https://goo.gl/iQnF4T) 0 0 no-repeat;
+						background-size: 14px 23px;
+						width: 14px;
+						height: 23px;
+					}
+				}
+			}
+		}
+		.video_person {
+			float: right;
+			width: 365px;
+		}
+	}
+	.person_box {
+		position: relative;
+		padding: 10px 0 0;
+
+		.parson_item {
+			display: flex;
+			flex-flow: row wrap;
+			background: #fff;
+			padding: 20px 60px 5px;
+			li {
+				display: flex;
+				flex-flow: row wrap;
+				width: 31.3%;
+				margin: 0 0 0 2%;
+				.p_t {
+					width: 100%;
+					padding: 2% 0 2%;
+					text-align: center;
+					font-size: 14px;
+					font-weight: bold;
+					text-align: center;
+				}
+				&:nth-child(1) {
+					margin: 0;
+				}
+				&:nth-child(4) {
+					margin: 2% 0 0 0;
+				}
+				&:nth-child(5) {
+					margin: 2% 0 0 2%;
+				}
+				&:nth-child(6) {
+					margin: 2% 0 0 2%;
+				}
+
+				img {
+					max-width: 75px;
+					width: 100%;
+				}
+
+			}
+		}
+
+		&:nth-of-type(2) {
+			margin: 20px 0 0;
+		}
+	}
+	.third {
+		&:before {
+			content: '大阪男子・東京女子編';
+			position: absolute;
+			top: 0;
+			left: 0;
+			font-size: 16px;
+			font-weight: bold;
+			letter-spacing: 1.5px;
+			color: #0096ff;
+		}
+	}
+	.third_s {
+		&:before {
+			content: '東京男子・博多女子編';
+			position: absolute;
+			top: 0;
+			left: 0;
+			font-size: 16px;
+			font-weight: bold;
+			letter-spacing: 1.5px;
+			color: #0096ff;
+		}
 	}
 }
 
@@ -648,7 +757,7 @@ img  { width: 100%;}
 			position: absolute;
 			top: 22px;
 			right: 20px;
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/423150/4a7e40cb1206b7f98434af5f3fd99d08_b3a2e8b037cb8b104ae3cb5754b70661.png) 0 0 no-repeat;
+			background: url(https://goo.gl/iQnF4T) 0 0 no-repeat;
 			background-size: 14px 23px;
 			width: 14px;
 			height: 23px;
@@ -2208,7 +2317,7 @@ img  { width: 100%;}
 				position: absolute;
 				top: 22px;
 				right: 20px;
-				background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/423150/4a7e40cb1206b7f98434af5f3fd99d08_b3a2e8b037cb8b104ae3cb5754b70661.png) 0 0 no-repeat;
+				background: url(https://goo.gl/iQnF4T) 0 0 no-repeat;
 				background-size: 14px 23px;
 				width: 14px;
 				height: 23px;
