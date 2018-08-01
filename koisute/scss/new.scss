@@ -404,9 +404,9 @@ img  { width: 100%;}
 	background: #eff8fd;
 }
 .video_wrap {
-	background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/423150/4b0288266fa16f5cf7ea2713dede850e_e383002f7c8b24639dd52204d27f2d4a.png) 0 32px no-repeat;
+	background: url(https://goo.gl/Q6K7vL) 0 69px no-repeat;
 	max-width: 1100px;
-	padding: 19px 0 2% 0;
+	padding: 57px 0 2% 0;
 	margin: 0 auto;
 	box-sizing: border-box;
 }
@@ -422,7 +422,7 @@ img  { width: 100%;}
 	color: #0096ff;
 }
 .video_title {
-	margin: 12px 0 0 5%;
+	margin: 12px 0 0 4%;
 	letter-spacing: 3px;
 	font-size: 34px;
 	font-weight: normal;
@@ -431,7 +431,7 @@ img  { width: 100%;}
 
 .video_inner {
 	max-width: 1100px;
-	padding: 70px 0 0 57px;
+	padding: 70px 0 0 4%;
 	margin: 0 auto;
 	box-sizing: border-box;
 
@@ -444,11 +444,12 @@ img  { width: 100%;}
 	}
 	.video_inner_box {
 		overflow: hidden;
-		margin: 20px 0 0;
+		margin: 17px 0 0;
 		.video_inner_img {
 			float: left;
-			width : -webkit-calc(100% - 420px) ;
-			width : calc(100% - 420px);
+			width : -webkit-calc(100% - 421px) ;
+			width : calc(100% - 421px);
+			padding: 3px 0 0;
 
 			.btn {
 				a {
@@ -458,8 +459,8 @@ img  { width: 100%;}
 					width: 100%;
 					max-width: 372px;
 					padding: 20px 0;
-					margin: 46px auto 0;
-					border-radius: 6px;
+					margin: 55px auto 0;
+					border-radius: 8px;
 					text-align: center;
 					font-size: 28px;
 					letter-spacing: 1.5px;
@@ -491,12 +492,12 @@ img  { width: 100%;}
 			display: flex;
 			flex-flow: row wrap;
 			background: #fff;
-			padding: 20px 60px 5px;
+			padding: 21px 60px 5px;
 			li {
 				display: flex;
 				flex-flow: row wrap;
 				width: 31.3%;
-				margin: 0 0 0 2%;
+				margin: 0 0 0 3%;
 				.p_t {
 					width: 100%;
 					padding: 9% 0 4%;
@@ -512,10 +513,10 @@ img  { width: 100%;}
 					margin: 2% 0 0 0;
 				}
 				&:nth-child(5) {
-					margin: 2% 0 0 2%;
+					margin: 2% 0 0 3%;
 				}
 				&:nth-child(6) {
-					margin: 2% 0 0 2%;
+					margin: 2% 0 0 3%;
 				}
 
 				img {
@@ -527,7 +528,7 @@ img  { width: 100%;}
 		}
 
 		&:nth-of-type(2) {
-			margin: 20px 0 0;
+			margin: 16px 0 0;
 		}
 	}
 	.third {
@@ -554,6 +555,53 @@ img  { width: 100%;}
 			color: #0096ff;
 		}
 	}
+	.foruth {
+		&:before {
+			content: '広島男子・東京女子編';
+			position: absolute;
+			top: 0;
+			left: 0;
+			font-size: 16px;
+			font-weight: bold;
+			letter-spacing: 1.5px;
+			color: #0096ff;
+		}
+		.parson_item {
+			padding: 20px 20px 5px;
+			li {
+				width: 23%;
+				margin: 0 0 0 2.5%;
+				&:nth-child(1) {
+					margin: 0;
+				}
+				&:nth-child(5) {
+					margin: 2% 0 0 0;
+				}
+				&:nth-child(6) {
+					margin: 2% 0 0 2.5%;
+				}
+				&:nth-child(7) {
+					margin: 2% 0 0 2.5%;
+				}
+				&:nth-child(8) {
+					margin: 2% 0 0 2.5%;
+				}
+			}
+
+		}
+	}
+	.foruth_s {
+		&:before {
+			content: '東京男子・名古屋女子編';
+			position: absolute;
+			top: 0;
+			left: 0;
+			font-size: 16px;
+			font-weight: bold;
+			letter-spacing: 1.5px;
+			color: #0096ff;
+		}
+	}
 }
 
 
@@ -561,31 +609,294 @@ img  { width: 100%;}
 
 
 @media screen and (max-width: 1024px) {
-	.video {
-		padding: 30px 0 3%;
-	}
 	.video_wrap {
-		padding: 15px 0 2% 0;
+		background: url(https://goo.gl/Q6K7vL) 0 69px no-repeat;
+		padding: 57px 0 2% 0;
+		box-sizing: border-box;
 	}
 	.video_heading {
-		padding: 0;
-		min-height: 150px;
+		min-height: 200px;
 	}
 	.video_sub {
-		margin: 5px 0 0 10%;
-		font-size: 22px;
+		margin: 0 0 0 12%;
+		letter-spacing: 0px;
+		font-style: italic;
+		font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+		font-size: calc(32vw/12);
+		color: #0096ff;
 	}
 	.video_title {
-		margin: 12px 0 0 50px;
-		letter-spacing: 2px;
-		font-size: 30px;
+		margin: 1.2% 0 0 4%;
+		letter-spacing: 3px;
+		font-size: calc(41vw/12);
 	}
 
 	.video_inner {
-		width: 93%;
-		margin: 2% auto 0;
+		padding: 2.5% 0 0 4%;
+		margin: 0 auto;
+		box-sizing: border-box;
+
+		.video_season {
+			font-weight: normal;
+			font-size: calc(47vw/12);
+			font-style: italic;
+			font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+			color: #ff4bac;
+		}
+		.video_inner_box {
+			overflow: hidden;
+			margin: 17px 0 0;
+			.video_inner_img {
+				float: left;
+				width : -webkit-calc(100% - 340px) ;
+				width : calc(100% - 340px);
+				padding: 3px 0 0;
+
+				.btn {
+					a {
+						position: relative;
+						display: block;
+						background: #0096ff;
+						width: 100%;
+						max-width: 372px;
+						padding: 20px 0;
+						margin: 55px auto 0;
+						border-radius: 8px;
+						text-align: center;
+						font-size: 28px;
+						letter-spacing: 1.5px;
+						color: #fff;
+
+						&:before {
+							content: '';
+							position: absolute;
+							top: 34%;
+							right: 15px;
+							background:url(https://goo.gl/iQnF4T) 0 0 no-repeat;
+							background-size: 14px 23px;
+							width: 14px;
+							height: 23px;
+						}
+					}
+				}
+			}
+			.video_person {
+				float: right;
+				width: 315px;
+				margin: 0 5px 0 0;
+			}
+		}
+		.person_box {
+			position: relative;
+			padding: 10px 0 0;
+
+			.parson_item {
+				display: flex;
+				flex-flow: row wrap;
+				background: #fff;
+				padding: 21px 30px 5px;
+				li {
+					display: flex;
+					flex-flow: row wrap;
+					width: 31.3%;
+					margin: 0 0 0 3%;
+					.p_t {
+						width: 100%;
+						padding: 9% 0 4%;
+						text-align: center;
+						font-size: 14px;
+						font-weight: bold;
+						text-align: center;
+					}
+					&:nth-child(1) {
+						margin: 0;
+					}
+					&:nth-child(4) {
+						margin: 2% 0 0 0;
+					}
+					&:nth-child(5) {
+						margin: 2% 0 0 3%;
+					}
+					&:nth-child(6) {
+						margin: 2% 0 0 3%;
+					}
+
+					img {
+						max-width: 75px;
+						width: 100%;
+					}
+
+				}
+			}
+
+			&:nth-of-type(2) {
+				margin: 16px 0 0;
+			}
+		}
+		.third {
+			&:before {
+				content: '大阪男子・東京女子編';
+				position: absolute;
+				top: 0;
+				left: 0;
+				font-size: 16px;
+				font-weight: bold;
+				letter-spacing: 1.5px;
+				color: #0096ff;
+			}
+		}
+		.third_s {
+			&:before {
+				content: '東京男子・博多女子編';
+				position: absolute;
+				top: 0;
+				left: 0;
+				font-size: 16px;
+				font-weight: bold;
+				letter-spacing: 1.5px;
+				color: #0096ff;
+			}
+		}
+		.foruth {
+			&:before {
+				content: '広島男子・東京女子編';
+				position: absolute;
+				top: 0;
+				left: 0;
+				font-size: 16px;
+				font-weight: bold;
+				letter-spacing: 1.5px;
+				color: #0096ff;
+			}
+			.parson_item {
+				padding: 21px 7px 5px;
+				li {
+					width: 23.4%;
+					margin: 0 0 0 2%;
+					&:nth-child(1) {
+						margin: 0;
+					}
+					&:nth-child(5) {
+						margin: 2% 0 0 0;
+					}
+					&:nth-child(6) {
+						margin: 2% 0 0 2%;
+					}
+					&:nth-child(7) {
+						margin: 2% 0 0 2%;
+					}
+					&:nth-child(8) {
+						margin: 2% 0 0 2%;
+					}
+				}
+
+			}
+		}
+		.foruth_s {
+			&:before {
+				content: '東京男子・名古屋女子編';
+				position: absolute;
+				top: 0;
+				left: 0;
+				font-size: 16px;
+				font-weight: bold;
+				letter-spacing: 1.5px;
+				color: #0096ff;
+			}
+		}
 	}
 }
+
+
+
+.entry {
+	background: #fffefa;
+	.entry_wrap {
+	background: url(https://goo.gl/Q6K7vL) 0 82px no-repeat;
+	max-width: 1100px;
+	padding: 77px 0 0 0;
+	margin: 0 auto;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+	.entry_heading {
+		padding: 0 0 0 1%;
+		.entry_sub {
+			margin: 0 0 0 111px;
+			letter-spacing: 0px;
+			font-style: italic;
+			font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+			font-size: 26px;
+			color: #ff4bac;
+		}
+		.entry_title {
+			margin: 12px 0 0 35px;
+			letter-spacing: 3px;
+			font-size: 34px;
+			font-weight: normal;
+			color: #797979;
+		}
+	}
+	.entry_inner {
+		padding: 50px 0 90px 111px;
+		.entry_text {
+			font-weight: bold;
+			font-size: 18px;
+			line-height: 2.5;
+		}
+		.entry_item {
+			margin: 50px auto 0;
+			width: 75%;
+			li {
+				margin: 25px 0 0;
+				font-size: 18px;
+				font-weight: bold;
+
+				&:first-child {
+					margin: 0;
+				}
+			}
+		}
+		.entry_btn {
+			a {
+				position: relative;
+				display: block;
+				background: #0096ff;
+				width: 100%;
+				max-width: 372px;
+				padding: 20px 0;
+				margin: 55px auto 0;
+				border-radius: 8px;
+				text-align: center;
+				font-size: 28px;
+				letter-spacing: 1.5px;
+				color: #fff;
+
+				&:before {
+					content: '';
+					position: absolute;
+					top: 34%;
+					right: 15px;
+					background: url(https://goo.gl/iQnF4T) 0 0 no-repeat;
+					background-size: 14px 23px;
+					width: 14px;
+					height: 23px;
+				}
+			}
+		}
+		.entry_caution {
+			margin: 45px 0 0;
+			li {
+				font-size: 18px;
+				margin: 15px 0 0 0;
+				&:first-child {
+					margin: 0;
+				}
+			}
+		}
+	}
+}
+
 
 
 
@@ -770,9 +1081,9 @@ img  { width: 100%;}
 .introduction {
 	background: #fffefa;
 	.introduction_wrap {
-		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/423150/4b0288266fa16f5cf7ea2713dede850e_e383002f7c8b24639dd52204d27f2d4a.png) 0 54px no-repeat;
+		background: url(https://goo.gl/Q6K7vL) 0 54px no-repeat;
 		max-width: 1100px;
-		padding: 40px 0 2% 0;
+		padding: 40px 0 5% 0;
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
@@ -831,7 +1142,7 @@ img  { width: 100%;}
 @media screen and (max-width: 1024px) {
 	.introduction {
 		.introduction_wrap {
-			padding: 42px 0 5% 0;
+			padding: 42px 0 9% 0;
 		}
 		.introduction_heading {
 			padding: 0 0 0 1%;
@@ -1244,7 +1555,7 @@ img  { width: 100%;}
 }
 
 .cast_wrap {
-	background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/423150/4b0288266fa16f5cf7ea2713dede850e_e383002f7c8b24639dd52204d27f2d4a.png) 0 52px no-repeat;
+	background: url(https://goo.gl/Q6K7vL) 0 52px no-repeat;
 	max-width: 1100px;
 	padding: 38px 0 3% 0;
 	margin: 0 auto;
@@ -1784,7 +2095,7 @@ img  { width: 100%;}
 	background: #fffefa;
 }
 .past_wrap {
-		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/423150/4b0288266fa16f5cf7ea2713dede850e_e383002f7c8b24639dd52204d27f2d4a.png) 0 9px no-repeat;
+		background: url(https://goo.gl/Q6K7vL) 0 9px no-repeat;
 	max-width: 1100px;
 	min-height: 230px;
 	padding: 0 0 24px 0;
@@ -2237,7 +2548,7 @@ img  { width: 100%;}
 .highlight {
 	background: #eff8fd;
 	.highlight_wrap {
-		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/423150/4b0288266fa16f5cf7ea2713dede850e_e383002f7c8b24639dd52204d27f2d4a.png) 0 55px no-repeat;
+		background: url(https://goo.gl/Q6K7vL) 0 55px no-repeat;
 		max-width: 1100px;
 		padding: 42px 0 4% 0;
 		margin: 0 auto;
@@ -2634,7 +2945,7 @@ img  { width: 100%;}
 .sns {
   background: #eff8fd;
   .sns_wrap {
-	background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/423150/4b0288266fa16f5cf7ea2713dede850e_e383002f7c8b24639dd52204d27f2d4a.png) 0 32px no-repeat;
+	background: url(https://goo.gl/Q6K7vL) 0 32px no-repeat;
 	max-width: 1100px;
 	padding: 22px 0 0 0;
 	margin: 0 auto;
@@ -2698,11 +3009,11 @@ img  { width: 100%;}
 footer {
 	background: #0096ff;
 	width: 100%;
-	height: 50px;
 }
 .corp_wrap {
 	width: 100%;
-	height: 50px;
+	height: 97px;
+	line-height: 62px;
 	padding: 16px 0 0;
 	text-align: center;
 	box-sizing: border-box;
