@@ -654,25 +654,18 @@ img  { width: 100%;}
 
 				.btn {
 					a {
-						position: relative;
-						display: block;
-						background: #0096ff;
-						width: 100%;
-						max-width: 372px;
-						padding: 20px 0;
-						margin: 55px auto 0;
+						width: 75%;
+						padding: 5% 0;
+						margin: 9% auto 0;
 						border-radius: 8px;
 						text-align: center;
-						font-size: 28px;
+						font-size: calc(36vw/13);
 						letter-spacing: 1.5px;
 						color: #fff;
 
 						&:before {
-							content: '';
-							position: absolute;
 							top: 34%;
-							right: 15px;
-							background:url(https://goo.gl/iQnF4T) 0 0 no-repeat;
+							right: 3%;
 							background-size: 14px 23px;
 							width: 14px;
 							height: 23px;
