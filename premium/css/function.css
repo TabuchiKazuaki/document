@@ -37,12 +37,12 @@ header .header_logo {
 header .header_wrap {
   background: url(https://goo.gl/P6LYkC) 0 0 no-repeat;
   background-size: cover;
-  padding: 70px 0 65px;
+  padding: 76px 0 86px;
 }
 header .header_sub {
   text-align: center;
-  letter-spacing: 4px;
-  font-size: 42px;
+  letter-spacing: 2px;
+  font-size: 36px;
   font-weight: normal;
   line-height: 1.1;
 }
@@ -54,8 +54,8 @@ header .header_sub .num {
   font-size: 57px;
 }
 header .header_heading {
-  max-width: 637px;
-  margin: 64px auto 0;
+  max-width: 571px;
+  margin: 22px auto 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -66,11 +66,11 @@ header .header_heading {
     width: 75%;
   }
   header .header_wrap {
-    padding: 8.5% 0 10%;
+    padding: 10.5% 0 10.5%;
   }
   header .header_sub {
     letter-spacing: .5px;
-    font-size: calc(68vw/12);
+    font-size: calc(61vw/12);
     line-height: 1.1;
   }
   header .header_sub .gen {
@@ -84,7 +84,7 @@ header .header_heading {
     width: 82%;
     margin: 0 auto;
     max-width: 637px;
-    margin: 8% auto 0;
+    margin: 2.5% auto 0;
   }
   header .header_heading img {
     width: 100%;
@@ -132,9 +132,12 @@ header .header_heading {
   padding: 0 0 0;
 }
 .content_wrap .wrap {
-  max-width: 768px;
+  max-width: 680px;
   padding: 70px 0 0;
   margin: 0 auto;
+}
+.content_wrap .wrap_sec {
+  padding: 40px 0 0;
 }
 .content_wrap .wrap_inner video {
   width: 100%;
@@ -142,25 +145,32 @@ header .header_heading {
 }
 .content_wrap .wrap_inner .movie_text {
   background: #232323;
-  padding: 15px 0;
+  padding: 27px 0;
   margin: -2px 0 0;
   border-radius: 0 0 6px 6px;
-  font-size: 16px;
+  font-size: 26px;
   text-align: center;
   color: #fff;
 }
 .content_wrap .camp_heading {
   padding: 0 0 0 20px;
-  margin: 40px 0 0;
   border-left: 8px solid #50c401;
   font-size: 38px;
   font-weight: normal;
 }
-.content_wrap .camp_heading:nth-of-type(1) {
-  margin: 0;
+.content_wrap .camp_para {
+  margin: 80px 0 0;
+}
+.content_wrap .wrap_item {
+  position: relative;
+}
+.content_wrap .wrap_item .camp_num {
+  font-size: 32px;
+  padding: 0 0 0 25px;
+  margin: 64px 0 0;
 }
 .content_wrap .camp_text {
-  margin: 20px 0 0;
+  margin: 28px 0 0;
   font-size: 28px;
   line-height: 1.4;
   color: #989898;
@@ -189,7 +199,7 @@ header .header_heading {
   margin: 0;
 }
 .content_wrap .camp_inner .camp_caution {
-  margin: 40px 0 0;
+  margin: 30px 0 0;
   font-size: 20px;
   color: #6a6a6a;
 }
@@ -231,41 +241,6 @@ header .header_heading {
 }
 .content_wrap .content_item li img {
   border-radius: 6px;
-}
-.content_wrap .function {
-  overflow: hidden;
-  margin: 35px 0 0;
-}
-.content_wrap .function li {
-  float: left;
-  background: #252525;
-  width: 49%;
-  padding: 50px 20px 20px;
-  margin: 0 0 0 2%;
-  border-radius: 6px;
-  text-align: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-.content_wrap .function li:first-child {
-  margin: 0;
-}
-.content_wrap .function li figure {
-  max-width: 95px;
-  margin: 0 auto;
-}
-.content_wrap .function li .round {
-  max-width: 112px;
-}
-.content_wrap .function li .fuction_heading {
-  margin: 30px 0 0;
-  font-weight: bold;
-  font-size: 28px;
-}
-.content_wrap .function li .function_text {
-  margin: 10px 0 0;
-  font-size: 26px;
-  line-height: 1.4;
 }
 
 .content_entry {
@@ -359,27 +334,6 @@ header .header_heading {
   }
   .content_wrap .content_item li img {
     border-radius: 7px;
-  }
-  .content_wrap .function {
-    margin: 5% 0 0;
-  }
-  .content_wrap .function li {
-    padding: 7.5% 2% 4%;
-    margin: 0 0 0 2%;
-    border-radius: 8px;
-  }
-  .content_wrap .function li figure {
-    width: 90%;
-    margin: 0 auto;
-  }
-  .content_wrap .function li .fuction_heading {
-    margin: 11% 0 0;
-    font-size: calc(41vw/12);
-  }
-  .content_wrap .function li .function_text {
-    margin: 3% 0 0;
-    font-size: calc(40vw/12);
-    line-height: 1.4;
   }
 
   .content_entry {
@@ -516,31 +470,6 @@ header .header_heading {
   }
   .content_wrap .content_item li img {
     border-radius: 5px;
-  }
-  .content_wrap .function {
-    margin: 5% 0 0;
-  }
-  .content_wrap .function li {
-    padding: 7.5% 3% 4%;
-    margin: 0 0 0 2%;
-    border-radius: 8px;
-  }
-  .content_wrap .function li figure {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 48px;
-  }
-  .content_wrap .function li .round {
-    max-width: 56px;
-  }
-  .content_wrap .function li .fuction_heading {
-    margin: 11% 0 0;
-    font-size: calc(41vw/12);
-  }
-  .content_wrap .function li .function_text {
-    margin: 3% 0 0;
-    font-size: calc(40vw/12);
-    line-height: 1.4;
   }
 
   .content_entry {
