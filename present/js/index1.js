@@ -56,7 +56,7 @@ var b001 = new Date("2016/09/30 23:59");
 if (now.getTime() > b001.getTime()){
 	$(bt01).text('キャンペーン募集は終了しました');
 	$(bt01).css({'background':'#bbb'});
-	$(bt01).href('javascript:void(0)');
+	$(bt01).attr("href","javascript:void(0)");
 }
 
 // 02
@@ -68,8 +68,9 @@ var b002 = new Date("2016/09/11 23:59");
 if (now.getTime() > b002.getTime()){
 	$(bt02).text('キャンペーン募集は終了しました');
 	$(bt02).css({'background':'#bbb'});
-	$(bt02).attr("javascript:void(0)");
+	$(bt02).attr("href","javascript:void(0)");
 }
+
 
 // 03
 var tt03 = new Date("2018/09/01 00:00");
