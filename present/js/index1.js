@@ -92,6 +92,7 @@ var b004 = new Date("2016/09/13 23:59");
 if (now.getTime() > b004.getTime()){
 	$(bt04).text('キャンペーン募集は終了しました');
 	$(bt04).css({'background':'#bbb'});
+	$(bt04).attr("href","javascript:void(0)");
 }
 // 05
 var tt05 = new Date("2016/09/01 00:00");
@@ -102,6 +103,7 @@ var b005 = new Date("2016/09/30 23:59");
 if (now.getTime() > b005.getTime()){
 	$(bt05).text('キャンペーン募集は終了しました');
 	$(bt05).css({'background':'#bbb'});
+	$(bt05).attr("href","javascript:void(0)");
 }
 // 06
 var tt06 = new Date("2016/09/01 00:00");
@@ -112,6 +114,7 @@ var b006 = new Date("2016/09/30 23:59");
 if (now.getTime() > b006.getTime()){
 	$(bt06).text('キャンペーン募集は終了しました');
 	$(bt06).css({'background':'#bbb'});
+	$(bt06).attr("href","javascript:void(0)");
 }
 // 07
 var tt07 = new Date("2016/09/01 00:00");
@@ -122,6 +125,7 @@ var b007 = new Date("2016/09/17 23:59");
 if (now.getTime() > b007.getTime()){
 	$(bt07).text('キャンペーン募集は終了しました');
 	$(bt07).css({'background':'#bbb'});
+	$(bt07).attr("href","javascript:void(0)");
 }
 // 08
 var tt08 = new Date("2016/09/01 00:00");
@@ -132,6 +136,8 @@ var b008 = new Date("2016/09/30 23:59");
 if (now.getTime() > b008.getTime()){
 	$(bt08).text('キャンペーン募集は終了しました');
 	$(bt08).css({'background':'#bbb'});
+	$(bt08).css({'background':'#bbb'});
+	$(bt08).attr("href","javascript:void(0)");
 }
 // 09
 var tt09 = new Date("2016/09/01 00:00");
@@ -142,6 +148,7 @@ var b009 = new Date("2016/09/30 23:59");
 if (now.getTime() > b009.getTime()){
 	$(bt09).text('キャンペーン募集は終了しました');
 	$(bt09).css({'background':'#bbb'});
+	$(bt09).attr("href","javascript:void(0)");
 }
 
 
