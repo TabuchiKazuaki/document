@@ -4,7 +4,7 @@
 $(document).ready(function() {
 var now = new Date();
 var cp_tt = document.getElementById('cp_t');
-var cp_t = new Date("2018/09/01 00:00");
+var cp_t = new Date("2017/09/01 00:00");
 if (now.getTime() > cp_t.getTime()){
 	cp_tt.innerText = 'ご好評につき9月30日まで延長！';
 }
@@ -12,7 +12,6 @@ if (now.getTime() > cp_t.getTime()){
 var ch01 = document.getElementById('dh_01');
 var ct01 = document.getElementById('dt_01');
 var bt01 = document.getElementById('bt_01');
-
 
 var ch02 = document.getElementById('dh_02');
 var ct02 = document.getElementById('dt_02');
@@ -46,73 +45,102 @@ var ch09 = document.getElementById('dh_09');
 var ct09 = document.getElementById('dt_09');
 var bt09 = document.getElementById('bt_09');
 
-var ch10 = document.getElementById('dh_10');
-var ct10 = document.getElementById('dt_10');
-var bt10 = document.getElementById('bt_10');
-
-var ch11 = document.getElementById('dh_11');
-var ct11 = document.getElementById('dt_11');
-var bt11 = document.getElementById('bt_11');
-
-var ch12 = document.getElementById('dh_12');
-var ct12 = document.getElementById('dt_12');
-var bt12 = document.getElementById('bt_12');
-
-var ch13 = document.getElementById('dh_13');
-var ct13 = document.getElementById('dt_13');
-var bt13 = document.getElementById('bt_13');
-
-var ch14 = document.getElementById('dh_14');
-var ct14 = document.getElementById('dt_14');
-var bt14 = document.getElementById('bt_14');
-
-var ch15 = document.getElementById('dh_15');
-var ct15 = document.getElementById('dt_15');
-var bt15 = document.getElementById('bt_15');
-
-var ch16 = document.getElementById('dh_16');
-var ct16 = document.getElementById('dt_16');
-var bt16 = document.getElementById('bt_16');
-
-var ch17 = document.getElementById('dh_17');
-var ct17 = document.getElementById('dt_17');
-var bt17 = document.getElementById('bt_17');
-
-var ch18 = document.getElementById('dh_18');
-var ct18 = document.getElementById('dt_18');
-var bt18 = document.getElementById('bt_18');
-
-var ch19 = document.getElementById('dh_19');
-var ct19 = document.getElementById('dt_19');
-var bt19 = document.getElementById('bt_19');
-
-var ch20 = document.getElementById('dh_20');
-var ct20 = document.getElementById('dt_20');
-var bt20 = document.getElementById('bt_20');
 
 
 // 01
-var tt01 = new Date("2018/09/01 00:00");
+var tt01 = new Date("2016/09/01 00:00");
 if (now.getTime() > tt01.getTime()){
 	$(ch01).show();$(ct01).show();
 }
-var b001 = new Date("2018/09/30 23:59");
+var b001 = new Date("2016/09/30 23:59");
 if (now.getTime() > b001.getTime()){
 	$(bt01).text('キャンペーン募集は終了しました');
 	$(bt01).css({'background':'#bbb'});
+	$(bt01).href('javascript:void(0)');
 }
 
 // 02
-var tt02 = new Date("2018/09/01 00:00");
+var tt02 = new Date("2016/09/01 00:00");
 if (now.getTime() > tt02.getTime()){
 	$(ch02).show();$(ct02).show();
 }
-var b002 = new Date("2018/09/11 23:59");
+var b002 = new Date("2016/09/11 23:59");
 if (now.getTime() > b002.getTime()){
 	$(bt02).text('キャンペーン募集は終了しました');
 	$(bt02).css({'background':'#bbb'});
+	$(bt02).attr("javascript:void(0)");
 }
 
+// 03
+var tt03 = new Date("2018/09/01 00:00");
+if (now.getTime() > tt03.getTime()){
+	$(ch03).show();$(ct03).show();
+}
+var b003 = new Date("2018/09/30 23:59");
+if (now.getTime() > b003.getTime()){
+	$(bt03).text('キャンペーン募集は終了しました');
+	$(bt03).css({'background':'#bbb'});
+}
+// 04
+var tt04 = new Date("2018/09/01 00:00");
+if (now.getTime() > tt04.getTime()){
+	$(ch04).show();$(ct04).show();
+}
+var b004 = new Date("2018/09/11 23:59");
+if (now.getTime() > b004.getTime()){
+	$(bt04).text('キャンペーン募集は終了しました');
+	$(bt04).css({'background':'#bbb'});
+}
+// 05
+var tt05 = new Date("2018/09/01 00:00");
+if (now.getTime() > tt05.getTime()){
+	$(ch05).show();$(ct05).show();
+}
+var b005 = new Date("2018/09/11 23:59");
+if (now.getTime() > b005.getTime()){
+	$(bt05).text('キャンペーン募集は終了しました');
+	$(bt05).css({'background':'#bbb'});
+}
+// 06
+var tt06 = new Date("2018/09/01 00:00");
+if (now.getTime() > tt06.getTime()){
+	$(ch06).show();$(ct06).show();
+}
+var b006 = new Date("2018/09/11 23:59");
+if (now.getTime() > b006.getTime()){
+	$(bt06).text('キャンペーン募集は終了しました');
+	$(bt06).css({'background':'#bbb'});
+}
+// 07
+var tt07 = new Date("2018/09/01 00:00");
+if (now.getTime() > tt07.getTime()){
+	$(ch07).show();$(ct07).show();
+}
+var b007 = new Date("2018/09/11 23:59");
+if (now.getTime() > b007.getTime()){
+	$(bt07).text('キャンペーン募集は終了しました');
+	$(bt07).css({'background':'#bbb'});
+}
+// 08
+var tt08 = new Date("2018/09/01 00:00");
+if (now.getTime() > tt08.getTime()){
+	$(ch08).show();$(ct08).show();
+}
+var b008 = new Date("2018/09/11 23:59");
+if (now.getTime() > b008.getTime()){
+	$(bt08).text('キャンペーン募集は終了しました');
+	$(bt08).css({'background':'#bbb'});
+}
+// 09
+var tt09 = new Date("2018/09/01 00:00");
+if (now.getTime() > tt09.getTime()){
+	$(ch09).show();$(ct09).show();
+}
+var b009 = new Date("2018/09/11 23:59");
+if (now.getTime() > b009.getTime()){
+	$(bt09).text('キャンペーン募集は終了しました');
+	$(bt09).css({'background':'#bbb'});
+}
 
 
 
