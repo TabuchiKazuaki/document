@@ -24,9 +24,11 @@ header {
 		line-height: 0;
 	}
 	.header_wrap {
-		background: url(https://goo.gl/P6LYkC) 0 0 no-repeat;
+		max-width: 1128px;
+		background: url(https://goo.gl/xCTU6w) 0 center no-repeat;
 		background-size: cover;
 		padding: 76px 0 86px;
+		margin: 0 auto;
 	}
 	.header_sub {
 		text-align: center;
@@ -60,6 +62,7 @@ header {
 			}
 		}
 		.header_wrap {
+			background: url(https://goo.gl/P6LYkC) 0 center no-repeat;
 			padding: 10.5% 0 10.5%;
 		}
 		.header_sub {
