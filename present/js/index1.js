@@ -48,11 +48,11 @@ var bt09 = document.getElementById('bt_09');
 
 
 // 01
-var tt01 = new Date("2016/09/01 00:00");
+var tt01 = new Date("2018/09/01 00:00");
 if (now.getTime() > tt01.getTime()){
 	$(ch01).show();$(ct01).show();
 }
-var b001 = new Date("2016/09/30 23:59");
+var b001 = new Date("2018/09/30 23:59");
 if (now.getTime() > b001.getTime()){
 	$(bt01).text('キャンペーン募集は終了しました');
 	$(bt01).css({'background':'#bbb'});
@@ -60,11 +60,11 @@ if (now.getTime() > b001.getTime()){
 }
 
 // 02
-var tt02 = new Date("2016/09/01 00:00");
+var tt02 = new Date("2018/09/01 00:00");
 if (now.getTime() > tt02.getTime()){
 	$(ch02).show();$(ct02).show();
 }
-var b002 = new Date("2016/09/11 23:59");
+var b002 = new Date("2018/09/11 23:59");
 if (now.getTime() > b002.getTime()){
 	$(bt02).text('キャンペーン募集は終了しました');
 	$(bt02).css({'background':'#bbb'});
