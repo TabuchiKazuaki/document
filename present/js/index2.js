@@ -44,6 +44,18 @@ var tt10 = new Date("2018/09/01 00:00");
 if (now.getTime() > tt10.getTime()){
 	$(ch10).show();$(ct10).show();
 }
+var b010a = new Date("2018/06/18 23:59");
+if (now.getTime() > b010a.getTime()){
+	$(bt10).text('8月19日 募集開始予定');
+	$(bt10).css({'background':'#bbb'});
+	$(bt10).attr("href","javascript:void(0)");
+}
+var b010b = new Date("2018/08/21 23:59");
+if (now.getTime() > b010b.getTime()){
+	$(bt10).text('今すぐみる');
+	$(bt10).css({'background':'#50c401'});
+	$(bt10).attr("href","https://abema.tv/video/title/26-53");
+}
 var b010 = new Date("2018/09/30 23:59");
 if (now.getTime() > b010.getTime()){
 	$(bt10).text('キャンペーン募集は終了しました');
