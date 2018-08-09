@@ -4,21 +4,16 @@ var now = new Date();
 var ch19 = document.getElementById('dh_19');
 var ct19 = document.getElementById('dt_19');
 var bt19 = document.getElementById('bt_19');
+var hd19 = document.getElementById('hide_box');
 
 var ch20 = document.getElementById('dh_20');
 var ct20 = document.getElementById('dt_20');
 var bt20 = document.getElementById('bt_20');
 
 // 19
-var tt19 = new Date("2016/08/31 23:59");
-if (now.getTime() > tt19.getTime()){
-	$(ch19).show();$(ct19).show();
-}
 var b019 = new Date("2016/08/31 23:59");
 if (now.getTime() > b019.getTime()){
-	$(bt19).text('キャンペーン募集は終了しました');
-	$(bt19).css({'background':'#bbb'});
-	$(bt19).attr("href","javascript:void(0)");
+	$(hd19).hide();
 }
 // 20
 var tt20 = new Date("2016/09/01 00:00");
