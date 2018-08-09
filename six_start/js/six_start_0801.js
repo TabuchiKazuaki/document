@@ -102,14 +102,6 @@ if (now.getTime() > tt_11.getTime()){
 	ele11.innerText = 'ビデオを視聴する';
 	ele11.href = "https://abema.tv/video/episode/176-12_s1_p1";
 }
-var tt_12 = new Date("2018/07/30 17:00");
-var out12 = new Date("2018/07/30 18:00");
-if (now.getTime() > tt_12.getTime()){
-	ele12.innerText = '今すぐ視聴する';
-} if (now.getTime() > out12.getTime()) {
-	ele12.innerText = 'ビデオを視聴する';
-	ele12.href = "https://abema.tv/video/episode/54-11_s1_p1";
-}
 
 
 
