@@ -11,16 +11,16 @@ var ct20 = document.getElementById('dt_20');
 var bt20 = document.getElementById('bt_20');
 
 // 19
-var b019 = new Date("2016/08/31 23:59");
+var b019 = new Date("2018/08/31 23:59");
 if (now.getTime() > b019.getTime()){
 	$(hd19).hide();
 }
 // 20
-var tt20 = new Date("2016/09/01 00:00");
+var tt20 = new Date("2018/09/01 00:00");
 if (now.getTime() > tt20.getTime()){
 	$(ch20).show();$(ct20).show();
 }
-var b020 = new Date("2016/09/17 23:59");
+var b020 = new Date("2018/09/17 23:59");
 if (now.getTime() > b020.getTime()){
 	$(bt20).text('キャンペーン募集は終了しました');
 	$(bt20).css({'background':'#bbb'});
