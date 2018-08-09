@@ -4,7 +4,7 @@
 $(document).ready(function() {
 var now = new Date();
 var cp_tt = document.getElementById('cp_t');
-var cp_t = new Date("2017/09/01 00:00");
+var cp_t = new Date("2018/09/01 00:00");
 if (now.getTime() > cp_t.getTime()){
 	cp_tt.innerText = 'ご好評につき9月30日まで延長！';
 }
@@ -81,13 +81,14 @@ var b003 = new Date("2018/09/30 23:59");
 if (now.getTime() > b003.getTime()){
 	$(bt03).text('キャンペーン募集は終了しました');
 	$(bt03).css({'background':'#bbb'});
+	$(bt03).attr("href","javascript:void(0)");
 }
 // 04
 var tt04 = new Date("2018/09/01 00:00");
 if (now.getTime() > tt04.getTime()){
 	$(ch04).show();$(ct04).show();
 }
-var b004 = new Date("2018/09/11 23:59");
+var b004 = new Date("2018/09/13 23:59");
 if (now.getTime() > b004.getTime()){
 	$(bt04).text('キャンペーン募集は終了しました');
 	$(bt04).css({'background':'#bbb'});
@@ -97,7 +98,7 @@ var tt05 = new Date("2018/09/01 00:00");
 if (now.getTime() > tt05.getTime()){
 	$(ch05).show();$(ct05).show();
 }
-var b005 = new Date("2018/09/11 23:59");
+var b005 = new Date("2018/09/30 23:59");
 if (now.getTime() > b005.getTime()){
 	$(bt05).text('キャンペーン募集は終了しました');
 	$(bt05).css({'background':'#bbb'});
@@ -107,7 +108,7 @@ var tt06 = new Date("2018/09/01 00:00");
 if (now.getTime() > tt06.getTime()){
 	$(ch06).show();$(ct06).show();
 }
-var b006 = new Date("2018/09/11 23:59");
+var b006 = new Date("2018/09/30 23:59");
 if (now.getTime() > b006.getTime()){
 	$(bt06).text('キャンペーン募集は終了しました');
 	$(bt06).css({'background':'#bbb'});
@@ -117,7 +118,7 @@ var tt07 = new Date("2018/09/01 00:00");
 if (now.getTime() > tt07.getTime()){
 	$(ch07).show();$(ct07).show();
 }
-var b007 = new Date("2018/09/11 23:59");
+var b007 = new Date("2018/09/17 23:59");
 if (now.getTime() > b007.getTime()){
 	$(bt07).text('キャンペーン募集は終了しました');
 	$(bt07).css({'background':'#bbb'});
@@ -127,7 +128,7 @@ var tt08 = new Date("2018/09/01 00:00");
 if (now.getTime() > tt08.getTime()){
 	$(ch08).show();$(ct08).show();
 }
-var b008 = new Date("2018/09/11 23:59");
+var b008 = new Date("2018/09/30 23:59");
 if (now.getTime() > b008.getTime()){
 	$(bt08).text('キャンペーン募集は終了しました');
 	$(bt08).css({'background':'#bbb'});
@@ -137,7 +138,7 @@ var tt09 = new Date("2018/09/01 00:00");
 if (now.getTime() > tt09.getTime()){
 	$(ch09).show();$(ct09).show();
 }
-var b009 = new Date("2018/09/11 23:59");
+var b009 = new Date("2018/09/30 23:59");
 if (now.getTime() > b009.getTime()){
 	$(bt09).text('キャンペーン募集は終了しました');
 	$(bt09).css({'background':'#bbb'});
