@@ -151,6 +151,9 @@ header .header_title {
   margin: 0 auto;
   max-width: 768px;
 }
+.contents .c_para {
+  padding: 0;
+}
 .contents .contents_head {
   background: #232323;
   padding: 15px 0;
@@ -350,10 +353,6 @@ header .header_title {
   height: 34px;
 }
 
-.c_para {
-  padding: 0;
-}
-
 .footer {
   margin: 65px 0 0;
 }
@@ -380,6 +379,9 @@ header .header_title {
 @media screen and (max-width: 768px) {
   .contents .contents_wrap {
     padding: 6% 5% 0;
+  }
+  .contents .c_para {
+    padding: 0;
   }
   .contents .contents_head {
     padding: 2% 0;
@@ -523,10 +525,6 @@ header .header_title {
     height: 27px;
   }
 
-  .c_para {
-    padding: 0;
-  }
-
   .footer {
     margin: 9% 5% 0;
   }
@@ -546,6 +544,9 @@ header .header_title {
 @media screen and (max-width: 480px) {
   .contents .contents_wrap {
     padding: 6% 5% 0;
+  }
+  .contents .c_para {
+    padding: 0;
   }
   .contents .contents_head {
     padding: 2% 0;
