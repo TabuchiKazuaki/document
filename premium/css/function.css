@@ -29,6 +29,21 @@ img {
   width: 100%;
 }
 
+.movie_wrap_block .movie_inner {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  margin: 60px auto 0;
+}
+.movie_wrap_block iframe {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 header .header_logo {
   max-width: 191px;
   padding: 1% 0 1% 1.5%;
