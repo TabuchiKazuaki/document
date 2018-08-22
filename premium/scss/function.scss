@@ -15,7 +15,9 @@ a {
 }
 img  { width: 100%;}
 
-
+.movie {
+	padding:0 0 5%;
+}
 .movie_wrap_block {
 	max-width: 680px;
 	margin: 0 auto;
@@ -73,6 +75,16 @@ header {
 
 @media screen and (max-width: 768px) {
 
+	.movie {
+		padding:0 0 4%;
+	}
+	.movie_wrap_block {
+		margin: 0 5%;
+		.movie_inner {
+			margin: 8% auto 0;
+		}
+	}
+
 	header {
 		.header_logo {
 			padding: 1% 0 1% 1.5%;
@@ -110,6 +122,15 @@ header {
 	}
 }
 @media screen and (max-width: 480px) {
+	.movie {
+		padding:0 0 4%;
+	}
+	.movie_wrap_block {
+		margin: 0 5%;
+		.movie_inner {
+			margin: 8% auto 0;
+		}
+	}
 	header {
 		.header_logo {
 			padding: 1.2% 0 1.2% 1.5%;
