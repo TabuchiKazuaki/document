@@ -29,29 +29,6 @@ img {
   width: 100%;
 }
 
-.movie {
-  padding: 0 0 5%;
-}
-
-.movie_wrap_block {
-  max-width: 680px;
-  margin: 0 auto;
-}
-.movie_wrap_block .movie_inner {
-  position: relative;
-  width: 100%;
-  padding-top: 56.25%;
-  margin: 60px auto 0;
-}
-.movie_wrap_block .movie_inner_frame, .movie_wrap_block iframe {
-  position: absolute;
-  z-index: 5;
-  left: 0;
-  top: 0;
-  width: 100% !important;
-  height: 100% !important;
-}
-
 header .header_logo {
   max-width: 191px;
   padding: 1% 0 1% 1.5%;
@@ -84,17 +61,6 @@ header .header_heading {
 }
 
 @media screen and (max-width: 768px) {
-  .movie {
-    padding: 0 0 4%;
-  }
-
-  .movie_wrap_block {
-    margin: 0 5%;
-  }
-  .movie_wrap_block .movie_inner {
-    margin: 8% auto 0;
-  }
-
   header .header_logo {
     padding: 1% 0 1% 1.5%;
   }
@@ -129,17 +95,6 @@ header .header_heading {
   }
 }
 @media screen and (max-width: 480px) {
-  .movie {
-    padding: 0 0 4%;
-  }
-
-  .movie_wrap_block {
-    margin: 0 5%;
-  }
-  .movie_wrap_block .movie_inner {
-    margin: 8% auto 0;
-  }
-
   header .header_logo {
     padding: 1.2% 0 1.2% 1.5%;
   }
@@ -351,6 +306,28 @@ header .header_heading {
   color: #fff;
 }
 
+.movie {
+  padding: 0 0 5%;
+}
+.movie .movie_wrap_block {
+  max-width: 680px;
+  margin: 0 auto;
+}
+.movie .movie_wrap_block .movie_inner {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  margin: 60px auto 0;
+}
+.movie .movie_wrap_block .movie_inner_frame, .movie .movie_wrap_block iframe {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 footer {
   margin: 70px 0 0;
   height: 80px;
@@ -505,6 +482,16 @@ footer small {
     padding: 5% 0;
     font-size: calc(56vw/13);
     border-radius: 6px;
+  }
+
+  .movie {
+    padding: 0 0 4%;
+  }
+  .movie .movie_wrap_block {
+    margin: 0 5%;
+  }
+  .movie .movie_wrap_block .movie_inner {
+    margin: 8% auto 0;
   }
 
   footer {
@@ -689,6 +676,16 @@ footer small {
     padding: 4% 0;
     font-size: calc(54vw/13);
     border-radius: 6px;
+  }
+
+  .movie {
+    padding: 0 0 3%;
+  }
+  .movie .movie_wrap_block {
+    margin: 0 5%;
+  }
+  .movie .movie_wrap_block .movie_inner {
+    margin: 4% auto 0;
   }
 
   footer {
