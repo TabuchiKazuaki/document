@@ -50,11 +50,6 @@ img {
   text-align: center;
 }
 
-#featured_img img,
-#thumb_img img {
-  max-width: 100%;
-}
-
 #thumb_img {
   margin-top: 2%;
 }
@@ -63,13 +58,13 @@ img {
   max-width: 32%;
   width: 32%;
   cursor: pointer;
-  margin-right: 2%;
+  margin-left: 2%;
 }
 #thumb_img img.active {
   border: 4px solid #eb6a7a;
 }
-#thumb_img img:last-child {
-  margin-right: 0;
+#thumb_img img:first-child {
+  margin-left: 0;
 }
 
 header {
