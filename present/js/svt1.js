@@ -24,7 +24,7 @@ if (now.getTime() > b001a.getTime()){
 	$(bt03).css({'background':'#bbb'});
 	$(bt03).attr("href","javascript:void(0)");
 }
-var b001b = new Date("2018/09/08 00:00");
+var b001b = new Date("2018/08/30 00:00");
 if (now.getTime() > b001b.getTime()){
 	$(bt01).text('今すぐみる');
 	$(bt01).css({'background':'#50c401'});
