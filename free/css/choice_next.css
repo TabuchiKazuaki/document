@@ -30,21 +30,24 @@ img {
   width: 100%;
 }
 
-.thumb_wrap {
-  max-width: 650px;
-  margin: 3rem auto;
-  text-align: center;
-}
-.thumb_wrap .cf:before,
-.thumb_wrap .cf:after {
+.cf:before,
+.cf:after {
   content: "";
   display: table;
 }
-.thumb_wrap .cf:after {
+
+.cf:after {
   clear: both;
 }
-.thumb_wrap .cf {
+
+.cf {
   zoom: 1;
+}
+
+#content {
+  max-width: 650px;
+  margin: 3rem auto;
+  text-align: center;
 }
 
 #thumb_img {

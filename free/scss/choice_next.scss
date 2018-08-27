@@ -17,23 +17,24 @@ img  { width: 100%;}
 
 
 
+.cf:before,
+.cf:after{
+	content:"";
+	display:table;
+}
 
-.thumb_wrap {
-	max-width: 650px;
-	margin: 3rem auto;
-	text-align: center;
-	.cf:before,
-	.cf:after{
-		content:"";
-		display:table;
-	}
+.cf:after{
+	clear:both;
+}
 
-	.cf:after{
-		clear:both;
-	}
-	.cf{
-		zoom:1;
-	}
+.cf{
+	zoom:1;
+}
+
+#content {
+  max-width: 650px;
+  margin: 3rem auto;
+  text-align: center;
 }
 
 #thumb_img {
