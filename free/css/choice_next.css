@@ -30,49 +30,6 @@ img {
   width: 100%;
 }
 
-.fix_item {
-  position: fixed;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  background: rgba(255, 255, 255, 0.9);
-  width: 100%;
-  z-index: 10000;
-}
-.fix_item .fix_wrap {
-  max-width: 680px;
-  padding: 25px 0 30px;
-  margin: 0 auto 0;
-}
-.fix_item .img_01 {
-  max-width: 258px;
-  margin: 0 auto;
-}
-.fix_item .fix_list {
-  overflow: hidden;
-  margin: 36px 0 0;
-}
-.fix_item .fix_list li {
-  float: left;
-  background: #eb6a7a;
-  width: 32%;
-  margin: 0 0 0 2%;
-  border-radius: 6px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-.fix_item .fix_list li:nth-child(1) {
-  margin: 0;
-}
-.fix_item .fix_list li a {
-  display: block;
-  padding: 8px 0 5px;
-  text-align: center;
-}
-.fix_item .fix_list li a img {
-  max-width: 195px;
-}
-
 header {
   background: #efefef;
 }
@@ -383,46 +340,42 @@ header .header_heading {
   letter-spacing: 1.2px;
   color: #8c8c8c;
 }
-.tab_con .point .cf:before,
-.tab_con .point .cf:after {
-  content: "";
-  display: table;
+.tab_con .point .large {
+  margin: 28px 0 0;
 }
-.tab_con .point .cf:after {
-  clear: both;
+.tab_con .point .thumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 0 4px;
+  margin: 15px 0 0;
 }
-.tab_con .point .cf {
-  zoom: 1;
+.tab_con .point .thumb li {
+  margin: 0 0 0 2%;
 }
-.tab_con .point #content {
-  max-width: 750px;
-  margin: 30px auto 0;
-  text-align: center;
+.tab_con .point .thumb li:first-child {
+  margin: 0;
 }
-.tab_con .point .mod_gallery_navi .ex_clearfix {
+.tab_con .point .thumb li a {
   overflow: hidden;
+  display: block;
+  line-height: 0;
+  -webkit-transition: none;
+  transition: none;
 }
-.tab_con .point .mod_gallery_navi .ex_clearfix li {
-  float: left;
-  width: 32%;
-  cursor: pointer;
-  margin-left: 2%;
+.tab_con .point .thumb li a img {
+  margin: 0;
 }
-.tab_con .point .mod_gallery_navi .ex_clearfix li.active {
-  width: 31.7%;
-  border: 4px solid #eb6a7a;
+.tab_con .point .thumb li .active {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border: 4px solid #eb6a7a;
 }
-.tab_con .point .mod_gallery_navi .ex_clearfix li:first-child {
-  margin-left: 0;
-}
-.tab_con .point .mod_gallery_navi .ex_clearfix li a {
-  display: block;
-}
-.tab_con .point #thumb_img, .tab_con .point #thumb_img_two {
-  overflow: hidden;
-  margin-top: 2%;
+.tab_con .point .thumb li .active img {
+  margin: -2px 0;
 }
 
 .content_ballon {
