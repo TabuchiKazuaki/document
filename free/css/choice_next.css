@@ -202,10 +202,6 @@ header .header_heading {
 .tab_con .tab_area:nth-of-type(1) {
   padding: 185px 0 0;
 }
-.tab_con .line {
-  background: #efefef;
-  height: 35px;
-}
 .tab_con .t_c_w {
   background: #fdfdfd;
   padding: 32px 35px 39px;
@@ -378,6 +374,11 @@ header .header_heading {
   opacity: .8;
 }
 
+.line {
+  background: #efefef;
+  height: 35px;
+}
+
 .content_ballon {
   max-width: 560px;
   margin: 50px auto 0;
@@ -536,9 +537,6 @@ header .header_heading {
   .tab_con .tab_area:nth-of-type(1) {
     padding: 24% 0 0;
   }
-  .tab_con .line {
-    height: 28px;
-  }
   .tab_con .t_c_w {
     background: #fff;
     padding: 4% 4% 4.5%;
@@ -669,6 +667,10 @@ header .header_heading {
     margin: 5% auto 0;
   }
 }
+.line {
+  height: 28px;
+}
+
 @media screen and (max-width: 640px) {
   .tab_con .t_c_w figure {
     margin: 3% 0 0;
@@ -963,15 +965,16 @@ header .header_heading {
     width: 75px;
     height: 75px;
   }
-  .tab_con .line {
-    height: 18px;
-  }
   .tab_con .movie_wrap .i_a:before {
     top: 32%;
     left: 39%;
     background-size: 75px 75px;
     width: 75px;
     height: 75px;
+  }
+
+  .line {
+    height: 18px;
   }
 }
 @media screen and (max-width: 375px) {
