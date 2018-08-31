@@ -376,7 +376,7 @@ header .header_heading {
 
 .line {
   background: #efefef;
-  height: 35px;
+  height: 38px;
 }
 
 .last_text {
@@ -767,11 +767,18 @@ header .header_heading {
     font-size: calc(41vw/12);
     line-height: 1.2;
   }
-}
-.line {
-  height: 28px;
-}
 
+  .line {
+    height: 28px;
+  }
+
+  .last_text {
+    margin: 4% 0 0;
+  }
+  .last_text a {
+    font-size: calc(46vw/12);
+  }
+}
 @media screen and (max-width: 640px) {
   .tab_con .t_c_w figure {
     margin: 3% 0 0;
@@ -1113,6 +1120,13 @@ header .header_heading {
 
   .line {
     height: 18px;
+  }
+
+  .last_text {
+    margin: 4% 0 0;
+  }
+  .last_text a {
+    font-size: calc(50vw/12);
   }
 }
 @media screen and (max-width: 375px) {
