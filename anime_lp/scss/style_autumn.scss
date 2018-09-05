@@ -234,34 +234,34 @@ img  { width: 100%;}
 }
 
 .banner_wrap {
-	max-width: 750px;
-	margin: 60px auto;
-}
-.banner {
-	a {
-		position: relative;
-		display: block;
-		background: #232323;
-		padding: 20px 40px;
-		border-radius: 8px;
-		font-size: 33px;
-		line-height: 1.3;
-		color: #fff;
-		span {
-			font-size: 28px;
-			font-weight: bold;
-			color: #50c401;
-		}
+	margin: 60px auto 0;
+	.banner {
+		max-width: 750px;
+		a {
+			position: relative;
+			display: block;
+			background: #232323;
+			padding: 20px 40px;
+			border-radius: 8px;
+			font-size: 33px;
+			line-height: 1.3;
+			color: #fff;
+			span {
+				font-size: 28px;
+				font-weight: bold;
+				color: #50c401;
+			}
 
-		&:after {
-			content: '';
-			position: absolute;
-			top: 40%;
-			right: 4%;
-			background: url(https://goo.gl/wUGUeM) 0 0 no-repeat;
-			background-size: 19px 34px;
-			width: 19px;
-			height: 34px;
+			&:after {
+				content: '';
+				position: absolute;
+				top: 40%;
+				right: 4%;
+				background: url(https://goo.gl/wUGUeM) 0 0 no-repeat;
+				background-size: 19px 34px;
+				width: 19px;
+				height: 34px;
+			}
 		}
 	}
 }
