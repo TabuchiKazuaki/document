@@ -148,12 +148,12 @@ header {
 .ani_list04 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 4.5s 1 forwards; }
 
 .contents {
-	padding: 50px 0 60px;
+	padding: 57px 0 60px;
 	.c_wrap {
 		max-width: 750px;
 		margin: 0 auto;
 		.c_heading {
-			font-size: 41px;
+			font-size: 40px;
 		}
 		.c_item {
 			display: flex;
@@ -169,10 +169,10 @@ header {
 				box-sizing: border-box;
 
 				&:nth-child(2n+1) {
-					margin: 2% 0 0 0;
+					margin: 3% 0 0 0;
 				}
 				&:nth-child(2n) {
-					margin: 2% 0 0 3%;
+					margin: 3% 0 0 3%;
 				}
 				&:nth-child(1) {
 					margin: 0;
@@ -195,7 +195,7 @@ header {
 				span {
 					display: inline-block;
 					background: #ec2840;
-					padding: 6px 14px;
+					padding: 7px 14px;
 					border-radius: 5px;
 					font-size: 18px;
 					color: #fffefe;
@@ -212,6 +212,9 @@ header {
 				color: #979797;
 			}
 		}
+	}
+	.c_para {
+		margin: 45px auto 0;
 	}
 }
 
