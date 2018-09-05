@@ -47,46 +47,16 @@ img  { width: 100%;}
 	}
 }
 
-
-@media screen and (max-width: 1024px) {
-	header {
-		.logo_img {
-			padding: 1% 0 0 4%;
-			line-height: 0;
-			img {
-				width: 80%;
-			}
-		}
-		.header_heading {
-			margin: 0% auto 0;
-			width: 100%;
-			text-align: center;
-			img {
-				width: 90%;
-			}
-		}
-		.header_title {
-			width: 100%;
-			margin: 1% auto 0;
-			text-align: center;
-			img {
-				width: 90%;
-			}
-		}
-	}
-}
-
-
 @media screen and (max-width: 768px) {
-	header {
+	.header {
 		.logo_img {
-			padding: 2% 0 0 4%;
+			padding: 2% 0 2.3% 4%;
 			img {
 				width: 75%;
 			}
 		}
 		.logo_wrap {
-			padding: 8% 0 6%;
+			padding: 8% 0 10%;
 		}
 		.header_heading {
 			margin: 0 auto 0;
@@ -96,7 +66,7 @@ img  { width: 100%;}
 			}
 		}
 		.header_title {
-			margin: 1% auto 0;
+			margin: 0 auto 0;
 			width: 72%;
 			img {
 				width: 100%;
@@ -105,27 +75,24 @@ img  { width: 100%;}
 	}
 }
 @media screen and (max-width: 480px) {
-	header {
+	.header {
 		.logo_img {
-			padding: 3% 0 0 4%;
+			padding: 2% 0 2% 4%;
 			line-height: 0;
 			img {
 				width: 45%;
 			}
 		}
+		.logo_wrap {
+			padding: 7.5% 0 7%;
+		}
 		.header_heading {
-			width: 100%;
-			margin: 2.5% auto 0;
-			img {
-				width: 92%;
-			}
+			width: 76%;
+			margin: 0 auto 0;
 		}
 		.header_title {
-			width: 100%;
-			margin: 1% auto 0;
-			img {
-				width: 92%;
-			}
+			width:76%;
+			margin: 0 auto 0;
 		}
 	}
 }
@@ -166,7 +133,7 @@ img  { width: 100%;}
 			justify-content: flex-end;
 			box-sizing: border-box;
 			background: #252525;
-			width: 48%;
+			width: 48.5%;
 			margin: 0 0 0 3%;
 			border-radius: 0 0 6px 6px;
 			box-sizing: border-box;
@@ -232,6 +199,7 @@ img  { width: 100%;}
 			padding: 60px 0;
 			text-align: center;
 			font-size: 40px;
+			font-weight: bold;
 			color: #fff;
 		}
 	}
@@ -272,7 +240,7 @@ img  { width: 100%;}
 }
 
 .footer {
-	padding: 20px 0 20px;
+	padding: 32px 0 20px;
 	margin: 50px 0 0;
 	border-top: 1px solid #727171;
 	.footer_wrap {
@@ -297,9 +265,64 @@ img  { width: 100%;}
 
 
 @media screen and (max-width: 768px) {
+
+	.contents {
+		padding: 6% 2.5% 0;
+	}
+	.c_wrap {
+		.c_heading {
+			font-size: calc(62vw/12);
+		}
+		.c_item {
+			margin: 4.5% 0 0;
+			li {
+				border-radius: 0 0 5px 5px;
+				img {
+					border-radius: 5px 5px 0 0;
+				}
+			}
+			.list_inner {
+				padding: 4% 5% 6%;
+			}
+			.badge {
+				span {
+					padding: 2.4%  4.5%;
+					border-radius: 5px;
+					font-size: calc(28vw/12);
+				}
+			}
+			.name {
+				margin: 3% 0 0;
+				line-height: 1.3;
+				font-size: calc(44vw/12);
+			}
+			.date {
+				margin: 3% 0 0;
+				font-size: calc(39vw/12);
+			}
+		}
+	}
+	.c_para {
+		margin: 6.5% auto 0;
+	}
+	.anymore {
+		margin: 11% auto 0;
+		width: 95%;
+		.a_wrap {
+			border-radius: 5px;
+
+			.a_text {
+				padding: 7% 0;
+				font-size: calc(65vw/12);
+			}
+		}
+	}
+
 	.banner_wrap {
+		margin: 9% 0 0;
+
 		.banner {
-			margin: 9% 0 0;
+			width: 95%;
 			a {
 				padding: 3% 6.5%;
 				border-radius: 7px;
@@ -319,12 +342,84 @@ img  { width: 100%;}
 			}
 		}
 	}
+	.footer {
+		padding: 4% 0 0;
+		margin: 7% 0 0;
+		.footer_wrap {
+			width: 95%;
+			padding: 0;
+			margin: 0 auto;
+		}
+		.footer_item {
+			line-height: 1.4;
+			font-size: calc(32vw/12);
+			color: #727171;
+		}
+
+		small {
+			display: block;
+			padding: 3% 0 9%;
+			font-size: calc(32vw/12);
+		}
+	}
 }
 
 @media screen and (max-width: 480px) {
+	.contents {
+		padding: 6% 2.5% 0;
+	}
+	.c_wrap {
+		.c_heading {
+			font-size: calc(65vw/12);
+		}
+		.c_item {
+			margin: 4.5% 0 0;
+			li {
+				border-radius: 0 0 4px 4px;
+				img {
+					border-radius: 4px 4px 0 0;
+				}
+			}
+			.list_inner {
+				padding: 4% 5% 6%;
+			}
+			.badge {
+				span {
+					padding: 2.4%  4.5%;
+					border-radius: 4px;
+					font-size: calc(30vw/12);
+				}
+			}
+			.name {
+				margin: 3% 0 0;
+				line-height: 1.3;
+				font-size: calc(46vw/12);
+			}
+			.date {
+				margin: 3% 0 0;
+				font-size: calc(41vw/12);
+			}
+		}
+	}
+	.c_para {
+		margin: 6.5% auto 0;
+	}
+	.anymore {
+		margin: 11% auto 0;
+		width: 95%;
+		.a_wrap {
+			border-radius: 4px;
+
+			.a_text {
+				padding: 7% 0;
+				font-size: calc(67vw/12);
+			}
+		}
+	}
+
 	.banner_wrap {
+		margin: 8% 0 0;
 		.banner {
-			margin: 9% 0 0;
 			a {
 				padding: 3% 6.5%;
 				border-radius: 6px;
@@ -343,5 +438,22 @@ img  { width: 100%;}
 			}
 		}
 	}
+
+	.footer {
+		padding: 4% 0 0;
+		margin: 7% 0 0;
+		.footer_item {
+			line-height: 1.3;
+			font-size: calc(34vw/12);
+			color: #727171;
+		}
+
+		small {
+			display: block;
+			padding: 3% 0 8%;
+			font-size: calc(34vw/12);
+		}
+	}
+
 }
 
