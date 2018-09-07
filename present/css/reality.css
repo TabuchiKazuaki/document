@@ -127,66 +127,6 @@ header .header_title {
   animation: item_sp 1s ease 4.5s 1 forwards;
 }
 
-.reflection {
-  height: 100%;
-  width: 30px;
-  position: absolute;
-  top: -180px;
-  left: 0;
-  background-color: #fff;
-  opacity: 0;
-  transform: rotate(45deg);
-  animation: reflection 3s ease-in-out infinite;
-  -webkit-transform: rotate(45deg);
-  -webkit-animation: reflection 3s ease-in-out infinite;
-  -moz-transform: rotate(45deg);
-  -moz-animation: reflection 3s ease-in-out infinite;
-  -ms-transform: rotate(45deg);
-  -ms-animation: reflection 3s ease-in-out infinite;
-  -o-transform: rotate(45deg);
-  -o-animation: reflection 3s ease-in-out infinite;
-}
-
-@keyframes reflection {
-  0% {
-    -webkit-transform: scale(0) rotate(45deg);
-            transform: scale(0) rotate(45deg);
-    opacity: 0;
-  }
-  80% {
-    -webkit-transform: scale(0) rotate(45deg);
-            transform: scale(0) rotate(45deg);
-    opacity: 0.5;
-  }
-  81% {
-    -webkit-transform: scale(4) rotate(45deg);
-            transform: scale(4) rotate(45deg);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(50) rotate(45deg);
-            transform: scale(50) rotate(45deg);
-    opacity: 0;
-  }
-}
-@-webkit-keyframes reflection {
-  0% {
-    -webkit-transform: scale(0) rotate(45deg);
-    opacity: 0;
-  }
-  80% {
-    -webkit-transform: scale(0) rotate(45deg);
-    opacity: 0.5;
-  }
-  81% {
-    -webkit-transform: scale(4) rotate(45deg);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(50) rotate(45deg);
-    opacity: 0;
-  }
-}
 .contents .contents_wrap {
   padding: 60px 0 0;
   margin: 0 auto;
@@ -428,8 +368,6 @@ header .header_title {
   color: #ababab;
 }
 .contents .banner {
-  position: relative;
-  overflow: hidden;
   margin: 45px 0 0;
 }
 .contents .banner a {
@@ -483,26 +421,6 @@ header .header_title {
 }
 
 @media screen and (max-width: 768px) {
-  .reflection {
-    height: 100%;
-    width: 30px;
-    position: absolute;
-    top: -180px;
-    left: 0;
-    background-color: #fff;
-    opacity: 0;
-    transform: rotate(45deg);
-    animation: reflection 4.5s ease-in-out infinite;
-    -webkit-transform: rotate(45deg);
-    -webkit-animation: reflection 4.5s ease-in-out infinite;
-    -moz-transform: rotate(45deg);
-    -moz-animation: reflection 4.5s ease-in-out infinite;
-    -ms-transform: rotate(45deg);
-    -ms-animation: reflection 4.5s ease-in-out infinite;
-    -o-transform: rotate(45deg);
-    -o-animation: reflection 4.5s ease-in-out infinite;
-  }
-
   .contents .contents_wrap {
     padding: 6% 5% 0;
   }
