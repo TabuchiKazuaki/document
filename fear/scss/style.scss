@@ -32,6 +32,12 @@ header {
 		max-width: 674px;
 		margin: 0 auto 0;
 		width: 92%;
+		img {
+			&:hover {
+				display: inline-block;
+				animation: buru .1s  infinite;
+			}
+		}
 	}
 }
 
@@ -413,6 +419,13 @@ header {
 .ani_list03 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 4s 1 forwards; }
 .ani_list04 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 4.5s 1 forwards; }
 
+@keyframes buru {
+    0% {transform: translate(0px, 0px) rotateZ(0deg)}
+    25% {transform: translate(2px, 2px) rotateZ(1deg)}
+    50% {transform: translate(0px, 2px) rotateZ(0deg)}
+    75% {transform: translate(2px, 0px) rotateZ(-1deg)}
+    100% {transform: translate(0px, 0px) rotateZ(0deg)}
+}
 
 
 @media screen and (max-width: 768px) {
