@@ -22,7 +22,7 @@ section .nav_title .nav_heading { float: left; font-size: 36px; letter-spacing: 
 section .nav_title .nav_date { float: right; margin: 6px 0 0; font-size: 30px; font-weight: bold; letter-spacing: 1.2px; color: #8c8c8c; }
 section .nav_title .nav_date span { font-size: 25px; }
 section .nav_inner { margin: 43px 0 0; }
-section .nav_item { overflow: hidden; }
+section .nav_item { overflow: hidden; padding: 0 0 15px; }
 section .nav_item li { float: left; width: 24.3%; margin: 0 0 0 0.7%; }
 section .nav_item li:first-child { margin: 0; }
 section .nav_item li:nth-child(5) { margin: 0.8% 0 0 0; }
@@ -76,7 +76,7 @@ footer .footer_small { font-size: 12px; color: #878787; }
   section .nav_title .nav_date { margin: 0.9% 0 0; font-size: calc(47vw/12); letter-spacing: 1.2px; }
   section .nav_title .nav_date span { font-size: calc(40vw/12); }
   section .nav_inner { margin: 6% 0 0; }
-  section .nav_item { overflow: hidden; }
+  section .nav_item { overflow: hidden; padding: 0 0 3%; }
   section .nav_item li { float: left; width: 24.3%; margin: 0 0 0 0.7%; }
   section .nav_item li:first-child { margin: 0; }
   section .nav_item li:nth-child(5) { margin: 0.8% 0 0 0; }
