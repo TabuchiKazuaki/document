@@ -67,6 +67,7 @@ footer .footer_small_wrap { margin: 2% 0 0; text-align: center; }
 footer .footer_small { font-size: 12px; color: #878787; }
 
 #back-top { z-index: 10000; display: none; position: fixed; bottom: 20px; right: 20px; }
+#back-top a { display: block; }
 #back-top img { width: 89px; }
 
 @media screen and (max-width: 768px) { .header_logo { width: auto; margin: 2% 3% 2% 5%; }
@@ -131,7 +132,7 @@ footer .footer_small { font-size: 12px; color: #878787; }
   .contents .c_inner:nth-of-type(8) .c_title:before { left: 8px; background: url(https://goo.gl/vv3xoS) 0 0 no-repeat; background-size: 30px 30px; width: 30px; height: 30px; }
   .contents .c_inner:nth-of-type(9) .c_title:before { left: 8px; background: url(https://goo.gl/1ftdTQ) 0 0 no-repeat; background-size: 30px 30px; width: 30px; height: 30px; }
   .contents .c_inner:nth-of-type(10) .c_title:before { left: 8px; background: url(https://goo.gl/MWZfkL) 0 0 no-repeat; background-size: 30px 30px; width: 30px; height: 30px; }
-  #back-top { bottom: 10px; right: 10px; }
+  #back-top { bottom: 14px; right: 14px; }
   #back-top img { width: 69px; } }
 @media screen and (max-width: 480px) { .header_logo { margin: 1.8% 0 2.4% 5%; }
   .header_logo img { width: 29%; }
@@ -171,8 +172,7 @@ footer .footer_small { font-size: 12px; color: #878787; }
   .contents .c_inner:nth-of-type(8) .c_title:before { left: 6px; background: url(https://goo.gl/vv3xoS) 0 0 no-repeat; background-size: 19px 19px; width: 19px; height: 19px; }
   .contents .c_inner:nth-of-type(9) .c_title:before { left: 6px; background: url(https://goo.gl/1ftdTQ) 0 0 no-repeat; background-size: 19px 19px; width: 19px; height: 19px; }
   .contents .c_inner:nth-of-type(10) .c_title:before { left: 6px; background: url(https://goo.gl/MWZfkL) 0 0 no-repeat; background-size: 19px 19px; width: 19px; height: 19px; }
-  #back-top { bottom: 20px; right: 20px; }
-  #back-top a { display: block; }
+  #back-top { bottom: 10px; right: 10px; }
   #back-top img { width: 45px; }
   footer { padding: 0 0 4%; margin: 9% 0 0; }
   footer .footer_item { margin: 0 0 0 -1.5%; }
