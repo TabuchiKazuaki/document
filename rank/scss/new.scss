@@ -268,7 +268,8 @@ footer {
 			content: '/';
 			position: absolute;
 			top: -1px;
-			right: 0 ;
+			right: -3px;
+			font-size: 16.5px;
 		}
 		&:last-child:after {
 			content: '';
@@ -511,8 +512,9 @@ footer {
 			}
 
 			&:after {
-				top: 1px;
-				right: 0 ;
+				top: -2px;
+				right: -2px;
+				font-size: calc(26vw/12);
 			}
 		}
 
@@ -810,12 +812,13 @@ footer {
 			padding: 0 1.5% 0 1.5%;
 			line-height: 1.4;
 			a {
-				font-size: calc(31vw/12);
+				font-size: calc(30vw/12);
 			}
 
 			&:after {
-				top: 1px;
-				right: 0 ;
+				top: -1px;
+				right: -2px;
+				font-size: calc(30vw/12);
 			}
 		}
 
