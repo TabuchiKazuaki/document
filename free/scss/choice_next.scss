@@ -1366,9 +1366,12 @@ header {
 	background: #000;
 	padding: 30px 0;
 	.footer_wrap{
+		overflow: hidden;
 		max-width: 695px;
 		margin: 0 auto;
 		.footer_anchor {
+			width: 50%;
+			float: right;
 			a {
 				display: block;
 				margin: 0 0 25px;
@@ -1383,6 +1386,7 @@ header {
 		}
 	}
 	small {
+		clear: both;
 		display: block;
 		margin: 0 auto;
 		text-align: center;

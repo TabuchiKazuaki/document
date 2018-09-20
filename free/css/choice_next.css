@@ -1287,8 +1287,13 @@ header .header_heading {
   padding: 30px 0;
 }
 .footer_area .footer_wrap {
+  overflow: hidden;
   max-width: 695px;
   margin: 0 auto;
+}
+.footer_area .footer_wrap .footer_anchor {
+  width: 50%;
+  float: right;
 }
 .footer_area .footer_wrap .footer_anchor a {
   display: block;
@@ -1302,6 +1307,7 @@ header .header_heading {
   letter-spacing: -2px;
 }
 .footer_area small {
+  clear: both;
   display: block;
   margin: 0 auto;
   text-align: center;
