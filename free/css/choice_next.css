@@ -935,7 +935,6 @@ header .header_heading {
   }
 
   .tab_con .tab_area {
-    max-width: 750px;
     margin: 0 auto;
   }
   .tab_con .t_c_w {
@@ -1287,9 +1286,23 @@ header .header_heading {
   background: #000;
   padding: 30px 0;
 }
+.footer_area .footer_wrap {
+  max-width: 695px;
+  margin: 0 auto;
+}
+.footer_area .footer_wrap .footer_anchor a {
+  display: block;
+  margin: 0 0 25px;
+  text-align: right;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  color: #56c123;
+}
+.footer_area .footer_wrap .footer_anchor a span {
+  letter-spacing: -2px;
+}
 .footer_area small {
   display: block;
-  max-width: 800px;
   margin: 0 auto;
   text-align: center;
   font-size: 22px;
@@ -1300,6 +1313,9 @@ header .header_heading {
 @media screen and (max-width: 768px) {
   .banner {
     padding: 6% 4% 6%;
+  }
+  .banner .banner_wrap {
+    max-width: 650px;
   }
   .banner .banner_btn a {
     padding: 3% 0 3% 2.5%;
@@ -1319,7 +1335,15 @@ header .header_heading {
   }
 
   .footer_area {
-    padding: 4% 0 4%;
+    padding: 4% 4% 4%;
+  }
+  .footer_area .footer_wrap .footer_anchor a {
+    margin: 0 0 4%;
+    font-size: calc(41vw/12);
+    letter-spacing: 1.2px;
+  }
+  .footer_area .footer_wrap .footer_anchor a span {
+    letter-spacing: -4px;
   }
   .footer_area small {
     margin: 0 0 0;
@@ -1364,5 +1388,21 @@ header .header_heading {
     background-size: 10px 17px;
     width: 10px;
     height: 17px;
+  }
+
+  .footer_area {
+    padding: 4% 4% 4%;
+  }
+  .footer_area .footer_wrap .footer_anchor a {
+    margin: 0 0 4%;
+    font-size: calc(44vw/12);
+    letter-spacing: 1px;
+  }
+  .footer_area .footer_wrap .footer_anchor a span {
+    letter-spacing: -3px;
+  }
+  .footer_area small {
+    margin: 0 0 0;
+    font-size: calc(28vw/12);
   }
 }
