@@ -55,26 +55,42 @@ img {
 
 @media screen and (max-width: 768px) {
   .header_logo {
-    margin: 1% 2% 1%;
-  }
-  .header_logo img {
-    width: 70%;
+    margin: 1.4% 0 1.4% 2.2%;
   }
 
-  .heading_area .heading_img img {
-    width: 60%;
+  .heading_area {
+    padding: 7.8% 0 4.8%;
+    margin: 0 0 0;
+  }
+  .heading_area .heading_img {
+    width: 100%;
+  }
+  .heading_area .heading_text {
+    line-height: 1.4;
+    font-weight: normal;
+    font-size: calc(45vw/12);
+    margin: 3% 0 0;
   }
 }
 @media screen and (max-width: 480px) {
   .header_logo {
-    margin: 2% 3% 2%;
-  }
-  .header_logo img {
-    width: 50%;
+    width: 16.2%;
+    margin: 1.4% 0 1.4% 3%;
+    line-height: 0;
   }
 
-  .heading_area .heading_img img {
-    width: 60%;
+  .heading_area {
+    padding: 7.8% 0 4.5%;
+    margin: 0 0 0;
+  }
+  .heading_area .heading_img {
+    width: 47%;
+  }
+  .heading_area .heading_text {
+    line-height: 1.4;
+    font-weight: normal;
+    font-size: calc(48vw/12);
+    margin: 3% 0 0;
   }
 }
 .slide_wrap {
@@ -299,6 +315,25 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  .navi {
+    margin: 5% 0 0;
+  }
+  .navi .navi_item {
+    max-width: 690px;
+    padding: 0 5%;
+  }
+  .navi .navi_item li a {
+    padding: 7.5% 0;
+    border: 2px solid #50c401;
+    font-size: calc(41vw/12);
+  }
+  .navi .navi_item li:nth-child(1) a {
+    border-radius: 5px 0 0 5px;
+  }
+  .navi .navi_item li:nth-child(2) a {
+    border-radius: 0 5px 5px 0;
+  }
+
   .contents .contents_title {
     font-size: calc(67vw/12);
   }
@@ -368,6 +403,26 @@ img {
   }
 }
 @media screen and (max-width: 480px) {
+  .navi {
+    margin: 8% 0 0;
+  }
+  .navi .navi_item {
+    max-width: 690px;
+    padding: 0 5%;
+  }
+  .navi .navi_item li a {
+    padding: 7.8% 0;
+    border: 1px solid #50c401;
+    font-size: calc(44vw/12);
+    font-weight: normal;
+  }
+  .navi .navi_item li:nth-child(1) a {
+    border-radius: 4px 0 0 4px;
+  }
+  .navi .navi_item li:nth-child(2) a {
+    border-radius: 0 4px 4px 0;
+  }
+
   .contents .contents_title {
     font-size: calc(57vw/12);
   }
