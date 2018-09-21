@@ -196,7 +196,7 @@ img  { width: 100%;}
 .contents {
 	max-width: 750px;
 	margin: 0 auto 0;
-	padding: 4.7% 4% 4%;
+	padding: 4.7% 4% 0;
 	a{
 		transition: none;
 		&:hover {
@@ -328,7 +328,7 @@ img  { width: 100%;}
 		}
 	}
 	.contents {
-		padding: 7.7% 0 4%;
+		padding: 7.7% 0 1%;
 	}
 }
 
@@ -802,7 +802,7 @@ footer {
 }
 @media screen and (max-width: 560px) {
 	.contents {
-		padding: 6.2% 0 4%;
+		padding: 6.2% 0 1%;
 	}
 	.sp-slide {
 		margin: 0 0 0 -2.2%;
@@ -824,7 +824,7 @@ footer {
 
 @media screen and (max-width: 480px) {
 	.contents {
-		padding: 7% 0 2%;
+		padding: 7% 0 1%;
 	}
 	.sp-slide {
 		margin: 0 0 0 -2%;
