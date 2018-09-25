@@ -525,7 +525,7 @@ img  { width: 100%;}
 			&:after {
 				content: '';
 				position: absolute;
-				top: 0;
+				top: 41%;
 				right: 0;
 				background: url(https://goo.gl/jLmf3C) 0 0 no-repeat;
 				background-size: 14px 25px;
@@ -536,10 +536,11 @@ img  { width: 100%;}
 				width: 25%;
 			}
 			th {
-				padding: 0 0 0 20px;
+				padding: 0 15px 0 20px;
 				vertical-align: middle;
 				text-align: left;
 				.th_img {
+					margin: 0;
 					font-weight: bold;
 					font-size: 24px;
 				}
@@ -704,11 +705,17 @@ footer {
 				border-radius: 5px;
 			}
 			.new_table {
+				&:after {
+					top: 41%;
+					background-size: 14px 25px;
+					width: 14px;
+					height: 25px;
+				}
 				td {
 					width: 26%;
 				}
 				th {
-					padding: 0 0 0 3%;
+					padding: 0 3.5% 0 3%;
 					.th_img {
 						font-size: calc(39vw/12);
 					}
@@ -919,6 +926,12 @@ footer {
 				border-radius: 4px;
 			}
 			.new_table {
+				&:after {
+					top: 40%;
+					background-size: 7px 13px;
+					width: 7px;
+					height: 13px;
+				}
 
 				td {
 					width: 29%;

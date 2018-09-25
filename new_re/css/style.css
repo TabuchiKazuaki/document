@@ -514,7 +514,7 @@ img {
 .c_box .new_ep .new_table:after {
   content: '';
   position: absolute;
-  top: 0;
+  top: 41%;
   right: 0;
   background: url(https://goo.gl/jLmf3C) 0 0 no-repeat;
   background-size: 14px 25px;
@@ -525,11 +525,12 @@ img {
   width: 25%;
 }
 .c_box .new_ep .new_table th {
-  padding: 0 0 0 20px;
+  padding: 0 15px 0 20px;
   vertical-align: middle;
   text-align: left;
 }
 .c_box .new_ep .new_table th .th_img {
+  margin: 0;
   font-weight: bold;
   font-size: 24px;
 }
@@ -681,11 +682,17 @@ footer .take {
     padding: 2.5%;
     border-radius: 5px;
   }
+  .c_box .new_ep .new_table:after {
+    top: 41%;
+    background-size: 14px 25px;
+    width: 14px;
+    height: 25px;
+  }
   .c_box .new_ep .new_table td {
     width: 26%;
   }
   .c_box .new_ep .new_table th {
-    padding: 0 0 0 3%;
+    padding: 0 3.5% 0 3%;
   }
   .c_box .new_ep .new_table th .th_img {
     font-size: calc(39vw/12);
@@ -887,6 +894,12 @@ footer .take {
   .c_box .new_ep a {
     padding: 2.5%;
     border-radius: 4px;
+  }
+  .c_box .new_ep .new_table:after {
+    top: 40%;
+    background-size: 7px 13px;
+    width: 7px;
+    height: 13px;
   }
   .c_box .new_ep .new_table td {
     width: 29%;
