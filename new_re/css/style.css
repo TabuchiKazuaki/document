@@ -508,6 +508,19 @@ img {
   border-radius: 5px;
   color: #fff;
 }
+.c_box .new_ep .new_table {
+  position: relative;
+}
+.c_box .new_ep .new_table:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(https://goo.gl/jLmf3C) 0 0 no-repeat;
+  background-size: 14px 25px;
+  width: 14px;
+  height: 25px;
+}
 .c_box .new_ep .new_table td {
   width: 25%;
 }
@@ -845,7 +858,7 @@ footer .take {
     font-size: calc(49vw/12);
   }
   .c_box .ch {
-    margin: 2.5% 0 0;
+    margin: 3.5% 0 0;
     font-size: calc(45vw/12);
     letter-spacing: 1.2px;
   }
@@ -865,7 +878,8 @@ footer .take {
   .c_box .btn a {
     padding: 2.5% 0;
     border-radius: 4px;
-    font-size: calc(48vw/12);
+    font-size: calc(42vw/12);
+    font-weight: normal;
   }
   .c_box .new_ep {
     margin: 5% 0 0;

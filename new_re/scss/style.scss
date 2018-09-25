@@ -521,6 +521,17 @@ img  { width: 100%;}
 			color: #fff;
 		}
 		.new_table {
+			position: relative;
+			&:after {
+				content: '';
+				position: absolute;
+				top: 0;
+				right: 0;
+				background: url(https://goo.gl/jLmf3C) 0 0 no-repeat;
+				background-size: 14px 25px;
+				width: 14px;
+				height: 25px;
+			}
 			td {
 				width: 25%;
 			}
@@ -878,7 +889,7 @@ footer {
 		}
 
 		.ch {
-			margin: 2.5% 0 0;
+			margin: 3.5% 0 0;
 			font-size: calc(45vw/12);
 			letter-spacing: 1.2px;
 		}
@@ -897,7 +908,8 @@ footer {
 			a {
 				padding: 2.5% 0;
 				border-radius: 4px;
-				font-size: calc(48vw/12);
+				font-size: calc(42vw/12);
+				font-weight: normal;
 			}
 		}
 		.new_ep {
@@ -907,6 +919,7 @@ footer {
 				border-radius: 4px;
 			}
 			.new_table {
+
 				td {
 					width: 29%;
 				}
