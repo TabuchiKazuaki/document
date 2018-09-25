@@ -569,12 +569,11 @@ img  { width: 100%;}
 }
 
 footer {
-	max-width: 750px;
 	padding: 0 4% 7%;
-	margin: 0 auto;
-	.footer_item {
-		overflow: hidden;
-		margin: 0 0 0 -2%;
+	border-top: 1px solid #6e6e6e;
+	.footer_wrap {
+		max-width: 750px;
+		margin: 0 auto;
 	}
 	li {
 		position: relative;
@@ -607,7 +606,7 @@ footer {
 		margin: 4% 0 0;
 		font-size: 12px;
 		line-height: 1.5;
-		color: #878787;
+		color: #525252;
 		li {
 			float: left;
 		}
@@ -671,7 +670,7 @@ footer {
 	.c_box {
 		.wrap {
 			max-width: 690px;
-			padding: 0 4% 4%;
+			padding: 0 4% 7%;
 		}
 		.wrap_c {
 			padding: 6% 0 0;
@@ -752,8 +751,10 @@ footer {
 	}
 
 	footer {
-		max-width: 750px;
 		padding: 4% 4% 7%;
+		.footer_wrap {
+			margin: 0 auto;
+		}
 		li {
 			position: relative;
 			float: left;
@@ -893,7 +894,7 @@ footer {
 
 	.c_box {
 		.wrap {
-			padding: 0 4% 4%;
+			padding: 0 4% 8%;
 		}
 		.wrap_c {
 			padding: 6% 0 0;
@@ -1031,7 +1032,6 @@ footer {
 		.footer_text {
 			margin: 3% 0 0;
 			line-height: 1.4;
-			color: #878787;
 		}
 		.take {
 			width: 23%;
