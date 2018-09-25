@@ -428,6 +428,19 @@ img {
 .contents a:hover {
   opacity: 1;
 }
+.contents .rank_wrap {
+  position: relative;
+}
+.contents .rank_wrap:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(https://goo.gl/FQEPrD) 0 0 no-repeat;
+  background-size: 29px 48px;
+  width: 29px;
+  height: 48px;
+}
 
 .c_box {
   padding: 0;
@@ -625,6 +638,13 @@ footer .take {
   .contents {
     padding: 7.7% 0 1%;
     margin: 0 auto 0;
+  }
+  .contents .rank_wrap:after {
+    top: 0;
+    right: 0;
+    background-size: 29px 42px;
+    width: 29px;
+    height: 42px;
   }
 
   .c_box .wrap {
@@ -919,6 +939,13 @@ footer .take {
   .contents {
     padding: 7% 0 1%;
     margin: 0 0 -4%;
+  }
+  .contents .rank_wrap:after {
+    top: 0;
+    right: 0;
+    background-size: 14px 23px;
+    width: 14px;
+    height: 23px;
   }
 
   .sp-slide {
