@@ -455,11 +455,6 @@ img {
   margin: 47px 0 0;
   border-top: 1px solid #6e6e6e;
 }
-.c_box .wrap_c:nth-of-type(1) {
-  padding: 0;
-  margin: 0;
-  border-top: none;
-}
 .c_box .c_inner td {
   width: 45%;
 }
@@ -552,6 +547,15 @@ img {
   font-weight: normal;
   font-size: 23px;
   line-height: 1.4;
+}
+
+.c_box_first {
+  padding: 3% 0 0;
+}
+.c_box_first .wrap_c:nth-of-type(1) {
+  padding: 0;
+  margin: 0;
+  border-top: none;
 }
 
 footer {
