@@ -34,6 +34,7 @@ $(document).ready(function() {
 		if (now.getTime() > next04_04.getTime()) {
 			eln04.attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhJFFujmFM");
 		}
+
 	// ビデオ
 	var change04 = new Date("2018/10/20 23:00");
 	if (now.getTime() > change04.getTime()) {

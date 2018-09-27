@@ -82,17 +82,17 @@ $(document).ready(function() {
 		// tn 最新 #2
 		var next03_02 = new Date("2018/07/22 23:00");
 		if (now.getTime() > next03_02.getTime()) {
-			eln02.attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhJFFujmFM");
+			eln03.attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhJFFujmFM");
 		}
 		// 最新 #3
 		var next03_03 = new Date("2018/07/22 23:00");
 		if (now.getTime() > next03_03.getTime()) {
-			eln02.attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhJFFujmFM");
+			eln03.attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhJFFujmFM");
 		}
 		// 最新 #4
 		var next03_04 = new Date("2018/07/22 23:00");
 		if (now.getTime() > next03_04.getTime()) {
-			eln02.attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhJFFujmFM");
+			eln03.attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhJFFujmFM");
 		}
 	// ビデオ
 	var change03 = new Date("2018/10/20 23:00");
