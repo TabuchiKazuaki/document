@@ -30,12 +30,12 @@ $(document).ready(function() {
 			eln01.attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhJFFujmFM");
 		}
 	// ビデオ
-	var change01 = new Date("2018/10/20 23:00");
+	var change01 = new Date("2018/07/20 23:00");
 	if (now.getTime() > change01.getTime()) {
 		elv01.href = "https://abema.tv/video/title/26-52";
 	}
 	// 削除
-	var out01 = new Date("2018/010/20 23:00");
+	var out01 = new Date("2018/09/20 23:00");
 	if (now.getTime() > out01.getTime()) {
 		elv01.hide();
 	}
@@ -68,7 +68,7 @@ $(document).ready(function() {
 		elv02.href = "https://abema.tv/video/title/26-52";
 	}
 	// 削除
-	var out02 = new Date("2018/010/20 23:00");
+	var out02 = new Date("2018/10/20 23:00");
 	if (now.getTime() > out02.getTime()) {
 		elv02.hide();
 	}
@@ -100,7 +100,7 @@ $(document).ready(function() {
 		elv03.href = "https://abema.tv/video/title/26-52";
 	}
 	// 削除
-	var out03 = new Date("2018/010/20 23:00");
+	var out03 = new Date("2018/10/20 23:00");
 	if (now.getTime() > out03.getTime()) {
 		elv03.hide();
 	}

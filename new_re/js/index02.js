@@ -41,7 +41,7 @@ $(document).ready(function() {
 		elv04.href = "https://abema.tv/video/title/26-52";
 	}
 	// 削除
-	var out04 = new Date("2018/010/20 23:00");
+	var out04 = new Date("2018/10/20 23:00");
 	if (now.getTime() > out04.getTime()) {
 		elv04.hide();
 	}
@@ -73,7 +73,7 @@ $(document).ready(function() {
 		elv05.href = "https://abema.tv/video/title/26-52";
 	}
 	// 削除
-	var out05 = new Date("2018/010/20 23:00");
+	var out05 = new Date("2018/10/20 23:00");
 	if (now.getTime() > out05.getTime()) {
 		elv05.hide();
 	}
@@ -105,7 +105,7 @@ $(document).ready(function() {
 		elv06.href = "https://abema.tv/video/title/26-52";
 	}
 	// 削除
-	var out06 = new Date("2018/010/20 23:00");
+	var out06 = new Date("2018/10/20 23:00");
 	if (now.getTime() > out06.getTime()) {
 		elv06.hide();
 	}
@@ -137,7 +137,7 @@ $(document).ready(function() {
 		elv07.href = "https://abema.tv/video/title/26-52";
 	}
 	// 削除
-	var out07 = new Date("2018/010/20 23:00");
+	var out07 = new Date("2018/10/20 23:00");
 	if (now.getTime() > out07.getTime()) {
 		elv07.hide();
 	}
@@ -169,7 +169,7 @@ $(document).ready(function() {
 		elv08.href = "https://abema.tv/video/title/26-52";
 	}
 	// 削除
-	var out08 = new Date("2018/010/20 23:00");
+	var out08 = new Date("2018/10/20 23:00");
 	if (now.getTime() > out08.getTime()) {
 		elv08.hide();
 	}
@@ -201,7 +201,7 @@ $(document).ready(function() {
 		elv09.href = "https://abema.tv/video/title/26-52";
 	}
 	// 削除
-	var out09 = new Date("2018/010/20 23:00");
+	var out09 = new Date("2018/10/20 23:00");
 	if (now.getTime() > out09.getTime()) {
 		elv09.hide();
 	}
@@ -218,7 +218,7 @@ $(document).ready(function() {
 		elv01.href = "https://abema.tv/video/title/26-52";
 	}
 	// 削除
-	var out01 = new Date("2018/010/20 23:00");
+	var out01 = new Date("2018/10/20 23:00");
 	if (now.getTime() > out01.getTime()) {
 		elv01.hide();
 	}
@@ -235,7 +235,7 @@ $(document).ready(function() {
 		elv02.href = "https://abema.tv/video/title/26-52";
 	}
 	// 削除
-	var out02 = new Date("2018/010/20 23:00");
+	var out02 = new Date("2018/10/20 23:00");
 	if (now.getTime() > out02.getTime()) {
 		elv02.hide();
 	}
@@ -252,7 +252,7 @@ $(document).ready(function() {
 		elv03.href = "https://abema.tv/video/title/26-52";
 	}
 	// 削除
-	var out03 = new Date("2018/010/20 23:00");
+	var out03 = new Date("2018/10/20 23:00");
 	if (now.getTime() > out03.getTime()) {
 		elv03.hide();
 	}
