@@ -2,16 +2,22 @@ $(document).ready(function() {
 	var now = new Date();
 	var elv04 = document.getElementById('tv_04');
 	var eln04 = document.getElementById('tn_04');
+	var d04 = document.getElementById('d_04');
 	var elv05 = document.getElementById('tv_05');
 	var eln05 = document.getElementById('tn_05');
+	var d05 = document.getElementById('d_05');
 	var elv06 = document.getElementById('tv_06');
 	var eln06 = document.getElementById('tn_06');
+	var d06 = document.getElementById('d_06');
 	var elv07 = document.getElementById('tv_07');
 	var eln07 = document.getElementById('tn_07');
+	var d07 = document.getElementById('d_07');
 	var elv08 = document.getElementById('tv_08');
 	var eln08 = document.getElementById('tn_08');
+	var d08 = document.getElementById('d_08');
 	var elv09 = document.getElementById('tv_09');
 	var eln09 = document.getElementById('tn_09');
+	var d09 = document.getElementById('d_09');
 
 	// 04 初期
 	var before04 = new Date("2018/07/22 23:00");
