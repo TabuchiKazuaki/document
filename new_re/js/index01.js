@@ -83,16 +83,16 @@ $(document).ready(function() {
 	}
 	// 無料文言
 	var time02 = new Date("2018/10/20");
-	var mon = time02.getTime()-now.getTime();
-	var day  = Math.floor(mon/(1000*60*60*24)); // カウントダウン用 '日' 取得
-	$(d01).html(day+1);
-	if (now.getTime() > time01.getTime()) {
-		$(dd_01).show();
+	var mon02 = time02.getTime()-now.getTime();
+	var day02  = Math.floor(mon02/(1000*60*60*24)); // カウントダウン用 '日' 取得
+	$(d02).html(day02+1);
+	if (now.getTime() > time02.getTime()) {
+		$(dd_02).show();
 	}
 	// 無料文言削除
-	var timeOut01 = new Date("2018/10/21");
-	if (now.getTime() > timeOut01.getTime()) {
-		$(dd_01).hide();
+	var timeOut02 = new Date("2018/10/21");
+	if (now.getTime() > timeOut02.getTime()) {
+		$(dd_02).hide();
 	}
 	// 削除
 	// var out02 = new Date("2018/09/20 24:00");
@@ -132,6 +132,19 @@ $(document).ready(function() {
 	var change03 = new Date("2018/10/25 23:00");
 	if (now.getTime() > change03.getTime()) {
 		$(elv03).href = "https://abema.tv/video/title/26-52";
+	}
+	// 無料文言
+	var time03 = new Date("2018/10/20");
+	var mon03 = time03.getTime()-now.getTime();
+	var day03  = Math.floor(mon03/(1000*60*60*24)); // カウントダウン用 '日' 取得
+	$(d03).html(day03+1);
+	if (now.getTime() > time03.getTime()) {
+		$(dd_03).show();
+	}
+	// 無料文言削除
+	var timeOut03 = new Date("2018/10/21");
+	if (now.getTime() > timeOut03.getTime()) {
+		$(dd_03).hide();
 	}
 	// 削除
 	// var out03 = new Date("2018/09/21 23:00");
