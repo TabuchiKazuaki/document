@@ -30,8 +30,10 @@ $(document).ready(function() {
 		$(elv01).attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhJFFujmFM");
 	}
 	// ビデオ
-	var change01 = new Date("2018/10/20 23:00");
+	var change01 = new Date("2018/09/20 23:00");
 	if (now.getTime() > change01.getTime()) {
+		$(dd_01).show();
+		$(elv01).text('ビデオを視聴する');
 		$(elv01).href = "https://abema.tv/video/title/26-52";
 	}
 	// 無料文言
@@ -39,11 +41,8 @@ $(document).ready(function() {
 	var mon01 = time01.getTime()-now.getTime();
 	var day01  = Math.floor(mon01/(1000*60*60*24)); // カウントダウン用 '日' 取得
 	$(d01).html(day01+1);
-	if (now.getTime() > time01.getTime()) {
-		$(dd_01).show();
-	}
 	// 無料文言削除
-	var timeOut01 = new Date("2018/10/21");
+	var timeOut01 = new Date("2018/11/21");
 	if (now.getTime() > timeOut01.getTime()) {
 		$(dd_01).hide();
 	}
@@ -79,6 +78,8 @@ $(document).ready(function() {
 	// ビデオ
 	var change02 = new Date("2018/10/20 23:00");
 	if (now.getTime() > change02.getTime()) {
+		$(dd_02).show();
+		$(elv02).text('ビデオを視聴する');
 		$(elv02).href = "https://abema.tv/video/title/26-52";
 	}
 	// 無料文言
@@ -131,6 +132,8 @@ $(document).ready(function() {
 	// ビデオ
 	var change03 = new Date("2018/10/25 23:00");
 	if (now.getTime() > change03.getTime()) {
+		$(dd_03).show();
+		$(elv03).text('ビデオを視聴する');
 		$(elv03).href = "https://abema.tv/video/title/26-52";
 	}
 	// 無料文言

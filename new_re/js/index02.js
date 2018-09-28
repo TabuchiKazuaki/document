@@ -18,6 +18,9 @@ $(document).ready(function() {
 	var elv09 = document.getElementById('tv_09');
 	var eln09 = document.getElementById('tn_09');
 	var d09 = document.getElementById('d_09');
+	var elv10 = document.getElementById('tv_10');
+	var eln10 = document.getElementById('tn_10');
+	var d10 = document.getElementById('d_10');
 
 	// 04 初期
 	var before04 = new Date("2018/07/22 23:00");
@@ -28,6 +31,8 @@ $(document).ready(function() {
 	// ビデオ
 	var change04 = new Date("2018/10/20 23:00");
 	if (now.getTime() > change04.getTime()) {
+		$(dd_04).show();
+		$(elv04).text('ビデオを視聴する');
 		$(elv04).href = "https://abema.tv/video/title/26-52";
 	}
 	// 無料文言
@@ -76,6 +81,8 @@ $(document).ready(function() {
 	// ビデオ
 	var change05 = new Date("2018/10/20 23:00");
 	if (now.getTime() > change05.getTime()) {
+		$(dd_05).show();
+		$(elv05).text('ビデオを視聴する');
 		$(elv05).href = "https://abema.tv/video/title/26-52";
 	}
 	// 無料文言
@@ -126,6 +133,8 @@ $(document).ready(function() {
 	// ビデオ
 	var change06 = new Date("2018/10/20 23:00");
 	if (now.getTime() > change06.getTime()) {
+		$(dd_06).show();
+		$(elv06).text('ビデオを視聴する');
 		$(elv06).href = "https://abema.tv/video/title/26-52";
 	}
 	// 無料文言
@@ -175,6 +184,8 @@ $(document).ready(function() {
 	// ビデオ
 	var change07 = new Date("2018/10/20 23:00");
 	if (now.getTime() > change07.getTime()) {
+		$(dd_07).show();
+		$(elv07).text('ビデオを視聴する');
 		$(elv07).href = "https://abema.tv/video/title/26-52";
 	}
 	// 無料文言
@@ -225,6 +236,8 @@ $(document).ready(function() {
 	// ビデオ
 	var change08 = new Date("2018/10/20 23:00");
 	if (now.getTime() > change08.getTime()) {
+		$(dd_08).show();
+		$(elv08).text('ビデオを視聴する');
 		$(elv08).href = "https://abema.tv/video/title/26-52";
 	}
 	// 無料文言
@@ -274,6 +287,8 @@ $(document).ready(function() {
 	// ビデオ
 	var change09 = new Date("2018/10/20 23:00");
 	if (now.getTime() > change09.getTime()) {
+		$(dd_09).show();
+		$(elv09).text('ビデオを視聴する');
 		$(elv09).href = "https://abema.tv/video/title/26-52";
 	}
 	// 無料文言
@@ -309,5 +324,54 @@ $(document).ready(function() {
 		// var next09_04 = new Date("2018/07/22 23:00");
 		// if (now.getTime() > next09_04.getTime()) {
 		// 	$(eln09).attr("href","https://abema.tv/channels/asia-drama/slots/EQtBHnLNjDqBV1");
+		// }
+
+
+	// 10 初期
+	var before10 = new Date("2018/07/22 23:00");
+	if (now.getTime() > before10.getTime()) {
+		$(elv10).text('今すぐ視聴する');
+		$(elv10).attr("href","https://abema.tv/channels/asia-drama/slots/EQtBHnLNjDqBV1");
+	}
+	// ビデオ
+	var change10 = new Date("2018/10/20 23:00");
+	if (now.getTime() > change10.getTime()) {
+		$(dd_10).show();
+		$(elv10).text('ビデオを視聴する');
+		$(elv10).href = "https://abema.tv/video/title/26-52";
+	}
+	// 無料文言
+	var time10 = new Date("2018/10/20");
+	var mon10 = time10.getTime()-now.getTime();
+	var day10  = Math.floor(mon10/(1000*60*60*24)); // カウントダウン用 '日' 取得
+	$(d10).html(day10+1);
+	if (now.getTime() > time10.getTime()) {
+		$(dd_10).show();
+	}
+	// 無料文言削除
+	var timeOut10 = new Date("2018/10/21");
+	if (now.getTime() > timeOut10.getTime()) {
+		$(dd_10).hide();
+	}
+	// 削除
+	// var out10 = new Date("2018/09/21 23:00");
+	// if (now.getTime() > out10.getTime()) {
+	// 	$(elv10).hide();
+	// }
+
+		// tn 最新 #2
+		// var next10_02 = new Date("2018/07/22 23:00");
+		// if (now.getTime() > next10_02.getTime()) {
+		// 	$(eln10).attr("href","https://abema.tv/channels/asia-drama/slots/EQtBHnLNjDqBV1");
+		// }
+		// 最新 #3
+		// var next10_03 = new Date("2018/07/22 23:00");
+		// if (now.getTime() > next10_03.getTime()) {
+		// 	$(eln10).attr("href","https://abema.tv/channels/asia-drama/slots/EQtBHnLNjDqBV1");
+		// }
+		// 最新 #4
+		// var next10_04 = new Date("2018/07/22 23:00");
+		// if (now.getTime() > next10_04.getTime()) {
+		// 	$(eln10).attr("href","https://abema.tv/channels/asia-drama/slots/EQtBHnLNjDqBV1");
 		// }
 });
