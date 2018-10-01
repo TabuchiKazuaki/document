@@ -120,7 +120,7 @@ $(document).ready(function() {
 	// var timeOut09 = new Date("2018/10/21");
 	// if (now.getTime() > timeOut09.getTime()) {
 	// 	$(dd_09).hide();
-	}
+	// }
 
 	// 10 無料文言
 	var time10 = new Date("2018/10/04");
