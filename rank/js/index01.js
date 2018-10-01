@@ -1,15 +1,6 @@
 
 
 $(document).ready(function() {
-	$('.animated_two').on('click',function(){
-		var flg = $(this).hasClass("bounce");
-		if(!flg){
-			$(this).addClass('bounce');
-		} else {
-			$(this).removeClass('bounce');
-		}
-	});
-
 	var now = new Date();
 	var d01 = document.getElementById('d_01');
 	var d02 = document.getElementById('d_02');
