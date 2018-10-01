@@ -22,7 +22,7 @@ $(document).ready(function() {
 	// 無料文言削除
 	var timeOut01 = new Date("2018/10/08");
 	if (now.getTime() > timeOut01.getTime()) {
-		$(dd_01).hide();
+		$('#dd_01').hide();
 	}
 
 	// 02 無料文言
@@ -33,7 +33,7 @@ $(document).ready(function() {
 	// 無料文言削除
 	var timeOut02 = new Date("2018/10/08");
 	if (now.getTime() > timeOut02.getTime()) {
-		$(dd_02).hide();
+		$('#dd_02').hide();
 	}
 
 	// 03 無料文言
@@ -44,7 +44,7 @@ $(document).ready(function() {
 	// 無料文言削除
 	var timeOut03 = new Date("2018/10/10");
 	if (now.getTime() > timeOut03.getTime()) {
-		$(dd_03).hide();
+		$('#dd_03').hide();
 	}
 
 	// 04 無料文言
@@ -55,7 +55,7 @@ $(document).ready(function() {
 	// 無料文言削除
 	var timeOut04 = new Date("2018/10/09");
 	if (now.getTime() > timeOut04.getTime()) {
-		$(dd_04).hide();
+		$('#dd_04').hide();
 	}
 
 	// 05 無料文言
@@ -66,7 +66,7 @@ $(document).ready(function() {
 	// 無料文言削除
 	var timeOut05 = new Date("2018/10/07");
 	if (now.getTime() > timeOut05.getTime()) {
-		$(dd_05).hide();
+		$('#dd_05').hide();
 	}
 
 	// 06 無料文言
@@ -77,7 +77,7 @@ $(document).ready(function() {
 	// 無料文言削除
 	var timeOut06 = new Date("2018/10/08");
 	if (now.getTime() > timeOut06.getTime()) {
-		$(dd_06).hide();
+		$('#dd_06').hide();
 	}
 
 	// 07 無料文言
@@ -88,7 +88,7 @@ $(document).ready(function() {
 	// 無料文言削除
 	var timeOut07 = new Date("2018/10/04");
 	if (now.getTime() > timeOut07.getTime()) {
-		$(dd_07).hide();
+		$('#dd_07').hide();
 	}
 
 	// 08 無料文言
@@ -99,7 +99,7 @@ $(document).ready(function() {
 	// 無料文言削除
 	var timeOut08 = new Date("2018/10/10");
 	if (now.getTime() > timeOut08.getTime()) {
-		$(dd_08).hide();
+		$('#dd_08').hide();
 	}
 
 	// 09 無料文言
@@ -110,7 +110,7 @@ $(document).ready(function() {
 	// // 無料文言削除
 	// var timeOut09 = new Date("2018/10/21");
 	// if (now.getTime() > timeOut09.getTime()) {
-	// 	$(dd_09).hide();
+	// 	$('#dd_09').hide();
 	// }
 
 	// 10 無料文言
@@ -121,7 +121,7 @@ $(document).ready(function() {
 	// 無料文言削除
 	var timeOut10 = new Date("2018/10/12");
 	if (now.getTime() > timeOut10.getTime()) {
-		$(dd_10).hide();
+		$('#dd_10').hide();
 	}
 
 
