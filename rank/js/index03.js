@@ -1,7 +1,6 @@
 
 
 $(document).ready(function() {
-
 	var now = new Date();
 	var d01 = document.getElementById('d_01');
 	var d02 = document.getElementById('d_02');
@@ -15,16 +14,15 @@ $(document).ready(function() {
 	var d10 = document.getElementById('d_10');
 
 
-
 	// 無料文言
 	var time01 = new Date("2018/10/06");
 	var mon01 = time01.getTime()-now.getTime();
 	var day01  = Math.floor(mon01/(1000*60*60*24)); // カウントダウン用 '日' 取得
 	$(d01).html(day01+1);
 	// 無料文言削除
-	var timeOut01 = new Date("2018/09/07");
+	var timeOut01 = new Date("2018/10/07");
 	if (now.getTime() > timeOut01.getTime()) {
-		$('#dd01').hide();
+		$('#dd_01').hide();
 	}
 
 	// 02 無料文言
@@ -72,12 +70,12 @@ $(document).ready(function() {
 	}
 
 	// 06 無料文言
-	// var time06 = new Date("2018/10/20");
+	// var time06 = new Date("2018/10/07");
 	// var mon06 = time06.getTime()-now.getTime();
 	// var day06  = Math.floor(mon06/(1000*60*60*24)); // カウントダウン用 '日' 取得
 	// $(d06).html(day06+1);
 	// // 無料文言削除
-	// var timeOut06 = new Date("2018/10/21");
+	// var timeOut06 = new Date("2018/10/08");
 	// if (now.getTime() > timeOut06.getTime()) {
 	// 	$('#dd_06').hide();
 	// }
@@ -88,7 +86,7 @@ $(document).ready(function() {
 	var day07  = Math.floor(mon07/(1000*60*60*24)); // カウントダウン用 '日' 取得
 	$(d07).html(day07+1);
 	// 無料文言削除
-	var timeOut07 = new Date("2018/10/14")5
+	var timeOut07 = new Date("2018/10/15");
 	if (now.getTime() > timeOut07.getTime()) {
 		$('#dd_07').hide();
 	}
