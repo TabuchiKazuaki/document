@@ -3,15 +3,6 @@ $(document).ready(function() {
 
 
 
-
-
-
-
-
-
-
-
-
 	var elv01 = document.getElementById('tv_01');
 	var eln01 = document.getElementById('tn_01');
 	var d01 = document.getElementById('d_01');
