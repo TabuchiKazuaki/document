@@ -973,6 +973,13 @@ img {
     font-size: calc(48vw/13);
     letter-spacing: 2px;
   }
+
+  .video_inner .fifth:before {
+    content: '博多男子・東京女子編';
+  }
+  .video_inner .fifth_s:before {
+    content: '大阪男子・北海道女子編';
+  }
 }
 @media screen and (max-width: 480px) {
   .video_wrap {
@@ -1168,6 +1175,13 @@ img {
     left: 0;
     font-size: calc(42vw/13);
     letter-spacing: 2px;
+  }
+
+  .video_inner .fifth:before {
+    content: '博多男子・東京女子編';
+  }
+  .video_inner .fifth_s:before {
+    content: '大阪男子・北海道女子編';
   }
 }
 .entry {

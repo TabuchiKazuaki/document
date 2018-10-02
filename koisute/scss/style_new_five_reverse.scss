@@ -1036,6 +1036,18 @@ img  { width: 100%;}
 			}
 		}
 	}
+	.video_inner {
+		.fifth {
+			&:before {
+				content: '博多男子・東京女子編';
+			}
+		}
+		.fifth_s {
+			&:before {
+				content: '大阪男子・北海道女子編';
+			}
+		}
+	}
 }
 
 
@@ -1241,6 +1253,18 @@ img  { width: 100%;}
 				left: 0;
 				font-size: calc(42vw/13);
 				letter-spacing: 2px;
+			}
+		}
+	}
+	.video_inner {
+		.fifth {
+			&:before {
+				content: '博多男子・東京女子編';
+			}
+		}
+		.fifth_s {
+			&:before {
+				content: '大阪男子・北海道女子編';
 			}
 		}
 	}
