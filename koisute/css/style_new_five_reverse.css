@@ -2352,146 +2352,6 @@ img {
     padding: 3%;
   }
 }
-@media screen and (max-width: 768px) {
-  .past_sp {
-    padding: 10px 5% 2%;
-    background: url(https://goo.gl/AwS8Gg) #fffefa 0 10px no-repeat;
-    background-size: 60px 61px;
-  }
-  .past_sp .past_heading {
-    padding: 0;
-  }
-  .past_sp .past_heading .past_sub {
-    margin: 0 0 0 10.5%;
-    letter-spacing: 0px;
-    font-style: italic;
-    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-    font-size: 11px;
-    color: #ff4bac;
-  }
-  .past_sp .past_heading .past_title {
-    margin: 3px 0 0;
-    letter-spacing: 3px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #797979;
-  }
-  .past_sp .past_box {
-    width: 98%;
-    margin: 15px 0 0 0;
-    padding: 0;
-    font-size: 15px;
-    letter-spacing: 1.5px;
-    line-height: 1.8;
-    color: #626262;
-  }
-  .past_sp .past_box .past_text {
-    font-size: 15px;
-    line-height: 1.7;
-  }
-  .past_sp .past_inner {
-    width: 100%;
-    margin: 28px 0 0;
-  }
-  .past_sp .past_item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-  .past_sp .past_item .past_heading {
-    margin: 0;
-  }
-  .past_sp .past_item_list_sp {
-    background: #eff8fd;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    width: 47.8%;
-    margin: 0 0 2% 4.2%;
-  }
-  .past_sp .past_item_list_sp:nth-child(2n+1) {
-    margin-left: 0;
-  }
-  .past_sp .past_item_list_sp:first-child {
-    margin-left: 0;
-  }
-  .past_sp .past_item_list_sp:nth-child(2) .past_img:before {
-    content: "#2";
-  }
-  .past_sp .past_item_list_sp:nth-child(3) .past_img:before {
-    content: "#3";
-  }
-  .past_sp .past_item_list_sp:nth-child(4) .past_img:before {
-    content: "#4";
-  }
-  .past_sp .past_item_list_sp:nth-child(5) .past_img:before {
-    content: "#5";
-  }
-  .past_sp .past_item_list_sp:nth-child(6) .past_img:before {
-    content: "#6";
-  }
-  .past_sp .past_item_list_sp:nth-child(7) .past_img:before {
-    content: "#7";
-  }
-  .past_sp .past_item_list_sp:nth-child(8) .past_img:before {
-    content: "#8";
-  }
-  .past_sp .past_item_list_sp:nth-child(9) .past_img:before {
-    content: "#9";
-  }
-  .past_sp .past_item_list_sp:nth-child(10) .past_img:before {
-    content: "#10";
-    padding: 8px 6px 0 0;
-    letter-spacing: -2px;
-  }
-  .past_sp .past_item_list_sp:nth-child(11) .past_img:before {
-    content: "#11";
-    padding: 13px 10px 0 0;
-    letter-spacing: -7px;
-  }
-  .past_sp .past_item_list_sp:nth-child(12) .past_img:before {
-    content: "#12";
-    padding: 13px 10px 0 0;
-    letter-spacing: -7px;
-  }
-  .past_sp .past_item_list_sp .past_img {
-    position: relative;
-  }
-  .past_sp .past_item_list_sp .past_img:before {
-    content: "#1";
-    position: absolute;
-    left: 0;
-    bottom: -16px;
-    background: #0096ff;
-    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-    font-style: italic;
-    padding: 7px 4px 0 1px;
-    font-size: 17px;
-    letter-spacing: -1px;
-    color: #fff;
-  }
-  .past_sp .past_item_list_sp .past_img img {
-    width: 100%;
-  }
-  .past_sp .past_item_list_sp .past_img_text {
-    font-size: 13px;
-    letter-spacing: 1px;
-    margin: 3% 2% 3% 12%;
-    line-height: 1.6;
-  }
-  .past_sp .past_list a {
-    display: block;
-    text-decoration: none;
-    color: #626262;
-  }
-}
 .past {
   padding: 20px 0 3%;
   background: #fffefa;
@@ -2736,43 +2596,50 @@ img {
 }
 @media screen and (max-width: 768px) {
   .past {
-    padding: 30px 0 3%;
+    padding: 3% 5% 4%;
+    background: url(https://goo.gl/AwS8Gg) #fffefa 0 10px no-repeat;
+    background-size: 60px 61px;
   }
-
-  .past_heading {
-    padding: 0 0 0 1%;
+  .past .past_wrap {
+    background: none;
+    min-height: auto;
   }
-
-  .past_sub {
-    margin: 5px 0 0 9%;
-    font-size: 22px;
+  .past .past_heading {
+    padding: 0;
   }
-
-  .past_title {
-    margin: 12px 0 0 4%;
-    letter-spacing: 2px;
-    font-size: 30px;
+  .past .past_heading .past_sub {
+    margin: 0 0 0 10.5%;
+    letter-spacing: 0px;
+    font-style: italic;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 11px;
+    color: #ff4bac;
   }
-
-  .past_box {
-    width: 85%;
-    padding: 22px 0 0 50px;
+  .past .past_heading .past_title {
+    margin: 3px 0 0;
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #797979;
   }
-
-  .past_text {
+  .past .past_box {
+    width: 98%;
+    margin: 15px 0 0 0;
+    padding: 0;
+    font-size: 15px;
+    letter-spacing: 1.5px;
     line-height: 1.8;
-    font-size: calc(34vw/15);
+    color: #626262;
   }
-
-  .past_inner {
-    max-width: 1100px;
-    margin: 3% 0 0;
-    margin: 0 auto;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+  .past .past_box .past_text {
+    font-size: 15px;
+    line-height: 1.7;
   }
-
-  .past_item {
+  .past .past_inner {
+    width: 100%;
+    margin: 1% 0 0;
+  }
+  .past .past_item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2782,35 +2649,93 @@ img {
             flex-flow: row wrap;
     width: 100%;
     padding: 0;
-    margin: 0 0 0 1.6%;
+    margin: 0;
   }
-
-  .past_item_list {
+  .past .past_item .past_heading {
+    margin: 0;
+  }
+  .past .past_item_list {
+    background: #eff8fd;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    width: 30.8%;
-    margin: 0 0 2% 1.78%;
+    width: 47.8%;
+    margin: 0 0 2% 4.2%;
   }
-  .past_item_list:nth-child(10) .past_img:before {
-    padding: 7px 9px 0 0;
-    letter-spacing: -5px;
+  .past .past_item_list:nth-child(2n+1) {
+    margin-left: 0;
   }
-  .past_item_list:nth-child(11) .past_img:before {
-    padding: 7px 9px 0 0;
-    letter-spacing: -5px;
+  .past .past_item_list:first-child {
+    margin-left: 0;
   }
-  .past_item_list:nth-child(12) .past_img:before {
-    padding: 7px 9px 0 0;
-    letter-spacing: -5px;
+  .past .past_item_list:nth-child(2) .past_img:before {
+    content: "#2";
   }
-  .past_item_list .past_img:before {
-    bottom: -20px;
-    font-size: 24px;
+  .past .past_item_list:nth-child(3) .past_img:before {
+    content: "#3";
   }
-  .past_item_list .past_img_text {
+  .past .past_item_list:nth-child(4) .past_img:before {
+    content: "#4";
+  }
+  .past .past_item_list:nth-child(5) .past_img:before {
+    content: "#5";
+  }
+  .past .past_item_list:nth-child(6) .past_img:before {
+    content: "#6";
+  }
+  .past .past_item_list:nth-child(7) .past_img:before {
+    content: "#7";
+  }
+  .past .past_item_list:nth-child(8) .past_img:before {
+    content: "#8";
+  }
+  .past .past_item_list:nth-child(9) .past_img:before {
+    content: "#9";
+  }
+  .past .past_item_list:nth-child(10) .past_img:before {
+    content: "#10";
+    padding: 8px 6px 0 0;
+    letter-spacing: -2px;
+  }
+  .past .past_item_list:nth-child(11) .past_img:before {
+    content: "#11";
+    padding: 13px 4px 0 0;
+    letter-spacing: -3px;
+  }
+  .past .past_item_list:nth-child(12) .past_img:before {
+    content: "#12";
+    padding: 13px 4px 0 0;
+    letter-spacing: -3px;
+  }
+  .past .past_item_list .past_img {
+    position: relative;
+  }
+  .past .past_item_list .past_img:before {
+    content: "#1";
+    position: absolute;
+    left: 0;
+    bottom: -16px;
+    background: #0096ff;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-style: italic;
+    padding: 7px 4px 0 1px;
+    font-size: calc(45vw/12);
+    letter-spacing: -1px;
+    color: #fff;
+  }
+  .past .past_item_list .past_img img {
+    width: 100%;
+  }
+  .past .past_item_list .past_img_text {
+    font-size: calc(34vw/12);
+    letter-spacing: 1px;
+    margin: 3% 2% 3% 12%;
     line-height: 1.4;
-    font-size: 13px;
+  }
+  .past .past_list a {
+    display: block;
+    text-decoration: none;
+    color: #626262;
   }
 }
 @media screen and (max-width: 480px) {

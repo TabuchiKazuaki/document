@@ -2526,177 +2526,6 @@ img  { width: 100%;}
 }
 
 
-// ブロック3 past sp
-
-@media screen and (max-width: 768px) {
-
-	.past_sp {
-		padding: 10px 5% 2%;
-		background: url(https://goo.gl/AwS8Gg) #fffefa 0 10px no-repeat;
-		background-size: 60px 61px;
-		.past_wrap_sp {
-		}
-		.past_heading {
-			padding: 0;
-			.past_sub {
-				margin: 0 0 0 10.5%;
-				letter-spacing: 0px;
-				font-style: italic;
-				font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-				font-size: 11px;
-				color: #ff4bac;
-			}
-			.past_title {
-				margin: 3px 0 0;
-				letter-spacing: 3px;
-				font-size: 16px;
-				font-weight: bold;
-				color: #797979;
-			}
-		}
-		.past_box {
-			width: 98%;
-			margin: 15px 0 0 0;
-			padding: 0;
-			font-size: 15px;
-			letter-spacing: 1.5px;
-			line-height: 1.8;
-			color: #626262;
-			.past_text {
-				font-size: 15px;
-				line-height: 1.7;
-			}
-		}
-		.past_inner {
-			width: 100%;
-			margin: 28px 0 0;
-		}
-		.past_item {
-			display: flex;
-			flex-flow: row wrap;
-			width: 100%;
-			padding: 0;
-			margin: 0;
-			.past_heading {
-				margin: 0;
-			}
-		}
-		.past_item_list_sp {
-			background: #eff8fd;
-			justify-content: flex-end;
-			width: 47.8%;
-			margin: 0 0 2% 4.2%;
-			&:nth-child(2n+1) {
-				margin-left: 0;
-			}
-			&:first-child {
-				margin-left: 0;
-			}
-
-			&:nth-child(2) .past_img {
-				&:before {
-					content: "#2";
-				}
-			}
-			&:nth-child(3) .past_img {
-				&:before {
-					content: "#3";
-				}
-			}
-			&:nth-child(4) .past_img {
-				&:before {
-					content: "#4";
-				}
-			}
-			&:nth-child(5) .past_img {
-				&:before {
-					content: "#5";
-				}
-			}
-			&:nth-child(6) .past_img {
-				&:before {
-					content: "#6";
-				}
-			}
-			&:nth-child(7) .past_img {
-				&:before {
-					content: "#7";
-				}
-			}
-			&:nth-child(8) .past_img {
-				&:before {
-					content: "#8";
-				}
-			}
-			&:nth-child(9) .past_img {
-				&:before {
-					content: "#9";
-				}
-			}
-			&:nth-child(10) .past_img {
-				&:before {
-					content: "#10";
-					padding: 8px 6px 0 0;
-					letter-spacing: -2px;
-				}
-			}
-			&:nth-child(11) .past_img {
-				&:before {
-					content: "#11";
-					padding: 13px 10px 0 0;
-					letter-spacing: -7px;
-				}
-			}
-			&:nth-child(12) .past_img {
-				&:before {
-					content: "#12";
-					padding: 13px 10px 0 0;
-					letter-spacing: -7px;
-				}
-			}
-
-			.past_img {
-				position: relative;
-				&:before {
-					content: "#1";
-					position: absolute;
-					left: 0;
-					bottom: -16px;
-					background: #0096ff;
-					font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-					font-style: italic;
-					padding: 7px 4px 0 1px;
-					font-size: 17px;
-					letter-spacing: -1px;
-					color: #fff;
-				}
-				img {
-					width: 100%;
-				}
-			}
-			.past_img_text {
-				font-size: 13px;
-				letter-spacing: 1px;
-				margin: 3% 2% 3% 12%;
-				line-height: 1.6;
-			}
-		}
-		.past_list {
-			a {
-				display: block;
-				text-decoration: none;
-				color: #626262;
-			}
-		}
-
-	}
-}
-
-
-
-// ブロック3 past sp end
-
-
 
 
 
@@ -2954,77 +2783,164 @@ img  { width: 100%;}
 
 @media screen and (max-width: 768px) {
 	.past {
-		padding: 30px 0 3%;
-	}
-
-	.past_heading {
-		padding: 0 0 0 1%;
-	}
-	.past_sub {
-		margin: 5px 0 0 9%;
-		font-size: 22px;
-	}
-	.past_title {
-		margin: 12px 0 0 4%;
-		letter-spacing: 2px;
-		font-size: 30px;
-	}
-	.past_box {
-		width: 85%;
-		padding: 22px 0 0 50px;
-	}
-	.past_text {
-		line-height: 1.8;
-		font-size: calc(34vw/15);
-	}
-
-	.past_inner {
-		max-width: 1100px;
-		margin: 3% 0 0;
-		margin: 0 auto;
-		box-sizing: border-box;
-
-
-	}
-	.past_item {
-		display: flex;
-		flex-flow: row wrap;
-		width: 100%;
-		padding: 0;
-		margin: 0 0 0 1.6%;
-	}
-	.past_item_list {
-		justify-content: flex-end;
-		width: 30.8%;
-		margin: 0 0 2% 1.78%;
-
-		&:nth-child(10) .past_img {
-			&:before {
-				padding: 7px 9px 0 0;
-				letter-spacing: -5px;
+		padding: 3% 5% 4%;
+		background: url(https://goo.gl/AwS8Gg) #fffefa 0 10px no-repeat;
+		background-size: 60px 61px;
+		.past_wrap {
+			background: none;
+			min-height: auto;
+		}
+		.past_heading {
+			padding: 0;
+			.past_sub {
+				margin: 0 0 0 10.5%;
+				letter-spacing: 0px;
+				font-style: italic;
+				font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+				font-size: 11px;
+				color: #ff4bac;
+			}
+			.past_title {
+				margin: 3px 0 0;
+				letter-spacing: 3px;
+				font-size: 16px;
+				font-weight: bold;
+				color: #797979;
 			}
 		}
-		&:nth-child(11) .past_img {
-			&:before {
-				padding: 7px 9px 0 0;
-				letter-spacing: -5px;
+		.past_box {
+			width: 98%;
+			margin: 15px 0 0 0;
+			padding: 0;
+			font-size: 15px;
+			letter-spacing: 1.5px;
+			line-height: 1.8;
+			color: #626262;
+			.past_text {
+				font-size: 15px;
+				line-height: 1.7;
 			}
 		}
-		&:nth-child(12) .past_img {
-			&:before {
-				padding: 7px 9px 0 0;
-				letter-spacing: -5px;
+		.past_inner {
+			width: 100%;
+			margin: 1% 0 0;
+		}
+		.past_item {
+			display: flex;
+			flex-flow: row wrap;
+			width: 100%;
+			padding: 0;
+			margin: 0;
+			.past_heading {
+				margin: 0;
 			}
 		}
-		.past_img {
-			&:before {
-				bottom: -20px;
-				font-size: 24px;
+		.past_item_list {
+			background: #eff8fd;
+			justify-content: flex-end;
+			width: 47.8%;
+			margin: 0 0 2% 4.2%;
+			&:nth-child(2n+1) {
+				margin-left: 0;
+			}
+			&:first-child {
+				margin-left: 0;
+			}
+
+			&:nth-child(2) .past_img {
+				&:before {
+					content: "#2";
+				}
+			}
+			&:nth-child(3) .past_img {
+				&:before {
+					content: "#3";
+				}
+			}
+			&:nth-child(4) .past_img {
+				&:before {
+					content: "#4";
+				}
+			}
+			&:nth-child(5) .past_img {
+				&:before {
+					content: "#5";
+				}
+			}
+			&:nth-child(6) .past_img {
+				&:before {
+					content: "#6";
+				}
+			}
+			&:nth-child(7) .past_img {
+				&:before {
+					content: "#7";
+				}
+			}
+			&:nth-child(8) .past_img {
+				&:before {
+					content: "#8";
+				}
+			}
+			&:nth-child(9) .past_img {
+				&:before {
+					content: "#9";
+				}
+			}
+			&:nth-child(10) .past_img {
+				&:before {
+					content: "#10";
+					padding: 8px 6px 0 0;
+					letter-spacing: -2px;
+				}
+			}
+			&:nth-child(11) .past_img {
+				&:before {
+					content: "#11";
+					padding: 13px 4px 0 0;
+					letter-spacing: -3px;
+				}
+			}
+			&:nth-child(12) .past_img {
+				&:before {
+					content: "#12";
+					padding: 13px 4px 0 0;
+					letter-spacing: -3px;
+				}
+			}
+
+			.past_img {
+				position: relative;
+				&:before {
+					content: "#1";
+					position: absolute;
+					left: 0;
+					bottom: -16px;
+					background: #0096ff;
+					font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+					font-style: italic;
+					padding: 7px 4px 0 1px;
+					font-size: calc(45vw/12);
+					letter-spacing: -1px;
+					color: #fff;
+				}
+				img {
+					width: 100%;
+				}
+			}
+			.past_img_text {
+				font-size: calc(34vw/12);
+				letter-spacing: 1px;
+				margin: 3% 2% 3% 12%;
+				line-height: 1.4;
 			}
 		}
-		.past_img_text {
-			line-height: 1.4;
-			font-size: 13px;
+		.past_list {
+			a {
+				display: block;
+				text-decoration: none;
+				color: #626262;
+			}
 		}
 	}
 }
