@@ -18,34 +18,34 @@ $(document).ready(function() {
 	var before01 = new Date("2018/07/22 23:00");
 	if (now.getTime() > before01.getTime()) {
 		$(elv01).text('今すぐ視聴する');
-		$(elv01).attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhJFFujmFM");
+		$(elv01).attr("href","https://abema.tv/channels/abema-special/slots/8uZLw1QBZamtkf");
 	}
 	// ビデオ
-	var change01 = new Date("2018/09/20 23:00");
+	var change01 = new Date("2018-10-08 24:00");
 	if (now.getTime() > change01.getTime()) {
-		$(dd_01).show();
+		$('#dd_01').show();
 		$(elv01).text('ビデオを視聴する');
-		$(elv01).href = "https://abema.tv/video/title/26-52";
+		$(elv01).href = "https://abema.tv/video/title/90-1141";
 	}
 	// 無料文言
-	var time01 = new Date("2018/10/20");
+	var time01 = new Date("2018/10/07");
 	var mon01 = time01.getTime()-now.getTime();
 	var day01  = Math.floor(mon01/(1000*60*60*24)); // カウントダウン用 '日' 取得
 	$(d01).html(day01+1);
 	// 無料文言削除
 	var timeOut01 = new Date("2018/11/21");
 	if (now.getTime() > timeOut01.getTime()) {
-		$(dd_01).hide();
+		$('#dd_01').hide();
 	}
 	// 削除
 	// if (now.getTime() > out01.getTime()) {
 	// 	$(elv01).hide();
 	// }
 		// tn 最新 #2
-		// var next01_02 = new Date("2018/010/20 23:00");
-		// if (now.getTime() > next01_02.getTime()) {
-		// 	$(eln01).attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhJFFujmFM");
-		// }
+		var next01_02 = new Date("2018/10/22 23:40");
+		if (now.getTime() > next01_02.getTime()) {
+			$(eln01).attr("href","https://abema.tv/channels/k-world/slots/DWTGT5XhLP2SvK");
+		}
 		// 最新 #3
 		// var next01_03 = new Date("2018/11/22 23:00");
 		// if (now.getTime() > next01_03.getTime()) {
@@ -64,14 +64,14 @@ $(document).ready(function() {
 	var before02 = new Date("2018/07/22 23:00");
 	if (now.getTime() > before02.getTime()) {
 		$(elv02).text('今すぐ視聴する');
-		$(elv02).attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhJFFujmFM");
+		$(elv02).attr("href","https://abema.tv/channels/abema-anime/slots/8uZLv6hHRxoYXy");
 	}
 	// ビデオ
 	var change02 = new Date("2018/10/20 23:00");
 	if (now.getTime() > change02.getTime()) {
 		$(dd_02).show();
 		$(elv02).text('ビデオを視聴する');
-		$(elv02).href = "https://abema.tv/video/title/26-52";
+		$(elv02).href = "https://abema.tv/video/title/169-67";
 	}
 	// 無料文言
 	var time02 = new Date("2018/10/20");
