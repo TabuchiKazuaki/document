@@ -68,7 +68,7 @@ $(document).ready(function() {
 	// ビデオ
 	var change02 = new Date("2018/10/10 00:00");
 	if (now.getTime() > change02.getTime()) {
-		$(dd_02).show();
+		$('#dd_02').show();
 		$(elv02).text('ビデオを視聴する');
 		$(elv02).href = "https://abema.tv/video/title/170-10";
 	}
@@ -123,7 +123,7 @@ $(document).ready(function() {
 	// ビデオ
 	var change03 = new Date("2018/10/09 23:30");
 	if (now.getTime() > change03.getTime()) {
-		$(dd_03).show();
+		$('#dd_03').show();
 		$(elv03).text('ビデオを視聴する');
 		$(elv03).href = "https://abema.tv/video/title/216-8";
 	}
