@@ -96,7 +96,7 @@ $(document).ready(function() {
 		// tn 最新 #2
 		var next02_02 = new Date("2018/09/30 23:00");
 		if (now.getTime() > next02_02.getTime()) {
-			$(eln02).attr("href","https://abema.tv/channels/abema-anime/slots/ARD2oc6zNtvyu1");
+			$(eln02).attr("href","https://abema.tv/channels/abema-anime/slots/9k3PkBFdAghNHV");
 			$('#tn_02_s').text('2');
 		}
 		// 最新 #3
