@@ -70,7 +70,7 @@ $(document).ready(function() {
 	// ビデオ
 	var change02 = new Date("2018/09/30 23:00");
 	if (now.getTime() > change02.getTime()) {
-		$('#dd_02').show();
+		// $('#dd_02').show();
 		$(elv02).text('ビデオを視聴する');
 		$(elv02).href = "https://abema.tv/video/title/13-77";
 	}

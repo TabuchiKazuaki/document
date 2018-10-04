@@ -178,7 +178,7 @@ $(document).ready(function() {
 
 
 	// 07 初期
-	var before07 = new Date("2018/10/8 00:45");
+	var before07 = new Date("2018/07/8 00:45");
 	if (now.getTime() > before07.getTime()) {
 		$(elv07).text('今すぐ視聴する');
 		$(elv07).attr("href","https://abema.tv/channels/abema-anime/slots/AzakkLcLgQfZeX");
