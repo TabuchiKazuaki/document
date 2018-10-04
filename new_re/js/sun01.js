@@ -65,7 +65,7 @@ $(document).ready(function() {
 	var before02 = new Date("2018/07/22 23:00");
 	if (now.getTime() > before02.getTime()) {
 		$(elv02).text('今すぐ視聴する');
-		$(elv02).attr("href","https://abema.tv/channels/abema-anime/slots/8uZLv6hHRxoYXy");
+		$(elv02).attr("href","https://abema.tv/channels/abema-anime/slots/9k3PkBFdAghNHV");
 	}
 	// ビデオ
 	var change02 = new Date("2018/09/30 23:00");
