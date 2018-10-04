@@ -26,14 +26,14 @@ $(document).ready(function() {
 	var before04 = new Date("2018/07/22 23:00");
 	if (now.getTime() > before04.getTime()) {
 		$(elv04).text('今すぐ視聴する');
-		$(elv04).attr("href","https://abema.tv/channels/abema-anime/slots/8uZLv6hHRxoYXy");
+		$(elv04).attr("href","https://abema.tv/channels/abema-anime/slots/EQtBHn5Mygb4NK");
 	}
 	// ビデオ
 	var change04 = new Date("2018/10/06 00:30");
 	if (now.getTime() > change04.getTime()) {
 		$('#dd_04').show();
 		$(elv04).text('ビデオを視聴する');
-		$(elv04).href = "https://abema.tv/video/title/54-25";
+		$(elv04).href = "https://abema.tv/video/title/26-58";
 	}
 	// 無料文言
 	// var time04 = new Date("2018/10/20");
@@ -54,9 +54,9 @@ $(document).ready(function() {
 	// 	$(elv04).hide();
 	// }
 		// tn 最新 #2
-		var next04_02 = new Date("2018/10/09 00:30");
+		var next04_02 = new Date("2018/10/06 00:30");
 		if (now.getTime() > next04_02.getTime()) {
-			$(eln04).attr("href","https://abema.tv/channels/abema-anime/slots/9pGVZq8yiLSVSo");
+			$(eln04).attr("href","https://abema.tv/channels/abema-anime/slots/9pGVZX5pd6LWBZ");
 			$('#tn_04_s').text('2');
 		}
 		// 最新 #3
@@ -107,11 +107,11 @@ $(document).ready(function() {
 	// 	$(elv05).hide();
 	// }
 		// tn 最新 #2
-		var next05_02 = new Date("2018/10/09 01:00");
-		if (now.getTime() > next05_02.getTime()) {
-			$(eln05).attr("href","https://abema.tv/channels/abema-anime/slots/9k3PmhSBEaAwu9");
-			$('#tn_05_s').text('2');
-		}
+		// var next05_02 = new Date("2018/10/09 01:00");
+		// if (now.getTime() > next05_02.getTime()) {
+		// 	$(eln05).attr("href","https://abema.tv/channels/abema-anime/slots/9k3PmhSBEaAwu9");
+		// 	$('#tn_05_s').text('2');
+		// }
 		// 最新 #3
 		// var next05_03 = new Date("2018/07/22 23:00");
 		// if (now.getTime() > next05_03.getTime()) {
@@ -129,18 +129,18 @@ $(document).ready(function() {
 
 
 	// // 06 初期
-	// var before06 = new Date("2018/07/22 23:00");
-	// if (now.getTime() > before06.getTime()) {
-	// 	$(elv06).text('今すぐ視聴する');
-	// 	$(elv06).attr("href","https://abema.tv/channels/asia-drama/slots/EQtBHnLNjDqBV1");
-	// }
-	// // ビデオ
-	// var change06 = new Date("2018/10/20 23:00");
-	// if (now.getTime() > change06.getTime()) {
-	// 	$('#dd_06').show();
-	// 	$(elv06).text('ビデオを視聴する');
-	// 	$(elv06).href = "https://abema.tv/video/title/26-52";
-	// }
+	var before06 = new Date("2018/07/22 23:00");
+	if (now.getTime() > before06.getTime()) {
+		$(elv06).text('今すぐ視聴する');
+		$(elv06).attr("href","https://abema.tv/channels/abema-anime/slots/FBsCj9GtyAePL3");
+	}
+	// ビデオ
+	var change06 = new Date("2018/10/06 00:30");
+	if (now.getTime() > change06.getTime()) {
+		$('#dd_06').show();
+		$(elv06).text('ビデオを視聴する');
+		$(elv06).href = "https://abema.tv/video/title/199-24";
+	}
 	// // 無料文言
 	// var time06 = new Date("2018/10/20");
 	// var mon06 = time06.getTime()-now.getTime();
@@ -160,10 +160,11 @@ $(document).ready(function() {
 	// // 	$(elv06).hide();
 	// // }
 	// 	// tn 最新 #2
-	// 	// var next06_02 = new Date("2018/07/22 23:00");
-	// 	// if (now.getTime() > next06_02.getTime()) {
-	// 	// 	$(eln06).attr("href","https://abema.tv/channels/asia-drama/slots/EQtBHnLNjDqBV1");
-	// 	// }
+		var next06_02 = new Date("2018/10/06 00:30");
+		if (now.getTime() > next06_02.getTime()) {
+			$(eln06).attr("href","https://abema.tv/channels/abema-anime/slots/9pGVdAU28rbLyd");
+			$('#tn_06_s').text('2');
+		}
 	// 	// 最新 #3
 	// 	// var next06_03 = new Date("2018/07/22 23:00");
 	// 	// if (now.getTime() > next06_03.getTime()) {
