@@ -127,7 +127,7 @@ $(document).ready(function() {
 	if (now.getTime() > change03.getTime()) {
 		$('#dd_03').show();
 		$(elv03).text('ビデオを視聴する');
-		$(elv03).href = "https://abema.tv/video/title/171-14";
+		$(elv03).attr("href","https://abema.tv/video/title/171-14b");
 	}
 	// 無料文言
 	// var time03 = new Date("2018/10/20");

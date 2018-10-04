@@ -22,7 +22,7 @@ $(document).ready(function() {
 	if (now.getTime() > change01.getTime()) {
 		$('#dd_01').show();
 		$(elv01).text('ビデオを視聴する');
-		$(elv01).href = "https://abema.tv/video/title/190-7";
+		$(elv01).attr("href","https://abema.tv/video/title/190-7");
 	}
 	// 無料文言
 	// var time01 = new Date("2018/10/15");
@@ -69,7 +69,7 @@ $(document).ready(function() {
 	if (now.getTime() > change02.getTime()) {
 		$('#dd_02').show();
 		$(elv02).text('ビデオを視聴する');
-		$(elv02).href = "https://abema.tv/video/title/247-6";
+		$(elv02).attr("href","https://abema.tv/video/title/247-6");
 	}
 	// 無料文言
 	// var time02 = new Date("2018/11/01");

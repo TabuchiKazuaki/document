@@ -25,7 +25,7 @@ $(document).ready(function() {
 	if (now.getTime() > change01.getTime()) {
 		$('#dd_01').show();
 		$(elv01).text('ビデオを視聴する');
-		$(elv01).href = "https://abema.tv/video/title/90-1141";
+		$(elv01).attr("href","https://abema.tv/video/title/90-1141");
 	}
 	// 無料文言
 	var time01 = new Date("2018/10/15");
