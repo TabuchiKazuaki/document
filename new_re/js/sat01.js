@@ -16,7 +16,7 @@ $(document).ready(function() {
 	var before01 = new Date("2018/07/22 23:00");
 	if (now.getTime() > before01.getTime()) {
 		$(elv01).text('今すぐ視聴する');
-		$(elv01).attr("href","https://abema.tv/channels/abema-special/slots/8uZLw1QBZamtkf");
+		$(elv01).attr("href","https://abema.tv/channels/abema-special/slots/CnCy1t26VBRPdZ");
 	}
 	// ビデオ
 	var change01 = new Date("2018/10/07 00:00");
@@ -64,28 +64,29 @@ $(document).ready(function() {
 	var before02 = new Date("2018/07/22 23:00");
 	if (now.getTime() > before02.getTime()) {
 		$(elv02).text('今すぐ視聴する');
-		$(elv02).attr("href","https://abema.tv/channels/abema-anime/slots/8uZLv6hHRxoYXy");
+		$(elv02).attr("href","https://abema.tv/channels/abema-anime/slots/CfXNrvVNTDb87R");
 	}
 	// ビデオ
 	var change02 = new Date("2018/10/01 19:30");
 	if (now.getTime() > change02.getTime()) {
 		$('#dd_02').show();
 		$(elv02).text('ビデオを視聴する');
-		$(elv02).href = "https://abema.tv/video/title/169-67";
+		$(elv02).href = "https://abema.tv/video/title/25-102";
+		$('#date_time').text('24:00〜24:30');
 	}
 	// 無料文言
-	var time02 = new Date("2018/11/01");
-	var mon02 = time02.getTime()-now.getTime();
-	var day02  = Math.floor(mon02/(1000*60*60*24)); // カウントダウン用 '日' 取得
-	$(d02).html(day02+2);
-	if (now.getTime() > time02.getTime()) {
-		$('#dd_02').show();
-	}
-	// 無料文言削除
-	var timeOut02 = new Date("2018/11/01 23:59");
-	if (now.getTime() > timeOut02.getTime()) {
-		$('#dd_02').hide();
-	}
+	// var time02 = new Date("2018/11/01");
+	// var mon02 = time02.getTime()-now.getTime();
+	// var day02  = Math.floor(mon02/(1000*60*60*24)); // カウントダウン用 '日' 取得
+	// $(d02).html(day02+2);
+	// if (now.getTime() > time02.getTime()) {
+	// 	$('#dd_02').show();
+	// }
+	// // 無料文言削除
+	// var timeOut02 = new Date("2018/11/01 23:59");
+	// if (now.getTime() > timeOut02.getTime()) {
+	// 	$('#dd_02').hide();
+	// }
 	// 削除
 	// var out02 = new Date("2018/09/20 24:00");
 	// if (now.getTime() > out02.getTime()) {
@@ -95,7 +96,7 @@ $(document).ready(function() {
 		// tn 最新 #2
 		var next02_02 = new Date("2018/10/01 19:30");
 		if (now.getTime() > next02_02.getTime()) {
-			$(eln02).attr("href","https://abema.tv/channels/abema-anime/slots/ARD2oc6zNtvyu1");
+			$(eln02).attr("href","https://abema.tv/channels/abema-anime/slots/EJ5wnxZ63mLw6F");
 			$('#tn_02_s').text('2');
 		}
 		// 最新 #3
@@ -118,29 +119,29 @@ $(document).ready(function() {
 	var before03 = new Date("2018/07/22 23:00");
 	if (now.getTime() > before03.getTime()) {
 		$(elv03).text('今すぐ視聴する');
-		$(elv03).attr("href","https://abema.tv/channels/abema-anime/slots/EQtBGsqaNVfiF1");
+		$(elv03).attr("href","https://abema.tv/channels/abema-anime/slots/8uZLxXhUnRYWWb");
 	}
 
 	// ビデオ
-	var change03 = new Date("2018/10/09 00:00");
+	var change03 = new Date("2018/10/14 01:30");
 	if (now.getTime() > change03.getTime()) {
 		$('#dd_03').show();
 		$(elv03).text('ビデオを視聴する');
-		$(elv03).href = "https://abema.tv/video/title/26-59";
+		$(elv03).href = "https://abema.tv/video/title/171-14";
 	}
 	// 無料文言
-	var time03 = new Date("2018/10/20");
-	var mon03 = time03.getTime()-now.getTime();
-	var day03  = Math.floor(mon03/(1000*60*60*24)); // カウントダウン用 '日' 取得
-	$(d03).html(day03+2);
-	if (now.getTime() > time03.getTime()) {
-		$('#dd_03').show();
-	}
-	// 無料文言削除
-	var timeOut03 = new Date("2018/10/21");
-	if (now.getTime() > timeOut03.getTime()) {
-		$('#dd_03').hide();
-	}
+	// var time03 = new Date("2018/10/20");
+	// var mon03 = time03.getTime()-now.getTime();
+	// var day03  = Math.floor(mon03/(1000*60*60*24)); // カウントダウン用 '日' 取得
+	// $(d03).html(day03+2);
+	// if (now.getTime() > time03.getTime()) {
+	// 	$('#dd_03').show();
+	// }
+	// // 無料文言削除
+	// var timeOut03 = new Date("2018/10/21");
+	// if (now.getTime() > timeOut03.getTime()) {
+	// 	$('#dd_03').hide();
+	// }
 	// 削除
 	// var out03 = new Date("2018/09/21 23:00");
 	// if (now.getTime() > out03.getTime()) {
@@ -148,10 +149,10 @@ $(document).ready(function() {
 	// }
 
 		// tn 最新 #2
-		var next03_02 = new Date("2018/10/15 23:30");
+		var next03_02 = new Date("2018/10/14 01:30");
 		if (now.getTime() > next03_02.getTime()) {
-			$(eln03).attr("href","https://abema.tv/channels/abema-anime/slots/9k3PifVCsGb7kj");
-			$('#tn_03_s').text('2');
+			$(eln03).attr("href","https://abema.tv/channels/abema-anime/slots/8uZLxXhUnRYWWb");
+			$('#tn_03_s').text('1');
 		}
 		// 最新 #3
 		// var next03_03 = new Date("2018/07/22 23:00");
