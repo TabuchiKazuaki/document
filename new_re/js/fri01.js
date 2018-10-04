@@ -39,7 +39,7 @@ $(document).ready(function() {
 	// 	$(elv01).hide();
 	// }
 		// tn 最新 #2
-		var next01_02 = new Date("2018/10/15 23:40");
+		var next01_02 = new Date("2018/10/05 22:30");
 		if (now.getTime() > next01_02.getTime()) {
 			$(eln01).attr("href","https://abema.tv/channels/abema-anime/slots/9pGVbeUfguZhD9");
 			$('#tn_01_s').text('2');
