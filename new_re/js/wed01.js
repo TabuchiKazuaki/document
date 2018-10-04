@@ -129,6 +129,7 @@ $(document).ready(function() {
 		$('#dd_03').show();
 		$(elv03).text('ビデオを視聴する');
 		$(elv03).href = "https://abema.tv/video/title/420-11";
+		$(elv03).css('background','#50c401')
 	}
 	// 無料文言
 	var time03 = new Date("2018/10/20");

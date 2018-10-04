@@ -1,8 +1,6 @@
 $(document).ready(function() {
 	var now = new Date();
 
-
-
 	var elv01 = document.getElementById('tv_01');
 	var eln01 = document.getElementById('tn_01');
 	var d01 = document.getElementById('d_01');
@@ -21,31 +19,32 @@ $(document).ready(function() {
 		$(elv01).attr("href","https://abema.tv/channels/abema-special/slots/8uZLw1QBZamtkf");
 	}
 	// ビデオ
-	var change01 = new Date("2018-10-08 24:00");
+	var change01 = new Date("2018/10/07 00:00");
 	if (now.getTime() > change01.getTime()) {
-		$('#dd_01').show();
+		// $('#dd_01').show();
+		$('#date_id').text('22:00～23:00');
 		$(elv01).text('ビデオを視聴する');
-		$(elv01).href = "https://abema.tv/video/title/90-1141";
+		$(elv01).href = "https://abema.tv/video/title/90-1147";
 	}
 	// 無料文言
-	var time01 = new Date("2018/10/15");
-	var mon01 = time01.getTime()-now.getTime();
-	var day01  = Math.floor(mon01/(1000*60*60*24)); // カウントダウン用 '日' 取得
-	$(d01).html(day01+2);
-	// 無料文言削除
-	var timeOut01 = new Date("2018/10/15 23:59");
-	if (now.getTime() > timeOut01.getTime()) {
-		$('#dd_01').hide();
-	}
+	// var time01 = new Date("2018/10/15");
+	// var mon01 = time01.getTime()-now.getTime();
+	// var day01  = Math.floor(mon01/(1000*60*60*24)); // カウントダウン用 '日' 取得
+	// $(d01).html(day01+2);
+	// // 無料文言削除
+	// var timeOut01 = new Date("2018/10/15 23:59");
+	// if (now.getTime() > timeOut01.getTime()) {
+	// 	$('#dd_01').hide();
+	// }
 	// ボタン削除
 	// if (now.getTime() > out01.getTime()) {
 	// 	$(elv01).hide();
 	// }
 		// tn 最新 #2
-		var next01_02 = new Date("2018/10/15 23:40");
+		var next01_02 = new Date("2018/10/07 00:00");
 		if (now.getTime() > next01_02.getTime()) {
-			$(eln01).attr("href","https://abema.tv/channels/k-world/slots/DWTGT5XhLP2SvK");
-			$('#tn_01_s').text('2');
+			$(eln01).attr("href","https://abema.tv/channels/abema-special/slots/CnCy1t26VBRPdZ");
+			$('#tn_01_s').text('1');
 		}
 		// 最新 #3
 		// var next01_03 = new Date("2018/11/22 23:00");
