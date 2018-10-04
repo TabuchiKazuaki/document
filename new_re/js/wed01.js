@@ -21,7 +21,7 @@ $(document).ready(function() {
 		$(elv01).attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhJFFujmFM");
 	}
 	// ビデオ
-	var change01 = new Date("2018-10-08 24:00");
+	var change01 = new Date("2018/10/03 23:00");
 	if (now.getTime() > change01.getTime()) {
 		$('#dd_01').show();
 		$(elv01).text('ビデオを視聴する');
@@ -120,7 +120,7 @@ $(document).ready(function() {
 	if (now.getTime() > before03.getTime()) {
 		$(elv03).text('Coming soon');
 		$(elv03).attr("href","javascript:void(0)");
-		$(elv03).css('background','#bbb');
+		$(elv03).css('background','#bbb')
 	}
 
 	// ビデオ
