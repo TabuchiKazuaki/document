@@ -24,7 +24,7 @@ $(document).ready(function() {
 		// $('#dd_01').show();
 		$('#date_id').text('22:00～23:00');
 		$(elv01).text('ビデオを視聴する');
-		$(elv01).href = "https://abema.tv/video/title/90-1147";
+		$(elv01).attr("href","https://abema.tv/video/title/90-1147");
 	}
 	// 無料文言
 	// var time01 = new Date("2018/10/15");
@@ -67,11 +67,11 @@ $(document).ready(function() {
 		$(elv02).attr("href","https://abema.tv/channels/abema-anime/slots/CfXNrvVNTDb87R");
 	}
 	// ビデオ
-	var change02 = new Date("2018/10/01 19:30");
+	var change02 = new Date("2018/10/06 00:30");
 	if (now.getTime() > change02.getTime()) {
 		$('#dd_02').show();
 		$(elv02).text('ビデオを視聴する');
-		$(elv02).href = "https://abema.tv/video/title/25-102";
+		$(elv02).attr("href","https://abema.tv/video/title/25-102");
 		$('#date_time').text('24:00〜24:30');
 	}
 	// 無料文言
@@ -127,7 +127,7 @@ $(document).ready(function() {
 	if (now.getTime() > change03.getTime()) {
 		$('#dd_03').show();
 		$(elv03).text('ビデオを視聴する');
-		$(elv03).attr("href","https://abema.tv/video/title/171-14b");
+		$(elv03).attr("href","https://abema.tv/video/title/171-14");
 	}
 	// 無料文言
 	// var time03 = new Date("2018/10/20");

@@ -33,21 +33,21 @@ $(document).ready(function() {
 	if (now.getTime() > change04.getTime()) {
 		$('#dd_04').show();
 		$(elv04).text('ビデオを視聴する');
-		$(elv04).href = "https://abema.tv/video/title/174-10";
+		$(elv04).attr("href","https://abema.tv/video/title/174-10");
 	}
 	// 無料文言
-	var time04 = new Date("2018/10/20");
-	var mon04 = time04.getTime()-now.getTime();
-	var day04  = Math.floor(mon04/(1000*60*60*24)); // カウントダウン用 '日' 取得
-	$(d04).html(day04+2);
-	if (now.getTime() > time04.getTime()) {
-		$('#dd_04').show();
-	}
-	// 無料文言削除
-	var timeOut04 = new Date("2018/10/21");
-	if (now.getTime() > timeOut04.getTime()) {
-		$('#dd_04').hide();
-	}
+	// var time04 = new Date("2018/10/20");
+	// var mon04 = time04.getTime()-now.getTime();
+	// var day04  = Math.floor(mon04/(1000*60*60*24)); // カウントダウン用 '日' 取得
+	// $(d04).html(day04+2);
+	// if (now.getTime() > time04.getTime()) {
+	// 	$('#dd_04').show();
+	// }
+	// // 無料文言削除
+	// var timeOut04 = new Date("2018/10/21");
+	// if (now.getTime() > timeOut04.getTime()) {
+	// 	$('#dd_04').hide();
+	// }
 	// 削除
 	// var out04 = new Date("2018/09/21 23:00");
 	// if (now.getTime() > out04.getTime()) {
@@ -84,21 +84,21 @@ $(document).ready(function() {
 	if (now.getTime() > change05.getTime()) {
 		$('#dd_05').show();
 		$(elv05).text('ビデオを視聴する');
-		$(elv05).href = "https://abema.tv/video/title/194-5";
+		$(elv05).attr("href","https://abema.tv/video/title/194-5");
 	}
 	// 無料文言
-	var time05 = new Date("2018/10/20");
-	var mon05 = time05.getTime()-now.getTime();
-	var day05  = Math.floor(mon05/(1000*60*60*24)); // カウントダウン用 '日' 取得
-	$(d05).html(day05+2);
-	if (now.getTime() > time05.getTime()) {
-		$('#dd_05').show();
-	}
-	// 無料文言削除
-	var timeOut05 = new Date("2018/10/21");
-	if (now.getTime() > timeOut05.getTime()) {
-		$('#dd_05').hide();
-	}
+	// var time05 = new Date("2018/10/20");
+	// var mon05 = time05.getTime()-now.getTime();
+	// var day05  = Math.floor(mon05/(1000*60*60*24)); // カウントダウン用 '日' 取得
+	// $(d05).html(day05+2);
+	// if (now.getTime() > time05.getTime()) {
+	// 	$('#dd_05').show();
+	// }
+	// // 無料文言削除
+	// var timeOut05 = new Date("2018/10/21");
+	// if (now.getTime() > timeOut05.getTime()) {
+	// 	$('#dd_05').hide();
+	// }
 	// 削除
 	// var out05 = new Date("2018/09/21 23:00");
 	// if (now.getTime() > out05.getTime()) {
@@ -137,7 +137,7 @@ $(document).ready(function() {
 	// if (now.getTime() > change06.getTime()) {
 	// 	$('#dd_06').show();
 	// 	$(elv06).text('ビデオを視聴する');
-	// 	$(elv06).href = "https://abema.tv/video/title/26-52";
+	// 	$(elv06).attr("href","https://abema.tv/channels/asia-drama/slots/EQtBHnLNjDqBV1");
 	// }
 	// // 無料文言
 	// var time06 = new Date("2018/10/20");
@@ -188,7 +188,7 @@ $(document).ready(function() {
 	// if (now.getTime() > change07.getTime()) {
 	// 	$('#dd_07').show();
 	// 	$(elv07).text('ビデオを視聴する');
-	// 	$(elv07).href = "https://abema.tv/video/title/26-52";
+	// 	$(elv07).attr("href","https://abema.tv/channels/asia-drama/slots/EQtBHnLNjDqBV1");
 	// }
 	// // 無料文言
 	// var time07 = new Date("2018/10/20");
@@ -240,7 +240,7 @@ $(document).ready(function() {
 	// if (now.getTime() > change08.getTime()) {
 	// 	$('#dd_08').show();
 	// 	$(elv08).text('ビデオを視聴する');
-	// 	$(elv08).href = "https://abema.tv/video/title/26-52";
+	// 	$(elv08).attr("href","https://abema.tv/channels/asia-drama/slots/EQtBHnLNjDqBV1");
 	// }
 	// // 無料文言
 	// var time08 = new Date("2018/10/20");
@@ -291,7 +291,7 @@ $(document).ready(function() {
 	// if (now.getTime() > change09.getTime()) {
 	// 	$('#dd_09').show();
 	// 	$(elv09).text('ビデオを視聴する');
-	// 	$(elv09).href = "https://abema.tv/video/title/26-52";
+	// 	$(elv09).attr("href","https://abema.tv/channels/asia-drama/slots/EQtBHnLNjDqBV1");
 	// }
 	// // 無料文言
 	// var time09 = new Date("2018/10/20");
@@ -340,7 +340,7 @@ $(document).ready(function() {
 	// if (now.getTime() > change10.getTime()) {
 	// 	$('#dd_10').show();
 	// 	$(elv10).text('ビデオを視聴する');
-	// 	$(elv10).href = "https://abema.tv/video/title/26-52";
+	// 	$(elv10).attr("href","https://abema.tv/channels/asia-drama/slots/EQtBHnLNjDqBV1");
 	// }
 	// // 無料文言
 	// var time10 = new Date("2018/10/20");

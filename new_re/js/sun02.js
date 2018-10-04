@@ -33,7 +33,7 @@ $(document).ready(function() {
 	if (now.getTime() > change04.getTime()) {
 		$('#dd_04').show();
 		$(elv04).text('ビデオを視聴する');
-		$(elv04).href = "https://abema.tv/video/title/54-23";
+		$(elv04).attr("href","https://abema.tv/video/title/54-23");
 	}
 	// 無料文言
 	// var time04 = new Date("2018/10/20");
@@ -84,7 +84,7 @@ $(document).ready(function() {
 	if (now.getTime() > change05.getTime()) {
 		$('#dd_05').show();
 		$(elv05).text('ビデオを視聴する');
-		$(elv05).href = "https://abema.tv/video/title/189-10";
+		$(elv05).attr("href","https://abema.tv/video/title/189-10");
 	}
 	// 無料文言
 	// var time05 = new Date("2018/10/20");
@@ -137,7 +137,7 @@ $(document).ready(function() {
 	if (now.getTime() > change06.getTime()) {
 		$('#dd_06').show();
 		$(elv06).text('ビデオを視聴する');
-		$(elv06).href = "https://abema.tv/video/title/169-68";
+		$(elv06).attr("href","https://abema.tv/video/title/169-68");
 	}
 	// 無料文言
 	// var time06 = new Date("2018/10/20");
@@ -189,7 +189,7 @@ $(document).ready(function() {
 	if (now.getTime() > change07.getTime()) {
 		$('#dd_07').show();
 		$(elv07).text('ビデオを視聴する');
-		$(elv07).href = "https://abema.tv/video/title/199-23";
+		$(elv07).attr("href","https://abema.tv/video/title/199-23");
 	}
 	// 無料文言
 	// var time07 = new Date("2018/10/20");
@@ -242,7 +242,7 @@ $(document).ready(function() {
 	if (now.getTime() > change08.getTime()) {
 		$('#dd_08').show();
 		$(elv08).text('ビデオを視聴する');
-		$(elv08).href = "https://abema.tv/video/title/150-7";
+		$(elv08).attr("href","https://abema.tv/video/title/150-7");
 	}
 	// 無料文言
 	// var time08 = new Date("2018/10/20");
@@ -294,7 +294,7 @@ $(document).ready(function() {
 	if (now.getTime() > change09.getTime()) {
 		$('#dd_09').show();
 		$(elv09).text('ビデオを視聴する');
-		$(elv09).href = "https://abema.tv/video/title/143-5";
+		$(elv09).attr("href","https://abema.tv/video/title/143-5");
 	}
 	// 無料文言
 	// var time09 = new Date("2018/10/20");
@@ -344,7 +344,7 @@ $(document).ready(function() {
 	// if (now.getTime() > change10.getTime()) {
 	// 	$('#dd_10').show();
 	// 	$(elv10).text('ビデオを視聴する');
-	// 	$(elv10).href = "https://abema.tv/video/title/26-52";
+	// 	$(elv10).attr("href","https://abema.tv/channels/asia-drama/slots/EQtBHnLNjDqBV1");
 	// }
 	// // 無料文言
 	// var time10 = new Date("2018/10/20");
