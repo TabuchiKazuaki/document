@@ -60,15 +60,15 @@ $(document).ready(function() {
 			$('#tn_04_s').text('2');
 		}
 		// 最新 #3
-		// var next04_03 = new Date("2018/07/22 23:00");
-		// if (now.getTime() > next04_03.getTime()) {
-		// 	$(eln04).attr("href","https://abema.tv/channels/asia-drama/slots/EQtBHnLNjDqBV1");
-		// }
+		var next04_03 = new Date("2018/10/13 00:30");
+		if (now.getTime() > next04_03.getTime()) {
+			$(eln04).attr("href","https://abema.tv/channels/abema-anime/slots/ARD2qSUpgKkovF");
+		}
 		// 最新 #4
-		// var next04_04 = new Date("2018/07/22 23:00");
-		// if (now.getTime() > next04_04.getTime()) {
-		// 	$(eln04).attr("href","https://abema.tv/channels/asia-drama/slots/EQtBHnLNjDqBV1");
-		// }
+		var next04_04 = new Date("2018/10/20 00:30");
+		if (now.getTime() > next04_04.getTime()) {
+			$(eln04).attr("href","https://abema.tv/channels/abema-anime/slots/9k3PnJhLXZ8X1q");
+		}
 
 
 
@@ -165,16 +165,18 @@ $(document).ready(function() {
 			$(eln06).attr("href","https://abema.tv/channels/abema-anime/slots/9pGVdAU28rbLyd");
 			$('#tn_06_s').text('2');
 		}
-	// 	// 最新 #3
-	// 	// var next06_03 = new Date("2018/07/22 23:00");
-	// 	// if (now.getTime() > next06_03.getTime()) {
-	// 	// 	$(eln06).attr("href","https://abema.tv/channels/asia-drama/slots/EQtBHnLNjDqBV1");
-	// 	// }
-	// 	// 最新 #4
-	// 	// var next06_04 = new Date("2018/07/22 23:00");
-	// 	// if (now.getTime() > next06_04.getTime()) {
-	// 	// 	$(eln06).attr("href","https://abema.tv/channels/asia-drama/slots/EQtBHnLNjDqBV1");
-	// 	// }
+		// 最新 #3
+		var next06_03 = new Date("2018/10/13 00:30");
+		if (now.getTime() > next06_03.getTime()) {
+			$(eln06).attr("href","https://abema.tv/channels/abema-anime/slots/9pGVcrpCEAtufm");
+			$('#tn_06_s').text('3');
+		}
+		// 最新 #4
+		var next06_04 = new Date("2018/10/20 00:30");
+		if (now.getTime() > next06_04.getTime()) {
+			$(eln06).attr("href","https://abema.tv/channels/abema-anime/slots/9pGVbLQqgEVH8T");
+			$('#tn_06_s').text('4');
+		}
 
 
 
