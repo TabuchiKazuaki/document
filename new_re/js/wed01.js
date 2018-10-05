@@ -21,12 +21,12 @@ $(document).ready(function() {
 		$(elv01).attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhJFFujmFM");
 	}
 	// ビデオ
-	var change01 = new Date("2018/10/03 23:00");
-	if (now.getTime() > change01.getTime()) {
-		$('#dd_01').show();
-		$(elv01).text('ビデオを視聴する');
-		$(elv01).attr("href","https://abema.tv/video/title/50-38");
-	}
+	// var change01 = new Date("2018/10/03 23:00");
+	// if (now.getTime() > change01.getTime()) {
+	// 	$('#dd_01').show();
+	// 	$(elv01).text('ビデオを視聴する');
+	// 	$(elv01).attr("href","https://abema.tv/video/title/50-38");
+	// }
 	// 無料文言
 	// var time01 = new Date("2018/10/15");
 	// var mon01 = time01.getTime()-now.getTime();
@@ -42,11 +42,11 @@ $(document).ready(function() {
 	// 	$(elv01).hide();
 	// }
 		// tn 最新 #2
-		var next01_02 = new Date("2018/10/03 23:00");
-		if (now.getTime() > next01_02.getTime()) {
-			$(eln01).attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhaGpoyz4F");
-			$('#tn_01_s').text('episode2 けんかをやめて');
-		}
+		// var next01_02 = new Date("2018/10/03 23:00");
+		// if (now.getTime() > next01_02.getTime()) {
+		// 	$(eln01).attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhaGpoyz4F");
+		// 	$('#tn_01_s').text('episode2 けんかをやめて');
+		// }
 		// 最新 #3
 		// var next01_03 = new Date("2018/11/22 23:00");
 		// if (now.getTime() > next01_03.getTime()) {
