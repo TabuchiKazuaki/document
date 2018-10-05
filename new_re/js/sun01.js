@@ -106,10 +106,17 @@ $(document).ready(function() {
 			$('#tn_02_s').text('3');
 		}
 		// 最新 #4
-		// var next02_04 = new Date("2018/07/22 23:00");
-		// if (now.getTime() > next02_04.getTime()) {
-		// 	$(eln02).attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhJFFujmFM");
-		// }
+		var next02_04 = new Date("2018/10/14 23:00");
+		if (now.getTime() > next02_04.getTime()) {
+			$(eln02).attr("href","https://abema.tv/channels/abema-anime/slots/ARD2pXjnLKvq4B");
+			$('#tn_02_s').text('4');
+		}
+		// 最新 #5
+		var next02_05 = new Date("2018/10/21 23:00");
+		if (now.getTime() > next02_05.getTime()) {
+			$(eln02).attr("href","https://abema.tv/channels/abema-anime/slots/9k3PkBbRggdjfD");
+			$('#tn_02_s').text('5');
+		}
 
 
 

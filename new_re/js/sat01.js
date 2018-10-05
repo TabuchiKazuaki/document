@@ -43,8 +43,8 @@ $(document).ready(function() {
 		// tn 最新 #2
 		var next01_02 = new Date("2018/10/07 00:00");
 		if (now.getTime() > next01_02.getTime()) {
-			$(eln01).attr("href","https://abema.tv/channels/abema-special/slots/CnCy1t26VBRPdZ");
-			$('#tn_01_s').text('1');
+			$(eln01).attr("href","https://abema.tv/channels/abema-special/slots/8uZLw1mcraV1Af");
+			$('#tn_01_s').text('2');
 		}
 		// 最新 #3
 		// var next01_03 = new Date("2018/11/22 23:00");
@@ -100,15 +100,17 @@ $(document).ready(function() {
 			$('#tn_02_s').text('2');
 		}
 		// 最新 #3
-		// var next02_03 = new Date("2018/07/22 23:00");
-		// if (now.getTime() > next02_03.getTime()) {
-		// 	$(eln02).attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhJFFujmFM");
-		// }
+		var next02_03 = new Date("2018/10/14 00:30");
+		if (now.getTime() > next02_03.getTime()) {
+			$(eln02).attr("href","https://abema.tv/channels/abema-anime/slots/9pGVcFcv8HS85M");
+			$('#tn_02_s').text('3');
+		}
 		// 最新 #4
-		// var next02_04 = new Date("2018/07/22 23:00");
-		// if (now.getTime() > next02_04.getTime()) {
-		// 	$(eln02).attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhJFFujmFM");
-		// }
+		var next02_04 = new Date("2018/10/21 00:30");
+		if (now.getTime() > next02_04.getTime()) {
+			$(eln02).attr("href","https://abema.tv/channels/special-plus/slots/EQtBJhJFFujmFM");
+			$('#tn_02_s').text('4');
+		}
 
 
 
