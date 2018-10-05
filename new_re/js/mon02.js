@@ -36,18 +36,18 @@ $(document).ready(function() {
 		$(elv04).attr("href","https://abema.tv/video/title/174-10");
 	}
 	// 無料文言
-	var time04 = new Date("2018/10/20");
-	var mon04 = time04.getTime()-now.getTime();
-	var day04  = Math.floor(mon04/(1000*60*60*24)); // カウントダウン用 '日' 取得
-	$(d04).html(day04+2);
-	if (now.getTime() > time04.getTime()) {
-		$('#dd_04').show();
-	}
-	// 無料文言削除
-	var timeOut04 = new Date("2018/10/21");
-	if (now.getTime() > timeOut04.getTime()) {
-		$('#dd_04').hide();
-	}
+	// var time04 = new Date("2018/10/20");
+	// var mon04 = time04.getTime()-now.getTime();
+	// var day04  = Math.floor(mon04/(1000*60*60*24)); // カウントダウン用 '日' 取得
+	// $(d04).html(day04+2);
+	// if (now.getTime() > time04.getTime()) {
+	// 	$('#dd_04').show();
+	// }
+	// // 無料文言削除
+	// var timeOut04 = new Date("2018/10/21");
+	// if (now.getTime() > timeOut04.getTime()) {
+	// 	$('#dd_04').hide();
+	// }
 	// 削除
 	// var out04 = new Date("2018/09/21 23:00");
 	// if (now.getTime() > out04.getTime()) {
@@ -87,18 +87,18 @@ $(document).ready(function() {
 		$(elv05).attr("href","https://abema.tv/video/title/194-5");
 	}
 	// 無料文言
-	var time05 = new Date("2018/10/20");
-	var mon05 = time05.getTime()-now.getTime();
-	var day05  = Math.floor(mon05/(1000*60*60*24)); // カウントダウン用 '日' 取得
-	$(d05).html(day05+2);
-	if (now.getTime() > time05.getTime()) {
-		$('#dd_05').show();
-	}
-	// 無料文言削除
-	var timeOut05 = new Date("2018/10/21");
-	if (now.getTime() > timeOut05.getTime()) {
-		$('#dd_05').hide();
-	}
+	// var time05 = new Date("2018/10/20");
+	// var mon05 = time05.getTime()-now.getTime();
+	// var day05  = Math.floor(mon05/(1000*60*60*24)); // カウントダウン用 '日' 取得
+	// $(d05).html(day05+2);
+	// if (now.getTime() > time05.getTime()) {
+	// 	$('#dd_05').show();
+	// }
+	// // 無料文言削除
+	// var timeOut05 = new Date("2018/10/21");
+	// if (now.getTime() > timeOut05.getTime()) {
+	// 	$('#dd_05').hide();
+	// }
 	// 削除
 	// var out05 = new Date("2018/09/21 23:00");
 	// if (now.getTime() > out05.getTime()) {

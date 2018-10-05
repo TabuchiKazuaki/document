@@ -132,18 +132,18 @@ $(document).ready(function() {
 		$(elv03).css('background','#50c401')
 	}
 	// 無料文言
-	var time03 = new Date("2018/10/20");
-	var mon03 = time03.getTime()-now.getTime();
-	var day03  = Math.floor(mon03/(1000*60*60*24)); // カウントダウン用 '日' 取得
-	$(d03).html(day03+2);
-	if (now.getTime() > time03.getTime()) {
-		$('#dd_03').show();
-	}
-	// 無料文言削除
-	var timeOut03 = new Date("2018/10/21");
-	if (now.getTime() > timeOut03.getTime()) {
-		$('#dd_03').hide();
-	}
+	// var time03 = new Date("2018/10/20");
+	// var mon03 = time03.getTime()-now.getTime();
+	// var day03  = Math.floor(mon03/(1000*60*60*24)); // カウントダウン用 '日' 取得
+	// $(d03).html(day03+2);
+	// if (now.getTime() > time03.getTime()) {
+	// 	$('#dd_03').show();
+	// }
+	// // 無料文言削除
+	// var timeOut03 = new Date("2018/10/21");
+	// if (now.getTime() > timeOut03.getTime()) {
+	// 	$('#dd_03').hide();
+	// }
 	// 削除
 	// var out03 = new Date("2018/09/21 23:00");
 	// if (now.getTime() > out03.getTime()) {

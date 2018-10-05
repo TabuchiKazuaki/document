@@ -19,7 +19,7 @@ $(document).ready(function() {
 		$(elv01).attr("href","https://abema.tv/channels/abema-special/slots/FBsCk3jMjqS8XH");
 	}
 	// ビデオ
-	var change01 = new Date("2018-10-09 23:00");
+	var change01 = new Date("2018/10/09 23:00");
 	if (now.getTime() > change01.getTime()) {
 		$('#dd_01').show();
 		$(elv01).text('ビデオを視聴する');
@@ -40,7 +40,7 @@ $(document).ready(function() {
 	// 	$(elv01).hide();
 	// }
 		// tn 最新 #2
-		var next01_02 = new Date("2018-10-09 23:00");
+		var next01_02 = new Date("2018/10/09 23:00");
 		if (now.getTime() > next01_02.getTime()) {
 			$(eln01).attr("href","https://abema.tv/channels/abema-special/slots/FBsCk3jMjqS8XH");
 			$('#tn_01_s').text('1');
