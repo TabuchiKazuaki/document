@@ -60,14 +60,16 @@ $(document).ready(function() {
 			$('#tn_04_s').text('2');
 		}
 		// 最新 #3
-		// var next04_03 = new Date("2018/07/22 23:00");
-		// if (now.getTime() > next04_03.getTime()) {
-		// 	$(eln04).attr("href","https://abema.tv/channels/asia-drama/slots/EQtBHnLNjDqBV1");
-		// }
+		var next04_03 = new Date("2018/10/19 01:15");
+		if (now.getTime() > next04_03.getTime()) {
+			$(eln04).attr("href","https://abema.tv/channels/abema-anime/slots/ARD2ktTnVni8zb");
+			$('#tn_04_s').text('3');
+		}
 		// 最新 #4
 		// var next04_04 = new Date("2018/07/22 23:00");
 		// if (now.getTime() > next04_04.getTime()) {
 		// 	$(eln04).attr("href","https://abema.tv/channels/asia-drama/slots/EQtBHnLNjDqBV1");
+		// 	$('#tn_04_s').text('4');
 		// }
 
 
