@@ -74,20 +74,20 @@ $(document).ready(function() {
 
 
 	// 05 初期
-	var before05 = new Date("2018/07/22 23:00");
-	if (now.getTime() > before05.getTime()) {
-		$(elv05).text('coming soon');
-		$(elv05).attr("href","javascript:void(0)");
-		$(elv05).css('background', '#bbb');
-	}
+	// var before05 = new Date("2018/07/22 23:00");
+	// if (now.getTime() > before05.getTime()) {
+	// 	// $(elv05).text('coming soon');
+	// 	// $(elv05).attr("href","javascript:void(0)");
+	// 	// $(elv05).css('background', '#bbb');
+	// }
 	// ビデオ
-	var change05 = new Date("2018/10/04 00:00");
-	if (now.getTime() > change05.getTime()) {
-		$('#dd_05').show();
-		$(elv05).text('ビデオを視聴する');
-		$(elv05).attr("href","https://abema.tv/video/title/54-25");
-		$(elv05).css('background', '#50c401');
-	}
+	// var change05 = new Date("2018/10/04 00:00");
+	// if (now.getTime() > change05.getTime()) {
+	// 	$('#dd_05').show();
+	// 	$(elv05).text('ビデオを視聴する');
+	// 	$(elv05).attr("href","https://abema.tv/video/title/54-25");
+	// 	$(elv05).css('background', '#50c401');
+	// }
 	// 無料文言
 	// var time05 = new Date("2018/10/20");
 	// var mon05 = time05.getTime()-now.getTime();
