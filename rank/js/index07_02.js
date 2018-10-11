@@ -45,7 +45,7 @@ $(document).ready(function() {
 	var timeOut03 = new Date("2018/10/21 23:59");
 	if (now.getTime() > timeOut03.getTime()) {
 		$('#dd_03').hide();
-	// }
+	}
 
 	// 04 無料文言
 	var time04 = new Date("2018/10/17");
