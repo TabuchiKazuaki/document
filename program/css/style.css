@@ -177,6 +177,41 @@ img {
   margin: 20px auto 0;
 }
 
+.banner {
+  background: url(https://bit.ly/2pOMHpm) 0 0 no-repeat;
+  padding: 20px;
+  margin: 30px 0 0;
+}
+.banner .b_wrap {
+  overflow: hidden;
+}
+.banner .b_wrap .b_item {
+  overflow: hidden;
+  float: left;
+  width: 55%;
+}
+.banner .b_wrap .b_item li {
+  float: left;
+  width: 31%;
+  margin: 0 0 0 2%;
+}
+.banner .b_wrap .b_item li:first-child {
+  margin: 0;
+}
+.banner .b_wrap .b_text {
+  float: right;
+  width: 44%;
+  padding: 5px 0 0;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.4;
+  color: #fff;
+}
+.banner .b_wrap .b_text span {
+  font-size: 20px;
+  color: #50c401;
+}
+
 @-webkit-keyframes item_sp {
   100% {
     opacity: 1;
