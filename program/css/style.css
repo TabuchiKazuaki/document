@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1;
+  min-width: 320px;
+  font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important;
+  color: #000;
+  margin: 0 auto;
+  background: #efefee;
+}
+body li {
+  list-style: none;
+}
+
+a {
+  -webkit-transition: .3s;
+  transition: .3s;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  opacity: .8;
+}
+
+img {
+  width: 100%;
+}
+
+.header {
+  background: #000;
+}
+.header .header_item {
+  overflow: hidden;
+  padding: 12.5px 0 12.5px 20px;
+}
+.header .header_item li {
+  float: left;
+  padding: 4px 0 0;
+  margin: 0 0 0 10px;
+}
+.header .header_item li a {
+  display: block;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.header .header_item li a:hover {
+  background: #212121;
+  opacity: 1;
+}
+.header .header_item li:first-child {
+  padding: 0;
+  margin: 0;
+}
+.header .header_item li:first-child a:hover {
+  background: none;
+  opacity: .8;
+}
+.header .header_item li img {
+  max-width: 117px;
+}
+
+.contents {
+  padding: 46px 0 0;
+}
+.contents .wrap {
+  max-width: 992px;
+  margin: 0 auto;
+}
+.contents .c_h {
+  font-weight: bold;
+  font-size: 36px;
+}
+.contents .c_item {
+  overflow: hidden;
+  margin: 18px 0 0;
+}
+.contents .c_item li {
+  float: left;
+  background: #50c401;
+  padding: 10px 20px;
+  margin: 0 0 0 10px;
+  border-radius: 25px;
+  font-size: 15px;
+  color: #fff;
+}
+.contents .c_item li:first-child {
+  margin: 0;
+}
+.contents .cp {
+  overflow: hidden;
+  padding: 0 0 15px;
+  margin: 49px 0 0;
+}
+.contents .cp .day {
+  display: block;
+  float: left;
+  width: 4%;
+  max-width: 36px;
+  background: #50c401;
+  border-right: 4px solid #efefee;
+  text-align: center;
+  font-size: 20px;
+  vertical-align: top;
+  color: #fff;
+}
+.contents .cp .d_s {
+  padding: 20px 0 7.6%;
+}
+.contents .cp .d_d {
+  padding: 20px 0 17%;
+}
+.contents .cp .d_t {
+  padding: 20px 0 27%;
+}
+.contents .cp .cp_wrap {
+  display: block;
+  float: left;
+  width: 95%;
+}
+.contents .cp .c_tr {
+  overflow: hidden;
+}
+.contents .cp .c_tr .t_d {
+  float: left;
+  background: #fff;
+  width: 24.5%;
+  vertical-align: top;
+  border-top: 4px solid #efefee;
+  border-left: 4px solid #efefee;
+}
+.contents .cp .c_tr .t_d a {
+  display: block;
+  padding: 18px;
+  color: #000;
+}
+.contents .cp .c_tr .t_d a figure {
+  text-align: center;
+}
+.contents .cp .c_tr .t_d a img {
+  max-width: 200px;
+}
+.contents .cp .c_tr .t_d .date {
+  margin: 10px 0 0;
+  font-weight: bold;
+  font-size: 18px;
+  color: #919191;
+}
+.contents .cp .c_tr .t_d .text {
+  margin: 10px 0 0;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 1.3;
+}
+.contents .cp .c_tr:nth-of-type(1) .t_d:nth-child(1) {
+  border-top: 0px solid #efefee;
+  border-left: 0px solid #efefee;
+}
+.contents .cp .c_tr:nth-of-type(1) .t_d:nth-child(2) {
+  border-top: 0px solid #efefee;
+}
+.contents .cp .c_tr:nth-of-type(1) .t_d:nth-child(3) {
+  border-top: 0px solid #efefee;
+}
+.contents .cp .c_tr:nth-of-type(1) .t_d:nth-child(4) {
+  border-top: 0px solid #efefee;
+}
+.contents .cp .c_tr:nth-of-type(1) .t_d:nth-child(5) {
+  border-left: 0px solid #efefee;
+}
+.contents .cp .c_tr:nth-of-type(1) .t_d:nth-child(9) {
+  border-left: 0px solid #efefee;
+}
+
+.contents_sec {
+  padding: 0;
+}
+
+@-webkit-keyframes item_sp {
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes item_list {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes item_list {
+  100% {
+    opacity: 1;
+  }
+}
+.ani_list01 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 3s 1 forwards;
+}
+
+.ani_list02 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 3.5s 1 forwards;
+}
+
+.ani_list03 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 4s 1 forwards;
+}
+
+.ani_list04 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 4.5s 1 forwards;
+}
