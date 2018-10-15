@@ -285,7 +285,7 @@ img {
     margin: 0 0 0 1.1%;
   }
   .header .header_item li a {
-    padding: 12% 5px;
+    padding: 5% 5px;
     border-radius: 4px;
     font-size: calc(25vw/12);
   }
@@ -294,7 +294,7 @@ img {
     opacity: 1;
   }
   .header .header_item li:first-child {
-    padding: 1% 0 0;
+    padding: 0.1% 0 0;
     margin: 0;
   }
 
@@ -399,6 +399,9 @@ img {
   .banner .b_wrap {
     overflow: hidden;
   }
+  .banner .b_wrap a {
+    display: block;
+  }
   .banner .b_wrap .b_item {
     overflow: hidden;
     float: left;
@@ -419,7 +422,7 @@ img {
     letter-spacing: 1.2px;
   }
   .banner .b_wrap .b_text span {
-    font-size: calc(27vw/12);
+    font-size: calc(25vw/12);
   }
 
   .footer_area {

@@ -299,7 +299,7 @@ img  { width: 100%;}
 				margin: 0 0 0 1.1%;
 
 				a {
-					padding: 12% 5px;
+					padding: 5% 5px;
 					border-radius: 4px;
 					font-size: calc(25vw/12);
 					&:hover {
@@ -308,7 +308,7 @@ img  { width: 100%;}
 					}
 				}
 				&:first-child {
-					padding: 1% 0 0;
+					padding: 0.1% 0 0;
 					margin: 0;
 				}
 			}
@@ -428,6 +428,9 @@ img  { width: 100%;}
 
 		.b_wrap {
 			overflow: hidden;
+			a {
+				display: block;
+			}
 
 			.b_item {
 				overflow: hidden;
@@ -449,7 +452,7 @@ img  { width: 100%;}
 				line-height: 1.4;
 				letter-spacing: 1.2px;
 				span {
-					font-size: calc(27vw/12);
+					font-size: calc(25vw/12);
 				}
 			}
 		}
