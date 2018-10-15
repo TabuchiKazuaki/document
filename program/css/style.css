@@ -113,7 +113,7 @@ img {
 .contents .cp .cp_wrap {
   display: block;
   float: left;
-  width: 95%;
+  width: 95.9%;
 }
 .contents .cp .c_tr {
   overflow: hidden;
@@ -121,7 +121,7 @@ img {
 .contents .cp .c_tr .t_d {
   float: left;
   background: #fff;
-  width: 24.5%;
+  width: 24.68%;
   vertical-align: top;
   border-top: 4px solid #efefee;
   border-left: 4px solid #efefee;
@@ -180,7 +180,8 @@ img {
 .banner {
   background: url(https://bit.ly/2pOMHpm) 0 0 no-repeat;
   padding: 20px;
-  margin: 30px 0 0;
+  margin: 47px 0 0;
+  border-radius: 8px;
 }
 .banner .b_wrap {
   overflow: hidden;
@@ -201,15 +202,66 @@ img {
 .banner .b_wrap .b_text {
   float: right;
   width: 44%;
-  padding: 5px 0 0;
-  font-size: 25px;
+  padding: 2px 0 0;
+  font-size: 28px;
   font-weight: bold;
   line-height: 1.4;
+  letter-spacing: 1.2px;
   color: #fff;
 }
 .banner .b_wrap .b_text span {
-  font-size: 20px;
+  font-size: 22px;
   color: #50c401;
+}
+
+.footer_area {
+  background: #000000;
+  padding: 28px 0 50px;
+  margin: 94px 0 0;
+  color: #919191;
+}
+.footer_area .f_wrap {
+  max-width: 992px;
+  margin: 0 auto;
+}
+.footer_area .f_itme {
+  overflow: hidden;
+}
+.footer_area .f_itme li {
+  float: left;
+  font-size: 12px;
+  line-height: 1.7;
+}
+.footer_area .corp_item {
+  overflow: hidden;
+  margin: 29px 0 0;
+}
+.footer_area .corp_item li {
+  position: relative;
+  float: left;
+}
+.footer_area .corp_item li a {
+  padding: 0 10px 0 12px;
+  font-size: 12px;
+  color: #919191;
+}
+.footer_area .corp_item li:before {
+  content: '|';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.footer_area .corp_item li:first-child a {
+  padding: 0 10px 0 0;
+}
+.footer_area .corp_item li:first-child:before {
+  content: ' ';
+}
+.footer_area small {
+  display: block;
+  margin: 25px 0 0;
+  font-size: 12px;
+  letter-spacing: 1.3px;
 }
 
 @-webkit-keyframes item_sp {

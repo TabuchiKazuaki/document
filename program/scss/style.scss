@@ -110,14 +110,14 @@ img  { width: 100%;}
 		.cp_wrap {
 			display: block;
 			float: left;
-			width: 95%;
+			width: 95.9%;
 		}
 		.c_tr {
 			overflow: hidden;
 			.t_d {
 				float: left;
 				background: #fff;
-				width: 24.5%;
+				width: 24.68%;
 				vertical-align: top;
 				border-top: 4px solid #efefee;
 				border-left: 4px solid #efefee;
@@ -185,7 +185,8 @@ img  { width: 100%;}
 .banner {
 	background: url(https://bit.ly/2pOMHpm) 0 0 no-repeat;
 	padding: 20px;
-	margin: 30px 0 0;
+	margin: 47px 0 0;
+	border-radius: 8px;
 
 	.b_wrap {
 		overflow: hidden;
@@ -207,20 +208,74 @@ img  { width: 100%;}
 		.b_text {
 			float: right;
 			width: 44%;
-			padding: 5px 0 0;
-			font-size: 25px;
+			padding: 2px 0 0;
+			font-size: 28px;
 			font-weight: bold;
 			line-height: 1.4;
+			letter-spacing: 1.2px;
 			color: #fff;
 			span {
-				font-size: 20px;
+				font-size: 22px;
 				color: #50c401;
 			}
 		}
-
 	}
 }
 
+
+
+.footer_area {
+	background: #000000;
+	padding: 28px 0 50px;
+	margin: 94px 0 0;
+	color: #919191;
+
+	.f_wrap {
+		max-width: 992px;
+		margin: 0 auto;
+	}
+	.f_itme {
+		overflow: hidden;
+		li {
+			float: left;
+			font-size: 12px;
+			line-height: 1.7;
+		}
+	}
+
+	.corp_item {
+		overflow: hidden;
+		margin: 29px 0 0;
+		li {
+			position: relative;
+			float: left;
+			a {
+				padding: 0 10px 0 12px;
+				font-size: 12px;
+				color: #919191;
+			}
+
+			&:before {
+				content: '|';
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			&:first-child a {
+				padding: 0 10px 0 0;
+			}
+			&:first-child:before {
+				content:' ';
+			}
+		}
+	}
+	small {
+		display: block;
+		margin: 25px 0 0;
+		font-size: 12px;
+		letter-spacing: 1.3px;
+	}
+}
 
 @media screen and (max-width: 768px) {
 
