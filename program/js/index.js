@@ -1,5 +1,5 @@
 
-$(window).on('load resize', function(){
+$(window).resize(function(){
 	$('.item').matchHeight({
 		property: 'min-height'
 	});
