@@ -18,7 +18,7 @@
 $(document).ready(function() {
 	$('.header_list').hide();
 	$(".header_item").on('chick',function() {
-		$(this).closest().next('.header_list').fadeIn();
+		$(this).next('.header_list').fadeIn();
 		// var h = $('.header_list').height();
 		// var H = $('.header_list').height('auto').height();
 		// $('.header_list').height(h);
