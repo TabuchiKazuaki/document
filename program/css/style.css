@@ -32,16 +32,39 @@ img {
 .header {
   background: #000;
 }
+.header .header_nav {
+  overflow: hidden;
+}
 .header .header_item {
   overflow: hidden;
-  padding: 2.5px 0 2.5px 12px;
+  float: left;
+  padding: 3px 0 0 18px;
 }
 .header .header_item li {
+  padding: 6px 0 0;
+  margin: 0;
+}
+.header .header_item li a {
+  display: block;
+}
+.header .header_item li a:hover {
+  background: none;
+  opacity: .8;
+}
+.header .header_item li img {
+  max-width: 117px;
+}
+.header .header_list {
+  overflow: hidden;
+  float: left;
+  padding: 1px 0 4px 10px;
+}
+.header .header_list li {
   float: left;
   padding: 4px 0 0;
   margin: 0 0 0 8px;
 }
-.header .header_item li a {
+.header .header_list li a {
   display: block;
   padding: 10px 7px;
   border-radius: 4px;
@@ -49,20 +72,9 @@ img {
   font-weight: bold;
   color: #fff;
 }
-.header .header_item li a:hover {
+.header .header_list li a:hover {
   background: #212121;
   opacity: 1;
-}
-.header .header_item li:first-child {
-  padding: 0;
-  margin: 0;
-}
-.header .header_item li:first-child a:hover {
-  background: none;
-  opacity: .8;
-}
-.header .header_item li img {
-  max-width: 117px;
 }
 
 .contents {
