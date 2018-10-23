@@ -48,12 +48,12 @@ $(document).ready(function() {
 	}
 
 	// 04 無料文言
-	var time04 = new Date("2018/10/27");
+	var time04 = new Date("2018/11/02");
 	var mon04 = time04.getTime()-now.getTime();
 	var day04  = Math.floor(mon04/(1000*60*60*24)); // カウントダウン用 '日' 取得
 	$(d04).html(day04+2);
 	// 無料文言削除
-	var timeOut04 = new Date("2018/10/27 23:59");
+	var timeOut04 = new Date("2018/11/02 23:59");
 	if (now.getTime() > timeOut04.getTime()) {
 		$('#dd_04').hide();
 	}
@@ -103,12 +103,12 @@ $(document).ready(function() {
 	}
 
 	// 09 無料文言
-	var time09 = new Date("2018/10/26");
+	var time09 = new Date("2018/11/01");
 	var mon09 = time09.getTime()-now.getTime();
 	var day09  = Math.floor(mon09/(1000*60*60*24)); // カウントダウン用 '日' 取得
 	$(d09).html(day09+2);
 	// 無料文言削除
-	var timeOut09 = new Date("2018/10/26 23:59");
+	var timeOut09 = new Date("2018/11/01 23:59");
 	if (now.getTime() > timeOut09.getTime()) {
 		$('#dd_09').hide();
 	}
