@@ -278,8 +278,17 @@ section {
 		}
 	}
 }
-.u-floatLeft {
-	display: none!important;
+.sns_inner .SandboxRoot {
+  &.env-bp-550 .timeline-Tweet-text, &.env-bp-660 .timeline-Tweet-text, &.env-bp-820 .timeline-Tweet-text, &.env-bp-970 .timeline-Tweet-text {
+	font-size: 12pt !important;
+  }
+}
+.SandboxRoot .timeline-Tweet-text {
+		font-size: 12pt !important;
+}
+.timeline-Widget--edge {
+	border-radius: 5px;
+	font-size: 12px;
 }
 .ballon {
   -webkit-animation-name: fuwafuwa;
