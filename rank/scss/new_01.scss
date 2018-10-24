@@ -257,18 +257,13 @@ section {
 			margin: 0 auto 0;
 		}
 	}
+	.sns_wrap {
+		width: 82%;
+		margin: 0 auto;
+	}
 
 	.sns_area {
 		margin: 30px 0 0;
-		.timeline-Body {
-			font-size: 12px !important;
-		}
-		.timeline-Viewport {
-			font-size: 12px !important;
-		}
-		iframe {
-			font-size: 12px !important;
-		}
 		.pc_t {
 			display: block;
 			margin: 20px 0 0;
@@ -279,48 +274,9 @@ section {
 		.sp_t {
 			display: none;
 		}
-		.timeline-Body {
-			font-size: 12px !important;
-		}
-		.timeline-Viewport {
-			font-size: 12px !important;
-		}
-		iframe {
-			font-size: 12px !important;
-		}
 	}
-	.SandboxRoot .timeline-Tweet-text {
-		font-size: 12pt !important;
-	}
-	.timeline-Widget--edge {
-		border-radius: 5px;
-		font-size: 12px;
-	}
-}
-.SandboxRoot.env-bp-970 .timeline-Tweet-text {
-	font-size: 10.5pt !important;
-	line-height: 14pt!important;
 }
 
-.SandboxRoot.env-bp-820 .timeline-Tweet-text {
-	font-size: 10.5pt !important;
-	line-height: 14pt!important;
-}
-.SandboxRoot.env-bp-660 .timeline-Tweet-text {
-	font-size: 10.5pt !important;
-	line-height: 14pt!important;
-}
-
-.SandboxRoot {
-	&.env-bp-550 .timeline-Tweet-text, &.env-bp-660 .timeline-Tweet-text, &.env-bp-820 .timeline-Tweet-text, &.env-bp-970 .timeline-Tweet-text {
-		font-size: 12pt !important;
-	}
-}
-.timeline {
-	max-width: 100% !important;
-	width: 100% !important;
-	box-sizing:border-box;
-}
 
 .ballon {
   -webkit-animation-name: fuwafuwa;
@@ -351,7 +307,7 @@ section {
 
 footer {
 	padding: 0 0 30px;
-	margin: 80px 0 0;
+	margin: 40px 0 0;
 	.footer_item {
 		overflow: hidden;
 		margin: 0 0 0 -2%;
@@ -628,15 +584,22 @@ footer {
 	.sns {
 		padding: 0 4.1% 0;
 		margin: 2% auto 0;
+
 		.ballon {
 			img {
 				width: 100%;
 				margin: 0 auto 0;
 			}
 		}
+		.sns_wrap {
+			width: 93%;
+			margin: 0 auto;
+		}
+
 
 		.sns_area {
 			margin: 4% 0 0;
+
 			.pc_t {
 				display: block;
 				margin: 2% 0 0;
@@ -653,7 +616,7 @@ footer {
 
 	footer {
 		padding: 0 0 5%;
-		margin: 10.5% 0 0;
+		margin: 4.5% 0 0;
 		.footer_item {
 			overflow: hidden;
 			margin: 0 0 0 -1.5%;
@@ -704,8 +667,8 @@ footer {
 		padding: 0 4.1% 0;
 		margin: 1% auto 0;
 		.sns_wrap {
-			margin: 0 4%;
-
+			width: 90%;
+			margin: 3% auto 0;
 		}
 		.ballon {
 			img {
@@ -1029,7 +992,10 @@ footer {
 		margin: 9% auto 0;
 		.sns_wrap {
 			margin: 0 1%;
-
+		}
+		.sns_wrap {
+			width: 99%;
+			margin: 3% 1% 0;
 		}
 		.ballon {
 			img {
@@ -1060,7 +1026,7 @@ footer {
 
 	footer {
 		padding: 0 0 4%;
-		margin: 9% 0 0;
+		margin: 4% 0 0;
 		.footer_item {
 			margin: 0 0 0 -1.5%;
 		}
