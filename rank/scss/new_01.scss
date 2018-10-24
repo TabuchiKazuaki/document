@@ -257,15 +257,18 @@ section {
 			margin: 0 auto 0;
 		}
 	}
-	.timeline-Body {
-		font-size: 12px !important;
-	}
-	.timeline-Viewport {
-		font-size: 12px !important;
-	}
 
 	.sns_area {
 		margin: 30px 0 0;
+		.timeline-Body {
+			font-size: 12px !important;
+		}
+		.timeline-Viewport {
+			font-size: 12px !important;
+		}
+		iframe {
+			font-size: 12px !important;
+		}
 		.pc_t {
 			display: block;
 			margin: 20px 0 0;
@@ -278,10 +281,11 @@ section {
 		}
 	}
 }
+
 .SandboxRoot {
-  &.env-bp-550 .timeline-Tweet-text, &.env-bp-660 .timeline-Tweet-text, &.env-bp-820 .timeline-Tweet-text, &.env-bp-970 .timeline-Tweet-text {
-	font-size: 12pt !important;
-  }
+	&.env-bp-550 .timeline-Tweet-text, &.env-bp-660 .timeline-Tweet-text, &.env-bp-820 .timeline-Tweet-text, &.env-bp-970 .timeline-Tweet-text {
+		font-size: 12pt !important;
+	}
 }
 .SandboxRoot .timeline-Tweet-text {
 		font-size: 12pt !important;
