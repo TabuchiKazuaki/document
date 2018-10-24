@@ -279,6 +279,22 @@ section {
 		.sp_t {
 			display: none;
 		}
+		.timeline-Body {
+			font-size: 12px !important;
+		}
+		.timeline-Viewport {
+			font-size: 12px !important;
+		}
+		iframe {
+			font-size: 12px !important;
+		}
+	}
+	.SandboxRoot .timeline-Tweet-text {
+		font-size: 12pt !important;
+	}
+	.timeline-Widget--edge {
+		border-radius: 5px;
+		font-size: 12px;
 	}
 }
 
@@ -287,13 +303,7 @@ section {
 		font-size: 12pt !important;
 	}
 }
-.SandboxRoot .timeline-Tweet-text {
-		font-size: 12pt !important;
-}
-.timeline-Widget--edge {
-	border-radius: 5px;
-	font-size: 12px;
-}
+
 .ballon {
   -webkit-animation-name: fuwafuwa;
   /* 上下のアニメーション */
