@@ -297,11 +297,29 @@ section {
 		font-size: 12px;
 	}
 }
+.SandboxRoot.env-bp-970 .timeline-Tweet-text {
+	font-size: 10.5pt !important;
+	line-height: 14pt!important;
+}
+
+.SandboxRoot.env-bp-820 .timeline-Tweet-text {
+	font-size: 10.5pt !important;
+	line-height: 14pt!important;
+}
+.SandboxRoot.env-bp-660 .timeline-Tweet-text {
+	font-size: 10.5pt !important;
+	line-height: 14pt!important;
+}
 
 .SandboxRoot {
 	&.env-bp-550 .timeline-Tweet-text, &.env-bp-660 .timeline-Tweet-text, &.env-bp-820 .timeline-Tweet-text, &.env-bp-970 .timeline-Tweet-text {
 		font-size: 12pt !important;
 	}
+}
+.timeline {
+	max-width: 100% !important;
+	width: 100% !important;
+	box-sizing:border-box;
 }
 
 .ballon {
