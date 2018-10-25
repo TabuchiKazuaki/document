@@ -64,13 +64,16 @@ section .nav_item li .active { border: 4px solid #51c300; }
 .sns .sns_area .pc_t { display: block; margin: 20px 0 0; }
 .sns .sns_area .tab_t { display: none; }
 .sns .sns_area .sp_t { display: none; }
+.sns .sns_area .sns_btn { width: 67%; margin: 30px auto 0; }
+.sns .sns_area .sns_btn a { position: relative; display: block; background: #1995e0; padding: 15px 0 15px 50px; border-radius: 8px; font-weight: bold; text-align: center; font-size: 22px; color: #fff; }
+.sns .sns_area .sns_btn a:before { content: ''; position: absolute; top: 20%; left: 5%; background: url(https://bit.ly/2CDzjfs) 0 0 no-repeat; background-size: 36px 30px; width: 36px; height: 30px; }
 
 .ballon { -webkit-animation-name: fuwafuwa; /* 上下のアニメーション */ -webkit-animation-duration: 1.5s; -webkit-animation-iteration-count: infinite; /*-webkit-animation-direction:alternate;*/ -webkit-animation-timing-function: ease; -moz-animation-name: fuwafuwa; -moz-animation-duration: 1.5s; -moz-animation-iteration-count: infinite; /*-moz-animation-direction:alternate;*/ -moz-animation-timing-function: ease; }
 
 @-webkit-keyframes fuwafuwa { 0% { -webkit-transform: translate(0, 0); }
   50% { -webkit-transform: translate(0, -10px); }
   100% { -webkit-transform: translate(0, 0); } }
-footer { padding: 0 0 30px; margin: 40px 0 0; }
+footer { padding: 0 0 30px; margin: 60px 0 0; }
 footer .footer_item { overflow: hidden; margin: 0 0 0 -2%; }
 footer li { position: relative; float: left; padding: 0 1.5% 0 1.5%; line-height: 1.4; }
 footer li a { display: block; font-size: 16.5px; color: #fff; }
@@ -132,7 +135,7 @@ footer .footer_small { font-size: 12px; color: #878787; }
   .sns .sns_area .pc_t { display: block; margin: 2% 0 0; }
   .sns .sns_area .tab_t { display: none; }
   .sns .sns_area .sp_t { display: none; }
-  footer { padding: 0 0 5%; margin: 4.5% 0 0; }
+  footer { padding: 0 0 5%; margin: 5.5% 0 0; }
   footer .footer_item { overflow: hidden; margin: 0 0 0 -1.5%; }
   footer li { padding: 0 1.5% 0 1.5%; line-height: 1.4; }
   footer li a { font-size: calc(26vw/12); }
@@ -212,7 +215,7 @@ footer .footer_small { font-size: 12px; color: #878787; }
   .sns .sns_area .pc_t { display: none; margin: 0 0 0; }
   .sns .sns_area .tab_t { display: none; width: 100%; margin: 4% auto; }
   .sns .sns_area .sp_t { display: block; width: 100%; margin: 4% auto; }
-  footer { padding: 0 0 7%; margin: 4% 0 0; }
+  footer { padding: 0 0 7%; margin: 5% 0 0; }
   footer .footer_item { margin: 0 0 0 -1.5%; }
   footer li { padding: 0 1.5% 0 1.5%; line-height: 1.55; }
   footer li a { font-size: calc(30vw/12); }

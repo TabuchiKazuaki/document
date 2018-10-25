@@ -274,6 +274,34 @@ section {
 		.sp_t {
 			display: none;
 		}
+
+		.sns_btn {
+			width: 67%;
+			margin: 30px auto 0;
+
+			a {
+				position: relative;
+				display: block;
+				background: #1995e0;
+				padding: 15px 0 15px 50px;
+				border-radius: 8px;
+				font-weight: bold;
+				text-align: center;
+				font-size: 22px;
+				color: #fff;
+
+				&:before {
+					content: '';
+					position: absolute;
+					top: 20%;
+					left: 5%;
+					background: url(https://bit.ly/2CDzjfs) 0 0 no-repeat;
+					background-size: 36px 30px;
+					width: 36px;
+					height: 30px;
+				}
+			}
+		}
 	}
 }
 
@@ -307,7 +335,7 @@ section {
 
 footer {
 	padding: 0 0 30px;
-	margin: 40px 0 0;
+	margin: 60px 0 0;
 	.footer_item {
 		overflow: hidden;
 		margin: 0 0 0 -2%;
@@ -616,7 +644,7 @@ footer {
 
 	footer {
 		padding: 0 0 5%;
-		margin: 4.5% 0 0;
+		margin: 5.5% 0 0;
 		.footer_item {
 			overflow: hidden;
 			margin: 0 0 0 -1.5%;
@@ -1026,7 +1054,7 @@ footer {
 
 	footer {
 		padding: 0 0 7%;
-		margin: 4% 0 0;
+		margin: 5% 0 0;
 		.footer_item {
 			margin: 0 0 0 -1.5%;
 		}
