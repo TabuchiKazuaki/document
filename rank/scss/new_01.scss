@@ -276,18 +276,23 @@ section {
 		}
 
 		.sns_btn {
-			width: 67%;
+			width: 72%;
 			margin: 30px auto 0;
 
 			a {
 				position: relative;
 				display: block;
 				background: #1995e0;
-				padding: 15px 0 15px 50px;
+				padding: 15px 15px 15px 60px;
 				border-radius: 8px;
 				font-weight: bold;
 				text-align: center;
 				font-size: 22px;
+				letter-spacing:1.3px;
+				white-space: nowrap;
+				-webkit-box-sizing: border-box;
+				   -moz-box-sizing: border-box;
+				        box-sizing: border-box;
 				color: #fff;
 
 				&:before {
@@ -638,9 +643,36 @@ footer {
 			.sp_t {
 				display: none;
 			}
+
+			.sns_btn {
+				width: 72%;
+				margin: 30px auto 0;
+
+				a {
+					position: relative;
+					display: block;
+					background: #1995e0;
+					padding: 15px 15px 15px 60px;
+					border-radius: 8px;
+					font-weight: bold;
+					text-align: center;
+					font-size: 22px;
+					letter-spacing:1.3px;
+
+					&:before {
+						content: '';
+						position: absolute;
+						top: 20%;
+						left: 5%;
+						background: url(https://bit.ly/2CDzjfs) 0 0 no-repeat;
+						background-size: 36px 30px;
+						width: 36px;
+						height: 30px;
+					}
+				}
+			}
 		}
 	}
-
 
 	footer {
 		padding: 0 0 5%;
@@ -719,6 +751,28 @@ footer {
 			}
 			.sp_t {
 				display: none;
+			}
+			.sns_btn {
+				width: 80%;
+				margin: 6% auto 0;
+
+				a {
+					padding: 3.5% 2% 3.5% 11%;
+					border-radius: 8px;
+					font-size: calc(36vw/12);
+					letter-spacing: 1.2px;
+
+					&:before {
+						content: '';
+						position: absolute;
+						top: 30%;
+						left: 5%;
+						background: url(https://bit.ly/2CDzjfs) 0 0 no-repeat;
+						background-size: 24px 20px;
+						width: 24px;
+						height: 20px;
+					}
+				}
 			}
 		}
 	}
@@ -1033,7 +1087,7 @@ footer {
 		}
 
 		.sns_area {
-			margin: 5% 0 0;
+			margin: 3% 0 0;
 			width: 100%;
 			.pc_t {
 				display: none;
@@ -1049,12 +1103,34 @@ footer {
 				width: 100%;
 				margin: 4% auto;
 			}
+			.sns_btn {
+				width: 80%;
+				margin: 6% auto 0;
+
+				a {
+					padding: 3% 2% 3% 11%;
+					border-radius: 6px;
+					font-size: calc(48vw/12);
+					letter-spacing: 1px;
+
+					&:before {
+						content: '';
+						position: absolute;
+						top: 30%;
+						left: 4%;
+						background: url(https://bit.ly/2CDzjfs) 0 0 no-repeat;
+						background-size: 21px 18px;
+						width: 21px;
+						height: 18px;
+					}
+				}
+			}
 		}
 	}
 
 	footer {
 		padding: 0 0 7%;
-		margin: 5% 0 0;
+		margin: 7% 0 0;
 		.footer_item {
 			margin: 0 0 0 -1.5%;
 		}
