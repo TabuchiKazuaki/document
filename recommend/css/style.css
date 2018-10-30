@@ -46,7 +46,7 @@ img { width: 100%; height: auto; }
 
 .abemavideo { display: block; background: url(https://bit.ly/2SrwFiA) top center no-repeat; background-size: 100 auto; width: 100%; padding: 55px 0 67px 0; margin-bottom: 40px; }
 .abemavideo section { width: 100%; max-width: 680px; margin: 0 auto; }
-.abemavideo h1 { max-width: 397px; margin-bottom: 10px; }
+.abemavideo h1 { max-width: 397px; margin-bottom: 27px; }
 .abemavideo .text { color: #FFF; font-size: 32px; font-weight: bold; margin-bottom: 7px; }
 .abemavideo .point { color: #FFF; font-size: 16px; margin-bottom: 17px; }
 .abemavideo p a { width: 100%; display: block; padding: 22px 0 22px 0; border: solid 2px #50c401; border-radius: 10px; text-align: center; color: #50c401; font-weight: bold; font-size: 33px; }
@@ -66,14 +66,14 @@ footer ul li a:after { content: '｜'; }
   .genre-wrap h1 { font-size: calc(55vw/12); margin-bottom: 3.5%; line-height: 140%; }
   .item { border-radius: 6px; margin-bottom: 5%; }
   .item figure img { border-radius: 6px 6px 0 0; }
-  .item div { padding: 2% 3% 3% 3%; }
-  .item dt { font-size: calc(55vw/12); margin-bottom: 2%; }
+  .item div { padding: 2.5%; }
+  .item dt { font-size: calc(55vw/12); margin-bottom: 2%; line-height: 145%; }
   .item dd { font-size: calc(47vw/12); margin-bottom: 3.5%; }
   .item ul { margin-bottom: 3.5%; }
   .item ul li { display: block; width: 31.5%; }
   .item li a.active { -webkit-box-sizing: border-box; box-sizing: border-box; border: 1.5px solid #50c401; }
   .item li a.active img { margin: -1px 0; }
-  .item .detail-txt { font-size: calc(44vw/12); line-height: 145%; }
+  .item .detail-txt { font-size: calc(44vw/12); line-height: 145%; margin-bottom: 4%; }
   .item p a { font-size: calc(50vw/12); padding: 3.5% 0 3.5% 0; border-radius: 6px; }
   .genre-link { margin-bottom: 13%; }
   .genre-link a { border-radius: 6px; padding: 3.5% 0 3.5% 0; font-size: calc(48vw/12); }
@@ -86,14 +86,15 @@ footer ul li a:after { content: '｜'; }
   .item02 ul li a dl dd { font-size: calc(45vw/12); line-height: 135%; }
   .abemavideo { padding: 7% 0 7% 0; }
   .abemavideo section { width: 90%; }
+  .abemavideo h1 { margin-bottom: 3.5%; }
   .abemavideo h1 img { max-width: 65%; }
   .abemavideo .text { font-size: calc(48vw/12); margin-bottom: 0.7%; }
   .abemavideo .point { font-size: calc(28vw/12); margin-bottom: 2%; }
   .abemavideo p a { font-size: calc(50vw/12); padding: 2.7% 0 2.7% 0; border-radius: 6px; }
   footer { width: 90%; }
   footer small { font-size: calc(25vw/12); margin-bottom: 5%; line-height: 140%; }
-  footer ul { margin-bottom: 5%; }
-  footer ul li a { font-size: calc(25vw/12); line-height: 115%; } }
+  footer ul { margin-bottom: 5%; line-height: 90%; }
+  footer ul li a { font-size: calc(25vw/12); } }
 @media screen and (max-width: 480px) { .item { border-radius: 4px; }
   .item figure img { border-radius: 4px 4px 0 0; }
   .item p a { border-radius: 4px; }
@@ -103,4 +104,5 @@ footer ul li a:after { content: '｜'; }
   .item02 ul li { width: 100%; }
   .item02 ul li a { max-width: 100%; border-radius: 4px; }
   .item02 ul li a img { max-width: 100%; border-radius: 4px 4px 0 0; }
-  .item02 p a { border-radius: 4px; } }
+  .item02 p a { border-radius: 4px; }
+  .abemavideo p a { border: solid 1px #50c401; } }

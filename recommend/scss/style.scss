@@ -185,7 +185,7 @@ img  { width: 100%; height: auto;}
 	}
 	h1 {
 		max-width: 397px;
-		margin-bottom: 10px;
+		margin-bottom: 27px;
 	}
 	.text {
 		color: #FFF;
@@ -273,11 +273,12 @@ footer {
 		border-radius: 6px 6px 0 0;
 		}
 		div {
-			padding: 2% 3% 3% 3%;
+			padding: 2.5%;
 		}
 		dt {
 			font-size: calc(55vw/12);
 			margin-bottom: 2%;
+			line-height: 145%;
 		}
 		dd {
 			font-size: calc(47vw/12);
@@ -300,6 +301,7 @@ footer {
 		.detail-txt {
 			font-size: calc(44vw/12);
 			line-height: 145%;
+			margin-bottom: 4%;
 		}
 		p a {
 			font-size: calc(50vw/12);
@@ -347,6 +349,9 @@ footer {
 		section {
 			width: 90%;
 		}
+		h1 {
+			margin-bottom: 3.5%;
+		}
 		h1 img {
 			max-width: 65%;
 		}
@@ -374,10 +379,10 @@ footer {
 		}
 		ul {
 			margin-bottom: 5%;
+			line-height: 90%;
 		}
 		ul li a {
 			font-size: calc(25vw/12);
-			line-height: 115%;
 		}
 	}
 }
@@ -427,6 +432,12 @@ footer {
 		border-radius: 4px;
 		}
 	}
+
+.abemavideo {
+	p a {
+	border: solid 1px #50c401;
+	}
+}
 }
 
 
