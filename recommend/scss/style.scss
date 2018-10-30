@@ -6,7 +6,7 @@ body { line-height: 1; min-width: 320px; font-family: -apple-system, blinkMacSys
 	}
 }
 a {
-	transition: .3s;
+	transition: none;
 	text-decoration: none;
 	&:hover {
 		text-decoration: none;
@@ -68,6 +68,7 @@ img  { width: 100%; height: auto;}
 	}
 	dt {
 		font-size: 30px;
+		font-weight: bold;
 		color: #FFF;
 		margin-bottom: 10px;
 	}
@@ -93,7 +94,7 @@ img  { width: 100%; height: auto;}
 	}
 	li a.active {
 		box-sizing: border-box;
-		border: 4px solid #50c401;
+		border: 3px solid #50c401;
 	}
 	li a.active img {
 		margin: -1.5px 0;
@@ -116,17 +117,19 @@ img  { width: 100%; height: auto;}
 	}
 }
 
-.genre-link a {
-	max-width: 680px;
-	display: block;
-	padding: 20px 0 20px 0;
-	border: solid 2px #50c401;
-	border-radius: 10px;
-	text-align: center;
-	color: #50c401;
-	font-weight: bold;
-	font-size: 30px;
-	margin-bottom: 70px;
+.genre-link {
+	margin-bottom: 60px;
+	a {
+		max-width: 680px;
+		display: block;
+		padding: 20px 0 20px 0;
+		border: solid 2px #50c401;
+		border-radius: 10px;
+		text-align: center;
+		color: #50c401;
+		font-weight: bold;
+		font-size: 30px;
+	}
 }
 
 .item02 {
@@ -135,12 +138,15 @@ img  { width: 100%; height: auto;}
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
+		li {
+			display: flex;
+			margin-bottom: 30px;
+		}
 	}
 	ul li a {
 		display:block;
 		background-color: #1c1c1c;
 		border-radius: 10px;
-		margin-bottom: 30px;
 		max-width: 330px;
 	}
 	ul li a img {
@@ -234,112 +240,155 @@ footer {
 	.wrapper {
 		width: 100%;
 		margin: 0 auto;
+		header {
+			padding: 1.4% 1.4% 0.8% 1.4%;
+			img {
+				max-width: 20%;
+			}
+		}
 	}
 	.main_visual {
 		height: auto;
-		margin-bottom: 50px;
+		margin-bottom: 6%;
 	}
 
 	.genre-wrap {
 		width: 90%;
 		h1 {
-			font-size: 25px;
+			font-size: calc(55vw/12);
+			margin-bottom: 3.5%;
 		}
 	}
 
 	.item {
+		border-radius: 6px;
+		margin-bottom: 5%;
+		figure img {
+		border-radius: 6px 6px 0 0;
+		}
+		div {
+			padding: 2% 3% 3% 3%;
+		}
 		dt {
-			font-size: 20px;
+			font-size: calc(55vw/12);
+			margin-bottom: 2%;
 		}
 		dd {
-			font-size: 18px;
+			font-size: calc(44vw/12);
+			margin-bottom: 3%;
 		}
 		ul li {
 			display: block;
-			width: 32%;
+			width: 31.5%;
+		}
+		li a.active {
+			box-sizing: border-box;
+			border: 1.5px solid #50c401;
+		}
+		li a.active img {
+			margin: -1px 0;
 		}
 		.detail-txt {
-			font-size: 18px;
+			font-size: calc(44vw/12);
 		}
 		p a {
-			font-size: 25px;
-			padding: 18px 0 18px 0;
+			font-size: calc(50vw/12);
+			padding: 3.5% 0 3.5% 0;
+			border-radius: 6px;
 		}
 	}
-	.genre-link a {
-		font-size: 24px;
+	.genre-link {
+		margin-bottom: 13%;
+		a {
+			border-radius: 6px;
+			padding: 3.5% 0 3.5% 0;
+			font-size: calc(48vw/12);
+		}
 	}
 
 	.item02 {
 		width: 100%;
 		ul li {
-			width: 49%;
+			width: 48.5%;
+			margin-bottom: 4.3%;
 		}
 		ul li a {
-			margin-bottom: 5%;
+			margin-bottom: 0;
+			border-radius: 6px;
+			dl {
+				padding: 5%;
+			}
+			img {
+				border-radius: 6px 6px 0 0;
+			}
 		}
 		ul li a dl dt {
-			font-size: 18px;
+			font-size: calc(42vw/12);
 		}
 		ul li a dl dd {
-			font-size: 20px;
+			font-size: calc(45vw/12);
 		}
 	}
 
 	.abemavideo {
+		padding: 7% 0 7% 0;
 		section {
 			width: 90%;
 		}
 		h1 img {
-			max-width: 250px;
+			max-width: 65%;
 		}
 		.text {
-			font-size: 22px;
+			font-size: calc(48vw/12);
+			margin-bottom: 0.7%;
+		}
+		.poing {
+			font-size: calc(20vw/12);
+			margin-bottom: 2%;
 		}
 		p a {
-		font-size: 24px;
+		font-size: calc(50vw/12);
+		padding: 2.7% 0 2.7% 0;
+		border-radius: 6px;
 		}
 	}
 
 	footer {
-	width: 90%;
-	ul li a {
-		line-height: 1.8em;
-	}
+		width: 90%;
+		small {
+			font-size: calc(28vw/12);
+			margin-bottom: 5%;
+		}
+		ul {
+			margin-bottom: 5%;
+		}
+		ul li a {
+			font-size: calc(28vw/12);
+		}
 	}
 }
+
+
+
+
 
 @media screen and (max-width: 480px) {
-.wrapper {
-	header {
-		img {
-			max-width: 100px;
-		}
-	}
-}
-
-	.main_visual {
-		margin-bottom: 20px;
-	}
-
-	.genre-wrap {
-		h1 {
-			font-size: 20px;
-			margin-bottom: 10px;
-		}
-	}
 	.item {
-	div {
-		padding: 12px;
-	}
+		border-radius: 4px;
+		figure img {
+		border-radius: 4px 4px 0 0;
+		}
 		p a {
-			font-size: 18px;
-			padding: 15px 0 15px 0;
+			border-radius: 4px;
 		}
 	}
-	.genre-link a {
-		font-size: 16px;
-		padding: 15px 0 15px 0;
+	.genre-link {
+		margin-bottom: 13%;
+		a {
+			border-radius: 4px;
+			padding: 3.5% 0 3.5% 0;
+			font-size: calc(48vw/12);
+		}
 	}
 
 	.item02 {
@@ -351,21 +400,13 @@ footer {
 				width: 100%;
 				a {
 					max-width: 100%;
+					border-radius: 4px;
 					img {
 						max-width: 100%;
-					}
-					dl {
-						padding: 12px;
+						border-radius: 4px 4px 0 0;
 					}
 				}
 			}
-		}
-	}
-
-	.abemavideo {
-		padding: 30px 0 30px 0;
-		p a {
-		font-size: 16px;
 		}
 	}
 }
