@@ -103,12 +103,12 @@ $(document).ready(function() {
 	}
 
 	// 09 無料文言
-	var time09 = new Date("2018/11/04");
+	var time09 = new Date("2018/11/03");
 	var mon09 = time09.getTime()-now.getTime();
 	var day09  = Math.floor(mon09/(1000*60*60*24)); // カウントダウン用 '日' 取得
 	$(d09).html(day09+2);
 	// 無料文言削除
-	var timeOut09 = new Date("2018/11/04 23:59");
+	var timeOut09 = new Date("2018/11/03 23:59");
 	if (now.getTime() > timeOut09.getTime()) {
 		$('#dd_09').hide();
 	}
