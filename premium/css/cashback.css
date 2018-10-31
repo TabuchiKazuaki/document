@@ -38,9 +38,11 @@ header .header_logo {
 header .header_wrap {
   background: url(https://bit.ly/2qeOXXo) 0 0 no-repeat;
   background-size: cover;
-  padding: 54px 0 54px;
+  padding: 24px 0 54px;
 }
 header .header_sub {
+  max-width: 429px;
+  margin: 0 auto;
   font-size: 33px;
   font-weight: bold;
   text-align: center;
@@ -68,7 +70,7 @@ header .num_push span {
 }
 header .header_heading {
   max-width: 620px;
-  margin: 56px auto 0;
+  margin: 25px auto 0;
 }
 header .header_date {
   width: 100%;
@@ -91,15 +93,15 @@ header .header_date {
     width: 75%;
   }
   header .header_wrap {
-    padding: 7% 0 7%;
+    padding: 4% 0 7%;
   }
   header .header_sub {
     font-size: calc(54vw/12);
     letter-spacing: 5.5px;
     line-height: 1.1;
   }
-  header .header_sub span {
-    font-size: calc(64vw/12);
+  header .header_sub img {
+    width: 85%;
   }
   header .num_push {
     width: 51%;
@@ -117,13 +119,13 @@ header .header_date {
     font-size: 8.33333vw;
   }
   header .header_heading {
-    width: 83%;
-    margin: 6% auto 0;
+    width: 82%;
+    margin: 3% auto 0;
   }
   header .header_date {
-    width: 83%;
+    width: 82%;
     padding: 2% 0;
-    margin: 6% auto 0;
+    margin: 7% auto 0;
     border: 2px solid #fff;
     border-radius: 40px;
     font-size: calc(49vw/12);
@@ -138,15 +140,15 @@ header .header_date {
     width: 52%;
   }
   header .header_wrap {
-    padding: 6.5% 0 7%;
+    padding: 4.5% 0 7%;
   }
   header .header_sub {
     font-size: calc(57vw/12);
     letter-spacing: 3.5px;
     line-height: 1.1;
   }
-  header .header_sub span {
-    font-size: calc(67vw/12);
+  header .header_sub img {
+    width: 54%;
   }
   header .num_push {
     width: 51%;
@@ -164,16 +166,16 @@ header .header_date {
     font-size: calc(103vw/12);
   }
   header .header_heading {
-    width: 85%;
-    margin: 6% auto 0;
+    width: 83%;
+    margin: 3% auto 0;
   }
   header .header_date {
-    width: 85%;
-    padding: 2% 0;
+    width: 83%;
+    padding: 3% 0;
     margin: 6% auto 0;
     border: 1px solid #fff;
     border-radius: 40px;
-    font-size: calc(50vw/12);
+    font-size: calc(47vw/12);
     letter-spacing: 0.8px;
   }
 }
@@ -182,6 +184,30 @@ header .header_date {
     width: 45%;
   }
 }
+@-webkit-keyframes item_sp {
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes item_list {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes item_list {
+  100% {
+    opacity: 1;
+  }
+}
+.ani_list01 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 1.5s 1 forwards;
+}
+
+.ani_list01 {
+  opacity: 0;
+}
+
 .content_wrap {
   background: #000;
   padding: 0 0 0;
