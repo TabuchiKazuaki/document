@@ -59,15 +59,15 @@ $(document).ready(function() {
 	}
 
 	// 05 無料文言
-	// var time05 = new Date("2018/10/15");
-	// var mon05 = time05.getTime()-now.getTime();
-	// var day05  = Math.floor(mon05/(1000*60*60*24)); // カウントダウン用 '日' 取得
-	// $(d05).html(day05+2);
-	// // 無料文言削除
-	// var timeOut05 = new Date("2018/10/15 23:59");
-	// if (now.getTime() > timeOut05.getTime()) {
-	// 	$('#dd_05').hide();
-	// }
+	var time05 = new Date("2018/11/08");
+	var mon05 = time05.getTime()-now.getTime();
+	var day05  = Math.floor(mon05/(1000*60*60*24)); // カウントダウン用 '日' 取得
+	$(d05).html(day05+2);
+	// 無料文言削除
+	var timeOut05 = new Date("2018/11/08 23:59");
+	if (now.getTime() > timeOut05.getTime()) {
+		$('#dd_05').hide();
+	}
 
 	// 06 無料文言
 	var time06 = new Date("2018/11/06");
@@ -114,12 +114,12 @@ $(document).ready(function() {
 	// }
 
 	// 10 無料文言
-	var time10 = new Date("2018/11/05");
+	var time10 = new Date("2018/11/12");
 	var mon10 = time10.getTime()-now.getTime();
 	var day10  = Math.floor(mon10/(1000*60*60*24)); // カウントダウン用 '日' 取得
 	$(d10).html(day10+2);
 	// 無料文言削除
-	var timeOut10 = new Date("2018/11/05 23:59");
+	var timeOut10 = new Date("2018/11/12 23:59");
 	if (now.getTime() > timeOut10.getTime()) {
 		$('#dd_10').hide();
 	}
