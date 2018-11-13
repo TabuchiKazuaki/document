@@ -15,15 +15,15 @@ $(document).ready(function() {
 
 
 	// 無料文言
-	// var time01 = new Date("2018/10/07");
-	// var mon01 = time01.getTime()-now.getTime();
-	// var day01  = Math.floor(mon01/(1000*60*60*24)); // カウントダウン用 '日' 取得
-	// $(d01).html(day01+2);
-	// // 無料文言削除
-	// var timeOut01 = new Date("2018/10/07 23:59");
-	// if (now.getTime() > timeOut01.getTime()) {
-	// 	$('#dd_01').hide();
-	// }
+	var time01 = new Date("2018/11/18");
+	var mon01 = time01.getTime()-now.getTime();
+	var day01  = Math.floor(mon01/(1000*60*60*24)); // カウントダウン用 '日' 取得
+	$(d01).html(day01+2);
+	// 無料文言削除
+	var timeOut01 = new Date("2018/11/18 23:59");
+	if (now.getTime() > timeOut01.getTime()) {
+		$('#dd_01').hide();
+	}
 
 	// 02 無料文言
 	// var time02 = new Date("2018/10/06");
@@ -37,15 +37,15 @@ $(document).ready(function() {
 	// }
 
 	// 03 無料文言
-	var time03 = new Date("2018/10/14");
-	var mon03 = time03.getTime()-now.getTime();
-	var day03  = Math.floor(mon03/(1000*60*60*24)); // カウントダウン用 '日' 取得
-	$(d03).html(day03+2);
-	// 無料文言削除
-	var timeOut03 = new Date("2018/10/14 23:59");
-	if (now.getTime() > timeOut03.getTime()) {
-		$('#dd_03').hide();
-	}
+	// var time03 = new Date("2018/10/14");
+	// var mon03 = time03.getTime()-now.getTime();
+	// var day03  = Math.floor(mon03/(1000*60*60*24)); // カウントダウン用 '日' 取得
+	// $(d03).html(day03+2);
+	// // 無料文言削除
+	// var timeOut03 = new Date("2018/10/14 23:59");
+	// if (now.getTime() > timeOut03.getTime()) {
+	// 	$('#dd_03').hide();
+	// }
 
 	// // 04 無料文言
 	// var time04 = new Date("2018/10/08");
@@ -59,26 +59,26 @@ $(document).ready(function() {
 	// }
 
 	// // 05 無料文言
-	// var time05 = new Date("2018/10/06");
-	// var mon05 = time05.getTime()-now.getTime();
-	// var day05  = Math.floor(mon05/(1000*60*60*24)); // カウントダウン用 '日' 取得
-	// $(d05).html(day05+2);
-	// // 無料文言削除
-	// var timeOut05 = new Date("2018/10/06 23:59");
-	// if (now.getTime() > timeOut05.getTime()) {
-	// 	$('#dd_05').hide();
-	// }
+	var time05 = new Date("2018/11/16");
+	var mon05 = time05.getTime()-now.getTime();
+	var day05  = Math.floor(mon05/(1000*60*60*24)); // カウントダウン用 '日' 取得
+	$(d05).html(day05+2);
+	// 無料文言削除
+	var timeOut05 = new Date("2018/11/16 23:59");
+	if (now.getTime() > timeOut05.getTime()) {
+		$('#dd_05').hide();
+	}
 
 	// // 06 無料文言
-	// var time06 = new Date("2018/10/07");
-	// var mon06 = time06.getTime()-now.getTime();
-	// var day06  = Math.floor(mon06/(1000*60*60*24)); // カウントダウン用 '日' 取得
-	// $(d06).html(day06+2);
-	// // 無料文言削除
-	// var timeOut06 = new Date("2018/10/07 23:59");
-	// if (now.getTime() > timeOut06.getTime()) {
-	// 	$('#dd_06').hide();
-	// }
+	var time06 = new Date("2018/11/21");
+	var mon06 = time06.getTime()-now.getTime();
+	var day06  = Math.floor(mon06/(1000*60*60*24)); // カウントダウン用 '日' 取得
+	$(d06).html(day06+2);
+	// 無料文言削除
+	var timeOut06 = new Date("2018/11/21 23:59");
+	if (now.getTime() > timeOut06.getTime()) {
+		$('#dd_06').hide();
+	}
 
 	// 07 無料文言
 	// var time07 = new Date("2018/10/03");
@@ -92,15 +92,15 @@ $(document).ready(function() {
 	// }
 
 	// 08 無料文言
-	// var time08 = new Date("2018/10/07");
-	// var mon08 = time08.getTime()-now.getTime();
-	// var day08  = Math.floor(mon08/(1000*60*60*24)); // カウントダウン用 '日' 取得
-	// $(d08).html(day08+2);
-	// // 無料文言削除
-	// var timeOut08 = new Date("2018/10/07 23:59");
-	// if (now.getTime() > timeOut08.getTime()) {
-	// 	$('#dd_08').hide();
-	// }
+	var time08 = new Date("2018/11/17");
+	var mon08 = time08.getTime()-now.getTime();
+	var day08  = Math.floor(mon08/(1000*60*60*24)); // カウントダウン用 '日' 取得
+	$(d08).html(day08+2);
+	// 無料文言削除
+	var timeOut08 = new Date("2018/11/17 23:59");
+	if (now.getTime() > timeOut08.getTime()) {
+		$('#dd_08').hide();
+	}
 
 	// // 09 無料文言
 	// var time09 = new Date("2018/10/06");
@@ -114,12 +114,12 @@ $(document).ready(function() {
 	// }
 
 	// 10 無料文言
-	var time10 = new Date("2018/10/15");
+	var time10 = new Date("2018/11/15");
 	var mon10 = time10.getTime()-now.getTime();
 	var day10  = Math.floor(mon10/(1000*60*60*24)); // カウントダウン用 '日' 取得
 	$(d10).html(day10+2);
 	// 無料文言削除
-	var timeOut10 = new Date("2018/10/15 23:59");
+	var timeOut10 = new Date("2018/11/15 23:59");
 	if (now.getTime() > timeOut10.getTime()) {
 		$('#dd_10').hide();
 	}
