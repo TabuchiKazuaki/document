@@ -92,12 +92,12 @@ $(document).ready(function() {
 	// }
 
 	// 08 無料文言
-	var time08 = new Date("2018/11/21");
+	var time08 = new Date("2018/11/14");
 	var mon08 = time08.getTime()-now.getTime();
 	var day08  = Math.floor(mon08/(1000*60*60*24)); // カウントダウン用 '日' 取得
 	$(d08).html(day08+2);
 	// 無料文言削除
-	var timeOut08 = new Date("2018/11/21 23:59");
+	var timeOut08 = new Date("2018/11/14 23:59");
 	if (now.getTime() > timeOut08.getTime()) {
 		$('#dd_08').hide();
 	}
