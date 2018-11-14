@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -170,7 +171,15 @@ footer .copy {
   color: #525252;
 }
 footer .copy li {
+  position: relative;
   float: left;
+  padding: 0 20px 0 0;
+}
+footer .copy li:after {
+  content: '／';
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 footer small {
   display: block;
