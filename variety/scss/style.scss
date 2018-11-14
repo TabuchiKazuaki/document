@@ -166,10 +166,13 @@ footer {
 		margin: 0 auto;
 	}
 	.copy {
-		font-size: 18px;
+		overflow: hidden;
 		line-height: 1.3;
 		font-size: 18px;
 		color: #525252;
+		li {
+			float: left;
+		}
 	}
 	small {
 		display: block;
