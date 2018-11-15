@@ -41,7 +41,7 @@ if (now.getTime() > b02.getTime()){
 	$(at02).css({'background':'#50c401'});
 	$(at02).attr("href","https://abema.tv/video/title/199-23");
 }
-var c02 = new Date("2018/10/03 23:59");
+var c02 = new Date("2018/12/03 23:59");
 if (now.getTime() > c02.getTime()){
 	$(at02).text('キャンペーン募集は終了しました');
 	$(at02).css({'background':'#bbb'});
