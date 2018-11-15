@@ -12,7 +12,7 @@ if (now.getTime() > a01.getTime()){
 	$(at01).css({'background':'#bbb'});
 	$(at01).attr("href","javascript:void(0)");
 }
-var b01 = new Date("2018/11/22 00:00");
+var b01 = new Date("2018/10/22 00:00");
 if (now.getTime() > b01.getTime()){
 	$(at01).text('今すぐみる');
 	$(at01).css({'background':'#50c401'});
@@ -35,7 +35,7 @@ if (now.getTime() > a02.getTime()){
 	$(at02).css({'background':'#bbb'});
 	$(at02).attr("href","javascript:void(0)");
 }
-var b02 = new Date("2018/11/22 00:00");
+var b02 = new Date("2018/10/22 00:00");
 if (now.getTime() > b02.getTime()){
 	$(at02).text('今すぐみる');
 	$(at02).css({'background':'#50c401'});
