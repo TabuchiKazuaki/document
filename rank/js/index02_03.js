@@ -114,12 +114,12 @@ $(document).ready(function() {
 	}
 
 	// 10 無料文言
-	var time10 = new Date("2018/11/25");
+	var time10 = new Date("2018/11/23");
 	var mon10 = time10.getTime()-now.getTime();
 	var day10  = Math.floor(mon10/(1000*60*60*24)); // カウントダウン用 '日' 取得
 	$(d10).html(day10+2);
 	// 無料文言削除
-	var timeOut10 = new Date("2018/11/25 23:59");
+	var timeOut10 = new Date("2018/11/23 23:59");
 	if (now.getTime() > timeOut10.getTime()) {
 		$('#dd_10').hide();
 	}
