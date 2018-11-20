@@ -44,6 +44,19 @@ header {
 }
 
 .item-list {
+	margin-bottom: 65px;
+	h1 {
+		font-size: 36px;
+		font-weight: bold;
+		border-left: solid 8px #51c300;
+		padding: 1px 0 1px 10px;
+		margin-bottom: 52px;
+	}
+	h2 {
+		font-size: 34px;
+		font-weight: bold;
+		margin-bottom: 42px;
+	}
 	.item {
 		width: 100%;
 		padding-bottom: 45px;
@@ -62,9 +75,16 @@ header {
 			.title {
 				span {
 					display: block;
+					background-color: #f0163a;
+					width: fit-content;
+					border-radius: 4px;
+					text-align: center;
+					font-size: 18px;
+					font-weight: bold;
+					padding: 6px 10px 6px 10px;
 					margin-bottom: 10px;
 				}
-				h1 {
+				p {
 					font-size: 30px;
 					font-weight: bold;
 					line-height: 1.35em;
@@ -178,6 +198,17 @@ header {
 }
 
 .item-list {
+	margin-bottom: 9%;
+	h1 {
+		font-size: calc(58vw/12);
+		border-left: solid 4px #51c300;
+		padding: 0.3% 0 0.3% 2%;
+		margin-bottom: 7%;
+	}
+	h2 {
+		font-size: calc(54vw/12);
+		margin-bottom: 6%;
+	}
 	.item {
 		padding-bottom: 7%;
 		margin-bottom: 7%;
@@ -194,9 +225,12 @@ header {
 			.title {
 				width: 48%;
 				span {
+					border-radius: 2px;
+					font-size: 30%;
+					padding: 2.5% 4% 2.5% 4%;
 					margin-bottom: 1.5%;
 				}
-				h1 {
+				p {
 					font-size: calc(48vw/12);
 					line-height: 140%;
 				}

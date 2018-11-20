@@ -16,12 +16,15 @@ header .main-visual img { display: block; max-width: 697px; margin: 0 auto; }
 
 .item-list, footer { width: 690px; margin: 0 auto; }
 
+.item-list { margin-bottom: 65px; }
+.item-list h1 { font-size: 36px; font-weight: bold; border-left: solid 8px #51c300; padding: 1px 0 1px 10px; margin-bottom: 52px; }
+.item-list h2 { font-size: 34px; font-weight: bold; margin-bottom: 42px; }
 .item-list .item { width: 100%; padding-bottom: 45px; margin-bottom: 45px; border-bottom: solid 1px #6e6e6e; }
 .item-list .item .main { margin-bottom: 23px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 .item-list .item .main figure { margin-right: 20px; }
 .item-list .item .main figure img { min-width: 325px; }
-.item-list .item .main .title span { display: block; margin-bottom: 10px; }
-.item-list .item .main .title h1 { font-size: 30px; font-weight: bold; line-height: 1.35em; }
+.item-list .item .main .title span { display: block; background-color: #f0163a; width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; border-radius: 4px; text-align: center; font-size: 18px; font-weight: bold; padding: 6px 10px 6px 10px; margin-bottom: 10px; }
+.item-list .item .main .title p { font-size: 30px; font-weight: bold; line-height: 1.35em; }
 .item-list .item .detail-txt { font-size: 24px; color: #ababab; line-height: 1.35em; margin-bottom: 28px; }
 .item-list .item p a { display: block; font-size: 26px; font-weight: bold; padding: 27px 0 27px 0; text-align: center; background-color: #51c300; border-radius: 8px; }
 
@@ -44,13 +47,16 @@ footer small { display: block; font-size: 18px; color: #525252; text-align: cent
   header .main-visual { padding: 9% 0 5% 0; }
   header .main-visual img { max-width: 93%; }
   .item-list, footer { width: 93%; margin: 0 auto; }
+  .item-list { margin-bottom: 9%; }
+  .item-list h1 { font-size: calc(58vw/12); border-left: solid 4px #51c300; padding: 0.3% 0 0.3% 2%; margin-bottom: 7%; }
+  .item-list h2 { font-size: calc(54vw/12); margin-bottom: 6%; }
   .item-list .item { padding-bottom: 7%; margin-bottom: 7%; }
   .item-list .item .main { width: 100%; margin-bottom: 4%; }
   .item-list .item .main figure { width: 49%; margin-right: 3%; }
   .item-list .item .main figure img { min-width: 100%; }
   .item-list .item .main .title { width: 48%; }
-  .item-list .item .main .title span { margin-bottom: 1.5%; }
-  .item-list .item .main .title h1 { font-size: calc(48vw/12); line-height: 140%; }
+  .item-list .item .main .title span { border-radius: 2px; font-size: 30%; padding: 2.5% 4% 2.5% 4%; margin-bottom: 1.5%; }
+  .item-list .item .main .title p { font-size: calc(48vw/12); line-height: 140%; }
   .item-list .item .detail-txt { font-size: calc(40vw/12); line-height: 140%; margin-bottom: 4%; }
   .item-list .item p a { font-size: calc(44vw/12); padding: 4% 0 4% 0; border-radius: 4px; }
   .video { width: 100%; padding: 8.5% 0 7% 0; margin-bottom: 7%; }

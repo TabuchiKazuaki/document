@@ -1,66 +1,132 @@
-$(document).ready(function() {
-     //初期表示
-     $(".tab_content_one").hide();//全ての.tab_contentを非表示
-     $("ul.tabs_one li:first").addClass("active").show();//tabs内最初のliに.activeを追加
-     $(".tab_content_one:first").show();//最初の.tab_contentを表示
-     //タブクリック時
-     $("ul.tabs_one li").click(function() {
-          $("ul.tabs_one li").removeClass("active");//.activeを外す
-          $(this).addClass("active");//クリックタブに.activeを追加
-          $(".tab_content_one").hide();//全ての.tab_contentを非表示
-          var activeTab = $(this).find("a").attr("href");//アクティブタブコンテンツ
-          $(activeTab).fadeIn();//アクティブタブコンテンツをフェードイン
-          return false;
-     });
-});
+new Vue({
+  el: '#app',
+  data () {
+    return {
+      items: null,
+    }
+  },
+  mounted () {
+    fetch(
+      'https://script.google.com/macros/s/AKfycbyO-E4tMf-Vgiq7SbhYNKAS92qV1rIicsvtatFojY4wcAvfDWA/exec',
+    )
+      .then(res => res.json())
+      .then(
+      result => {
+        this.items = result
+      },
+      error => {
 
+      },
+    );
+  }
+})
+new Vue({
+  el: '#reality',
+  data () {
+    return {
+      realitys: null,
+    }
+  },
+  mounted () {
+    fetch(
+      'https://script.google.com/macros/s/AKfycbyO-E4tMf-Vgiq7SbhYNKAS92qV1rIicsvtatFojY4wcAvfDWA/exec',
+    )
+      .then(res => res.json())
+      .then(
+      result => {
+        this.realitys = result
+      },
+      error => {
 
-$(document).ready(function() {
-     //初期表示
-     $(".tab_content_two").hide();//全ての.tab_contentを非表示
-     $("ul.tabs_two li:first").addClass("active").show();//tabs内最初のliに.activeを追加
-     $(".tab_content_two:first").show();//最初の.tab_contentを表示
-     //タブクリック時
-     $("ul.tabs_two li").click(function() {
-          $("ul.tabs_two li").removeClass("active");//.activeを外す
-          $(this).addClass("active");//クリックタブに.activeを追加
-          $(".tab_content_two").hide();//全ての.tab_contentを非表示
-          var activeTab = $(this).find("a").attr("href");//アクティブタブコンテンツ
-          $(activeTab).fadeIn();//アクティブタブコンテンツをフェードイン
-          return false;
-     });
-});
+      },
+    );
+  }
+})
+new Vue({
+  el: '#anime',
+  data () {
+    return {
+      animes: null,
+    }
+  },
+  mounted () {
+    fetch(
+      'https://script.google.com/macros/s/AKfycbyO-E4tMf-Vgiq7SbhYNKAS92qV1rIicsvtatFojY4wcAvfDWA/exec',
+    )
+      .then(res => res.json())
+      .then(
+      result => {
+        this.animes = result
+      },
+      error => {
 
-$(document).ready(function() {
-     //初期表示
-     $(".tab_content_three").hide();//全ての.tab_contentを非表示
-     $("ul.tabs_three li:first").addClass("active").show();//tabs内最初のliに.activeを追加
-     $(".tab_content_three:first").show();//最初の.tab_contentを表示
-     //タブクリック時
-     $("ul.tabs_three li").click(function() {
-          $("ul.tabs_three li").removeClass("active");//.activeを外す
-          $(this).addClass("active");//クリックタブに.activeを追加
-          $(".tab_content_three").hide();//全ての.tab_contentを非表示
-          var activeTab = $(this).find("a").attr("href");//アクティブタブコンテンツ
-          $(activeTab).fadeIn();//アクティブタブコンテンツをフェードイン
-          return false;
-     });
-});
+      },
+    );
+  }
+})
+new Vue({
+  el: '#drama',
+  data () {
+    return {
+      dramas: null,
+    }
+  },
+  mounted () {
+    fetch(
+      'https://script.google.com/macros/s/AKfycbyO-E4tMf-Vgiq7SbhYNKAS92qV1rIicsvtatFojY4wcAvfDWA/exec',
+    )
+      .then(res => res.json())
+      .then(
+      result => {
+        this.dramas = result
+      },
+      error => {
 
+      },
+    );
+  }
+})
+new Vue({
+  el: '#corea',
+  data () {
+    return {
+      coreas: null,
+    }
+  },
+  mounted () {
+    fetch(
+      'https://script.google.com/macros/s/AKfycbyO-E4tMf-Vgiq7SbhYNKAS92qV1rIicsvtatFojY4wcAvfDWA/exec',
+    )
+      .then(res => res.json())
+      .then(
+      result => {
+        this.coreas = result
+      },
+      error => {
 
+      },
+    );
+  }
+})
+new Vue({
+  el: '#copy',
+  data () {
+    return {
+      copys: null,
+    }
+  },
+  mounted () {
+    fetch(
+      'https://script.google.com/macros/s/AKfycbyO-E4tMf-Vgiq7SbhYNKAS92qV1rIicsvtatFojY4wcAvfDWA/exec',
+    )
+      .then(res => res.json())
+      .then(
+      result => {
+        this.copys = result
+      },
+      error => {
 
-$(document).ready(function() {
-     //初期表示
-     $(".tab_content_four").hide();//全ての.tab_contentを非表示
-     $("ul.tabs_four li:first").addClass("active").show();//tabs内最初のliに.activeを追加
-     $(".tab_content_four:first").show();//最初の.tab_contentを表示
-     //タブクリック時
-     $("ul.tabs_four li").click(function() {
-          $("ul.tabs_four li").removeClass("active");//.activeを外す
-          $(this).addClass("active");//クリックタブに.activeを追加
-          $(".tab_content_four").hide();//全ての.tab_contentを非表示
-          var activeTab = $(this).find("a").attr("href");//アクティブタブコンテンツ
-          $(activeTab).fadeIn();//アクティブタブコンテンツをフェードイン
-          return false;
-     });
-});
+      },
+    );
+  }
+})
