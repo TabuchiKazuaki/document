@@ -15,12 +15,12 @@ $(document).ready(function() {
 
 
 	// 無料文言
-	var time01 = new Date("2018/11/24");
+	var time01 = new Date("2018/11/23");
 	var mon01 = time01.getTime()-now.getTime();
 	var day01  = Math.floor(mon01/(1000*60*60*24)); // カウントダウン用 '日' 取得
 	$(d01).html(day01+2);
 	// 無料文言削除
-	var timeOut01 = new Date("2018/11/24 23:59");
+	var timeOut01 = new Date("2018/11/23 23:59");
 	if (now.getTime() > timeOut01.getTime()) {
 		$('#dd_01').hide();
 	}
