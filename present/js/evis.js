@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 	var out00 = new Date("2018/10/29 23:59");
 	if (now.getTime() > out00.getTime()) {
-		$(at01).text('回登録なら1ヶ月間の¥0トライアル');
+		$(at01).text('初回登録なら1ヶ月間の¥0トライアル');
 	}
 
 	var a001 = new Date("2018/11/27 00:00");
@@ -14,6 +14,6 @@ $(document).ready(function() {
 	}
 	var out01 = new Date("2018/11/29 23:59");
 	if (now.getTime() > out01.getTime()) {
-		$(at01).text('回登録なら1ヶ月間の¥0トライアル');
+		$(at01).text('初回登録なら1ヶ月間の¥0トライアル');
 	}
 });
