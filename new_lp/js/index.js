@@ -2,7 +2,7 @@ new Vue({
   el: '#app',
   data () {
     return {
-      items: null,
+      items: null
     }
   },
   mounted () {
