@@ -20,20 +20,30 @@ header {
 	margin: 0 auto;
 	margin-bottom: 50px;
 	p {
-		padding: 14px 0 14px 14px;
+		padding: 14px 0 12px 14px;
 		img {
-			max-width: 128px;
+			max-width: 152px;
 		}
 	}
 	.main-visual {
-		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/501761/150e4aa64ad0b053f5123757b84331d7_3eb32532868bc9855b33290636dbaa4d.png) 0 0 no-repeat;
+		background: url(https://bit.ly/2FSR1z5) 0 0 no-repeat;
 			background-size: cover;
-			padding: 85px 0 55px 0;
+			padding: 0;
+			height: 534px; //後で消す
 			img {
 				display: block;
 				max-width: 540px;
 				margin: 0 auto;
 			}
+	}
+}
+
+
+.premiere {
+	width: 716px;
+	margin: 0 auto 36px auto;
+	a img {
+		max-width: 716px;
 	}
 }
 
@@ -613,11 +623,90 @@ header {
 
 
 
+.module09carousel {
+	width: 750px;
+	margin: 0 auto 53px auto;
+	section {
+		width: 100%;
+	}
+	h1 {
+		font-size: 36px;
+		font-weight: bold;
+		margin-bottom: 32px;
+		padding-left: 20px;
+	}
+	.photo-wrap {
+		width: 530px;
+		background-color: #1a1a1a;
+		border-radius: 8px;
+		padding-bottom: 32px;
+	}
+	h2 {
+		font-size: 28px;
+		font-weight: bold;
+		line-height: 1.4em;
+		padding: 18px 0 18px 16px;
+		margin-bottom: 18px;
+		border-bottom: solid 1px #606060;
+	}
+	ul {
+		margin-bottom: 32px;
+	}
+	li {
+		padding: 0 22px 18px 22px;
+		margin-bottom: 18px;
+		border-bottom: solid 1px #606060;
+		dl {
+			display: flex;
+			align-items: center;
+			dt {
+				width: 90px;
+				font-size: 26px;
+				font-weight: bold;
+			}
+			dd {
+				display: flex;
+				align-items: center;
+				figure {
+					width: 187px;
+					margin-right: 19px;
+					img {
+						min-width: 187px;
+					}
+				}
+				h3 {
+					font-size: 26px;
+					font-weight: normal;
+					line-height: 1.35em;
+				}
+			}
+		}
+	}
+	li:last-child { margin-bottom: 0; }
+	aside a {
+		display: block;
+		color: #51c300;
+		width: 494px;
+		margin: 0 auto;
+		padding: 27px 0 27px 0;
+		border: solid 2px #51c300;
+		text-align: center;
+		font-size: 28px;
+		font-weight: bold;
+		border-radius: 6px;
+	}
+}
+
+
+
+
+
+
 
 .video {
 	width: 750px;
 	margin: 0 auto;
-	background: url(https://bit.ly/2DgvKfD) 0 0 no-repeat;
+	background: url(https://bit.ly/2PW5lLG) 0 0 no-repeat;
 	background-size: cover;
 	padding: 54px 0 68px 0;
 	margin-bottom: 60px;
@@ -716,11 +805,21 @@ header {
 	}
 	.main-visual {
 			padding: 11% 0 9% 0;
+			height: 100%;
 			img {
 				max-width: 74%;
 			}
 	}
 }
+
+.premiere {
+	width: 95%;
+	margin: 0 auto 5% auto;
+	a img {
+		max-width: 100%;
+	}
+}
+
 
 
 .module01 {
@@ -732,7 +831,7 @@ header {
 	h1 {
 		font-size: calc(60vw/12);
 		padding-bottom:4.9%;
-		margin-bottom: 6%;
+		margin-bottom: 5%;
 	}
 	.main {
 		padding-bottom: 3%;
@@ -799,7 +898,7 @@ header {
 	h1 {
 		font-size: calc(60vw/12);
 		padding-bottom:4.9%;
-		margin-bottom: 6%;
+		margin-bottom: 5%;
 	}
 	.main {
 		padding-bottom: 3%;
@@ -865,7 +964,7 @@ header {
 	h1 {
 		font-size: calc(60vw/12);
 		padding-bottom:4.9%;
-		margin-bottom: 6%;
+		margin-bottom: 5%;
 	}
 	.main {
 		padding-bottom: 3%;
@@ -1067,7 +1166,7 @@ header {
 		}
 	}
 	aside a {
-		width: 94%;
+		width: 95.5%;
 		padding: 4.1% 0 4.1% 0;
 		border: solid 1px #51c300;
 		font-size: calc(47vw/12);
@@ -1091,7 +1190,7 @@ header {
 		padding-left: 2%;
 	}
 	.photo-wrap {
-		padding: 3.5% 3% 3.5% 3.5%;
+		padding: 3.5% 2% 3.5% 2%;
 		border-radius: 4px;
 	}
 	ul {
@@ -1182,78 +1281,63 @@ header {
 
 
 .video {
-	width: 750px;
-	margin: 0 auto;
-	background: url(https://bit.ly/2DgvKfD) 0 0 no-repeat;
-	background-size: cover;
-	padding: 54px 0 68px 0;
-	margin-bottom: 60px;
+	width: 100%;
+	padding: 7.5% 0 10% 0;
+	margin-bottom: 7%;
 	section {
-		width: 680px;
-		margin: 0 auto;
+		width: 90%;
 		h2 {
-			margin-bottom: 23px;
+			margin-bottom: 3.8%;
 			img {
-				max-width: 397px;
+				max-width: 60%;
 			}
 		}
 		dl dt {
-			font-size: 32px;
-			font-weight: bold;
-			margin-bottom: 12px;
+			font-size: calc(50vw/12);
+			margin-bottom: 1.5%;
 		}
 		dl dd {
-			font-size: 16px;
-			margin-bottom: 20px;
+			font-size: calc(20vw/12);
+			margin-bottom: 3.5%;
 		}
 		aside a {
-			display: block;
-			color: #51c300;
-			font-size: 28px;
-			font-weight: bold;
-			padding: 27px 0 27px 0;
-			text-align: center;
-			border: solid 2px #51c300;
-			border-radius: 8px;
+			font-size: calc(50vw/12);
+			padding: 4.1% 0 4.1% 0;
+			border: solid 1px #51c300;
+			border-radius: 4px;
 		}
 	}
 }
 
 footer {
-	width: 750px;
-	margin: 0 auto;
+	width: 90%;
 	padding-bottom: 40px;
 	p {
-		margin-bottom: 30px;
-		font-size: 16px;
-		line-height: 1.35em;
-		color: #919191;
+		margin-bottom: 4%;
+		font-size: calc(30vw/12);
+		line-height: 140%;
 	}
 	.links {
-		margin-bottom: 30px;
+		margin-bottom: 4%;
 	}
 	ul {
-		margin-bottom: 5px;
+		font-size: calc(30vw/12);
+		margin-bottom: 1%;
 		li {
-			display: inline-block;
-			color: #919191;
 			a {
-				font-size: 16px;
-				line-height: 1.35em;
-				color: #919191;
+				font-size: calc(30vw/12);
+				line-height: 130%;
 			}
 		}
 		li:after {
-			content: " ｜ ";
+			content: "｜";
 		}
 		li:last-child:after {
 			content: none;
 		}
 	}
 	small {
-		display: block;
-		font-size: 16px;
-		color: #919191;
+		font-size: calc(30vw/12);
 	}
 }
 
