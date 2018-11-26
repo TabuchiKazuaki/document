@@ -8,7 +8,7 @@ $(document).ready(function() {
 		$(at01).text('初回登録なら1ヶ月間の¥0トライアル');
 	}
 
-	var a001 = new Date("2018/11/27 00:00");
+	var a001 = new Date("2018/11/24 00:00");
 	if (now.getTime() > a001.getTime()){
 		$(at01).text('¥0トライアルはこちら');
 	}
