@@ -82,15 +82,21 @@ $(document).ready(function() {
 
 
 	// 06 無料文言
-	var time06 = new Date("2018/12/04");
+	var time061 = new Date("2018/12/04");
+	var mon061 = time061.getTime()-now.getTime();
+	var day061  = Math.floor(mon061/(1000*60*60*24)); // カウントダウン用 '日' 取得
+	$(d061).html(day061+2);
+	// 無料文言削除
+	var timeOut061 = new Date("2018/12/04 23:59");
+	if (now.getTime() > timeOut061.getTime()) {
+		$('#dd_06').hide();
+	}
+
+	var time06 = new Date("2018/11/27");
 	var mon06 = time06.getTime()-now.getTime();
 	var day06  = Math.floor(mon06/(1000*60*60*24)); // カウントダウン用 '日' 取得
 	$(d06).html(day06+2);
 	// 無料文言削除
-	var timeOut06 = new Date("2018/12/04 23:59");
-	if (now.getTime() > timeOut06.getTime()) {
-		$('#dd_06').hide();
-	}
 
 	// 07 無料文言
 	var time07 = new Date("2018/12/02");
