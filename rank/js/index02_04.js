@@ -85,7 +85,7 @@ $(document).ready(function() {
 	var time061 = new Date("2018/12/04");
 	var mon061 = time061.getTime()-now.getTime();
 	var day061  = Math.floor(mon061/(1000*60*60*24)); // カウントダウン用 '日' 取得
-	$(d061).html(day061+2);
+	$(d06).html(day061+2);
 	// 無料文言削除
 	var timeOut061 = new Date("2018/12/04 23:59");
 	if (now.getTime() > timeOut061.getTime()) {
