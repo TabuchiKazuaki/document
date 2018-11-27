@@ -7,13 +7,15 @@ body li { list-style: none; }
 a { color: #FFF; text-decoration: none; }
 a:hover { text-decoration: none; opacity: .8; }
 
+a:visited { color: #FFF; }
+
 img { width: 100%; height: auto; }
 
 header { width: 750px; margin: 0 auto; margin-bottom: 50px; }
 header p { padding: 14px 0 12px 14px; }
 header p img { max-width: 152px; }
-header .main-visual { background: url(https://bit.ly/2FSR1z5) 0 0 no-repeat; background-size: cover; padding: 0; height: 534px; }
-header .main-visual img { display: block; max-width: 540px; margin: 0 auto; }
+header .main-visual { background: url(https://bit.ly/2FSR1z5) 0 0 no-repeat; background-size: cover; padding: 0; }
+header .main-visual img { display: block; max-width: 750px; margin: 0 auto; }
 
 .premiere { width: 716px; margin: 0 auto 36px auto; }
 .premiere a img { max-width: 716px; }
@@ -140,7 +142,7 @@ header .main-visual img { display: block; max-width: 540px; margin: 0 auto; }
 .module09 li:last-child { margin-bottom: 0; }
 .module09 aside a { display: block; color: #51c300; width: 680px; margin: 0 auto; padding: 27px 0 27px 0; border: solid 2px #51c300; text-align: center; font-size: 28px; font-weight: bold; border-radius: 6px; }
 
-.module09carousel { width: 750px; margin: 0 auto 0 auto; }
+.module09carousel { width: 750px; margin: 0 auto 0 auto; padding-top: 40px; }
 .module09carousel section { width: 100%; }
 .module09carousel h1 { font-size: 36px; font-weight: bold; margin-bottom: 32px; padding-left: 20px; }
 .module09carousel .photo-wrap { width: 530px; background-color: #1a1a1a; border-radius: 8px; padding-bottom: 32px; }
@@ -150,9 +152,9 @@ header .main-visual img { display: block; max-width: 540px; margin: 0 auto; }
 .module09carousel h2 { font-size: 28px; font-weight: bold; line-height: 1.4em; padding: 18px 0 18px 16px; margin-bottom: 18px; border-bottom: solid 1px #606060; }
 .module09carousel ul { margin-bottom: 32px; }
 .module09carousel li { padding: 0 18px 18px 18px; margin-bottom: 18px; border-bottom: solid 1px #606060; }
-.module09carousel li dl { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
-.module09carousel li dl dt { width: 82px; font-size: 26px; font-weight: bold; }
-.module09carousel li dl dd { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.module09carousel li dl { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.module09carousel li dl dt { width: 11%; font-size: 26px; font-weight: bold; }
+.module09carousel li dl dd { width: 89%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 .module09carousel li dl dd figure { width: 187px; margin-right: 10px; }
 .module09carousel li dl dd figure img { min-width: 187px; }
 .module09carousel li dl dd h3 { font-size: 24px; font-weight: normal; line-height: 1.35em; }
@@ -180,8 +182,7 @@ footer small { display: block; font-size: 16px; color: #919191; }
 @media screen and (max-width: 768px) { header { width: 100%; margin-bottom: 7%; }
   header p { padding: 1.5% 0 1.5% 2%; }
   header p img { max-width: 22%; }
-  header .main-visual { padding: 11% 0 9% 0; height: 100%; }
-  header .main-visual img { max-width: 74%; }
+  header .main-visual img { max-width: 100%; }
   .premiere { width: 95%; margin: 0 auto 5% auto; }
   .premiere a img { max-width: 100%; }
   .module01 { width: 100%; margin: 0 auto 7% auto; }
@@ -289,7 +290,7 @@ footer small { display: block; font-size: 16px; color: #919191; }
   .module09 li dl dd figure img { min-width: 100%; }
   .module09 li dl dd h3 { width: 65%; font-size: calc(43vw/12); line-height: 135%; }
   .module09 aside a { width: 95%; padding: 4.1% 0 4.1% 0; border: solid 1px #51c300; font-size: calc(47vw/12); border-radius: 4px; }
-  .module09carousel { width: 100%; margin: 0 auto 0 auto; }
+  .module09carousel { width: 100%; margin: 0 auto 0 auto; padding-top: 0; }
   .module09carousel h1 { font-size: calc(60vw/12); margin-bottom: 5%; padding-left: 2%; }
   .module09carousel .photo-wrap { border-radius: 4px; padding-bottom: 4%; }
   .module09carousel .sp-slide { margin: 0 0 0 -12.5%; }
@@ -310,7 +311,7 @@ footer small { display: block; font-size: 16px; color: #919191; }
   .video section dl dt { font-size: calc(50vw/12); margin-bottom: 1.5%; }
   .video section dl dd { font-size: calc(20vw/12); margin-bottom: 3.5%; }
   .video section aside a { font-size: calc(50vw/12); padding: 4.1% 0 4.1% 0; border: solid 1px #51c300; border-radius: 4px; }
-  footer { width: 90%; padding-bottom: 40px; }
+  footer { width: 90%; padding-bottom: 5%; }
   footer p { margin-bottom: 4%; font-size: calc(30vw/12); line-height: 140%; }
   footer .links { margin-bottom: 4%; }
   footer ul { font-size: calc(30vw/12); margin-bottom: 1%; }

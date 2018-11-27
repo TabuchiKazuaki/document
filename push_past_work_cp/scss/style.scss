@@ -12,6 +12,9 @@ a {
 		opacity: .8;
 	}
 }
+a:visited {
+	color: #FFF;
+}
 img  { width: 100%; height: auto;}
 
 
@@ -27,12 +30,11 @@ header {
 	}
 	.main-visual {
 		background: url(https://bit.ly/2FSR1z5) 0 0 no-repeat;
-			background-size: cover;
-			padding: 0;
-			height: 534px; //後で消す
+		background-size: cover;
+		padding: 0;
 			img {
 				display: block;
-				max-width: 540px;
+				max-width: 750px;
 				margin: 0 auto;
 			}
 	}
@@ -626,6 +628,7 @@ header {
 .module09carousel {
 	width: 750px;
 	margin: 0 auto 0 auto;
+	padding-top: 40px;
 	section {
 		width: 100%;
 	}
@@ -666,14 +669,16 @@ header {
 		margin-bottom: 18px;
 		border-bottom: solid 1px #606060;
 		dl {
+			width: 100%;
 			display: flex;
 			align-items: center;
 			dt {
-				width: 82px;
+				width: 11%;
 				font-size: 26px;
 				font-weight: bold;
 			}
 			dd {
+				width: 89%;
 				display: flex;
 				align-items: center;
 				figure {
@@ -813,10 +818,8 @@ header {
 		}
 	}
 	.main-visual {
-			padding: 11% 0 9% 0;
-			height: 100%;
 			img {
-				max-width: 74%;
+				max-width: 100%;
 			}
 	}
 }
@@ -1290,6 +1293,7 @@ header {
 .module09carousel {
 	width: 100%;
 	margin: 0 auto 0 auto;
+	padding-top: 0;
 	h1 {
 		font-size: calc(60vw/12);
 		margin-bottom: 5%;
@@ -1384,7 +1388,7 @@ header {
 
 footer {
 	width: 90%;
-	padding-bottom: 40px;
+	padding-bottom: 5%;
 	p {
 		margin-bottom: 4%;
 		font-size: calc(30vw/12);
