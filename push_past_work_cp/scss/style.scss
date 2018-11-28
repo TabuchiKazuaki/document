@@ -49,8 +49,8 @@ header {
 
 
 .last {
-	border-bottom: none;
-	padding-bottom: 0;
+	border-bottom: none !important;
+	padding-bottom: 0 !important;
 }
 
 
@@ -88,6 +88,9 @@ header {
 					min-width: 368px;
 				}
 			}
+			dl {
+				flex-shrink: 50;
+			}
 			dl dt {
 				color: #51c300;
 				font-size: 28px;
@@ -121,6 +124,9 @@ header {
 			img {
 				min-width: 226px;
 			}
+		}
+		dl{
+			flex-shrink: 50;
 		}
 		dl dt {
 			color: #51c300;
@@ -176,6 +182,9 @@ header {
 					min-width: 368px;
 				}
 			}
+			dl {
+				flex-shrink: 50;
+			}
 			dl dt {
 				color: #51c300;
 				font-size: 28px;
@@ -209,6 +218,9 @@ header {
 			img {
 				min-width: 226px;
 			}
+		}
+		dl {
+			flex-shrink: 50;
 		}
 		dl dt {
 			color: #51c300;
@@ -264,6 +276,7 @@ header {
 				}
 			}
 			h2 {
+				flex-shrink: 50;
 				font-size: 30px;
 				font-weight: bold;
 				line-height: 1.4em;
@@ -292,6 +305,7 @@ header {
 			}
 		}
 		h2 {
+			flex-shrink: 50;
 			font-size: 26px;
 			font-weight: normal;
 			line-height: 1.4em;
@@ -338,6 +352,9 @@ header {
 			img {
 				min-width: 226px;
 			}
+		}
+		dl {
+			flex-shrink: 50;
 		}
 		dl dt {
 			font-size: 26px;
@@ -395,6 +412,7 @@ header {
 			}
 		}
 		p {
+			flex-shrink: 50;
 			font-size: 26px;
 			line-height: 1.4em;
 		}
@@ -441,6 +459,9 @@ header {
 			img {
 				min-width: 226px;
 			}
+		}
+		dl {
+			flex-shrink: 50;
 		}
 		dl dt {
 			color: #51c300;
@@ -631,6 +652,7 @@ header {
 					}
 				}
 				h3 {
+					flex-shrink: 50;
 					font-size: 26px;
 					font-weight: normal;
 					line-height: 1.35em;
@@ -723,6 +745,7 @@ header {
 					}
 				}
 				h3 {
+					flex-shrink: 50;
 					font-size: 24px;
 					font-weight: normal;
 					line-height: 1.35em;
@@ -757,7 +780,7 @@ header {
 	background: url(https://bit.ly/2PW5lLG) 0 0 no-repeat;
 	background-size: cover;
 	padding: 54px 0 68px 0;
-	margin-bottom: 60px;
+	margin: 44px 0 60px 0;
 	section {
 		width: 680px;
 		margin: 0 auto;
@@ -1390,7 +1413,7 @@ header {
 .video {
 	width: 100%;
 	padding: 7.5% 0 10% 0;
-	margin-bottom: 7%;
+	margin: 0 0 7% 0;
 	section {
 		width: 90%;
 		h2 {
