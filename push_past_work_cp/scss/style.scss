@@ -826,12 +826,6 @@ footer {
 
 
 
-
-
-
-
-
-
 @media screen and (max-width: 768px) {
 
 header {
@@ -1323,7 +1317,7 @@ header {
 	h1 {
 		font-size: calc(60vw/12);
 		margin-bottom: 5%;
-		padding-left: 2%;
+		padding-left: 5%;
 	}
 	.slider-pro {
 		padding-left: 2%;
@@ -1504,9 +1498,11 @@ footer {
 
 @media screen and (max-width: 480px) {
 .module09carousel {
-	padding-top: 3%;
+	.sp-slide {
+		margin: 0 0 0 -8%;
+	}
 	.sp-mask {
-		min-height: 390px;
+		min-height: 450px;
 	}
 }
 }
@@ -1514,7 +1510,7 @@ footer {
 @media screen and (max-width: 414px) {
 .module09carousel {
 	.sp-mask {
-		min-height: 350px;
+		min-height: 400px;
 	}
 }
 }
@@ -1522,7 +1518,7 @@ footer {
 @media screen and (max-width: 375px) {
 .module09carousel {
 	.sp-mask {
-		min-height: 320px;
+		min-height: 380px;
 	}
 }
 }
