@@ -18,10 +18,11 @@ header .main-visual img { display: block; max-width: 750px; margin: 0 auto; }
 .premiere { width: 716px; margin: 0 auto 36px auto; }
 .premiere a img { max-width: 716px; }
 
+.last { border-bottom: none; padding-bottom: 0; }
+
 .module01 { width: 750px; margin: 0 auto 53px auto; border-bottom: solid 1px #606060; }
 .module01 section { width: 680px; margin: 0 auto; }
 .module01 h1 { font-size: 36px; font-weight: bold; border-bottom: solid 1px #606060; padding-bottom: 36px; margin-bottom: 32px; }
-.module01 .last { border-bottom: none; padding-bottom: 0; }
 .module01 .main { border-bottom: solid 1px #606060; padding-bottom: 24px; margin-bottom: 30px; }
 .module01 .main a { display: block; color: #FFF; }
 .module01 .main div { margin-bottom: 20px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
@@ -147,7 +148,7 @@ header .main-visual img { display: block; max-width: 750px; margin: 0 auto; }
 .module09 li:last-child { margin-bottom: 0; }
 .module09 aside a { display: block; color: #51c300; width: 680px; margin: 0 auto; padding: 27px 0 27px 0; border: solid 2px #51c300; text-align: center; font-size: 28px; font-weight: bold; border-radius: 6px; }
 
-.module09carousel { width: 750px; margin: 0 auto 0 auto; }
+.module09carousel { width: 750px; margin: 30px auto 0 auto; }
 .module09carousel section { width: 100%; }
 .module09carousel h1 { font-size: 36px; font-weight: bold; margin-bottom: 32px; padding-left: 20px; }
 .module09carousel .photo-wrap { width: 530px; background-color: #1a1a1a; border-radius: 8px; padding-bottom: 32px; }
@@ -333,8 +334,8 @@ footer small { display: block; font-size: 16px; color: #919191; }
 @media screen and (max-width: 480px) { .module09carousel .sp-slide { margin: 0 0 0 -12%; }
   .module09carousel .sp-mask { min-height: 410px; } }
 @media screen and (max-width: 414px) { .module09carousel .sp-mask { min-height: 370px; } }
-@media screen and (max-width: 375px) { .module09carousel .sp-mask { min-height: 330px; } }
-@media screen and (max-width: 320px) { .module09carousel .sp-mask { min-height: 290px; } }
+@media screen and (max-width: 375px) { .module09carousel .sp-mask { min-height: 340px; } }
+@media screen and (max-width: 320px) { .module09carousel .sp-mask { min-height: 325px; } }
 @-webkit-keyframes item_sp { 100% { opacity: 1; } }
 @-webkit-keyframes item_list { 100% { opacity: 1; } }
 @keyframes item_list { 100% { opacity: 1; } }

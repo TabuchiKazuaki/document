@@ -48,6 +48,12 @@ header {
 }
 
 
+.last {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+
 .module01 {
 	width: 750px;
 	margin: 0 auto 53px auto;
@@ -62,10 +68,6 @@ header {
 		border-bottom: solid 1px #606060;
 		padding-bottom:36px;
 		margin-bottom: 32px;
-	}
-	.last {
-		border-bottom: none;
-		padding-bottom: 0;
 	}
 	.main {
 		border-bottom: solid 1px #606060;
@@ -657,7 +659,7 @@ header {
 
 .module09carousel {
 	width: 750px;
-	margin: 0 auto 0 auto;
+	margin: 30px auto 0 auto;
 	section {
 		width: 100%;
 	}
@@ -857,8 +859,6 @@ header {
 		max-width: 100%;
 	}
 }
-
-
 
 .module01 {
 	width: 100%;
@@ -1512,7 +1512,7 @@ footer {
 @media screen and (max-width: 375px) {
 .module09carousel {
 	.sp-mask {
-		min-height: 330px;
+		min-height: 340px;
 	}
 }
 }
@@ -1522,7 +1522,7 @@ footer {
 @media screen and (max-width: 320px) {
 .module09carousel {
 	.sp-mask {
-		min-height: 290px;
+		min-height: 325px;
 	}
 }
 }
