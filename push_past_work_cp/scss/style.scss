@@ -7,13 +7,11 @@ body { min-width: 320px; font-family: -apple-system, blinkMacSystemFont, 'Helvet
 a {
 	color: #FFF ;
 	text-decoration: none;
+	transition: .5s all;
 	&:hover {
 		text-decoration: none;
 		opacity: .8;
 	}
-}
-a:visited {
-	color: #FFF;
 }
 img  { width: 100%; height: auto;}
 
@@ -69,6 +67,9 @@ header {
 		border-bottom: solid 1px #606060;
 		padding-bottom: 24px;
 		margin-bottom: 30px;
+		a {
+			color: #FFF;
+		}
 		div {
 			margin-bottom: 20px;
 			display: flex;
@@ -103,6 +104,7 @@ header {
 		padding-bottom: 26px;
 		margin-bottom: 30px;
 		a {
+			color: #FFF;
 			display: flex;
 			align-items: center;
 		}
@@ -152,6 +154,9 @@ header {
 		border-bottom: solid 1px #606060;
 		padding-bottom: 24px;
 		margin-bottom: 30px;
+		a {
+			color: #FFF;
+		}
 		div {
 			margin-bottom: 20px;
 			display: flex;
@@ -186,6 +191,7 @@ header {
 		padding-bottom: 26px;
 		margin-bottom: 30px;
 		a {
+			color: #FFF;
 			display: flex;
 			align-items: center;
 		}
@@ -234,6 +240,9 @@ header {
 		border-bottom: solid 1px #606060;
 		padding-bottom: 24px;
 		margin-bottom: 30px;
+		a {
+			color: #FFF;
+		}
 		div {
 			margin-bottom: 20px;
 			display: flex;
@@ -262,6 +271,7 @@ header {
 		padding-bottom: 26px;
 		margin-bottom: 30px;
 		a {
+			color: #FFF;
 			display: flex;
 			align-items: center;
 		}
@@ -309,6 +319,7 @@ header {
 		padding: 0 20px 22px 20px;
 		margin-bottom: 22px;
 		a {
+			color: #FFF;
 			display: flex;
 			align-items: center;
 		}
@@ -362,8 +373,10 @@ header {
 		padding: 0 20px 22px 20px;
 		margin-bottom: 22px;
 		a {
+			color: #FFF;
 			display: flex;
 			align-items: center;
+			color: #FFF;
 		}
 		figure {
 			width: 226px;
@@ -409,6 +422,7 @@ header {
 		padding: 0 20px 22px 20px;
 		margin-bottom: 22px;
 		a {
+			color: #FFF;
 			display: flex;
 			align-items: center;
 		}
@@ -464,6 +478,9 @@ header {
 		background-color: #1a1a1a;
 		border-radius: 8px;
 		margin-bottom: 21px;
+		a {
+			color: #FFF;
+		}
 		figure {
 			width: 349px;
 			img {
@@ -489,6 +506,9 @@ header {
 		font-size: 28px;
 		font-weight: bold;
 		border-radius: 6px;
+	}
+	aside a:hover {
+		color: #51c300;
 	}
 }
 
@@ -524,6 +544,9 @@ header {
 	li {
 		width: 331px;
 		margin-bottom: 22px;
+		a {
+			color: #FFF;
+		}
 		img {
 			min-width: 331px;
 		}
@@ -643,6 +666,9 @@ header {
 		background-color: #1a1a1a;
 		border-radius: 8px;
 		padding-bottom: 32px;
+		a {
+			color: #FFF;
+		}
 	}
 	.sp-slide {
 		margin: 0 0 0 -12.5%;
@@ -697,7 +723,7 @@ header {
 		}
 	}
 	li:last-child { margin-bottom: 0; }
-	aside a {
+	aside {
 		display: block;
 		color: #51c300;
 		width: 494px;
@@ -776,7 +802,7 @@ footer {
 			a {
 				font-size: 16px;
 				line-height: 1.35em;
-				color: #919191;
+				color: #919191 !important;
 			}
 		}
 		li:after {
@@ -1293,10 +1319,13 @@ header {
 .module09carousel {
 	width: 100%;
 	margin: 0 auto 0 auto;
-	padding-top: 0;
+	padding-top: 2%;
 	h1 {
 		font-size: calc(60vw/12);
 		margin-bottom: 5%;
+		padding-left: 2%;
+	}
+	.slider-pro {
 		padding-left: 2%;
 	}
 	.photo-wrap {
@@ -1304,7 +1333,7 @@ header {
 		padding-bottom: 4%;
 	}
 	.sp-slide {
-		margin: 0 0 0 -12.5%;
+		margin: 0 0 0 -14%;
 	}
 	.sp-mask {
 		min-height: 700px;
@@ -1343,12 +1372,15 @@ header {
 			}
 		}
 	}
-	aside a {
+	aside {
 		width: 93%;
 		padding: 5% 0 5% 0;
 		border: solid 1px #51c300;
 		font-size: calc(47vw/12);
 		border-radius: 4px;
+	}
+	aside a:hover {
+		color: #51c300;
 	}
 }
 
@@ -1472,13 +1504,14 @@ footer {
 
 @media screen and (max-width: 480px) {
 .module09carousel {
+	padding-top: 3%;
 	.sp-mask {
 		min-height: 390px;
 	}
 }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
 .module09carousel {
 	.sp-mask {
 		min-height: 350px;
@@ -1486,14 +1519,26 @@ footer {
 }
 }
 
+@media screen and (max-width: 375px) {
+.module09carousel {
+	.sp-mask {
+		min-height: 320px;
+	}
+}
+}
 
-@media screen and (max-width: 345px) {
+
+
+@media screen and (max-width: 320px) {
 .module09carousel {
 	.sp-mask {
 		min-height: 300px;
 	}
 }
 }
+
+
+
 
 
 
