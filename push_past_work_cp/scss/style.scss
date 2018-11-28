@@ -10,7 +10,7 @@ a {
 	transition: .5s all;
 	&:hover {
 		text-decoration: none;
-		opacity: .6 all;
+		opacity: .6;
 	}
 }
 img  { width: 100%; height: auto;}
@@ -63,14 +63,14 @@ header {
 		padding-bottom:36px;
 		margin-bottom: 32px;
 	}
+	.last {
+		border-bottom: none;
+		padding-bottom: 0;
+	}
 	.main {
 		border-bottom: solid 1px #606060;
 		padding-bottom: 24px;
 		margin-bottom: 30px;
-		.last {
-			border-bottom: none;
-			padding-bottom: 0;
-		}
 		a {
 			display: block;
 			color: #FFF;
@@ -1326,9 +1326,6 @@ header {
 		margin-bottom: 5%;
 		padding-left: 5%;
 	}
-	.slider-pro {
-		padding-left: 2%;
-	}
 	.photo-wrap {
 		border-radius: 4px;
 		padding-bottom: 4%;
@@ -1486,7 +1483,7 @@ footer {
 @media screen and (max-width: 550px) {
 .module09carousel {
 	.sp-mask {
-		min-height: 500px;
+		min-height: 470px;
 	}
 }
 }
@@ -1496,10 +1493,10 @@ footer {
 @media screen and (max-width: 480px) {
 .module09carousel {
 	.sp-slide {
-		margin: 0 0 0 -8%;
+		margin: 0 0 0 -12%;
 	}
 	.sp-mask {
-		min-height: 480px;
+		min-height: 410px;
 	}
 }
 }
@@ -1507,7 +1504,7 @@ footer {
 @media screen and (max-width: 414px) {
 .module09carousel {
 	.sp-mask {
-		min-height: 420px;
+		min-height: 370px;
 	}
 }
 }
@@ -1515,7 +1512,7 @@ footer {
 @media screen and (max-width: 375px) {
 .module09carousel {
 	.sp-mask {
-		min-height: 380px;
+		min-height: 330px;
 	}
 }
 }
@@ -1525,7 +1522,7 @@ footer {
 @media screen and (max-width: 320px) {
 .module09carousel {
 	.sp-mask {
-		min-height: 300px;
+		min-height: 290px;
 	}
 }
 }

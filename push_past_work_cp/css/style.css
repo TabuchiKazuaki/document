@@ -5,7 +5,7 @@ body { min-width: 320px; font-family: -apple-system, blinkMacSystemFont, 'Helvet
 body li { list-style: none; }
 
 a { color: #FFF; text-decoration: none; -webkit-transition: .5s all; transition: .5s all; }
-a:hover { text-decoration: none; opacity: .6 all; }
+a:hover { text-decoration: none; opacity: .6; }
 
 img { width: 100%; height: auto; }
 
@@ -21,8 +21,8 @@ header .main-visual img { display: block; max-width: 750px; margin: 0 auto; }
 .module01 { width: 750px; margin: 0 auto 53px auto; border-bottom: solid 1px #606060; }
 .module01 section { width: 680px; margin: 0 auto; }
 .module01 h1 { font-size: 36px; font-weight: bold; border-bottom: solid 1px #606060; padding-bottom: 36px; margin-bottom: 32px; }
+.module01 .last { border-bottom: none; padding-bottom: 0; }
 .module01 .main { border-bottom: solid 1px #606060; padding-bottom: 24px; margin-bottom: 30px; }
-.module01 .main .last { border-bottom: none; padding-bottom: 0; }
 .module01 .main a { display: block; color: #FFF; }
 .module01 .main div { margin-bottom: 20px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 .module01 .main div figure { width: 368px; margin-right: 12px; }
@@ -298,7 +298,6 @@ footer small { display: block; font-size: 16px; color: #919191; }
   .module09 aside a { width: 95%; padding: 4.1% 0 4.1% 0; border: solid 1px #51c300; font-size: calc(47vw/12); border-radius: 4px; }
   .module09carousel { width: 100%; margin: 0 auto 0 auto; padding-top: 1%; overflow-x: hidden; }
   .module09carousel h1 { font-size: calc(60vw/12); margin-bottom: 5%; padding-left: 5%; }
-  .module09carousel .slider-pro { padding-left: 2%; }
   .module09carousel .photo-wrap { border-radius: 4px; padding-bottom: 4%; }
   .module09carousel .sp-slide { margin: 0 0 0 -14%; }
   .module09carousel .sp-mask { min-height: 650px; }
@@ -330,12 +329,12 @@ footer small { display: block; font-size: 16px; color: #919191; }
 @media screen and (max-width: 700px) { .module09carousel .sp-mask { min-height: 620px; } }
 @media screen and (max-width: 650px) { .module09carousel .sp-mask { min-height: 560px; } }
 @media screen and (max-width: 600px) { .module09carousel .sp-mask { min-height: 530px; } }
-@media screen and (max-width: 550px) { .module09carousel .sp-mask { min-height: 500px; } }
-@media screen and (max-width: 480px) { .module09carousel .sp-slide { margin: 0 0 0 -8%; }
-  .module09carousel .sp-mask { min-height: 480px; } }
-@media screen and (max-width: 414px) { .module09carousel .sp-mask { min-height: 420px; } }
-@media screen and (max-width: 375px) { .module09carousel .sp-mask { min-height: 380px; } }
-@media screen and (max-width: 320px) { .module09carousel .sp-mask { min-height: 300px; } }
+@media screen and (max-width: 550px) { .module09carousel .sp-mask { min-height: 470px; } }
+@media screen and (max-width: 480px) { .module09carousel .sp-slide { margin: 0 0 0 -12%; }
+  .module09carousel .sp-mask { min-height: 410px; } }
+@media screen and (max-width: 414px) { .module09carousel .sp-mask { min-height: 370px; } }
+@media screen and (max-width: 375px) { .module09carousel .sp-mask { min-height: 330px; } }
+@media screen and (max-width: 320px) { .module09carousel .sp-mask { min-height: 290px; } }
 @-webkit-keyframes item_sp { 100% { opacity: 1; } }
 @-webkit-keyframes item_list { 100% { opacity: 1; } }
 @keyframes item_list { 100% { opacity: 1; } }
