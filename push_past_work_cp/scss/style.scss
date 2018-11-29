@@ -16,7 +16,30 @@ a {
 img  { width: 100%; height: auto;}
 
 
-header {
+.hed-top {
+	width: 750px;
+	margin: 0 auto;
+	margin-bottom: 29px;
+	p {
+		padding: 14px 0 12px 14px;
+		img {
+			max-width: 152px;
+		}
+	}
+	.main-visual {
+		background: url(https://bit.ly/2FSR1z5) 0 0 no-repeat;
+		background-size: cover;
+		padding: 0;
+			img {
+				display: block;
+				max-width: 750px;
+				margin: 0 auto;
+			}
+	}
+}
+
+
+.hed-main {
 	width: 750px;
 	margin: 0 auto;
 	margin-bottom: 50px;
@@ -39,9 +62,10 @@ header {
 }
 
 
+
 .premiere {
 	width: 716px;
-	margin: 0 auto 36px auto;
+	margin: 0 auto 44px auto;
 	a img {
 		max-width: 716px;
 	}
@@ -770,7 +794,48 @@ header {
 
 
 
-
+.cp-detail {
+	width: 750px;
+	border-bottom: solid 1px #606060;
+	margin: 0 auto 40px auto;
+	padding-bottom: 42px;
+	section {
+		width: 680px;
+		margin: 0 auto;
+	}
+	.m15 {
+		margin-bottom: 15px;
+	}
+	dl {
+		dt {
+			font-size: 28px;
+			line-height: 1.4em;
+			margin-bottom: 15px;
+		}
+		dd {
+			color: #ababab;
+			font-size: 24px;
+			line-height: 1.5em;
+			margin-bottom: 45px;
+			p {
+				font-size: 24px;
+				line-height: 1.5em;
+				margin-bottom: 15px;
+			}
+			small {
+				display: block;
+				font-size: 20px;
+				line-height: 1.5em;
+			}
+			ul {
+				padding-left: 35px;
+			}
+		}
+		dd:last-child {
+			margin: 0;
+		}
+	}
+}
 
 
 
@@ -858,7 +923,23 @@ footer {
 
 @media screen and (max-width: 768px) {
 
-header {
+.hed-top {
+	width: 100%;
+	margin-bottom: 4%;
+	p {
+		padding: 1.5% 0 1.5% 2%;
+		img {
+			max-width: 22%;
+		}
+	}
+	.main-visual {
+			img {
+				max-width: 100%;
+			}
+	}
+}
+
+.hed-main {
 	width: 100%;
 	margin-bottom: 7%;
 	p {
@@ -1437,6 +1518,45 @@ header {
 		}
 	}
 }
+
+
+.cp-detail {
+	width: 100%;
+	margin: 0 0 4.5% 0;
+	padding-bottom: 5.5%;
+	section {
+		width: 90%;
+	}
+	.m15 {
+		margin-bottom: 2%;
+	}
+	dl {
+		dt {
+			font-size: calc(47vw/12);
+			line-height: 145%;
+			margin-bottom: 2%;
+		}
+		dd {
+			font-size: calc(42vw/12);
+			line-height: 145%;
+			margin-bottom: 7%;
+			p {
+				font-size: calc(42vw/12);
+				line-height: 145%;
+				margin-bottom: 2%;
+			}
+			small {
+				font-size: calc(33vw/12);
+				line-height: 145%;
+			}
+			ul {
+				padding-left: 6%;
+			}
+		}
+	}
+}
+
+
 
 footer {
 	width: 90%;
