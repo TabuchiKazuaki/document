@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1;
+  min-width: 320px;
+  font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important;
+  color: #000;
+  margin: 0 auto;
+  background: #fdfdfd;
+}
+body li {
+  list-style: none;
+}
+
+a {
+  -webkit-transition: .3s;
+  transition: .3s;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  opacity: .8;
+}
+
+img {
+  width: 100%;
+}
+
+.fix_item {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  z-index: 10000;
+}
+.fix_item .fix_wrap {
+  max-width: 680px;
+  padding: 25px 0 30px;
+  margin: 0 auto 0;
+}
+.fix_item .img_01 {
+  max-width: 258px;
+  margin: 0 auto;
+}
+.fix_item .img_02 {
+  max-width: 199px;
+  margin: 0 auto;
+}
+.fix_item .img_03 {
+  max-width: 232px;
+  margin: 0 auto;
+}
+.fix_item .img_04 {
+  max-width: 293px;
+  margin: 0 auto;
+}
+.fix_item .fix_list {
+  overflow: hidden;
+  margin: 36px 0 0;
+}
+.fix_item .fix_list li {
+  float: left;
+  background: #eb6a7a;
+  width: 32%;
+  margin: 0 0 0 2%;
+  border-radius: 6px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.fix_item .fix_list li:nth-child(1) {
+  margin: 0;
+}
+.fix_item .fix_list li a {
+  display: block;
+  padding: 8px 0 5px;
+  text-align: center;
+}
+.fix_item .fix_list li a img {
+  max-width: 195px;
+}
+
+@media screen and (max-width: 768px) {
+  .fix_item .fix_wrap {
+    width: 92%;
+    padding: 3.2% 0 3.5%;
+  }
+  .fix_item .fix_heading {
+    text-align: center;
+  }
+  .fix_item .fix_heading img {
+    width: 80%;
+  }
+  .fix_item .fix_list {
+    margin: 5% 0 0;
+  }
+  .fix_item .fix_list li {
+    border-radius: 5px;
+  }
+  .fix_item .fix_list li:nth-child(1) {
+    margin: 0;
+  }
+  .fix_item .fix_list li a {
+    padding: 5% 0 4%;
+  }
+  .fix_item .fix_list li a img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .fix_item .fix_wrap {
+    width: 92%;
+    padding: 3.2% 0 3.5%;
+  }
+  .fix_item .fix_heading {
+    text-align: center;
+  }
+  .fix_item .fix_heading img {
+    width: 60%;
+  }
+  .fix_item .fix_list {
+    margin: 4% 0 0;
+  }
+  .fix_item .fix_list li {
+    border-radius: 5px;
+  }
+  .fix_item .fix_list li:nth-child(1) {
+    margin: 0;
+  }
+  .fix_item .fix_list li a {
+    padding: 4.6% 0 3.8%;
+  }
+  .fix_item .fix_list li a img {
+    width: 80%;
+  }
+}
