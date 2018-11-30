@@ -148,7 +148,6 @@ header .header_box .header_title {
 }
 .contents .point .p_btn a {
   display: block;
-  width: 35%;
   background: #51c300;
   padding: 18px 0;
   text-align: center;
@@ -157,13 +156,19 @@ header .header_box .header_title {
   color: #fff;
 }
 .contents .anchor {
+  overflow: hidden;
   margin: 80px 0 35px;
 }
 .contents .anchor a {
   display: block;
+  float: right;
+  width: 35%;
   font-size: 27px;
   text-align: right;
   color: #56c123;
+}
+.contents .anchor a span {
+  font-size: 30px;
 }
 
 .nav_item {
