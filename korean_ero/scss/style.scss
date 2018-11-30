@@ -33,14 +33,14 @@ header {
 		background-size: cover;
 	}
 	.header_box {
-		padding: 54px 0 42px;
+		padding: 48px 0 47px;
 		.header_sub {
 			max-width: 390px;
 			margin: 0 auto 0;
 		}
 		.header_pop {
 			max-width: 390px;
-			margin: 22px auto 0;
+			margin: 28px auto 0;
 		}
 		.header_title {
 			max-width: 656px;
@@ -50,16 +50,20 @@ header {
 }
 
 .contents {
-	padding: 35px 0 0;
+	padding: 30px 0 0;
 
 	.c_heading {
 		text-align: center;
 		font-weight: bold;
 		font-size: 29px;
 		letter-spacing: 1.4px;
+		span {
+			display: inline-block;
+			font-size: 33px;
+		}
 	}
 	.c_text {
-		margin: 30px 0 0;
+		margin: 25px 0 0;
 		font-size: 24px;
 		font-weight: bold;
 		text-align: center;
@@ -69,18 +73,19 @@ header {
 	.c_inner {
 		margin: 60px 0 0;
 		.c_h {
-			font-size: 35px;
+			font-size: 36px;
 			font-weight: bold;
 			letter-spacing: 1.3px;
 		}
 		.c_t {
 			margin: 15px 0 0;
-			font-size: 24px;
+			font-size: 25px;
 			font-weight: bold;
+			letter-spacing: 1.5px;
 			color: #8c8c8c;
 		}
 		.c_img {
-			margin: 15px 0 0;
+			margin: 18px 0 0;
 		}
 	}
 
@@ -190,7 +195,8 @@ header {
 }
 
 footer {
-	margin: 35px 0 0;
+	padding: 0 0 20px;
+	margin: 30px 0 0;
 	.footer_item {
 		overflow: hidden;
 		li {
@@ -203,7 +209,7 @@ footer {
 	}
 	small {
 		display: block;
-		margin: 30px 0 0;
+		margin: 37px 0 0;
 		font-size: 13.6px;
 		text-align: center;
 		color: #737373;

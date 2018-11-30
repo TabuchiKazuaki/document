@@ -43,7 +43,7 @@ header .header_inner {
   background-size: cover;
 }
 header .header_box {
-  padding: 54px 0 42px;
+  padding: 48px 0 47px;
 }
 header .header_box .header_sub {
   max-width: 390px;
@@ -51,7 +51,7 @@ header .header_box .header_sub {
 }
 header .header_box .header_pop {
   max-width: 390px;
-  margin: 22px auto 0;
+  margin: 28px auto 0;
 }
 header .header_box .header_title {
   max-width: 656px;
@@ -59,7 +59,7 @@ header .header_box .header_title {
 }
 
 .contents {
-  padding: 35px 0 0;
+  padding: 30px 0 0;
 }
 .contents .c_heading {
   text-align: center;
@@ -67,8 +67,12 @@ header .header_box .header_title {
   font-size: 29px;
   letter-spacing: 1.4px;
 }
+.contents .c_heading span {
+  display: inline-block;
+  font-size: 33px;
+}
 .contents .c_text {
-  margin: 30px 0 0;
+  margin: 25px 0 0;
   font-size: 24px;
   font-weight: bold;
   text-align: center;
@@ -78,18 +82,19 @@ header .header_box .header_title {
   margin: 60px 0 0;
 }
 .contents .c_inner .c_h {
-  font-size: 35px;
+  font-size: 36px;
   font-weight: bold;
   letter-spacing: 1.3px;
 }
 .contents .c_inner .c_t {
   margin: 15px 0 0;
-  font-size: 24px;
+  font-size: 25px;
   font-weight: bold;
+  letter-spacing: 1.5px;
   color: #8c8c8c;
 }
 .contents .c_inner .c_img {
-  margin: 15px 0 0;
+  margin: 18px 0 0;
 }
 .contents .point {
   margin: 30px 0 0;
@@ -195,7 +200,8 @@ header .header_box .header_title {
 }
 
 footer {
-  margin: 35px 0 0;
+  padding: 0 0 20px;
+  margin: 30px 0 0;
 }
 footer .footer_item {
   overflow: hidden;
@@ -209,7 +215,7 @@ footer .footer_item li {
 }
 footer small {
   display: block;
-  margin: 30px 0 0;
+  margin: 37px 0 0;
   font-size: 13.6px;
   text-align: center;
   color: #737373;
