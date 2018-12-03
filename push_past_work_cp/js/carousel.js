@@ -5,7 +5,7 @@
 			visibleSize: '100%',
 			forceSize: 'none',
 			arrows: true,
-			loop: false,
+			loop: true,
 			fadeArrows: false,
 			autoSlideSize: false,
 			slideDistance: 30,
