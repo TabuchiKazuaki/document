@@ -12,7 +12,7 @@
 			aspectRatio: 1.5,
 			autoplay: false,
 			buttons:false,
-			// touchSwipe: false,
+			touchSwipe: false,
 			fadeCaption: false,
 			centerImage: true,
 			thumbnailArrows: true,

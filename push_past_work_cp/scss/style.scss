@@ -732,6 +732,11 @@ img  { width: 100%; height: auto;}
 		min-height: 680px;
 	}
 	.sp-arrows {
+		top: 35%;
+		.sp-next-arrow {
+			width: 5%;
+			height: 150px;
+		}
 		.sp-previous-arrow {
 			display: none;
 		}
@@ -1441,6 +1446,12 @@ footer {
 	}
 	.sp-mask {
 		min-height: 650px;
+	}
+	.sp-arrows {
+		.sp-next-arrow {
+			width: 5%;
+			height: 80px;
+		}
 	}
 	h2 {
 		font-size: calc(43vw/12);
