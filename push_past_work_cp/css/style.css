@@ -160,25 +160,23 @@ img { width: 100%; height: auto; }
 .module09 li:last-child { margin-bottom: 0; }
 .module09 aside a { display: block; color: #51c300; width: 680px; margin: 0 auto; padding: 27px 0 27px 0; border: solid 2px #51c300; text-align: center; font-size: 28px; font-weight: bold; border-radius: 6px; }
 
-.module09carousel { width: 750px; margin: 30px auto 0 auto; }
+.module09carousel { width: 716px; margin: 30px auto 0 auto; }
 .module09carousel section { width: 100%; }
 .module09carousel h1 { font-size: 36px; font-weight: bold; margin-bottom: 32px; padding-left: 20px; }
-.module09carousel .photo-wrap { width: 530px; background-color: #1a1a1a; border-radius: 8px; padding-bottom: 32px; }
+.module09carousel .genre-wrap { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.module09carousel .photo-wrap { width: 350px; background-color: #1a1a1a; border-radius: 8px; padding-bottom: 20px; margin-bottom: 24px; }
 .module09carousel .photo-wrap a { color: #FFF; display: block; }
-.module09carousel .sp-slide { margin: 0 0 0 -12.5%; }
-.module09carousel .sp-mask { min-height: 680px; }
-.module09carousel .sp-arrows { display: none; }
-.module09carousel h2 { font-size: 28px; font-weight: bold; line-height: 1.4em; padding: 18px 0 18px 16px; margin-bottom: 18px; border-bottom: solid 1px #606060; }
-.module09carousel ul { margin-bottom: 32px; }
-.module09carousel li { padding: 0 18px 18px 18px; margin-bottom: 18px; border-bottom: solid 1px #606060; }
+.module09carousel h2 { font-size: 28px; font-weight: bold; line-height: 1.4em; padding: 16px 0 14px 12px; margin-bottom: 20px; border-bottom: solid 1px #606060; }
+.module09carousel ul { margin-bottom: 20px; border-bottom: solid 1px #606060; padding-bottom: 20px; }
+.module09carousel li { padding: 0 10px 0 15px; margin-bottom: 13px; }
 .module09carousel li dl { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
-.module09carousel li dl dt { width: 11%; font-size: 26px; font-weight: bold; }
-.module09carousel li dl dd { width: 89%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
-.module09carousel li dl dd figure { width: 187px; margin-right: 10px; }
-.module09carousel li dl dd figure img { min-width: 187px; }
-.module09carousel li dl dd h3 { -ms-flex-negative: 50; flex-shrink: 50; font-size: 24px; font-weight: normal; line-height: 1.35em; }
+.module09carousel li dl dt { width: 7%; font-size: 26px; font-weight: bold; }
+.module09carousel li dl dd { width: 93%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.module09carousel li dl dd figure { width: 154px; margin-right: 8px; }
+.module09carousel li dl dd figure img { min-width: 154px; }
+.module09carousel li dl dd h3 { word-break: break-all; -ms-flex-negative: 50; flex-shrink: 50; font-size: 22px; font-weight: normal; line-height: 1.1em; }
 .module09carousel li:last-child { margin-bottom: 0; }
-.module09carousel aside { display: block; color: #51c300; width: 494px; margin: 0 auto; padding: 27px 0 27px 0; border: solid 2px #51c300; text-align: center; font-size: 28px; font-weight: bold; border-radius: 6px; }
+.module09carousel aside { display: block; color: #51c300; width: 315px; margin: 0 auto; padding: 26px 0 26px 0; border: solid 2px #51c300; text-align: center; font-size: 28px; font-weight: bold; border-radius: 6px; }
 
 .cp-detail { width: 750px; border-bottom: solid 1px #606060; margin: 0 auto 40px auto; padding-bottom: 42px; }
 .cp-detail section { width: 680px; margin: 0 auto; }
@@ -323,22 +321,21 @@ footer small { display: block; font-size: 16px; color: #919191; }
   .module09 li dl dd figure img { min-width: 100%; }
   .module09 li dl dd h3 { width: 65%; font-size: calc(43vw/12); line-height: 135%; }
   .module09 aside a { width: 95%; padding: 4.1% 0 4.1% 0; border: solid 1px #51c300; font-size: calc(47vw/12); border-radius: 4px; }
-  .module09carousel { width: 100%; margin: 0 auto 0 auto; padding-top: 1%; overflow-x: hidden; }
+  .module09carousel { width: 100%; margin: 0 auto 3.75% auto; padding-top: 1%; overflow-x: hidden; }
+  .module09carousel .genre-wrap { width: 95%; margin: 0 auto; }
+  .module09carousel .photo-wrap { width: 48.85%; border-radius: 4px; padding-bottom: 3%; margin-bottom: 3.5%; }
   .module09carousel h1 { font-size: calc(60vw/12); margin-bottom: 5%; padding-left: 5%; }
-  .module09carousel .photo-wrap { border-radius: 4px; padding-bottom: 4%; }
-  .module09carousel .sp-slide { margin: 0 0 0 -14%; }
-  .module09carousel .sp-mask { min-height: 650px; }
-  .module09carousel h2 { font-size: calc(43vw/12); line-height: 140%; padding: 4% 0 4% 4%; margin-bottom: 3%; }
-  .module09carousel ul { margin-bottom: 5.5%; }
-  .module09carousel li { padding: 0 2% 2.7% 2%; margin-bottom: 3%; }
-  .module09carousel li dl dt { width: 12%; font-size: calc(43vw/12); }
+  .module09carousel h2 { font-size: calc(43vw/12); line-height: 140%; padding: 4% 0 4% 4%; margin-bottom: 4%; }
+  .module09carousel ul { padding-bottom: 5.5%; margin-bottom: 5.5%; }
+  .module09carousel li { padding: 0 2% 0% 5%; margin-bottom: 3%; }
+  .module09carousel li dl dt { width: 8%; font-size: calc(43vw/12); }
   .module09carousel li dl dd { width: 91.5%; }
-  .module09carousel li dl dd figure { width: 42%; margin-right: 2%; }
+  .module09carousel li dl dd figure { width: 54%; margin-right: 2%; }
   .module09carousel li dl dd figure img { min-width: 100%; }
-  .module09carousel li dl dd h3 { width: 56%; font-size: calc(40vw/12); line-height: 135%; }
-  .module09carousel aside { width: 93%; padding: 5% 0 5% 0; border: solid 1px #51c300; font-size: calc(47vw/12); border-radius: 4px; }
+  .module09carousel li dl dd h3 { width: 46%; font-size: calc(37vw/12); line-height: 115%; }
+  .module09carousel aside { width: 89%; padding: 7.5% 0 7.5% 0; border: solid 1px #51c300; font-size: calc(43vw/12); border-radius: 4px; }
   .module09carousel aside a:hover { color: #51c300; }
-  .video { width: 100%; padding: 7.5% 0 10% 0; margin: 0 0 7% 0; }
+  .video { width: 100%; padding: 7.5% 0 8.5% 0; margin: 0 0 7% 0; }
   .video section { width: 90%; }
   .video section h2 { margin-bottom: 3.8%; }
   .video section h2 img { max-width: 60%; }
