@@ -370,7 +370,158 @@ footer small {
     line-height: 1.35;
   }
   footer small {
+    margin: 4.3% 0 0;
+    font-size: calc(25vw/12);
+  }
+}
+@media screen and (max-width: 480px) {
+  .wrap {
+    padding: 0 4.5% 0;
+    margin: 0 auto;
+  }
+
+  header .header_logo {
+    padding: 2.2% 0 2.4% 4.5%;
+  }
+  header .header_logo img {
+    width: 50%;
+  }
+  header .header_box {
+    padding: 7% 0 7%;
+  }
+  header .header_box .header_sub {
+    width: 60%;
+  }
+  header .header_box .header_pop {
+    width: 60%;
+    margin: 4% auto 0;
+  }
+  header .header_box .header_title {
+    width: 94%;
+    margin: 2.4% auto 0;
+  }
+
+  .contents {
+    padding: 4% 0 0;
+  }
+  .contents .c_heading {
+    font-size: calc(42vw/12);
+    letter-spacing: 1.35px;
+  }
+  .contents .c_heading span {
+    font-size: calc(44vw/12);
+  }
+  .contents .c_text {
+    margin: 3.5% 0 0;
+    font-size: calc(38vw/12);
+  }
+  .contents .c_inner {
+    margin: 9% 0 0;
+  }
+  .contents .c_inner .c_h {
+    font-size: calc(58vw/12);
+    letter-spacing: 1.3px;
+  }
+  .contents .c_inner .c_t {
+    margin: 2.4% 0 0;
+    font-size: calc(41vw/12);
+    letter-spacing: 1.4px;
+  }
+  .contents .c_inner .c_img {
+    margin: 3% 0 0;
+  }
+  .contents .point {
+    margin: 4.5% 0 0;
+  }
+  .contents .point .point_h {
+    font-size: calc(38vw/12);
+  }
+  .contents .point .point_t {
+    margin: 1.2% 0 0;
+    font-size: calc(38vw/12);
+    line-height: 1.45;
+    letter-spacing: 1.2px;
+  }
+  .contents .point .large {
     margin: 4% 0 0;
+  }
+  .contents .point .thumb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 2% 0 0;
+  }
+  .contents .point .thumb li {
+    margin: 0 0 0 2%;
+  }
+  .contents .point .thumb li a {
+    line-height: 0;
+  }
+  .contents .point .thumb li a img {
+    margin: 0;
+  }
+  .contents .point .thumb li .active {
+    border: 3px solid #51c300;
+  }
+  .contents .point .thumb li .active img {
+    margin: -2px 0;
+    opacity: .8;
+  }
+  .contents .point .p_btn {
+    margin: 5% 0 0;
+  }
+  .contents .point .p_btn a {
+    padding: 2.8% 0;
+    font-size: calc(50vw/12);
+    border-radius: 5px;
+  }
+  .contents .anchor {
+    overflow: hidden;
+    margin: 12% 0 5%;
+  }
+  .contents .anchor a {
+    width: 39%;
+    font-size: calc(43vw/12);
+  }
+  .contents .anchor a span {
+    padding: 0 0 0 1.7%;
+    font-size: calc(47vw/12);
+  }
+
+  .nav_item {
+    margin: 0 0 0 -2%;
+  }
+  .nav_item li {
+    position: relative;
+    float: left;
+    padding: 0 1.5% 0 1.5%;
+    line-height: 1.4;
+  }
+  .nav_item li a {
+    font-size: calc(26vw/12);
+  }
+  .nav_item li a:before {
+    content: '/';
+    position: absolute;
+    top: -1px;
+    right: -3px;
+    font-size: calc(26vw/12);
+  }
+
+  footer {
+    padding: 0 0 3%;
+    margin: 5% 0 0;
+  }
+  footer .footer_item li {
+    padding: 0 1.5% 0 0;
+    font-size: calc(22vw/12);
+    line-height: 1.35;
+  }
+  footer small {
+    margin: 4.3% 0 0;
     font-size: calc(25vw/12);
   }
 }
