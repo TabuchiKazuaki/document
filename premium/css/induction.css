@@ -368,10 +368,9 @@ footer small {
     font-size: calc(47vw/12);
   }
   .contents .c_t {
-    margin: 3% 0 0;
+    margin: 3% 0 0 2.5%;
     line-height: 1.35;
     font-size: calc(41vw/12);
-    color: #989898;
   }
   .contents .c_item {
     padding: 0 2.5% 0;
@@ -449,13 +448,16 @@ footer small {
     line-height: 1.3;
   }
   .list .caution {
-    margin: 3% 0 0;
+    margin: 3% 0 0 2.5%;
     font-size: calc(32vw/12);
   }
 
   .outline {
     padding: 2% 0 5%;
     border-bottom: 1px solid #606060;
+  }
+  .outline .outline_wrap {
+    padding: 0 5% 0;
   }
   .outline .o_c dt {
     margin: 5.7% 0 0;
@@ -483,6 +485,9 @@ footer small {
 
   footer {
     padding: 4.2% 0 6%;
+  }
+  footer .footer_wrap {
+    padding: 0 5% 0;
   }
   footer .footer_item {
     margin: 2% 0 0;
@@ -541,11 +546,11 @@ footer small {
     padding: 2% 0 0;
   }
   .information .date {
-    font-size: calc(48vw/12);
+    font-size: calc(51vw/12);
     letter-spacing: 1.4px;
   }
   .information .date span {
-    font-size: calc(52vw/12);
+    font-size: calc(55vw/12);
   }
   .information .entry {
     padding: 5.3% 3% 4.8%;
@@ -553,16 +558,16 @@ footer small {
     border-radius: 4px;
   }
   .information .entry .e_head {
-    font-size: calc(43vw/12);
+    font-size: calc(47vw/12);
   }
   .information .entry .e_text {
     margin: 4% 0 0;
-    font-size: calc(41vw/12);
+    font-size: calc(44vw/12);
     line-height: 1.4;
   }
   .information .entry .e_first {
     margin: 3.7% 0 0;
-    font-size: calc(41vw/12);
+    font-size: calc(44vw/12);
   }
   .information .entry .e_btn {
     margin: 2.8% 0 0;
@@ -570,7 +575,7 @@ footer small {
   .information .entry .e_btn a {
     padding: 3.8% 0;
     border-radius: 6px;
-    font-size: calc(47vw/12);
+    font-size: calc(50vw/12);
     letter-spacing: 1.3px;
   }
 
@@ -583,12 +588,12 @@ footer small {
     border-left: 5px solid #50c300;
     line-height: 1.6;
     letter-spacing: 1.2px;
-    font-size: calc(47vw/12);
+    font-size: calc(50vw/12);
   }
   .contents .c_t {
     margin: 3% 0 0;
     line-height: 1.35;
-    font-size: calc(41vw/12);
+    font-size: calc(44vw/12);
     color: #989898;
   }
   .contents .c_item {
@@ -617,16 +622,16 @@ footer small {
     bottom: 10px;
     padding: 1.2% 3% 1.6%;
     border-radius: 14px;
-    font-size: calc(34vw/12);
+    font-size: calc(37vw/12);
     letter-spacing: 1.4px;
   }
   .contents .c_item li .c_box .c_b_bagge span {
     letter-spacing: 1.2px;
-    font-size: calc(39vw/12);
+    font-size: calc(42vw/12);
   }
   .contents .c_item li .c_title {
     margin: 4% 3% 0 0;
-    font-size: calc(44vw/12);
+    font-size: calc(47vw/12);
     letter-spacing: 1.3px;
     line-height: 1.4;
   }
@@ -636,7 +641,7 @@ footer small {
   }
   .contents .entry a {
     padding: 4% 0;
-    font-size: calc(47vw/12);
+    font-size: calc(50vw/12);
     border-radius: 5px;
     letter-spacing: 1.4;
   }
@@ -663,12 +668,12 @@ footer small {
   }
   .list .c_l_item li table td {
     padding: 0 0 0 2.5%;
-    font-size: calc(42vw/12);
+    font-size: calc(45vw/12);
     line-height: 1.3;
   }
   .list .caution {
-    margin: 3% 0 0;
-    font-size: calc(32vw/12);
+    margin: 3% 0 0 2.5%;
+    font-size: calc(35vw/12);
   }
 
   .outline {
@@ -677,54 +682,53 @@ footer small {
   }
   .outline .o_c dt {
     margin: 5.7% 0 0;
-    font-size: calc(44vw/12);
+    font-size: calc(47vw/12);
     letter-spacing: 1.3px;
   }
   .outline .o_c dd {
     margin: 3.5% 0 0;
-    font-size: calc(38vw/12);
+    font-size: calc(41vw/12);
     line-height: 1.45;
   }
   .outline .o_c dd span {
     margin: 2.5% 0 0;
-    font-size: calc(30vw/12);
+    font-size: calc(33vw/12);
   }
   .outline .o_c .o_item {
     margin: 3.4% 0 0 5.6%;
   }
   .outline .o_c .o_caution {
-    font-size: calc(31vw/12);
+    font-size: calc(34vw/12);
   }
   .outline .o_c .last_dd {
     line-height: 1.3;
   }
 
   footer {
-    padding: 4.2% 0 6%;
+    padding: 3.2% 0 6%;
   }
   footer .footer_item {
-    margin: 2% 0 0;
+    margin: 1% 0 0;
   }
   footer .footer_item li {
     padding: 0 1.8% 0 0;
   }
   footer .footer_item li a {
     padding: 0 1% 0 0;
-    font-size: calc(25vw/12);
+    font-size: calc(28vw/12);
     white-space: nowrap;
   }
   footer .footer_item li:after {
     content: '|';
-    position: absolute;
-    top: 0;
-    right: 4px;
+    top: 4px;
+    right: 2px;
+    font-size: calc(23vw/13);
   }
   footer .footer_item li:last-child:after {
     content: ' ';
   }
   footer small {
-    display: block;
     margin: 4% 0 0;
-    font-size: calc(26vw/12);
+    font-size: calc(29vw/12);
   }
 }
