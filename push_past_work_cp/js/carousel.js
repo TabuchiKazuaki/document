@@ -52,8 +52,8 @@
 
 $(function(){
     var $setElm = $('.txt_area');
-    var cutFigure = '11'; // カットする文字数
-    var afterTxt = ' …'; // 文字カット後に表示するテキスト
+    var cutFigure = '8'; // カットする文字数
+    var afterTxt = '…'; // 文字カット後に表示するテキスト
 
     $setElm.each(function(){
         var textLength = $(this).text().length;

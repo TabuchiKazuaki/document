@@ -130,3 +130,114 @@ span {
   font-size: 26px;
   color: #989898;
 }
+.contents .c_item {
+  overflow: hidden;
+  margin: 40px 0 0;
+}
+.contents .c_item li {
+  float: left;
+  width: 48.5%;
+  margin: 3% 0 0 3%;
+}
+.contents .c_item li:nth-child(2n+1) {
+  margin: 3% 0 0 0;
+}
+.contents .c_item li:first-child {
+  margin: 0;
+}
+.contents .c_item li:nth-child(2) {
+  margin: 0 0 0 3%;
+}
+.contents .c_item li .c_box {
+  position: relative;
+}
+.contents .c_item li .c_box .c_b_bagge {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background: #50c300;
+  padding: 5px 15px 7px;
+  border-radius: 18px;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 1.4px;
+  color: #fff;
+}
+.contents .c_item li .c_box .c_b_bagge span {
+  letter-spacing: 1.2px;
+  font-size: 24px;
+}
+.contents .c_item li .c_title {
+  margin: 15px 12px 0 0;
+  font-size: 28px;
+  letter-spacing: 1.3px;
+  line-height: 1.4;
+}
+.contents .entry {
+  margin: 50px 0 0;
+}
+.contents .entry a {
+  display: block;
+  background: #50c300;
+  padding: 20px 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.list {
+  padding: 0 0 50px;
+  border-bottom: 1px solid #606060;
+}
+.list .c_l_item {
+  background: #080808;
+  margin: 35px 0 0;
+  border-radius: 6px;
+}
+.list .c_l_item li {
+  padding: 15px 15px 13px;
+  border-top: 1px solid #606060;
+}
+.list .c_l_item li:first-child {
+  border: 0;
+}
+.list .c_l_item li table th {
+  width: 31%;
+  line-height: 0;
+}
+.list .c_l_item li table td {
+  padding: 0 0 0 3%;
+  font-size: 26px;
+  line-height: 1.3;
+  vertical-align: middle;
+}
+.list .caution {
+  margin: 30px 0 0;
+  font-size: 20px;
+  color: #ababab;
+}
+
+.outline {
+  padding: 22px 0 0;
+}
+.outline .o_c dt {
+  margin: 38px 0 0;
+  font-size: 28px;
+  letter-spacing: 1.3px;
+}
+.outline .o_c dd {
+  margin: 25px 0 0;
+  font-size: 24px;
+  line-height: 1.4;
+  color: #ababab;
+}
+.outline .o_c dd span {
+  display: inline-block;
+  margin: 15px 0 0;
+  font-size: 20px;
+}
+.outline .o_c .o_item {
+  margin: 20px 0 0 30px;
+}
