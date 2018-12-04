@@ -547,14 +547,15 @@ footer small {
   }
   .information .date {
     font-size: calc(51vw/12);
-    letter-spacing: 1.4px;
+    letter-spacing: 1.2px;
+    white-space: nowrap;
   }
   .information .date span {
     font-size: calc(55vw/12);
   }
   .information .entry {
     padding: 5.3% 3% 4.8%;
-    margin: 6% 0 0;
+    margin: 6.2% 0 0;
     border-radius: 4px;
   }
   .information .entry .e_head {
@@ -566,7 +567,7 @@ footer small {
     line-height: 1.4;
   }
   .information .entry .e_first {
-    margin: 3.7% 0 0;
+    margin: 3.1% 0 0;
     font-size: calc(44vw/12);
   }
   .information .entry .e_btn {
@@ -575,6 +576,7 @@ footer small {
   .information .entry .e_btn a {
     padding: 3.8% 0;
     border-radius: 6px;
+    border: 1px solid #50c300;
     font-size: calc(50vw/12);
     letter-spacing: 1.3px;
   }
@@ -618,12 +620,12 @@ footer small {
     position: relative;
   }
   .contents .c_item li .c_box .c_b_bagge {
-    right: 10px;
-    bottom: 10px;
-    padding: 1.2% 3% 1.6%;
+    right: 5px;
+    bottom: 5px;
+    padding: 1.3% 4% 1.7%;
     border-radius: 14px;
-    font-size: calc(37vw/12);
-    letter-spacing: 1.4px;
+    font-size: calc(36vw/12);
+    letter-spacing: 1.3px;
   }
   .contents .c_item li .c_box .c_b_bagge span {
     letter-spacing: 1.2px;
