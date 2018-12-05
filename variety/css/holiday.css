@@ -60,6 +60,10 @@ header .header_inner {
   background-size: contain;
 }
 
+.ani_list01, .ani_list02, .ani_list03 {
+  opacity: 0;
+}
+
 @-webkit-keyframes item_sp {
   100% {
     opacity: 1;
@@ -77,20 +81,15 @@ header .header_inner {
 }
 .ani_list01 {
   -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
-  animation: item_sp 1s ease 3s 1 forwards;
+  animation: item_sp 1s ease 3.5s 1 forwards;
 }
 
 .ani_list02 {
   -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
-  animation: item_sp 1s ease 3.5s 1 forwards;
+  animation: item_sp 1s ease 4.5s 1 forwards;
 }
 
 .ani_list03 {
   -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
-  animation: item_sp 1s ease 4s 1 forwards;
-}
-
-.ani_list04 {
-  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
-  animation: item_sp 1s ease 4.5s 1 forwards;
+  animation: item_sp 1s ease 5.5s 1 forwards;
 }
