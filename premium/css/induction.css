@@ -31,9 +31,12 @@ img {
 }
 
 .wrap {
-  position: relative;
   max-width: 768px;
   margin: 0 auto;
+}
+
+.ball {
+  position: relative;
 }
 
 header .header_logo {
@@ -737,53 +740,63 @@ footer small {
     font-size: calc(29vw/12);
   }
 }
-.s {
+.bol, .bol2 {
   /*リンクテキストのスタイルです*/
-  color: red;
+  display: block;
   text-decoration: none;
-  position: relative;
+}
+.bol:hover, .bol2:hover {
+  opacity: 1;
 }
 
-.s-balloon {
+.s-balloon, .s-balloon2 {
   /*バルーンのスタイルです*/
-  /*表示位置を指定します*/
-  position: absolute;
-  top: -30px;
-  left: -15px;
-  /*非表示にしておきます*/
   display: none;
+  position: absolute;
   opacity: 0;
-  /*表示スタイルを指定します*/
+  width: 250px;
   padding: 5px;
   border-radius: 5px;
-  color: white;
-  background-color: blue;
-  /*影をつけて見栄えを良くします*/
   -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 1px 0 0 rgba(255, 255, 255, 0.3), inset -1px 0 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 rgba(255, 255, 255, 0.2);
           box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 1px 0 0 rgba(255, 255, 255, 0.3), inset -1px 0 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 rgba(255, 255, 255, 0.2);
-  /*アニメーションを指定します*/
   -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
   -webkit-animation-name: show-balloon;
           animation-name: show-balloon;
 }
 
-.s:hover .s-balloon {
-  /*マウスホバー時のバルーンのスタイルです*/
-  /*表示するようにします*/
+.bol2:hover .s-balloon2 {
   display: inline-block;
   opacity: 1;
-  top: -40px;
+  top: 47px;
+  z-index: 100;
+  left: 59%;
 }
 
-.s-balloon::before {
-  /*吹き出し部分の三角形を表示します*/
+.s-balloon2::before {
   content: "";
   position: absolute;
   top: 97%;
-  left: 20px;
+  left: 46%;
   border: 6px solid transparent;
-  border-top: 6px solid blue;
+  border-top: 6px solid #50c200;
+}
+
+.bol:hover .s-balloon {
+  display: inline-block;
+  opacity: 1;
+  top: 47px;
+  z-index: 100;
+  left: 8%;
+}
+
+.s-balloon::before {
+  content: "";
+  position: absolute;
+  top: 97%;
+  left: 46%;
+  border: 6px solid transparent;
+  border-top: 6px solid #50c200;
 }
 
 @-webkit-keyframes show-balloon {
@@ -791,17 +804,16 @@ footer small {
   0% {
     display: none;
     opacity: 0;
-    top: -30px;
+    top: 70px;
   }
-  1% {
+  50% {
     display: inline-block;
     opacity: 0;
-    top: -30px;
   }
   100% {
     display: inline-block;
     opacity: 1;
-    top: -40px;
+    top: 50px;
   }
 }
 
@@ -810,35 +822,15 @@ footer small {
   0% {
     display: none;
     opacity: 0;
-    top: -30px;
+    top: 70px;
   }
-  1% {
+  50% {
     display: inline-block;
     opacity: 0;
-    top: -30px;
   }
   100% {
     display: inline-block;
     opacity: 1;
-    top: -40px;
+    top: 50px;
   }
-}
-.sample1 {
-  color: black;
-  text-decoration: none;
-  position: relative;
-}
-
-.sample1-balloon {
-  position: absolute;
-  top: -40px;
-  left: -15px;
-  display: none;
-  padding: 5px;
-  color: white;
-  background-color: blue;
-}
-
-.sample1:hover .sample1-balloon {
-  display: inline-block;
 }
