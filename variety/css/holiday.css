@@ -34,10 +34,11 @@ img {
   margin: 0 auto;
 }
 
-header {
+header .header_logo {
   background: #000;
 }
-header .header_logo {
+header .header_logo span {
+  display: block;
   max-width: 193px;
   padding: 12px 0 16px 20px;
   line-height: 0;
@@ -62,7 +63,7 @@ header .header_text {
 }
 
 @media screen and (max-width: 950px) {
-  header .header_logo {
+  header .header_logo span {
     max-width: 140px;
     padding: 12px 0 16px 20px;
   }
@@ -82,7 +83,7 @@ header .header_text {
   }
 }
 @media screen and (max-width: 650px) {
-  header .header_logo {
+  header .header_logo span {
     max-width: 120px;
     padding: 1.2% 0 1.4% 2%;
   }

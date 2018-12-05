@@ -21,11 +21,14 @@ img  { width: 100%; }
 }
 
 header {
-	background: #000;
 	.header_logo {
-		max-width: 193px;
-		padding: 12px 0 16px 20px;
-		line-height: 0;
+		background: #000;
+		span {
+			display: block;
+			max-width: 193px;
+			padding: 12px 0 16px 20px;
+			line-height: 0;
+		}
 	}
 	.header_inner {
 		background: url(https://bit.ly/2QAy8Vw) center 0 repeat-x;
@@ -51,8 +54,10 @@ header {
 @media screen and (max-width: 950px) {
 	header {
 		.header_logo {
-			max-width: 140px;
-			padding: 12px 0 16px 20px;
+			span {
+				max-width: 140px;
+				padding: 12px 0 16px 20px;
+			}
 		}
 		.header_inner {
 			padding: 5% 0 10.3%;
@@ -75,8 +80,10 @@ header {
 @media screen and (max-width: 650px) {
 	header {
 		.header_logo {
-			max-width: 120px;
-			padding: 1.2% 0 1.4% 2%;
+			span {
+				max-width: 120px;
+				padding: 1.2% 0 1.4% 2%;
+			}
 		}
 		.header_inner {
 			padding: 5% 0 10.3%;
