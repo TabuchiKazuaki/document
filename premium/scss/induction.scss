@@ -249,7 +249,12 @@ header {
 			a {
 				display: inline;
 				text-decoration: underline;
+				transition: .3s all;
 				color: #50c300;
+
+				&:hover {
+					text-decoration: none;
+				}
 			}
 		}
 		.o_item {
@@ -402,7 +407,7 @@ footer {
 					.c_b_bagge {
 						right: 10px;
 						bottom: 10px;
-						padding: 1.2% 3% 1.6%;
+						padding: 1.2% 4.5% 1.6%;
 						border-radius: 14px;
 						font-size: calc(34vw/12);
 						letter-spacing: 1.4px;
