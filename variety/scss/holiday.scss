@@ -16,7 +16,7 @@ a {
 img  { width: 100%; }
 
 .wrap {
-	width: 768px;
+	max-width: 768px;
 	margin: 0 auto;
 }
 
@@ -50,27 +50,45 @@ header {
 @media screen and (max-width: 950px) {
 	header {
 		.header_logo {
-			max-width: 193px;
+			max-width: 140px;
 			padding: 12px 0 16px 20px;
-			line-height: 0;
 		}
 		.header_inner {
-			padding: 5% 0 9%;
+			padding: 5% 0 10.3%;
 		}
 		.header_pop {
-			img {
-				width: 70%;
-			}
+			width: 75%;
 		}
 		.header_heading {
-			img {
-				width: 80%;
-			}
+			margin: 1.5% auto 0;
+			width: 80%;
 		}
 		.header_text {
-			img {
-				width: 70%;
-			}
+			margin: 3.5% auto 0;
+			width: 75%;
+		}
+	}
+}
+
+
+@media screen and (max-width: 650px) {
+	header {
+		.header_logo {
+			max-width: 120px;
+			padding: 1.2% 0 1.4% 2%;
+		}
+		.header_inner {
+			padding: 5% 0 10.3%;
+		}
+		.header_pop {
+			width: 60%;
+		}
+		.header_heading {
+			margin: 1.5% auto 0;
+			width: 65%;
+		}
+		.header_text {
+			width: 60%;
 		}
 	}
 }
