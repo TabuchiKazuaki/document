@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -30,6 +31,7 @@ img {
 }
 
 .wrap {
+  position: relative;
   max-width: 768px;
   margin: 0 auto;
 }
@@ -734,4 +736,109 @@ footer small {
     margin: 4% 0 0;
     font-size: calc(29vw/12);
   }
+}
+.s {
+  /*リンクテキストのスタイルです*/
+  color: red;
+  text-decoration: none;
+  position: relative;
+}
+
+.s-balloon {
+  /*バルーンのスタイルです*/
+  /*表示位置を指定します*/
+  position: absolute;
+  top: -30px;
+  left: -15px;
+  /*非表示にしておきます*/
+  display: none;
+  opacity: 0;
+  /*表示スタイルを指定します*/
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+  /*影をつけて見栄えを良くします*/
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 1px 0 0 rgba(255, 255, 255, 0.3), inset -1px 0 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 rgba(255, 255, 255, 0.2);
+          box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 1px 0 0 rgba(255, 255, 255, 0.3), inset -1px 0 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 rgba(255, 255, 255, 0.2);
+  /*アニメーションを指定します*/
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-name: show-balloon;
+          animation-name: show-balloon;
+}
+
+.s:hover .s-balloon {
+  /*マウスホバー時のバルーンのスタイルです*/
+  /*表示するようにします*/
+  display: inline-block;
+  opacity: 1;
+  top: -40px;
+}
+
+.s-balloon::before {
+  /*吹き出し部分の三角形を表示します*/
+  content: "";
+  position: absolute;
+  top: 97%;
+  left: 20px;
+  border: 6px solid transparent;
+  border-top: 6px solid blue;
+}
+
+@-webkit-keyframes show-balloon {
+  /*アニメーションを定義します*/
+  0% {
+    display: none;
+    opacity: 0;
+    top: -30px;
+  }
+  1% {
+    display: inline-block;
+    opacity: 0;
+    top: -30px;
+  }
+  100% {
+    display: inline-block;
+    opacity: 1;
+    top: -40px;
+  }
+}
+
+@keyframes show-balloon {
+  /*アニメーションを定義します*/
+  0% {
+    display: none;
+    opacity: 0;
+    top: -30px;
+  }
+  1% {
+    display: inline-block;
+    opacity: 0;
+    top: -30px;
+  }
+  100% {
+    display: inline-block;
+    opacity: 1;
+    top: -40px;
+  }
+}
+.sample1 {
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+.sample1-balloon {
+  position: absolute;
+  top: -40px;
+  left: -15px;
+  display: none;
+  padding: 5px;
+  color: white;
+  background-color: blue;
+}
+
+.sample1:hover .sample1-balloon {
+  display: inline-block;
 }
