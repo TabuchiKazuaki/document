@@ -477,7 +477,7 @@ footer {
 			margin: 7% 1.9% 0 1.7%;
 			li {
 				padding: 0 1% 0 0;
-				line-height: 1.2;
+				line-height: 1.21;
 				a {
 					padding: 0 1% 0 0;
 					font-size: calc(36vw/12);
@@ -505,20 +505,18 @@ footer {
 .ani_list01 {
 	-webkit-animation: item_sp 1s ease 2.8s 1 forwards;
 	-moz-animation: item_sp 1s ease 2.8s 1 forwards;
-	-ms-animation: item_sp 1s ease 2.8s 1 forwards;
 	animation: item_sp 1s ease 2.8s 1 forwards;
 }
 .ani_list03 {
 	-webkit-animation: item_sp 1s ease 3.2s 1 forwards;
 	-moz-animation: item_sp 1s ease 3.2s 1 forwards;
-	-ms-animation: item_sp 1s ease 3.2s 1 forwards;
 	animation: item_sp 1s ease 3.2s 1 forwards;
 }
 
 @media all and (-ms-high-contrast: none){
-.ani_list01 , .ani_list03 {
-	opacity: 1;
-}
+	.ani_list01 , .ani_list03 {
+		opacity: 1;
+	}
 }
 
 
