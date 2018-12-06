@@ -480,11 +480,19 @@ footer small {
   }
 }
 .ani_list01 {
-  -webkit-animation: item_sp 1s ease 2.8s 1 forwards;
-  animation: item_sp 1s ease 2.8s 1 forwards;
+  -webkit-animation: 4s ease-in-out 0s normal none infinite badgebounce;
+          animation: 4s ease-in-out 0s normal none infinite badgebounce;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
 }
 
 .ani_list03 {
   -webkit-animation: item_sp 1s ease 3.2s 1 forwards;
   animation: item_sp 1s ease 3.2s 1 forwards;
+}
+
+@media all and (-ms-high-contrast: none) {
+  .ani_list01, .ani_list03 {
+    opacity: 1;
+  }
 }
