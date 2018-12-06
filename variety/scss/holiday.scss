@@ -502,8 +502,18 @@ footer {
 @-webkit-keyframes item_sp { 100% { opacity: 1; } }
 @keyframes item_list { 100% { opacity: 1; } }
 
-.ani_list01 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 2.8s 1 forwards; }
-.ani_list03 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 3.2s 1 forwards; }
+.ani_list01 {
+	-webkit-animation: item_sp 1s ease 2.8s 1 forwards;
+	-moz-animation: item_sp 1s ease 2.8s 1 forwards;
+	-ms-animation: item_sp 1s ease 2.8s 1 forwards;
+	animation: item_sp 1s ease 2.8s 1 forwards;
+}
+.ani_list03 {
+	-webkit-animation: item_sp 1s ease 3.2s 1 forwards;
+	-moz-animation: item_sp 1s ease 3.2s 1 forwards;
+	-ms-animation: item_sp 1s ease 3.2s 1 forwards;
+	animation: item_sp 1s ease 3.2s 1 forwards;
+}
 
 
 
