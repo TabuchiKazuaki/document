@@ -81,26 +81,50 @@ header {
 	header {
 		.header_logo {
 			span {
-				max-width: 120px;
-				padding: 1.2% 0 1.4% 2%;
+				max-width: 125px;
+				padding: 2.4% 0 2.6% 4%;
 			}
 		}
 		.header_inner {
-			padding: 5% 0 10.3%;
+			padding: 5% 0 10.8%;
 		}
 		.header_pop {
-			width: 60%;
+			width: 40%;
 		}
 		.header_heading {
 			margin: 1.5% auto 0;
-			width: 65%;
+			width: 51%;
 		}
 		.header_text {
-			width: 60%;
+			margin: 3.5% auto 0;
+			width: 40%;
 		}
 	}
 }
-
+@media screen and (max-width: 480px) {
+	header {
+		.header_logo {
+			span {
+				max-width: 87px;
+				padding: 2.4% 0 2.6% 4%;
+			}
+		}
+		.header_inner {
+			padding: 5% 0 11.3%;
+		}
+		.header_pop {
+			width: 42%;
+		}
+		.header_heading {
+			margin: 1.5% auto 0;
+			width: 53%;
+		}
+		.header_text {
+			margin: 3.5% auto 0;
+			width: 42%;
+		}
+	}
+}
 
 @media screen and (max-width: 768px) {
 }
