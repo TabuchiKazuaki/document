@@ -30,7 +30,7 @@ $(document).ready(function() {
 		$('#a_07').attr("href","https://abema.tv/channels/asia-drama/slots/B6feivHuZMVyxB");
 	}
 	// 遷移先 放送後
-	var bf07 = new Date("2019/1/2 01:15");
+	var bf07 = new Date("2019/01/2 01:15");
 	if (now.getTime() > bf07.getTime()) {
 		$('#a_07').text('ビデオをみる');
 		$('#a_07').attr("href","https://abema.tv/video/episode/158-20_s0_p1");
@@ -44,7 +44,7 @@ $(document).ready(function() {
 		$('#a_08').attr("href","https://abema.tv/channels/asia-drama/slots/B6feivHuZMVyxB");
 	}
 	// 遷移先 放送後
-	var bf08 = new Date("2019/1/3 01:15");
+	var bf08 = new Date("2019/01/03 01:15");
 	if (now.getTime() > bf08.getTime()) {
 		$('#a_08').text('ビデオをみる');
 		$('#a_08').attr("href","https://abema.tv/video/episode/158-20_s0_p1");
@@ -57,7 +57,7 @@ $(document).ready(function() {
 		$('#a_09').attr("href","https://abema.tv/channels/asia-drama/slots/AihQQDzzCorC2K");
 	}
 	// 遷移先 放送後
-	var bf09 = new Date("2019/1/4 01:15");
+	var bf09 = new Date("2019/01/04 01:15");
 	if (now.getTime() > bf09.getTime()) {
 		$('#a_09').text('ビデオをみる');
 		$('#a_09').attr("href","https://abema.tv/video/episode/452-1_s0_p1");
