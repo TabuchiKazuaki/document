@@ -113,18 +113,5 @@ $(document).ready(function() {
 		$('#a_06').text('ビデオをみる');
 		$('#a_06').attr("href","https://abema.tv/video/episode/158-20_s0_p1");
 	}
-
-	// 07 遷移先 放送前
-	var bf07 = new Date("2018/11/06");
-	if (now.getTime() > bf07.getTime()) {
-		$('#a_07').text('視聴予約する');
-		$('#a_07').attr("href","https://abema.tv/channels/asia-drama/slots/B6feivHuZMVyxB");
-	}
-	// 遷移先 放送後
-	var bf07 = new Date("2018/12/24 20:05");
-	if (now.getTime() > bf07.getTime()) {
-		$('#a_07').text('ビデオをみる');
-		$('#a_07').attr("href","https://abema.tv/video/episode/158-20_s0_p1");
-	}
 });
 
