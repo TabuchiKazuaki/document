@@ -30,10 +30,6 @@ $(document).ready(function() {
 		$(".thumb06 li a").removeClass("active");//.activeを追加する
 		$(this).addClass('active');
 	});
-	$(".thumb07 li:first a").addClass("active").show();//tabs内最初のliに.activeを追加
-	$('.thumb07 li a').on('click',function() {
-		$(".thumb07 li a").removeClass("active");//.activeを追加する
-		$(this).addClass('active');
-	});
+
 });
 
