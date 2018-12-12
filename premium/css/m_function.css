@@ -30,10 +30,9 @@ img {
 }
 
 .wrap {
-  max-width: 768px;
+  max-width: 587px;
   padding: 0 0 70px;
   margin: 0 auto;
-  border-bottom: 1px solid #606060;
 }
 
 header .header_logo {
@@ -43,22 +42,27 @@ header .header_logo {
 
 .contents {
   margin: 40px 0 0;
+  border-bottom: 1px solid #606060;
 }
 .contents .c_h {
   font-size: 36px;
+  text-align: center;
 }
 .contents .c_list {
-  margin: 40px 0 0;
+  margin: 38px 0 0;
 }
 .contents .c_list li figure {
   max-width: 482px;
-  margin: 27px auto 0;
+  margin: 36px auto 0;
 }
 .contents .c_list li h3 {
   position: relative;
-  padding: 6px 0 0 50px;
+  padding: 6px 0 0 37px;
   font-weight: normal;
   font-size: 28px;
+}
+.contents .c_list li:nth-child(1) h3 {
+  padding: 6px 0 0 51px;
 }
 .contents .c_list li:nth-child(1) h3:before {
   content: '';
@@ -225,7 +229,7 @@ footer small {
 
 @media screen and (max-width: 768px) {
   .wrap {
-    padding: 0 5% 9%;
+    padding: 0 12% 9%;
   }
 
   header .header_logo {
@@ -243,16 +247,19 @@ footer small {
     margin: 5.5% 0 0;
   }
   .contents .c_list li figure {
-    margin: 3% auto 0;
+    margin: 4% auto 0;
     text-align: center;
   }
   .contents .c_list li figure img {
-    width: 70%;
+    width: 80%;
   }
   .contents .c_list li h3 {
-    padding: 6px 0 0 50px;
+    padding: 6px 0 0 37px;
     font-weight: normal;
     font-size: 26px;
+  }
+  .contents .c_list li:nth-child(1) h3 {
+    padding: 6px 0 0 51px;
   }
   .contents .c_list li:nth-child(1) h3:before {
     content: '';
@@ -399,9 +406,14 @@ footer small {
   }
 }
 @media screen and (max-width: 480px) {
+  .wrap {
+    padding: 0 12% 9%;
+  }
+
   header .header_logo {
     width: 20%;
     padding: 1.6% 0 1.7% 2.2%;
+    line-height: 0;
   }
 
   .contents {
@@ -414,68 +426,71 @@ footer small {
     margin: 5.5% 0 0;
   }
   .contents .c_list li figure {
-    margin: 4% auto 0;
+    margin: 5% auto 0;
     text-align: center;
   }
   .contents .c_list li figure img {
-    width: 66%;
+    width: 87%;
   }
   .contents .c_list li h3 {
-    padding: 3px 0 0 30px;
+    padding: 3px 0 0 15px;
     font-weight: normal;
     font-size: 14px;
   }
+  .contents .c_list li:nth-child(1) h3 {
+    padding: 4px 0 0 21px;
+  }
   .contents .c_list li:nth-child(1) h3:before {
     top: 0;
-    left: 0;
+    left: -5px;
     width: 20px;
     height: 20px;
   }
   .contents .c_list li:nth-child(1) h3:after {
     top: 2px;
-    left: 5px;
+    left: 0px;
     font-size: 16px;
   }
   .contents .c_list li:nth-child(2) h3 {
-    margin: 60px 0 0;
+    margin: 8% 0 0;
   }
   .contents .c_list li:nth-child(2) h3:before {
     top: 0;
-    left: 0;
+    left: -5px;
     width: 20px;
     height: 20px;
   }
   .contents .c_list li:nth-child(2) h3:after {
     top: 2px;
-    left: 5px;
+    left: 0;
     font-size: 16px;
   }
   .contents .c_list li:nth-child(3) h3 {
-    margin: 60px 0 0;
+    margin: 8% 0 0;
   }
   .contents .c_list li:nth-child(3) h3:before {
     top: 0;
-    left: 0;
+    left: -5px;
     width: 20px;
     height: 20px;
   }
   .contents .c_list li:nth-child(3) h3:after {
     top: 2px;
-    left: 5px;
+    left: 0;
     font-size: 16px;
   }
   .contents .c_list li:nth-child(4) h3 {
-    margin: 60px 0 0;
+    margin: 8% 0 0;
   }
   .contents .c_list li:nth-child(4) h3:before {
     top: 0;
-    left: 0;
+    left: -5px;
     width: 20px;
     height: 20px;
   }
   .contents .c_list li:nth-child(4) h3:after {
     top: 2px;
-    left: 5px;
+    left: 0;
     font-size: 16px;
   }
   .contents .c_list li:nth-child(5) h3 {
@@ -483,13 +498,13 @@ footer small {
   }
   .contents .c_list li:nth-child(5) h3:before {
     top: 0;
-    left: 0;
+    left: -5px;
     width: 20px;
     height: 20px;
   }
   .contents .c_list li:nth-child(5) h3:after {
     top: 2px;
-    left: 5px;
+    left: 0;
     font-size: 16px;
   }
   .contents .entry_form {
