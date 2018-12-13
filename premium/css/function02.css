@@ -588,6 +588,18 @@ footer small {
     left: 7px;
     font-size: 21px;
   }
+  .content_wrap .wrap_item li:nth-child(3):before {
+    top: 0px;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+  .content_wrap .wrap_item li:nth-child(3):after {
+    top: 1px;
+    left: 7px;
+    font-size: 21px;
+  }
 }
 @media screen and (max-width: 480px) {
   .content_wrap {
@@ -791,6 +803,18 @@ footer small {
     border-radius: 50%;
   }
   .content_wrap .wrap_item li:nth-child(2):after {
+    top: 0px;
+    left: 7px;
+    font-size: 18px;
+  }
+  .content_wrap .wrap_item li:nth-child(3):before {
+    top: -1px;
+    left: 0;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+  }
+  .content_wrap .wrap_item li:nth-child(3):after {
     top: 0px;
     left: 7px;
     font-size: 18px;
