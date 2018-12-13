@@ -205,6 +205,24 @@ header .header_heading {
   font-size: 28px;
   color: #fff;
 }
+.content_wrap .wrap_item li:nth-child(3):before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 0;
+  background: #50c401;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.content_wrap .wrap_item li:nth-child(3):after {
+  content: '3';
+  position: absolute;
+  top: 3px;
+  left: 12px;
+  font-size: 28px;
+  color: #fff;
+}
 .content_wrap .wrap_item .camp_num {
   font-size: 32px;
   padding: 0 0 0 0;
@@ -404,6 +422,19 @@ footer small {
   }
   .content_wrap .wrap_item li:nth-child(2):after {
     content: '2';
+    top: 4px;
+    left: 9px;
+    font-size: 23px;
+  }
+  .content_wrap .wrap_item li:nth-child(3):before {
+    top: 2px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .content_wrap .wrap_item li:nth-child(3):after {
+    content: '3';
     top: 4px;
     left: 9px;
     font-size: 23px;
