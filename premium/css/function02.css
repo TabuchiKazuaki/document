@@ -848,4 +848,64 @@ footer small {
     left: 5px;
     font-size: 16px;
   }
+  .content_wrap .wrap_item li:nth-child(3):before {
+    top: -1px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  .content_wrap .wrap_item li:nth-child(3):after {
+    top: 0px;
+    left: 5px;
+    font-size: 16px;
+  }
+}
+.item_list {
+  opacity: 0;
+}
+
+@-webkit-keyframes item_sp {
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes item_list {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes item_list {
+  100% {
+    opacity: 1;
+  }
+}
+.ani_list01 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 1.5s 1 forwards;
+}
+
+.ani_list02 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 1.7s 1 forwards;
+}
+
+.ani_list03 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 1.9s 1 forwards;
+}
+
+.ani_list04 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 2.1s 1 forwards;
+}
+
+.ani_list05 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 2.3s 1 forwards;
+}
+
+.ani_list06 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 2.5s 1 forwards;
 }
