@@ -337,15 +337,36 @@ img {
 
 footer {
   background: #eee;
-  padding: 45px 0 0;
+  padding: 45px 0 45px;
 }
 footer .f_copy {
   overflow: hidden;
-  float: left;
+  margin: 0 0 30px;
 }
 footer .f_copy li {
   float: left;
+  margin: 0 14px 0 0;
   line-height: 1.5;
+  font-size: 16px;
+  color: #727272;
+}
+footer .footer_item {
+  overflow: hidden;
+  margin: 10px 0 0;
+}
+footer .footer_item li {
+  position: relative;
+  padding: 0 5px 0 0;
+  float: left;
+}
+footer .footer_item li a {
+  padding: 0 4px 0 0;
+  font-size: 16px;
+  color: #727272;
+}
+footer small {
+  display: block;
+  margin: 32px 0 0;
   font-size: 16px;
   color: #727272;
 }
