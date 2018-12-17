@@ -1,0 +1,116 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; }
+
+body { min-width: 320px; font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important; color: #fff; margin: 0 auto; background: #000; line-height: 1; }
+body li { list-style: none; }
+
+a { color: #FFF; text-decoration: none; -webkit-transition: .5s all; transition: .5s all; display: block; }
+a:hover { text-decoration: none; opacity: .6; }
+
+img { width: 100%; height: auto; }
+
+header { width: 750px; margin: 0 auto 80px auto; }
+header p { padding: 14px 0 12px 14px; }
+header p img { max-width: 152px; }
+header .main { width: 100%; background: url(https://bit.ly/2A52hCO) 0 0 no-repeat; background-size: cover; padding: 48px 0 0 0; }
+header .main p { display: block; color: #000; text-align: center; width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; margin: 0 auto 56px auto; background-color: #e6c300; border-radius: 50px; font-size: 37px; font-weight: bold; padding: 7px 65px 7px 65px; }
+header .main h1 { display: block; width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; margin: 0 auto 56px auto; }
+header .main h1 span { display: block; font-size: 41px; text-align: center; }
+header .main h1 span img { max-width: 463px; padding-bottom: 15px; }
+header .main dl { display: block; width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; margin: 0 auto 80px auto; text-align: center; }
+header .main dl dt { font-size: 41px; font-weight: bold; text-decoration: line-through; background: url(https://bit.ly/2Br8xF1) no-repeat bottom center; padding-bottom: 40px; margin-bottom: 5px; }
+header .main dl dd { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+header .main dl dd .money01 { display: block; font-size: 98px; font-weight: bold; }
+header .main dl dd .money02 { display: block; font-size: 125px; font-weight: bold; letter-spacing: 5px; border-bottom: solid 7px #e6c300; }
+header .main aside { width: 480px; margin: 0 auto 30px auto; }
+header .main aside a { background-color: #50c300; border-radius: 8px; color: #FFF; width: 100%; text-align: center; font-size: 28px; font-weight: bold; padding: 25px 0 25px 0; }
+header .main small { display: block; font-size: 28px; color: #ababab; text-align: center; }
+
+.main-contents { width: 680px; margin: 0 auto; }
+.main-contents section { background-color: #212121; border-radius: 20px; padding: 48px 36px 64px 36px; margin-bottom: 64px; }
+.main-contents section h2 { font-size: 32px; text-align: center; font-weight: normal; margin-bottom: 50px; }
+.main-contents section .pattern01 { width: 100%; background: url(https://bit.ly/2CgmU0z) bottom center no-repeat; background-size: auto; display: -webkit-box; display: -ms-flexbox; display: flex; }
+.main-contents section .pattern01 dl { width: 33.333%; }
+.main-contents section .pattern02 { width: 100%; background: url(https://bit.ly/2Gml2aq) bottom center no-repeat; background-size: auto; display: -webkit-box; display: -ms-flexbox; display: flex; }
+.main-contents section .pattern02 dl { width: 50%; }
+.main-contents section dl { text-align: center; }
+.main-contents section dl dt { font-size: 28px; color: #ababab; margin-bottom: 35px; }
+.main-contents section dl dd { font-size: 36px; font-weight: bold; }
+.main-contents section:nth-of-type(2) { margin-bottom: 84px; }
+.main-contents aside { width: 480px; margin: 0 auto 86px auto; }
+.main-contents aside a { background-color: #50c300; border-radius: 8px; color: #FFF; width: 100%; text-align: center; font-size: 28px; font-weight: bold; padding: 25px 0 25px 0; }
+
+.cp-detail { width: 750px; border-top: solid 1px #606060; border-bottom: solid 1px #606060; margin: 0 auto 40px auto; padding: 54px 0 42px 0; }
+.cp-detail section { width: 680px; margin: 0 auto; }
+.cp-detail .m15 { margin-bottom: 15px; }
+.cp-detail dl dt { font-size: 28px; line-height: 1.4em; margin-bottom: 15px; }
+.cp-detail dl dd { color: #ababab; font-size: 24px; line-height: 1.5em; margin-bottom: 45px; }
+.cp-detail dl dd p { font-size: 24px; line-height: 1.5em; margin-bottom: 15px; }
+.cp-detail dl dd small { display: block; font-size: 20px; line-height: 1.5em; }
+.cp-detail dl dd ul { padding-left: 35px; }
+.cp-detail dl dd:last-child { margin: 0; }
+
+footer { width: 750px; margin: 0 auto; padding-bottom: 40px; }
+footer p { margin-bottom: 30px; font-size: 16px; line-height: 1.5em; color: #919191; }
+footer .links { margin-bottom: 30px; }
+footer ul { margin-bottom: 5px; }
+footer ul li { display: inline-block; color: #919191; }
+footer ul li a { display: inline-block; font-size: 16px; line-height: 1.35em; color: #919191 !important; }
+footer ul li:after { content: " \007c "; }
+footer ul li:last-child:after { content: none; }
+footer small { display: block; font-size: 16px; color: #919191; }
+
+@media screen and (max-width: 768px) { header { width: 100%; margin-bottom: 8%; }
+  header p { padding: 1.5% 0 1.5% 2%; }
+  header p img { max-width: 22%; }
+  header .main { padding: 6.5% 0 0 0; }
+  header .main p { margin: 0 auto 7% auto; border-radius: 50px; font-size: calc(67vw/12); padding: 1% 9% 1% 9%; }
+  header .main h1 { margin: 0 auto 5.5% auto; }
+  header .main h1 span { font-size: calc(74vw/12); }
+  header .main h1 span img { max-width: 63%; padding-bottom: 2%; }
+  header .main dl { margin: 0 auto 10% auto; }
+  header .main dl dt { font-size: calc(74vw/12); background-size: 8%; padding-bottom: 8%; margin-bottom: 3%; }
+  header .main dl dd .money01 { font-size: calc(147vw/12); }
+  header .main dl dd .money02 { font-size: calc(208vw/12); letter-spacing: 3px; border-bottom: solid 3px #e6c300; }
+  header .main aside { width: 70%; margin: 0 auto 4% auto; }
+  header .main aside a { border-radius: 4px; font-size: calc(47vw/12); padding: 5% 0 5% 0; }
+  header .main small { font-size: calc(47vw/12); }
+  .main-contents { width: 91%; margin: 0 auto; }
+  .main-contents section { border-radius: 10px; padding: 7% 6% 7% 6%; margin-bottom: 7%; }
+  .main-contents section h2 { font-size: calc(55vw/12); margin-bottom: 7%; }
+  .main-contents section .pattern01 { background-size: contain; }
+  .main-contents section .pattern01 dt { margin-bottom: 18%; }
+  .main-contents section .pattern02 { background-size: contain; }
+  .main-contents section .pattern02 dt { margin-bottom: 12%; }
+  .main-contents section dl dt { font-size: calc(55vw/12); margin-bottom: 0; }
+  .main-contents section dl dd { font-size: calc(60vw/12); }
+  .main-contents section:nth-of-type(2) { margin-bottom: 12%; }
+  .main-contents aside { width: 70%; margin: 0 auto 14% auto; }
+  .main-contents aside a { border-radius: 4px; font-size: calc(47vw/12); padding: 5% 0 5% 0; }
+  .cp-detail { width: 100%; margin: 0 0 4.5% 0; padding: 5% 0 5.5% 0; }
+  .cp-detail section { width: 90%; }
+  .cp-detail h1 { font-size: calc(60vw/12); line-height: 145%; margin-bottom: 5%; }
+  .cp-detail .m15 { margin-bottom: 2%; }
+  .cp-detail dl dt { font-size: calc(47vw/12); line-height: 145%; margin-bottom: 2%; }
+  .cp-detail dl dd { font-size: calc(42vw/12); line-height: 145%; margin-bottom: 7%; }
+  .cp-detail dl dd p { font-size: calc(42vw/12); line-height: 145%; margin-bottom: 2%; }
+  .cp-detail dl dd small { font-size: calc(33vw/12); line-height: 145%; }
+  .cp-detail dl dd ul { padding-left: 6%; }
+  footer { width: 90%; padding-bottom: 5%; }
+  footer p { margin-bottom: 4%; font-size: calc(30vw/12); line-height: 140%; }
+  footer .links { margin-bottom: 4%; }
+  footer ul { font-size: calc(30vw/12); margin-bottom: 1%; }
+  footer ul li a { font-size: calc(30vw/12); line-height: 130%; }
+  footer ul li:after { content: "ï½œ"; }
+  footer ul li:last-child:after { content: none; }
+  footer small { font-size: calc(30vw/12); } }
+@-webkit-keyframes item_sp { 100% { opacity: 1; } }
+@-webkit-keyframes item_list { 100% { opacity: 1; } }
+@keyframes item_list { 100% { opacity: 1; } }
+.ani_list01 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 3s 1 forwards; }
+
+.ani_list02 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 3.5s 1 forwards; }
+
+.ani_list03 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 4s 1 forwards; }
+
+.ani_list04 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 4.5s 1 forwards; }
