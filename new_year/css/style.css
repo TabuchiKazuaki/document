@@ -161,17 +161,98 @@ img {
   color: #000;
 }
 .contents .col_single .c_btn {
-  margin: 20px 0 35px;
+  margin: 20px 0 50px;
 }
 .contents .col_single .c_btn a {
   display: block;
   background: none;
-  padding: 18px 0;
+  padding: 19px 0;
   font-size: 28px;
   border: 2px solid #e62e00;
   border-radius: 6px;
+  font-weight: bold;
   text-align: center;
   color: #e62e00;
+}
+.contents .col_double {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.contents .col_double li {
+  width: 48.5%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 3% 0 0 3%;
+}
+.contents .col_double li figure {
+  line-height: 0;
+}
+.contents .col_double li:nth-child(2n+1) {
+  margin: 3% 0 0 0;
+}
+.contents .col_double li:first-child {
+  margin: 0;
+}
+.contents .col_double li:nth-child(2) {
+  margin: 0 0 0 3%;
+}
+.contents .col_double li .d_date {
+  margin: 15px 0 0;
+  font-size: 26px;
+  letter-spacing: 1.2px;
+  color: #727272;
+}
+.contents .col_double li .d_text {
+  margin: 12px 0 0;
+  line-height: 1.2;
+  font-weight: bold;
+  font-size: 30px;
+  color: #000;
+}
+.contents .col_double li .d_btn {
+  margin: 20px 0 35px;
+}
+.contents .col_double li .d_btn a {
+  display: block;
+  background: none;
+  padding: 19px 0;
+  font-size: 26px;
+  border: 2px solid #e62e00;
+  border-radius: 6px;
+  font-weight: bold;
+  text-align: center;
+  color: #e62e00;
+}
+.contents .banner td {
+  background: #eee;
+  width: 40%;
+  line-height: 0;
+}
+.contents .banner th {
+  background: #eee;
+  vertical-align: middle;
+  text-align: left;
+  padding: 0 0 0 3%;
+}
+.contents .banner th .b_heading {
+  text-align: left;
+  font-size: 26px;
+  font-weight: bold;
+  color: #e62e00;
+}
+.contents .banner th .b_text {
+  margin: 15px 0 0;
+  font-weight: normal;
+  line-height: 1.2;
+  font-size: 26px;
 }
 
 @-webkit-keyframes item_sp {
