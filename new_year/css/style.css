@@ -231,16 +231,23 @@ img {
   text-align: center;
   color: #e62e00;
 }
+.contents .banner {
+  margin: 40px 0 70px;
+}
 .contents .banner td {
-  background: #eee;
   width: 40%;
   line-height: 0;
+  border-radius: 5px 0 0 5px;
+}
+.contents .banner td img {
+  border-radius: 5px 0 0 5px;
 }
 .contents .banner th {
   background: #eee;
   vertical-align: middle;
   text-align: left;
   padding: 0 0 0 3%;
+  border-radius: 0 5px 5px 0;
 }
 .contents .banner th .b_heading {
   text-align: left;
@@ -253,6 +260,94 @@ img {
   font-weight: normal;
   line-height: 1.2;
   font-size: 26px;
+}
+
+.line_b .l_wrap {
+  max-width: 768px;
+  margin: 20px auto 0;
+}
+.line_b .days {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  padding: 0 25px;
+  border-bottom: 2px solid #e62e00;
+}
+.line_b .days li {
+  float: left;
+  margin: 0 15px 0 0;
+}
+.line_b .days li a {
+  display: block;
+  padding: 5px 12px;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  color: #c3c3c3;
+}
+.line_b .days li .active {
+  border-bottom: 4px solid #e62e00;
+  color: #e62e00;
+}
+
+.athor {
+  background: url(https://bit.ly/2BrSvKO) 0 top repeat-x;
+  margin: 5px 0 0;
+  padding: 90px 0 65px;
+}
+.athor .a_heading {
+  text-align: center;
+  font-size: 30px;
+}
+.athor .a_item {
+  margin: 40px 35px 0;
+  overflow: hidden;
+}
+.athor .a_item li {
+  float: left;
+  width: 48%;
+  margin: 3.5% 0 0 4%;
+}
+.athor .a_item li:nth-child(1) {
+  margin: 0;
+}
+.athor .a_item li:nth-child(2) {
+  margin: 0 0 0 4%;
+}
+.athor .a_item li:nth-child(3) {
+  margin: 3.5% 0 0 0;
+}
+.athor .a_item li a {
+  display: block;
+  padding: 20px 0;
+  border: 2px solid #c79500;
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  border-radius: 5px;
+  text-align: center;
+  color: #c79500;
+}
+.athor .a_item li a:hover {
+  background: #c79500;
+  color: #fff;
+}
+
+footer {
+  background: #eee;
+  padding: 45px 0 0;
+}
+footer .f_copy {
+  overflow: hidden;
+  float: left;
+}
+footer .f_copy li {
+  float: left;
+  line-height: 1.5;
+  font-size: 16px;
+  color: #727272;
 }
 
 @-webkit-keyframes item_sp {

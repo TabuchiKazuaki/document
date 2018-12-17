@@ -17,6 +17,31 @@ a {
 img  { width: 100%; height: auto;}
 
 
+body {overflow-y: hidden;}
+
+  @supports (-ms-ime-align: auto) {
+  /* Edge のみ適用される */
+ header p {
+ width: 346px;
+ }
+    header .main dl  {
+     display: table;
+    }
+}
+
+  @media all and (-ms-high-contrast:none){
+  *::-ms-backdrop,
+    /* IE11 */
+    header p {
+ width: 346px;
+ }
+    header .main dl  {
+     display: table;
+    }
+}
+
+
+
 header {
 	width: 750px;
 	margin: 0 auto 80px auto;

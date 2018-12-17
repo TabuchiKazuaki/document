@@ -9,6 +9,13 @@ a:hover { text-decoration: none; opacity: .6; }
 
 img { width: 100%; height: auto; }
 
+body { overflow-y: hidden; }
+
+@supports (-ms-ime-align: auto) { /* Edge のみ適用される */
+  header p { width: 346px; }
+  header .main dl { display: table; } }
+@media all and (-ms-high-contrast: none) { *::-ms-backdrop, header p { width: 346px; }
+  header .main dl { display: table; } }
 header { width: 750px; margin: 0 auto 80px auto; }
 header p { padding: 14px 0 12px 14px; }
 header p img { max-width: 152px; }
