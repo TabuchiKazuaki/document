@@ -11,11 +11,6 @@ img { width: 100%; height: auto; }
 
 body { overflow-y: hidden; }
 
-@supports (-ms-ime-align: auto) { /* Edge のみ適用される */
-  header p { width: 346px; }
-  header .main dl { display: table; } }
-@media all and (-ms-high-contrast: none) { *::-ms-backdrop, header p { width: 346px; }
-  header .main dl { display: table; } }
 header { width: 750px; margin: 0 auto 80px auto; }
 header p { padding: 14px 0 12px 14px; }
 header p img { max-width: 152px; }
@@ -63,10 +58,15 @@ footer .links { margin-bottom: 30px; }
 footer ul { margin-bottom: 5px; }
 footer ul li { display: inline-block; color: #919191; }
 footer ul li a { display: inline-block; font-size: 16px; line-height: 1.35em; color: #919191 !important; }
-footer ul li:after { content: " \007c "; }
+footer ul li:after { content: " \FF5C "; }
 footer ul li:last-child:after { content: none; }
 footer small { display: block; font-size: 16px; color: #919191; }
 
+@media all and (-ms-high-contrast: none) { *::-ms-backdrop, header p { width: 346px; }
+  header .main dl { display: table; } }
+@supports (-ms-ime-align: auto) { /* Edge のみ適用される */
+  header p { width: 346px; }
+  header .main dl { display: table; } }
 @media screen and (max-width: 768px) { header { width: 100%; margin-bottom: 8%; }
   header p { padding: 1.5% 0 1.5% 2%; }
   header p img { max-width: 22%; }
@@ -92,7 +92,7 @@ footer small { display: block; font-size: 16px; color: #919191; }
   .main-contents section dl dt { font-size: calc(55vw/12); margin-bottom: 0; }
   .main-contents section dl dd { font-size: calc(60vw/12); }
   .main-contents section:nth-of-type(2) { margin-bottom: 12%; }
-  .main-contents aside { width: 70%; margin: 0 auto 14% auto; }
+  .main-contents aside { width: 77%; margin: 0 auto 14% auto; }
   .main-contents aside a { border-radius: 4px; font-size: calc(47vw/12); padding: 5% 0 5% 0; }
   .cp-detail { width: 100%; margin: 0 0 4.5% 0; padding: 5% 0 5.5% 0; }
   .cp-detail section { width: 90%; }

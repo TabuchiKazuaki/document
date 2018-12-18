@@ -19,28 +19,6 @@ img  { width: 100%; height: auto;}
 
 body {overflow-y: hidden;}
 
-  @supports (-ms-ime-align: auto) {
-  /* Edge のみ適用される */
- header p {
- width: 346px;
- }
-    header .main dl  {
-     display: table;
-    }
-}
-
-  @media all and (-ms-high-contrast:none){
-  *::-ms-backdrop,
-    /* IE11 */
-    header p {
- width: 346px;
- }
-    header .main dl  {
-     display: table;
-    }
-}
-
-
 
 header {
 	width: 750px;
@@ -270,7 +248,7 @@ footer {
 			}
 		}
 		li:after {
-			content: " \007c ";
+			content: " \FF5C ";
 		}
 		li:last-child:after {
 			content: none;
@@ -285,8 +263,26 @@ footer {
 
 
 
+  @media all and (-ms-high-contrast:none){
+  *::-ms-backdrop,
+    /* IE11 */
+    header p {
+ width: 346px;
+ }
+    header .main dl  {
+     display: table;
+    }
+}
 
-
+  @supports (-ms-ime-align: auto) {
+  /* Edge のみ適用される */
+ header p {
+ width: 346px;
+ }
+    header .main dl  {
+     display: table;
+    }
+}
 
 
 
@@ -391,7 +387,7 @@ header {
 		margin-bottom: 12%;
 	}
 	aside {
-		width: 70%;
+		width: 77%;
 		margin: 0 auto 14% auto;
 		a {
 			border-radius: 4px;
