@@ -33,6 +33,10 @@ header div { background: url(https://goo.gl/zfGwFA) 0 0 no-repeat; background-si
 .main li a .detail-txt { font-size: 26px; line-height: 1.4em; }
 .main li:last-child { margin-bottom: 0; }
 
+@media all and (-ms-high-contrast: none) { *::-ms-backdrop section, .main section { -ms-flex: 1 1 100%; flex: 1 1 100%; }
+  *::-ms-backdrop li a div, .main li a div { -ms-flex-negative: 100; flex-shrink: 100; }
+  *::-ms-backdrop li a h2 .title, .main li a h2 .title { -ms-flex-negative: 100; flex-shrink: 100; }
+  *::-ms-backdrop li a h2 .tag, .main li a h2 .tag { -ms-flex-negative: 100; flex-shrink: 100; display: table; } }
 article:nth-of-type(5) { margin: 0 auto 65px auto; }
 
 .other-link { width: 702px; margin: 0 auto 64px auto; }
