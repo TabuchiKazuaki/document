@@ -29,16 +29,14 @@ header .main aside a { background-color: #50c300; border-radius: 8px; color: #FF
 header .main small { display: block; font-size: 28px; color: #ababab; text-align: center; }
 
 .main-contents { width: 680px; margin: 0 auto; }
-.main-contents section { background-color: #212121; border-radius: 20px; padding: 48px 36px 64px 36px; margin-bottom: 64px; }
+.main-contents section { background-color: #212121; border-radius: 20px; padding: 48px 36px 64px 36px; margin-bottom: 30px; }
 .main-contents section h2 { font-size: 32px; text-align: center; font-weight: normal; margin-bottom: 50px; }
 .main-contents section .pattern01 { width: 100%; background: url(https://bit.ly/2CgmU0z) bottom center no-repeat; background-size: auto; display: -webkit-box; display: -ms-flexbox; display: flex; }
 .main-contents section .pattern01 dl { width: 33.333%; }
-.main-contents section .pattern02 { width: 100%; background: url(https://bit.ly/2Gml2aq) bottom center no-repeat; background-size: auto; display: -webkit-box; display: -ms-flexbox; display: flex; }
-.main-contents section .pattern02 dl { width: 50%; }
 .main-contents section dl { text-align: center; }
 .main-contents section dl dt { font-size: 28px; color: #ababab; margin-bottom: 35px; }
 .main-contents section dl dd { font-size: 36px; font-weight: bold; }
-.main-contents section:nth-of-type(2) { margin-bottom: 84px; }
+.main-contents .again { font-size: 28px; display: block; text-align: center; margin-bottom: 64px; line-height: 1.4em; }
 .main-contents aside { width: 480px; margin: 0 auto 86px auto; }
 .main-contents aside a { background-color: #50c300; border-radius: 8px; color: #FFF; width: 100%; text-align: center; font-size: 28px; font-weight: bold; padding: 25px 0 25px 0; }
 
@@ -83,12 +81,11 @@ footer small { display: block; font-size: 16px; color: #919191; }
   header .main aside a { border-radius: 4px; font-size: calc(47vw/12); padding: 5% 0 5% 0; }
   header .main small { font-size: calc(47vw/12); }
   .main-contents { width: 91%; margin: 0 auto; }
-  .main-contents section { border-radius: 10px; padding: 7% 6% 7% 6%; margin-bottom: 7%; }
+  .main-contents section { border-radius: 10px; padding: 7% 6% 7% 6%; margin-bottom: 4%; }
   .main-contents section h2 { font-size: calc(55vw/12); margin-bottom: 7%; }
   .main-contents section .pattern01 { background-size: contain; }
   .main-contents section .pattern01 dt { margin-bottom: 18%; }
-  .main-contents section .pattern02 { background-size: contain; }
-  .main-contents section .pattern02 dt { margin-bottom: 12%; }
+  .main-contents section .again { font-size: calc(47vw/12); line-height: 140%; margin-bottom: 13%; }
   .main-contents section dl dt { font-size: calc(55vw/12); margin-bottom: 0; }
   .main-contents section dl dd { font-size: calc(60vw/12); }
   .main-contents section:nth-of-type(2) { margin-bottom: 12%; }
