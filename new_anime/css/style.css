@@ -27,7 +27,7 @@ header div { background: url(https://goo.gl/zfGwFA) 0 0 no-repeat; background-si
 .main li a { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: #FFF; }
 .main li a figure { width: 270px; margin-right: 24px; }
 .main li a figure img { min-width: 270px; }
-.main li a div { width: 100%; }
+.main li a div { width: 100%; -ms-flex-negative: 50; flex-shrink: 50; }
 .main li a h2 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin-bottom: 10px; font-size: 28px; font-weight: normal; }
 .main li a h2 .title { display: block; font-size: 28px; font-weight: normal; }
 .main li a h2 .tag { display: block; font-size: 20px; padding: 3px 8px 3px 8px; background-color: #f0173a; border-radius: 4px; }
