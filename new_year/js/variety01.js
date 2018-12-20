@@ -110,7 +110,7 @@ $(document).ready(function() {
 	var bf09 = new Date("2018/11/06");
 		if (now.getTime() > bf09.getTime()) {
 		$('#a_09').text('視聴予約する');
-		$('#a_09').attr("href","https://abema.tv/channels/asia-drama/slots/B6feivHuZMVyxB");
+		$('#a_09').attr("href","https://abema.tv/channels/abema-special/slots/98hy8mpPJSCYto");
 	}
 	// 後1/4 23:00
 	var bf09 = new Date("2019/01/04 23:00");
@@ -123,7 +123,7 @@ $(document).ready(function() {
 	var bf10 = new Date("2018/11/06");
 		if (now.getTime() > bf10.getTime()) {
 		$('#a_10').text('視聴予約する');
-		$('#a_10').attr("href","https://abema.tv/channels/abema-special/slots/98hy8mpPJSCYto");
+		$('#a_10').attr("href","https://abema.tv/channels/abema-special/slots/F9PEnuXzu3u6dd");
 	}
 	// 後
 	var bf10 = new Date("2019/01/05 00:00");
