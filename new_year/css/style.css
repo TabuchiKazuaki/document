@@ -213,12 +213,14 @@ header .h_main {
           flex-flow: row wrap;
 }
 .contents .col_double li {
+  position: relative;
   width: 47.5%;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  padding: 0 0 120px;
   margin: 3% 0 0 5%;
 }
 .contents .col_double li figure {
@@ -247,6 +249,10 @@ header .h_main {
   color: #000;
 }
 .contents .col_double li .d_btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   margin: 20px 0 35px;
 }
 .contents .col_double li .d_btn a {
@@ -296,6 +302,7 @@ header .h_main {
   font-weight: normal;
   line-height: 1.2;
   font-size: 26px;
+  color: #000;
 }
 
 .line_b .l_wrap {
@@ -601,6 +608,7 @@ footer small {
             justify-content: flex-end;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+    padding: 0 0 17.8%;
     margin: 3% 0 0 5%;
   }
   .contents .col_double li figure {
