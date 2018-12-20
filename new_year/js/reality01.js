@@ -102,4 +102,5 @@ $(document).ready(function() {
 		$('#a_08').text('ビデオを見る');
 		$('#a_08').attr("href","https://abema.tv/video/title/90-1060");
 	}
+
 });
