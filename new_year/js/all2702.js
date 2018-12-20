@@ -3,7 +3,7 @@ $(document).ready(function() {
 	// 01
 	var bf01 = new Date("2018/11/10 00:00");
 	if (now.getTime() > bf01.getTime()) {
-		$('#a_100').attr("href","https://special-lineup.abema.tv/pages/2463920/animation-1227");
+		$('#a_101').attr("href","https://special-lineup.abema.tv/pages/2463920/animation-1227");
 	}
 	var bf01 = new Date("2018/12/28 00:00");
 	if (now.getTime() > bf01.getTime()) {
