@@ -67,6 +67,9 @@ header {
 	width: 750px;
 	margin: 0 auto 48px auto;
 	display: flex;
+	section {
+		width: 660px;
+	}
 	h1 {
 		display: block;
 		font-size: 32px;
@@ -90,6 +93,9 @@ header {
 				img {
 					min-width: 270px;
 				}
+			}
+			div {
+				width: 100%;
 			}
 			h2 {
 				display: flex;
@@ -126,33 +132,6 @@ header {
 		margin-bottom: 0;
 	}
 }
-
-// IE11
-@media all and (-ms-high-contrast:none){
-  *::-ms-backdrop,  /* IE11 */
-  .main {
-	section {
-		flex: 1 1 100%;
-	}
-	li {
-		a {
-			div {
-				flex-shrink: 100;
-			}
-			h2 {
-				.title {
-					flex-shrink: 100;
-				}
-				.tag {
-					flex-shrink: 100;
-					display: table;
-				}
-			}
-		}
-	}
-}
-}
-
 
 article:nth-of-type(5) {
 	margin: 0 auto 65px auto;

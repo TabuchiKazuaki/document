@@ -20,12 +20,14 @@ header p { max-width: 152px; padding: 13px 0 10px 15px; }
 header div { background: url(https://goo.gl/zfGwFA) 0 0 no-repeat; background-size: cover; }
 
 .main { width: 750px; margin: 0 auto 48px auto; display: -webkit-box; display: -ms-flexbox; display: flex; }
+.main section { width: 660px; }
 .main h1 { display: block; font-size: 32px; font-weight: bold; text-align: center; width: 90px; }
 .main h1 span { font-size: 26px; font-weight: bold; }
 .main li { margin-bottom: 48px; }
 .main li a { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: #FFF; }
 .main li a figure { width: 270px; margin-right: 24px; }
 .main li a figure img { min-width: 270px; }
+.main li a div { width: 100%; }
 .main li a h2 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin-bottom: 10px; font-size: 28px; font-weight: normal; }
 .main li a h2 .title { display: block; font-size: 28px; font-weight: normal; }
 .main li a h2 .tag { display: block; font-size: 20px; padding: 3px 8px 3px 8px; background-color: #f0173a; border-radius: 4px; }
@@ -33,10 +35,6 @@ header div { background: url(https://goo.gl/zfGwFA) 0 0 no-repeat; background-si
 .main li a .detail-txt { font-size: 26px; line-height: 1.4em; }
 .main li:last-child { margin-bottom: 0; }
 
-@media all and (-ms-high-contrast: none) { *::-ms-backdrop section, .main section { -ms-flex: 1 1 100%; flex: 1 1 100%; }
-  *::-ms-backdrop li a div, .main li a div { -ms-flex-negative: 100; flex-shrink: 100; }
-  *::-ms-backdrop li a h2 .title, .main li a h2 .title { -ms-flex-negative: 100; flex-shrink: 100; }
-  *::-ms-backdrop li a h2 .tag, .main li a h2 .tag { -ms-flex-negative: 100; flex-shrink: 100; display: table; } }
 article:nth-of-type(5) { margin: 0 auto 65px auto; }
 
 .other-link { width: 702px; margin: 0 auto 64px auto; }
