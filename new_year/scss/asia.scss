@@ -206,9 +206,11 @@ header {
 		display: flex;
 		flex-flow: row wrap;
 		 li {
+			position: relative;
 		 	width: 47.5%;
 			justify-content: flex-end;
 			box-sizing: border-box;
+			padding: 0 0 120px;
 			margin: 3% 0 0 5%;
 			figure {
 				line-height: 0;
@@ -241,6 +243,10 @@ header {
 			}
 
 			.d_btn {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 100%;
 				margin: 20px 0 35px;
 				a {
 					display: block;
@@ -610,6 +616,7 @@ footer {
 			 	width: 47.5%;
 				justify-content: flex-end;
 				box-sizing: border-box;
+				padding: 0 0 17.8%;
 				margin: 3% 0 0 5%;
 				figure {
 					line-height: 0;
@@ -942,9 +949,11 @@ footer {
 			display: flex;
 			flex-flow: row wrap;
 			 li {
+			 	position: relative;
 			 	width: 47.5%;
 				justify-content: flex-end;
 				box-sizing: border-box;
+				padding: 0 0 120px;
 				margin: 3% 0 0 5%;
 				figure {
 					line-height: 0;
