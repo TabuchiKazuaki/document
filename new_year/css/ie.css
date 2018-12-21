@@ -1,7 +1,9 @@
-.tw_open {
-  display: none !important;
-}
+@media all and (-ms-high-contrast: none) {
+  .tw_open {
+    display: none !important;
+  }
 
-.tw_ie {
-  display: block !important;
+  .tw_ie {
+    display: block !important;
+  }
 }
