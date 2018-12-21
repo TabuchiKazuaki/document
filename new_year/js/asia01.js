@@ -61,7 +61,7 @@ $(document).ready(function() {
 	 var bf05 = new Date("2019/01/05 23:27");
 	 if (now.getTime() > bf05.getTime()) {
 		$('#a_05').text('ビデオを見る');
-		$('#a_05').attr("href","https://abema.tv/video/title/26-40");
+		$('#a_05').attr("href","https://abema.tv/video/title/193-59");
 	 }
 
 	  // 06 前
@@ -74,7 +74,7 @@ $(document).ready(function() {
 	 var bf06 = new Date("2019/01/06 20:25");
 	 if (now.getTime() > bf06.getTime()) {
 		$('#a_06').text('ビデオを見る');
-		$('#a_06').attr("href","https://abema.tv/video/title/26-40");
+		$('#a_06').attr("href","https://abema.tv/video/title/193-43");
 	 }
 
 	  // 07 前
@@ -113,7 +113,7 @@ $(document).ready(function() {
 	 var bf09 = new Date("2019/12/27 23:30");
 	 if (now.getTime() > bf09.getTime()) {
 		$('#a_09').text('ビデオを見る');
-		$('#a_09').attr("href","https://abema.tv/video/title/25-101");
+		$('#a_09').attr("href","https://abema.tv/video/title/458-1");
 	 }
 
 	   //10 前
@@ -126,7 +126,7 @@ $(document).ready(function() {
 	 var bf10 = new Date("2019/01/03 01:13");
 	 if (now.getTime() > bf10.getTime()) {
 		$('#a_10').text('ビデオを見る');
-		$('#a_10').attr("href","https://abema.tv/video/title/25-101");
+		$('#a_10').attr("href","https://abema.tv/video/title/213-21_s0_p1");
 	 }
 
 	   //11前
@@ -139,7 +139,7 @@ $(document).ready(function() {
 	 var bf11 = new Date("2019/01/04 01:15");
 	 if (now.getTime() > bf11.getTime()) {
 		$('#a_11').text('ビデオを見る');
-		$('#a_11').attr("href","https://abema.tv/video/title/25-101");
+		$('#a_11').attr("href","https://abema.tv/video/title/213-20_s0_p1");
 	 }
 
 });
