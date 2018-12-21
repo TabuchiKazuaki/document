@@ -12,7 +12,6 @@ $(document).ready(function() {
 		$('#a_01').text('ビデオを見る');
 		$('#a_01').attr("href","https://abema.tv/video/title/90-980");
 		// $('#a_01').css({'background':'#ccc', 'border':'#ccc' , 'color':'#777'});
-		$('#a_01').attr("href","--");
 	}
 	 // 02 前
 	 var bf02 = new Date("2018/11/06");

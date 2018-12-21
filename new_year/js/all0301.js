@@ -11,8 +11,6 @@ $(document).ready(function() {
 	if (now.getTime() > bf01.getTime()) {
 		$('#a_01').text('ビデオを見る');
 		$('#a_01').attr("href","https://abema.tv/video/title/90-1120");
-		// $('#a_01').css({'background':'#ccc', 'border':'#ccc' , 'color':'#777'});
-		$('#a_01').attr("href","--");
 	}
 	 // 02 前
 	 var bf02 = new Date("2018/11/06");

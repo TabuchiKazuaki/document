@@ -10,7 +10,6 @@ $(document).ready(function() {
 	var bf01 = new Date("2019/01/04 23:00");
 	if (now.getTime() > bf01.getTime()) {
 		$('#a_01').text('ビデオを見る');
-		// $('#a_01').css({'background':'#ccc', 'border':'#ccc' , 'color':'#777'});
 		$('#a_01').attr("href","https://abema.tv/video/title/50-44");
 	}
 	 // 02 前
