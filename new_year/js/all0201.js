@@ -45,7 +45,7 @@ $(document).ready(function() {
 		$('#a_04').attr("href","https://abema.tv/channels/drama/slots/F9PEpjHWAGJXFd");
 	 }
 	 // 後
-	 var bf04 = new Date("2019/01/03 00:30");
+	 var bf04 = new Date("2019/01/03 01:30");
 	 if (now.getTime() > bf04.getTime()) {
 		$('#a_04').text('放送終了しました');
 		$('#a_04').css({'background':'#ccc', 'border':'#ccc' , 'color':'#777'});
