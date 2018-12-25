@@ -97,7 +97,7 @@ $(document).ready(function() {
 		$('#a_08').attr("href","https://abema.tv/channels/k-world/slots/FFtVVBSdWXxutB");
 	 }
 	 // 後
-	 var bf08 = new Date("2019/01/06 22:30");
+	 var bf08 = new Date("2018/12/30 22:30");
 	 if (now.getTime() > bf08.getTime()) {
 		$('#a_08').text('詳細を見る');
 		// $('#a_08').attr("href","https://abema.tv/video/title/25-101");
@@ -107,10 +107,10 @@ $(document).ready(function() {
 	 var bf09 = new Date("2018/11/06");
 	 if (now.getTime() > bf09.getTime()) {
 		$('#a_09').text('視聴予約する');
-		$('#a_09').attr("href","https://abema.tv/channels/k-world/slots/CEfYkFjhHKGhuZ");
+		$('#a_09').attr("href","https://abema.tv/channels/k-world/slots/B7ASWECywCfU6s");
 	 }
 	 // 後
-	 var bf09 = new Date("2019/12/27 23:30");
+	 var bf09 = new Date("2019/01/01 23:30");
 	 if (now.getTime() > bf09.getTime()) {
 		$('#a_09').text('ビデオを見る');
 		$('#a_09').attr("href","https://abema.tv/video/title/458-1");
