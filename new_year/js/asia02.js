@@ -4,7 +4,7 @@ $(document).ready(function() {
 	var bf12 = new Date("2018/11/11");
 	if (now.getTime() > bf12.getTime()) {
 		$('#a_12').text('視聴予約する');
-		$('#a_12').attr("href","https://abema.tv/video/title/213-26");
+		$('#a_12').attr("href","https://abema.tv/channels/asia-drama/slots/DMKC4FpAzwoNr3");
 	}
 	// 遷移先 放送後 ビデオ
 	var bf12 = new Date("2019/01/05 01:27");
