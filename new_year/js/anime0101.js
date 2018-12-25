@@ -1,28 +1,28 @@
 $(document).ready(function() {
 	var now = new Date();
 	// 01 遷移先 放送前
-	var bf01 = new Date("2018/11/11");
-	if (now.getTime() > bf01.getTime()) {
-		$('#a_01').text('視聴予約する');
-		$('#a_01').attr("href","");
-	}
-	// 遷移先 放送後 ビデオ
-	var bf01 = new Date("");
-	if (now.getTime() > bf01.getTime()) {
-		$('#a_01').text('ビデオを見る');
-		$('#a_01').attr("href","");
-	}
+	// var bf01 = new Date("2018/11/11");
+	// if (now.getTime() > bf01.getTime()) {
+	// 	$('#a_01').text('視聴予約する');
+	// 	$('#a_01').attr("href","");
+	// }
+	// // 遷移先 放送後 ビデオ
+	// var bf01 = new Date("");
+	// if (now.getTime() > bf01.getTime()) {
+	// 	$('#a_01').text('ビデオを見る');
+	// 	$('#a_01').attr("href","");
+	// }
 	 // 02 前
 	 var bf02 = new Date("2018/11/06");
 	 if (now.getTime() > bf02.getTime()) {
 		$('#a_02').text('視聴予約する');
-		$('#a_02').attr("href","");
+		$('#a_02').attr("href","https://abema.tv/channels/abema-anime/slots/CgGCPRhhYdUJST");
 	 }
 	 // 後
-	 var bf02 = new Date("");
+	 var bf02 = new Date("2019/01/01 13:50");
 	 if (now.getTime() > bf02.getTime()) {
 		$('#a_02').text('ビデオを見る');
-		$('#a_02').attr("href","");
+		$('#a_02').attr("href","https://abema.tv/video/title/19-1");
 	 }
 
 	 // 03 前
