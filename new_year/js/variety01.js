@@ -139,7 +139,7 @@ $(document).ready(function() {
 		$('#a_11').attr("href","https://abema.tv/channels/abema-special/slots/9z3UqXd55FjPuq");
 	}
 	// 後
-	var bf11 = new Date("2018/12/29 00:00");
+	var bf11 = new Date("2018/12/29 01:00");
 		if (now.getTime() > bf11.getTime()) {
 		$('#a_11').text('ビデオを見る');
 		$('#a_11').attr("href","https://abema.tv/video/title/90-995");
