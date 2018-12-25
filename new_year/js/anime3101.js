@@ -22,7 +22,7 @@ $(document).ready(function() {
 	 var bf02 = new Date("");
 	 if (now.getTime() > bf02.getTime()) {
 		$('#a_02').text('ビデオを見る');
-		$('#a_02').attr("");
+		$('#a_02').attr("https://abema.tv/video/title/26-65");
 	 }
 
 	 // 03 前
@@ -34,8 +34,8 @@ $(document).ready(function() {
 	 // 後
 	 var bf03 = new Date("");
 	 if (now.getTime() > bf03.getTime()) {
-		$('#a_03').text('ビデオを見る');
-		$('#a_03').attr("href","");
+		$('#a_03').text('詳細を見る');
+		// $('#a_03').attr("href","");
 	 }
 
 	 // 04 前
@@ -47,8 +47,8 @@ $(document).ready(function() {
 	 // 後
 	 var bf04 = new Date("");
 	 if (now.getTime() > bf04.getTime()) {
-		$('#a_04').text('ビデオを見る');
-		$('#a_04').attr("href","");
+		$('#a_04').text('詳細を見る');
+		// $('#a_04').attr("href","");
 	 }
 
 	 // 05 前
