@@ -94,7 +94,7 @@ $(document).ready(function() {
 	 var bf08 = new Date("2018/11/06");
 	 if (now.getTime() > bf08.getTime()) {
 		$('#a_08').text('視聴予約する');
-		$('#a_08').attr("href","https://abema.tv/channels/k-world/slots/FFtVVBSdWXxutB");
+		$('#a_08').attr("href","https://abema.tv/channels/k-world/slots/FFtVTxjqP5bwqy");
 	 }
 	 // 後
 	 var bf08 = new Date("2018/12/30 22:30");
