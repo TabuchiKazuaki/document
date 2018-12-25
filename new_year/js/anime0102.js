@@ -19,10 +19,10 @@ $(document).ready(function() {
 		$('#a_02').attr("href","https://abema.tv/channels/abema-anime/slots/CEfYkFBqqn8N1d");
 	 }
 	 // 後
-	 var bf02 = new Date("");
+	 var bf02 = new Date("2019/01/02 22:55");
 	 if (now.getTime() > bf02.getTime()) {
 		$('#a_02').text('ビデオを見る');
-		$('#a_02').attr("href","");
+		$('#a_02').attr("href","https://abema.tv/video/title/26-11");
 	 }
 
 	 // 03 前
@@ -58,10 +58,10 @@ $(document).ready(function() {
 		$('#a_05').attr("href","https://abema.tv/channels/abema-anime-2/slots/CWxXQUTUF3viiB");
 	 }
 	 // 後
-	 var bf05 = new Date("");
+	 var bf05 = new Date("2019/01/02 18:00");
 	 if (now.getTime() > bf05.getTime()) {
 		$('#a_05').text('ビデオを見る');
-		$('#a_05').attr("href","");
+		$('#a_05').attr("href","https://abema.tv/video/title/54-26");
 	 }
 
 	  // 06 前
