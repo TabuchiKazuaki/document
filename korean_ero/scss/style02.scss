@@ -94,11 +94,10 @@ header {
 		.c_img {
 			margin: 18px 0 0;
 		}
+
 		.c_img_btn {
 			position: relative;
-			a {
-				display: block;
-			}
+			display: block;
 			&:before {
 				content: '';
 				position: absolute;
@@ -110,6 +109,7 @@ header {
 				height: 96px;
 			}
 		}
+
 	}
 
 	.point {
