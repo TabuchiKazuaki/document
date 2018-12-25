@@ -7,10 +7,10 @@ $(document).ready(function() {
 		$('#a_01').attr("href","https://abema.tv/channels/abema-anime-2/slots/C42MvYCoGXXmXM");
 	}
 	// 遷移先 放送後 ビデオ
-	var bf01 = new Date("");
+	var bf01 = new Date("2019/01/03 22:40");
 	if (now.getTime() > bf01.getTime()) {
 		$('#a_01').text('ビデオを見る');
-		$('#a_01').attr("href","");
+		$('#a_01').attr("href","https://abema.tv/video/title/25-90");
 	}
 	 // 02 前
 	 var bf02 = new Date("2018/11/06");
@@ -42,13 +42,13 @@ $(document).ready(function() {
 	 var bf04 = new Date("2018/11/06");
 	 if (now.getTime() > bf04.getTime()) {
 		$('#a_04').text('視聴予約する');
-		$('#a_04').attr("href","");
+		$('#a_04').attr("href","https://abema.tv/channels/abema-anime/slots/CWxXRNkdKsjR1q");
 	 }
 	 // 後
-	 var bf04 = new Date("");
+	 var bf04 = new Date("2019/01/03 23:00");
 	 if (now.getTime() > bf04.getTime()) {
 		$('#a_04').text('ビデオを見る');
-		$('#a_04').attr("href","");
+		$('#a_04').attr("href","https://abema.tv/video/title/420-11");
 	 }
 
 	 // 05 前
