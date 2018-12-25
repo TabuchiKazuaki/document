@@ -16,39 +16,39 @@ $(document).ready(function() {
 	 var bf02 = new Date("2018/11/06");
 	 if (now.getTime() > bf02.getTime()) {
 		$('#a_02').text('視聴予約する');
-		$('#a_02').attr("href","");
+		$('#a_02').attr("href","https://abema.tv/channels/abema-anime/slots/EaryVoeuVcn33D");
 	 }
 	 // 後
-	 var bf02 = new Date("");
+	 var bf02 = new Date("2019/01/04 14:40");
 	 if (now.getTime() > bf02.getTime()) {
 		$('#a_02').text('ビデオを見る');
-		$('#a_02').attr("href","");
+		$('#a_02').attr("href","https://abema.tv/video/title/409-1");
 	 }
 
 	 // 03 前
 	 var bf03 = new Date("2018/11/06");
 	 if (now.getTime() > bf03.getTime()) {
 		$('#a_03').text('視聴予約する');
-		$('#a_03').attr("href","");
+		$('#a_03').attr("href","https://abema.tv/channels/abema-anime/slots/Bprzm5PgRkZnAs");
 	 }
 	 // 後
-	 var bf03 = new Date("");
+	 var bf03 = new Date("2019/01/04 21:30");
 	 if (now.getTime() > bf03.getTime()) {
 		$('#a_03').text('ビデオを見る');
-		$('#a_03').attr("href","");
+		$('#a_03').attr("href","https://abema.tv/video/title/13-47_s5");
 	 }
 
 	 // 04 前
 	 var bf04 = new Date("2018/11/06");
 	 if (now.getTime() > bf04.getTime()) {
 		$('#a_04').text('視聴予約する');
-		$('#a_04').attr("href","");
+		$('#a_04').attr("href","https://abema.tv/channels/abema-anime/slots/CM1ChJeq5NVxxX");
 	 }
 	 // 後
-	 var bf04 = new Date("");
+	 var bf04 = new Date("2019/01/04 22:30");
 	 if (now.getTime() > bf04.getTime()) {
-		$('#a_04').text('ビデオを見る');
-		$('#a_04').attr("href","");
+		$('#a_04').text('詳細を見る');
+		// $('#a_04').attr("href","");
 	 }
 
 	 // 05 前
@@ -58,7 +58,7 @@ $(document).ready(function() {
 		$('#a_05').attr("href","https://abema.tv/channels/anime-live/slots/F25Uj5TrAjDhuy");
 	 }
 	 // 後
-	 var bf05 = new Date("2019/01/03 17:28");
+	 var bf05 = new Date("2019/01/05 01:57");
 	 if (now.getTime() > bf05.getTime()) {
 		$('#a_05').text('ビデオを見る');
 		$('#a_05').attr("href","https://abema.tv/video/title/25-2xrwzkrsieb");
