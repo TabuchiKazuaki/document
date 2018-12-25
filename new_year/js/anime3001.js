@@ -9,8 +9,8 @@ $(document).ready(function() {
 	// 遷移先 放送後 ビデオ
 	var bf01 = new Date("");
 	if (now.getTime() > bf01.getTime()) {
-		$('#a_01').text('ビデオを見る');
-		$('#a_01').attr("href","");
+		$('#a_01').text('詳細を見る');
+		// $('#a_01').attr("href","");
 	}
 	 // 02 前
 	 var bf02 = new Date("2018/11/06");
@@ -34,8 +34,8 @@ $(document).ready(function() {
 	 // 後
 	 var bf03 = new Date("");
 	 if (now.getTime() > bf03.getTime()) {
-		$('#a_03').text('ビデオを見る');
-		$('#a_03').attr("href","");
+		$('#a_03').text('詳細を見る');
+		// $('#a_03').attr("href","");
 	 }
 
 	 // 04 前

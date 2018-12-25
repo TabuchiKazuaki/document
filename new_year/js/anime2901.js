@@ -16,13 +16,13 @@ $(document).ready(function() {
 	 var bf02 = new Date("2018/11/06");
 	 if (now.getTime() > bf02.getTime()) {
 		$('#a_02').text('視聴予約する');
-		$('#a_02').attr("href","");
+		$('#a_02').attr("href","https://abema.tv/channels/abema-anime/slots/CgjWhhFxUFDzRm");
 	 }
 	 // 後
 	 var bf02 = new Date("");
 	 if (now.getTime() > bf02.getTime()) {
-		$('#a_02').text('ビデオを見る');
-		$('#a_02').attr("");
+		$('#a_02').text('詳細を見る');
+		// $('#a_02').attr("");
 	 }
 
 	 // 03 前
