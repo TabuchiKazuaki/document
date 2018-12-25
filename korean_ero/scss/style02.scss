@@ -92,7 +92,18 @@ header {
 			color: #8c8c8c;
 		}
 		.c_img {
+			position: relative;
 			margin: 18px 0 0;
+			&:before {
+				content: '';
+				position: absolute;
+				top: 38%;
+				left: 44%;
+				background: url(https://bit.ly/2AVjBdi) 0 0 no-repeat;
+				background-size: 96px 96px;
+				width: 96px;
+				height: 96px;
+			}
 		}
 	}
 
@@ -293,6 +304,13 @@ footer {
 			}
 			.c_img {
 				margin: 3% 0 0;
+				&:before {
+					top: 38%;
+					left: 44%;
+					background-size: 75px 75px;
+					width: 75px;
+					height: 75px;
+				}
 			}
 		}
 
@@ -468,6 +486,13 @@ footer {
 			}
 			.c_img {
 				margin: 3% 0 0;
+				&:before {
+					top: 37%;
+					left: 43%;
+					background-size: 48px 48px;
+					width: 48px;
+					height: 48px;
+				}
 			}
 		}
 
