@@ -16,6 +16,7 @@ body li {
 }
 
 a {
+  -webkit-transition: .3s;
   transition: .3s;
   text-decoration: none;
 }
@@ -149,10 +150,12 @@ header .h_main {
   margin: 38px auto 0;
 }
 .line .days {
-  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 0 25px;
   border-bottom: 2px solid #e62e00;
 }
@@ -208,14 +211,22 @@ header .h_main {
   color: #fff;
 }
 .contents .col_double {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
 }
 .contents .col_double li {
   position: relative;
   width: 47.5%;
-  justify-content: flex-end;
-  box-sizing: border-box;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0 0 120px;
   margin: 3% 0 0 5%;
 }
@@ -435,6 +446,11 @@ footer small {
     opacity: 1;
   }
 }
+@-webkit-keyframes item_list {
+  100% {
+    opacity: 1;
+  }
+}
 @keyframes item_list {
   100% {
     opacity: 1;
@@ -607,13 +623,21 @@ footer small {
     color: #e62e00;
   }
   .contents .col_double {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
   }
   .contents .col_double li {
     width: 47.5%;
-    justify-content: flex-end;
-    box-sizing: border-box;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding: 0 0 17.8%;
     margin: 3% 0 0 5%;
   }
@@ -913,14 +937,22 @@ footer small {
     border-radius: 5px;
   }
   .contents .col_double {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
   }
   .contents .col_double li {
     position: relative;
     width: 47.5%;
-    justify-content: flex-end;
-    box-sizing: border-box;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding: 0 0 120px;
     margin: 3% 0 0 5%;
   }
