@@ -73,7 +73,7 @@ $(document).ready(function() {
 		$('#a_06').attr("href","https://abema.tv/channels/asia-drama/slots/DMKC5UbNKhL7rP");
 	}
 	// 後
-	var bf06 = new Date("2019/01/02 01:15");
+	var bf06 = new Date("2019/01/01 21:25");
 		if (now.getTime() > bf06.getTime()) {
 		$('#a_06').text('ビデオを見る');
 		$('#a_06').attr("href","https://abema.tv/video/title/158-43_s0_p1");

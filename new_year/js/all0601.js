@@ -29,12 +29,12 @@ $(document).ready(function() {
 	 var bf03 = new Date("2018/11/06");
 	 if (now.getTime() > bf03.getTime()) {
 		$('#a_03').text('視聴予約する');
-		$('#a_03').attr("href","https://abema.tv/channels/aibo/slots/B734J7WgCs7PfV");
+		$('#a_03').attr("href","https://abema.tv/channels/aibo/slots/B6fegW21jR4TWF");
 	 }
 	 // 後
 	 var bf03 = new Date("2019/01/06 17:30")
 	 if (now.getTime() > bf03.getTime()) {
 		$('#a_03').text('ビデオを見る');
-		$('#a_03').attr("href","https://abema.tv/video/title/50-45");
+		$('#a_03').attr("href","https://abema.tv/video/title/50-46");
 	 }
 });
