@@ -19,10 +19,10 @@ $(document).ready(function() {
 		$('#a_02').attr("href","https://abema.tv/channels/abema-anime/slots/BihgAda8DGEDew");
 	 }
 	 // 後
-	 var bf02 = new Date("2019/01/02 00:15");
+	 var bf02 = new Date("2019/012/27 13:27");
 	 if (now.getTime() > bf02.getTime()) {
-		$('#a_02').text('ビデオを見る');
-		$('#a_02').attr("");
+		$('#a_02').text('詳細を見る');
+		// $('#a_02').attr("");
 	 }
 
 	 // 03 前

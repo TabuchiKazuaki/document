@@ -21,8 +21,8 @@ $(document).ready(function() {
 	 // 後
 	 var bf02 = new Date("");
 	 if (now.getTime() > bf02.getTime()) {
-		$('#a_02').text('ビデオを見る');
-		$('#a_02').attr("");
+		$('#a_02').text('詳細を見る');
+		// $('#a_02').attr("");
 	 }
 
 	 // 03 前
