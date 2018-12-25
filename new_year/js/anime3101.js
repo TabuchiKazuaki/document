@@ -19,7 +19,7 @@ $(document).ready(function() {
 		$('#a_02').attr("href","https://abema.tv/channels/fate-hf/slots/C1dZkAduoLiXVR");
 	 }
 	 // 後
-	 var bf02 = new Date("");
+	 var bf02 = new Date("2018/12/31 21:00");
 	 if (now.getTime() > bf02.getTime()) {
 		$('#a_02').text('ビデオを見る');
 		$('#a_02').attr("https://abema.tv/video/title/26-65");
@@ -32,7 +32,7 @@ $(document).ready(function() {
 		$('#a_03').attr("href","https://abema.tv/channels/fate-hf/slots/DgmzygvwtFYDpK");
 	 }
 	 // 後
-	 var bf03 = new Date("");
+	 var bf03 = new Date("2019/01/01 00:00");
 	 if (now.getTime() > bf03.getTime()) {
 		$('#a_03').text('詳細を見る');
 		// $('#a_03').attr("href","");
@@ -45,7 +45,7 @@ $(document).ready(function() {
 		$('#a_04').attr("href","https://abema.tv/channels/abema-anime-2/slots/Bi4mEjKFjjT5uy");
 	 }
 	 // 後
-	 var bf04 = new Date("");
+	 var bf04 = new Date("2018/12/23 23:00");
 	 if (now.getTime() > bf04.getTime()) {
 		$('#a_04').text('詳細を見る');
 		// $('#a_04').attr("href","");

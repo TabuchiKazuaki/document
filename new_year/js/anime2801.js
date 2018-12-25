@@ -19,7 +19,7 @@ $(document).ready(function() {
 		$('#a_02').attr("href","https://abema.tv/channels/abema-anime/slots/BihgEGckrT7dsm");
 	 }
 	 // 後
-	 var bf02 = new Date("");
+	 var bf02 = new Date("2018/12/28 13:27");
 	 if (now.getTime() > bf02.getTime()) {
 		$('#a_02').text('詳細を見る');
 		// $('#a_02').attr("");

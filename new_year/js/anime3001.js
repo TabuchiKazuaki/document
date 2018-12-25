@@ -7,7 +7,7 @@ $(document).ready(function() {
 		$('#a_01').attr("href","https://abema.tv/channels/abema-anime/slots/BihgAeHz21hz9D");
 	}
 	// 遷移先 放送後 ビデオ
-	var bf01 = new Date("");
+	var bf01 = new Date("2018/12/30 13:30");
 	if (now.getTime() > bf01.getTime()) {
 		$('#a_01').text('詳細を見る');
 		// $('#a_01').attr("href","");
@@ -32,7 +32,7 @@ $(document).ready(function() {
 		$('#a_03').attr("href","https://abema.tv/channels/anime-live/slots/FCAvQYE7cnd6EB");
 	 }
 	 // 後
-	 var bf03 = new Date("");
+	 var bf03 = new Date("2018/12/31 07:57");
 	 if (now.getTime() > bf03.getTime()) {
 		$('#a_03').text('詳細を見る');
 		// $('#a_03').attr("href","");
