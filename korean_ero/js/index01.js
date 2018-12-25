@@ -79,13 +79,13 @@ $(document).ready(function() {
 	var bf04 = new Date("2018/11/06");
 	if (now.getTime() > bf04.getTime()) {
 		$('#a_04').text('視聴予約する');
-		$('#a_04').attr("href","https://abema.tv/video/episode/68-25_s0_p1");
+		$('#a_04').attr("href","https://abema.tv/video/episode/274-8_s0_p1");
 	}
 	// 遷移先 放送後
 	var bf04 = new Date("2018/12/25 0:00");
 	if (now.getTime() > bf04.getTime()) {
 		$('#a_04').text('ビデオをみる');
-		$('#a_04').attr("href","https://abema.tv/video/episode/68-25_s0_p1");
+		$('#a_04').attr("href","https://abema.tv/video/episode/274-8_s0_p1");
 	}
 
 	// 05 遷移先 放送前
