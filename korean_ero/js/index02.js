@@ -32,8 +32,8 @@ $(document).ready(function() {
 	// 遷移先 放送後
 	var bf07 = new Date("2019/01/2 01:15");
 	if (now.getTime() > bf07.getTime()) {
-		// $('#a_07').text('ビデオをみる');
-		// $('#a_07').attr("href","https://abema.tv/video/episode/158-20_s0_p1");
+		$('#a_07').text('ビデオをみる');
+		$('#a_07').attr("href","https://abema.tv/video/episode/158-43_s0_p1");
 	}
 
 
@@ -47,7 +47,7 @@ $(document).ready(function() {
 	var bf08 = new Date("2019/01/03 01:15");
 	if (now.getTime() > bf08.getTime()) {
 		$('#a_08').text('ビデオをみる');
-		$('#a_08').attr("href","https://abema.tv/video/title/213-21");
+		$('#a_08').attr("href","https://abema.tv/video/episode/213-21_s0_p1");
 	}
 
 	// 09 遷移先 放送前
@@ -60,7 +60,7 @@ $(document).ready(function() {
 	var bf09 = new Date("2019/01/04 01:15");
 	if (now.getTime() > bf09.getTime()) {
 		$('#a_09').text('ビデオをみる');
-		$('#a_09').attr("href","https://abema.tv/video/title/213-20");
+		$('#a_09').attr("href","https://abema.tv/video/episode/213-20_s0_p1");
 	}
 });
 

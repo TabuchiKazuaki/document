@@ -111,7 +111,7 @@ $(document).ready(function() {
 	var bf06 = new Date("2019/01/01 01:12");
 	if (now.getTime() > bf06.getTime()) {
 		// $('#a_06').text('ビデオをみる');
-		$('#a_06').attr("href","https://abema.tv/channels/asia-drama/slots/BprzieBYLTAjo5");
+		$('#a_06').attr("href","https://abema.tv/video/episode/158-44_s0_p1");
 	}
 });
 
