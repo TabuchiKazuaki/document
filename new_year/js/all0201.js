@@ -45,7 +45,7 @@ $(document).ready(function() {
 		$('#a_04').attr("href","https://abema.tv/channels/drama/slots/F9PEpjHWAGJXFd");
 	 }
 	 // 後
-	 var bf04 = new Date("2019/01/03 01:30");
+	 var bf04 = new Date("2019/01/02 22:57");
 	 if (now.getTime() > bf04.getTime()) {
 		$('#a_04').text('詳細を見る');
 	 }
