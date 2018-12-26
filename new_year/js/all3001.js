@@ -9,9 +9,7 @@ $(document).ready(function() {
 	// 遷移先 放送後 ビデオ
 	var bf01 = new Date("2018/12/30 10:00");
 	if (now.getTime() > bf01.getTime()) {
-		$('#a_01').text('放送終了しました');
-		$('#a_01').css({'background':'#ccc', 'border':'#ccc' , 'color':'#777'});
-		$('#a_01').attr("href","--");
+		$('#a_01').text('詳細を見る');
 	}
 	 // 02 前
 	 var bf02 = new Date("2018/11/06");
