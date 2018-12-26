@@ -93,22 +93,20 @@ header .h_main {
 .entry .e_item li:after {
   content: '1';
   position: absolute;
-  top: 1;
-  left: 12px;
+  top: 2px;
+  left: 26px;
   font-size: 25px;
   color: #fff;
 }
 .entry .e_item li:first-child {
-  margin: 0;
-}
-.entry .e_item li:nth-child(2) {
   text-indent: -14px;
+  margin: 0;
 }
 .entry .e_item li:nth-child(2):after {
   content: '2';
   position: absolute;
-  top: 1px;
-  left: 27px;
+  top: 1.5px;
+  left: 12px;
   color: #fff;
 }
 .entry .e_btn {
@@ -555,21 +553,19 @@ footer small {
     content: '1';
     position: absolute;
     top: 1px;
-    left: 9px;
+    left: 22px;
     font-size: 23px;
     color: #fff;
   }
   .entry .e_item li:first-child {
-    margin: 0;
-  }
-  .entry .e_item li:nth-child(2) {
     text-indent: -14px;
+    margin: 0;
   }
   .entry .e_item li:nth-child(2):after {
     content: '2';
     position: absolute;
-    top: 1px;
-    left: 23px;
+    top: 0.7px;
+    left: 9px;
     color: #fff;
   }
   .entry .e_btn {
@@ -902,21 +898,19 @@ footer small {
     content: '1';
     position: absolute;
     top: 0;
-    left: 6px;
+    left: 13.5px;
     font-size: 15px;
     color: #fff;
   }
   .entry .e_item li:first-child {
-    margin: 0;
-  }
-  .entry .e_item li:nth-child(2) {
     text-indent: -8px;
+    margin: 0;
   }
   .entry .e_item li:nth-child(2):after {
     content: '2';
     position: absolute;
     top: 0;
-    left: 14px;
+    left: 6px;
     color: #fff;
   }
   .entry .e_btn {
