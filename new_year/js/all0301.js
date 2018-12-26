@@ -32,11 +32,10 @@ $(document).ready(function() {
 		$('#a_03').attr("href","https://abema.tv/channels/fighting-sports/slots/FCAvQqoPQjzkRV");
 	 }
 	 // 後
-	 // var bf03 = new Date("2019/01/02 0:15")
-	 // if (now.getTime() > bf03.getTime()) {
-		// $('#a_03').text('ビデオを見る');
-		// $('#a_03').attr("href","https://abema.tv/video/title/90-1139");
-	 // }
+	 var bf03 = new Date("2019/01/03 22:00")
+	 if (now.getTime() > bf03.getTime()) {
+		$('#a_03').text('詳細を見る');
+	 }
 
 	 // 04 前
 	 var bf04 = new Date("2018/11/06");
