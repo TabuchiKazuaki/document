@@ -24,18 +24,7 @@ $(document).ready(function() {
 		$('#a_02').attr("href","https://abema.tv/video/title/90-493");
 	 }
 
-	 // 03 前
-	 var bf03 = new Date("2018/11/06");
-	 if (now.getTime() > bf03.getTime()) {
-		$('#a_03').text('視聴予約する');
-		$('#a_03').attr("href","--");
-	 }
-	 // 後
-	 var bf03 = new Date("2018/12/29 23:00")
-	 if (now.getTime() > bf03.getTime()) {
-		$('#a_03').text('ビデオを見る');
-		$('#a_03').attr("href","--");
-	 }
+
 
 	 // 04 前
 	 var bf04 = new Date("2018/11/06");

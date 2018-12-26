@@ -48,7 +48,6 @@ $(document).ready(function() {
 	 var bf04 = new Date("2019/01/05 23:55");
 	 if (now.getTime() > bf04.getTime()) {
 		$('#a_04').text('詳細を見る');
-		// $('#a_04').attr("href","");
 	 }
 
 	 // 05 前
