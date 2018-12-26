@@ -153,8 +153,8 @@ header .h_main {
   border-bottom: 2px solid #e62e00;
 }
 .line .days li {
-  float: left;
   margin: 0 0 0 0;
+  text-align: center;
 }
 .line .days li a {
   display: block;
@@ -320,8 +320,8 @@ header .h_main {
   border-bottom: 2px solid #e62e00;
 }
 .line_b .days li {
-  float: left;
   margin: 0 0 0 0;
+  text-align: center;
 }
 .line_b .days li a {
   display: block;
@@ -550,7 +550,7 @@ footer small {
     margin: 5% auto 0;
   }
   .line .days {
-    padding: 0 2%;
+    padding: 0 3.5%;
     border-bottom: 1.5px solid #e62e00;
   }
   .line .days li {
@@ -559,12 +559,16 @@ footer small {
   .line .days li a {
     display: inline-block;
     padding: 5% 7%;
-    margin: 0 0 0 5%;
+    margin: 0 0 0;
     font-size: calc(59vw/12);
-    line-height: 1.1;
+    line-height: 1;
     letter-spacing: 1.3px;
   }
+  .line .days li .num_l {
+    padding: 2% 0 0;
+  }
   .line .days li .active {
+    padding: 3% 9% 7%;
     border-bottom: 3px solid #e62e00;
   }
 
@@ -673,7 +677,7 @@ footer small {
     margin: 6% auto 0;
   }
   .line_b .days {
-    padding: 0 2%;
+    padding: 0 3.5%;
     border-bottom: 1.5px solid #e62e00;
   }
   .line_b .days li {
@@ -682,12 +686,16 @@ footer small {
   .line_b .days li a {
     display: inline-block;
     padding: 5% 7%;
-    margin: 0 0 0 5%;
+    margin: 0 0 0;
     font-size: calc(59vw/12);
-    line-height: 1.1;
+    line-height: 1;
     letter-spacing: 1.3px;
   }
+  .line_b .days li .num_l {
+    padding: 2% 0 0;
+  }
   .line_b .days li .active {
+    padding: 3% 9% 7%;
     border-bottom: 3px solid #e62e00;
   }
 
@@ -854,7 +862,7 @@ footer small {
     margin: 4% auto 0;
   }
   .line .days {
-    padding: 0 2%;
+    padding: 0 3.5%;
     border-bottom: 1px solid #e62e00;
   }
   .line .days li {
@@ -862,12 +870,13 @@ footer small {
   }
   .line .days li a {
     padding: 5% 7%;
-    margin: 0 0 0 5%;
+    margin: 0 0 0 0;
     font-size: calc(61vw/12);
-    line-height: 1.1;
+    line-height: 1;
     letter-spacing: 1.3px;
   }
   .line .days li .active {
+    padding: 5% 7% 7%;
     border-bottom: 2px solid #e62e00;
   }
 
@@ -971,21 +980,21 @@ footer small {
     margin: 6% auto 0;
   }
   .line_b .days {
-    padding: 0 2%;
+    padding: 0 3.5%;
     border-bottom: 1px solid #e62e00;
   }
   .line_b .days li {
     margin: 0 0 0;
   }
   .line_b .days li a {
-    display: inline-block;
     padding: 5% 7%;
-    margin: 0 0 0 5%;
+    margin: 0 0 0 0;
     font-size: calc(61vw/12);
-    line-height: 1.1;
+    line-height: 1;
     letter-spacing: 1.3px;
   }
   .line_b .days li .active {
+    padding: 5% 7% 7%;
     border-bottom: 2px solid #e62e00;
   }
 
