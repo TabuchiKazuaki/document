@@ -7,7 +7,7 @@ $(document).ready(function() {
 		$('#a_01').attr("href","https://abema.tv/channels/special-plus/slots/Aq2KaBfA72o3oD");
 	}
 	// 遷移先 放送後 ビデオ
-	var bf01 = new Date("2018/12/30 10:00");
+	var bf01 = new Date("2018/12/31 00:00");
 	if (now.getTime() > bf01.getTime()) {
 		$('#a_01').text('詳細を見る');
 	}
