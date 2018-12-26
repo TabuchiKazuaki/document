@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -383,9 +384,44 @@ footer {
   background: #eee;
   padding: 45px 0 45px;
 }
+footer .notes {
+  padding: 0 0 44px;
+  border-bottom: 1px solid #929292;
+}
+footer .notes .n_t {
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+}
+footer .notes .n_h {
+  margin: 43px 0 0;
+  font-size: 28px;
+  letter-spacing: 1.3px;
+  color: #727272;
+}
+footer .notes .n_item {
+  margin: 33px 0 0;
+}
+footer .notes .n_item li {
+  position: relative;
+  padding: 0 0 0 20px;
+  margin: 20px 0 0;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: 1.2px;
+  color: #727272;
+}
+footer .notes .n_item li:before {
+  content: '・';
+  position: absolute;
+  top: 5.5px;
+  left: -15px;
+  font-size: 42px;
+  line-height: 0.5;
+}
 footer .f_copy {
   overflow: hidden;
-  margin: 0 0 30px;
+  margin: 35px 0 30px;
 }
 footer .f_copy li {
   float: left;
@@ -736,8 +772,41 @@ footer small {
   footer {
     padding: 6% 0 6%;
   }
+  footer .notes {
+    padding: 0 0 6.6%;
+    border-bottom: 1px solid #929292;
+  }
+  footer .notes .n_t {
+    font-size: 27px;
+  }
+  footer .notes .n_h {
+    margin: 6% 0 0;
+    font-size: 25px;
+    letter-spacing: 1.2px;
+  }
+  footer .notes .n_item {
+    margin: 5% 0 0;
+  }
+  footer .notes .n_item li {
+    padding: 0 0 0 20px;
+    margin: 20px 0 0;
+    font-size: 22px;
+    line-height: 1.25;
+    letter-spacing: 1.15px;
+  }
+  footer .notes .n_item li:before {
+    content: '・';
+    position: absolute;
+    top: 5.5px;
+    left: -15px;
+    font-size: 40px;
+    line-height: 0.5;
+  }
+  footer .notes .n_item li:first-child {
+    margin: 0;
+  }
   footer .f_copy {
-    margin: 0 0 4.5%;
+    margin: 4.5% 0 4.5%;
   }
   footer .f_copy li {
     margin: 0 2% 0 0;
@@ -1039,10 +1108,40 @@ footer small {
   }
 
   footer {
-    padding: 6% 0 6%;
+    padding: 8% 0 6%;
+  }
+  footer .notes {
+    padding: 0 0 6.6%;
+    border-bottom: 1px solid #929292;
+  }
+  footer .notes .n_t {
+    font-size: 15px;
+  }
+  footer .notes .n_h {
+    margin: 6.2% 0 0;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+  }
+  footer .notes .n_item {
+    margin: 3% 0 0;
+  }
+  footer .notes .n_item li {
+    padding: 0 0 0 13px;
+    margin: 9px 0 0;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+  }
+  footer .notes .n_item li:before {
+    content: '・';
+    position: absolute;
+    top: 5px;
+    left: -5px;
+    font-size: 18px;
+    line-height: 0.5;
   }
   footer .f_copy {
-    margin: 0 0 4.5%;
+    margin: 5% 0 4.5%;
   }
   footer .f_copy li {
     margin: 0 2% 0 0;
