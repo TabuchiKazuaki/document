@@ -47,8 +47,6 @@ $(document).ready(function() {
 	 // 後
 	 var bf04 = new Date("2019/01/03 01:30");
 	 if (now.getTime() > bf04.getTime()) {
-		$('#a_04').text('放送終了しました');
-		$('#a_04').css({'background':'#ccc', 'border':'#ccc' , 'color':'#777'});
-		$('#a_04').attr("href","javascript:void(0)");
+		$('#a_04').text('詳細を見る');
 	 }
 });
