@@ -10,19 +10,19 @@ $(document).ready(function() {
 	var bf01 = new Date("2018/12/30 13:30");
 	if (now.getTime() > bf01.getTime()) {
 		$('#a_01').text('詳細を見る');
-		// $('#a_01').attr("href","");
 	}
-	 // 02 前
-	 var bf02 = new Date("2018/11/06");
-	 if (now.getTime() > bf02.getTime()) {
+
+	  // 02 前
+	 var bf022 = new Date("2018/11/06");
+	 if (now.getTime() > bf022.getTime()) {
 		$('#a_02').text('視聴予約する');
 		$('#a_02').attr("href","https://abema.tv/channels/anime-live/slots/FCAvS46qgUgoJ7");
 	 }
 	 // 後
-	 var bf02 = new Date("2018/12/30 19:47");
-	 if (now.getTime() > bf02.getTime()) {
+	 var bf022 = new Date("2018/12/30 19:47");
+	 if (now.getTime() > bf022.getTime()) {
 		$('#a_02').text('ビデオを見る');
-		$('#a_02').attr("https://abema.tv/video/title/25-5at-idi-yic");
+		$('#a_02').attr("href","https://abema.tv/video/title/25-5at-idi-yic");
 	 }
 
 	 // 03 前
@@ -35,7 +35,6 @@ $(document).ready(function() {
 	 var bf03 = new Date("2018/12/31 07:57");
 	 if (now.getTime() > bf03.getTime()) {
 		$('#a_03').text('詳細を見る');
-		// $('#a_03').attr("href","");
 	 }
 
 	 // 04 前
