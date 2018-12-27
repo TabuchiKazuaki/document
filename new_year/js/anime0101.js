@@ -21,8 +21,7 @@ $(document).ready(function() {
 	 // 後
 	 var bf02 = new Date("2019/01/01 13:50");
 	 if (now.getTime() > bf02.getTime()) {
-		$('#a_02').text('ビデオを見る');
-		$('#a_02').attr("href","https://abema.tv/video/title/19-1");
+		$('#a_02').text('詳細を見る');
 	 }
 
 	 // 03 前
