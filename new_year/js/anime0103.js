@@ -55,7 +55,7 @@ $(document).ready(function() {
 	 var bf05 = new Date("2018/11/06");
 	 if (now.getTime() > bf05.getTime()) {
 		$('#a_05').text('視聴予約する');
-		$('#a_05').attr("href","https://abema.tv/channels/anime-live/slots/AY6RrV3oiJFo1h");
+		$('#a_05').attr("href","https://abema.tv/channels/anime-live/slots/F25UjyvpVbvhUT");
 	 }
 	 // 後
 	 var bf05 = new Date("2019/01/03 6:28");
