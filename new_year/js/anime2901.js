@@ -55,13 +55,13 @@ $(document).ready(function() {
 	 var bf05 = new Date("2018/11/06");
 	 if (now.getTime() > bf05.getTime()) {
 		$('#a_05').text('視聴予約する');
-		$('#a_05').attr("href","https://abema.tv/channels/everybody-anime/slots/B6fefJKShvzTkb");
+		$('#a_05').attr("href","https://abema.tv/channels/abema-anime/slots/9k3Pi4f15EV4kf");
 	 }
 	 // 後
-	 var bf05 = new Date("2018/12/29 21:40");
+	 var bf05 = new Date("2018/12/29 00:30");
 	 if (now.getTime() > bf05.getTime()) {
 		$('#a_05').text('ビデオを見る');
-		$('#a_05').attr("href","https://abema.tv/video/title/12-17");
+		$('#a_05').attr("href","https://abema.tv/video/title/26-58");
 	 }
 
 	 // 06 前
