@@ -32,7 +32,7 @@ $(document).ready(function() {
 		$('#a_03').attr("href","https://abema.tv/channels/anime-live/slots/CgGCPRgBsKZni3");
 	 }
 	 // 後
-	 var bf03 = new Date("2019/01/04 01:00");
+	 var bf03 = new Date("2019/01/03 01:00");
 	 if (now.getTime() > bf03.getTime()) {
 		$('#a_03').text('ビデオを見る');
 		$('#a_03').attr("href","https://abema.tv/video/title/25-106");

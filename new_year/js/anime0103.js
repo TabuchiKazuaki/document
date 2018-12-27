@@ -58,7 +58,7 @@ $(document).ready(function() {
 		$('#a_05').attr("href","https://abema.tv/channels/anime-live/slots/AY6RrV3oiJFo1h");
 	 }
 	 // 後
-	 var bf05 = new Date("2019/01/03 17:28");
+	 var bf05 = new Date("2019/01/03 6:28");
 	 if (now.getTime() > bf05.getTime()) {
 		$('#a_05').text('ビデオを見る');
 		$('#a_05').attr("href","https://abema.tv/video/title/117-6zrzjibaxzh");
