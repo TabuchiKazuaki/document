@@ -21,7 +21,7 @@ vertical-align: baseline;
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, picture {
+footer, header, hgroup, menu, nav, section, picture, main {
 display: block;
 }
 
@@ -133,6 +133,7 @@ main {
 					background-color: #51c300;
 					border: none;
 					font-size: 25px;
+					font-weight: 600;
 					padding: 11px 0 11px 0;
 					cursor: pointer;
 				}
@@ -218,7 +219,7 @@ footer {
 			}
 			li:after {
 				content: ' \007c ';
-				color: #919191;
+				color: #919191 !important;
 			}
 			li:last-child:after {
 				content: '';
@@ -267,7 +268,6 @@ main {
 	}
 	h1 {
 		font-size: calc(56vw/12);
-		font-weight: 500;
 		padding-bottom: 1.5%;
 		margin-bottom: 4%;
 	}
@@ -289,7 +289,6 @@ main {
 					dd {
 						h2 {
 							font-size: calc(47vw/12);
-							font-weight: 500;
 							margin-bottom: 1%;
 						}
 						p {
@@ -338,7 +337,6 @@ main {
 		a {
 			width: 55%;
 			font-size: calc(47vw/12);
-			font-weight: 500;
 			border: solid 1px #50c300;
 			border-radius: 3px;
 			padding: 3% 0 3% 0;
