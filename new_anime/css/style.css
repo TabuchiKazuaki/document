@@ -15,9 +15,10 @@ img { width: 100%; height: auto; }
 .week .active { border-bottom: solid 4px #50c300; }
 .week .active a { color: #FFF; }
 
-header { width: 750px; margin: 0 auto 35px auto; }
+header { width: 100%; margin: 0 auto 35px auto; }
 header p { max-width: 152px; padding: 13px 0 10px 15px; }
-header div { background: url(https://goo.gl/zfGwFA) 0 0 no-repeat; background-size: cover; }
+header div { background: url(https://bit.ly/2BP9PKj) center top no-repeat; background-size: cover; }
+header div img { width: 750px; display: block; margin: 0 auto; }
 
 .main { width: 750px; margin: 0 auto 48px auto; display: -webkit-box; display: -ms-flexbox; display: flex; }
 .main section { width: 660px; }
@@ -63,6 +64,8 @@ footer small { display: block; font-size: 16px; color: #919191; }
 
 @media screen and (max-width: 768px) { header { width: 100%; margin: 0 auto 5% auto; }
   header p { max-width: 21%; padding: 2% 0 2% 3%; }
+  header div { background: url(https://goo.gl/zfGwFA) center top no-repeat; background-size: cover; }
+  header div img { width: 100%; }
   .week { width: 100%; margin: 0 auto 6.5% auto; }
   .week li { padding-bottom: 1%; }
   .week li a { font-size: calc(65vw/12); }

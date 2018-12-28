@@ -51,15 +51,20 @@ img  { width: 100%; height: auto;}
 
 
 header {
-	width:750px;
+	width: 100%;
 	margin: 0 auto 35px auto;
 	p {
 		max-width: 152px;
 		padding: 13px 0 10px 15px;
 	}
 	div {
-		background: url(https://goo.gl/zfGwFA) 0 0 no-repeat;
+		background: url(https://bit.ly/2BP9PKj) center top no-repeat;
 		background-size: cover;
+		img {
+			width: 750px;
+			display: block;
+			margin: 0 auto;
+		}
 	}
 }
 
@@ -256,6 +261,13 @@ header {
 	p {
 		max-width: 21%;
 		padding: 2% 0 2% 3%;
+	}
+	div {
+		background: url(https://goo.gl/zfGwFA) center top no-repeat;
+		background-size: cover;
+		img {
+			width: 100%;
+		}
 	}
 }
 
