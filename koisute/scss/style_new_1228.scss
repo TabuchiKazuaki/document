@@ -635,6 +635,23 @@ img  { width: 100%;}
 			content: '大阪男子・北海道女子編';
 		}
 	}
+	.sixth {
+		&:before {
+			content: '東京男子・関西女子編';
+		}
+	}
+	.sixth_s {
+		.parson_item {
+			li {
+				&:nth-child(4) {
+					margin: 0 0 0 2.5%;
+				}
+			}
+		}
+		&:before {
+			content: '九州男子・東京女子編';
+		}
+	}
 }
 
 @media screen and (max-width: 1024px) {
@@ -835,6 +852,23 @@ img  { width: 100%;}
 		.fifth_s {
 			&:before {
 				content: '大阪男子・北海道女子編';
+			}
+		}
+		.sixth {
+			&:before {
+				content: '東京男子・関西女子編';
+			}
+		}
+		.sixth_s {
+			.parson_item {
+				li {
+					&:nth-child(4) {
+						margin: 0 0 0 2.5%;
+					}
+				}
+			}
+			&:before {
+				content: '九州男子・東京女子編';
 			}
 		}
 	}
@@ -1055,6 +1089,23 @@ img  { width: 100%;}
 		.fifth_s {
 			&:before {
 				content: '大阪男子・北海道女子編';
+			}
+		}
+		.sixth {
+			&:before {
+				content: '東京男子・関西女子編';
+			}
+		}
+		.sixth_s {
+			.parson_item {
+				li {
+					&:nth-child(4) {
+						margin: 0 0 0 2%;
+					}
+				}
+			}
+			&:before {
+				content: '九州男子・東京女子編';
 			}
 		}
 	}
@@ -1941,7 +1992,7 @@ img  { width: 100%;}
 		.cast_mens_item_mens_sp {
 			margin: 4% 0 0;
 			&:before {
-				content: '関西男子';
+				content: '北海道男子';
 				top: 30%;
 				color: #0096ff;
 			}
@@ -2399,7 +2450,7 @@ img  { width: 100%;}
 		&:after {
 			content: '';
 			top: 45%;
-			left: 52.8%;
+			left: 56.8%;
 			background-size: 50px 50px;
 			width: 50px;
 			height: 50px;
@@ -2407,40 +2458,40 @@ img  { width: 100%;}
 	}
 	.cast_inner_box_sec {
 		&:after {
-			left: 40.4%;
+			left: 37.5%;
 		}
 	}
 	.cast_women_item {
-		width: 54.5%;
+		width: 58%;
 		padding: 3% 2% 2% 2%;
 		margin: 0;
 		li {
-			width: 23.5%;
+			width: 31.4%;
 			margin: 0 0 0 2%;
 		}
 	}
 	.cast_mens_item {
-		width: 43%;
-		padding: 3% 2% 1.6% 2%;
+		width: 39%;
+		padding: 3% 2% 2% 2%;
 		margin: 0;
 		li {
-			width: 31%;
+			width: 48.3%;
 			margin: 0 0 0 2%;
 		}
 	}
 	.cast_women_item_sec {
-		width: 42%;
+		width: 39%;
 		li {
-			width: 31.3%;
+			width: 48.3%;
 			margin: 0 0 0 3%;
 		}
 	}
 	.cast_mens_item_sec {
-		width: 55%;
-		padding: 3% 2% 2.5% 2%;
+		width: 58%;
+		padding: 3% 2% 2.3% 2%;
 
 		li {
-			width: 22.6%;
+			width: 31.3%;
 			margin: 0 0 0 3%;
 		}
 	}
