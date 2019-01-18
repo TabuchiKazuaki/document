@@ -305,7 +305,11 @@ footer {
 		color: #919191;
 	}
 }
-
+@media screen and (max-width: 1200px) {
+	header {
+		margin: 0.7% 0 0;
+	}
+}
 @media screen and (max-width: 768px) {
 	.wrap {
 		padding: 0 2.5% 0;
