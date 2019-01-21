@@ -251,8 +251,8 @@ footer .footer_item li a {
 footer .footer_item li a:hover {
   text-decoration: underline;
 }
-footer .footer_item li:after:last-child {
-  content: '';
+footer .footer_item li:last-child:after {
+  content: ' ';
 }
 footer small {
   display: block;

@@ -230,8 +230,10 @@ footer {
 					text-decoration: underline;
 				}
 			}
-			&:after:last-child {
-				content: '';
+			&:last-child {
+				&:after {
+					content: ' ';
+				}
 			}
 		}
 	}
