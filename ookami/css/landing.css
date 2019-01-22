@@ -15,6 +15,10 @@ body li {
   list-style: none;
 }
 
+body {
+  overflow-y: hidden;
+}
+
 a {
   -webkit-transition: .3s;
   transition: .3s;
@@ -64,8 +68,10 @@ header .h_wrap {
   max-width: 768px;
   margin: 0 auto;
 }
-header .wrap {
-  background: url(https://bit.ly/2Wehefw) center center no-repeat;
+header .j_wrap {
+  background: url(https://bit.ly/2HnG8pG) center center no-repeat;
+  max-width: 1198px;
+  margin: 0 auto;
   background-size: cover;
   padding: 39px 0;
 }
@@ -287,6 +293,10 @@ footer small {
   header .wrap {
     padding: 5.2% 0;
   }
+  header .j_wrap {
+    background: url(https://bit.ly/2Wehefw) center center no-repeat;
+    padding: 5.3% 0;
+  }
   header .header_logo {
     max-width: 160px;
     width: 80%;
@@ -465,6 +475,9 @@ footer small {
   }
   header .wrap {
     padding: 5.2% 0 4.4%;
+  }
+  header .j_wrap {
+    padding: 5.2% 0;
   }
   header .header_logo {
     max-width: 95px;
