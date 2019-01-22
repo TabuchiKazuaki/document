@@ -277,8 +277,8 @@ footer {
 			padding: 5.2% 0;
 		}
 		.j_wrap {
-			background: url(https://bit.ly/2Wehefw) center center no-repeat;
-			background-size: contain;
+			background: url(https://bit.ly/2Wehefw) 0 0 no-repeat;
+			background-size: cover;
 			padding: 5.4% 0;
 		}
 		.header_logo {
@@ -465,7 +465,7 @@ footer {
 			padding: 5.2% 0 4.4%;
 		}
 		.j_wrap {
-			background-size: contain;
+			background-size: cover;
 			padding: 4.5% 0;
 		}
 		.header_logo {
@@ -643,7 +643,16 @@ footer {
 }
 
 @media screen and (max-width: 414px) {
-
+	header {
+		.wrap {
+			padding: 5.2% 0;
+		}
+		.j_wrap {
+			background: url(https://bit.ly/2Wehefw) center center no-repeat;
+			background-size: cover;
+			padding: 5.4% 0;
+		}
+	}
 }
 
 

@@ -290,8 +290,8 @@ footer small {
     padding: 5.2% 0;
   }
   header .j_wrap {
-    background: url(https://bit.ly/2Wehefw) center center no-repeat;
-    background-size: contain;
+    background: url(https://bit.ly/2Wehefw) 0 0 no-repeat;
+    background-size: cover;
     padding: 5.4% 0;
   }
   header .header_logo {
@@ -474,7 +474,7 @@ footer small {
     padding: 5.2% 0 4.4%;
   }
   header .j_wrap {
-    background-size: contain;
+    background-size: cover;
     padding: 4.5% 0;
   }
   header .header_logo {
@@ -647,6 +647,16 @@ footer small {
     margin: 4% 0 0;
     font-size: calc(26vw/17);
     letter-spacing: 0;
+  }
+}
+@media screen and (max-width: 414px) {
+  header .wrap {
+    padding: 5.2% 0;
+  }
+  header .j_wrap {
+    background: url(https://bit.ly/2Wehefw) center center no-repeat;
+    background-size: cover;
+    padding: 5.4% 0;
   }
 }
 @-webkit-keyframes item_sp {
