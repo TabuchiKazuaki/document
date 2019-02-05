@@ -66,4 +66,17 @@ $(document).ready(function() {
 });
 
 
+var menuHeight = $(".fix_item").height();
+var startPos = 0;
+$(window).on('scroll', function(){
+	var currentPos = $(this).scrollTop();
+	if (currentPos > startPos) {
+		if($(window).scrollTop() >= 200) {
+		  $(".fix_item").css("bottom", "-" + menuHeight + "px");
+		}
+	} else {
+		$(".fix_item").css("bottom", 0 + "px");
+	}
+	startPos = currentPos;
+});
 

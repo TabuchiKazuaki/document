@@ -18,39 +18,23 @@ img  { width: 100%;}
 .fix_item {
 	position: fixed;
 	overflow: hidden;
-	top: 0;
+	bottom: 0;
 	left: 0;
 	background: rgba(255, 255, 255, 0.9);
 	width: 100%;
 	z-index: 10000;
+	transition: .5s all;
 	.fix_wrap {
-		max-width: 680px;
-		padding: 25px 0 30px;
+		max-width: 750px;
+		padding: 17px 0 19px;
 		margin: 0 auto 0;
-	}
-	.img_01 {
-		max-width: 258px;
-		margin: 0 auto;
-	}
-	.img_02 {
-		max-width: 199px;
-		margin: 0 auto;
-	}
-	.img_03 {
-		max-width: 232px;
-		margin: 0 auto;
-	}
-	.img_04 {
-		max-width: 293px;
-		margin: 0 auto;
 	}
 	.fix_list {
 		overflow: hidden;
-		margin: 36px 0 0;
 		li {
 			float: left;
-			background: #eb6a7a;
-			width: 32%;
+			background: #fff;
+			width: 23.5%;
 			margin: 0 0 0 2%;
 			border-radius: 6px;
 			box-sizing: border-box;
@@ -59,11 +43,19 @@ img  { width: 100%;}
 			}
 			a {
 				display: block;
-				padding: 8px 0 5px;
+				border: 4px solid #df2c6c;
+				padding: 12px 0 12px;
+				border-radius: 6px;
 				text-align: center;
+				box-sizing: border-box;
 				img {
-					max-width: 195px;
+					max-width: 83px;
+					line-height: 0;
 				}
+			}
+			.active_a {
+				background: #df2c6c;
+
 			}
 		}
 	}
@@ -71,31 +63,33 @@ img  { width: 100%;}
 
 @media screen and (max-width: 768px) {
 	.fix_item {
+		bottom: 0;
+		left: 0;
 		.fix_wrap {
-			width: 92%;
-			padding: 3.2% 0 3.5%;
-		}
-		.fix_heading {
-			text-align: center;
-			img {
-				width: 80%;
-			}
-		}
-		.img_01 {
-
+			padding: 2.4% 2.5% 2.4%;
+			margin: 0 auto 0;
 		}
 		.fix_list {
-			margin: 5% 0 0;
 			li {
-				border-radius: 5px;
+				width: 23.5%;
+				margin: 0 0 0 2%;
+				border-radius: 4.5px;
 				&:nth-child(1) {
 					margin: 0;
 				}
 				a {
-					padding: 5% 0 4%;
+					height: auto;
+					border: 3px solid #df2c6c;
+					padding: 6% 0;
+					border-radius: 5px;
+					text-align: center;
+					box-sizing: border-box;
 					img {
-						width: 80%;
+						width: 53%;
 					}
+				}
+				.active_a {
+					background: #df2c6c;
 				}
 			}
 		}
@@ -104,30 +98,29 @@ img  { width: 100%;}
 
 @media screen and (max-width: 480px) {
 	.fix_item {
+		bottom: 0;
+		left: 0;
 		.fix_wrap {
-			width: 92%;
-			padding: 3.2% 0 3.5%;
-		}
-		.fix_heading {
-			text-align: center;
-			img {
-				width: 60%;
-			}
-		}
-		.img_01 {
-
+			padding: 2.4% 2.5% 2.4%;
+			margin: 0 auto 0;
 		}
 		.fix_list {
-			margin: 4% 0 0;
 			li {
-				border-radius: 5px;
+				width: 23.5%;
+				margin: 0 0 0 2%;
+				border-radius: 4.5px;
 				&:nth-child(1) {
 					margin: 0;
 				}
 				a {
-					padding: 4.6% 0 3.8%;
+					height: auto;
+					border: 2px solid #df2c6c;
+					padding: 6% 0;
+					border-radius: 6px;
+					text-align: center;
+					box-sizing: border-box;
 					img {
-						width: 80%;
+						width: 51%;
 					}
 				}
 			}

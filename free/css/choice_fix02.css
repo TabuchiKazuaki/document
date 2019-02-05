@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1;
+  min-width: 320px;
+  font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important;
+  color: #000;
+  margin: 0 auto;
+  background: #fdfdfd;
+}
+body li {
+  list-style: none;
+}
+
+a {
+  -webkit-transition: .3s;
+  transition: .3s;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  opacity: .8;
+}
+
+img {
+  width: 100%;
+}
+
+.fix_item {
+  position: fixed;
+  overflow: hidden;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  z-index: 10000;
+  -webkit-transition: .5s all;
+  transition: .5s all;
+}
+.fix_item .fix_wrap {
+  max-width: 750px;
+  padding: 17px 0 19px;
+  margin: 0 auto 0;
+}
+.fix_item .fix_list {
+  overflow: hidden;
+}
+.fix_item .fix_list li {
+  float: left;
+  background: #fff;
+  width: 23.5%;
+  margin: 0 0 0 2%;
+  border-radius: 6px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.fix_item .fix_list li:nth-child(1) {
+  margin: 0;
+}
+.fix_item .fix_list li a {
+  display: block;
+  border: 4px solid #df2c6c;
+  padding: 12px 0 12px;
+  border-radius: 6px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.fix_item .fix_list li a img {
+  max-width: 83px;
+  line-height: 0;
+}
+.fix_item .fix_list li .active_a {
+  background: #df2c6c;
+}
+
+@media screen and (max-width: 768px) {
+  .fix_item {
+    bottom: 0;
+    left: 0;
+  }
+  .fix_item .fix_wrap {
+    padding: 2.4% 2.5% 2.4%;
+    margin: 0 auto 0;
+  }
+  .fix_item .fix_list li {
+    width: 23.5%;
+    margin: 0 0 0 2%;
+    border-radius: 4.5px;
+  }
+  .fix_item .fix_list li:nth-child(1) {
+    margin: 0;
+  }
+  .fix_item .fix_list li a {
+    height: auto;
+    border: 3px solid #df2c6c;
+    padding: 6% 0;
+    border-radius: 5px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .fix_item .fix_list li a img {
+    width: 53%;
+  }
+  .fix_item .fix_list li .active_a {
+    background: #df2c6c;
+  }
+}
+@media screen and (max-width: 480px) {
+  .fix_item {
+    bottom: 0;
+    left: 0;
+  }
+  .fix_item .fix_wrap {
+    padding: 2.4% 2.5% 2.4%;
+    margin: 0 auto 0;
+  }
+  .fix_item .fix_list li {
+    width: 23.5%;
+    margin: 0 0 0 2%;
+    border-radius: 4.5px;
+  }
+  .fix_item .fix_list li:nth-child(1) {
+    margin: 0;
+  }
+  .fix_item .fix_list li a {
+    height: auto;
+    border: 2px solid #df2c6c;
+    padding: 6% 0;
+    border-radius: 6px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .fix_item .fix_list li a img {
+    width: 51%;
+  }
+}
