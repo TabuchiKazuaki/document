@@ -1,0 +1,136 @@
+*{margin: 0; padding:0;}
+body { line-height: 1; min-width: 320px; font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important; color: #000; margin: 0 auto; background: #fdfdfd;
+	li {
+		list-style: none;
+	}
+}
+a {
+	transition: .3s;
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+		opacity: .8;
+	}
+}
+img  { width: 100%;}
+
+
+.fix_item {
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.9);
+	width: 100%;
+	z-index: 10000;
+	.fix_wrap {
+		max-width: 680px;
+		padding: 25px 0 30px;
+		margin: 0 auto 0;
+	}
+	.img_01 {
+		max-width: 258px;
+		margin: 0 auto;
+	}
+	.img_02 {
+		max-width: 199px;
+		margin: 0 auto;
+	}
+	.img_03 {
+		max-width: 232px;
+		margin: 0 auto;
+	}
+	.img_04 {
+		max-width: 293px;
+		margin: 0 auto;
+	}
+	.fix_list {
+		overflow: hidden;
+		margin: 36px 0 0;
+		li {
+			float: left;
+			background: #eb6a7a;
+			width: 32%;
+			margin: 0 0 0 2%;
+			border-radius: 6px;
+			box-sizing: border-box;
+			&:nth-child(1) {
+				margin: 0;
+			}
+			a {
+				display: block;
+				padding: 8px 0 5px;
+				text-align: center;
+				img {
+					max-width: 195px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.fix_item {
+		.fix_wrap {
+			width: 92%;
+			padding: 3.2% 0 3.5%;
+		}
+		.fix_heading {
+			text-align: center;
+			img {
+				width: 80%;
+			}
+		}
+		.img_01 {
+
+		}
+		.fix_list {
+			margin: 5% 0 0;
+			li {
+				border-radius: 5px;
+				&:nth-child(1) {
+					margin: 0;
+				}
+				a {
+					padding: 5% 0 4%;
+					img {
+						width: 80%;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.fix_item {
+		.fix_wrap {
+			width: 92%;
+			padding: 3.2% 0 3.5%;
+		}
+		.fix_heading {
+			text-align: center;
+			img {
+				width: 60%;
+			}
+		}
+		.img_01 {
+
+		}
+		.fix_list {
+			margin: 4% 0 0;
+			li {
+				border-radius: 5px;
+				&:nth-child(1) {
+					margin: 0;
+				}
+				a {
+					padding: 4.6% 0 3.8%;
+					img {
+						width: 80%;
+					}
+				}
+			}
+		}
+	}
+}
