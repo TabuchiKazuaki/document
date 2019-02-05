@@ -9,7 +9,7 @@ body {
   font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important;
   color: #000;
   margin: 0 auto;
-  background: #fdfdfd;
+  background: #000;
 }
 body li {
   list-style: none;
@@ -51,6 +51,7 @@ header .header_heading {
 }
 
 .content_wrap {
+  background: #fdfdfd;
   padding: 29px 0 29px;
 }
 .content_wrap .content_inner {
@@ -210,7 +211,7 @@ header .header_heading {
 }
 
 .banner {
-  background: #efefef;
+  background: #fdfdfd;
   padding: 73px 0 60px;
 }
 .banner .banner_wrap {
@@ -619,6 +620,6 @@ header .header_heading {
   .footer_area small {
     margin: 8.5% auto 0;
     font-size: calc(35vw/12);
-    letter-spacing: 1.35px;
+    letter-spacing: 0.8px;
   }
 }
