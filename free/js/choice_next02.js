@@ -65,18 +65,21 @@ $(document).ready(function() {
 	 });
 });
 
-
-var menuHeight = $(".fix_item").height();
-var startPos = 0;
-$(window).scroll(function(){
-  var currentPos = $(this).scrollTop();
-  if (currentPos > startPos) {
-    if($(window).scrollTop() >= 200) {
-      $(".fix_item").css("bottom", "-" + menuHeight + "px");
-    }
-  } else {
-    $(".fix_item").css("bottom", 0 + "px");
-  }
-  startPos = currentPos;
-
+$(window).bind("load", function(){
+	if(document.URL.match(/2234172/) ) {
+		var menuHeight = $(".choice_fix").height();
+		var startPos = 0;
+		$(window).scroll(function(){
+		  var currentPos = $(this).scrollTop();
+		  if (currentPos > startPos) {
+			if($(window).scrollTop() >= 200) {
+			  $(".choice_fix").css("bottom", "-" + menuHeight + "px");
+			}
+		  } else {
+			$(".choice_fix").css("bottom", 0 + "px");
+		  }
+		  startPos = currentPos;
+		});
+	}
 });
+
