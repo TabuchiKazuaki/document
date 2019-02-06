@@ -65,8 +65,10 @@ $(document).ready(function() {
 	 });
 });
 
+
+// テスト02
 $(window).bind("load", function(){
-	if(document.URL.match(/2234172/) ) {
+	if(document.URL.match(/2583633/) ) {
 		var menuHeight = $(".choice_fix").height();
 		var startPos = 0;
 		$(window).scroll(function(){
