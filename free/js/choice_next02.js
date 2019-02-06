@@ -76,7 +76,7 @@ $(window).bind("load", function(){
 			  $(".choice_fix").css("bottom", "-" + menuHeight + "px");
 			}
 		  } else {
-			$(".choice_fix").css("bottom", 0 + "px");
+			// $(".choice_fix").css("bottom", 0 + "px");
 		  }
 		  startPos = currentPos;
 		});
