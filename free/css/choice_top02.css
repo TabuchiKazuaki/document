@@ -55,14 +55,12 @@ header .header_heading {
 }
 
 .h_c {
-  position: relative;
   background: #efefef;
-  padding: 42px 0 29px;
+  padding: 42px 0 25px;
 }
 .h_c .content_inner {
   position: relative;
   max-width: 768px;
-  padding: 0 0 120px;
   margin: 0 auto;
 }
 .h_c .c_h {
@@ -75,6 +73,9 @@ header .header_heading {
 }
 .h_c .c_h span {
   font-size: 28px;
+}
+.h_c .content_ballon {
+  margin: 3.2% auto 0;
 }
 
 .content_wrap {
@@ -324,16 +325,6 @@ header .header_heading {
   height: 9px;
 }
 
-.content_ballon {
-  position: absolute;
-  bottom: 11%;
-  left: 14%;
-  -webkit-transform: translate(0, 0px);
-          transform: translate(0, 0px);
-  -webkit-animation: ani 0.5s ease 0s infinite alternate none running;
-          animation: ani 0.5s ease 0s infinite alternate none running;
-}
-
 @-webkit-keyframes ani {
   0% {
     -webkit-transform: translateY(0px);
@@ -413,11 +404,6 @@ header .header_heading {
   color: #d2d2d2;
 }
 
-.content_ballon {
-  max-width: 560px;
-  margin: 50px auto 0;
-}
-
 @media screen and (max-width: 768px) {
   header .header_logo {
     padding: 2% 0 2% 4%;
@@ -437,7 +423,6 @@ header .header_heading {
     padding: 5.5% 0 4%;
   }
   .h_c .content_inner {
-    padding: 0 0 16%;
     margin: 0 auto;
   }
   .h_c .c_h {
@@ -450,6 +435,10 @@ header .header_heading {
   }
   .h_c .c_h span {
     font-size: calc(48vw/12);
+  }
+  .h_c .content_ballon {
+    width: 73%;
+    margin: 3% auto 0;
   }
 
   .content_wrap {
@@ -560,7 +549,7 @@ header .header_heading {
 
   .c_a {
     width: 92%;
-    padding: 3% 4% 0;
+    padding: 1% 4% 0;
     margin: 0 auto 0;
   }
   .c_a .wp {
@@ -731,12 +720,6 @@ header .header_heading {
     right: 0;
     font-size: 18px;
   }
-
-  .content_ballon {
-    width: 76%;
-    margin: 5% auto 0;
-    left: 11.7%;
-  }
 }
 @media screen and (max-width: 480px) {
   header .header_logo {
@@ -754,10 +737,7 @@ header .header_heading {
   }
 
   .h_c {
-    padding: 5.5% 0 5%;
-  }
-  .h_c .content_inner {
-    padding: 0 0 19%;
+    padding: 5.5% 0 4%;
   }
   .h_c .c_h {
     line-height: 1.55;
@@ -876,7 +856,7 @@ header .header_heading {
 
   .c_a {
     width: 92%;
-    padding: 3% 4% 0;
+    padding: 1% 4% 0;
     padding: 0 auto 0;
   }
   .c_a .wp {
@@ -1045,12 +1025,6 @@ header .header_heading {
     top: 2px;
     right: 0;
     font-size: 18px;
-  }
-
-  .content_ballon {
-    width: 80%;
-    margin: 4% auto 0;
-    left: 9.7%;
   }
 }
 @-webkit-keyframes item_sp {
