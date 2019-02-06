@@ -73,10 +73,10 @@ $(window).bind("load", function(){
 		  var currentPos = $(this).scrollTop();
 		  if (currentPos > startPos) {
 			if($(window).scrollTop() >= 200) {
-			  $(".choice_fix").css("bottom", "-" + menuHeight + "px");
+			  // $(".choice_fix").css("bottom", "-" + menuHeight + "px");
 			}
 		  } else {
-			// $(".choice_fix").css("bottom", 0 + "px");
+			$(".choice_fix").css("bottom", 0 + "px");
 		  }
 		  startPos = currentPos;
 		});
