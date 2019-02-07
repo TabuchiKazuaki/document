@@ -102,7 +102,7 @@ $(window).bind("load", function(){
 	}
 
 	// 03
-	if(document.URL.match(/ /) ) {
+	if(document.URL.match(/2559385/) ) {
 		var menuHeight = $(".choice_fix").height();
 		var startPos = 0;
 		$(window).scroll(function(){
@@ -119,7 +119,7 @@ $(window).bind("load", function(){
 	}
 
 	// 04
-	if(document.URL.match(/ /) ) {
+	if(document.URL.match(/2585226/) ) {
 		var menuHeight = $(".choice_fix").height();
 		var startPos = 0;
 		$(window).scroll(function(){
