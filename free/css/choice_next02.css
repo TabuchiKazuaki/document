@@ -66,7 +66,7 @@ header .h_h04 {
 
 .content_wrap {
   background: #fdfdfd;
-  padding: 29px 0 29px;
+  padding: 29px 0 49px;
 }
 .content_wrap .content_inner {
   max-width: 768px;
@@ -217,6 +217,26 @@ header .h_h04 {
   margin: 0 0 0 8px;
   font-size: 28px;
   letter-spacing: -2.5px;
+}
+.content_wrap .s_top {
+  width: 80%;
+  margin: 40px auto 0;
+}
+.content_wrap .s_top a {
+  display: block;
+  background: #fff;
+  padding: 20px 0;
+  border: 2px solid #e02b6c;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  color: #e02b6c;
+}
+.content_wrap .s_top a:hover {
+  background: #e02b6c;
+  color: #fff;
 }
 
 .line {
@@ -413,6 +433,17 @@ header .h_h04 {
     font-size: calc(41vw/12);
     letter-spacing: -2.5px;
   }
+  .content_wrap .s_top {
+    width: 80%;
+    margin: 6% auto 0;
+  }
+  .content_wrap .s_top a {
+    padding: 4% 0;
+    border: 1.5px solid #e02b6c;
+    border-radius: 4px;
+    font-size: calc(44vw/12);
+    letter-spacing: 1.3px;
+  }
 
   .line {
     background: #efefef;
@@ -586,6 +617,17 @@ header .h_h04 {
     margin: 0 0 0 1.5%;
     font-size: calc(43vw/12);
     letter-spacing: -2.5px;
+  }
+  .content_wrap .s_top {
+    width: 80%;
+    margin: 6% auto 0;
+  }
+  .content_wrap .s_top a {
+    padding: 4% 0;
+    border: 1px solid #e02b6c;
+    border-radius: 3px;
+    font-size: calc(46vw/12);
+    letter-spacing: 1.4px;
   }
 
   .line {
