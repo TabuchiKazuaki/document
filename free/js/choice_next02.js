@@ -67,92 +67,92 @@ $(document).ready(function() {
 
 
 // テスト01
-$(window).bind("load", function(){
-	// 01
-	if(document.URL.match(/2583752/) ) {
-		var menuHeight = $(".choice_fix").height();
-		var startPos = 0;
-		$(window).scroll(function(){
-		  var currentPos = $(this).scrollTop();
-		  if (currentPos > startPos) {
-			if($(window).scrollTop() >= 200) {
-			  // $(".choice_fix").css("bottom", "-" + menuHeight + "px");
-			}
-		  } else {
-			$(".choice_fix").css("bottom", 0 + "px");
-		  }
-		  startPos = currentPos;
-		});
-	}
-	// 02
-	if(document.URL.match(/2583633/) ) {
-		var menuHeight = $(".choice_fix").height();
-		var startPos = 0;
-		$(window).scroll(function(){
-		  var currentPos = $(this).scrollTop();
-		  if (currentPos > startPos) {
-			if($(window).scrollTop() >= 200) {
-			  // $(".choice_fix").css("bottom", "-" + menuHeight + "px");
-			}
-		  } else {
-			$(".choice_fix").css("bottom", 0 + "px");
-		  }
-		  startPos = currentPos;
-		});
-	}
+// $(window).bind("load", function(){
+// 	// 01
+// 	if(document.URL.match(/2583752/) ) {
+// 		var menuHeight = $(".choice_fix").height();
+// 		var startPos = 0;
+// 		$(window).scroll(function(){
+// 		  var currentPos = $(this).scrollTop();
+// 		  if (currentPos > startPos) {
+// 			if($(window).scrollTop() >= 200) {
+// 			  // $(".choice_fix").css("bottom", "-" + menuHeight + "px");
+// 			}
+// 		  } else {
+// 			$(".choice_fix").css("bottom", 0 + "px");
+// 		  }
+// 		  startPos = currentPos;
+// 		});
+// 	}
+// 	// 02
+// 	if(document.URL.match(/2583633/) ) {
+// 		var menuHeight = $(".choice_fix").height();
+// 		var startPos = 0;
+// 		$(window).scroll(function(){
+// 		  var currentPos = $(this).scrollTop();
+// 		  if (currentPos > startPos) {
+// 			if($(window).scrollTop() >= 200) {
+// 			  // $(".choice_fix").css("bottom", "-" + menuHeight + "px");
+// 			}
+// 		  } else {
+// 			$(".choice_fix").css("bottom", 0 + "px");
+// 		  }
+// 		  startPos = currentPos;
+// 		});
+// 	}
 
-	// 03
-	if(document.URL.match(/2559385/) ) {
-		var menuHeight = $(".choice_fix").height();
-		var startPos = 0;
-		$(window).scroll(function(){
-		  var currentPos = $(this).scrollTop();
-		  if (currentPos > startPos) {
-			if($(window).scrollTop() >= 200) {
-			  // $(".choice_fix").css("bottom", "-" + menuHeight + "px");
-			}
-		  } else {
-			$(".choice_fix").css("bottom", 0 + "px");
-		  }
-		  startPos = currentPos;
-		});
-	}
+// 	// 03
+// 	if(document.URL.match(/2559385/) ) {
+// 		var menuHeight = $(".choice_fix").height();
+// 		var startPos = 0;
+// 		$(window).scroll(function(){
+// 		  var currentPos = $(this).scrollTop();
+// 		  if (currentPos > startPos) {
+// 			if($(window).scrollTop() >= 200) {
+// 			  // $(".choice_fix").css("bottom", "-" + menuHeight + "px");
+// 			}
+// 		  } else {
+// 			$(".choice_fix").css("bottom", 0 + "px");
+// 		  }
+// 		  startPos = currentPos;
+// 		});
+// 	}
 
-	// 04
-	if(document.URL.match(/2585226/) ) {
-		var menuHeight = $(".choice_fix").height();
-		var startPos = 0;
-		$(window).scroll(function(){
-		  var currentPos = $(this).scrollTop();
-		  if (currentPos > startPos) {
-			if($(window).scrollTop() >= 200) {
-			  // $(".choice_fix").css("bottom", "-" + menuHeight + "px");
-			}
-		  } else {
-			$(".choice_fix").css("bottom", 0 + "px");
-		  }
-		  startPos = currentPos;
-		});
-	}
-});
+// 	// 04
+// 	if(document.URL.match(/2585226/) ) {
+// 		var menuHeight = $(".choice_fix").height();
+// 		var startPos = 0;
+// 		$(window).scroll(function(){
+// 		  var currentPos = $(this).scrollTop();
+// 		  if (currentPos > startPos) {
+// 			if($(window).scrollTop() >= 200) {
+// 			  // $(".choice_fix").css("bottom", "-" + menuHeight + "px");
+// 			}
+// 		  } else {
+// 			$(".choice_fix").css("bottom", 0 + "px");
+// 		  }
+// 		  startPos = currentPos;
+// 		});
+// 	}
+// });
 
 
-// テスト02
-$(window).bind("load", function(){
-	if(document.URL.match(/2583633/) ) {
-		var menuHeight = $(".choice_fix").height();
-		var startPos = 0;
-		$(window).scroll(function(){
-		  var currentPos = $(this).scrollTop();
-		  if (currentPos > startPos) {
-			if($(window).scrollTop() >= 200) {
-			  // $(".choice_fix").css("bottom", "-" + menuHeight + "px");
-			}
-		  } else {
-			$(".choice_fix").css("bottom", 0 + "px");
-		  }
-		  startPos = currentPos;
-		});
-	}
-});
+// // テスト02
+// $(window).bind("load", function(){
+// 	if(document.URL.match(/2583633/) ) {
+// 		var menuHeight = $(".choice_fix").height();
+// 		var startPos = 0;
+// 		$(window).scroll(function(){
+// 		  var currentPos = $(this).scrollTop();
+// 		  if (currentPos > startPos) {
+// 			if($(window).scrollTop() >= 200) {
+// 			  // $(".choice_fix").css("bottom", "-" + menuHeight + "px");
+// 			}
+// 		  } else {
+// 			$(".choice_fix").css("bottom", 0 + "px");
+// 		  }
+// 		  startPos = currentPos;
+// 		});
+// 	}
+// });
 
