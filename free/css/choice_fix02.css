@@ -112,7 +112,8 @@ img {
 }
 @media screen and (max-width: 480px) {
   .choice_fix {
-    bottom: 0;
+    opacity: 0;
+    bottom: -100px;
     left: 0;
   }
   .choice_fix .fix_wrap {
@@ -130,7 +131,7 @@ img {
   .choice_fix .fix_list li a {
     height: auto;
     border: 2px solid #df2c6c;
-    padding: 6% 0;
+    padding: 5% 0;
     border-radius: 6px;
     text-align: center;
     -webkit-box-sizing: border-box;

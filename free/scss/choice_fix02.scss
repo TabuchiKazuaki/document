@@ -98,7 +98,8 @@ img  { width: 100%;}
 
 @media screen and (max-width: 480px) {
 	.choice_fix {
-		bottom: 0;
+		opacity: 0;
+		bottom: -100px;
 		left: 0;
 		.fix_wrap {
 			padding: 2.4% 2.5% 2.4%;
