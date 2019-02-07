@@ -32,7 +32,7 @@ img {
 .choice_fix {
   position: fixed;
   overflow: hidden;
-  bottom: -200px;
+  bottom: 0;
   left: 0;
   background: rgba(255, 255, 255, 0.9);
   width: 100%;
@@ -79,7 +79,7 @@ img {
 
 @media screen and (max-width: 768px) {
   .choice_fix {
-    bottom: -140px;
+    bottom: 0;
     left: 0;
   }
   .choice_fix .fix_wrap {
@@ -112,7 +112,7 @@ img {
 }
 @media screen and (max-width: 480px) {
   .choice_fix {
-    bottom: -100px;
+    bottom: 0;
     left: 0;
   }
   .choice_fix .fix_wrap {
