@@ -163,6 +163,16 @@ header {
 				font-size: 24px;
 				font-weight: bold;
 				color: #000;
+
+				.new {
+					display: inline-block;
+					background: #f0163a;
+					padding: 5px 8px;
+					margin: -1px 0 6px 0;
+					border-radius: 3px;
+					font-size: 15px;
+					color: #fff;
+				}
 			}
 			.now {
 				margin: 20px 0 0;
@@ -530,6 +540,12 @@ header {
 				.s_h {
 					line-height: 1.4;
 					font-size: calc(38vw/12);
+					.new {
+						padding: 1.2% 2.8%;
+						margin: -1px 0 2% 0;
+						border-radius: 3px;
+						font-size: calc(27vw/12);
+					}
 				}
 				.now {
 					margin: 3% 0 0;
@@ -857,6 +873,12 @@ header {
 				.s_h {
 					line-height: 1.4;
 					font-size: calc(40vw/12);
+					.new {
+						padding: 1.2% 2.8%;
+						margin: -1px 0 2% 0;
+						border-radius: 3px;
+						font-size: calc(28vw/12);
+					}
 				}
 				.now {
 					margin: 3% 0 0;
