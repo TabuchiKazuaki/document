@@ -231,6 +231,44 @@ footer .anchor a:hover {
 footer .anchor a span {
   font-size: 30px;
 }
+footer .link-reality {
+  max-width: 660px;
+  margin: 0 auto 68px auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+footer .link-reality a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #FFF;
+  background-color: #e02b6c;
+  border-radius: 8px;
+  max-width: 660px;
+  padding-right: 21px;
+}
+footer .link-reality a img {
+  max-width: 20px;
+}
+footer .link-reality dl {
+  padding: 30px 0 30px 22px;
+}
+footer .link-reality dl dt {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+footer .link-reality dl dd {
+  font-size: 21px;
+  line-height: 1.4;
+}
 footer .footer_item {
   overflow: hidden;
   margin: 10px 0 15px;
@@ -437,6 +475,27 @@ footer small {
   footer .anchor a span {
     font-size: calc(36vw/12);
   }
+  footer .link-reality {
+    margin: 0 auto 9%;
+  }
+  footer .link-reality a {
+    border-radius: 4px;
+    padding-right: 3%;
+  }
+  footer .link-reality a img {
+    max-width: 3%;
+  }
+  footer .link-reality dl {
+    padding: 4.5% 0 4.5% 3%;
+  }
+  footer .link-reality dl dt {
+    font-size: calc(50vw/12);
+    line-height: 1.4;
+  }
+  footer .link-reality dl dd {
+    font-size: calc(35vw/12);
+    line-height: 1.4;
+  }
   footer .footer_item {
     overflow: hidden;
     padding: 0 5%;
@@ -601,6 +660,27 @@ footer small {
   }
   footer .h_inner {
     padding: 0 5%;
+  }
+  footer .link-reality {
+    margin: 0 auto 9%;
+  }
+  footer .link-reality a {
+    border-radius: 4px;
+    padding-right: 3%;
+  }
+  footer .link-reality a img {
+    max-width: 3%;
+  }
+  footer .link-reality dl {
+    padding: 4.5% 0 4.5% 3%;
+  }
+  footer .link-reality dl dt {
+    font-size: calc(50vw/12);
+    line-height: 1.4;
+  }
+  footer .link-reality dl dd {
+    font-size: calc(35vw/12);
+    line-height: 1.4;
   }
   footer .wrap {
     padding: 0 5%;
