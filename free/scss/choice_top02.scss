@@ -187,7 +187,7 @@ header {
 	}
 	.s_btn {
 		overflow: hidden;
-		margin: 10px 0 0;
+		margin: 10px 8px 0 0;
 		a {
 			display: inline-block;
 			float: right;
@@ -195,6 +195,7 @@ header {
 			font-weight: bold;
 			text-align: right;
 			letter-spacing: 1.2px;
+			white-space: nowrap;
 			color: #33aa22;
 			span {
 				display: inline-block;
@@ -564,10 +565,13 @@ header {
 		}
 		.s_btn {
 			overflow: hidden;
-			margin: 10px 0 0;
+			margin: 3% 0 0;
 			a {
 				font-size: calc(38vw/12);
 				letter-spacing: 1.2px;
+				white-space: nowrap;
+				padding: 0 1.5% 0 0;
+
 				span {
 					margin: 0 0 0 2%;
 					font-size: calc(42vw/12);
@@ -897,7 +901,7 @@ header {
 		}
 		.s_btn {
 			overflow: hidden;
-			margin: 10px 0 0;
+			margin: 3% 0 0;
 			a {
 				font-size: calc(40vw/12);
 				letter-spacing: 1.2px;

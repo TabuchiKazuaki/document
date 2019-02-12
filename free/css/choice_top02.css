@@ -187,7 +187,7 @@ header .header_heading {
 }
 .content_wrap .s_btn {
   overflow: hidden;
-  margin: 10px 0 0;
+  margin: 10px 8px 0 0;
 }
 .content_wrap .s_btn a {
   display: inline-block;
@@ -196,6 +196,7 @@ header .header_heading {
   font-weight: bold;
   text-align: right;
   letter-spacing: 1.2px;
+  white-space: nowrap;
   color: #33aa22;
 }
 .content_wrap .s_btn a span {
@@ -554,11 +555,13 @@ header .header_heading {
   }
   .content_wrap .s_btn {
     overflow: hidden;
-    margin: 10px 0 0;
+    margin: 3% 0 0;
   }
   .content_wrap .s_btn a {
     font-size: calc(38vw/12);
     letter-spacing: 1.2px;
+    white-space: nowrap;
+    padding: 0 1.5% 0 0;
   }
   .content_wrap .s_btn a span {
     margin: 0 0 0 2%;
@@ -875,7 +878,7 @@ header .header_heading {
   }
   .content_wrap .s_btn {
     overflow: hidden;
-    margin: 10px 0 0;
+    margin: 3% 0 0;
   }
   .content_wrap .s_btn a {
     font-size: calc(40vw/12);
