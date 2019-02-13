@@ -174,26 +174,12 @@ header {
 	}
 }
 
+
 .footer_nav {
 	max-width: 800px;
 	padding: 40px 0 25px;
 	margin: 0 auto;
-	overflow: hidden;
-	margin: 0 0 0 -2%;
-	li {
-		float: left;
-		padding: 0 3% 0 2%;
-		line-height: 1.4;
-		a {
-			display: block;
-			font-size: 18px;
-			color: #fff;
-		}
-		&:after {
-			top: -1px;
-			right: 0;
-			font-size: 11px;
-		}
+	.nav_area {
 	}
 	small {
 		display: block;
@@ -203,6 +189,30 @@ header {
 		color: #888;
 	}
 }
+
+.nav_item {
+	overflow: hidden;
+	margin: 0 0 0 -2%;
+	li {
+		position: relative;
+		float: left;
+		padding: 0 3% 0 2%;
+		line-height: 1.4;
+		a {
+			display: block;
+			font-size: 18px;
+			color: #fff;
+		}
+		&:after {
+			content: '/';
+			position: absolute;
+			top: -1px;
+			right: 0;
+			font-size: 18px;
+		}
+	}
+}
+
 
 @media screen and (max-width: 768px) {
 	.banner {
