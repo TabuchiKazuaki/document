@@ -59,7 +59,6 @@ header .header_area .header_text {
 }
 .contents .main {
   padding: 61px 0 60px;
-  border-bottom: 1px solid #606060;
 }
 .contents .main figure {
   line-height: 0;
@@ -101,6 +100,9 @@ header .header_area .header_text {
   text-align: center;
   font-size: 32px;
   color: #fff;
+}
+.contents .block_item {
+  padding: 15px 0 0;
 }
 .contents .block_item li {
   overflow: hidden;
@@ -275,6 +277,9 @@ header .header_area .header_text {
     border-radius: 5px;
     font-size: calc(48vw/12);
   }
+  .contents .block_item {
+    padding: 3% 0 0;
+  }
   .contents .block_item li {
     padding: 4.2% 0 3.8%;
   }
@@ -410,6 +415,9 @@ header .header_area .header_text {
     padding: 2.8% 0;
     border-radius: 5px;
     font-size: calc(50vw/12);
+  }
+  .contents .block_item {
+    padding: 2% 0 0;
   }
   .contents .block_item li {
     padding: 4.2% 0 3.8%;
