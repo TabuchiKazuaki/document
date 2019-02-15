@@ -19,10 +19,16 @@ img  { width: 100%; }
 
 
 header {
+	background: #23150b;
 	.header_logo {
-		max-width: 193px;
+		background: #000;
+		width: 100%;
 		padding: 20px 0 21px 32px;
 		line-height: 0;
+		span {
+			display: inline-block;
+			max-width: 193px;
+		}
 	}
 
 	.h_wrap {
@@ -49,19 +55,19 @@ header {
 				&:nth-child(1) {
 					max-width: 663px;
 					position: absolute;
-					bottom: 16%;
+					bottom: 8%;
 					left: 20%;
 				}
 				&:nth-child(2) {
 					max-width: 716px;
 					position: absolute;
-					bottom: 16%;
+					bottom: 8%;
 					left: 35%;
 				}
 				&:nth-child(3) {
 					max-width: 600px;
 					position: absolute;
-					bottom: 16%;
+					bottom: 8%;
 					left: 55%;
 				}
 			}
@@ -69,19 +75,28 @@ header {
 	}
 }
 
-@keyframes fadeIn {
-    0% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
+.main {
+	max-width: 768px;
+	padding: 50px 0;
+	margin: 0 auto;
+	.movie {
+		position: relative;
+		width: 100%;
+		padding-top: 56.25%;
+		margin: 60px auto 0;
+
+		iframe {
+			position: absolute;
+			z-index: 5;
+			left: 0;
+			top: 0;
+			width: 100% !important;
+			height: 100% !important;
+		}
+	}
 }
-.fade {
-    animation-name: fadeIn;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-}
+
+
 @keyframes charamen {
     0% {
         opacity:0;
@@ -159,27 +174,71 @@ header {
 					margin: 0 auto;
 
 					&:nth-child(1) {
-						max-width: 663px;
-						position: absolute;
-						bottom: 16%;
-						left: 20%;
+						bottom: 8%;
+						left: 15%;
+						width: 52%;
 					}
 					&:nth-child(2) {
-						max-width: 716px;
-						position: absolute;
-						bottom: 16%;
-						left: 35%;
+						bottom: 8%;
+						left: 29%;
+						width: 56%;
 					}
 					&:nth-child(3) {
-						max-width: 600px;
-						position: absolute;
-						bottom: 16%;
-						left: 55%;
+						bottom: 8%;
+						left: 48%;
+						width: 47%;
 					}
 				}
 			}
 		}
 	}
+
+	@keyframes charamen {
+	    0% {
+	        opacity:0;
+	        left: 0;
+	    }
+	    100% {
+	        opacity:1;
+	        left: 15%;
+	    }
+	}
+	.chara01 {
+	    animation-name: charamen;
+	    animation-duration: 3s;
+	    animation-timing-function: linear;
+	}
+	@keyframes charaset {
+	    0% {
+	        opacity:0;
+	        left: 0;
+	    }
+	    100% {
+	        opacity:1;
+	        left: 29%;
+	    }
+	}
+	.chara02 {
+	    animation-name: charaset;
+	    animation-duration: 3s;
+	    animation-timing-function: linear;
+	}
+	@keyframes charaino {
+	    0% {
+	        opacity:0;
+	        left: 0;
+	    }
+	    100% {
+	        opacity:1;
+	        left: 48%;
+	    }
+	}
+	.chara03 {
+	    animation-name: charaino;
+	    animation-duration: 3s;
+	    animation-timing-function: linear;
+	}
+
 
 }
 
