@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1;
+  min-width: 320px;
+  font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important;
+  color: #fff;
+  margin: 0 auto;
+  background: #000;
+}
+body li {
+  list-style: none;
+}
+
+a {
+  -webkit-transition: .3s;
+  transition: .3s;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  opacity: .8;
+}
+
+img {
+  width: 100%;
+}
+
+header .header_logo {
+  max-width: 193px;
+  padding: 20px 0 21px 32px;
+  line-height: 0;
+}
+header .h_wrap {
+  position: relative;
+  background: url(https://bit.ly/2BAHyYC) 0 0 no-repeat;
+  background-size: 100% auto;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+header .h_wrap .head {
+  position: absolute;
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/496745/01d2368ad98dfa875aead94fd951228b_c3bce6432b6b04d30d489de847f806c5.png) 0 0 no-repeat;
+  background-size: 100% auto;
+  padding: 50%;
+}
+header .h_wrap .h_list {
+  position: relative;
+  padding: 1000px 0;
+}
+header .h_wrap .h_list li {
+  position: absolute;
+  margin: 0 auto;
+}
+header .h_wrap .h_list li:nth-child(1) {
+  max-width: 663px;
+  position: absolute;
+  bottom: 16%;
+  left: 20%;
+}
+header .h_wrap .h_list li:nth-child(2) {
+  max-width: 716px;
+  position: absolute;
+  bottom: 16%;
+  left: 35%;
+}
+header .h_wrap .h_list li:nth-child(3) {
+  max-width: 600px;
+  position: absolute;
+  bottom: 16%;
+  left: 55%;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes charamen {
+  0% {
+    opacity: 0;
+    left: 0;
+  }
+  100% {
+    opacity: 1;
+    left: 20%;
+  }
+}
+
+@keyframes charamen {
+  0% {
+    opacity: 0;
+    left: 0;
+  }
+  100% {
+    opacity: 1;
+    left: 20%;
+  }
+}
+.chara01 {
+  -webkit-animation-name: charamen;
+          animation-name: charamen;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes charaset {
+  0% {
+    opacity: 0;
+    left: 0;
+  }
+  100% {
+    opacity: 1;
+    left: 35%;
+  }
+}
+
+@keyframes charaset {
+  0% {
+    opacity: 0;
+    left: 0;
+  }
+  100% {
+    opacity: 1;
+    left: 35%;
+  }
+}
+.chara02 {
+  -webkit-animation-name: charaset;
+          animation-name: charaset;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes charaino {
+  0% {
+    opacity: 0;
+    left: 0;
+  }
+  100% {
+    opacity: 1;
+    left: 55%;
+  }
+}
+
+@keyframes charaino {
+  0% {
+    opacity: 0;
+    left: 0;
+  }
+  100% {
+    opacity: 1;
+    left: 55%;
+  }
+}
+.chara03 {
+  -webkit-animation-name: charaino;
+          animation-name: charaino;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.ani_list01 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 5s 1 forwards;
+}
+
+.ani_list01 {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  opacity: 0;
+  max-width: 400px;
+}
+
+@-webkit-keyframes item_sp {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes item_sp {
+  100% {
+    opacity: 1;
+  }
+}
