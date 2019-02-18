@@ -113,9 +113,9 @@ header .header_area .header_text {
   top: 36%;
   left: 42%;
   background: url(https://goo.gl/5152om) 0 0 no-repeat;
-  background-size: 126px 126px;
-  width: 126px;
-  height: 126px;
+  background-size: 96px 96px;
+  width: 96px;
+  height: 96px;
   z-index: 2;
 }
 .contents .block_item {
@@ -297,6 +297,13 @@ header .header_area .header_text {
     border-radius: 5px;
     font-size: calc(48vw/12);
   }
+  .contents .main_b .icon:before {
+    top: 36%;
+    left: 44%;
+    background-size: 76px 76px;
+    width: 76px;
+    height: 76px;
+  }
   .contents .block_item {
     padding: 3% 0 0;
   }
@@ -438,6 +445,13 @@ header .header_area .header_text {
     padding: 2.8% 0;
     border-radius: 5px;
     font-size: calc(50vw/12);
+  }
+  .contents .main_b .icon:before {
+    top: 36%;
+    left: 44%;
+    background-size: 58px 58px;
+    width: 58px;
+    height: 58px;
   }
   .contents .block_item {
     padding: 2% 0 0;
