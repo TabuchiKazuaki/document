@@ -129,6 +129,20 @@ header .header_area .header_text {
 .contents .block_item li a {
   display: block;
 }
+.contents .block_item li .m_i {
+  position: relative;
+}
+.contents .block_item li .m_i:before {
+  content: '';
+  position: absolute;
+  top: 36%;
+  left: 42%;
+  background: url(https://goo.gl/5152om) 0 0 no-repeat;
+  background-size: 56px 56px;
+  width: 56px;
+  height: 56px;
+  z-index: 2;
+}
 .contents .block_item li figure {
   float: left;
   width: 34%;
@@ -313,6 +327,13 @@ header .header_area .header_text {
   .contents .block_item li figure {
     width: 34%;
   }
+  .contents .block_item li .m_i:before {
+    top: 36%;
+    left: 44%;
+    background-size: 46px 46px;
+    width: 46px;
+    height: 46px;
+  }
   .contents .block_item li .b_text {
     line-height: 1.3;
     letter-spacing: 1.2px;
@@ -475,6 +496,13 @@ header .header_area .header_text {
     margin: 0 2.5% 0 0;
     border-radius: 3px;
     font-size: calc(38vw/12);
+  }
+  .contents .block_item li .m_i:before {
+    top: 36%;
+    left: 44%;
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;
   }
   .contents .block_first {
     padding: 0;
