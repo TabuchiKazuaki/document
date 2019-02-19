@@ -1,0 +1,242 @@
+
+*{margin: 0; padding:0;}
+body { line-height: 1; min-width: 320px; font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important; color: #fff; margin: 0 auto; background: #000;
+	li {
+		list-style: none;
+	}
+}
+a {
+	transition: .3s;
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+		opacity: .8;
+	}
+}
+img  { width: 100%; }
+
+
+
+header {
+	.logo {
+		background: #000;
+		padding: 15px 0 15px 25px;
+		span {
+			display: block;
+			max-width: 191px;
+		}
+	}
+	.h_wrap {
+		background: url(https://bit.ly/2BxBcYU) 0 0 no-repeat;
+		background-size: cover;
+		.h_box {
+			max-width: 768px;
+			padding: 30px 0 76px;
+			margin: 0 auto;
+		}
+		.h_h {
+			max-width: 710px;
+			margin: 0 auto;
+		}
+		.h_t {
+			max-width: 607px;
+			margin: 18px auto 0;
+		}
+	}
+}
+
+.banner {
+	margin: 32px 0 0;
+	.wrap {
+		background: #1a1a1a;
+		max-width: 768px;
+		margin: 0 auto;
+		border-radius: 5px;
+	}
+	a {
+		display: block;
+		padding: 30px 18px 35px;
+		font-weight: bold;
+		font-size: 32px;
+		line-height: 1.6;
+		color: #fff;
+		span {
+			display: block;
+			font-weight: normal;
+			font-size: 28px;
+			color: #33aa22;
+		}
+	}
+	.c_btn {
+		margin: 20px 0 0;
+		background: #33aa22;
+		padding: 16px 0;
+		border-radius: 6px;
+		text-align: center;
+		font-weight: normal;
+		color: #fff;
+	}
+}
+
+.contents {
+	margin: 70px 0 0;
+	.wrap {
+		max-width: 768px;
+		margin: 0 auto;
+	}
+	.c_h {
+		letter-spacing: 1.35px;
+		font-size: 34px;
+		span {
+			font-size: 38px;
+		}
+	}
+	.ch_sec {
+		margin: 70px 0 0;
+	}
+	.c_item {
+		display: flex;
+		flex-flow: row wrap;
+		margin: 35px 0 0;
+
+		li {
+			justify-content: flex-end;
+			box-sizing: border-box;
+			width: 48%;
+			margin: 5% 0 0 4%;
+			&:nth-child(2n+1) {
+				margin: 5% 0 0 0;
+			}
+			&:nth-child(2) {
+				margin: 0 0 0 4%;
+			}
+			&:nth-child(1) {
+				margin: 0;
+			}
+			a {
+				display: block;
+				background: #1a1a1a;
+				border-radius: 8px;
+				figure {
+					line-height: 0;
+					img {
+						border-radius: 8px 8px 0 0;
+					}
+				}
+				.c_text {
+					padding: 20px;
+					font-size: 27px;
+					line-height: 1.4;
+					color: #fff;
+				}
+			}
+		}
+	}
+	.c_list {
+		background: #1a1a1a;
+		border-radius: 8px;
+		padding: 8px 0;
+		margin: 30px 0 0;
+		li {
+			border-bottom: 1px solid #606060;
+			padding: 15px;
+
+			&:last-child {
+				border: none;
+			}
+			a {
+				display: block;
+				color: #fff;
+			}
+			td {
+				width: 33%;
+				line-height: 0;
+			}
+			th {
+				width: 65%;
+				padding: 0 0 0 2%;
+				font-weight: normal;
+				font-size: 26px;
+				line-height: 1.4;
+			}
+		}
+	}
+}
+.banner_b {
+	padding: 80px 0;
+	border-top: 1px solid #606060;
+	border-bottom: 1px solid #606060;
+	.wrap {
+		max-width: 768px;
+		margin: 0 auto;
+		.b_b_btn {
+			background: #171717;
+			max-width: 660px;
+			margin: 0 auto;
+			border-radius: 6px;
+			a {
+				display: block;
+				position: relative;
+				padding: 30px;
+				font-size: 24px;
+				line-height: 1.3;
+				color: #fff;
+				span {
+					display: block;
+					font-size: 19px;
+					color: #33aa22;
+				}
+			}
+		}
+	}
+}
+
+.genre {
+	padding: 60px 0;
+	.g_item {
+		max-width: 681px;
+		margin: 0 auto;
+		li {
+			float: left;
+			width: 48.5%;
+			margin: 0 0 0 3%;
+			&:nth-child(1) {
+				margin: 0;
+			}
+			a {
+				display: block;
+				padding: 20px 0;
+				border-radius: 4px;
+				border: 1px solid #33aa22;
+				text-align: center;
+				font-weight: bold;
+				color: #33aa22;
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	header {
+		.h_wrap {
+			background: url(https://bit.ly/2DQbEYd) 0 0 no-repeat;
+			background-size: cover;
+		}
+	}
+
+}
+@media screen and (max-width: 480px) {
+
+}
+
+
+@-webkit-keyframes item_sp { 100% { opacity: 1; } }
+@keyframes item_list { 100% { opacity: 1; } }
+
+.ani_list01 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 3s 1 forwards; }
+.ani_list02 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 3.5s 1 forwards; }
+.ani_list03 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 4s 1 forwards; }
+.ani_list04 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 4.5s 1 forwards; }
+
+
