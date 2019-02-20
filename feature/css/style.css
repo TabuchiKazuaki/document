@@ -446,7 +446,8 @@ footer small {
   }
 
   .banner_b {
-    padding: 80px 0;
+    padding: 70px 0 62px;
+    margin: 31px 0 0;
     border-top: 1px solid #606060;
     border-bottom: 1px solid #606060;
   }
@@ -478,10 +479,17 @@ footer small {
     padding: 60px 0;
     border-bottom: 1px solid #606060;
   }
-  .genre .g_item {
-    overflow: hidden;
+  .genre .wrap {
     max-width: 681px;
     margin: 0 auto;
+  }
+  .genre .g_h {
+    font-size: 38px;
+    letter-spacing: 1.2px;
+  }
+  .genre .g_item {
+    overflow: hidden;
+    margin: 33px 0 0;
   }
   .genre .g_item li {
     float: left;
@@ -493,11 +501,13 @@ footer small {
   }
   .genre .g_item li a {
     display: block;
-    padding: 20px 0;
+    padding: 28px 0;
     border-radius: 4px;
     border: 2px solid #33aa22;
     text-align: center;
     font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 1.2px;
     color: #33aa22;
   }
 
