@@ -214,10 +214,18 @@ header .h_wrap .h_t {
   padding: 60px 0;
   border-bottom: 1px solid #606060;
 }
+.genre .wrap {
+  max-width: 681px;
+  margin: 0 auto;
+}
+.genre .g_h {
+  font-size: 38px;
+  letter-spacing: 1.2px;
+}
 .genre .g_item {
   overflow: hidden;
   max-width: 681px;
-  margin: 0 auto;
+  margin: 33px auto 0;
 }
 .genre .g_item li {
   float: left;
@@ -479,10 +487,6 @@ footer small {
   .genre {
     padding: 60px 0;
     border-bottom: 1px solid #606060;
-  }
-  .genre .wrap {
-    max-width: 681px;
-    margin: 0 auto;
   }
   .genre .g_h {
     font-size: 38px;
