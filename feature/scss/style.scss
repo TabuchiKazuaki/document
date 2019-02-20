@@ -226,6 +226,11 @@ header {
 				text-align: center;
 				font-weight: bold;
 				color: #33aa22;
+
+				&:hover {
+					background: #33aa22;
+					color: #fff;
+				}
 			}
 		}
 	}
@@ -233,6 +238,7 @@ header {
 
 .cp {
 	padding: 70px 0 60px;
+	margin: 30px 0 0;
 	border-top: 1px solid #606060;
 	.wrap {
 		max-width: 681px;
