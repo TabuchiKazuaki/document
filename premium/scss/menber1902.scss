@@ -100,6 +100,45 @@ header {
 			}
 		}
 	}
+	.i_link {
+		margin: 50px 0 0;
+		border-radius: 6px;
+		a {
+			position: relative;
+			display: block;
+			border-radius: 6px;
+
+
+		}
+		.i_img {
+			line-height: 0;
+			img {
+				border-radius: 6px 6px 0 0;
+			}
+		}
+		.i_btn {
+			position: relative;
+			background: #1a1a1a;
+			padding: 25px 0;
+			border-radius: 0 0 6px 6px;
+			text-align: center;
+			font-size: 24px;
+			font-weight: bold;
+			color: #fff;
+
+			&:after {
+				content: '';
+				position: absolute;
+				top: 30%;
+				right: 3%;
+				background: url(https://bit.ly/2BLflyb) 0 0 no-repeat;
+				background-size: 20px 34px;
+				width: 20px;
+				height: 34px;
+			}
+
+		}
+	}
 }
 
 
@@ -363,6 +402,28 @@ footer {
 				}
 			}
 		}
+		.i_link {
+			margin: 7% 0 0;
+			border-radius: 5px;
+			.i_img {
+				img {
+					border-radius: 5px 5px 0 0;
+				}
+			}
+			.i_btn {
+				padding: 3.5% 0;
+				border-radius: 0 0 5px 5px;
+				font-size: calc(38vw/12);
+
+				&:after {
+					top: 30%;
+					right: 3%;
+					background-size: 16px 27px;
+					width: 16px;
+					height: 27px;
+				}
+			}
+		}
 	}
 
 
@@ -609,6 +670,28 @@ footer {
 				margin: 3.3% 0 0;
 				a {
 					font-size: calc(43vw/12);
+				}
+			}
+		}
+		.i_link {
+			margin: 6% 0 0;
+			border-radius: 4px;
+			.i_img {
+				img {
+					border-radius: 4px 4px 0 0;
+				}
+			}
+			.i_btn {
+				padding: 3.8% 0;
+				border-radius: 0 0 4px 4px;
+				font-size: calc(40vw/12);
+
+				&:after {
+					top: 31%;
+					right: 3%;
+					background-size: 10px 17px;
+					width: 10px;
+					height: 17px;
 				}
 			}
 		}
