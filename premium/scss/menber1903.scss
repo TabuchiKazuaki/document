@@ -741,30 +741,30 @@ footer {
 			margin: 11px 0 0 12px;
 			li {
 				font-size: 13px;
-				padding: 0 0 0 32px;
+				padding: 0 0 0 28px;
 				margin: 7px 0 0;
 				line-height: 1.5;
 
 				&:before {
 					top: 0;
 					left: 0;
-					background-size: 21px 21px;
-					width: 21px;
-					height: 21px;
+					background-size: 20px 20px;
+					width: 20px;
+					height: 20px;
 					border-radius: 50%;
 				}
 				&:after {
 					content: '1';
 					position: absolute;
 					top: 0;
-					left: 6px;
+					left: 6.5px;
 					font-size: 14px;
 				}
 
 				&:nth-child(2):after {
 					content: '2';
 					top: 0;
-					left: 6.5px;
+					left: 6.8px;
 				}
 			}
 		}
