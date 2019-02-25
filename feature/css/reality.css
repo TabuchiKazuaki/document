@@ -104,6 +104,10 @@ header .h_wrap .h_t {
 .contents .c_h span {
   font-size: 38px;
 }
+.contents .c_h_head {
+  padding: 25px 0 0;
+  margin: 15px 0 0;
+}
 .contents .c_h_m {
   padding: 35px 0 0;
   margin: 25px 0 0;
@@ -111,6 +115,11 @@ header .h_wrap .h_t {
 }
 .contents .c_h_l {
   padding: 60px 0 0;
+}
+.contents .c_h_li {
+  padding: 35px 0 0;
+  margin: 55px 0 0;
+  border-top: 1px solid #606060;
 }
 .contents .ch_sec {
   margin: 70px 0 0;
@@ -435,19 +444,19 @@ footer small {
     background-size: cover;
   }
   header .h_wrap .h_box {
-    padding: 4% 0 10%;
+    padding: 8% 0 7.5%;
     margin: 0 auto;
   }
   header .h_wrap .h_h {
-    width: 95%;
+    width: 82%;
   }
   header .h_wrap .h_t {
-    width: 81%;
-    margin: 2.5% auto 0;
+    width: 77%;
+    margin: 3% auto 0;
   }
 
   .banner {
-    margin: 4% 0 0;
+    margin: 3.5% 0 0;
   }
   .banner .wrap {
     margin: 0 2.5%;
@@ -468,6 +477,7 @@ footer small {
     padding: 2.3% 0;
     border-radius: 5px;
     font-size: calc(42vw/12);
+    font-weight: bold;
   }
 
   .contents {
@@ -483,6 +493,20 @@ footer small {
   }
   .contents .c_h span {
     font-size: calc(55vw/12);
+  }
+  .contents .c_h_head {
+    padding: 4% 0 0;
+    margin: 3% 0 0;
+  }
+  .contents .c_h_m {
+    padding: 4% 0 0;
+    margin: 3% 0 0;
+    border-top: 1px solid #606060;
+  }
+  .contents .c_h_li {
+    padding: 4.5% 0 0;
+    margin: 7% 0 0;
+    border-top: 1px solid #606060;
   }
   .contents .ch_sec {
     margin: 9% 0 0;
@@ -720,15 +744,15 @@ footer small {
     width: 20%;
   }
   header .h_wrap .h_box {
-    padding: 4% 0 10%;
+    padding: 8% 0 8%;
     margin: 0 auto;
   }
   header .h_wrap .h_h {
-    width: 95%;
+    width: 82%;
   }
   header .h_wrap .h_t {
-    width: 81%;
-    margin: 2.5% auto 0;
+    width: 77%;
+    margin: 3% auto 0;
   }
 
   .banner {
@@ -768,6 +792,10 @@ footer small {
   }
   .contents .c_h span {
     font-size: calc(57vw/12);
+  }
+  .contents .c_h_head {
+    padding: 4% 0 0;
+    margin: 3% 0 0;
   }
   .contents .ch_sec {
     margin: 9% 0 0;
