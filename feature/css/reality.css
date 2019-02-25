@@ -31,7 +31,7 @@ img {
 
 header .logo {
   background: #000;
-  padding: 15px 0 15px 25px;
+  padding: 12px 0 12px 25px;
 }
 header .logo span {
   display: block;
@@ -43,7 +43,7 @@ header .h_wrap {
 }
 header .h_wrap .h_box {
   max-width: 768px;
-  padding: 30px 0 76px;
+  padding: 58px 0 51px;
   margin: 0 auto;
 }
 header .h_wrap .h_h {
@@ -52,7 +52,7 @@ header .h_wrap .h_h {
 }
 header .h_wrap .h_t {
   max-width: 590px;
-  margin: 18px auto 0;
+  margin: 28px auto 0;
 }
 
 .banner {
@@ -164,33 +164,46 @@ header .h_wrap .h_t {
 .contents .c_anime {
   margin: 35px 0 0;
 }
-.contents .c_anime li {
+.contents .c_anime .c_i_list {
   padding: 25px 0;
   margin: 20px 0 0;
   border-bottom: 1px solid #606060;
 }
-.contents .c_anime li:first-child {
+.contents .c_anime .c_i_list:first-child {
   border-top: 1px solid #606060;
 }
-.contents .c_anime li a {
+.contents .c_anime .c_i_list a {
   overflow: hidden;
   display: block;
   color: #fff;
 }
-.contents .c_anime li td {
+.contents .c_anime .c_i_list td {
   width: 52%;
   vertical-align: middle;
 }
-.contents .c_anime li th {
+.contents .c_anime .c_i_list th {
   padding: 0 0 0 2%;
   font-size: 26px;
   line-height: 1.4;
 }
-.contents .c_anime li .c_a_t {
+.contents .c_anime .c_i_list .short td {
+  width: 30%;
+  vertical-align: middle;
+}
+.contents .c_anime .c_i_list .short th {
+  padding: 0 0 0 2%;
+  font-size: 26px;
+  line-height: 1.4;
+  font-weight: normal;
+}
+.contents .c_anime .c_i_list .c_a_t {
   margin: 15px 0 0;
   line-height: 1.35;
   font-size: 26px;
   color: #ababab;
+}
+.contents .c_anime .c_i_li {
+  margin: 0;
 }
 .contents .c_list {
   background: #1a1a1a;
@@ -509,23 +522,26 @@ footer small {
   .contents .c_anime {
     margin: 5% 0 0;
   }
-  .contents .c_anime li {
+  .contents .c_anime .c_i_list {
     padding: 3.3% 0;
     margin: 0;
   }
-  .contents .c_anime li td {
+  .contents .c_anime .c_i_list td {
     width: 52%;
     vertical-align: middle;
   }
-  .contents .c_anime li th {
+  .contents .c_anime .c_i_list th {
     padding: 0 0 0 2%;
     font-size: calc(41vw/12);
     line-height: 1.35;
   }
-  .contents .c_anime li .c_a_t {
+  .contents .c_anime .c_i_list .c_a_t {
     margin: 3% 0 0;
     line-height: 1.35;
     font-size: calc(40vw/12);
+  }
+  .contents .c_anime .c_i_li {
+    margin: 0;
   }
   .contents .c_list {
     border-radius: 5px;
