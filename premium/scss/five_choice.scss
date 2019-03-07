@@ -24,13 +24,14 @@ header {
 	.header_logo {
 		max-width: 153px;
 		padding: 13px 0 11px 17px;
+		line-height: 0;
 	}
 	.header_area {
 		background: url(https://bit.ly/2BxBcYU) center center no-repeat;
 		background-size: cover;
 	}
 	.header_wrap {
-		padding: 41px 0 40px;
+		padding: 41px 0 48px;
 
 		.h_m {
 			max-width: 327px;
@@ -89,8 +90,9 @@ header {
 			padding: 25px 0 25px;
 			border-bottom: 1px solid #606060;
 
+
 			td {
-				width: 30%;
+				width: 35%;
 				line-height: 0;
 			}
 			th {
@@ -104,10 +106,10 @@ header {
 		}
 	}
 	.more {
-		max-width: 681px;
-		margin: 0 auto;
-		padding: 60px 0;
+		padding: 60px 0 58px;
 		.m_btn {
+			max-width: 681px;
+			margin: 0 auto;
 			a {
 				display: block;
 				padding: 25px 0;
@@ -120,23 +122,24 @@ header {
 		}
 	}
 	.premium {
-		padding: 60px 0;
+		padding: 56px 0 42px;
 		border-top: 1px solid #606060;
 		.p_h {
 			padding: 0 0 0 25px;
-			line-height: 1.4;
+			line-height: 1.1;
 			border-left: 10px solid #3a2;
 			font-size: 33px;
 			letter-spacing: 1.3px;
 			span {
 				display: block;
+				margin: 0 0 18px;
 				font-weight: normal;
 				font-size: 28px;
 			}
 		}
 		table {
 			width: 100%;
-			margin: 30px 0 0;
+			margin: 34px 0 0;
 			border: 1px solid #333;
 			// border-collapse: collapse;
 			border-spacing: 0;
@@ -190,12 +193,12 @@ header {
 		}
 		.try {
 			max-width: 339px;
-			margin: 20px auto;
+			margin: 35px auto 0;
 			line-height: 0;
 		}
 		.try_btn {
 			max-width: 681px;
-			margin: 0 auto;
+			margin: 36px auto 0;
 			a {
 				display: block;
 				background: #3a2;
@@ -221,6 +224,10 @@ header {
 				text-align: center;
 				font-size: 29px;
 				color: #33aa22;
+				&:hover {
+					background: #3a2;
+					color: #fff;
+				}
 			}
 		}
 	}
@@ -229,11 +236,11 @@ header {
 
 footer {
 	border-top: 1px solid #606060;
-	padding: 32px 0 44px;
+	padding: 45px 0 44px;
 
 	.copy {
 		overflow: hidden;
-		margin: 10px 0 20px;
+		margin: 10px 0 35px;
 		li {
 			float: left;
 			margin: 6px 0 0 12px;
@@ -244,7 +251,7 @@ footer {
 
 	.footer_item {
 		overflow: hidden;
-		margin: 10px 0 0;
+		margin: 13px 0 0 12px;
 		li {
 			position: relative;
 			padding: 0 5px 0 0;
@@ -259,7 +266,7 @@ footer {
 
 	small {
 		display: block;
-		margin: 32px 0 0;
+		margin: 32px 0 0 12px;
 		font-size: 16px;
 		color: #919191;
 	}
@@ -279,24 +286,146 @@ footer {
 			background-size: cover;
 		}
 		.header_wrap {
-			padding: 5.5% 0 5.5%;
+			padding: 5.6% 0 5.6%;
 
 			.h_m {
-				width: 69%;
+				width: 49%;
 			}
 
-			.header_heading {
-				width: 78%;
-				margin: 5.5% auto 0;
+			.h_t {
+				width: 95%;
+				margin: 4.5% auto 0;
 			}
+			.h_logo {
+				width: 28%;
+				margin: 6% auto 0;
+			}
+		}
+	}
 
-			.h_time {
-				margin: 5% 0 0;
-				font-weight: bold;
-				font-size: calc(32vw/12);
-				font-family: 'M PLUS Rounded 1c', sans-serif !important;
-				text-align: center;
+	.contents {
+		.c_inner {
+			padding: 9% 0;
+
+			.c_h {
+				margin: 3% 0 0;
+				font-size: calc(45vw/12);
+
+			}
+			.c_text {
+				margin: 3% 0 0;
+				font-size: calc(35vw/12);
+				line-height: 1.35;
+			}
+			.c_btn {
+				margin: 3% 0 0;
+				a {
+					border-radius: 4px;
+					padding: 3% 0;
+					font-size: calc(46vw/12);
+				}
+			}
+		}
+		.c_tb {
+			margin: 3% 0 0;
+			table {
+				padding: 4% 0;
+
+				td {
+					width: 33%;
+				}
+				th {
+					padding: 0 0 0 3%;
+					font-size: calc(35vw/12);
+					line-height: 1.4;
+				}
+			}
+		}
+		.more {
+			padding: 7.9% 0;
+			.m_btn {
+				width: 91%;
+				a {
+					padding: 3.7% 0;
+					border: 2px solid #33aa22;
+					border-radius: 4px;
+					font-size: calc(46vw/12);
+				}
+			}
+		}
+		.premium {
+			padding: 7.5% 5% 5.5%;
+			border-top: 1px solid #606060;
+			.p_h {
+				padding: 0 0 0 3.8%;
+				line-height: 1.2;
+				border-left: 7px solid #3a2;
+				font-size: calc(51vw/12);
 				letter-spacing: 1.3px;
+				span {
+					margin: 0 0 2.8%;
+					font-size: calc(44vw/12);
+				}
+			}
+			table {
+				margin: 5% 0 0;
+				border-radius: 6px;
+				th {
+					padding: 3% 0 3% 3.1%;
+					font-size: calc(31vw/12);
+				}
+				.nst {
+					padding: 2.3% 0;
+					font-size: calc(32vw/12);
+				}
+				.nst_fi {
+					border-radius: 4px 0 0 0;
+				}
+				.nst_h {
+					border-radius: 0 4px 0 0;
+					line-height: 1.4;
+				}
+				.head_thr {
+					border-radius: 0 0 0 4px;
+					padding: 5% 0 5% 3.1%;
+				}
+				.head_las {
+					border-radius: 0 0 4px 0;
+				}
+				td {
+					padding: 3.7% 0;
+					font-size: calc(31vw/12);
+					img {
+						max-width: 16%;
+					}
+					span {
+						display: inline-block;
+						font-size: calc(22vw/12);
+					}
+				}
+			}
+			.try {
+				width: 52%;
+				margin: 5% auto 0;
+			}
+			.try_btn {
+				margin: 5% auto 0;
+				a {
+					padding: 3.8% 0;
+					border-radius: 4px;
+					font-size: calc(44vw/12);
+				}
+			}
+		}
+		.gotop {
+			.g_btn {
+				padding: 9% 0;
+				a {
+					padding: 3.7% 0;
+					border: 1.5px solid #33aa22;
+					border-radius: 4px;
+					font-size: calc(46vw/12);
+				}
 			}
 		}
 	}
@@ -346,27 +475,148 @@ footer {
 	header {
 		.header_logo {
 			width: 20%;
-			padding: 1.6% 0 1.6% 2.5%;
-		}
-		.header_area {
+			padding: 1.8% 0 1.8% 2.6%;
 		}
 		.header_wrap {
-			padding: 5.5% 0 5.5%;
+			padding: 5.6% 0 5.6%;
 
 			.h_m {
-				width: 69%;
+				width: 49%;
 			}
 
-			.header_heading {
-				width: 78%;
-				margin: 5.5% auto 0;
+			.h_t {
+				width: 95%;
+				margin: 4.5% auto 0;
 			}
+			.h_logo {
+				width: 28%;
+				margin: 6% auto 0;
+			}
+		}
+	}
 
-			.h_time {
-				margin: 5% 0 0;
-				font-size: calc(36vw/12);
-				font-family: 'M PLUS Rounded 1c', sans-serif !important;
+	.contents {
+		.c_inner {
+			padding: 8% 0;
+
+			.c_h {
+				margin: 3% 0 0;
+				font-size: calc(47vw/12);
+
+			}
+			.c_text {
+				margin: 3% 0 0;
+				font-size: calc(37vw/12);
+				line-height: 1.4;
+			}
+			.c_btn {
+				margin: 3% 0 0;
+				a {
+					border-radius: 4px;
+					padding: 3% 0;
+					font-size: calc(48vw/12);
+				}
+			}
+		}
+		.c_tb {
+			margin: 3% 0 0;
+			table {
+				padding: 4% 0;
+
+				td {
+					width: 33%;
+				}
+				th {
+					padding: 0 0 0 3%;
+					font-size: calc(37vw/12);
+					line-height: 1.4;
+				}
+			}
+		}
+		.more {
+			padding: 7.9% 0;
+			.m_btn {
+				width: 91%;
+				a {
+					padding: 3.7% 0;
+					border: 1.5px solid #33aa22;
+					border-radius: 4px;
+					font-size: calc(48vw/12);
+				}
+			}
+		}
+		.premium {
+			padding: 7.5% 5% 5.5%;
+			border-top: 1px solid #606060;
+			.p_h {
+				padding: 0 0 0 3.8%;
+				line-height: 1.2;
+				border-left: 5px solid #3a2;
+				font-size: calc(53vw/12);
 				letter-spacing: 1.3px;
+				span {
+					margin: 0 0 2.8%;
+					font-size: calc(46vw/12);
+				}
+			}
+			table {
+				margin: 5% 0 0;
+				border-radius: 6px;
+				th {
+					padding: 3% 0 3% 3.1%;
+					font-size: calc(33vw/12);
+				}
+				.nst {
+					padding: 2.3% 0;
+					font-size: calc(34vw/12);
+				}
+				.nst_fi {
+					border-radius: 4px 0 0 0;
+				}
+				.nst_h {
+					border-radius: 0 4px 0 0;
+					line-height: 1.4;
+				}
+				.head_thr {
+					border-radius: 0 0 0 4px;
+					padding: 5% 0 5% 3.1%;
+				}
+				.head_las {
+					border-radius: 0 0 4px 0;
+				}
+				td {
+					padding: 3.7% 0;
+					font-size: calc(33vw/12);
+					img {
+						max-width: 16%;
+					}
+					span {
+						display: inline-block;
+						font-size: calc(24vw/12);
+					}
+				}
+			}
+			.try {
+				margin: 5% auto 0;
+			}
+			.try_btn {
+				margin: 5% auto 0;
+				a {
+					padding: 3.8% 0;
+					border-radius: 4px;
+					font-size: calc(46vw/12);
+				}
+			}
+		}
+		.gotop {
+			.g_btn {
+				padding: 9% 0;
+				a {
+					padding: 3.7% 0;
+					border: 1px solid #33aa22;
+					border-radius: 4px;
+					font-size: calc(48vw/12);
+				}
 			}
 		}
 	}
@@ -378,7 +628,7 @@ footer {
 			margin: 2% 0 4%;
 			li {
 				margin: 1% 0 0;
-				font-size: calc(28vw/12);
+				font-size: calc(30vw/12);
 				white-space: nowrap;
 			}
 		}
@@ -389,7 +639,7 @@ footer {
 				padding: 0 1% 0 0;
 				a {
 					padding: 0 1% 0 0;
-					font-size: calc(28vw/12);
+					font-size: calc(30vw/12);
 					white-space: nowrap;
 				}
 			}
@@ -397,7 +647,7 @@ footer {
 
 		small {
 			margin: 4% 0 0;
-			font-size: calc(28vw/12);
+			font-size: calc(30vw/12);
 		}
 	}
 }
