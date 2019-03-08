@@ -98,6 +98,9 @@ header .header_wrap .h_logo {
   padding: 25px 0 25px;
   border-bottom: 1px solid #606060;
 }
+.contents .c_tb table:last-of-type {
+  border-bottom: none;
+}
 .contents .c_tb table td {
   width: 35%;
   line-height: 0;
@@ -112,6 +115,7 @@ header .header_wrap .h_logo {
 }
 .contents .more {
   padding: 60px 0 58px;
+  border-top: 1px solid #606060;
 }
 .contents .more .m_btn {
   max-width: 681px;
@@ -525,7 +529,7 @@ footer small {
     border-top: 1px solid #606060;
   }
   .contents .premium .p_h {
-    padding: 0 0 0 3.8%;
+    padding: 0 0 0 0.8%;
     line-height: 1.2;
     border-left: 5px solid #3a2;
     font-size: calc(53vw/12);
