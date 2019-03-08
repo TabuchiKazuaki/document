@@ -108,8 +108,12 @@ header {
 		}
 	}
 	.more {
-		padding: 60px 0 58px;
-		border-top: 1px solid #606060;
+		.more_wrap {
+			max-width: 768px;
+			padding: 60px 0 58px;
+			margin: 0 auto;
+			border-top: 1px solid #606060;
+		}
 		.m_btn {
 			max-width: 681px;
 			margin: 0 auto;
@@ -345,7 +349,9 @@ footer {
 			}
 		}
 		.more {
-			padding: 7.9% 0;
+			.more_wrap {
+				padding: 7.9% 0;
+			}
 			.m_btn {
 				width: 91%;
 				a {
@@ -537,7 +543,9 @@ footer {
 			}
 		}
 		.more {
-			padding: 7.9% 0;
+			.more_wrap {
+				padding: 7.9% 0;
+			}
 			.m_btn {
 				width: 91%;
 				a {
