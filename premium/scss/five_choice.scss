@@ -90,11 +90,6 @@ header {
 			padding: 25px 0 25px;
 			border-bottom: 1px solid #606060;
 
-			&:last-of-type {
-				border-bottom: none;
-			}
-
-
 			td {
 				width: 35%;
 				line-height: 0;
@@ -107,6 +102,9 @@ header {
 				line-height: 1.5;
 				color: #fff;
 			}
+		}
+		.last_table {
+			border-bottom: none;
 		}
 	}
 	.more {

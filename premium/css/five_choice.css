@@ -98,9 +98,6 @@ header .header_wrap .h_logo {
   padding: 25px 0 25px;
   border-bottom: 1px solid #606060;
 }
-.contents .c_tb table:last-of-type {
-  border-bottom: none;
-}
 .contents .c_tb table td {
   width: 35%;
   line-height: 0;
@@ -112,6 +109,9 @@ header .header_wrap .h_logo {
   font-weight: normal;
   line-height: 1.5;
   color: #fff;
+}
+.contents .c_tb .last_table {
+  border-bottom: none;
 }
 .contents .more {
   padding: 60px 0 58px;
