@@ -372,7 +372,7 @@ footer {
 				font-size: calc(51vw/12);
 				letter-spacing: 1.3px;
 				span {
-					margin: 0 0 2.8%;
+					margin: 0 0 1.8%;
 					font-size: calc(44vw/12);
 				}
 			}
@@ -560,26 +560,42 @@ footer {
 			padding: 7.5% 5% 5.5%;
 			border-top: 1px solid #606060;
 			.p_h {
-				padding: 0 0 0 0.8%;
+				padding: 0 0 0 3.8%;
 				line-height: 1.2;
 				border-left: 5px solid #3a2;
 				font-size: calc(53vw/12);
 				letter-spacing: 1.3px;
 				span {
-					margin: 0 0 2.8%;
+					margin: 0 0 0.8%;
 					font-size: calc(46vw/12);
 				}
 			}
 			table {
 				margin: 5% 0 0;
 				border-radius: 6px;
+				border: none;
+
 				th {
 					padding: 3% 0 3% 3.1%;
 					font-size: calc(33vw/12);
+					border: 0.5px solid #333;
 				}
 				.nst {
 					padding: 2.3% 0;
 					font-size: calc(34vw/12);
+					border-left: 1px solid #333;
+					border-top: 1px solid #333;
+					border-bottom: none;
+					border-right: none;
+					&:last-of-type {
+						border-right: 1px solid #333;
+					}
+				}
+				.head {
+					border-left: 1px solid #333;
+					border-top: 1px solid #333;
+					border-bottom: none;
+					border-right: none;
 				}
 				.nst_fi {
 					border-radius: 4px 0 0 0;
@@ -591,13 +607,18 @@ footer {
 				.head_thr {
 					border-radius: 0 0 0 4px;
 					padding: 5% 0 5% 3.1%;
+					border-bottom: 1px solid #333;
 				}
 				.head_las {
 					border-radius: 0 0 4px 0;
 				}
 				td {
 					padding: 3.7% 0;
-					font-size: calc(33vw/12);
+					font-size: calc(36vw/12);
+					border-left: 1px solid #333;
+					border-top: 1px solid #333;
+					border-bottom: none;
+					border-right: none;
 					img {
 						max-width: 16%;
 					}
@@ -605,6 +626,13 @@ footer {
 						display: inline-block;
 						font-size: calc(24vw/12);
 					}
+
+					&:last-of-type {
+						border-right: 1px solid #333;
+					}
+				}
+				.lst {
+					border-bottom: 1px solid #333;
 				}
 			}
 			.try {
