@@ -43,7 +43,7 @@ header .logo span {
   max-width: 151px;
 }
 header .h_wrap {
-  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/54a649b2e38f3894f25899adbecfdc39_c7bfd07e881acb838507810d3533d567.png) center center repeat;
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/f76da0b7b0e5df1cd9e191c9d28e6377_d88bef6b946964c34d7e1ff3b52327e2.png) center center repeat;
 }
 header .h_wrap .h_box {
   max-width: 768px;
@@ -66,7 +66,7 @@ header .h_wrap .h_item li {
 }
 
 .cp {
-  padding: 30px 0 40px;
+  padding: 60px 0 60px;
   background: #efefef;
 }
 .cp .c_img {
@@ -75,12 +75,224 @@ header .h_wrap .h_item li {
 }
 .cp h2 {
   max-width: 575px;
-  margin: 0 auto;
+  margin: 20px auto 0;
+}
+.cp .c_date {
+  margin: 24px 0 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.cp .c_date span {
+  font-size: 27px;
+}
+
+.contents {
+  padding: 60px 0 0;
+}
+.contents .c_h {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  line-height: 1.2;
+}
+.contents .c_anime {
+  margin: 35px 0 0;
+}
+.contents .c_anime .c_i_list {
+  padding: 25px 0;
+  margin: 20px 0 0;
+  border-bottom: 1px solid #606060;
+}
+.contents .c_anime .c_i_list a {
+  overflow: hidden;
+  display: block;
+  color: #000;
+}
+.contents .c_anime .c_i_list td {
+  width: 52%;
+  vertical-align: middle;
+}
+.contents .c_anime .c_i_list th {
+  padding: 0 0 0 2%;
+  font-size: 26px;
+  line-height: 1.4;
+  text-align: left;
+}
+.contents .c_anime .c_i_list th .c_s {
+  display: block;
+  color: #a1882f;
+}
+.contents .c_anime .c_i_list th .c_s .num {
+  display: inline-block;
+  margin: 0 1% 0 0;
+  font-size: 29px;
+}
+.contents .c_anime .c_i_list .short td {
+  width: 30%;
+  vertical-align: middle;
+}
+.contents .c_anime .c_i_list .short th {
+  padding: 0 0 0 2%;
+  font-size: 26px;
+  line-height: 1.4;
+  font-weight: normal;
+}
+.contents .c_anime .c_i_list .c_a_t {
+  margin: 15px 0 0;
+  line-height: 1.35;
+  font-size: 26px;
+  color: #666666;
+}
+.contents .c_anime .c_i_li {
+  margin: 0;
+}
+.contents .c_list {
+  border-radius: 8px;
+  padding: 8px 0;
+  margin: 30px 0 10px;
+}
+.contents .c_list li {
+  border-bottom: 1px solid #606060;
+  padding: 15px;
+}
+.contents .c_list li:last-child {
+  border: none;
+}
+.contents .c_list li a {
+  display: block;
+  color: #000;
+}
+.contents .c_list li td {
+  width: 33%;
+  line-height: 0;
+}
+.contents .c_list li th {
+  width: 65%;
+  padding: 0 0 0 2%;
+  font-weight: bold;
+  font-size: 26px;
+  text-align: left;
+  line-height: 1.4;
+}
+.contents .c_list li th .num {
+  display: block;
+  font-weight: bold;
+  font-size: 25px;
+  color: #a1882f;
+}
+.contents .c_list li th span {
+  display: block;
+  margin: 12px 0 0;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 1.35;
 }
 
 @media screen and (max-width: 768px) {
   header .h_wrap {
     background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/ee57e71bb5b418bdd087130511954fc6_5145912e05a879d38b0c76977b01fdef.png) center center no-repeat;
+  }
+
+  .contents .c_anime {
+    margin: 5% 0 0;
+  }
+  .contents .c_anime .c_i_list {
+    padding: 3.3% 0;
+    margin: 0;
+  }
+  .contents .c_anime .c_i_list td {
+    width: 52%;
+    vertical-align: middle;
+  }
+  .contents .c_anime .c_i_list th {
+    padding: 0 0 0 2%;
+    font-size: calc(43vw/12);
+    line-height: 1.35;
+  }
+  .contents .c_anime .c_i_list .c_a_t {
+    margin: 3% 0 0;
+    line-height: 1.42;
+    font-size: calc(40vw/12);
+  }
+  .contents .c_anime .c_i_list .short .short_th {
+    font-size: calc(42vw/12);
+  }
+  .contents .c_anime .c_i_li {
+    margin: 0;
+  }
+  .contents .c_list {
+    border-radius: 5px;
+    padding: 0.8% 0;
+    margin: 5.2% 0 0;
+  }
+  .contents .c_list li {
+    border-bottom: 1px solid #606060;
+    padding: 2.4%;
+  }
+  .contents .c_list li:last-child {
+    border: none;
+  }
+  .contents .c_list li a {
+    display: block;
+    color: #fff;
+  }
+  .contents .c_list li td {
+    width: 33%;
+    line-height: 0;
+  }
+  .contents .c_list li th {
+    padding: 0 0 0 2%;
+    font-size: calc(38vw/12);
+    line-height: 1.35;
+  }
+  .contents .c_list li th span {
+    margin: 2% 0 0;
+    font-size: calc(34vw/12);
+    line-height: 1.3;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contents .c_anime {
+    margin: 5% 0 0;
+  }
+  .contents .c_anime .c_i_list {
+    padding: 3.3% 0;
+    margin: 0;
+  }
+  .contents .c_anime .c_i_list td {
+    width: 52%;
+    vertical-align: middle;
+  }
+  .contents .c_anime .c_i_list th {
+    padding: 0 0 0 2%;
+    font-size: calc(43vw/12);
+    line-height: 1.35;
+  }
+  .contents .c_anime .c_i_list .c_a_t {
+    margin: 3% 0 0;
+    line-height: 1.42;
+    font-size: calc(40vw/12);
+  }
+  .contents .c_anime .c_i_list .short .short_th {
+    font-size: calc(42vw/12);
+  }
+  .contents .c_anime .c_i_li {
+    margin: 0;
+  }
+  .contents .c_list li td {
+    width: 33%;
+    line-height: 0;
+  }
+  .contents .c_list li th {
+    padding: 0 0 0 2%;
+    font-size: calc(40vw/12);
+    line-height: 1.3;
+  }
+  .contents .c_list li th span {
+    margin: 2% 0 0;
+    font-size: calc(36vw/12);
+    line-height: 1.3;
   }
 }
 .hi {
