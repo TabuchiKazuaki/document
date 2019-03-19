@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1;
+  min-width: 320px;
+  font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important;
+  color: #000;
+  margin: 0 auto;
+  background: #fff;
+}
+body li {
+  list-style: none;
+}
+
+a {
+  -webkit-transition: .3s;
+  transition: .3s;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  opacity: .8;
+}
+
+img {
+  width: 100%;
+}
+
+.wrap {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+header .logo {
+  background: #000;
+  padding: 13px 0 15px 20px;
+}
+header .logo span {
+  display: block;
+  max-width: 151px;
+}
+header .h_wrap {
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/54a649b2e38f3894f25899adbecfdc39_c7bfd07e881acb838507810d3533d567.png) center center repeat;
+}
+header .h_wrap .h_box {
+  max-width: 768px;
+  padding: 0 0 48px;
+  margin: 0 auto;
+}
+header .h_wrap .h_box .h_h {
+  max-width: 713px;
+  margin: 0 auto;
+}
+header .h_wrap .h_item {
+  overflow: hidden;
+  margin: -30px 0 0;
+}
+header .h_wrap .h_item li {
+  float: left;
+  width: 22%;
+  max-width: 129px;
+  margin: 0 0 0 5.5%;
+}
+
+.cp {
+  padding: 30px 0 40px;
+  background: #efefef;
+}
+.cp .c_img {
+  max-width: 527px;
+  margin: 0 auto;
+}
+.cp h2 {
+  max-width: 575px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  header .h_wrap {
+    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/ee57e71bb5b418bdd087130511954fc6_5145912e05a879d38b0c76977b01fdef.png) center center no-repeat;
+  }
+}
+.hi {
+  opacity: 0;
+}
+
+@-webkit-keyframes item_sp {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes item_sp {
+  100% {
+    opacity: 1;
+  }
+}
+.a01 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 3.5s 1 forwards;
+}
+
+.a02 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 3.9s 1 forwards;
+}
+
+.a03 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 4.3s 1 forwards;
+}
+
+.a04 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 4.7s 1 forwards;
+}
