@@ -208,6 +208,52 @@ header .h_wrap .h_item li:first-child {
   font-weight: normal;
   line-height: 1.35;
 }
+.contents .c_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 35px 0 0;
+}
+.contents .c_item li {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #1a1a1a;
+  width: 48%;
+  margin: 5% 0 0 4%;
+  border-radius: 8px;
+}
+.contents .c_item li:nth-child(2n+1) {
+  margin: 5% 0 0 0;
+}
+.contents .c_item li:nth-child(2) {
+  margin: 0 0 0 4%;
+}
+.contents .c_item li:nth-child(1) {
+  margin: 0;
+}
+.contents .c_item li a {
+  display: block;
+  border-radius: 8px;
+}
+.contents .c_item li a figure {
+  line-height: 0;
+}
+.contents .c_item li a figure img {
+  border-radius: 8px 8px 0 0;
+}
+.contents .c_item li a .c_text {
+  padding: 20px;
+  font-size: 27px;
+  line-height: 1.4;
+  color: #fff;
+}
 
 .contents_sec {
   padding: 0 0 50px;
@@ -491,6 +537,38 @@ footer small {
   .contents .c_anime .c_i_li {
     margin: 0;
   }
+  .contents .c_item {
+    margin: 4% 0 0;
+  }
+  .contents .c_item li {
+    width: 48%;
+    margin: 5% 0 0 4%;
+    border-radius: 6px;
+  }
+  .contents .c_item li:nth-child(2n+1) {
+    margin: 5% 0 0 0;
+  }
+  .contents .c_item li:nth-child(2) {
+    margin: 0 0 0 4%;
+  }
+  .contents .c_item li:nth-child(1) {
+    margin: 0;
+  }
+  .contents .c_item li a {
+    display: block;
+    border-radius: 6px;
+  }
+  .contents .c_item li a figure {
+    line-height: 0;
+  }
+  .contents .c_item li a figure img {
+    border-radius: 6px 6px 0 0;
+  }
+  .contents .c_item li a .c_text {
+    padding: 6%;
+    font-size: calc(42vw/12);
+    line-height: 1.35;
+  }
   .contents .c_list {
     border-radius: 5px;
     padding: 0.8% 0;
@@ -742,6 +820,38 @@ footer small {
   }
   .contents .c_anime .c_i_li {
     margin: 0;
+  }
+  .contents .c_item {
+    margin: 4% 0 0;
+  }
+  .contents .c_item li {
+    width: 48%;
+    margin: 5% 0 0 4%;
+    border-radius: 4px;
+  }
+  .contents .c_item li:nth-child(2n+1) {
+    margin: 5% 0 0 0;
+  }
+  .contents .c_item li:nth-child(2) {
+    margin: 0 0 0 4%;
+  }
+  .contents .c_item li:nth-child(1) {
+    margin: 0;
+  }
+  .contents .c_item li a {
+    display: block;
+    border-radius: 4px;
+  }
+  .contents .c_item li a figure {
+    line-height: 0;
+  }
+  .contents .c_item li a figure img {
+    border-radius: 4px 4px 0 0;
+  }
+  .contents .c_item li a .c_text {
+    padding: 6%;
+    font-size: calc(44vw/12);
+    line-height: 1.35;
   }
   .contents .c_list {
     border-radius: 5px;

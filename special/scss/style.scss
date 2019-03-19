@@ -153,6 +153,7 @@ header {
 			}
 		}
 	}
+
 	.c_list {
 		border-radius: 8px;
 		padding: 8px 0;
@@ -191,6 +192,45 @@ header {
 					font-size: 22px;
 					font-weight: normal;
 					line-height: 1.35;
+				}
+			}
+		}
+	}
+	.c_item {
+		display: flex;
+		flex-flow: row wrap;
+		margin: 35px 0 0;
+
+		li {
+			justify-content: flex-end;
+			box-sizing: border-box;
+			background: #1a1a1a;
+			width: 48%;
+			margin: 5% 0 0 4%;
+			border-radius: 8px;
+			&:nth-child(2n+1) {
+				margin: 5% 0 0 0;
+			}
+			&:nth-child(2) {
+				margin: 0 0 0 4%;
+			}
+			&:nth-child(1) {
+				margin: 0;
+			}
+			a {
+				display: block;
+				border-radius: 8px;
+				figure {
+					line-height: 0;
+					img {
+						border-radius: 8px 8px 0 0;
+					}
+				}
+				.c_text {
+					padding: 20px;
+					font-size: 27px;
+					line-height: 1.4;
+					color: #fff;
 				}
 			}
 		}
@@ -486,6 +526,39 @@ footer {
 				margin: 0;
 			}
 		}
+		.c_item {
+			margin: 4% 0 0;
+
+			li {
+				width: 48%;
+				margin: 5% 0 0 4%;
+				border-radius: 6px;
+				&:nth-child(2n+1) {
+					margin: 5% 0 0 0;
+				}
+				&:nth-child(2) {
+					margin: 0 0 0 4%;
+				}
+				&:nth-child(1) {
+					margin: 0;
+				}
+				a {
+					display: block;
+					border-radius: 6px;
+					figure {
+						line-height: 0;
+						img {
+							border-radius: 6px 6px 0 0;
+						}
+					}
+					.c_text {
+						padding: 6%;
+						font-size: calc(42vw/12);
+						line-height: 1.35;
+					}
+				}
+			}
+		}
 		.c_list {
 			border-radius: 5px;
 			padding: 0.8% 0;
@@ -750,6 +823,39 @@ footer {
 			}
 			.c_i_li {
 				margin: 0;
+			}
+		}
+		.c_item {
+			margin: 4% 0 0;
+
+			li {
+				width: 48%;
+				margin: 5% 0 0 4%;
+				border-radius: 4px;
+				&:nth-child(2n+1) {
+					margin: 5% 0 0 0;
+				}
+				&:nth-child(2) {
+					margin: 0 0 0 4%;
+				}
+				&:nth-child(1) {
+					margin: 0;
+				}
+				a {
+					display: block;
+					border-radius: 4px;
+					figure {
+						line-height: 0;
+						img {
+							border-radius: 4px 4px 0 0;
+						}
+					}
+					.c_text {
+						padding: 6%;
+						font-size: calc(44vw/12);
+						line-height: 1.35;
+					}
+				}
 			}
 		}
 		.c_list {
