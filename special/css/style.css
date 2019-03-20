@@ -278,14 +278,17 @@ header .h_wrap .h_item li:first-child {
   width: 48.5%;
   margin: 0 0 0 3%;
 }
+.genre .g_item li:nth-child(2n+1) {
+  margin: 3% 0 0 0;
+}
+.genre .g_item li:nth-child(2n+2) {
+  margin: 3% 0 0 3%;
+}
 .genre .g_item li:nth-child(1) {
   margin: 0;
 }
-.genre .g_item li:nth-child(3) {
-  margin: 3% 0 0 0;
-}
-.genre .g_item li:nth-child(4) {
-  margin: 3% 0 0 3%;
+.genre .g_item li:nth-child(2) {
+  margin: 0 0 0 3%;
 }
 .genre .g_item li a {
   display: block;
@@ -304,8 +307,7 @@ header .h_wrap .h_item li:first-child {
 }
 
 .banner_b {
-  border-top: 1px solid #606060;
-  padding: 64px 0;
+  padding: 40px 0;
 }
 .banner_b .wrap {
   max-width: 768px;
@@ -616,14 +618,17 @@ footer small {
     width: 48%;
     margin: 0 0 0 4%;
   }
+  .genre .g_item li:nth-child(2n+1) {
+    margin: 4% 0 0 0;
+  }
+  .genre .g_item li:nth-child(2n+2) {
+    margin: 4% 0 0 4%;
+  }
   .genre .g_item li:nth-child(1) {
     margin: 0;
   }
-  .genre .g_item li:nth-child(3) {
-    margin: 4% 0 0 0;
-  }
-  .genre .g_item li:nth-child(4) {
-    margin: 4% 0 0 4%;
+  .genre .g_item li:nth-child(2) {
+    margin: 0 0 0 4%;
   }
   .genre .g_item li a {
     padding: 8% 0;
@@ -638,8 +643,7 @@ footer small {
   }
 
   .banner_b {
-    padding: 7.5% 0;
-    margin: 3% 0 0;
+    padding: 4% 0;
   }
   .banner_b .wrap .b_b_btn {
     border-radius: 5px;
@@ -904,14 +908,17 @@ footer small {
     width: 48%;
     margin: 0 0 0 4%;
   }
+  .genre .g_item li:nth-child(2n+1) {
+    margin: 4% 0 0 0;
+  }
+  .genre .g_item li:nth-child(2n+2) {
+    margin: 4% 0 0 4%;
+  }
   .genre .g_item li:nth-child(1) {
     margin: 0;
   }
-  .genre .g_item li:nth-child(3) {
-    margin: 4% 0 0 0;
-  }
-  .genre .g_item li:nth-child(4) {
-    margin: 4% 0 0 4%;
+  .genre .g_item li:nth-child(2) {
+    margin: 0 0 0 4%;
   }
   .genre .g_item li a {
     padding: 8% 0;
@@ -926,8 +933,7 @@ footer small {
   }
 
   .banner_b {
-    padding: 7.5% 0;
-    margin: 3% 0 0;
+    padding: 3.5% 0;
   }
   .banner_b .wrap .b_b_btn {
     border-radius: 5px;

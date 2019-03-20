@@ -255,14 +255,18 @@ header {
 			float: left;
 			width: 48.5%;
 			margin: 0 0 0 3%;
+
+			&:nth-child(2n+1) {
+				margin: 3% 0 0 0;
+			}
+			&:nth-child(2n+2) {
+				margin: 3% 0 0 3%;
+			}
 			&:nth-child(1) {
 				margin: 0;
 			}
-			&:nth-child(3) {
-				margin: 3% 0 0 0;
-			}
-			&:nth-child(4) {
-				margin: 3% 0 0 3%;
+			&:nth-child(2) {
+				margin: 0 0 0 3%;
 			}
 			a {
 				display: block;
@@ -285,8 +289,7 @@ header {
 
 
 .banner_b {
-	border-top: 1px solid #606060;
-	padding: 64px 0;
+	padding: 40px 0;
 	.wrap {
 		max-width: 768px;
 		margin: 0 auto;
@@ -606,14 +609,18 @@ footer {
 				float: left;
 				width: 48%;
 				margin: 0 0 0 4%;
+
+				&:nth-child(2n+1) {
+					margin: 4% 0 0 0;
+				}
+				&:nth-child(2n+2) {
+					margin: 4% 0 0 4%;
+				}
 				&:nth-child(1) {
 					margin: 0;
 				}
-				&:nth-child(3) {
-					margin: 4% 0 0 0;
-				}
-				&:nth-child(4) {
-					margin: 4% 0 0 4%;
+				&:nth-child(2) {
+					margin: 0 0 0 4%;
 				}
 				a {
 					padding: 8% 0;
@@ -631,8 +638,7 @@ footer {
 	}
 
 	.banner_b {
-		padding: 7.5% 0;
-		margin: 3% 0 0;
+		padding: 4% 0;
 		.wrap {
 			.b_b_btn {
 				border-radius: 5px;
@@ -908,14 +914,18 @@ footer {
 				float: left;
 				width: 48%;
 				margin: 0 0 0 4%;
+
+				&:nth-child(2n+1) {
+					margin: 4% 0 0 0;
+				}
+				&:nth-child(2n+2) {
+					margin: 4% 0 0 4%;
+				}
 				&:nth-child(1) {
 					margin: 0;
 				}
-				&:nth-child(3) {
-					margin: 4% 0 0 0;
-				}
-				&:nth-child(4) {
-					margin: 4% 0 0 4%;
+				&:nth-child(2) {
+					margin: 0 0 0 4%;
 				}
 				a {
 					padding: 8% 0;
@@ -933,8 +943,7 @@ footer {
 	}
 
 	.banner_b {
-		padding: 7.5% 0;
-		margin: 3% 0 0;
+		padding: 3.5% 0;
 		.wrap {
 			.b_b_btn {
 				border-radius: 5px;
