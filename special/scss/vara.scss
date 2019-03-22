@@ -27,7 +27,7 @@ header {
 		padding: 13px 0 15px 20px;
 		span {
 			display: block;
-			max-width:  151px;
+			max-width: 151px;
 		}
 	}
 	.h_wrap {
@@ -139,6 +139,9 @@ header {
 			padding: 25px 0;
 			margin: 0 0 0;
 			border-bottom: 1px solid #606060;
+			&:last-child {
+				border: none;
+			}
 
 			a {
 				overflow: hidden;
@@ -186,9 +189,6 @@ header {
 		}
 		.c_i_li {
 			margin: 0;
-			&:last-child {
-				border: none;
-			}
 		}
 	}
 
