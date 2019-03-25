@@ -29,45 +29,45 @@ img {
   width: 100%;
 }
 
-.header {
+.header_is {
   display: block;
   background: #000;
   z-index: 10000;
 }
-.header .header_nav {
+.header_is .header_nav {
   overflow: hidden;
 }
-.header .header_item {
+.header_is .header_item {
   overflow: hidden;
   float: left;
   padding: 12px 0 0 18px;
 }
-.header .header_item li {
+.header_is .header_item li {
   padding: 0 0 0;
   margin: 0;
 }
-.header .header_item li a {
+.header_is .header_item li a {
   display: block;
 }
-.header .header_item li a:hover {
+.header_is .header_item li a:hover {
   background: none;
   opacity: .8;
 }
-.header .header_item li img {
+.header_is .header_item li img {
   max-width: 117px;
 }
-.header .header_list {
+.header_is .header_list {
   display: block;
   overflow: hidden;
   float: left;
   padding: 1px 0 6px 8px;
 }
-.header .header_list li {
+.header_is .header_list li {
   float: left;
   padding: 4px 0 0;
   margin: 0 0 0 8px;
 }
-.header .header_list li a {
+.header_is .header_list li a {
   display: block;
   padding: 10px 7px;
   border-radius: 4px;
@@ -75,7 +75,7 @@ img {
   font-weight: bold;
   color: #fff;
 }
-.header .header_list li a:hover {
+.header_is .header_list li a:hover {
   background: #212121;
   opacity: 1;
 }
