@@ -455,3 +455,22 @@ footer small {
     letter-spacing: 0.5px;
   }
 }
+.hi {
+  opacity: 0;
+}
+
+@-webkit-keyframes item_sp {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes item_sp {
+  100% {
+    opacity: 1;
+  }
+}
+.a01 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 2.2s 1 forwards;
+}
