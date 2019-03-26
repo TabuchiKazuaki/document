@@ -73,46 +73,9 @@ img  { width: 100%;}
 
 
 @media screen and (max-width: 768px) {
-
-	.header_is {
-		.header_item {
-			padding: 2% 0 1.8% 2.6%;
-			width: 16%;
-			li {
-				padding: 0 0 0;
-				margin: 0;
-				a {
-					display: block;
-					&:hover {
-						background: none;
-						opacity: .8;
-					}
-				}
-			}
-		}
-		.header_list {
-			padding: 1.7% 0 1.4 1.5%;
-			margin: 0 0 2%;
-			width: 71%;
-
-			li {
-				margin: 0 0 0 4%;
-				a {
-					display: inline-block;
-					padding: 5% 8%;
-					font-size: calc(32vw/12);
-
-					&:hover {
-						background: none;
-						opacity: .8;
-					}
-				}
-			}
-		}
+	.complementary-outer--slot1 {
+		padding: 0 3% 0;
 	}
-}
-
-@media screen and (max-width: 414px) {
 	.header_is {
 		.header_item {
 			padding: 2% 0 1.8% 2.6%;
@@ -140,6 +103,43 @@ img  { width: 100%;}
 					display: inline-block;
 					padding: 5% 8%;
 					font-size: calc(34vw/12);
+
+					&:hover {
+						background: none;
+						opacity: .8;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.header_is {
+		.header_item {
+			padding: 2% 0 1.8% 2.6%;
+			width: 20%;
+			li {
+				a {
+					display: block;
+					&:hover {
+						background: none;
+						opacity: .8;
+					}
+				}
+			}
+		}
+		.header_list {
+			padding: 1.7% 0 1.4 1.5%;
+			margin: 0 0 2%;
+			width: 71%;
+
+			li {
+				margin: 0 0 0 4%;
+				a {
+					display: inline-block;
+					padding: 5% 8%;
+					font-size: calc(38vw/12);
 
 					&:hover {
 						background: none;
