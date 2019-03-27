@@ -112,6 +112,15 @@ header .h_wrap .h_item li:first-child {
   padding: 25px 0 0;
   margin: 0;
 }
+.contents .c_b {
+  background: #efefef;
+  padding: 50px 0;
+  margin: 25px 0 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #666666;
+}
 .contents .c_anime {
   margin: 35px 0 0;
 }
@@ -507,6 +516,11 @@ footer small {
   .contents .c_h_m {
     padding: 4% 0 0;
     margin: 0;
+  }
+  .contents .c_b {
+    padding: 8% 0;
+    margin: 4% 0 0;
+    font-size: calc(40vw/12);
   }
   .contents .c_anime {
     margin: 2% 0 0;
