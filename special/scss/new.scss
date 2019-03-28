@@ -127,6 +127,7 @@ header {
 		}
 	}
 	.more {
+		padding: 0 0 63px;
 		margin: 40px auto 0;
 		width: 95%;
 		a {
@@ -145,6 +146,7 @@ header {
 aside {
 	background: #000;
 	padding: 17px 0 66px;
+	border-top: 2px solid #404040;
 	.wrap {
 		max-width: 768px;
 		margin: 0 auto;
@@ -154,15 +156,15 @@ aside {
 			margin: 40px 0 0;
 			font-size: 28px;
 			letter-spacing: 1.4px;
-			font-weight: 600;
+			font-weight: normal;
 			color: #fff;
 		}
 		dd {
 			margin: 25px 0 0;
-			font-size: 24px;
+			font-size: 28px;
 			line-height: 1.45;
 			letter-spacing: 1.4px;
-			color: #fff;
+			color: #ababab;
 			.caution {
 				display: block;
 				margin: 12px 0 0;
@@ -321,6 +323,7 @@ footer {
 			}
 		}
 		.more {
+			padding: 0 0 7%;
 			margin: 5.5% auto 0;
 			width: 95%;
 			a {
@@ -497,6 +500,7 @@ footer {
 			}
 		}
 		.more {
+			padding: 0 0 5%;
 			margin: 5.5% auto 0;
 			width: 95%;
 			a {
