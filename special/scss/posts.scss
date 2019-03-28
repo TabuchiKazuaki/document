@@ -68,11 +68,11 @@ footer {
 		li {
 			position: relative;
 			float: left;
-			margin: 15px 10px 0 0;
+			margin: 15px 6px 0 0;
 			a {
 				display: block;
-				padding: 0 12px 0 0;
-				font-size: 13px;
+				padding: 0 6px 0 0;
+				font-size: 12px;
 				color: #333;
 			}
 			&:after {
@@ -80,8 +80,10 @@ footer {
 				position: absolute;
 				top: 0;
 				right: 0;
-				font-size: 11px;
+				font-size: 16px;
 				color: #999;
+				line-height: 0.6;
+
 			}
 			&:last-child:after {
 				content: '';
@@ -138,9 +140,9 @@ footer {
 		.f_list {
 			margin: 0 0 0;
 			li {
-				margin: 3% 2% 0 0;
+				margin: 3% 4px 0 0;
 				a {
-					padding: 0 8px 0 0;
+					padding: 0 5px 0 0;
 					font-size: calc(21vw/12);
 					white-space: nowrap;
 				}
@@ -149,7 +151,8 @@ footer {
 					position: absolute;
 					top: 0;
 					right: 0;
-					font-size: calc(20vw/12);
+					font-size: calc(26vw/12);
+					line-height: 0.7;
 				}
 				&:last-child:after {
 					content: '';
@@ -218,7 +221,8 @@ footer {
 					position: absolute;
 					top: 0;
 					right: 0;
-					font-size: calc(21vw/12);
+					font-size: calc(42vw/12);
+					line-height: 0.7;
 				}
 				&:last-child:after {
 					content: '';
