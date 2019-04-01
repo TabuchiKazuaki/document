@@ -27,105 +27,22 @@ header {
 		padding: 13px 0 15px 20px;
 		span {
 			display: block;
-			max-width: 151px;
+			max-width:  151px;
 		}
 	}
 	.h_wrap {
 		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/7a4357d9cc1ca92188cfba1b30391059_9ae5978028ff522e51a3c6926ac1b589.png) center center repeat;
-
-		.h_box {
-			max-width: 768px;
-			padding: 39px 0 41px;
-			margin: 0 auto;
-			height: 421px;
-			box-sizing: border-box;
-
-			.h_h {
-				max-width: 318px;
-				margin: 0 auto;
-			}
-			.h_ig {
-				max-width: 518px;
-				margin: 23px auto 0;
-			}
-			.h_img {
-				max-width: 205px;
-				margin: 0 auto 0;
-			}
-			.h_txt {
-				max-width: 518px;
-				margin: 2px auto 0;
-			}
-		}
 	}
-}
-
-.cp {
-	padding: 60px 0 58px;
-	background: #efefef;
-	.c_img {
-		max-width: 527px;
+	.h_h {
+		max-width:  580px;
 		margin: 0 auto;
-	}
-	h2 {
-		max-width: 575px;
-		margin: 26px auto 0;
-	}
-	.c_date{
-		margin: 19px 0 0;
 		text-align: center;
-		font-size: 24px;
-		font-weight: bold;
-		span {
-			font-size: 27px;
-		}
 	}
 }
+
 
 .contents {
-	padding: 40px 0 30px;
-	.c_present {
-		padding: 31px 0 51px;
-		a {
-			position: relative;
-			display: block;
-			overflow: hidden;
-			padding: 18px 60px 18px 18px;
-			border: 2px solid #a1882f;
-			border-radius: 8px;
-			&:after {
-				content: '';
-				background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/6fe05918a664f995862ae966e4c71d70_c18662eadd5bc503225a72cdb45338e0.png) 0 0 no-repeat;
-				position: absolute;
-				top: 39%;
-				right: 2%;
-				background-size: 20px 34px;
-				width: 20px;
-				height: 34px;
-			}
-		}
-		td {
-			width: 32%;
-			line-height: 0;
-		}
-		th {
-			position: relative;
-			width: 56%;
-			padding: 0 0 0 4%;
-			line-height: 1.5;
-			font-weight: bold;
-			font-size: 23px;
-			letter-spacing: 1.7;
-			vertical-align: middle;
-			text-align: left;
-			color: #000;
-
-			span {
-				font-size: 22px;
-				color: #a1882f;
-			}
-		}
-	}
+	padding: 30px 0 15px;
 	.c_h {
 		font-size: 32px;
 		font-weight: bold;
@@ -153,14 +70,11 @@ header {
 		color: #666;
 	}
 	.c_anime {
-		margin: 15px 0 0;
+		margin: 35px 0 0;
 		.c_i_list {
 			padding: 25px 0;
-			margin: 0 0 0;
+			margin: 20px 0 0;
 			border-bottom: 1px solid #606060;
-			&:last-child {
-				border: none;
-			}
 
 			a {
 				overflow: hidden;
@@ -208,6 +122,9 @@ header {
 		}
 		.c_i_li {
 			margin: 0;
+			&:last-child {
+				border: none;
+			}
 		}
 	}
 
@@ -287,14 +204,7 @@ header {
 					padding: 20px;
 					font-size: 27px;
 					line-height: 1.4;
-					font-weight: bold;
 					color: #666;
-
-					span {
-						display: block;
-						font-weight: bold;
-						color: #a1882f;
-					}
 				}
 			}
 		}
@@ -309,7 +219,7 @@ header {
 }
 
 .genre {
-	padding: 30px 0 40px;
+	padding: 60px 0 40px;
 	.g_h {
 		font-size: 32px;
 	}
@@ -456,7 +366,7 @@ footer {
 		margin: 0 0 40px;
 		li {
 			float: left;
-			margin: 5px 0 0 5px;
+			margin: 5px 0 0;
 			line-height: 1.3;
 			font-size: 16px;
 			color: #666666;
@@ -517,21 +427,16 @@ footer {
 			background-size: cover;
 			.h_box {
 				height: auto;
-				padding: 5.3% 0 5.3%;
+				padding: 5% 0 6.5%;
 				.h_h {
-					width: 44%;
+					width: 88%;
 				}
-				.h_ig {
-					width: 70%;
-					margin: 3% auto 0;
-				}
-				.h_img {
-					width: 50%;
-					margin: 0 auto 0;
-				}
-				.h_txt {
-					width: 70%;
-					margin: 0.6% auto 0;
+			}
+			.h_item {
+				margin: 4.98% 0 0 5.8%;
+				li {
+					width: 18%;
+					margin: 0 0 0 6.6%;
 				}
 			}
 		}
@@ -554,39 +459,7 @@ footer {
 		}
 	}
 	.contents {
-		padding: 4% 0 1.5%;
-		.c_present {
-			padding: 4% 0 6%;
-			a {
-				padding: 3% 8% 3% 3%;
-				border: 2px solid #a1882f;
-				border-radius: 8px;
-				&:after {
-					content: '';
-					position: absolute;
-					top: 41%;
-					right: 2%;
-					background-size: 16px 27px;
-					width: 16px;
-					height: 27px;
-				}
-			}
-			td {
-				width: 35%;
-				line-height: 0;
-			}
-			th {
-				width: 56%;
-				padding: 0 0 0 4%;
-				line-height: 1.5;
-				font-size: calc(38vw/12);
-				letter-spacing: 1.4px;
-
-				span {
-					font-size: calc(35vw/12);
-				}
-			}
-		}
+		padding: 4% 0 1%;
 		.c_h {
 			font-size: calc(49vw/12);
 			letter-spacing: 1.25px;
@@ -612,7 +485,7 @@ footer {
 				margin: 0;
 
 				td {
-					width: 48%;
+					width: 52%;
 				}
 				th {
 					padding: 0 0 0 2%;
@@ -712,7 +585,7 @@ footer {
 	}
 
 	.genre {
-		padding: 4% 0 5%;
+		padding: 8% 0 5%;
 		.g_h {
 			font-size: calc(50vw/12);
 		}
@@ -825,7 +698,7 @@ footer {
 		.copy {
 			margin: 0 0 6%;
 			li {
-				margin: 1% 0 0 1%;
+				margin: 1% 0 0;
 				line-height: 1.3;
 				font-size: calc(25vw/12);
 			}
@@ -872,21 +745,16 @@ footer {
 
 		.h_wrap {
 			.h_box {
-				padding: 5.3% 0 5.2%;
+				padding: 5% 0 6.5%;
 				.h_h {
-					width: 44%;
+					width: 88%;
 				}
-				.h_ig {
-					width: 70%;
-					margin: 3% auto 0;
-				}
-				.h_img {
-					width: 39%;
-					margin: 0 auto 0;
-				}
-				.h_txt {
-					width: 70%;
-					margin: 0.6% auto 0;
+			}
+			.h_item {
+				margin: 4.98% 0 0 5.8%;
+				li {
+					width: 18%;
+					margin: 0 0 0 6.6%;
 				}
 			}
 		}
@@ -909,38 +777,7 @@ footer {
 		}
 	}
 	.contents {
-		padding: 3% 0 1%;
-		.c_present {
-			padding: 3% 0 6%;
-			a {
-				padding: 2% 7% 2% 2%;
-				border: 1px solid #a1882f;
-				border-radius: 6px;
-				&:after {
-					content: '';
-					top: 42%;
-					right: 2%;
-					background-size: 10px 17px;
-					width: 10px;
-					height: 17px;
-				}
-			}
-			td {
-				width: 33%;
-				line-height: 0;
-			}
-			th {
-				width: 56%;
-				padding: 0 0 0 4%;
-				line-height: 1.5;
-				font-size: calc(39vw/12);
-				letter-spacing: 0.5px;
-
-				span {
-					font-size: calc(36vw/12);
-				}
-			}
-		}
+		padding: 3% 0 0.5%;
 		.c_h {
 			font-size: calc(51vw/12);
 			letter-spacing: 1px;
@@ -953,7 +790,7 @@ footer {
 				margin: 0;
 
 				td {
-					width: 45%;
+					width: 52%;
 				}
 				th {
 					padding: 0 0 0 2%;
@@ -976,9 +813,6 @@ footer {
 					.short_th{
 						font-size: calc(44vw/12);
 					}
-				}
-				&:last-child {
-					border-bottom: none;
 				}
 			}
 			.c_i_li {
@@ -1057,7 +891,7 @@ footer {
 	}
 
 	.genre {
-		padding: 3% 0 5%;
+		padding: 6% 0 5%;
 		.g_h {
 			font-size: calc(52vw/12);
 		}
@@ -1171,7 +1005,7 @@ footer {
 		.copy {
 			margin: 0 0 6%;
 			li {
-				margin: 1% 0 0 1%;
+				margin: 1% 0 0;
 				line-height: 1.3;
 				font-size: calc(27vw/12);
 			}
@@ -1211,10 +1045,10 @@ footer {
 	opacity: 0;
 }
 @keyframes item_sp { 100% { opacity: 1; } }
-.a01 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 3.5s 1 forwards; }
-.a02 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 3.9s 1 forwards; }
-.a03 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 4.3s 1 forwards; }
-.a04 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 4.7s 1 forwards; }
+.a01 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 2.5s 1 forwards; }
+.a02 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 2.9s 1 forwards; }
+.a03 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 3.3s 1 forwards; }
+.a04 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 3.7s 1 forwards; }
 
 
 
