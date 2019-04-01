@@ -111,6 +111,11 @@ header {
 				font-size: 30px;
 				font-weight: bold;
 				color: #a1882f;
+				&:hover {
+					background: #a1882f;
+					color: #fff;
+					opacity: 1;
+				}
 			}
 		}
 	}
@@ -339,6 +344,11 @@ footer {
 					font-size: 30px;
 					font-weight: bold;
 					color: #a1882f;
+					&:hover {
+						background: none;
+						color: #a1882f;
+						opacity: 1;
+					}
 				}
 			}
 		}
@@ -397,8 +407,8 @@ footer {
 						color: #a1882f;
 
 						&:hover {
-							background: #a1882f;
-							color: #fff;
+							background: none;
+							color: #a1882f;
 							opacity: 1;
 						}
 					}

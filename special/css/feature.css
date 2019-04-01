@@ -123,6 +123,11 @@ header .h_wrap .h_h {
   font-weight: bold;
   color: #a1882f;
 }
+.contents .c_inner .c_btn a:hover {
+  background: #a1882f;
+  color: #fff;
+  opacity: 1;
+}
 .contents .c_small {
   margin: 0;
   border-bottom: 1px solid #606060;
@@ -343,6 +348,11 @@ footer small {
     font-weight: bold;
     color: #a1882f;
   }
+  .contents .c_inner .c_btn a:hover {
+    background: none;
+    color: #a1882f;
+    opacity: 1;
+  }
   .contents .c_small {
     margin: 0;
     border-bottom: 1px solid #606060;
@@ -397,8 +407,8 @@ footer small {
     color: #a1882f;
   }
   .contents .c_small dt .c_inb a:hover {
-    background: #a1882f;
-    color: #fff;
+    background: none;
+    color: #a1882f;
     opacity: 1;
   }
 
