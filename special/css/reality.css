@@ -49,7 +49,9 @@ header .h_wrap .h_box {
   max-width: 768px;
   padding: 22px 0 18px;
   margin: 0 auto;
-  height: 418px;
+  height: 421px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 header .h_wrap .h_box .h_h {
   max-width: 318px;
