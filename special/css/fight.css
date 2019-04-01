@@ -47,11 +47,49 @@ header .h_wrap {
 }
 header .h_wrap .h_box {
   max-width: 768px;
-  padding: 45px 0 38px;
+  padding: 39px 0 41px;
   margin: 0 auto;
   height: 421px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+header .h_wrap .h_box .h_h {
+  max-width: 318px;
+  margin: 0 auto;
+}
+header .h_wrap .h_box .h_ig {
+  max-width: 518px;
+  margin: 23px auto 0;
+}
+header .h_wrap .h_box .h_img {
+  max-width: 205px;
+  margin: 0 auto 0;
+}
+header .h_wrap .h_box .h_txt {
+  max-width: 518px;
+  margin: 2px auto 0;
+}
+
+.cp {
+  padding: 60px 0 58px;
+  background: #efefef;
+}
+.cp .c_img {
+  max-width: 527px;
+  margin: 0 auto;
+}
+.cp h2 {
+  max-width: 575px;
+  margin: 26px auto 0;
+}
+.cp .c_date {
+  margin: 19px 0 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.cp .c_date span {
+  font-size: 27px;
 }
 
 .contents {
@@ -502,6 +540,24 @@ footer small {
     margin: 0.6% auto 0;
   }
 
+  .cp {
+    padding: 8.3% 0 8.3%;
+  }
+  .cp .c_img {
+    width: 71%;
+  }
+  .cp h2 {
+    width: 77%;
+    margin: 3.9% auto 0;
+  }
+  .cp .c_date {
+    margin: 3% 0 0;
+    font-size: calc(38vw/12);
+  }
+  .cp .c_date span {
+    font-size: calc(40vw/12);
+  }
+
   .contents {
     padding: 4% 0 1.5%;
   }
@@ -818,6 +874,24 @@ footer small {
   header .h_wrap .h_box .h_txt {
     width: 70%;
     margin: 0.6% auto 0;
+  }
+
+  .cp {
+    padding: 8.3% 0 7.3%;
+  }
+  .cp .c_img {
+    width: 77%;
+  }
+  .cp h2 {
+    width: 85%;
+    margin: 4% auto 0;
+  }
+  .cp .c_date {
+    margin: 3% 0 0;
+    font-size: calc(40vw/12);
+  }
+  .cp .c_date span {
+    font-size: calc(42vw/12);
   }
 
   .contents {

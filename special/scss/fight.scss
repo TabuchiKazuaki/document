@@ -35,15 +35,52 @@ header {
 
 		.h_box {
 			max-width: 768px;
-			padding: 45px 0 38px;
+			padding: 39px 0 41px;
 			margin: 0 auto;
 			height: 421px;
 			box-sizing: border-box;
+
+			.h_h {
+				max-width: 318px;
+				margin: 0 auto;
+			}
+			.h_ig {
+				max-width: 518px;
+				margin: 23px auto 0;
+			}
+			.h_img {
+				max-width: 205px;
+				margin: 0 auto 0;
+			}
+			.h_txt {
+				max-width: 518px;
+				margin: 2px auto 0;
+			}
 		}
 	}
 }
 
-
+.cp {
+	padding: 60px 0 58px;
+	background: #efefef;
+	.c_img {
+		max-width: 527px;
+		margin: 0 auto;
+	}
+	h2 {
+		max-width: 575px;
+		margin: 26px auto 0;
+	}
+	.c_date{
+		margin: 19px 0 0;
+		text-align: center;
+		font-size: 24px;
+		font-weight: bold;
+		span {
+			font-size: 27px;
+		}
+	}
+}
 
 .contents {
 	padding: 40px 0 30px;
@@ -499,7 +536,23 @@ footer {
 			}
 		}
 	}
-
+	.cp {
+		padding: 8.3% 0 8.3%;
+		.c_img {
+			width: 71%;
+		}
+		h2 {
+			width: 77%;
+			margin: 3.9% auto 0;
+		}
+		.c_date{
+			margin: 3% 0 0;
+			font-size: calc(38vw/12);
+			span {
+				font-size: calc(40vw/12);
+			}
+		}
+	}
 	.contents {
 		padding: 4% 0 1.5%;
 		.c_present {
@@ -838,7 +891,23 @@ footer {
 			}
 		}
 	}
-
+	.cp {
+		padding: 8.3% 0 7.3%;
+		.c_img {
+			width: 77%;
+		}
+		h2 {
+			width: 85%;
+			margin: 4% auto 0;
+		}
+		.c_date{
+			margin: 3% 0 0;
+			font-size: calc(40vw/12);
+			span {
+				font-size: calc(42vw/12);
+			}
+		}
+	}
 	.contents {
 		padding: 3% 0 1%;
 		.c_present {
