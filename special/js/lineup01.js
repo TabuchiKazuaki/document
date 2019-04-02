@@ -43,8 +43,8 @@ $(document).ready(function() {
 		$('#c_07').attr("href","https://abema.tv/video/title/90-1236");
 	}
 
-	var change08 = new Date("2019/04/06 23:00");
-	if (now.getTime() > change08.getTime()) {
+	var change09 = new Date("2019/04/06 23:00");
+	if (now.getTime() > change09.getTime()) {
 		$('#c_08').text('ビデオを見る');
 		$('#c_08').attr("href","まだない");
 	}
