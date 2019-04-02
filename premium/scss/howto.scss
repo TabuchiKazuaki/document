@@ -209,6 +209,11 @@ footer {
 }
 @media screen and (max-width: 480px) {
 
+	.wrap {
+		padding: 0 4.8%;
+		margin: 0 auto;
+	}
+
 	header {
 		.logo {
 			width: 21%;
@@ -235,9 +240,9 @@ footer {
 			line-height: 1.3;
 		}
 		.c_box {
-			margin: 3.5% 0 0;
+			margin: 4.5% 0 0;
 			li {
-				margin: 2.3% 0 0;
+				margin: 1.7% 0 0;
 				max-width: 680px;
 				margin: 15px auto 0;
 				&:nth-child(1) {
