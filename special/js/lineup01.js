@@ -10,7 +10,7 @@ $(document).ready(function() {
 	var change02 = new Date("2019/04/11 05:00");
 	if (now.getTime() > change02.getTime()) {
 		$('#c_02').text('ビデオを見る');
-		$('#c_02').attr("href","まだない");
+		$('#c_02').attr("href","https://abema.tv/video/title/90-1250");
 	}
 
 	var change03 = new Date("2019/04/01 22:00");
@@ -46,7 +46,7 @@ $(document).ready(function() {
 	var change08 = new Date("2019/04/06 23:00");
 	if (now.getTime() > change08.getTime()) {
 		$('#c_08').text('ビデオを見る');
-		$('#c_08').attr("href","まだない");
+		$('#c_08').attr("href","https://abema.tv/video/title/90-1252");
 	}
 
 
