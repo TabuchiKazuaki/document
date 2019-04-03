@@ -62,8 +62,36 @@ header .h_wrap .h_h {
   padding: 42px 0 62px;
   background: #fff;
 }
+.contents .c_num {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.contents .c_date {
+  margin: 0 0 0 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 6px 0 0;
+  font-size: 35px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #a1882f;
+}
 .contents .number {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: inline-block;
+  max-width: 185px;
   background: #a1882f;
   padding: 9px 43px 9px;
   margin: 0 0 18px;
@@ -72,6 +100,7 @@ header .h_wrap .h_h {
   border-radius: 30px;
   font-size: 32px;
   text-align: center;
+  box-sizing: border-box;
   color: #fff;
 }
 .contents .c_h {
@@ -286,6 +315,12 @@ footer small {
   .contents {
     padding: 5.7% 0 8.1%;
   }
+  .contents .c_date {
+    margin: 0 0 0 3%;
+    padding: 1% 0 0;
+    font-size: calc(56vw/12);
+    letter-spacing: 1.5px;
+  }
   .contents .number {
     padding: 1.9% 7% 1.9%;
     margin: 0 0 2.5%;
@@ -463,6 +498,12 @@ footer small {
 
   .contents {
     padding: 5.2% 0 6.1%;
+  }
+  .contents .c_date {
+    margin: 0 0 0 3.5%;
+    padding: 1% 0 0;
+    font-size: calc(58vw/12);
+    letter-spacing: 1.4px;
   }
   .contents .number {
     padding: 1.9% 7% 1.9%;

@@ -52,9 +52,27 @@ header {
 .contents {
 	padding: 42px 0 62px;
 	background: #fff;
+	.c_num {
+		display: flex;
+		flex-flow: row wrap;
+	}
+	.c_date {
+		margin: 0 0 0 20px;
+		align-items: center;
+		box-sizing: border-box;
+		padding: 6px 0 0;
+		font-size: 35px;
+		font-weight: bold;
+		letter-spacing: 1.5px;
+		color: #a1882f;
+	}
 
 	.number {
+		justify-content: flex-end;
+		box-sizing: border-box;
 		display: inline-block;
+		max-width: 185px;
+
 		background: #a1882f;
 		padding: 9px 43px 9px;
 		margin: 0 0 18px;
@@ -63,6 +81,7 @@ header {
 		border-radius: 30px;
 		font-size: 32px;
 		text-align: center;
+		box-sizing: border-box;
 		color: #fff;
 	}
 	.c_h {
@@ -284,6 +303,13 @@ footer {
 	.contents {
 		padding: 5.7% 0 8.1%;
 
+		.c_date {
+			margin: 0 0 0 3%;
+			padding: 1% 0 0;
+			font-size: calc(56vw/12);
+			letter-spacing: 1.5px;
+		}
+
 		.number {
 			padding: 1.9% 7% 1.9%;
 			margin: 0 0 2.5%;
@@ -474,6 +500,13 @@ footer {
 
 	.contents {
 		padding: 5.2% 0 6.1%;
+
+		.c_date {
+			margin: 0 0 0 3.5%;
+			padding: 1% 0 0;
+			font-size: calc(58vw/12);
+			letter-spacing: 1.4px;
+		}
 
 		.number {
 			padding: 1.9% 7% 1.9%;
