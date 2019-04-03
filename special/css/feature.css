@@ -242,6 +242,11 @@ header .h_wrap .h_h {
   letter-spacing: 1.4px;
   color: #a1882f;
 }
+.contents .btn a:hover {
+  background: #a1882f;
+  color: #fff;
+  opacity: 1;
+}
 
 .c_las {
   padding: 46px 0 31px;
@@ -457,6 +462,10 @@ footer small {
     border-radius: 5px;
     font-size: calc(47vw/12);
     letter-spacing: 1.3px;
+  }
+  .contents .btn a:hover {
+    background: none;
+    color: #a1882f;
   }
 
   .c_las {
