@@ -49,5 +49,4 @@ $(document).ready(function() {
 		$('#c_08').attr("href","https://abema.tv/video/title/90-1252");
 	}
 
-
 });
