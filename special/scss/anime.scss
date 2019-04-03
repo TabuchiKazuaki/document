@@ -219,6 +219,73 @@ header {
 			}
 		}
 	}
+	.c_anime {
+		.c_i_list {
+			padding: 25px 0;
+			margin: 0 0 0;
+			border-bottom: 1px solid #606060;
+			&:last-child {
+				border: none;
+			}
+
+			a {
+				overflow: hidden;
+				display: block;
+				color: #000;
+			}
+			td {
+				width: 52%;
+				vertical-align: middle;
+			}
+			th {
+				padding: 0 0 0 2%;
+				font-size: 26px;
+				line-height: 1.4;
+				text-align: left;
+				.c_s {
+					display: block;
+					color: #a1882f;
+					.num {
+						display: inline-block;
+						margin: 0 1% 0 0;
+						font-size: 29px;
+					}
+				}
+			}
+			.short {
+				td {
+					width: 36%;
+					vertical-align: middle;
+				}
+				th {
+					padding: 0 0 0 2%;
+					font-size: 26px;
+					line-height: 1.4;
+					font-weight: bold;
+				}
+			}
+			.c_a_t {
+				margin: 15px 0 0;
+				line-height: 1.35;
+				font-size: 26px;
+				color: #666666;
+
+			}
+		}
+		.c_i_li {
+			margin: 0;
+		}
+
+		.c_i_lop {
+			td {
+				width: 42%;
+				vertical-align: middle;
+			}
+		}
+	}
+	.c_fis {
+		margin: 15px 0 25px;
+	}
 
 	.c_fis {
 		margin: 15px 0 25px;
@@ -662,6 +729,42 @@ footer {
 				}
 			}
 		}
+
+		.c_anime {
+			margin: 2% 0 0;
+			.c_i_list {
+				padding: 3.3% 0;
+				margin: 0;
+
+				td {
+					width: 48%;
+				}
+				th {
+					padding: 0 0 0 2%;
+					font-size: calc(43vw/12);
+					line-height: 1.35;
+					.c_s {
+						.num {
+							margin: 0 0.8% 0 0;
+							font-size: calc(45vw/12);
+						}
+					}
+				}
+				.c_a_t {
+					margin: 3% 0 0;
+					line-height: 1.42;
+					font-size: calc(40vw/12);
+				}
+				.short {
+					.short_th{
+						font-size: calc(42vw/12);
+					}
+				}
+			}
+			.c_i_li {
+				margin: 0;
+			}
+		}
 		.c_fis {
 			margin: 2% 0 3%;
 		}
@@ -1014,6 +1117,45 @@ footer {
 					width: 42%;
 					vertical-align: middle;
 				}
+			}
+		}
+		.c_anime {
+			margin: 2% 0 0;
+			.c_i_list {
+				padding: 3.3% 0;
+				margin: 0;
+
+				td {
+					width: 45%;
+				}
+				th {
+					padding: 0 0 0 2%;
+					font-size: calc(45vw/12);
+					line-height: 1.35;
+					.c_s {
+						margin: 0 0 1% 0;
+						.num {
+							margin: 0 0.8% 0 0;
+							font-size: calc(47vw/12);
+						}
+					}
+				}
+				.c_a_t {
+					margin: 3% 0 0;
+					line-height: 1.42;
+					font-size: calc(42vw/12);
+				}
+				.short {
+					.short_th{
+						font-size: calc(44vw/12);
+					}
+				}
+				&:last-child {
+					border-bottom: none;
+				}
+			}
+			.c_i_li {
+				margin: 0;
 			}
 		}
 		.c_fis {
