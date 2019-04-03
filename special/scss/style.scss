@@ -119,6 +119,10 @@ header {
 			margin: 20px 0 0;
 			border-bottom: 1px solid #606060;
 
+			&:last-child {
+				border-bottom: none;
+			}
+
 			a {
 				overflow: hidden;
 				display: block;
