@@ -216,6 +216,67 @@ header .h_wrap .h_box .h_txt {
 .contents .c_anime .c_i_li {
   margin: 0;
 }
+.contents .c_anime {
+  margin: 35px 0 0;
+}
+.contents .c_anime .cil {
+  padding: 25px 0;
+  margin: 0 0 0;
+  border-bottom: 1px solid #606060;
+}
+.contents .c_anime .cil a {
+  overflow: hidden;
+  display: block;
+  color: #000;
+}
+.contents .c_anime .cil td {
+  width: 52%;
+  vertical-align: middle;
+}
+.contents .c_anime .cil th {
+  padding: 0 0 0 2%;
+  font-size: 26px;
+  line-height: 1.4;
+  text-align: left;
+}
+.contents .c_anime .cil th .c_s {
+  display: block;
+  color: #a1882f;
+}
+.contents .c_anime .cil th .c_s .num {
+  display: inline-block;
+  margin: 0 1% 0 0;
+  font-size: 29px;
+}
+.contents .c_anime .cil .short td {
+  width: 36%;
+  vertical-align: middle;
+}
+.contents .c_anime .cil .short th {
+  padding: 0 0 0 2%;
+  font-size: 26px;
+  line-height: 1.4;
+  font-weight: bold;
+}
+.contents .c_anime .cil .c_a_t {
+  margin: 15px 0 0;
+  line-height: 1.35;
+  font-size: 26px;
+  color: #666666;
+}
+.contents .c_anime .coe {
+  margin: 0;
+}
+.contents .c_anime .coe:last-child {
+  border: none;
+}
+.contents .c_anime .cl td {
+  width: 42%;
+  vertical-align: middle;
+}
+.contents .c_anime .cl:last-child {
+  border-bottom: none;
+}
 .contents .c_list {
   border-radius: 8px;
   padding: 8px 0;
@@ -640,6 +701,40 @@ footer small {
   .contents .c_anime .c_i_li {
     margin: 0;
   }
+  .contents .c_anime {
+    margin: 2% 0 0;
+  }
+  .contents .c_anime .cil {
+    padding: 3.3% 0;
+    margin: 0;
+  }
+  .contents .c_anime .cil td {
+    width: 48%;
+  }
+  .contents .c_anime .cil th {
+    padding: 0 0 0 2%;
+    font-size: calc(43vw/12);
+    line-height: 1.35;
+  }
+  .contents .c_anime .cil th .c_s .num {
+    margin: 0 0.8% 0 0;
+    font-size: calc(45vw/12);
+  }
+  .contents .c_anime .cil .c_a_t {
+    margin: 3% 0 0;
+    line-height: 1.41;
+    font-size: calc(40vw/12);
+  }
+  .contents .c_anime .cil .short .sht {
+    font-size: calc(42vw/12);
+  }
+  .contents .c_anime .coe {
+    margin: 0;
+  }
+  .contents .c_anime .cl td {
+    width: 42%;
+    vertical-align: middle;
+  }
   .contents .c_item {
     margin: 4% 0 0;
   }
@@ -967,6 +1062,46 @@ footer small {
   }
   .contents .c_anime .c_i_li {
     margin: 0;
+  }
+  .contents .c_anime {
+    margin: 2% 0 0;
+  }
+  .contents .c_anime .cil {
+    padding: 3.3% 0;
+    margin: 0;
+  }
+  .contents .c_anime .cil td {
+    width: 45%;
+  }
+  .contents .c_anime .cil th {
+    padding: 0 0 0 2%;
+    font-size: calc(45vw/12);
+    line-height: 1.35;
+  }
+  .contents .c_anime .cil th .c_s {
+    margin: 0 0 1% 0;
+  }
+  .contents .c_anime .cil th .c_s .num {
+    margin: 0 0.8% 0 0;
+    font-size: calc(47vw/12);
+  }
+  .contents .c_anime .cil .c_a_t {
+    margin: 3% 0 0;
+    line-height: 1.42;
+    font-size: calc(42vw/12);
+  }
+  .contents .c_anime .cil .short .sht {
+    font-size: calc(44vw/12);
+  }
+  .contents .c_anime .cil:last-child {
+    border-bottom: none;
+  }
+  .contents .c_anime .coe {
+    margin: 0;
+  }
+  .contents .c_anime .cl td {
+    width: 42%;
+    vertical-align: middle;
   }
   .contents .c_item {
     margin: 4% 0 0;
