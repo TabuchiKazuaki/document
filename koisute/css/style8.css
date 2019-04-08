@@ -1756,8 +1756,8 @@ body[data-page-num="1614207"] .btn--summary a {
     background-size: 42px 42px;
     width: 42px;
     height: 42px;
-    top: 34%;
-    left: 44%;
+    top: 63.5%;
+    left: 45%;
     background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/423150/d43937ca898813d3f909fcb75390d766_be61948c8c6d82e5b220f8bf157c1d83.png) 0 0 no-repeat;
     background-size: 60px 60px;
     width: 60px;
@@ -1789,6 +1789,18 @@ body[data-page-num="1614207"] .btn--summary a {
     width: 48%;
     margin: 0 0 0 3%;
   }
+  .cast_women_item li:nth-child(2n), .cast_mens_item li:nth-child(2n) {
+    margin: 3% 0 0 3%;
+  }
+  .cast_women_item li:nth-child(2n+1), .cast_mens_item li:nth-child(2n+1) {
+    margin: 3% 0 0 0;
+  }
+  .cast_women_item li:nth-child(2), .cast_mens_item li:nth-child(2) {
+    margin: 0 0 0 3%;
+  }
+  .cast_women_item li:nth-child(1), .cast_mens_item li:nth-child(1) {
+    margin: 0;
+  }
 
   .cast_mens_item {
     padding: 3% 2% 1%;
@@ -1805,7 +1817,7 @@ body[data-page-num="1614207"] .btn--summary a {
     font-size: 17px;
   }
   .cast_inner_box_section:after {
-    top: 37.5%;
+    top: 66.8%;
     left: 0;
     font-size: 17px;
   }
