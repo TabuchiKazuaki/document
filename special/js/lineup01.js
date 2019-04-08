@@ -1,8 +1,8 @@
 $(document).ready(function() {
 	var now = new Date();
 	// ビデオ
-	var sec = new Date("2019/04/19 00:00");
-	if (now.getTime() > sec01.getTime()) {
+	var sec00 = new Date("2019/04/19 00:00");
+	if (now.getTime() > sec00.getTime()) {
 		$('#section').hide();
 	}
 	var sec01 = new Date("2019/04/11 16:34");
