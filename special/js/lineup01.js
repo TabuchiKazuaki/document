@@ -13,6 +13,10 @@ $(document).ready(function() {
 	if (now.getTime() > sec00b.getTime()) {
 		$('#section01-02').hide();
 	}
+	var sec00c = new Date("2019/04/19 00:00");
+	if (now.getTime() > sec00c.getTime()) {
+		$('#addcl').addClass("cad");
+	}
 	var sec01 = new Date("2019/04/11 16:34");
 	if (now.getTime() > sec01.getTime()) {
 		$('#se_01').text('ビデオを見る');
