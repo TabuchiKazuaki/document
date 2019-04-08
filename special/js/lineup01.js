@@ -6,11 +6,11 @@ $(document).ready(function() {
 		$('#section01').hide();
 	}
 	var sec00a = new Date("2019/04/19 00:00");
-	if (now.getTime() > sec00.getTime()) {
+	if (now.getTime() > sec00a.getTime()) {
 		$('#section01-01').hide();
 	}
 	var sec00b = new Date("2019/04/19 00:00");
-	if (now.getTime() > sec00.getTime()) {
+	if (now.getTime() > sec00b.getTime()) {
 		$('#section01-02').hide();
 	}
 	var sec01 = new Date("2019/04/11 16:34");
