@@ -134,44 +134,51 @@ header .h_a .wrap .h_p span {
   margin: 20px 0 0;
 }
 .contents .c_seven {
-  padding: 0 0 20px;
-  margin: 15px 0 0;
-}
-.contents .c_seven li {
-  padding: 25px 0;
-  margin: 0 0 0;
-  border-bottom: 1px solid #606060;
-}
-.contents .c_seven li:last-child {
-  border: none;
-}
-.contents .c_seven li a {
-  overflow: hidden;
-  display: block;
-  color: #000;
-}
-.contents .c_seven li dl {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding: 0 0 20px;
+  margin: 35px 0 0;
 }
-.contents .c_seven li dd {
+.contents .c_seven li {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #efefef;
+  width: 48%;
+  margin: 5% 0 0 4%;
+  border-radius: 8px;
+}
+.contents .c_seven li:nth-child(2n+1) {
+  margin: 5% 0 0 0;
+}
+.contents .c_seven li:nth-child(2) {
+  margin: 0 0 0 4%;
+}
+.contents .c_seven li:nth-child(1) {
+  margin: 0;
+}
+.contents .c_seven li a {
+  display: block;
+  border-radius: 8px;
+}
+.contents .c_seven li a figure {
   line-height: 0;
 }
-.contents .c_seven li dt {
-  padding: 0 0 0 2%;
-  font-size: 26px;
-  line-height: 1.4;
-  text-align: left;
+.contents .c_seven li a figure img {
+  border-radius: 8px 8px 0 0;
 }
-.contents .c_seven li .c_a_t {
-  margin: 15px 0 0;
-  line-height: 1.35;
-  font-size: 26px;
-  color: #666666;
+.contents .c_seven li a .c_text {
+  padding: 20px;
+  font-size: 27px;
+  line-height: 1.4;
+  color: #666;
 }
 .contents .c_five {
   padding: 0 0 20px;
@@ -253,6 +260,10 @@ header .h_a .wrap .h_p span {
   font-size: 27px;
   line-height: 1.4;
   color: #666;
+}
+
+.contents_sec {
+  padding: 0 0 60px;
 }
 
 @-webkit-keyframes item_sp {
