@@ -7,7 +7,7 @@ body {
   line-height: 1;
   min-width: 320px;
   font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important;
-  color: #fff;
+  color: #000;
   margin: 0 auto;
   background: #000;
 }
@@ -109,6 +109,33 @@ header .h_a .wrap .h_p span {
   font-size: 32px;
 }
 
+.contents {
+  background: #fff;
+  padding: 60px 0 60px;
+}
+.contents .c_h {
+  border-left: 6px solid #9e853c;
+  padding: 0 0 0 18px;
+  line-height: 1.5;
+  font-size: 32px;
+}
+.contents .c_h span {
+  letter-spacing: 1.3px;
+  font-size: 36px;
+}
+
+@media screen and (max-width: 768px) {
+  header .header_logo {
+    max-width: 191px;
+    padding: 1% 0 1% 1.5%;
+    line-height: 0;
+  }
+  header .h_a {
+    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/ce0dce3f99c4ecd72e21c7c4eb947c0e_1e079074c40f533d07e11a20f27e2cbc.png) center center repeat;
+    background-size: cover;
+    padding: 116px 0 56px;
+  }
+}
 @-webkit-keyframes item_sp {
   100% {
     opacity: 1;
