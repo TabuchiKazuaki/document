@@ -34,11 +34,6 @@ img {
   margin: 0 auto;
 }
 
-header {
-  height: 478px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
 header .header_logo {
   background: #000;
   padding: 13px 0 14px 22px;
@@ -63,7 +58,11 @@ header .h_a .wrap .h_t {
   margin: 0 auto;
 }
 header .h_a .wrap .h_m {
-  max-width: 560px;
+  max-width: 426px;
+  margin: 27px auto 0;
+}
+header .h_a .wrap .h_icon {
+  max-width: 211px;
   margin: 27px auto 0;
 }
 header .h_a .wrap .h_p {
@@ -526,9 +525,6 @@ footer small {
     height: 45px;
   }
 
-  header {
-    height: auto;
-  }
   header .header_logo {
     padding: 1.6% 0 1.6% 2.5%;
   }
