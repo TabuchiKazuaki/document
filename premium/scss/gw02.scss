@@ -21,6 +21,8 @@ img  { width: 100%;}
 }
 
 header {
+	height: 478px;
+	box-sizing: border-box;
 	.header_logo {
 		background: #000;
 		padding: 13px 0 14px 22px;
@@ -496,6 +498,7 @@ footer {
 	}
 
 	header {
+		height: auto;
 		.header_logo {
 			padding: 1.6% 0 1.6% 2.5%;
 			span {
