@@ -678,7 +678,7 @@ img  { width: 100%;}
 		content: '';
 		position: absolute;
 		top: 45%;
-		left: 56.2%;
+		left: 30.8%;
 		background: url(https://goo.gl/oku7WK) 0 0 no-repeat;
 		background-size: 60px 60px;
 		width: 60px;
@@ -687,7 +687,7 @@ img  { width: 100%;}
 }
 .cast_inner_box_sec {
 	&:after {
-		left: 37.4%;
+		left: 62.8%;
 	}
 }
 
@@ -700,7 +700,7 @@ img  { width: 100%;}
 		content: '東京女子';
 		position: absolute;
 		top: 27px;
-		left: 15%;
+		left: 12%;
 		font-weight: bold;
 		font-size: 20px;
 		letter-spacing: 1px;
@@ -709,10 +709,10 @@ img  { width: 100%;}
 	}
 
 	&:after {
-		content: '北海道男子';
+		content: '大阪男子';
 		position: absolute;
 		top: 26px;
-		left: 69%;
+		left: 62%;
 		font-weight: bold;
 		font-size: 20px;
 		letter-spacing: 1px;
@@ -722,29 +722,28 @@ img  { width: 100%;}
 }
 .cast_inner_box_section_second {
 	&:before {
-		content: '博多女子';
+		content: '東北女子';
+		left: 29%;
 	}
 
 	&:after {
-		content: '関西男子';
-		left: 63%;
+		content: '関東男子';
+		left: 79%;
 	}
 }
-// PC
 .cast_women_item {
 	float: left;
 	position: relative;
 	background: #fffeff;
-	width: 58%;
+	width: 33%;
 	padding: 4% 2% 2%;
 	margin: 0;
 	box-sizing: border-box;
 	li {
 		overflow: hidden;
 		float: left;
-		width: 31.4%;
-		// max-width: 134px;
-		margin: 0 0 0 2%;
+		width: 47.5%;
+		margin: 0 0 0 5%;
 
 		&:first-child {
 			margin-left: 0;
@@ -755,14 +754,14 @@ img  { width: 100%;}
 	float: right;
 	position: relative;
 	background: #fffeff;
-	width: 39%;
+	width: 65%;
 	padding: 4% 2% 2% 2%;
 	margin: 0;
 	box-sizing: border-box;
 	li {
 		overflow: hidden;
 		float: left;
-		width: 48.3%;
+		width: 22.75%;
 		// max-width: 134px;
 		margin: 0 0 0 3%;
 
@@ -772,19 +771,19 @@ img  { width: 100%;}
 	}
 }
 .cast_women_item_sec {
-	width: 39%;
+	width: 65%;
 	li {
-		width: 48.3%;
+		width: 22.75%;
 		margin: 0 0 0 3%;
 	}
 }
 .cast_mens_item_sec {
-	width: 58%;
-	padding: 4% 2% 2% 2%;
+	width: 33%;
+	padding: 4% 2% 2.2% 2%;
 
 	li {
-		width: 31.5%;
-		margin: 0 0 0 2%;
+		width: 47.5%;
+		margin: 0 0 0 5%;
 	}
 }
 
@@ -808,8 +807,8 @@ img  { width: 100%;}
 }
 .name {
 	margin: 7% 0 0;
-	font-size: 12.5px;
-	line-height: 1.3;
+	font-size: 15px;
+	line-height: 1.4;
 }
 
 
@@ -985,8 +984,8 @@ img  { width: 100%;}
 
 .highlight_sp {
 	padding: 22px 5% 8%;
-	background: url(https://goo.gl/AwS8Gg) #eff8fd 0 22px no-repeat;
-	background-size: 60px 61px;
+	background: url(https://goo.gl/Q6K7vL) #eff8fd 0 22px no-repeat;
+	background-size: 131px 131px;
 	.highlight_wrap {
 	}
 	.highlight_heading {
@@ -1324,7 +1323,25 @@ body[data-page-num="1614207"] .btn--summary a {
 
 
 
+@media screen and (max-width: 960px) {
 
+	.cast_inner_box_section {
+		padding: 4% 3% 0;
+	}
+	.name {
+		font-size: calc(21vw/12);
+	}
+	.cast_inner_box:after {
+		top: 45%;
+		left: 32.8%;
+		background-size: 40px 40px;
+		width: 40px;
+		height: 40px;
+	}
+	.cast_inner_box_sec:after {
+		left: 62.4%;
+	}
+}
 
 
 
@@ -1333,6 +1350,10 @@ body[data-page-num="1614207"] .btn--summary a {
 @media screen and (max-width: 768px) {
 	.pc {display: none;}
 	.sp {display: block;}
+
+	.cast_wrap {
+		background-size: 131px 131px;
+	}
 
 	.h_k {
 		background: url(https://goo.gl/Dvm3Ze) 0 0 no-repeat;
@@ -1391,8 +1412,8 @@ body[data-page-num="1614207"] .btn--summary a {
 	.movie {
 		.movie_wrap {
 			padding: 22px 5% 8%;
-			background: url(https://goo.gl/AwS8Gg)  0 22px no-repeat;
-			background-size: 60px 61px;
+			background: url(https://goo.gl/Q6K7vL)  0 22px no-repeat;
+			background-size: 131px 131px;
 		}
 		.movie_heading {
 			.movie_sub {
@@ -1410,7 +1431,7 @@ body[data-page-num="1614207"] .btn--summary a {
 	}
 
 	.video_wrap {
-		background: url(https://goo.gl/AwS8Gg) 0 69px no-repeat;
+		background: url(https://goo.gl/Q6K7vL) 0 69px no-repeat;
 		background-size: 90px 91px;
 		padding: 55px 0 2% 0;
 		box-sizing: border-box;
@@ -1634,7 +1655,7 @@ body[data-page-num="1614207"] .btn--summary a {
 
 	.entry {
 		.entry_wrap {
-			background: url(https://goo.gl/AwS8Gg) 0 59px no-repeat;
+			background: url(https://goo.gl/Q6K7vL) 0 59px no-repeat;
 			background-size: 90px 91px;
 			padding: 40px 0 8% 0;
 			margin: 0 auto;
@@ -1710,8 +1731,8 @@ body[data-page-num="1614207"] .btn--summary a {
 	}
 	.introduction_sp {
 		padding: 3% 5% 6%;
-		background: url(https://goo.gl/AwS8Gg) #fffefa 0 9px no-repeat;
-		background-size: 60px 61px;
+		background: url(https://goo.gl/Q6K7vL) #fffefa 0 9px no-repeat;
+		background-size: 131px 131px;
 		.introduction_wrap_sp {
 		}
 		.introduction_heading {
@@ -1853,13 +1874,11 @@ body[data-page-num="1614207"] .btn--summary a {
 	.cast_inner_box {
 		position: relative;
 		&:after {
-			top: 45%;
-			left: 46.8%;
+			top: 33%;
+			left: 45%;
 			background-size: 42px 42px;
 			width: 42px;
 			height: 42px;
-			top: 63.5%;
-			left: 45%;
 			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/423150/d43937ca898813d3f909fcb75390d766_be61948c8c6d82e5b220f8bf157c1d83.png) 0 0 no-repeat;
 			background-size: 60px 60px;
 			width: 60px;
@@ -1898,22 +1917,33 @@ body[data-page-num="1614207"] .btn--summary a {
 	}
 	.cast_mens_item {
 		padding: 3% 2% 1%;
-		margin: 7% 0 0;
+		margin: 5% 0 0;
 	}
 	.nickname {
-		font-size: 15px;
+		margin: 5% 0 0;
+		font-size: calc(32vw/12);
+	}
+	.name {
+		margin: 4% 0 0;
+		font-size: calc(27vw/12);
+		line-height: 1.5;
+	}
+	.cast_area_second {
+		width: 85%;
+		margin: 0 0 0 8%;
 	}
 
 	.cast_inner_box_section {
+		padding: 4% 0 0;
 
 		&:before {
-			top: 3%;
+			top: 1.6%;
 			left: 0;
 			font-size: 17px;
 		}
 
 		&:after {
-			top: 66.8%;
+			top: 36.2%;
 			left: 0;
 			font-size: 17px;
 		}
@@ -1921,10 +1951,16 @@ body[data-page-num="1614207"] .btn--summary a {
 	.cast_inner_area {
 		padding: 3%;
 	}
+	.cast_inner_box_sec:after {
+		top: 64.4%;
+	}
+	.cast_inner_box_section_second:after {
+		top: 67.2%;
+	}
 	.past {
 		padding: 3% 5% 4%;
-		background: url(https://goo.gl/AwS8Gg) #fffefa 0 10px no-repeat;
-		background-size: 60px 61px;
+		background: url(https://goo.gl/Q6K7vL) #fffefa 0 10px no-repeat;
+		background-size: 131px 131px;
 		.past_wrap {
 			background: none;
 			min-height: auto;
@@ -2108,8 +2144,8 @@ body[data-page-num="1614207"] .btn--summary a {
 	}
 	.sns_sp_case {
 		padding: 3% 5% 2%;
-		background: url(https://goo.gl/AwS8Gg) #eff8fd 0 18px no-repeat;
-		background-size: 60px 61px;
+		background: url(https://goo.gl/Q6K7vL) #eff8fd 0 18px no-repeat;
+		background-size: 131px 131px;
 		.sns_wrap_sp {
 		}
 		.sns_heading {
@@ -2171,8 +2207,8 @@ body[data-page-num="1614207"] .btn--summary a {
 
 	.sns_sp {
 		padding: 3% 5% 2%;
-		background: url(https://goo.gl/AwS8Gg) #eff8fd 0 8px no-repeat;
-		background-size: 60px 61px;
+		background: url(https://goo.gl/Q6K7vL) #eff8fd 0 8px no-repeat;
+		background-size: 131px 131px;
 		.sns_heading {
 			padding: 0;
 			.sns_sub {
@@ -2250,8 +2286,6 @@ body[data-page-num="1614207"] .btn--summary a {
 
 
 
-
-
 @media screen and (max-width: 480px) {
 	.h_k {
 		h1 {
@@ -2304,9 +2338,43 @@ body[data-page-num="1614207"] .btn--summary a {
 		}
 	}
 
+	.cast_mens_item {
+		padding: 5% 3% 2%;
+	}
+
+	.nickname {
+		margin: 4% 0 0;
+		font-size: calc(35vw/12);
+	}
+	.name {
+		margin: 4% 0 0;
+		font-size: calc(30vw/12);
+		line-height: 1.5;
+	}
+	.cast_inner_box:after {
+		top: 32.5%;
+		left: 44%;
+		background-size: 40px 40px;
+		width: 40px;
+		height: 40px;
+	}
+	.cast_inner_box_sec:after {
+		top: 63.4%;
+		left: 44%;
+		background-size: 40px 40px;
+		width: 40px;
+		height: 40px;
+	}
+	.cast_inner_box_section:after{
+		top: 35.2%;
+	}
+	.cast_inner_box_section_second:after {
+		top: 66.2%;
+	}
+
 	.video_wrap {
-		background: url(https://goo.gl/AwS8Gg) 0 39px no-repeat;
-		background-size: 60px 61px;
+		background: url(https://goo.gl/Q6K7vL) 0 39px no-repeat;
+		background-size: 131px 131px;
 		padding: 33px 0 2% 0;
 		box-sizing: border-box;
 	}
@@ -2514,8 +2582,8 @@ body[data-page-num="1614207"] .btn--summary a {
 	}
 	.entry {
 		.entry_wrap {
-			background: url(https://goo.gl/AwS8Gg) 0 29px no-repeat;
-			background-size: 60px 61px;
+			background: url(https://goo.gl/Q6K7vL) 0 29px no-repeat;
+			background-size: 131px 131px;
 			padding: 20px 0 8% 0;
 			margin: 0 auto;
 		}
