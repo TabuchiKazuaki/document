@@ -1868,8 +1868,8 @@ body[data-page-num="1614207"] .btn--summary a {
 	.cast_area {
 		margin: 17px 0 0;
 		span {
-			padding: 4px 12px 0;
-			font-size: 16px;
+			padding: 3% 6% 0;
+			font-size: calc(37vw/12);
 		}
 	}
 
@@ -1944,13 +1944,13 @@ body[data-page-num="1614207"] .btn--summary a {
 		&:before {
 			top: 1.6%;
 			left: 0;
-			font-size: 17px;
+			font-size: calc(38vw/12);
 		}
 
 		&:after {
 			top: 36.2%;
 			left: 0;
-			font-size: 17px;
+			font-size: calc(38vw/12);
 		}
 	}
 	.cast_inner_area {
@@ -2340,6 +2340,20 @@ body[data-page-num="1614207"] .btn--summary a {
 					}
 				}
 			}
+		}
+	}
+	.cast_inner_box_section {
+
+		&:before {
+			top: 1.6%;
+			left: 0;
+			font-size: calc(40vw/12);
+		}
+
+		&:after {
+			top: 36.2%;
+			left: 0;
+			font-size: calc(40vw/12);
 		}
 	}
 	.cast_title {

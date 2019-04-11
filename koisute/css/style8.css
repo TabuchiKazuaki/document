@@ -1770,8 +1770,8 @@ body[data-page-num="1614207"] .btn--summary a {
     margin: 17px 0 0;
   }
   .cast_area span {
-    padding: 4px 12px 0;
-    font-size: 16px;
+    padding: 3% 6% 0;
+    font-size: calc(37vw/12);
   }
 
   .cast_inner {
@@ -1858,12 +1858,12 @@ body[data-page-num="1614207"] .btn--summary a {
   .cast_inner_box_section:before {
     top: 1.6%;
     left: 0;
-    font-size: 17px;
+    font-size: calc(38vw/12);
   }
   .cast_inner_box_section:after {
     top: 36.2%;
     left: 0;
-    font-size: 17px;
+    font-size: calc(38vw/12);
   }
 
   .cast_inner_area {
@@ -2223,6 +2223,17 @@ body[data-page-num="1614207"] .btn--summary a {
     background-size: 10px 18px;
     width: 10px;
     height: 18px;
+  }
+
+  .cast_inner_box_section:before {
+    top: 1.6%;
+    left: 0;
+    font-size: calc(40vw/12);
+  }
+  .cast_inner_box_section:after {
+    top: 36.2%;
+    left: 0;
+    font-size: calc(40vw/12);
   }
 
   .cast_title {
