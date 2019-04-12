@@ -265,8 +265,20 @@ header {
 	.c_item {
 		margin: 45px 0 0;
 		li {
+			position: relative;
 			padding: 28px 0;
 			border-bottom: 1px solid #606060;
+
+			&:after {
+				content: '';
+				position: absolute;
+				top: 43%;
+				right: 2%;
+				background: url(https://bit.ly/2P8DS5F) 0 0 no-repeat;
+				background-size: 19px 32px;
+				width: 19px;
+				height: 32px;
+			}
 			&:first-child {
 				border-top: 1px solid #606060;
 			}
@@ -586,6 +598,13 @@ footer {
 			margin: 6.5% 0 0;
 			li {
 				padding: 4% 0;
+				&:after {
+					top: 43%;
+					right: 2%;
+					background-size: 15px 26px;
+					width: 15px;
+					height: 26px;
+				}
 				.c_i_anc {
 				}
 
@@ -875,6 +894,13 @@ footer {
 			margin: 6.5% 0 0;
 			li {
 				padding: 4% 0;
+				&:after {
+					top: 43%;
+					right: 2%;
+					background-size: 10px 16px;
+					width: 10px;
+					height: 16px;
+				}
 				.c_i_anc {
 				}
 
