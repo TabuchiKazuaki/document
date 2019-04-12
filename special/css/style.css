@@ -108,17 +108,17 @@ header .h_wrap .h_item li:first-child {
 .contents .c_topic {
   display: inline-block;
   background: #a1882f;
-  padding: 11px 23px;
+  padding: 11px 22px;
   margin: 34px 0 0;
   border-radius: 30px;
   font-size: 24.5px;
-  font-weight: bold;
+  font-weight: normal;
   letter-spacing: 2px;
   text-align: center;
   color: #fff;
 }
 .contents .c_topic span {
-  font-size: 26px;
+  font-size: 27px;
 }
 .contents .c_h {
   font-size: 32px;
@@ -546,6 +546,20 @@ footer small {
 
   .contents {
     padding: 4% 0 1%;
+  }
+  .contents .c_topic {
+    display: inline-block;
+    background: #a1882f;
+    padding: 11px 22px;
+    margin: 34px 0 0;
+    border-radius: 30px;
+    font-size: 24.5px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #fff;
+  }
+  .contents .c_topic span {
+    font-size: 27px;
   }
   .contents .c_h {
     font-size: calc(49vw/12);
