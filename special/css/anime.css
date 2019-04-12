@@ -136,6 +136,21 @@ header .h_wrap .h_box .h_txt {
   font-size: 22px;
   color: #a1882f;
 }
+.contents .c_topic {
+  display: inline-block;
+  background: #a1882f;
+  padding: 11px 22px;
+  margin: 34px 0 0;
+  border-radius: 30px;
+  font-size: 24.5px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #fff;
+}
+.contents .c_topic span {
+  font-size: 27px;
+}
 .contents .c_h {
   font-size: 32px;
   font-weight: bold;
@@ -143,7 +158,7 @@ header .h_wrap .h_box .h_txt {
   line-height: 1.2;
 }
 .contents .c_h_m {
-  padding: 25px 0 0;
+  padding: 15px 0 0;
   margin: 0;
 }
 .contents .c_b {
@@ -196,6 +211,17 @@ header .h_wrap .h_box .h_txt {
   display: inline-block;
   margin: 0 1% 0 0;
   font-size: 29px;
+}
+.contents .c_anime .cil .pop {
+  display: inline-block;
+  background: #ec2840;
+  padding: 3px 19px;
+  margin: 0 0 12px;
+  border-radius: 4px;
+  letter-spacing: 1.3px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
 }
 .contents .c_anime .cil .short td {
   width: 36%;
@@ -257,6 +283,17 @@ header .h_wrap .h_box .h_txt {
   display: inline-block;
   margin: 0 1% 0 0;
   font-size: 29px;
+}
+.contents .c_anime .c_i_list .pop {
+  display: inline-block;
+  background: #ec2840;
+  padding: 3px 19px;
+  margin: 0 0 12px;
+  border-radius: 4px;
+  letter-spacing: 1.3px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
 }
 .contents .c_anime .c_i_list .short td {
   width: 36%;
@@ -663,13 +700,23 @@ footer small {
   .contents .c_present th span {
     font-size: calc(35vw/12);
   }
+  .contents .c_topic {
+    padding: 1.6% 3.4%;
+    margin: 5% 0 0;
+    border-radius: 24px;
+    font-size: calc(40vw/12);
+    letter-spacing: 1.5px;
+  }
+  .contents .c_topic span {
+    font-size: calc(43vw/12);
+  }
   .contents .c_h {
     font-size: calc(49vw/12);
     letter-spacing: 1.25px;
     line-height: 1.2;
   }
   .contents .c_h_m {
-    padding: 4% 0 0;
+    padding: 2.5% 0 0;
     margin: 0;
   }
   .contents .c_b {
@@ -741,6 +788,15 @@ footer small {
     margin: 3% 0 0;
     line-height: 1.42;
     font-size: calc(40vw/12);
+  }
+  .contents .c_anime .c_i_list .pop {
+    width: 23.5%;
+    padding: 1% 0;
+    margin: 0 0 2%;
+    border-radius: 4px;
+    letter-spacing: 1.3px;
+    font-size: calc(25vw/12);
+    text-align: center;
   }
   .contents .c_anime .c_i_list .short .short_th {
     font-size: calc(42vw/12);
@@ -1038,6 +1094,16 @@ footer small {
   .contents .c_present th span {
     font-size: calc(36vw/12);
   }
+  .contents .c_topic {
+    padding: 1.7% 3.4%;
+    margin: 4% 0 0;
+    border-radius: 25px;
+    font-size: calc(42vw/12);
+    letter-spacing: 1.4px;
+  }
+  .contents .c_topic span {
+    font-size: calc(45vw/12);
+  }
   .contents .c_h {
     font-size: calc(51vw/12);
     letter-spacing: 1px;
@@ -1109,6 +1175,15 @@ footer small {
     margin: 3% 0 0;
     line-height: 1.42;
     font-size: calc(42vw/12);
+  }
+  .contents .c_anime .c_i_list .pop {
+    width: 25.5%;
+    padding: 1% 0;
+    margin: 0 0 4%;
+    border-radius: 3px;
+    letter-spacing: 1.2px;
+    font-size: calc(30vw/12);
+    text-align: center;
   }
   .contents .c_anime .c_i_list .short .short_th {
     font-size: calc(44vw/12);
