@@ -21,7 +21,7 @@ header .h_wrap .h_box .h_date { margin: 35px 0 0; text-align: center; font-size:
 header .h_wrap .h_box .h_btn { padding: 0 0 60px; margin: 45px 0 0; border-bottom: 1px solid #606060; }
 header .h_wrap .h_box .h_btn a { display: block; background: #33aa22; padding: 18px 0; text-align: center; border-radius: 6px; font-size: 30px; color: #fff; }
 
-.contents { background: #000; padding: 51px 0 30px; }
+.contents { background: #000; padding: 51px 0 60px; }
 .contents .c_h { padding: 0 0 0 17px; font-size: 32px; font-weight: bold; letter-spacing: 1.4px; line-height: 1.45; border-left: 6px solid #33aa22; }
 .contents .c_h_m { padding: 45px 0 0; margin: 0; }
 .contents .ch_m { margin: 50px 0 10px; }
@@ -33,6 +33,7 @@ header .h_wrap .h_box .h_btn a { display: block; background: #33aa22; padding: 1
 .contents .c_more { margin: 1px 0 0; padding: 0 0 50px; border-bottom: 1px solid #606060; }
 .contents .c_more a { display: block; padding: 18px 0; border-radius: 6px; border: 2px solid #3a2; letter-spacing: 2px; text-align: center; font-size: 30px; color: #3a2; }
 .contents .c_more a span { display: inline-block; font-size: 33px; }
+.contents .c_more a:hover { opacity: 1; background: #3a2; color: #fff; }
 .contents .s_entry { background: #1a1a1a; padding: 45px 20px 25px; margin: 60px 0 0; border-radius: 6px; }
 .contents .s_entry .s_text { font-weight: bold; font-size: 28px; line-height: 1.4; }
 .contents .s_entry .s_text span { color: #3a2; }
@@ -62,39 +63,15 @@ header .h_wrap .h_box .h_btn a { display: block; background: #33aa22; padding: 1
 
 .contents_sec { padding: 0 0 50px; }
 
-.line { background: #efefef; height: 35px; }
+aside { background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/463346/3517790a59412e1b865e4b03e5f42652_d459ab1abba4f465e5d442f8c76dd22a.png) center center repeat; background-size: cover; padding: 42px 38px 50px; }
+aside .wrap { max-width: 768px; padding: 0 38px 0; margin: 0 auto; -webkit-box-sizing: border-box; box-sizing: border-box; }
+aside figure { max-width: 336px; }
+aside .a_text { margin: 23px 0 0; font-size: 28px; letter-spacing: 1.4px; }
+aside .a_btn { margin: 32px 0 0; }
+aside .a_btn a { display: block; padding: 20px 0; border: 2px solid #3a2; border-radius: 6px; font-size: 26px; letter-spacing: 1.8px; text-align: center; font-weight: bold; color: #3a2; }
+aside .a_btn a:hover { background: #3a2; opacity: 1; color: #fff; }
 
-.genre { padding: 30px 0 40px; }
-.genre .g_h { font-size: 32px; }
-.genre .g_item { overflow: hidden; margin: 30px 0 0; }
-.genre .g_item li { float: left; width: 48.5%; margin: 0 0 0 3%; }
-.genre .g_item li:nth-child(2n+1) { margin: 3% 0 0 0; }
-.genre .g_item li:nth-child(2n+2) { margin: 3% 0 0 3%; }
-.genre .g_item li:nth-child(1) { margin: 0; }
-.genre .g_item li:nth-child(2) { margin: 0 0 0 3%; }
-.genre .g_item li a { display: block; padding: 25px 0; border: 2px solid #a1882f; border-radius: 6px; text-align: center; font-size: 28px; font-weight: bold; letter-spacing: 1.3px; color: #a1882f; }
-.genre .g_item li a:hover { background: #a1882f; color: #fff; }
-
-.banner_b { padding: 40px 0; margin: 0 0 20px; }
-.banner_b .wrap { max-width: 768px; margin: 0 auto; }
-.banner_b .wrap .b_b_btn { max-width: 768px; margin: 0 auto; border-radius: 6px; }
-.banner_b .wrap .b_b_btn a { position: relative; display: block; position: relative; padding: 20px; border: 2px solid #a1882f; border-radius: 6px; font-size: 24px; font-weight: bold; line-height: 1.3; color: #a1882f; }
-.banner_b .wrap .b_b_btn a:after { content: ''; position: absolute; top: 36%; right: 3%; background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/6fe05918a664f995862ae966e4c71d70_c18662eadd5bc503225a72cdb45338e0.png) 0 0 no-repeat; background-size: 20px 34px; width: 20px; height: 34px; }
-.banner_b .wrap .b_b_btn a span { display: block; font-size: 19px; color: #000; }
-
-aside { background: #efefef; padding: 17px 0 66px; }
-aside .wrap { max-width: 768px; margin: 0 auto; }
-aside .f_d dt { margin: 40px 0 0; font-size: 28px; letter-spacing: 1.4px; font-weight: 600; color: #666; }
-aside .f_d dd { margin: 25px 0 0; font-size: 24px; line-height: 1.45; letter-spacing: 1.4px; color: #666; }
-aside .f_d dd .caution { display: block; margin: 12px 0 0; font-size: 20px; }
-aside .f_d dd .f_item { margin: 15px 0 0 35px; }
-aside .f_d dd .f_item li { margin: 6px 0 0; line-height: 1.4; font-size: 20px; }
-aside .f_d dd a { color: #a1882f; text-decoration: underline; }
-aside .f_d dd a:hover { text-decoration: none; }
-aside .f_d .dd_last { line-height: 1.2; }
-aside .f_c { margin: 15px 0 0; line-height: 1.3; font-size: 20px; }
-
-footer { background: #efefef; padding: 35px 0 180px; border-top: 1px solid #606060; }
+footer { background: #000000; padding: 35px 0 120px; }
 footer .copy { overflow: hidden; margin: 0 0 40px; }
 footer .copy li { width: 100%; margin: 5px 0 0 0; line-height: 1.3; font-size: 16px; color: #666666; }
 footer .f_list { overflow: hidden; margin: 10px 0 0; }
