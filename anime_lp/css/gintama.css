@@ -21,12 +21,13 @@ header .h_wrap .h_box .h_date { margin: 35px 0 0; text-align: center; font-size:
 header .h_wrap .h_box .h_btn { padding: 0 0 60px; margin: 45px 0 0; border-bottom: 1px solid #606060; }
 header .h_wrap .h_box .h_btn a { display: block; background: #33aa22; padding: 18px 0; text-align: center; border-radius: 6px; font-size: 30px; color: #fff; }
 
-.contents { background: #000; padding: 51px 0 60px; }
+.contents { background: #000; padding: 51px 0 0; }
 .contents .c_h { padding: 0 0 0 17px; font-size: 32px; font-weight: bold; letter-spacing: 1.4px; line-height: 1.45; border-left: 6px solid #33aa22; }
 .contents .ch_m { margin: 50px 0 10px; }
 .contents .c_wrap { margin: 19px 0 0; }
 .contents .c_wrap li { padding: 51px 0 58px; border-top: 1px solid #606060; counter-increment: count; }
 .contents .c_wrap li:first-child { padding: 28px 0 58px; border-top: none; }
+.contents .c_wrap li:last-child { padding: 28px 0 0; }
 .contents .c_wrap li .c_number { position: relative; padding: 5px 0 0 45px; font-size: 27px; letter-spacing: 1.3px; }
 .contents .c_wrap li .c_number:before { content: counter(count); position: absolute; left: 0; top: 0; background: #3a2; background-repeat: no-repeat; width: 37px; height: 37px; line-height: 35px; border-radius: 50%; font-weight: normal; text-align: center; font-size: 24px; color: #fff; }
 .contents .c_more { margin: 1px 0 0; padding: 0 0 50px; border-bottom: 1px solid #606060; }
@@ -59,6 +60,8 @@ header .h_wrap .h_box .h_btn a { display: block; background: #33aa22; padding: 1
 .contents .c_item li .c_i_dl dt { padding: 0 0 0 4%; font-size: 21px; line-height: 1.6; }
 .contents .c_item li .c_i_dl dt span { color: #ababab; }
 .contents .pass { margin: 55px 0 0; text-align: center; font-size: 30px; font-weight: bold; letter-spacing: 2px; }
+
+.c_s { padding: 0; }
 
 aside { background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/463346/3517790a59412e1b865e4b03e5f42652_d459ab1abba4f465e5d442f8c76dd22a.png) center center repeat; background-size: cover; padding: 42px 38px 50px; }
 aside .wrap { max-width: 768px; padding: 0 38px 0; margin: 0 auto; -webkit-box-sizing: border-box; box-sizing: border-box; }
@@ -94,6 +97,7 @@ footer small { display: block; margin: 30px 0 0; font-size: 16px; letter-spacing
   .contents .c_wrap { margin: 3% 0 0; }
   .contents .c_wrap li { padding: 8% 0 8.8%; }
   .contents .c_wrap li:first-child { padding: 4.2% 0 8.8%; }
+  .contents .c_wrap li:last-child { padding: 8% 0 0; }
   .contents .c_wrap li .c_number { padding: 0.8% 0 0 6.5%; font-size: calc(42vw/12); }
   .contents .c_wrap li .c_number:before { content: counter(count); position: absolute; left: 0; top: 8%; width: 6%; height: 125%; font-size: calc(40vw/12); line-height: 1.4; }
   .contents .c_more { margin: 0.2% 0 0; padding: 0 0 7.5%; }
@@ -120,6 +124,7 @@ footer small { display: block; margin: 30px 0 0; font-size: 16px; letter-spacing
   .contents .c_item li .c_i_dl dd { width: 43.5%; }
   .contents .c_item li .c_i_dl dt { padding: 0 0 0 4%; font-size: calc(33vw/12); line-height: 1.45; }
   .contents .pass { margin: 8% 0 0; font-size: calc(47vw/12); letter-spacing: 2px; }
+  .c_s { padding: 0; }
   aside { background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/463346/3517790a59412e1b865e4b03e5f42652_d459ab1abba4f465e5d442f8c76dd22a.png) center center repeat; background-size: cover; padding: 5% 4.5% 5.8%; }
   aside .wrap { padding: 0 6% 0; }
   aside figure { width: 56.5%; }
@@ -151,6 +156,7 @@ footer small { display: block; margin: 30px 0 0; font-size: 16px; letter-spacing
   .contents .c_wrap { margin: 3% 0 0; }
   .contents .c_wrap li { padding: 8% 0 8.8%; }
   .contents .c_wrap li:first-child { padding: 4.2% 0 8.8%; }
+  .contents .c_wrap li:last-child { padding: 8% 0 0; }
   .contents .c_wrap li .c_number { padding: 0.8% 0 0 6.5%; font-size: calc(44vw/12); letter-spacing: 1.35px; }
   .contents .c_wrap li .c_number:before { content: counter(count); position: absolute; left: 0; top: -1%; width: 6%; height: 128%; font-size: calc(41vw/12); line-height: 1.6; }
   .contents .c_more { margin: 0.2% 0 0; padding: 0 0 7.5%; }
@@ -177,6 +183,7 @@ footer small { display: block; margin: 30px 0 0; font-size: 16px; letter-spacing
   .contents .c_item li .c_i_dl dd { width: 43.5%; }
   .contents .c_item li .c_i_dl dt { padding: 0 0 0 4%; font-size: calc(35vw/12); line-height: 1.45; }
   .contents .pass { margin: 8% 0 0; font-size: calc(49vw/12); letter-spacing: 2px; }
+  .c_s { padding: 0; }
   aside { background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/463346/3517790a59412e1b865e4b03e5f42652_d459ab1abba4f465e5d442f8c76dd22a.png) center center repeat; background-size: cover; padding: 5% 4.5% 5.8%; }
   aside .wrap { padding: 0 6% 0; }
   aside figure { width: 56.5%; }
