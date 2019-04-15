@@ -606,6 +606,16 @@ footer {
 	.wrap {
 		padding: 0 5%;
 	}
+	.contents .c_anime .cil .pop {
+		display: inline-block;
+		padding: 1% 6%;
+		margin: 0 0 2%;
+		border-radius: 4px;
+		letter-spacing: 1.3px;
+		font-size: calc(25vw/12);
+		white-space: nowrap;
+		text-align: center;
+	}
 	header {
 		.logo {
 			padding: 1.53% 0 1.58% 2.5%;
@@ -1026,6 +1036,15 @@ footer {
 @media screen and (max-width: 480px) {
 	.wrap {
 		padding: 0 5%;
+	}
+	.contents .c_anime .cil .pop {
+		display: inline-block;
+		padding: 1% 6%;
+		margin: 0 0 2%;
+		border-radius: 3px;
+		letter-spacing: 1.2px;
+		font-size: calc(30vw/12);
+		white-space: nowrap;
 	}
 	header {
 		.logo {
