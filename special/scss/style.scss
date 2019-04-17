@@ -377,50 +377,7 @@ header {
 	}
 }
 
-.video {
-	background: #fff;
-	padding: 55px 0 65px;
-	text-align: center;
 
-	.v_h {
-		font-size: 23px;
-		line-height: 1.7;
-		letter-spacing: 1.3px;
-	}
-	.sns_btn {
-		max-width: 681px;
-		margin: 20px auto 0;
-		text-align: center;
-		box-sizing: border-box;
-		a {
-			position: relative;
-			display: block;
-			background: #1da1f2;
-			padding: 17px 0 17px 43px;
-			border-radius: 6px;
-			font-size: 28px;
-			letter-spacing: 1.3px;
-			font-weight: bold;
-			color: #fff;
-			&:before {
-				content: '';
-				position: absolute;
-				top: 18px;
-				left: 58px;
-				background: url(https://bit.ly/2ZcKfd3) 0 0 no-repeat;
-				background-size: 38px 31px;
-				width: 38px;
-				height: 31px;
-			}
-			span {
-				display: inline-block;
-				margin: 0 8px 0 0;
-				font-size: 32px;
-				font-weight: bold;
-			}
-		}
-	}
-}
 
 aside {
 	background: #efefef;
@@ -784,38 +741,7 @@ footer {
 			}
 		}
 	}
-	.video {
-		padding: 7.2% 0 8.5%;
 
-		.v_h {
-			font-size: calc(36vw/12);
-			line-height: 1.6;
-			letter-spacing: 1.1px;
-		}
-		.sns_btn {
-			margin: 3% auto 0;
-			a {
-				padding: 2.2% 0 2.2% 4.2%;
-				border-radius: 5px;
-				font-size: calc(44vw/12);
-				letter-spacing: 1.4px;
-				&:before {
-					content: '';
-					position: absolute;
-					top: 31%;
-					left: 7%;
-					background: url(https://bit.ly/2ZcKfd3) 0 0 no-repeat;
-					background-size: 30px 25px;
-					width: 30px;
-					height: 25px;
-				}
-				span {
-					margin: 0 1% 0 0;
-					font-size: calc(50vw/12);
-				}
-			}
-		}
-	}
 	aside {
 		padding: 2% 0 9%;
 		.f_d {
@@ -900,39 +826,7 @@ footer {
 
 }
 
-@media screen and (max-width: 580px) {
-	.video {
-		padding: 7.2% 0 8.5%;
-		.v_h {
-			font-size: calc(36vw/12);
-			line-height: 1.6;
-			letter-spacing: 0.5px;
-		}
-		.sns_btn {
-			margin: 3.5% auto 0;
-			a {
-				padding: 2.2% 0 2.4% 4.2%;
-				border-radius: 5px;
-				font-size: calc(44vw/12);
-				letter-spacing: 1.2px;
-				&:before {
-					content: '';
-					position: absolute;
-					top: 23%;
-					left: 7%;
-					background: url(https://bit.ly/2ZcKfd3) 0 0 no-repeat;
-					background-size: 30px 25px;
-					width: 30px;
-					height: 25px;
-				}
-				span {
-					margin: 0 1% 0 0;
-					font-size: calc(50vw/12);
-				}
-			}
-		}
-	}
-}
+
 @media screen and (max-width: 480px) {
 	.wrap {
 		padding: 0 5%;
@@ -1177,31 +1071,7 @@ footer {
 			}
 		}
 	}
-	.video {
-		.sns_btn {
-			a {
-				padding: 2.2% 0 2.5% 9.2%;
-				border-radius: 5px;
-				font-size: calc(44vw/12);
-				letter-spacing: 1.4px;
-				font-weight: bold;
-				&:before {
-					content: '';
-					position: absolute;
-					top: 25%;
-					left: 6.5%;
-					background: url(https://bit.ly/2ZcKfd3) 0 0 no-repeat;
-					background-size: 23px 19px;
-					width: 23px;
-					height: 19px;
-				}
-				span {
-					margin: 0 1% 0 0;
-					font-size: calc(50vw/12);
-				}
-			}
-		}
-	}
+
 	aside {
 		padding: 2% 0 9%;
 		.f_d {
@@ -1281,73 +1151,6 @@ footer {
 			margin: 5% 0 0;
 			font-size: calc(28vw/12);
 			letter-spacing: 0.5px;
-		}
-	}
-
-}
-@media screen and (max-width: 414px) {
-	.video {
-		padding: 7.2% 0 8.5%;
-		.v_h {
-			font-size: calc(38vw/12);
-			line-height: 1.6;
-		}
-		.sns_btn {
-			margin: 3% auto 0;
-			a {
-				position: relative;
-				padding: 2.2% 0 2.5% 9.2%;
-				border-radius: 4px;
-				font-size: calc(46vw/12);
-				letter-spacing: 1.4px;
-				&:before {
-					content: '';
-					position: absolute;
-					top: 26%;
-					left: 5.5%;
-					background: url(https://bit.ly/2ZcKfd3) 0 0 no-repeat;
-					background-size: 23px 19px;
-					width: 23px;
-					height: 19px;
-				}
-				span {
-					margin: 0 1% 0 0;
-					font-size: calc(52vw/12);
-				}
-			}
-		}
-	}
-}
-@media screen and (max-width: 375px) {
-	.video {
-		padding: 7.2% 0 8.5%;
-		.v_h {
-			font-size: calc(38vw/12);
-			line-height: 1.7;
-		}
-		.sns_btn {
-			margin: 3.5% auto 0;
-			a {
-				position: relative;
-				padding: 2.3% 0 2.8% 9.2%;
-				border-radius: 4px;
-				font-size: calc(46vw/12);
-				letter-spacing: 1.4px;
-				&:before {
-					content: '';
-					position: absolute;
-					top: 25%;
-					left: 6.5%;
-					background: url(https://bit.ly/2ZcKfd3) 0 0 no-repeat;
-					background-size: 19px 16px;
-					width: 19px;
-					height: 16px;
-				}
-				span {
-					margin: 0 1% 0 0;
-					font-size: calc(52vw/12);
-				}
-			}
 		}
 	}
 }
