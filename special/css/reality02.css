@@ -43,35 +43,40 @@ header .logo span {
   max-width: 151px;
 }
 header .h_wrap {
+  position: relative;
   background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/7a4357d9cc1ca92188cfba1b30391059_9ae5978028ff522e51a3c6926ac1b589.png) center center repeat;
 }
 header .h_wrap .h_box {
   max-width: 768px;
-  padding: 22px 0 18px;
+  padding: 22px 0 0;
   margin: 0 auto;
-  height: 421px;
+  height: 263px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 header .h_wrap .h_box .h_h {
-  max-width: 318px;
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  max-width: 67px;
   margin: 0 auto;
+  max-width: 366px;
 }
 header .h_wrap .h_box .h_ig {
-  max-width: 518px;
-  margin: 18px auto 0;
+  max-width: 366px;
+  margin: 0 auto 0;
 }
 header .h_wrap .h_box .h_img {
-  max-width: 197px;
-  margin: 0 auto;
+  max-width: 128px;
+  margin: 15px auto 0;
 }
 header .h_wrap .h_box .h_txt {
-  max-width: 518px;
-  margin: 3px auto 0;
+  max-width: 473px;
+  margin: 13px auto 0;
 }
 
 .cp {
-  padding: 60px 0 58px;
+  padding: 60px 0 47px;
   background: #efefef;
 }
 .cp .c_img {
@@ -82,14 +87,20 @@ header .h_wrap .h_box .h_txt {
   max-width: 575px;
   margin: 26px auto 0;
 }
-.cp .c_date {
-  margin: 19px 0 0;
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
+.cp .cp_btn {
+  max-width: 681px;
+  margin: 33px auto 0;
 }
-.cp .c_date span {
-  font-size: 27px;
+.cp .cp_btn a {
+  display: block;
+  background: #a1882f;
+  padding: 15px 0;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 31px;
+  font-weight: bold;
+  letter-spacing: 2.0px;
+  color: #fff;
 }
 
 .contents {
@@ -569,6 +580,27 @@ footer small {
     margin: 0.1% auto 0;
   }
 
+  .cp {
+    padding: 7.8% 0 6.8%;
+  }
+  .cp .c_img {
+    width: 77%;
+  }
+  .cp h2 {
+    width: 84%;
+    margin: 3.9% auto 0;
+  }
+  .cp .cp_btn {
+    width: 100%;
+    margin: 4.1% auto 0;
+  }
+  .cp .cp_btn a {
+    padding: 2.5% 0;
+    font-size: calc(48vw/12);
+    letter-spacing: 2.3px;
+    border-radius: 5px;
+  }
+
   .contents {
     padding: 4% 0 0;
   }
@@ -915,7 +947,7 @@ footer small {
   }
 
   .cp {
-    padding: 8.3% 0 7.3%;
+    padding: 7.3% 0 6.3%;
   }
   .cp .c_img {
     width: 77%;
@@ -924,12 +956,14 @@ footer small {
     width: 85%;
     margin: 4% auto 0;
   }
-  .cp .c_date {
-    margin: 3% 0 0;
-    font-size: calc(40vw/12);
+  .cp .cp_btn {
+    margin: 4.6% auto 0;
   }
-  .cp .c_date span {
-    font-size: calc(42vw/12);
+  .cp .cp_btn a {
+    padding: 2.4% 0;
+    font-size: calc(50vw/12);
+    letter-spacing: 2.3px;
+    border-radius: 3px;
   }
 
   .contents {

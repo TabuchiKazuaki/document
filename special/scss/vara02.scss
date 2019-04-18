@@ -61,7 +61,7 @@ header {
 }
 
 .cp {
-	padding: 60px 0 58px;
+	padding: 60px 0 47px;
 	background: #efefef;
 	.c_img {
 		max-width: 527px;
@@ -71,13 +71,19 @@ header {
 		max-width: 575px;
 		margin: 26px auto 0;
 	}
-	.c_date{
-		margin: 19px 0 0;
-		text-align: center;
-		font-size: 24px;
-		font-weight: bold;
-		span {
-			font-size: 27px;
+	.cp_btn {
+		max-width: 681px;
+		margin: 33px auto 0;
+		a {
+			display: block;
+			background: #a1882f;
+			padding: 15px 0;
+			border-radius: 6px;
+			text-align: center;
+			font-size: 31px;
+			font-weight: bold;
+			letter-spacing: 2.0px;
+			color: #fff ;
 		}
 	}
 }
@@ -582,19 +588,22 @@ footer {
 		}
 	}
 	.cp {
-		padding: 8.3% 0 8.3%;
+		padding: 7.8% 0 6.8%;
 		.c_img {
-			width: 71%;
+			width: 77%;
 		}
 		h2 {
-			width: 77%;
+			width: 84%;
 			margin: 3.9% auto 0;
 		}
-		.c_date{
-			margin: 3% 0 0;
-			font-size: calc(38vw/12);
-			span {
-				font-size: calc(40vw/12);
+		.cp_btn {
+			width: 100%;
+			margin: 4.1% auto 0;
+			a {
+				padding: 2.5% 0;
+				font-size: calc(48vw/12);
+				letter-spacing: 2.3px;
+				border-radius: 5px;
 			}
 		}
 	}
@@ -970,7 +979,7 @@ footer {
 		}
 	}
 	.cp {
-		padding: 8.3% 0 7.3%;
+		padding: 7.3% 0 6.3%;
 		.c_img {
 			width: 77%;
 		}
@@ -978,11 +987,13 @@ footer {
 			width: 85%;
 			margin: 4% auto 0;
 		}
-		.c_date{
-			margin: 3% 0 0;
-			font-size: calc(40vw/12);
-			span {
-				font-size: calc(42vw/12);
+		.cp_btn {
+			margin: 4.6% auto 0;
+			a {
+				padding: 2.4% 0;
+				font-size: calc(50vw/12);
+				letter-spacing: 2.3px;
+				border-radius: 3px;
 			}
 		}
 	}
