@@ -60,7 +60,6 @@ header .h_wrap .h_box .h_h {
   left: 13px;
   max-width: 67px;
   margin: 0 auto;
-  max-width: 366px;
 }
 header .h_wrap .h_box .h_ig {
   max-width: 366px;
@@ -76,7 +75,7 @@ header .h_wrap .h_box .h_txt {
 }
 
 .cp {
-  padding: 60px 0 47px;
+  padding: 60px 0 50px;
   background: #efefef;
 }
 .cp .c_img {
@@ -85,67 +84,67 @@ header .h_wrap .h_box .h_txt {
 }
 .cp h2 {
   max-width: 575px;
-  margin: 26px auto 0;
+  margin: 23px auto 0;
 }
-.cp .cp_btn {
-  max-width: 681px;
-  margin: 33px auto 0;
+
+.cp_w {
+  background: #fff;
+  padding: 44px 0 61px;
 }
-.cp .cp_btn a {
+.cp_w dl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.cp_w dl dd {
+  width: 57%;
+  line-height: 0;
+}
+.cp_w dl dt {
+  width: 40%;
+  margin: 0 0 0 3%;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+.cp_w dl dt .tit {
+  display: block;
+  margin: 0 0 8px;
+  font-size: 19px;
+  line-height: 1.4;
+  letter-spacing: 1.3px;
+  font-weight: bold;
+  color: #666;
+}
+.cp_w dl dt .nume {
+  display: inline-block;
+  background: #a1882f;
+  padding: 3px 16px;
+  margin: 15px 0 0;
+  border-radius: 30px;
+  font-weight: normal;
+  font-size: 22px;
+  letter-spacing: 1.3px;
+  color: #fff;
+}
+.cp_w a {
   display: block;
   background: #a1882f;
   padding: 15px 0;
+  margin: 41px 0 0;
   border-radius: 6px;
   text-align: center;
-  font-size: 31px;
+  font-size: 28px;
   font-weight: bold;
-  letter-spacing: 2.0px;
+  letter-spacing: 2.6px;
   color: #fff;
 }
 
 .contents {
   padding: 40px 0 0;
-}
-.contents .c_present {
-  padding: 31px 0 51px;
-}
-.contents .c_present a {
-  position: relative;
-  display: block;
-  overflow: hidden;
-  padding: 18px 60px 18px 18px;
-  border: 2px solid #a1882f;
-  border-radius: 8px;
-}
-.contents .c_present a:after {
-  content: '';
-  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/6fe05918a664f995862ae966e4c71d70_c18662eadd5bc503225a72cdb45338e0.png) 0 0 no-repeat;
-  position: absolute;
-  top: 39%;
-  right: 2%;
-  background-size: 20px 34px;
-  width: 20px;
-  height: 34px;
-}
-.contents .c_present td {
-  width: 32%;
-  line-height: 0;
-}
-.contents .c_present th {
-  position: relative;
-  width: 56%;
-  padding: 0 0 0 4%;
-  line-height: 1.5;
-  font-weight: bold;
-  font-size: 23px;
-  letter-spacing: 1.7;
-  vertical-align: middle;
-  text-align: left;
-  color: #000;
-}
-.contents .c_present th span {
-  font-size: 22px;
-  color: #a1882f;
 }
 .contents .c_topic {
   display: inline-block;
@@ -561,79 +560,71 @@ footer small {
     background-size: cover;
   }
   header .h_wrap .h_box {
+    padding: 3% 0 3%;
+    margin: 0 auto;
     height: auto;
-    padding: 3% 0 2.6%;
   }
   header .h_wrap .h_box .h_h {
-    width: 44%;
-  }
-  header .h_wrap .h_box .h_ig {
-    width: 70%;
-    margin: 2.8% auto 0;
-  }
-  header .h_wrap .h_box .h_img {
-    width: 27%;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 9.2%;
     margin: 0 auto;
   }
+  header .h_wrap .h_box .h_ig {
+    width: 49%;
+  }
+  header .h_wrap .h_box .h_img {
+    width: 18%;
+    margin: 2% auto 0;
+  }
   header .h_wrap .h_box .h_txt {
-    width: 70%;
-    margin: 0.1% auto 0;
+    width: 64%;
+    margin: 1.8% auto 0;
   }
 
   .cp {
-    padding: 7.8% 0 6.8%;
+    padding: 7.5% 0 6%;
   }
   .cp .c_img {
     width: 77%;
   }
   .cp h2 {
     width: 84%;
-    margin: 3.9% auto 0;
+    margin: 3.2% auto 0;
   }
-  .cp .cp_btn {
-    width: 100%;
-    margin: 4.1% auto 0;
+
+  .cp_w {
+    padding: 6% 0 6.5%;
   }
-  .cp .cp_btn a {
-    padding: 2.5% 0;
-    font-size: calc(48vw/12);
-    letter-spacing: 2.3px;
+  .cp_w dl dt {
+    font-size: calc(39vw/12);
+    line-height: 1.4;
+  }
+  .cp_w dl dt .tit {
+    margin: 0 0 3%;
+    font-size: calc(30vw/12);
+    line-height: 1.4;
+    letter-spacing: 1.3px;
+  }
+  .cp_w dl dt .nume {
+    display: inline-block;
+    padding: 1.1% 6%;
+    margin: 4.5% 0 0;
+    border-radius: 30px;
+    font-size: calc(35vw/12);
+    letter-spacing: 1.3px;
+  }
+  .cp_w a {
+    padding: 3% 0;
+    margin: 6% 0 0;
     border-radius: 5px;
+    font-size: calc(45vw/12);
+    letter-spacing: 2.2px;
   }
 
   .contents {
     padding: 4% 0 0;
-  }
-  .contents .c_present {
-    padding: 4% 0 6%;
-  }
-  .contents .c_present a {
-    padding: 3% 8% 3% 3%;
-    border: 2px solid #a1882f;
-    border-radius: 8px;
-  }
-  .contents .c_present a:after {
-    content: '';
-    position: absolute;
-    top: 41%;
-    right: 2%;
-    background-size: 16px 27px;
-    width: 16px;
-    height: 27px;
-  }
-  .contents .c_present td {
-    width: 35%;
-    line-height: 0;
-  }
-  .contents .c_present th {
-    width: 56%;
-    padding: 0 0 0 4%;
-    line-height: 1.5;
-    font-size: calc(38vw/12);
-    letter-spacing: 1.4px;
-  }
-  .contents .c_present th span {
-    font-size: calc(35vw/12);
   }
   .contents .c_h {
     padding: 0 0 0 2.4%;
@@ -710,7 +701,7 @@ footer small {
     margin: 0;
   }
   .contents .c_item {
-    margin: 4% 0 2%;
+    margin: 4% 0 6%;
   }
   .contents .c_item li {
     width: 48%;
@@ -927,77 +918,73 @@ footer small {
     width: 21%;
   }
   header .h_wrap .h_box {
-    height: auto;
-    padding: 3% 0 2.6%;
+    padding: 2.9% 0 2.9%;
   }
   header .h_wrap .h_box .h_h {
-    width: 44%;
-  }
-  header .h_wrap .h_box .h_ig {
-    width: 70%;
-    margin: 2.8% auto 0;
-  }
-  header .h_wrap .h_box .h_img {
-    width: 27%;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 9.2%;
     margin: 0 auto;
   }
+  header .h_wrap .h_box .h_ig {
+    width: 51%;
+  }
+  header .h_wrap .h_box .h_img {
+    width: 19%;
+    margin: 1.8% auto 0;
+  }
   header .h_wrap .h_box .h_txt {
-    width: 70%;
-    margin: 0.1% auto 0;
+    width: 64%;
+    margin: 0.8% auto 0;
   }
 
   .cp {
-    padding: 7.3% 0 6.3%;
+    padding: 6.5% 0 6.3%;
   }
   .cp .c_img {
-    width: 77%;
+    width: 82%;
   }
   .cp h2 {
-    width: 85%;
-    margin: 4% auto 0;
+    width: 91%;
+    margin: 3.2% auto 0;
   }
-  .cp .cp_btn {
-    margin: 4.6% auto 0;
+
+  .cp_w {
+    padding: 6% 0 7.2%;
   }
-  .cp .cp_btn a {
-    padding: 2.4% 0;
-    font-size: calc(50vw/12);
-    letter-spacing: 2.3px;
+  .cp_w dl dd {
+    width: 56%;
+  }
+  .cp_w dl dt {
+    width: 41%;
+    font-size: calc(41vw/12);
+    line-height: 1.4;
+  }
+  .cp_w dl dt .tit {
+    margin: 0 0 3%;
+    font-size: calc(32vw/12);
+    line-height: 1.4;
+    letter-spacing: 1.3px;
+  }
+  .cp_w dl dt .nume {
+    display: inline-block;
+    padding: 1.2% 7%;
+    margin: 5% 0 0;
+    border-radius: 30px;
+    font-size: calc(37vw/12);
+    letter-spacing: 1.3px;
+  }
+  .cp_w a {
+    padding: 3% 0;
+    margin: 5.5% 0 0;
     border-radius: 3px;
+    font-size: calc(47vw/12);
+    letter-spacing: 2.2px;
   }
 
   .contents {
     padding: 3% 0 0;
-  }
-  .contents .c_present {
-    padding: 3% 0 6%;
-  }
-  .contents .c_present a {
-    padding: 2% 7% 2% 2%;
-    border: 1px solid #a1882f;
-    border-radius: 6px;
-  }
-  .contents .c_present a:after {
-    content: '';
-    top: 42%;
-    right: 2%;
-    background-size: 10px 17px;
-    width: 10px;
-    height: 17px;
-  }
-  .contents .c_present td {
-    width: 33%;
-    line-height: 0;
-  }
-  .contents .c_present th {
-    width: 56%;
-    padding: 0 0 0 4%;
-    line-height: 1.5;
-    font-size: calc(39vw/12);
-    letter-spacing: 0.5px;
-  }
-  .contents .c_present th span {
-    font-size: calc(36vw/12);
   }
   .contents .c_h {
     padding: 0 0 0 2.4%;
@@ -1022,7 +1009,7 @@ footer small {
     font-size: calc(45vw/12);
   }
   .contents .c_anime {
-    margin: 2% 0 2.3%;
+    margin: 2% 0 .3%;
   }
   .contents .c_anime .c_i_list {
     padding: 3.3% 0;
@@ -1064,7 +1051,7 @@ footer small {
     margin: 0;
   }
   .contents .c_item {
-    margin: 4% 0 2%;
+    margin: 4% 0 5%;
   }
   .contents .c_item li {
     width: 48%;
