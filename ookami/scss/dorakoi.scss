@@ -34,6 +34,7 @@ img  { width: 100%; }
 	margin: 0 auto;
 	box-sizing: border-box;
 }
+
 .pc {
 	display: block;
 }
@@ -82,6 +83,15 @@ header {
 			font-size: 27px;
 			font-weight: normal;
 		}
+	}
+	.new {
+		display: inline-block;
+		background: #f0163a;
+		padding: 5px 8px;
+		margin: 0 0 10px 0;
+		border-radius: 4px;
+		font-size: 15px;
+		color: #fff;
 	}
 	.c_h {
 		font-size: 33px;
@@ -176,6 +186,9 @@ header {
 	}
 	.c_h {
 		margin: 62px 0 0;
+	}
+	.chn {
+		margin: 0;
 	}
 }
 .line {
@@ -423,6 +436,9 @@ footer {
 		.c_h {
 			margin: 8.1% 0 0;
 		}
+		.chn {
+			margin: 0;
+		}
 	}
 	.line {
 		background: #efefef;
@@ -628,6 +644,9 @@ footer {
 		}
 		.c_h {
 			margin: 8% 0 0;
+		}
+		.chn {
+			margin: 0;
 		}
 	}
 	.line {
