@@ -47,19 +47,27 @@ header .h_wrap {
 }
 header .h_wrap .h_box {
   max-width: 768px;
-  padding: 54px 0 0;
+  padding: 39px 0 41px;
   margin: 0 auto;
   height: 421px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 header .h_wrap .h_box .h_h {
-  max-width: 489px;
+  max-width: 318px;
   margin: 0 auto;
 }
-header .h_wrap .h_box .h_t {
-  max-width: 514px;
-  margin: 32px auto 0;
+header .h_wrap .h_box .h_ig {
+  max-width: 518px;
+  margin: 23px auto 0;
+}
+header .h_wrap .h_box .h_img {
+  max-width: 205px;
+  margin: 0 auto 0;
+}
+header .h_wrap .h_box .h_txt {
+  max-width: 518px;
+  margin: 2px auto 0;
 }
 
 .cp {
@@ -85,17 +93,58 @@ header .h_wrap .h_box .h_t {
 }
 
 .contents {
-  padding: 30px 0 15px;
+  padding: 40px 0 18px;
+}
+.contents .c_present {
+  padding: 31px 0 51px;
+}
+.contents .c_present a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 18px 60px 18px 18px;
+  border: 2px solid #a1882f;
+  border-radius: 8px;
+}
+.contents .c_present a:after {
+  content: '';
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/6fe05918a664f995862ae966e4c71d70_c18662eadd5bc503225a72cdb45338e0.png) 0 0 no-repeat;
+  position: absolute;
+  top: 39%;
+  right: 2%;
+  background-size: 20px 34px;
+  width: 20px;
+  height: 34px;
+}
+.contents .c_present td {
+  width: 32%;
+  line-height: 0;
+}
+.contents .c_present th {
+  position: relative;
+  width: 56%;
+  padding: 0 0 0 4%;
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 23px;
+  letter-spacing: 1.7;
+  vertical-align: middle;
+  text-align: left;
+  color: #000;
+}
+.contents .c_present th span {
+  font-size: 22px;
+  color: #a1882f;
 }
 .contents .c_topic {
   display: inline-block;
   background: #a1882f;
-  padding: 11px 22px;
-  margin: 34px 0 0;
+  padding: 8px 18px;
+  margin: 21px 0 22px;
   border-radius: 30px;
   font-size: 24.5px;
-  font-weight: normal;
   letter-spacing: 2px;
+  font-weight: bold;
   text-align: center;
   color: #fff;
 }
@@ -103,10 +152,16 @@ header .h_wrap .h_box .h_t {
   font-size: 27px;
 }
 .contents .c_h {
+  padding: 0 0 0 16px;
   font-size: 32px;
   font-weight: bold;
-  letter-spacing: 1.3px;
-  line-height: 1.2;
+  border-left: 7px solid #a1882f;
+  line-height: 1;
+}
+.contents .c_h span {
+  display: inline-block;
+  line-height: 1.5;
+  margin: -10px 0;
 }
 .contents .c_h_m {
   padding: 15px 0 0;
@@ -129,14 +184,15 @@ header .h_wrap .h_box .h_t {
   color: #666;
 }
 .contents .c_anime {
-  margin: 18px 0 0;
+  margin: 13px 0 0;
 }
 .contents .c_anime .c_i_list {
   padding: 25px 0;
+  margin: 0 0 0;
   border-bottom: 1px solid #606060;
 }
 .contents .c_anime .c_i_list:last-child {
-  border-bottom: none;
+  border: none;
 }
 .contents .c_anime .c_i_list a {
   overflow: hidden;
@@ -166,7 +222,7 @@ header .h_wrap .h_box .h_t {
   display: inline-block;
   background: #ec2840;
   padding: 3px 19px;
-  margin: 0 0 12px;
+  margin: 0 0 5px;
   border-radius: 4px;
   letter-spacing: 1.3px;
   font-size: 16px;
@@ -191,9 +247,6 @@ header .h_wrap .h_box .h_t {
 }
 .contents .c_anime .c_i_li {
   margin: 0;
-}
-.contents .c_anime .c_i_li:last-child {
-  border: none;
 }
 .contents .c_list {
   border-radius: 8px;
@@ -244,7 +297,7 @@ header .h_wrap .h_box .h_t {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  margin: 35px 0 0;
+  margin: 35px 0 30px;
 }
 .contents .c_item li {
   -webkit-box-pack: end;
@@ -280,7 +333,24 @@ header .h_wrap .h_box .h_t {
   padding: 20px;
   font-size: 27px;
   line-height: 1.4;
+  font-weight: bold;
   color: #666;
+}
+.contents .c_item li a .c_text span {
+  display: block;
+  font-weight: bold;
+  color: #a1882f;
+}
+.contents .c_item li a .c_text .pop {
+  display: inline-block;
+  background: #ec2840;
+  padding: 3px 19px;
+  margin: 0 0 12px;
+  border-radius: 4px;
+  letter-spacing: 1.3px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
 }
 
 .contents_sec {
@@ -293,7 +363,7 @@ header .h_wrap .h_box .h_t {
 }
 
 .genre {
-  padding: 60px 0 40px;
+  padding: 30px 0 40px;
 }
 .genre .g_h {
   font-size: 32px;
@@ -438,7 +508,7 @@ footer .copy {
 }
 footer .copy li {
   float: left;
-  margin: 5px 0 0;
+  margin: 5px 0 0 5px;
   line-height: 1.3;
   font-size: 16px;
   color: #666666;
@@ -481,6 +551,30 @@ footer small {
     padding: 0 5%;
   }
 
+  .contents .c_anime .c_i_list .pop {
+    display: inline-block;
+    padding: 1% 5%;
+    margin: 0 0 2%;
+    border-radius: 4px;
+    letter-spacing: 1.3px;
+    font-size: calc(25vw/12);
+    white-space: nowrap;
+    text-align: center;
+    width: auto;
+  }
+
+  .contents .c_item li a .c_text .pop {
+    display: inline-block;
+    padding: 1% 6%;
+    margin: 0 0 2%;
+    border-radius: 4px;
+    letter-spacing: 1.3px;
+    font-size: calc(25vw/12);
+    white-space: nowrap;
+    text-align: center;
+    width: auto;
+  }
+
   header .logo {
     padding: 1.53% 0 1.58% 2.5%;
     line-height: 0;
@@ -490,19 +584,27 @@ footer small {
     width: 21%;
   }
   header .h_wrap {
-    background: url(https://bit.ly/2vbHPgS) center center no-repeat;
+    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/ee57e71bb5b418bdd087130511954fc6_5145912e05a879d38b0c76977b01fdef.png) center center no-repeat;
     background-size: cover;
   }
   header .h_wrap .h_box {
     height: auto;
-    padding: 7.8% 0 9.8%;
+    padding: 5.3% 0 5.3%;
   }
   header .h_wrap .h_box .h_h {
-    width: 67%;
+    width: 44%;
   }
-  header .h_wrap .h_box .h_t {
-    width: 68%;
-    margin: 4% auto 0;
+  header .h_wrap .h_box .h_ig {
+    width: 70%;
+    margin: 3% auto 0;
+  }
+  header .h_wrap .h_box .h_img {
+    width: 50%;
+    margin: 0 auto 0;
+  }
+  header .h_wrap .h_box .h_txt {
+    width: 70%;
+    margin: 0.6% auto 0;
   }
 
   .cp {
@@ -524,22 +626,60 @@ footer small {
   }
 
   .contents {
-    padding: 4% 0 1%;
+    padding: 4% 0 1.5%;
+  }
+  .contents .c_present {
+    padding: 4% 0 6%;
+  }
+  .contents .c_present a {
+    padding: 3% 8% 3% 3%;
+    border: 2px solid #a1882f;
+    border-radius: 8px;
+  }
+  .contents .c_present a:after {
+    content: '';
+    position: absolute;
+    top: 41%;
+    right: 2%;
+    background-size: 16px 27px;
+    width: 16px;
+    height: 27px;
+  }
+  .contents .c_present td {
+    width: 35%;
+    line-height: 0;
+  }
+  .contents .c_present th {
+    width: 56%;
+    padding: 0 0 0 4%;
+    line-height: 1.5;
+    font-size: calc(38vw/12);
+    letter-spacing: 1.4px;
+  }
+  .contents .c_present th span {
+    font-size: calc(35vw/12);
+  }
+  .contents .c_h {
+    padding: 0 0 0 2.4%;
+    font-size: calc(49vw/12);
+    border-left: 5px solid #a1882f;
+    letter-spacing: 1.25px;
+    line-height: 1;
+  }
+  .contents .c_h span {
+    display: inline-block;
+    line-height: 1.55;
+    margin: -2% 0;
   }
   .contents .c_topic {
-    padding: 1.6% 3.4%;
-    margin: 5% 0 0;
-    border-radius: 24px;
-    font-size: calc(40vw/12);
+    padding: 1.5% 3%;
+    margin: 4.6% 0 3.8%;
+    border-radius: 30px;
+    font-size: calc(39vw/12);
     letter-spacing: 1.5px;
   }
   .contents .c_topic span {
     font-size: calc(43vw/12);
-  }
-  .contents .c_h {
-    font-size: calc(49vw/12);
-    letter-spacing: 1.25px;
-    line-height: 1.2;
   }
   .contents .c_h_m {
     padding: 2.5% 0 0;
@@ -555,14 +695,14 @@ footer small {
     font-size: calc(39vw/12);
   }
   .contents .c_anime {
-    margin: 2% 0 0;
+    margin: 2.3% 0 0;
   }
   .contents .c_anime .c_i_list {
     padding: 3.3% 0;
     margin: 0;
   }
   .contents .c_anime .c_i_list td {
-    width: 52%;
+    width: 48%;
   }
   .contents .c_anime .c_i_list th {
     padding: 0 0 0 2%;
@@ -594,7 +734,7 @@ footer small {
     margin: 0;
   }
   .contents .c_item {
-    margin: 4% 0 0;
+    margin: 4% 0 3%;
   }
   .contents .c_item li {
     width: 48%;
@@ -624,6 +764,15 @@ footer small {
     padding: 6%;
     font-size: calc(42vw/12);
     line-height: 1.35;
+  }
+  .contents .c_item li a .c_text .pop {
+    width: 23.5%;
+    padding: 1% 0;
+    margin: 0 0 1.5%;
+    border-radius: 4px;
+    letter-spacing: 1.3px;
+    font-size: calc(25vw/12);
+    text-align: center;
   }
   .contents .c_list {
     border-radius: 5px;
@@ -661,7 +810,7 @@ footer small {
   }
 
   .genre {
-    padding: 8% 0 5%;
+    padding: 4% 0 5%;
   }
   .genre .g_h {
     font-size: calc(50vw/12);
@@ -769,7 +918,7 @@ footer small {
     margin: 0 0 6%;
   }
   footer .copy li {
-    margin: 1% 0 0;
+    margin: 1% 0 0 1%;
     line-height: 1.3;
     font-size: calc(25vw/12);
   }
@@ -804,6 +953,29 @@ footer small {
     padding: 0 5%;
   }
 
+  .contents .c_anime .c_i_list .pop {
+    display: inline-block;
+    padding: 1% 5%;
+    margin: 0 0 2%;
+    border-radius: 3px;
+    letter-spacing: 1.2px;
+    font-size: calc(30vw/12);
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .contents .c_item li a .c_text .pop {
+    display: inline-block;
+    padding: 1% 6%;
+    margin: 0 0 2%;
+    border-radius: 4px;
+    letter-spacing: 1.3px;
+    font-size: calc(28vw/12);
+    white-space: nowrap;
+    text-align: center;
+    width: auto;
+  }
+
   header .logo {
     padding: 1.53% 0 1.58% 2.5%;
   }
@@ -811,10 +983,22 @@ footer small {
     width: 21%;
   }
   header .h_wrap .h_box {
-    padding: 5% 0 6.5%;
+    padding: 5.3% 0 5.2%;
   }
   header .h_wrap .h_box .h_h {
-    width: 88%;
+    width: 44%;
+  }
+  header .h_wrap .h_box .h_ig {
+    width: 70%;
+    margin: 3% auto 0;
+  }
+  header .h_wrap .h_box .h_img {
+    width: 39%;
+    margin: 0 auto 0;
+  }
+  header .h_wrap .h_box .h_txt {
+    width: 70%;
+    margin: 0.6% auto 0;
   }
 
   .cp {
@@ -836,22 +1020,59 @@ footer small {
   }
 
   .contents {
-    padding: 3% 0 0.5%;
+    padding: 3% 0 1%;
+  }
+  .contents .c_present {
+    padding: 3% 0 6%;
+  }
+  .contents .c_present a {
+    padding: 2% 7% 2% 2%;
+    border: 1px solid #a1882f;
+    border-radius: 6px;
+  }
+  .contents .c_present a:after {
+    content: '';
+    top: 42%;
+    right: 2%;
+    background-size: 10px 17px;
+    width: 10px;
+    height: 17px;
+  }
+  .contents .c_present td {
+    width: 33%;
+    line-height: 0;
+  }
+  .contents .c_present th {
+    width: 56%;
+    padding: 0 0 0 4%;
+    line-height: 1.5;
+    font-size: calc(39vw/12);
+    letter-spacing: 0.5px;
+  }
+  .contents .c_present th span {
+    font-size: calc(36vw/12);
+  }
+  .contents .c_h {
+    padding: 0 0 0 2.4%;
+    font-size: calc(51vw/12);
+    border-left: 3.5px solid #a1882f;
+    letter-spacing: 1.1px;
+    line-height: 1;
+  }
+  .contents .c_h span {
+    display: inline-block;
+    line-height: 1.55;
+    margin: -1% 0;
   }
   .contents .c_topic {
-    padding: 1.7% 3.4%;
-    margin: 4% 0 0;
-    border-radius: 25px;
-    font-size: calc(42vw/12);
-    letter-spacing: 1.4px;
+    padding: 1.5% 3%;
+    margin: 4.8% 0 3.8%;
+    border-radius: 30px;
+    font-size: calc(41vw/12);
+    letter-spacing: 1.5px;
   }
   .contents .c_topic span {
     font-size: calc(45vw/12);
-  }
-  .contents .c_h {
-    font-size: calc(51vw/12);
-    letter-spacing: 1px;
-    line-height: 1.2;
   }
   .contents .c_anime {
     margin: 2% 0 0;
@@ -861,7 +1082,7 @@ footer small {
     margin: 0;
   }
   .contents .c_anime .c_i_list td {
-    width: 52%;
+    width: 45%;
   }
   .contents .c_anime .c_i_list th {
     padding: 0 0 0 2%;
@@ -892,11 +1113,14 @@ footer small {
   .contents .c_anime .c_i_list .short .short_th {
     font-size: calc(44vw/12);
   }
+  .contents .c_anime .c_i_list:last-child {
+    border-bottom: none;
+  }
   .contents .c_anime .c_i_li {
     margin: 0;
   }
   .contents .c_item {
-    margin: 4% 0 0;
+    margin: 4% 0 3%;
   }
   .contents .c_item li {
     width: 48%;
@@ -926,6 +1150,15 @@ footer small {
     padding: 6%;
     font-size: calc(44vw/12);
     line-height: 1.35;
+  }
+  .contents .c_item li a .c_text .pop {
+    width: 25.5%;
+    padding: 1% 0;
+    margin: 0 0 1.5%;
+    border-radius: 3px;
+    letter-spacing: 1.2px;
+    font-size: calc(30vw/12);
+    text-align: center;
   }
   .contents .c_list {
     border-radius: 5px;
@@ -963,7 +1196,7 @@ footer small {
   }
 
   .genre {
-    padding: 6% 0 5%;
+    padding: 3% 0 5%;
   }
   .genre .g_h {
     font-size: calc(52vw/12);
@@ -1072,7 +1305,7 @@ footer small {
     margin: 0 0 6%;
   }
   footer .copy li {
-    margin: 1% 0 0;
+    margin: 1% 0 0 1%;
     line-height: 1.3;
     font-size: calc(27vw/12);
   }
@@ -1119,20 +1352,20 @@ footer small {
 }
 .a01 {
   -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
-  animation: item_sp 1s ease 2.5s 1 forwards;
+  animation: item_sp 1s ease 3.5s 1 forwards;
 }
 
 .a02 {
   -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
-  animation: item_sp 1s ease 2.9s 1 forwards;
+  animation: item_sp 1s ease 3.9s 1 forwards;
 }
 
 .a03 {
   -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
-  animation: item_sp 1s ease 3.3s 1 forwards;
+  animation: item_sp 1s ease 4.3s 1 forwards;
 }
 
 .a04 {
   -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
-  animation: item_sp 1s ease 3.7s 1 forwards;
+  animation: item_sp 1s ease 4.7s 1 forwards;
 }
