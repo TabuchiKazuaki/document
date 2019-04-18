@@ -80,7 +80,7 @@ header {
 
 		.h_box {
 			max-width: 768px;
-			padding: 22px 0 0;
+			padding: 37px 0 0;
 			margin: 0 auto;
 			height: 263px;
 			box-sizing: border-box;
@@ -97,12 +97,12 @@ header {
 				margin: 0 auto 0;
 			}
 			.h_img {
-				max-width: 128px;
-				margin: 15px auto 0;
+				max-width: 216px;
+				margin: 28px auto 0;
 			}
 			.h_txt {
 				max-width: 473px;
-				margin: 13px auto 0;
+				margin: 26px auto 0;
 			}
 		}
 	}
@@ -677,44 +677,71 @@ footer {
 			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/ee57e71bb5b418bdd087130511954fc6_5145912e05a879d38b0c76977b01fdef.png) center center no-repeat;
 			background-size: cover;
 			.h_box {
+				padding: 5% 0 4.8%;
+				margin: 0 auto;
 				height: auto;
-				padding: 4.85% 0 4.85%;
 				.h_h {
-					width: 44%;
+					position: absolute;
+					top: 5%;
+					left: 2%;
+					width: 9.2%;
+					margin: 0 auto;
 				}
 				.h_ig {
-					width: 70%;
-					margin: 3% auto 0;
+					width: 49%;
 				}
 				.h_img {
-					width: 56%;
-					margin: 5.6% auto 0;
+					width: 29%;
+					margin: 3.5% auto 0;
 				}
 				.h_txt {
-					width: 70%;
-					margin: 3% auto 0;
+					width: 64%;
+					margin: 3.5% auto 0;
 				}
 			}
 		}
 	}
 	.cp {
-		padding: 7.8% 0 6.8%;
+		padding: 7.5% 0 6%;
 		.c_img {
 			width: 77%;
 		}
 		h2 {
 			width: 84%;
-			margin: 3.9% auto 0;
+			margin: 3.2% auto 0;
 		}
-		.cp_btn {
-			width: 100%;
-			margin: 4.1% auto 0;
-			a {
-				padding: 2.5% 0;
-				font-size: calc(48vw/12);
-				letter-spacing: 2.3px;
-				border-radius: 5px;
+	}
+
+	.cp_w {
+		padding: 6% 0 6.5%;
+		dl {
+			dd {
 			}
+			dt {
+				font-size: calc(39vw/12);
+				line-height: 1.4;
+				.tit {
+					margin: 0 0 3%;
+					font-size: calc(30vw/12);
+					line-height: 1.4;
+					letter-spacing: 1.3px;
+				}
+				.nume {
+					display: inline-block;
+					padding: 1.1% 6%;
+					margin: 4.5% 0 0;
+					border-radius: 30px;
+					font-size: calc(35vw/12);
+					letter-spacing: 1.3px;
+				}
+			}
+		}
+		a {
+			padding: 3% 0;
+			margin: 6% 0 0;
+			border-radius: 5px;
+			font-size: calc(45vw/12);
+			letter-spacing: 2.2px;
 		}
 	}
 	.contents {
@@ -1073,8 +1100,7 @@ footer {
 
 		.h_wrap {
 			.h_box {
-				padding: 2.9% 0 2.9%;
-
+				padding: 5% 0 5%;
 				.h_h {
 					position: absolute;
 					top: 5%;
@@ -1086,18 +1112,18 @@ footer {
 					width: 51%;
 				}
 				.h_img {
-					width: 19%;
-					margin: 1.8% auto 0;
+					width: 29%;
+					margin: 3.6% auto 0;
 				}
 				.h_txt {
 					width: 64%;
-					margin: 0.8% auto 0;
+					margin: 3.5% auto 0;
 				}
 			}
 		}
 	}
 	.cp {
-		padding: 6.5% 0 6.3%;
+		padding: 8% 0 8.3%;
 		.c_img {
 			width: 82%;
 		}

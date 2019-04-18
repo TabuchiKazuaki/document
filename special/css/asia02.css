@@ -92,7 +92,7 @@ header .h_wrap .h_box .h_txt {
 }
 .cp .h_wrap .h_box {
   max-width: 768px;
-  padding: 22px 0 0;
+  padding: 37px 0 0;
   margin: 0 auto;
   height: 263px;
   -webkit-box-sizing: border-box;
@@ -110,12 +110,12 @@ header .h_wrap .h_box .h_txt {
   margin: 0 auto 0;
 }
 .cp .h_wrap .h_box .h_img {
-  max-width: 128px;
-  margin: 15px auto 0;
+  max-width: 216px;
+  margin: 28px auto 0;
 }
 .cp .h_wrap .h_box .h_txt {
   max-width: 473px;
-  margin: 13px auto 0;
+  margin: 26px auto 0;
 }
 
 .cp {
@@ -679,44 +679,67 @@ footer small {
     background-size: cover;
   }
   header .h_wrap .h_box {
+    padding: 5% 0 4.8%;
+    margin: 0 auto;
     height: auto;
-    padding: 4.85% 0 4.85%;
   }
   header .h_wrap .h_box .h_h {
-    width: 44%;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 9.2%;
+    margin: 0 auto;
   }
   header .h_wrap .h_box .h_ig {
-    width: 70%;
-    margin: 3% auto 0;
+    width: 49%;
   }
   header .h_wrap .h_box .h_img {
-    width: 56%;
-    margin: 5.6% auto 0;
+    width: 29%;
+    margin: 3.5% auto 0;
   }
   header .h_wrap .h_box .h_txt {
-    width: 70%;
-    margin: 3% auto 0;
+    width: 64%;
+    margin: 3.5% auto 0;
   }
 
   .cp {
-    padding: 7.8% 0 6.8%;
+    padding: 7.5% 0 6%;
   }
   .cp .c_img {
     width: 77%;
   }
   .cp h2 {
     width: 84%;
-    margin: 3.9% auto 0;
+    margin: 3.2% auto 0;
   }
-  .cp .cp_btn {
-    width: 100%;
-    margin: 4.1% auto 0;
+
+  .cp_w {
+    padding: 6% 0 6.5%;
   }
-  .cp .cp_btn a {
-    padding: 2.5% 0;
-    font-size: calc(48vw/12);
-    letter-spacing: 2.3px;
+  .cp_w dl dt {
+    font-size: calc(39vw/12);
+    line-height: 1.4;
+  }
+  .cp_w dl dt .tit {
+    margin: 0 0 3%;
+    font-size: calc(30vw/12);
+    line-height: 1.4;
+    letter-spacing: 1.3px;
+  }
+  .cp_w dl dt .nume {
+    display: inline-block;
+    padding: 1.1% 6%;
+    margin: 4.5% 0 0;
+    border-radius: 30px;
+    font-size: calc(35vw/12);
+    letter-spacing: 1.3px;
+  }
+  .cp_w a {
+    padding: 3% 0;
+    margin: 6% 0 0;
     border-radius: 5px;
+    font-size: calc(45vw/12);
+    letter-spacing: 2.2px;
   }
 
   .contents {
@@ -1048,7 +1071,7 @@ footer small {
     width: 21%;
   }
   header .h_wrap .h_box {
-    padding: 2.9% 0 2.9%;
+    padding: 5% 0 5%;
   }
   header .h_wrap .h_box .h_h {
     position: absolute;
@@ -1061,16 +1084,16 @@ footer small {
     width: 51%;
   }
   header .h_wrap .h_box .h_img {
-    width: 19%;
-    margin: 1.8% auto 0;
+    width: 29%;
+    margin: 3.6% auto 0;
   }
   header .h_wrap .h_box .h_txt {
     width: 64%;
-    margin: 0.8% auto 0;
+    margin: 3.5% auto 0;
   }
 
   .cp {
-    padding: 6.5% 0 6.3%;
+    padding: 8% 0 8.3%;
   }
   .cp .c_img {
     width: 82%;
