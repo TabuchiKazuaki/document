@@ -804,32 +804,6 @@ footer {
 			}
 		}
 	}
-	.entry {
-		padding: 6% 0 7%;
-		.e_item {
-			margin: 1% 0 0 2%;
-			li {
-				position: relative;
-				padding: 3.5% 0 0 7.8%;
-				font-size: calc(40vw/12);
-				line-height: 1.2;
-				counter-increment: count;
-				white-space: nowrap;
-
-				&:before {
-					content: counter(count);
-					position: absolute;
-					left: 0;
-					top: 33%;
-					width: 6%;
-					height: 75%;
-					line-height: 28px;
-					font-size: calc(41vw/12);
-					line-height: 1.6;
-				}
-			}
-		}
-	}
 
 	.contents {
 		padding: 8% 0 0;
