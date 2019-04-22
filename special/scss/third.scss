@@ -1099,18 +1099,37 @@ footer {
 				height: auto;
 				padding: 7.8% 0 9.8%;
 				.h_h {
-					width: 67%;
+					width: 64%;
 				}
 				.h_t {
-					width: 68%;
+					width: 66%;
 					margin: 4% auto 0;
 				}
 			}
 		}
 	}
+	.cp {
+		padding: 6% 0 5.5%;
+		.c_img {
+			width: 77%;
+			margin: 0 auto;
+		}
+		h2 {
+			width: 85%;
+			margin: 4% auto 0;
+		}
+		.c_date {
+			margin: 2.3% 0 0;
+			font-size: calc(36vw/12);
+			letter-spacing: 1.3px;
+			span {
+				font-size: calc(39vw/12);
+			}
+		}
+	}
 
 	.info {
-		padding: 7.5% 0 5%;
+		padding: 8% 0 7.5%;
 		.i_t {
 			font-size: calc(36vw/12);
 			span {
