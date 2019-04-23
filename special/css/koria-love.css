@@ -77,12 +77,13 @@ header .h_wrap .h_box .h_txt {
 
 .cp {
   background: #000;
-  padding: 60px 0 40px;
+  padding: 60px 0 55px;
 }
 .cp .cp_t {
   font-size: 23px;
-  line-height: 1.5;
+  line-height: 1.6;
   text-align: center;
+  letter-spacing: 1.3px;
   color: #8c8c8c;
 }
 
@@ -100,6 +101,18 @@ header .h_wrap .h_box .h_txt {
 .contents figure {
   margin: 50px 0 0;
   line-height: 0;
+}
+.contents .cm_t {
+  margin: 30px 0 0;
+  font-size: 27px;
+  font-weight: bold;
+  color: #fff;
+}
+.contents .c_t {
+  margin: 16px 0 0;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #8c8c8c;
 }
 .contents .large {
   margin: 28px 0 0;
@@ -349,7 +362,7 @@ footer small {
   }
 
   header .logo {
-    padding: 1.53% 0 1.58% 2.5%;
+    padding: 1.53% 0 1.58% 3.7%;
     line-height: 0;
   }
   header .logo span {
@@ -361,7 +374,7 @@ footer small {
     background-size: cover;
   }
   header .h_wrap .h_box {
-    padding: 5% 0 4.8%;
+    padding: 5.5% 0 4.6%;
     margin: 0 auto;
     height: auto;
   }
@@ -369,19 +382,28 @@ footer small {
     position: absolute;
     top: 5%;
     left: 2%;
-    width: 9.2%;
+    width: 14%;
     margin: 0 auto;
   }
   header .h_wrap .h_box .h_ig {
-    width: 49%;
+    width: 50%;
   }
   header .h_wrap .h_box .h_img {
-    width: 29%;
+    width: 32%;
     margin: 3.5% auto 0;
   }
   header .h_wrap .h_box .h_txt {
-    width: 64%;
-    margin: 3.5% auto 0;
+    width: 62%;
+    margin: 1.6% auto 0;
+  }
+
+  .cp {
+    padding: 8% 0 7%;
+  }
+  .cp .cp_t {
+    font-size: calc(36vw/12);
+    line-height: 1.6;
+    letter-spacing: 1.3px;
   }
 
   .contents .large {
@@ -414,6 +436,76 @@ footer small {
   .contents .thumb li .active img {
     margin: -2px 0;
   }
+  .contents .c_h {
+    padding: 0 0 0 3%;
+    border-left: 4.5px solid #3a2;
+    line-height: 1.4;
+    font-size: calc(50vw/12);
+    letter-spacing: 1.3px;
+  }
+  .contents figure {
+    margin: 7% 0 0;
+  }
+  .contents .cm_t {
+    margin: 4.2% 0 0;
+    font-size: calc(42/12);
+  }
+  .contents .c_t {
+    margin: 2.5% 0 0;
+    font-size: calc(35vw/12);
+    line-height: 1.5;
+  }
+  .contents .c_btn {
+    padding: 0 0 60px;
+    margin: 40px 0 0;
+    border-bottom: 1px solid #606060;
+  }
+  .contents .c_btn a {
+    display: block;
+    background: #3a2;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+    letter-spacing: 1.4px;
+    color: #fff;
+  }
+  .contents .c_point {
+    padding: 8% 0 6.5%;
+    border-bottom: 1px solid #606060;
+    color: #fff;
+  }
+  .contents .c_point .c_dl {
+    margin: 6.5% 0 0;
+  }
+  .contents .c_point .c_dl dd {
+    width: 53%;
+    line-height: 0;
+  }
+  .contents .c_point .c_dl dt {
+    width: 43%;
+    padding: 0 0 0 4%;
+    font-size: calc(37vw/12);
+    line-height: 1.35;
+    letter-spacing: 1.4px;
+  }
+  .contents .c_point .c_p_t {
+    margin: 4.5% 0 0;
+    line-height: 1.4;
+    font-size: calc(38vw/12);
+  }
+  .contents .c_point .c_p_btn {
+    margin: 5% 0 0;
+  }
+  .contents .c_point .c_p_btn a {
+    padding: 3% 0;
+    border-radius: 5px;
+    letter-spacing: 1.8px;
+    font-size: calc(46vw/12);
+  }
+  .contents .c_p_s {
+    padding: 0 0 6%;
+  }
 
   .genre {
     padding: 8% 0 5%;
@@ -442,15 +534,15 @@ footer small {
     margin: 0 0 0 4%;
   }
   .genre .g_item li a {
-    padding: 8% 0;
-    border: 2px solid #a1882f;
+    padding: 7% 0;
+    border: 2px solid #3a2;
     border-radius: 5px;
     font-size: calc(44vw/12);
     letter-spacing: 1.3px;
   }
   .genre .g_item li a:hover {
     background: none;
-    color: #a1882f;
+    color: #3a2;
   }
 
   footer {
