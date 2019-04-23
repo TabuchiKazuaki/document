@@ -64,20 +64,20 @@ img {
 }
 .contents dl dd .series {
   margin: 0 0 15px;
-  font-size: 22px;
+  font-size: 12px;
   line-height: 1.4;
-  color: #898989;
+  color: #999;
 }
 .contents dl dd .heading {
   margin: 0 0 15px;
-  font-size: 26px;
-  font-weight: normal;
+  font-size: 12px;
+  font-weight: bold;
   line-height: 1.3;
-  color: #fff;
+  color: #e6e6e6;
 }
 .contents dl dd .date {
-  font-size: 22px;
-  color: #898989;
+  font-size: 12px;
+  color: #999;
 }
 
 @media screen and (max-width: 768px) {
@@ -112,18 +112,15 @@ img {
   }
   .contents dl dd .series {
     margin: 0 0 3.2%;
-    font-size: calc(36vw/12);
     line-height: 1.3;
     letter-spacing: 1.3px;
   }
   .contents dl dd .heading {
     margin: 0 0 3.2%;
-    font-size: calc(40vw/12);
     line-height: 1.3;
     letter-spacing: 1.1px;
   }
   .contents dl dd .date {
-    font-size: calc(37vw/12);
     letter-spacing: 1.3px;
   }
 }
@@ -158,18 +155,15 @@ img {
   }
   .contents dl dd .series {
     margin: 0 0 3.2%;
-    font-size: calc(38vw/12);
     line-height: 1.3;
     letter-spacing: 1.3px;
   }
   .contents dl dd .heading {
     margin: 0 0 3.2%;
-    font-size: calc(42vw/12);
     line-height: 1.3;
     letter-spacing: 1.1px;
   }
   .contents dl dd .date {
-    font-size: calc(39vw/12);
     letter-spacing: 1.3px;
   }
 }
