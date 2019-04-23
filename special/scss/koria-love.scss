@@ -338,17 +338,6 @@ footer {
 	.wrap {
 		padding: 0 4%;
 	}
-	.contents .c_anime .cil .pop {
-		display: inline-block;
-	    padding: 1% 5%;
-	    margin: 0 0 2%;
-	    border-radius: 4px;
-	    letter-spacing: 1.3px;
-	    font-size: calc(25vw/12);
-	    text-align: center;
-		width: auto;
-
-	}
 	header {
 		.logo {
 			padding: 1.53% 0 1.58% 3.7%;
@@ -369,7 +358,7 @@ footer {
 				height: auto;
 				.h_h {
 					position: absolute;
-					top: 5%;
+					top: 3%;
 					left: 2%;
 					width: 14%;
 					margin: 0 auto;
@@ -466,8 +455,6 @@ footer {
 
 		.c_point {
 			padding: 8% 0 6.5%;
-			border-bottom: 1px solid #606060;
-			color: #fff;
 			.c_dl {
 				margin: 6.5% 0 0;
 				dd {
@@ -621,7 +608,7 @@ footer {
 				padding: 5% 0 5%;
 				.h_h {
 					position: absolute;
-					top: 4%;
+					top: 3%;
 					left: 2%;
 					width: 9.2%;
 					margin: 0 auto;
@@ -662,8 +649,80 @@ footer {
 				}
 			}
 		}
-	}
+		.c_h {
+			padding: 0 0 0 3%;
+			border-left: 4.5px solid #3a2;
+			line-height: 1.4;
+			font-size: calc(50vw/12);
+			letter-spacing: 1.3px;
+		}
+		figure {
+			margin: 7% 0 0;
+		}
+		.cm_t {
+			margin: 4.2% 0 0;
+			font-size: calc(42/12);
+		}
+		.c_t {
+			margin: 2.5% 0 0;
+			font-size: calc(35vw/12);
+			line-height: 1.5;
+		}
 
+		.c_btn {
+			padding: 0 0 8%;
+			margin: 6% 0 0;
+			a {
+				padding: 3% 0;
+				font-size: calc(50vw/12);
+				border-radius: 4px;
+				letter-spacing: 1.4px;
+			}
+		}
+
+		.c_point {
+			padding: 8% 0 6.5%;
+			.c_dl {
+				margin: 6.5% 0 0;
+				dd {
+					width: 53%;
+					line-height: 0;
+				}
+				dt {
+					width: 43%;
+					padding: 0 0 0 4%;
+					font-size: calc(37vw/12);
+					line-height: 1.35;
+					letter-spacing: 1.4px;
+				}
+			}
+			.c_p_t {
+				margin: 4.5% 0 0;
+				line-height: 1.4;
+				font-size: calc(38vw/12);
+			}
+			.c_p_btn {
+				margin: 5% 0 0;
+				a {
+					padding: 3% 0;
+					border-radius: 5px;
+					letter-spacing: 1.8px;
+					font-size: calc(46vw/12);
+				}
+			}
+		}
+		.c_p_s {
+			padding: 0 0 6%;
+		}
+	}
+	.cp {
+		padding: 8% 0 7%;
+		.cp_t {
+			font-size: calc(36vw/12);
+			line-height: 1.6;
+			letter-spacing: 1.3px;
+		}
+	}
 
 	.genre {
 		padding: 6% 0 5%;
