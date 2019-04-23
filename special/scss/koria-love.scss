@@ -755,6 +755,27 @@ footer {
 				}
 			}
 		}
+		.g_btn {
+			margin: 8% 0 0;
+			a {
+				padding: 3.5% 0 3.5% 5%;
+				line-height: 1.4;
+				font-size: calc(38vw/12);
+				border-radius: 5px;
+				letter-spacing: 1.3px;
+
+				&:after {
+					top: 41%;
+					right: 3%;
+					background-size: 10px 16px;
+					width: 10px;
+					height: 16px;
+				}
+				span {
+					font-size: calc(31vw/12);
+				}
+			}
+		}
 	}
 
 	footer {
