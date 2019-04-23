@@ -35,18 +35,30 @@ img {
   margin: 0 auto;
 }
 
+header .h_wrap .h_box .h_img {
+  margin: 16px auto 0;
+}
 header .h_wrap .h_box .h_txt {
-  max-width: 464px;
+  max-width: 329px;
+  margin: 20px auto 0;
 }
 
 @media screen and (max-width: 768px) {
+  header .h_wrap .h_box .h_img {
+    margin: 3.5% auto 0;
+  }
   header .h_wrap .h_box .h_txt {
     width: 66%;
+    margin: 1.6% auto 0;
   }
 }
 @media screen and (max-width: 480px) {
+  header .h_wrap .h_box .h_img {
+    margin: 3.5% auto 0;
+  }
   header .h_wrap .h_box .h_txt {
-    width: 65%;
+    width: 66%;
+    margin: 1.6% auto 0;
   }
 }
 .hi {
