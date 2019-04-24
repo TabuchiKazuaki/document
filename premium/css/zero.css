@@ -320,14 +320,41 @@ aside .f_c {
 }
 
 footer {
+  background: #efefef;
   padding: 35px 0 50px;
+  border-top: 1px solid #606060;
+}
+footer .f_list {
+  overflow: hidden;
+  margin: 10px 0 0;
+}
+footer .f_list li {
+  position: relative;
+  float: left;
+  margin: 0 10px 0 0;
+}
+footer .f_list li a {
+  display: block;
+  padding: 0 12px 0 0;
+  font-size: 15px;
+  color: #666666;
+}
+footer .f_list li:after {
+  content: ' | ';
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #666666;
+}
+footer .f_list li:last-child:after {
+  content: '';
 }
 footer small {
   display: block;
-  text-align: center;
-  font-size: 20px;
-  letter-spacing: 0.5px;
-  color: #979797;
+  margin: 30px 0 0;
+  font-size: 16px;
+  letter-spacing: 1.3px;
+  color: #666666;
 }
 
 @media screen and (max-width: 768px) {
@@ -560,12 +587,35 @@ footer small {
   }
 
   footer {
-    padding: 4% 0 5.5%;
+    padding: 5% 0 7%;
+  }
+  footer .wrap {
+    padding: 0 5% 0;
+  }
+  footer .f_list {
+    margin: 1.8% 0 0;
+  }
+  footer .f_list li {
+    margin: 0 10px 0 0;
+  }
+  footer .f_list li a {
+    padding: 0 12px 0 0;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  footer .f_list li:after {
+    content: ' | ';
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  footer .f_list li:last-child:after {
+    content: '';
   }
   footer small {
-    font-size: calc(38vw/12);
-    letter-spacing: 0.5px;
-    color: #979797;
+    margin: 5% 0 0;
+    font-size: calc(26vw/12);
+    letter-spacing: 1.3px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -792,12 +842,35 @@ footer small {
   }
 
   footer {
-    padding: 4% 0 5.5%;
+    padding: 4.5% 0 6.5%;
+  }
+  footer .wrap {
+    padding: 0 5% 0;
+  }
+  footer .f_list {
+    margin: 1.8% 0 0;
+  }
+  footer .f_list li {
+    margin: 0 8px 0 0;
+  }
+  footer .f_list li a {
+    padding: 0 10px 0 0;
+    font-size: 10px;
+    white-space: nowrap;
+  }
+  footer .f_list li:after {
+    content: ' | ';
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  footer .f_list li:last-child:after {
+    content: '';
   }
   footer small {
-    font-size: calc(41vw/12);
+    margin: 5% 0 0;
+    font-size: calc(28vw/12);
     letter-spacing: 0.5px;
-    color: #979797;
   }
 }
 @-webkit-keyframes item_sp {
