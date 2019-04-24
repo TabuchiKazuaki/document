@@ -7,6 +7,7 @@ $(document).ready(function() {
 		$('#section01-01').hide();
 		$('#section01-02').hide();
 		$('#addcl').addClass("cad");
+		$('#addcl02').addClass("cad02");
 	}
 	var sec01 = new Date("2019/04/11 16:34");
 	if (now.getTime() > sec01.getTime()) {
