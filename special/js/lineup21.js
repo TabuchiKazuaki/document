@@ -1,39 +1,36 @@
 $(document).ready(function() {
 	var now = new Date();
-	// ビデオ
-	var sec00 = new Date("2019/04/19 00:00");
-	if (now.getTime() > sec00.getTime()) {
-		$('#section01').hide();
-		$('#section01-01').hide();
-		$('#section01-02').hide();
-		$('#addcl').addClass("cad");
-		$('#addcl02').addClass("cad02");
-	}
-	var sec01 = new Date("2019/04/11 16:34");
+
+	var sec01 = new Date("2019/04/28 22:00");
 	if (now.getTime() > sec01.getTime()) {
-		$('#se_01').text('ビデオを見る');
-		$('#se_01').attr("href","https://abema.tv/video/title/38-256");
+		$('#f_01').text('ビデオを見る');
+		$('#f_01').attr("href","https://abema.tv/video/title/90-493");
 	}
-	var sec02 = new Date("2019/04/22 00:00");
+	var sec02 = new Date("2019/05/01 00:30");
 	if (now.getTime() > sec02.getTime()) {
-		$('#se_02').text('ビデオを見る');
-		$('#se_02').attr("href","https://abema.tv/video/title/26-11");
+		$('#f_02').text('ビデオを見る');
+		$('#f_02').attr("href","https://abema.tv/video/title/90-980");
 	}
-	var sec03 = new Date("2019/04/14 03:50");
+	var sec03 = new Date("2019/05/01 17:00");
 	if (now.getTime() > sec03.getTime()) {
-		$('#se_03').text('ビデオを見る');
-		$('#se_03').attr("href","https://abema.tv/video/title/25-88");
+		$('#f_03').text('ビデオを見る');
+		$('#f_03').attr("href","https://abema.tv/video/title/90-1263");
 	}
 
-	var change01 = new Date("2019/04/08 00:15");
+	var change01 = new Date("2019/04/29 23:30");
 	if (now.getTime() > change01.getTime()) {
-		$('#c_01').text('ビデオを見る');
-		$('#c_01').attr("href","https://abema.tv/video/title/90-980");
+		$('#f_04').text('ビデオを見る');
+		$('#f_04').attr("href","https://abema.tv/video/title/90-1266");
 	}
 
-	var change02 = new Date("2019/04/11 05:00");
+	var change02 = new Date("2019/05/01 17:00");
 	if (now.getTime() > change02.getTime()) {
-		$('#c_02').text('ビデオを見る');
-		$('#c_02').attr("href","https://abema.tv/video/title/90-1250");
+		$('#f_05').text('ビデオを見る');
+		$('#f_05').attr("href","https://abema.tv/video/title/203-5");
+	}
+	var change02 = new Date("2019/04/28 23:00");
+	if (now.getTime() > change02.getTime()) {
+		$('#f_05').text('ビデオを見る');
+		$('#f_05').attr("href","https://abema.tv/video/title/90-1248");
 	}
 });
