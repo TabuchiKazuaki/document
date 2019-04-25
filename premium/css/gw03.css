@@ -68,10 +68,11 @@ header .header_logo span {
   max-width: 151px;
 }
 header .h_a {
+  position: relative;
   background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/57fd75380afebe30d3619e5828a9ed23_8d7c59055ed5acd4e859f939ef2f687a.png) center center repeat;
   background-size: cover;
-  height: 421px;
-  padding: 63px 0 60px;
+  height: 240px;
+  padding: 24px 0 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -81,33 +82,14 @@ header .h_a .wrap {
   margin: 0 auto;
 }
 header .h_a .wrap .h_t {
-  max-width: 331px;
-  margin: 0 auto;
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  max-width: 67px;
 }
 header .h_a .wrap .h_m {
-  max-width: 426px;
-  margin: 13px auto 0;
-}
-header .h_a .wrap .h_icon {
-  max-width: 269px;
-  margin: 10px auto 0;
-}
-header .h_a .wrap .h_p {
-  float: left;
-  max-width: 583px;
-  width: 100%;
-  margin: 5px 0 0 78px;
-  padding: 13px 0;
-  border: 3px solid #fff;
-  border-radius: 8px;
-  text-align: center;
-  font-size: 27px;
-  font-weight: bold;
-  letter-spacing: 3.5px;
-  color: #fff;
-}
-header .h_a .wrap .h_p span {
-  font-size: 29px;
+  max-width: 337px;
+  margin: 0 auto 0;
 }
 
 .info {
@@ -698,37 +680,15 @@ footer small {
     background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/a238b64bacba2cb0369c93137fdbbd77_b174e35c0e5395b4e92481f43b7eb5a0.png) center center repeat;
     background-size: cover;
     height: auto;
-    padding: 8% 0 8.3%;
-  }
-  header .h_a .wrap {
-    overflow: hidden;
-    max-width: 768px;
-    margin: 0 auto;
+    padding: 3.3% 0 2.8%;
   }
   header .h_a .wrap .h_t {
-    width: 51%;
-    margin: 0 auto;
+    top: 5.2%;
+    left: 2%;
+    width: 9.4%;
   }
   header .h_a .wrap .h_m {
-    width: 64%;
-    margin: 2.4% auto 0;
-  }
-  header .h_a .wrap .h_icon {
-    margin: 0 auto 0;
-    width: 41%;
-  }
-  header .h_a .wrap .h_p {
-    float: none;
-    width: 88%;
-    margin: 1.5% auto 0;
-    padding: 2% 0;
-    border: 2px solid #fff;
-    border-radius: 7px;
-    font-size: calc(42vw/12);
-    letter-spacing: 2.5px;
-  }
-  header .h_a .wrap .h_p span {
-    font-size: calc(44vw/12);
+    width: 50%;
   }
 
   .info {
@@ -1099,31 +1059,15 @@ footer small {
   }
 
   header .h_a {
-    padding: 7.8% 0 7.5%;
+    padding: 3.3% 0 2.8%;
   }
   header .h_a .wrap .h_t {
-    width: 51%;
+    top: 5.2%;
+    left: 2%;
+    width: 9.4%;
   }
   header .h_a .wrap .h_m {
-    width: 66%;
-    margin: 2.4% auto 0;
-  }
-  header .h_a .wrap .h_icon {
-    margin: 0 auto 0;
-    width: 44%;
-  }
-  header .h_a .wrap .h_p {
-    float: none;
-    width: 88%;
-    margin: 0.5% auto 0;
-    padding: 2% 0;
-    border: 0.8px solid #fff;
-    border-radius: 6px;
-    font-size: calc(44vw/12);
-    letter-spacing: 1.35px;
-  }
-  header .h_a .wrap .h_p span {
-    font-size: calc(47vw/12);
+    width: 50%;
   }
 
   .info {
