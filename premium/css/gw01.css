@@ -34,6 +34,18 @@ img {
   margin: 0 auto;
 }
 
+.pop {
+  display: inline-block;
+  background: #ec2840;
+  padding: 3px 19px;
+  margin: 0 0 12px;
+  border-radius: 4px;
+  letter-spacing: 1.3px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
+}
+
 header {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -528,6 +540,18 @@ footer small {
     height: 45px;
   }
 
+  .pop {
+    display: inline-block;
+    padding: 1% 5%;
+    margin: 0 0 2%;
+    border-radius: 4px;
+    letter-spacing: 1.3px;
+    font-size: calc(25vw/12);
+    white-space: nowrap;
+    text-align: center;
+    width: auto;
+  }
+
   header .header_logo {
     padding: 1.6% 0 1.6% 2.5%;
   }
@@ -835,6 +859,17 @@ footer small {
   .f_line {
     background: #fff;
     height: 31px;
+  }
+
+  .pop {
+    display: inline-block;
+    padding: 1% 5%;
+    margin: 0 0 2%;
+    border-radius: 4px;
+    letter-spacing: 1.3px;
+    font-size: calc(25vw/12);
+    white-space: nowrap;
+    text-align: center;
   }
 
   header .h_a {

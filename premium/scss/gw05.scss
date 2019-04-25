@@ -20,6 +20,17 @@ img  { width: 100%;}
 	margin: 0 auto;
 }
 
+.pop {
+	display: inline-block;
+	background: #ec2840;
+	padding: 3px 19px;
+	margin: 0 0 12px;
+	border-radius: 4px;
+	letter-spacing: 1.3px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #fff;
+}
 header {
 	box-sizing: border-box;
 	.header_logo {
@@ -616,6 +627,17 @@ footer {
 		background: #fff;
 		height: 45px;
 	}
+	.pop {
+		display: inline-block;
+		padding: 1% 5%;
+		margin: 0 0 2%;
+		border-radius: 4px;
+		letter-spacing: 1.3px;
+		font-size: calc(25vw/12);
+		white-space: nowrap;
+		text-align: center;
+		width: auto;
+	}
 
 	header {
 		.header_logo {
@@ -1030,6 +1052,16 @@ footer {
 	.f_line {
 		background: #fff;
 		height: 31px;
+	}
+	.pop {
+		display: inline-block;
+		padding: 1% 5%;
+		margin: 0 0 2%;
+		border-radius: 4px;
+		letter-spacing: 1.3px;
+		font-size: calc(25vw/12);
+		white-space: nowrap;
+		text-align: center;
 	}
 
 	header {
