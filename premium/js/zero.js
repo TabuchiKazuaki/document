@@ -1,11 +1,11 @@
 $(document).ready(function() {
 	var now = new Date();
-	var tt00 = new Date("2019/05/5 00:00");
+	var tt00 = new Date("2019/05/25 00:00");
 	if (now.getTime() > tt00.getTime()) {
 		$('#d_sl').hide();
 		$('#date').show();
 	}
-	var tt01 = new Date("2019/05/5 00:00");
+	var tt01 = new Date("2019/05/25 00:00");
 	if (now.getTime() > tt01.getTime()) {
 		$('#h_01').show();
 		$('#h_02').hide();
@@ -71,7 +71,7 @@ $(document).ready(function() {
 		$('#h_07').hide();
 		$('#h_08').hide();
 	}
-	var tt07 = new Date("2019/05/31 12:00");
+	var tt07 = new Date("2019/05/31 00:00");
 	if (now.getTime() > tt07.getTime()) {
 		$('#h_01').hide();
 		$('#h_02').hide();
@@ -82,7 +82,7 @@ $(document).ready(function() {
 		$('#h_07').show();
 		$('#h_08').hide();
 	}
-	var tt08 = new Date("2019/05/31 23:59");
+	var tt08 = new Date("2019/05/31 12:00");
 	if (now.getTime() > tt08.getTime()) {
 		$('#h_01').hide();
 		$('#h_02').hide();
@@ -103,5 +103,10 @@ $(document).ready(function() {
 		$('#h_06').hide();
 		$('#h_07').hide();
 		$('#h_08').hide();
+	}
+	var tt10 = new Date("2019/05/31 23:59");
+	if (now.getTime() > tt10.getTime()) {
+		$('#d_sl').show();
+		$('#date').hide();
 	}
 });
