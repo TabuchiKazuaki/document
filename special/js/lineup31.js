@@ -1,6 +1,17 @@
 $(document).ready(function() {
 	var now = new Date();
 
+	var fr01 = new Date("2019/05/25 22:00");
+	if (now.getTime() > fr01.getTime()) {
+		$('#five_01').text('ビデオを見る');
+		$('#five_01').attr("href","https://abema.tv/video/title/289-21");
+	}
+	var fr02 = new Date("2019/05/16 23:59");
+	if (now.getTime() > fr02.getTime()) {
+		$('#five_02').text('ビデオを見る');
+		$('#five_02').attr("href","https://abema.tv/channels/abema-special/slots/DrZip4Ms7JytHd");
+	}
+
 	var ar01 = new Date("2019/05/10 01:20");
 	if (now.getTime() > ar01.getTime()) {
 		$('#r_01').text('ビデオを見る');
