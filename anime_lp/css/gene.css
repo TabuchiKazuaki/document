@@ -1,0 +1,45 @@
+* { margin: 0; padding: 0; }
+
+body { line-height: 1; min-width: 320px; font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important; color: #000; margin: 0 auto; background: #eee; }
+body li { list-style: none; }
+
+a { -webkit-transition: .3s; transition: .3s; text-decoration: none; }
+a:hover { text-decoration: none; opacity: .8; }
+
+img { width: 100%; }
+
+.wrap { max-width: 768px; margin: 0 auto; }
+
+header { background-size: cover; }
+header h1 { background: #000; line-height: 0; }
+header h1 span { display: inline-block; max-width: 151px; padding: 13px 0 15px 22px; line-height: 0; }
+header .h_wrap { background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/689553/4adffafe1890a6439671da16afa42b33_44e1b50d02d1eb871f0688c4c3935ba3.png) center center no-repeat; background-size: cover; }
+header .h_wrap .h_i { max-width: 768px; padding: 5px 0; margin: 0 auto 0; }
+header .h_wrap .h_i h2 { max-width: 680px; margin: 0 auto; }
+
+.years { padding: 60px 0 0; }
+.years .y_item { overflow: hidden; padding: 0 30px; border-bottom: 2px solid #33aa22; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-flow: row wrap; flex-flow: row wrap; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.years .y_item li { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 23.5%; padding: 0 2% 8px; margin: 0 0 0 2%; text-align: center; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.years .y_item li:first-child { margin: 0; }
+.years .y_item li a { display: block; font-size: 45px; color: #ababab; }
+.years .y_item li a img { max-width: 138px; margin: 0 auto; }
+.years .y_item .active { padding: 0 0 4px; border-bottom: 6px solid #33aa22; }
+
+@media screen and (max-width: 768px) { .wrap { padding: 0 4.6%; margin: 0 auto; }
+  header h1 span { display: inline-block; width: 21%; padding: 1.5% 0 1.6% 2.4%; line-height: 0; }
+  header .h_wrap { background: url(https://bit.ly/306e1jQ) center center no-repeat; background-size: cover; }
+  header .h_wrap .h_i { max-width: 768px; padding: 2.5% 0; margin: 0 auto 0; }
+  header .h_wrap .h_i h2 { width: 91%; margin: 0 auto; } }
+@media screen and (max-width: 480px) { .wrap { padding: 0 4.6%; margin: 0 auto; }
+  header h1 span { display: inline-block; width: 21%; padding: 1.5% 0 1.6% 2.4%; line-height: 0; }
+  header .h_wrap .h_i { padding: 2.6% 0; }
+  header .h_wrap .h_i h2 { width: 91%; } }
+@-webkit-keyframes item_sp { 100% { opacity: 1; } }
+@keyframes item_sp { 100% { opacity: 1; } }
+.a01 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 3.5s 1 forwards; }
+
+.a02 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 3.9s 1 forwards; }
+
+.a03 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 4.3s 1 forwards; }
+
+.a04 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 4.7s 1 forwards; }
