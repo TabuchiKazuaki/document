@@ -123,11 +123,11 @@ footer small { display: block; margin: 30px 0 0; font-size: 13.5px; letter-spaci
   footer .wrap { padding: 6.5% 3.5% 5%; }
   footer .f_list { margin: 0.5% 0 0; }
   footer .f_list li { position: relative; float: left; margin: 0.5% 2.2% 0.5% 0; }
-  footer .f_list li a { padding: 0 3% 0 0; font-size: calc(28vw/12); }
+  footer .f_list li a { padding: 0 3% 0 0; font-size: calc(28vw/12); white-space: nowrap; }
   footer .f_list li:after { content: ' | '; position: absolute; top: -1px; right: -2px; font-size: 15px; }
   footer .f_list li:last-child:after { content: ''; }
-  footer .copy { overflow: hidden; margin: 0 0 25px -8px; }
-  footer .copy li { float: left; margin: 5px 0 0 8px; line-height: 1.5; font-size: calc(26vw/12); }
+  footer .copy { overflow: hidden; margin: 0 0 3% -4px; }
+  footer .copy li { float: left; margin: 5px 0 0 4px; line-height: 1.5; font-size: calc(26vw/12); }
   footer small { margin: 4% 0 0; font-size: calc(22vw/12); letter-spacing: 1.3px; } }
 @media screen and (max-width: 480px) { .wrap { padding: 0 2.5%; margin: 0 auto; }
   header h1 span { display: inline-block; width: 21%; padding: 1.5% 0 1.6% 2.4%; line-height: 0; }
@@ -178,8 +178,8 @@ footer small { display: block; margin: 30px 0 0; font-size: 13.5px; letter-spaci
   footer .f_list li:after { top: -1px; right: -2px; font-size: 14px; }
   footer .f_list li:last-child:after { content: ''; }
   footer .copy { overflow: hidden; margin: 0 0 25px -8px; }
-  footer .copy li { float: left; margin: 5px 0 0 8px; line-height: 1.5; font-size: calc(26vw/12); }
-  footer small { margin: 4% 0 0; font-size: calc(22vw/12); letter-spacing: 1.3px; } }
+  footer .copy li { float: left; margin: 5px 0 0 8px; line-height: 1.5; font-size: calc(28vw/12); }
+  footer small { margin: 4% 0 0; font-size: calc(24vw/12); letter-spacing: 1.3px; } }
 @-webkit-keyframes item_sp { 100% { opacity: 1; } }
 @keyframes item_sp { 100% { opacity: 1; } }
 .a01 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 3.5s 1 forwards; }
