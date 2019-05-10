@@ -588,11 +588,9 @@ footer {
 					white-space: nowrap;
 				}
 				&:after {
-					content: ' | ';
-					position: absolute;
 					top: -1px;
-					right: -2px;
-					font-size: 15px;
+					right: -9px;
+					font-size: 17px;
 				}
 				&:last-child:after {
 					content: '';
@@ -839,9 +837,9 @@ footer {
 					font-size: calc(30vw/12);
 				}
 				&:after {
-					top: -1px;
+					top: -3px;
 					right: -2px;
-					font-size: 14px;
+					font-size: 13px;
 				}
 				&:last-child:after {
 					content: '';
