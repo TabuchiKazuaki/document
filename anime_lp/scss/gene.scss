@@ -337,11 +337,13 @@ footer {
 		overflow: hidden;
 		margin: 0 0 25px -8px;
 		li {
+			width: 100%;
 			float: left;
 			margin: 5px 0 0 8px;
 			line-height: 1.5;
 			font-size: 14px;
 			color: #919191;
+			box-sizing: border-box;
 		}
 	}
 	small {
@@ -601,6 +603,7 @@ footer {
 			overflow: hidden;
 			margin: 0 0 3% -4px;
 			li {
+
 				float: left;
 				margin: 5px 0 0 4px;
 				line-height: 1.5;
