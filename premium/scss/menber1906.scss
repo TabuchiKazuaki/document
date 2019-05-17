@@ -32,8 +32,8 @@ header {
 	.header_wrap {
 		padding: 41px 0 38px;
 
-		.h_m {
-			max-width: 488px;
+		.header_obi {
+			max-width: 537px;
 			margin: 0 auto;
 		}
 
@@ -265,49 +265,6 @@ header {
 	}
 }
 
-.information {
-	padding: 0 0 42px;
-	margin: 0 0 5px;
-
-	.i_link {
-		margin: 0;
-		border-radius: 6px;
-		a {
-			position: relative;
-			display: block;
-			border-radius: 6px;
-		}
-		.i_img {
-			line-height: 0;
-			img {
-				border-radius: 6px 6px 0 0;
-			}
-		}
-		.i_btn {
-			position: relative;
-			background: #1a1a1a;
-			padding: 25px 0;
-			border-radius: 0 0 6px 6px;
-			text-align: center;
-			font-size: 26px;
-			font-weight: bold;
-			letter-spacing: 1.2px;
-			color: #33aa22;
-
-			&:after {
-				content: '';
-				position: absolute;
-				top: 30%;
-				right: 3%;
-				background: url(https://bit.ly/2BLflyb) 0 0 no-repeat;
-				background-size: 20px 34px;
-				width: 20px;
-				height: 34px;
-			}
-
-		}
-	}
-}
 
 .outline {
 	.wrap {
