@@ -107,6 +107,114 @@ header {
 	}
 }
 
+.info {
+	padding: 42px 0 0 ;
+
+	&:nth-of-type(2) {
+		padding: 13px 0 0;
+	}
+	.date {
+		font-size: 32px;
+		font-weight: bold;
+		text-align: center;
+		letter-spacing: 1.4px;
+		span {
+			font-size: 35px;
+		}
+	}
+
+	.entry {
+		background: #1a1a1a;
+		padding: 38px 20px 33px;
+		margin: 5px 0 0;
+		border-radius: 4px;
+
+		.e_head {
+			font-size: 28px;
+			font-weight: normal;
+			text-align: center;
+		}
+		.e_text {
+			margin: 25px 0 0;
+			font-size: 26px;
+			line-height: 1.4;
+			color: #989898;
+		}
+		.e_first {
+			margin: 25px 0 0;
+			font-size: 26px;
+			text-align: center;
+		}
+		.e_btn {
+			margin: 17px 0 0;
+			a {
+				display: block;
+				background: #1a1a1a;
+				padding: 25px 0;
+				border: 2px solid #33aa22;
+				border-radius: 6px;
+				text-align: center;
+				font-size: 30px;
+				font-weight: bold;
+				letter-spacing: 1.3px;
+				color: #33aa22;
+
+				&:hover {
+					background: #33aa22;
+					color: #fff;
+					opacity: 1;
+				}
+			}
+		}
+	}
+	.i_link {
+		margin: 50px 0;
+		border-radius: 6px;
+		a {
+			position: relative;
+			display: block;
+			border-radius: 6px;
+
+
+		}
+		.i_img {
+			line-height: 0;
+			img {
+				border-radius: 6px 6px 0 0;
+			}
+		}
+		.i_btn {
+			position: relative;
+			background: #1a1a1a;
+			padding: 25px 0;
+			border-radius: 0 0 6px 6px;
+			text-align: center;
+			font-size: 26px;
+			font-weight: bold;
+			letter-spacing: 1.2px;
+			color: #33aa22;
+
+			&:after {
+				content: '';
+				position: absolute;
+				top: 30%;
+				right: 3%;
+				background: url(https://bit.ly/2BLflyb) 0 0 no-repeat;
+				background-size: 20px 34px;
+				width: 20px;
+				height: 34px;
+			}
+
+		}
+	}
+}
+.i_s {
+	padding: 0;
+	margin: 0;
+	.entry {
+		margin:0;
+	}
+}
 
 
 .e_h {
@@ -547,6 +655,77 @@ footer {
 		}
 	}
 
+	.info {
+		padding: 5.8% 0 0 ;
+
+		&:nth-of-type(2) {
+			padding: 2% 0 0;
+		}
+		.date {
+			font-size: calc(48vw/12);
+			letter-spacing: 1.4px;
+			span {
+				font-size: calc(52vw/12);
+			}
+		}
+
+		.entry {
+			padding: 5.3% 3% 4.8%;
+			margin: 0.5% 0 0;
+			border-radius: 4px;
+
+			.e_head {
+				font-size: calc(43vw/12);
+			}
+			.e_text {
+				margin: 4% 0 0;
+				font-size: calc(41vw/12);
+				line-height: 1.4;
+			}
+			.e_first {
+				margin: 3.7% 0 0;
+				font-size: calc(41vw/12);
+			}
+			.e_btn {
+				margin: 2.8% 0 0;
+				a {
+					padding: 3.8% 0;
+					border-radius: 6px;
+					font-size: calc(47vw/12);
+					letter-spacing: 1.3px;
+				}
+			}
+		}
+		.i_link {
+			margin: 7% 0;
+			border-radius: 5px;
+			.i_img {
+				img {
+					border-radius: 5px 5px 0 0;
+				}
+			}
+			.i_btn {
+				padding: 3.5% 0;
+				border-radius: 0 0 5px 5px;
+				font-size: calc(41vw/12);
+
+				&:after {
+					top: 30%;
+					right: 3%;
+					background-size: 16px 27px;
+					width: 16px;
+					height: 27px;
+				}
+			}
+		}
+	}
+	.i_s {
+		padding: 0;
+		.entry {
+			margin:0;
+		}
+	}
+
 
 
 	.outline {
@@ -868,6 +1047,80 @@ footer {
 					font-size: calc(43vw/12);
 				}
 			}
+		}
+	}
+
+	.info {
+		padding: 5.8% 0 0 ;
+
+		&:nth-of-type(2) {
+			padding: 2% 0 0;
+		}
+		.date {
+			font-size: calc(51vw/12);
+			letter-spacing: 1;
+			white-space: nowrap;
+			span {
+				font-size: calc(55vw/12);
+			}
+		}
+
+		.entry {
+			padding: 5.3% 3% 4.8%;
+			margin: 0.3% 0 0;
+			border-radius: 4px;
+
+			.e_head {
+				font-size: calc(47vw/12);
+			}
+			.e_text {
+				margin: 4% 0 0;
+				font-size: calc(44vw/12);
+				line-height: 1.4;
+			}
+			.e_first {
+				margin: 3.1% 0 0;
+				font-size: calc(44vw/12);
+			}
+			.e_btn {
+				margin: 3.3% 0 0;
+				a {
+					padding: 3.8% 0;
+					border-radius: 6px;
+					border: 1px solid #33aa22;
+					font-size: calc(50vw/12);
+					letter-spacing: 1.3px;
+				}
+			}
+		}
+		.i_link {
+			margin: 6% 0;
+			border-radius: 4px;
+			.i_img {
+				img {
+					border-radius: 4px 4px 0 0;
+				}
+			}
+			.i_btn {
+				padding: 3.8% 0;
+				border-radius: 0 0 4px 4px;
+				font-size: calc(44vw/12);
+				letter-spacing: 1.1px;
+
+				&:after {
+					top: 31%;
+					right: 3%;
+					background-size: 10px 17px;
+					width: 10px;
+					height: 17px;
+				}
+			}
+		}
+	}
+	.i_s {
+		padding: 0;
+		.entry {
+			margin:0;
 		}
 	}
 
