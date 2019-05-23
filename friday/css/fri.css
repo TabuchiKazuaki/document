@@ -158,6 +158,23 @@ header .h_wrap .h_v figure {
 .contents .c_zwei .c_z_item li {
   margin: 18px 0 0;
 }
+.contents .c_zwei .c_z_item li .c_z_t {
+  position: relative;
+  padding: 0 0 0 45px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #666;
+}
+.contents .c_zwei .c_z_item li .c_z_t:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #cfa64d;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
 .contents .c_zwei .c_z_item li dl {
   display: -webkit-box;
   display: -ms-flexbox;

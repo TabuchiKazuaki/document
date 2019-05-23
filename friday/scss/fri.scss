@@ -142,6 +142,23 @@ header {
 
 			li {
 				margin: 18px 0 0;
+				.c_z_t {
+					position: relative;
+					padding: 0 0 0 45px;
+					font-size: 26px;
+					font-weight: bold;
+					color: #666;
+					&:before {
+						content: '';
+						position: absolute;
+						top: 0;
+						left: 0;
+						background: #cfa64d;
+						width: 27px;
+						height: 27px;
+						border-radius: 50%;
+					}
+				}
 				dl {
 					display: flex;
 					align-items: center;
