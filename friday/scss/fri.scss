@@ -1043,32 +1043,23 @@ footer {
 						}
 					}
 					dl {
-						display: flex;
-						align-items: center;
 						letter-spacing: 1.2px;
 						dt {
-							position: relative;
-							width: 210px;
-							padding: 0 0 0 45px;
-							font-size: 26px;
-							font-weight: bold;
-							box-sizing: border-box;
-							color: #666;
+							width: 30%;
+							padding: 0 0 0 6.5%;
+							font-size: calc(41vw/12);
 							&:before {
 								content: '';
 								position: absolute;
 								top: 0;
 								left: 0;
-								background: #cfa64d;
-								width: 27px;
-								height: 27px;
+								width: 12%;
+								height: 100%;
 								border-radius: 50%;
 							}
 						}
 						dd {
-							font-size: 26px;
-							font-weight: bold;
-							color: #666;
+							font-size: calc(41vw/12);
 						}
 					}
 				}

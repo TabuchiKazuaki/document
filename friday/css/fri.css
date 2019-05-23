@@ -1053,38 +1053,24 @@ footer small {
     border-radius: 50%;
   }
   .contents .c_zwei .c_z_item li dl {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     letter-spacing: 1.2px;
   }
   .contents .c_zwei .c_z_item li dl dt {
-    position: relative;
-    width: 210px;
-    padding: 0 0 0 45px;
-    font-size: 26px;
-    font-weight: bold;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    color: #666;
+    width: 30%;
+    padding: 0 0 0 6.5%;
+    font-size: calc(41vw/12);
   }
   .contents .c_zwei .c_z_item li dl dt:before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
-    background: #cfa64d;
-    width: 27px;
-    height: 27px;
+    width: 12%;
+    height: 100%;
     border-radius: 50%;
   }
   .contents .c_zwei .c_z_item li dl dd {
-    font-size: 26px;
-    font-weight: bold;
-    color: #666;
+    font-size: calc(41vw/12);
   }
   .contents .c_zwei .c_z_btn {
     margin: 42px 0 0;
