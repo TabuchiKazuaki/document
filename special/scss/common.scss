@@ -578,6 +578,10 @@ header {
 
 .point {
 	padding: 60px 0 60px;
+	.wrap {
+		max-width: 680px;
+		margin: 0 auto;
+	}
 	.c_h {
 		border-left: 6px solid #3a2;
 		padding: 0 0 0 18px;
@@ -593,7 +597,6 @@ header {
 		li {
 			background: #202121;
 			padding: 30px 16.5px 35px;
-			max-width: 680px;
 			margin: 18px auto 0;
 			border-radius: 10px;
 			.icon {

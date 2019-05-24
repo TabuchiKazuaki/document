@@ -597,6 +597,10 @@ header .h_wrap .h_r {
 .point {
   padding: 60px 0 60px;
 }
+.point .wrap {
+  max-width: 680px;
+  margin: 0 auto;
+}
 .point .c_h {
   border-left: 6px solid #3a2;
   padding: 0 0 0 18px;
@@ -613,7 +617,6 @@ header .h_wrap .h_r {
 .point .c_box li {
   background: #202121;
   padding: 30px 16.5px 35px;
-  max-width: 680px;
   margin: 18px auto 0;
   border-radius: 10px;
 }
