@@ -76,6 +76,55 @@ header .h_wrap .h_r {
   max-width: 657px;
 }
 
+.info .wrap {
+  background: #efefef;
+  max-width: 768px;
+  padding: 66px 0 52px;
+}
+.info .i_h {
+  font-weight: bold;
+  font-size: 31px;
+  text-align: center;
+}
+.info .i_hs {
+  display: block;
+  margin: 25px 0 0;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+.info .i_num {
+  margin: 23px 0 0;
+  text-align: center;
+  font-size: 23px;
+}
+.info .i_num .num {
+  display: inline-block;
+  margin: 0 4px 0 2px;
+  font-size: 38px;
+}
+.info .i_num .n_clr {
+  color: #3a2;
+}
+.info .i_num .n_clr .pit {
+  display: inline-block;
+  margin: 0 -6px;
+}
+.info .i_btn {
+  margin: 37px 35px 0;
+}
+.info .i_btn a {
+  display: block;
+  background: #3a2;
+  padding: 26px 0;
+  border-radius: 6px;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1.3px;
+  color: #fff;
+}
+
 .contents {
   padding: 60px 0 0;
 }
@@ -762,6 +811,39 @@ footer small {
     padding: 3.5% 0 3.9%;
   }
 
+  .info .wrap {
+    padding: 9% 0 6.5%;
+  }
+  .info .i_h {
+    font-weight: bold;
+    font-size: 31px;
+    text-align: center;
+  }
+  .info .i_hs {
+    margin: 3.5% 0 0;
+    font-size: calc(38vw/12);
+  }
+  .info .i_num {
+    margin: 2.8% 0 0;
+    font-size: calc(36vw/12);
+  }
+  .info .i_num .num {
+    margin: 0 0.4% 0 0.2%;
+    font-size: calc(60vw/12);
+  }
+  .info .i_num .n_clr .pit {
+    margin: 0 -8px;
+  }
+  .info .i_btn {
+    margin: 5% 5% 0;
+  }
+  .info .i_btn a {
+    padding: 4% 0;
+    border-radius: 5px;
+    font-size: calc(41vw/12);
+    letter-spacing: 1.3px;
+  }
+
   .contents {
     padding: 8% 0 0;
   }
@@ -1195,6 +1277,39 @@ footer small {
   header .h_wrap .h_r {
     width: 87%;
     padding: 3.5% 0 4.1%;
+  }
+
+  .info .wrap {
+    padding: 9% 0 6.5%;
+  }
+  .info .i_h {
+    font-weight: bold;
+    font-size: 31px;
+    text-align: center;
+  }
+  .info .i_hs {
+    margin: 3.5% 0 0;
+    font-size: calc(40vw/12);
+  }
+  .info .i_num {
+    margin: 2.8% 0 0;
+    font-size: calc(38vw/12);
+  }
+  .info .i_num .num {
+    margin: 0 0.4% 0 0.2%;
+    font-size: calc(62vw/12);
+  }
+  .info .i_num .n_clr .pit {
+    margin: 0 -8px;
+  }
+  .info .i_btn {
+    margin: 5% 5% 0;
+  }
+  .info .i_btn a {
+    padding: 4% 0;
+    border-radius: 5px;
+    font-size: calc(43vw/12);
+    letter-spacing: 1.3px;
   }
 
   .contents {
