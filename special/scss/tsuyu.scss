@@ -724,9 +724,14 @@ header {
 }
 
 .gline {
-	background: #efefef;
-	height:  35px;
+	background: #fff;
 	margin: 0 0 45px;
+	.g_w {
+		background: #efefef;
+		height: 35px;
+		max-width: 768px;
+		margin: 0 auto;
+	}
 }
 
 .genre {
