@@ -723,7 +723,11 @@ header {
 	}
 }
 
-
+.gline {
+	background: #efefef;
+	height:  35px;
+	margin: 0 0 45px;
+}
 
 .genre {
 	background: #fff;
@@ -731,11 +735,7 @@ header {
 	.wrap {
 		padding: 20px 0 0;
 	}
-	.gline {
-		background: #efefef;
-		height:  35px;
-		margin: 0 0 45px;
-	}
+
 	.g_h {
 		font-size: 32px;
 	}
@@ -1395,18 +1395,18 @@ footer {
 			}
 		}
 	}
-
+	.gline {
+		background: #efefef;
+		height: 28px;
+		margin: 0 0 6%;
+	}
 	.genre {
 		padding: 2% 0 6%;
 		.wrap {
 			padding: 3% 0 0;
 			margin: 0 5%;
 		}
-		.gline {
-			background: #efefef;
-			height: 28px;
-			margin: 0 0 6%;
-		}
+
 		.g_h {
 			font-size: calc(50vw/12);
 		}
@@ -2013,16 +2013,16 @@ footer {
 			}
 		}
 	}
+	.gline {
+		height: 17px;
+		margin: 0 0 5%;
+	}
 
 	.genre {
 		padding: 1% 0 7%;
 		.wrap {
 			padding: 3% 0 0;
 			margin: 0 5%;
-		}
-		.gline {
-			height: 17px;
-			margin: 0 0 5%;
 		}
 		.g_h {
 			font-size: calc(52vw/12);
