@@ -725,7 +725,7 @@ header {
 
 .gline {
 	background: #fff;
-	margin: 0 0 45px;
+	padding: 0 0 45px;
 	.g_w {
 		background: #efefef;
 		height: 35px;
@@ -1401,9 +1401,12 @@ footer {
 		}
 	}
 	.gline {
-		background: #efefef;
-		height: 28px;
-		margin: 0 0 6%;
+		background: #fff;
+		padding: 0 0 6%;
+		.g_w {
+			height: 28px;
+			margin: 0 auto;
+		}
 	}
 	.genre {
 		padding: 2% 0 6%;
@@ -2019,8 +2022,10 @@ footer {
 		}
 	}
 	.gline {
-		height: 17px;
-		margin: 0 0 5%;
+		padding: 0 0 5%;
+		.g_w {
+			height: 17px;
+		}
 	}
 
 	.genre {

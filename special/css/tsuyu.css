@@ -731,7 +731,7 @@ header .h_w_f .h_tf {
 
 .gline {
   background: #fff;
-  margin: 0 0 45px;
+  padding: 0 0 45px;
 }
 .gline .g_w {
   background: #efefef;
@@ -1347,9 +1347,12 @@ footer small {
   }
 
   .gline {
-    background: #efefef;
+    background: #fff;
+    padding: 0 0 6%;
+  }
+  .gline .g_w {
     height: 28px;
-    margin: 0 0 6%;
+    margin: 0 auto;
   }
 
   .genre {
@@ -1902,8 +1905,10 @@ footer small {
   }
 
   .gline {
+    padding: 0 0 5%;
+  }
+  .gline .g_w {
     height: 17px;
-    margin: 0 0 5%;
   }
 
   .genre {
