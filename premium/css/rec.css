@@ -237,10 +237,11 @@ header .h_a .wrap .h_b {
   line-height: 1.3;
   color: #fff;
 }
-.contents .premium {
+
+.premium {
   margin: 64px 0 50px;
 }
-.contents .premium a {
+.premium a {
   position: relative;
   display: block;
   background: #1a1a1a;
@@ -250,7 +251,7 @@ header .h_a .wrap .h_b {
   font-size: 23px;
   color: #fff;
 }
-.contents .premium a:before {
+.premium a:before {
   content: '';
   position: absolute;
   top: 38%;
@@ -260,12 +261,12 @@ header .h_a .wrap .h_b {
   width: 20px;
   height: 34px;
 }
-.contents .premium a .p_s {
+.premium a .p_s {
   display: block;
   font-size: 19px;
   color: #e5c200;
 }
-.contents .premium a .p_num {
+.premium a .p_num {
   display: inline-block;
   margin: 0 4px 0 0;
   font-size: 28px;
@@ -522,16 +523,17 @@ footer small {
     letter-spacing: 1.4px;
     line-height: 1.3;
   }
-  .contents .premium {
+
+  .premium {
     margin: 9% 0 2.5%;
   }
-  .contents .premium a {
+  .premium a {
     padding: 3% 4.5%;
     border-radius: 5px;
     line-height: 1.4;
     font-size: calc(38vw/12);
   }
-  .contents .premium a:before {
+  .premium a:before {
     top: 39%;
     right: 3.2%;
     background: url(https://bit.ly/2KivOPD) center center no-repeat;
@@ -539,10 +541,10 @@ footer small {
     width: 16px;
     height: 27px;
   }
-  .contents .premium a .p_s {
+  .premium a .p_s {
     font-size: calc(30vw/12);
   }
-  .contents .premium a .p_num {
+  .premium a .p_num {
     margin: 0 1% 0 0;
     font-size: calc(42vw/12);
     letter-spacing: -3px;
@@ -775,34 +777,35 @@ footer small {
     letter-spacing: 1.4px;
     line-height: 1.3;
   }
-  .contents .premium {
+
+  .contents_sec {
+    padding: 0;
+  }
+
+  .premium {
     margin: 9% 0 2.5%;
   }
-  .contents .premium a {
+  .premium a {
     padding: 3% 4.5%;
     border-radius: 4px;
     line-height: 1.4;
     font-size: calc(40vw/12);
   }
-  .contents .premium a:before {
+  .premium a:before {
     top: 38%;
     right: 3.2%;
     background-size: 10px 17px;
     width: 10px;
     height: 17px;
   }
-  .contents .premium a .p_s {
+  .premium a .p_s {
     font-size: calc(32vw/12);
   }
-  .contents .premium a .p_num {
+  .premium a .p_num {
     margin: 0 1% 0 0;
     font-size: calc(44vw/12);
     letter-spacing: -3px;
     text-indent: -6px;
-  }
-
-  .contents_sec {
-    padding: 0;
   }
 
   .more {
