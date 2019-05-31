@@ -702,6 +702,11 @@ header {
 				font-weight: bold;
 				text-align: center;
 				color: #3a2;
+				&:hover {
+					background: #3a2;
+					opacity: 1;
+					color: #fff;
+				}
 			}
 		}
 		.large {
@@ -1451,6 +1456,11 @@ footer {
 					border: 2px solid #3a2;
 					border-radius: 5px;
 					font-size: calc(48vw/12);
+					&:hover {
+						background: none;
+						opacity: 0.8;
+						color: #3a2;
+					}
 				}
 			}
 			.large {
@@ -2116,6 +2126,7 @@ footer {
 					border: 1.5px solid #3a2;
 					border-radius: 4px;
 					font-size: calc(50vw/12);
+
 				}
 			}
 			.large {
