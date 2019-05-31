@@ -672,36 +672,38 @@ header {
 			}
 		}
 	}
-	.large {
-		margin: 46px 0 0;
-	}
-	.thumb {
-		// overflow: hidden;
-		display:flex;
-		justify-content:space-between;
-		margin: 15px 0 0;
-		li {
-			margin: 0 0 0 2%;
-			&:first-child {
-				margin: 0;
-			}
-			a {
-				overflow: hidden;
-				display: block;
-				line-height:0;
-				transition: none;
-				img {
+	.twelve {
+		.large {
+			margin: 46px 0 0;
+		}
+		.thumb {
+			// overflow: hidden;
+			display:flex;
+			justify-content:space-between;
+			margin: 15px 0 0;
+			li {
+				margin: 0 0 0 2%;
+				&:first-child {
 					margin: 0;
 				}
+				a {
+					overflow: hidden;
+					display: block;
+					line-height:0;
+					transition: none;
+					img {
+						margin: 0;
+					}
 
-			}
-			.active {
-				box-sizing: border-box;
-				border: 4px solid #a1882f;
-				img {
-					margin: -2.5px 0;
-					opacity: .8;
+				}
+				.active {
+					box-sizing: border-box;
+					border: 4px solid #a1882f;
+					img {
+						margin: -2.5px 0;
+						opacity: .8;
 
+					}
 				}
 			}
 		}
@@ -1400,22 +1402,24 @@ footer {
 				}
 			}
 		}
-		.large {
-			margin: 7% 0 0;
-		}
-		.thumb {
-			margin: 2.5% 0 0;
-			li {
-				margin: 0 0 0 2%;
-				&:first-child {
-					margin: 0;
-				}
-				.active {
-					border: 3px solid #a1882f;
-					img {
-						margin: -1.2px 0;
-						opacity: .8;
+		.twelve {
+			.large {
+				margin: 7% 0 0;
+			}
+			.thumb {
+				margin: 2.5% 0 0;
+				li {
+					margin: 0 0 0 2%;
+					&:first-child {
+						margin: 0;
+					}
+					.active {
+						border: 3px solid #a1882f;
+						img {
+							margin: -1.2px 0;
+							opacity: .8;
 
+						}
 					}
 				}
 			}
@@ -2041,22 +2045,24 @@ footer {
 				}
 			}
 		}
-		.large {
-			margin: 6% 0 0;
-		}
-		.thumb {
-			margin: 2.5% 0 0;
-			li {
-				margin: 0 0 0 2%;
-				&:first-child {
-					margin: 0;
-				}
-				.active {
-					border: 2px solid #a1882f;
-					img {
-						margin: -1.1px 0;
-						opacity: .8;
+		.twelve {
+			.large {
+				margin: 6% 0 0;
+			}
+			.thumb {
+				margin: 2.5% 0 0;
+				li {
+					margin: 0 0 0 2%;
+					&:first-child {
+						margin: 0;
+					}
+					.active {
+						border: 2px solid #a1882f;
+						img {
+							margin: -1.1px 0;
+							opacity: .8;
 
+						}
 					}
 				}
 			}
