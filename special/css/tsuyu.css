@@ -693,9 +693,12 @@ header .h_w_f .h_tf {
 .contents .twelve {
   padding: 0 0 20px;
 }
+.contents .twelve .tw_img {
+  line-height: 0;
+  margin: 30px 0 0;
+}
 .contents .twelve .tw_h {
-  border-left: 6px solid #9e853c;
-  padding: 0 0 0 18px;
+  margin: 30px 0 0;
   line-height: 1.4;
   font-size: 32px;
   color: #000;
@@ -1391,13 +1394,11 @@ footer small {
     padding: 0 0 3%;
   }
   .contents .twelve .tw_h {
-    border-left: 4.5px solid #9e853c;
-    padding: 0 0 0 2.6%;
     line-height: 1.4;
     font-size: calc(50vw/12);
   }
   .contents .twelve .tw_t {
-    margin: 6% 0 0;
+    margin: 2% 0 0;
     font-size: calc(38vw/12);
     line-height: 1.4;
   }
@@ -1993,11 +1994,12 @@ footer small {
   .contents .twelve .tw_h {
     border-left: 3px solid #9e853c;
     padding: 0 0 0 2.6%;
+    margin: 3% 0 0;
     line-height: 1.35;
     font-size: calc(52vw/12);
   }
   .contents .twelve .tw_t {
-    margin: 6% 0 0;
+    margin: 2% 0 0;
     font-size: calc(40vw/12);
     line-height: 1.4;
   }
