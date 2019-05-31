@@ -673,6 +673,34 @@ header {
 		}
 	}
 	.twelve {
+		padding: 0 0 20px;
+		.tw_h {
+			border-left: 6px solid #9e853c;
+			padding: 0 0 0 18px;
+			line-height: 1.4;
+			font-size: 32px;
+			color: #000;
+		}
+		.tw_t {
+			margin: 40px 0 0;
+			font-size: 22px;
+			font-weight: bold;
+			line-height: 1.4;
+			color: #8c8c8c;
+		}
+		.tw_btn {
+			margin: 40px 0 0;
+			a {
+				display: block;
+				padding: 16px 0;
+				border: 3px solid #a1882f;
+				border-radius: 6px;
+				font-size: 30px;
+				font-weight: bold;
+				text-align: center;
+				color: #a1882f;
+			}
+		}
 		.large {
 			margin: 46px 0 0;
 		}
@@ -1403,6 +1431,27 @@ footer {
 			}
 		}
 		.twelve {
+			padding: 0 0 3%;
+			.tw_h {
+				border-left: 4.5px solid #9e853c;
+				padding: 0 0 0 2.6%;
+				line-height: 1.4;
+				font-size: calc(50vw/12);
+			}
+			.tw_t {
+				margin: 6% 0 0;
+				font-size: calc(38vw/12);
+				line-height: 1.4;
+			}
+			.tw_btn {
+				margin: 6% 0 0;
+				a {
+					padding: 3% 0;
+					border: 2px solid #a1882f;
+					border-radius: 5px;
+					font-size: calc(48vw/12);
+				}
+			}
 			.large {
 				margin: 7% 0 0;
 			}
@@ -1422,6 +1471,9 @@ footer {
 						}
 					}
 				}
+			}
+			.tw_btn {
+
 			}
 		}
 	}
@@ -2046,6 +2098,27 @@ footer {
 			}
 		}
 		.twelve {
+			padding: 0 0 3%;
+			.tw_h {
+				border-left: 3px solid #9e853c;
+				padding: 0 0 0 2.6%;
+				line-height: 1.35;
+				font-size: calc(52vw/12);
+			}
+			.tw_t {
+				margin: 6% 0 0;
+				font-size: calc(40vw/12);
+				line-height: 1.4;
+			}
+			.tw_btn {
+				margin: 6% 0 0;
+				a {
+					padding: 3% 0;
+					border: 1.5px solid #a1882f;
+					border-radius: 4px;
+					font-size: calc(50vw/12);
+				}
+			}
 			.large {
 				margin: 6% 0 0;
 			}
