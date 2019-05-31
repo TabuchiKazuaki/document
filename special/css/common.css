@@ -802,10 +802,48 @@ footer small {
   text-align: center;
   color: #737373;
 }
-footer .large {
-  margin: 46px 0 0;
+footer .twelve {
+  padding: 0 0 45px;
 }
-footer .thumb {
+footer .twelve .tw_img {
+  line-height: 0;
+  margin: 30px 0 0;
+}
+footer .twelve .tw_h {
+  margin: 30px 0 0;
+  line-height: 1.4;
+  font-size: 32px;
+  color: #000;
+}
+footer .twelve .tw_t {
+  margin: 15px 0 0;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.4;
+  color: #8c8c8c;
+}
+footer .twelve .tw_btn {
+  margin: 40px 0 0;
+}
+footer .twelve .tw_btn a {
+  display: block;
+  padding: 16px 0;
+  border: 3px solid #3a2;
+  border-radius: 6px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #3a2;
+}
+footer .twelve .tw_btn a:hover {
+  background: #3a2;
+  opacity: 1;
+  color: #fff;
+}
+footer .twelve .large {
+  margin: 25px 0 0;
+}
+footer .twelve .thumb {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -814,28 +852,28 @@ footer .thumb {
           justify-content: space-between;
   margin: 15px 0 0;
 }
-footer .thumb li {
+footer .twelve .thumb li {
   margin: 0 0 0 2%;
 }
-footer .thumb li:first-child {
+footer .twelve .thumb li:first-child {
   margin: 0;
 }
-footer .thumb li a {
+footer .twelve .thumb li a {
   overflow: hidden;
   display: block;
   line-height: 0;
   -webkit-transition: none;
   transition: none;
 }
-footer .thumb li a img {
+footer .twelve .thumb li a img {
   margin: 0;
 }
-footer .thumb li .active {
+footer .twelve .thumb li .active {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border: 4px solid #a1882f;
+  border: 4px solid #3a2;
 }
-footer .thumb li .active img {
+footer .twelve .thumb li .active img {
   margin: -2.5px 0;
   opacity: .8;
 }
@@ -1172,22 +1210,48 @@ footer .thumb li .active img {
     font-size: calc(41vw/12);
     line-height: 1.35;
   }
-  .contents .large {
-    margin: 7% 0 0;
+  .contents .twelve {
+    padding: 0 0 4%;
   }
-  .contents .thumb {
+  .contents .twelve .tw_h {
+    line-height: 1.4;
+    font-size: calc(50vw/12);
+  }
+  .contents .twelve .tw_t {
+    margin: 2% 0 0;
+    font-size: calc(38vw/12);
+    line-height: 1.4;
+  }
+  .contents .twelve .tw_btn {
+    margin: 6% 0 0;
+  }
+  .contents .twelve .tw_btn a {
+    padding: 3% 0;
+    border: 2px solid #3a2;
+    border-radius: 5px;
+    font-size: calc(48vw/12);
+  }
+  .contents .twelve .tw_btn a:hover {
+    background: none;
+    opacity: 0.8;
+    color: #3a2;
+  }
+  .contents .twelve .large {
+    margin: 3.5% 0 0;
+  }
+  .contents .twelve .thumb {
     margin: 2.5% 0 0;
   }
-  .contents .thumb li {
+  .contents .twelve .thumb li {
     margin: 0 0 0 2%;
   }
-  .contents .thumb li:first-child {
+  .contents .twelve .thumb li:first-child {
     margin: 0;
   }
-  .contents .thumb li .active {
-    border: 3px solid #a1882f;
+  .contents .twelve .thumb li .active {
+    border: 3px solid #3a2;
   }
-  .contents .thumb li .active img {
+  .contents .twelve .thumb li .active img {
     margin: -1.2px 0;
     opacity: .8;
   }
@@ -1682,22 +1746,46 @@ footer .thumb li .active img {
     font-size: calc(43vw/12);
     line-height: 1.35;
   }
-  .contents .large {
+  .contents .twelve {
+    padding: 0 0 4%;
+  }
+  .contents .twelve .tw_h {
+    border-left: 3px solid #9e853c;
+    padding: 0 0 0 2.6%;
+    margin: 3% 0 0;
+    line-height: 1.35;
+    font-size: calc(52vw/12);
+  }
+  .contents .twelve .tw_t {
+    margin: 2% 0 0;
+    font-size: calc(40vw/12);
+    line-height: 1.4;
+  }
+  .contents .twelve .tw_btn {
     margin: 6% 0 0;
   }
-  .contents .thumb {
+  .contents .twelve .tw_btn a {
+    padding: 3% 0;
+    border: 1.5px solid #3a2;
+    border-radius: 4px;
+    font-size: calc(50vw/12);
+  }
+  .contents .twelve .large {
+    margin: 3% 0 0;
+  }
+  .contents .twelve .thumb {
     margin: 2.5% 0 0;
   }
-  .contents .thumb li {
+  .contents .twelve .thumb li {
     margin: 0 0 0 2%;
   }
-  .contents .thumb li:first-child {
+  .contents .twelve .thumb li:first-child {
     margin: 0;
   }
-  .contents .thumb li .active {
-    border: 2px solid #a1882f;
+  .contents .twelve .thumb li .active {
+    border: 2px solid #3a2;
   }
-  .contents .thumb li .active img {
+  .contents .twelve .thumb li .active img {
     margin: -1.1px 0;
     opacity: .8;
   }
