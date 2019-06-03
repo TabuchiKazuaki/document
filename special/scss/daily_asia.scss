@@ -274,23 +274,23 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  header {
-    width: 100%;
-    margin: 0 auto 5% auto;
-    p {
-      max-width: 21%;
-      padding: 2% 0 2% 3%;
-    }
-    div {
-      background: url(https://goo.gl/zfGwFA) center top no-repeat;
-      background-size: cover;
-      padding: 7% 0 7.5%;
-      width: 70%;
-      img {
-        width: 100%;
-      }
-    }
-  }
+	header {
+		margin: 0 auto 3.5% auto;
+		h1 {
+			width: 21%;
+			padding: 1.3% 0 1.1% 1.9%;
+		}
+		.wrap {
+			background: url(https://bit.ly/2BP9PKj) center center no-repeat;
+			background-size: cover;
+			padding: 7% 0 8%;
+			margin: 0 auto;
+			h2 {
+				width: 75%;
+				margin: 0 auto;
+			}
+		}
+	}
   .week {
     width: 100%;
     margin: 0 auto 6.5% auto;
