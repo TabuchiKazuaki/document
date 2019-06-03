@@ -62,19 +62,20 @@ img {
 header {
   width: 100%;
   margin: 0 auto 35px auto;
-  p {
+  h1 {
     max-width: 152px;
     padding: 13px 0 10px 15px;
   }
-  div {
+  .wrap {
     background: url(https://bit.ly/2BP9PKj) center top no-repeat;
     background-size: cover;
     padding: 54px 0 60px;
-	max-width: 557px;
+	max-width: 750px;
 	margin: 0 auto;
-    img {
-      display: block;
-    }
+	h2 {
+		max-width: 557px;
+		margin: 0 auto;
+	}
   }
 }
 
