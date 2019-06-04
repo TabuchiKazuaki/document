@@ -78,7 +78,7 @@ header .h_wrap .h_t {
   width: 100%;
   background: #000;
   height: 66px;
-  padding: 14px 0 0;
+  padding: 13px 0 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -127,22 +127,36 @@ header .h_wrap .h_v figure {
 
 .c_heading {
   background: #eee;
-  padding: 53px 0;
+  padding: 42px 0 42px;
 }
 .c_heading .wrap {
   max-width: none;
 }
-.c_heading .c_i_h {
+.c_heading .c_h_h {
+  max-width: 320px;
+  background: #cfa64d;
+  padding: 9px 0;
+  margin: 0 auto;
   text-align: center;
-  font-weight: bold;
-  line-height: 1.55;
-  font-size: 29px;
-}
-.c_heading .c_i_h span {
-  display: block;
-  font-weight: normal;
+  border-radius: 30px;
   font-size: 23px;
-  color: #666;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  color: #fff;
+}
+.c_heading .c_h_t {
+  margin: 22px 0 0;
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+}
+.c_heading .c_h_p {
+  max-width: 638px;
+  margin: 22px auto 0;
+}
+.c_heading .c_i_h {
+  max-width: 565px;
+  margin: 30px auto 0;
 }
 
 .contents {
@@ -1027,7 +1041,7 @@ footer small {
     width: 100%;
     background: #000;
     height: auto;
-    padding: 1.5% 0 1.5%;
+    padding: 1.8% 0 1.8%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
@@ -1048,17 +1062,25 @@ footer small {
   }
 
   .c_heading {
-    padding: 6.8% 0;
+    padding: 5.3% 0 5.5%;
   }
-  .c_heading .wrap {
-    padding: 0 5%;
+  .c_heading .c_h_h {
+    width: 47%;
+    padding: 1.3% 0;
+    font-size: calc(36vw/12);
+    letter-spacing: 1.3px;
+  }
+  .c_heading .c_h_t {
+    margin: 3.2% 0 0;
+    font-size: calc(36vw/12);
+  }
+  .c_heading .c_h_p {
+    width: 93%;
+    margin: 3% auto 0;
   }
   .c_heading .c_i_h {
-    line-height: 1.5;
-    font-size: calc(46vw/12);
-  }
-  .c_heading .c_i_h span {
-    font-size: calc(36vw/12);
+    width: 82%;
+    margin: 30px auto 0;
   }
 
   .contents {
@@ -1633,17 +1655,25 @@ footer small {
   }
 
   .c_heading {
-    padding: 6.4% 0;
+    padding: 5.3% 0 5.5%;
   }
-  .c_heading .wrap {
-    padding: 0 5%;
+  .c_heading .c_h_h {
+    width: 48%;
+    padding: 1.3% 0;
+    font-size: calc(38vw/12);
+    letter-spacing: 1.3px;
+  }
+  .c_heading .c_h_t {
+    margin: 3.2% 0 0;
+    font-size: calc(38vw/12);
+  }
+  .c_heading .c_h_p {
+    width: 93%;
+    margin: 3% auto 0;
   }
   .c_heading .c_i_h {
-    line-height: 1.5;
-    font-size: calc(48vw/12);
-  }
-  .c_heading .c_i_h span {
-    font-size: calc(38vw/12);
+    width: 82%;
+    margin: 30px auto 0;
   }
 
   .contents {
