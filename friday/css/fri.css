@@ -125,8 +125,11 @@ header .h_wrap .h_v figure {
   max-width: 240px;
 }
 
-.c_heading .wrap {
+.c_heading {
   background: #eee;
+}
+.c_heading .wrap {
+  max-width: none;
   padding: 53px 0;
 }
 .c_heading .c_i_h {
