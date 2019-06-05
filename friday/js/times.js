@@ -22,8 +22,8 @@ $(document).ready(function() {
 		$('#bag21').show();
 		$('#bag28').hide();
 	}
-	var tt03 = new Date("2019/06/28 00:00");
-	if (now.getTime() > tt03.getTime()) {
+	var tt04 = new Date("2019/06/28 00:00");
+	if (now.getTime() > tt04.getTime()) {
 		$('#bag07').hide();
 		$('#bag14').hide();
 		$('#bag21').hide();
