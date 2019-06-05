@@ -1,7 +1,28 @@
 $(document).ready(function() {
 	var now = new Date();
+	var def = new Date("2019/05/07 00:00");
+	if (now.getTime() > def.getTime()) {
+		$('#bag07').hide();
+		$('#bag14').hide();
+		$('#bag21').hide();
+		$('#bag28').hide();
 
-	var tt00 = new Date("2019/05/13 23:59");
+		$('#bag107').hide();
+		$('#bag114').hide();
+
+		$('#bag307').hide();
+		$('#bag314').hide();
+		$('#bag321').hide();
+		$('#bag328').hide();
+
+		$('#bag407').hide();
+		$('#bag414').hide();
+
+		$('#bag521').hide();
+		$('#bag528').hide();
+	}
+
+	var tt00 = new Date("2019/06/07 00:00");
 	if (now.getTime() > tt00.getTime()) {
 		$('#bag07').show();
 		$('#bag14').hide();
