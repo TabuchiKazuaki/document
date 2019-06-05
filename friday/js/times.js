@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	var now = new Date();
+
 	var tt00 = new Date("2019/05/13 23:59");
 	if (now.getTime() > tt00.getTime()) {
 		$('#bag07').show();
@@ -21,8 +22,8 @@ $(document).ready(function() {
 		$('#bag21').show();
 		$('#bag28').hide();
 	}
-	var tt04 = new Date("2019/06/28 00:00");
-	if (now.getTime() > tt04.getTime()) {
+	var tt03 = new Date("2019/06/28 00:00");
+	if (now.getTime() > tt03.getTime()) {
 		$('#bag07').hide();
 		$('#bag14').hide();
 		$('#bag21').hide();
