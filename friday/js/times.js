@@ -15,7 +15,7 @@ $(document).ready(function() {
 		$('#bag21').hide();
 		$('#bag28').hide();
 	}
-	var tt02 = new Date("2019/06/21 00:01");
+	var tt02 = new Date("2019/06/21 00:00");
 	if (now.getTime() > tt02.getTime()) {
 		$('#bag07').hide();
 		$('#bag14').hide();
