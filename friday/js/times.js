@@ -1,6 +1,5 @@
 $(document).ready(function() {
 	var now = new Date();
-
 	var tt00 = new Date("2019/05/13 23:59");
 	if (now.getTime() > tt00.getTime()) {
 		$('#bag07').show();
