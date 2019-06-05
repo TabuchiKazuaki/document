@@ -222,8 +222,9 @@ header {
 				padding: 4px 11px;
 				border-radius: 4px;
 				font-size: 16px;
+				font-weight: normal;
 				vertical-align: bottom;
-				letter-spacing: 1.3px;
+				letter-spacing: 2px;
 				color: #fff;
 			}
 
@@ -1228,6 +1229,12 @@ footer {
 			}
 			.c_z_item {
 				margin: 5.5% 0 0;
+				.z_ba {
+					padding: 2.5% 8.5%;
+					border-radius: 3px;
+					font-size: calc(26vw/12);
+					letter-spacing: 2px;
+				}
 
 				li {
 					margin: 3% 0 0;
@@ -1262,6 +1269,7 @@ footer {
 						}
 						dd {
 							font-size: calc(41vw/12);
+							white-space: nowrap;
 						}
 					}
 				}
