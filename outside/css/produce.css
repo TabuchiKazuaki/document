@@ -194,7 +194,7 @@ header .h_wrap .h_i h2 {
 }
 .contents .btn a {
   display: block;
-  background: none;
+  background: #3a2;
   padding: 18px 0;
   border-radius: 4px;
   border: 3px solid #3a2;
@@ -202,11 +202,6 @@ header .h_wrap .h_i h2 {
   font-size: 32px;
   font-weight: normal;
   color: #3a2;
-}
-.contents .btn a:hover {
-  background: #3a2;
-  color: #fff;
-  opacity: 1;
 }
 .contents .c_three {
   padding: 0 0 25px;
@@ -268,6 +263,7 @@ header .h_wrap .h_i h2 {
 
 footer {
   background: #000;
+  margin: 30px 0 0;
 }
 footer .wrap {
   padding: 56px 0 50px;
@@ -474,6 +470,9 @@ footer small {
     line-height: 1.4;
   }
 
+  footer {
+    margin: 5% 0 0;
+  }
   footer .wrap {
     padding: 7.5% 0 5%;
     margin: 0 4.5%;
@@ -659,6 +658,9 @@ footer small {
     line-height: 1.45;
   }
 
+  footer {
+    margin: 4% 0 0;
+  }
   footer .wrap {
     padding: 7.5% 0 5%;
     margin: 0 4.5%;
