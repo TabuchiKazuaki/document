@@ -40,33 +40,6 @@ header .logo {
   padding: 12px 0 13px 22px;
   line-height: 0;
 }
-header .h_heading {
-  padding: 0 0 0 13px;
-  line-height: 1.5;
-  letter-spacing: 1.3px;
-  border-left: 6px solid #e5c200;
-  font-size: 29px;
-}
-header .c_tit {
-  padding: 0 0 0 28px;
-  margin: 18px 0 0;
-  line-height: 1.5;
-  font-weight: bold;
-  font-size: 25px;
-  letter-spacing: 1.2px;
-  color: #ababab;
-}
-header .c_tit .c_color {
-  display: block;
-  text-indent: -10px;
-  font-size: 25px;
-  color: #fff;
-}
-header .c_tit .c_ore {
-  display: inline-block;
-  margin: 0 0 0 5px;
-  color: #e5c200;
-}
 header .h_wrap {
   position: relative;
   background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/b6f012da16fee4e23e7326c678ddf44b_67f42e4c0f8f46a4cdd5d18c1be3c4df.png) center center no-repeat;
@@ -113,6 +86,35 @@ header .h_wrap .h_img .h_item {
 }
 header .h_wrap .h_img .h_item img {
   display: none;
+}
+
+.h_heading {
+  padding: 0 0 0 13px;
+  line-height: 1.5;
+  letter-spacing: 1.3px;
+  border-left: 6px solid #e5c200;
+  font-size: 29px;
+}
+
+.c_tit {
+  padding: 0 0 0 28px;
+  margin: 18px 0 0;
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 1.2px;
+  color: #ababab;
+}
+.c_tit .c_color {
+  display: block;
+  text-indent: -10px;
+  font-size: 25px;
+  color: #fff;
+}
+.c_tit .c_ore {
+  display: inline-block;
+  margin: 0 0 0 5px;
+  color: #e5c200;
 }
 
 .h_inner {
@@ -443,24 +445,26 @@ footer small {
     width: 77%;
     margin: 3% auto 0;
   }
-  header .h_heading {
+
+  .h_heading {
     padding: 0 0 0 3%;
     line-height: 1.5;
     border-left: 4.5px solid #e5c200;
     font-size: calc(45vw/12);
   }
-  header .c_tit {
+
+  .c_tit {
     padding: 0 0 0 5%;
     margin: 3.2% 0 0;
     line-height: 1.5;
     font-size: calc(39vw/12);
     letter-spacing: 1.2px;
   }
-  header .c_tit .c_color {
+  .c_tit .c_color {
     text-indent: -1.8%;
     font-size: calc(40vw/12);
   }
-  header .c_tit .c_ore {
+  .c_tit .c_ore {
     margin: 0 0 0 0.8%;
   }
 
@@ -723,24 +727,26 @@ footer small {
     width: 77%;
     margin: 3% auto 0;
   }
-  header .h_heading {
+
+  .h_heading {
     padding: 0 0 0 3%;
     line-height: 1.5;
     border-left: 3px solid #e5c200;
     font-size: calc(47vw/12);
   }
-  header .c_tit {
+
+  .c_tit {
     padding: 0 0 0 5%;
     margin: 2.8% 0 0;
     line-height: 1.4;
     font-size: calc(41vw/12);
     letter-spacing: 1.2px;
   }
-  header .c_tit .c_color {
+  .c_tit .c_color {
     text-indent: -1.8%;
     font-size: calc(42vw/12);
   }
-  header .c_tit .c_ore {
+  .c_tit .c_ore {
     margin: 0 0 0 0.8%;
   }
 
