@@ -114,16 +114,17 @@ header .h_wrap .h_img .h_item {
 header .h_wrap .h_img .h_item img {
   display: none;
 }
-header .h_inner {
+
+.h_inner {
   background: #1a1a1a;
   padding: 42px 18px 48px;
   margin: 61px 0 0;
   border-radius: 8px;
 }
-header .h_inner .h_btn {
+.h_inner .h_btn {
   margin: 28px 0 0;
 }
-header .h_inner .h_btn a {
+.h_inner .h_btn a {
   display: block;
   background: #e5c200;
   padding: 22px 0;
@@ -134,18 +135,18 @@ header .h_inner .h_btn a {
   letter-spacing: 1.2px;
   color: #000;
 }
-header .h_inner .h_btn a span {
+.h_inner .h_btn a span {
   display: inline-block;
   margin: 0 3px 0 0;
   font-size: 32px;
 }
-header .h_inner .h_c {
+.h_inner .h_c {
   margin: 20px 0 0;
   letter-spacing: 1.2px;
   font-size: 20px;
   text-align: center;
 }
-header .h_inner .h_c span {
+.h_inner .h_c span {
   font-size: 22px;
 }
 
@@ -462,30 +463,31 @@ footer small {
   header .c_tit .c_ore {
     margin: 0 0 0 0.8%;
   }
-  header .h_inner {
+
+  .h_inner {
     padding: 5.2% 2.4% 6%;
     margin: 8.6% 0 0;
     border-radius: 6px;
   }
-  header .h_inner .h_btn {
+  .h_inner .h_btn {
     margin: 4.2% 0 0;
   }
-  header .h_inner .h_btn a {
+  .h_inner .h_btn a {
     padding: 3.8% 0;
     border-radius: 6px;
     font-size: calc(42vw/12);
     letter-spacing: 1.2px;
   }
-  header .h_inner .h_btn a span {
+  .h_inner .h_btn a span {
     margin: 0 0.2% 0 0;
     font-size: calc(44vw/12);
   }
-  header .h_inner .h_c {
+  .h_inner .h_c {
     margin: 3.2% 0 0;
     letter-spacing: 1.2px;
     font-size: calc(32vw/12);
   }
-  header .h_inner .h_c span {
+  .h_inner .h_c span {
     font-size: calc(35vw/12);
   }
 
@@ -741,30 +743,31 @@ footer small {
   header .c_tit .c_ore {
     margin: 0 0 0 0.8%;
   }
-  header .h_inner {
+
+  .h_inner {
     padding: 6.3% 2.4% 6.8%;
     margin: 8.5% 0 0;
     border-radius: 4px;
   }
-  header .h_inner .h_btn {
+  .h_inner .h_btn {
     margin: 3.5% 0 0;
   }
-  header .h_inner .h_btn a {
+  .h_inner .h_btn a {
     padding: 4.3% 0;
     border-radius: 4px;
     font-size: calc(47vw/12);
     letter-spacing: 1.15px;
   }
-  header .h_inner .h_btn a span {
+  .h_inner .h_btn a span {
     margin: 0 0.2% 0 0;
     font-size: calc(49vw/12);
   }
-  header .h_inner .h_c {
+  .h_inner .h_c {
     margin: 2.9% 0 0;
     letter-spacing: 1.2px;
     font-size: calc(36vw/12);
   }
-  header .h_inner .h_c span {
+  .h_inner .h_c span {
     font-size: calc(36vw/12);
   }
 
