@@ -1,6 +1,6 @@
 
 *{margin: 0; padding:0;}
-body { line-height: 1; min-width: 320px; font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important; color: #fff; margin: 0 auto; background: #000;
+body { line-height: 1; min-width: 320px; font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important; color: #000; margin: 0 auto; background: #eee;
 	li {
 		list-style: none;
 	}
@@ -16,10 +16,17 @@ a {
 img  { width: 100%;}
 
 .wrap {
+	background: #fff;
 	max-width: 768px;
+	padding: 60px 18px 0;
 	margin: 0 auto;
+	border-radius: 6px;
 }
-
+.bottom_text {
+	font-size: 23px;
+	font-weight: bold;
+	text-align: center;
+}
 .dn {
 	display: none;
 }
@@ -33,18 +40,17 @@ header {
 			display: block;
 			max-width: 151px;
 		}
-
 	}
 	.h_wrap {
 		position: relative;
-		background: url(https://bit.ly/2Vpvgcl) center center no-repeat;
+		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/550207/587cdfbf82d3cf113cadafce4119f3f0_42f27b4ef22e5c4946bbb459e78aacda.png) center center no-repeat;
 		background-size: cover;
-		height: 260px;
+		height: 269px;
 		padding: 0 0 0;
 		box-sizing: border-box;
 		.h_h {
-			max-width: 625px;
-			padding: 65px 0 0;
+			max-width: 531px;
+			padding: 63px 0 0;
 			margin: 0 auto 0;
 		}
 		.h_v {
@@ -424,7 +430,6 @@ header {
 			}
 		}
 	}
-
 	.c_six {
 		padding: 0 0 35px;
 		margin: 15px 0 0;
@@ -470,8 +475,10 @@ header {
 	}
 
 	.c_12th {
+		background: #fff;
 		padding: 0 0 30px;
 		margin: 35px 0 0;
+
 		figure {
 			margin: 20px 0 0;
 			line-height: 0;
@@ -647,6 +654,7 @@ header {
 }
 .c_s {
 	padding: 0;
+	margin: 40px 0 0;
 }
 
 .info_img {
@@ -1259,6 +1267,34 @@ footer {
 				}
 			}
 		}
+		.c_six {
+			padding: 0 0 5%;
+			margin: 1% 0 0;
+
+			.c_s_item {
+				li {
+					padding: 3% 0;
+				}
+			}
+			.c_s_dl {
+				dd {
+					width: 38%;
+				}
+				dt {
+					width: 59%;
+					padding: 0 0 0 3%;
+					font-size: calc(36vw/12);
+					line-height: 1.35;
+					.rank {
+						font-size: calc(38vw/12);
+						.num {
+							margin: 0 0.2% 0 0;
+							font-size: calc(42vw/12);
+						}
+					}
+				}
+			}
+		}
 
 		.c_three {
 			padding: 0 0 5%;
@@ -1326,35 +1362,6 @@ footer {
 					&:hover {
 						background: none;
 						color: #3a2;
-					}
-				}
-			}
-		}
-
-		.c_six {
-			padding: 0 0 5%;
-			margin: 1% 0 0;
-
-			.c_s_item {
-				li {
-					padding: 3% 0;
-				}
-			}
-			.c_s_dl {
-				dd {
-					width: 38%;
-				}
-				dt {
-					width: 59%;
-					padding: 0 0 0 3%;
-					font-size: calc(36vw/12);
-					line-height: 1.35;
-					.rank {
-						font-size: calc(38vw/12);
-						.num {
-							margin: 0 0.2% 0 0;
-							font-size: calc(42vw/12);
-						}
 					}
 				}
 			}
@@ -2032,7 +2039,6 @@ footer {
 				}
 			}
 		}
-
 		.c_six {
 			padding: 0 0 5%;
 			margin: 1% 0 0;
