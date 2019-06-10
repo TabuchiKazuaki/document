@@ -91,6 +91,11 @@ header .h_a .wrap .h_b {
   color: #ababab;
 }
 
+.contents .ct_caution {
+  display: block;
+  font-size: 14px;
+  margin: 15px 0 0;
+}
 .contents .c_h {
   border-left: 6px solid #e5c200;
   padding: 0 0 0 18px;
@@ -427,6 +432,10 @@ footer small {
     line-height: 1.55;
   }
 
+  .contents .ct_caution {
+    font-size: calc(22vw/12);
+    margin: 3% 0 0;
+  }
   .contents .c_h {
     border-left: 4.5px solid #e5c200;
     padding: 0 0 0 2.5%;
@@ -681,6 +690,10 @@ footer small {
     line-height: 1.6;
   }
 
+  .contents .ct_caution {
+    font-size: calc(24vw/12);
+    margin: 3% 0 0;
+  }
   .contents .c_h {
     border-left: 4.5px solid #e5c200;
     padding: 0 0 0 2.5%;
