@@ -43,6 +43,9 @@ $(document).ready(function() {
 		$('#bag521').hide();
 		$('#bag528').hide();
 
+		$('#bag621').hide();
+		$('#bag628').hide();
+
 	}
 	var tt01 = new Date("2019/06/14 00:00");
 	if (now.getTime() > tt01.getTime()) {
@@ -83,6 +86,9 @@ $(document).ready(function() {
 
 		$('#bag521').show();
 		$('#bag528').hide();
+
+		$('#bag621').show();
+		$('#bag628').hide();
 	}
 	var tt03 = new Date("2019/06/28 00:00");
 	if (now.getTime() > tt03.getTime()) {
@@ -98,6 +104,9 @@ $(document).ready(function() {
 
 		$('#bag521').hide();
 		$('#bag528').show();
+
+		$('#bag621').hide();
+		$('#bag628').show();
 	}
 
 	var final = new Date("2019/06/30 23:59");
