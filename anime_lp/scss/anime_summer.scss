@@ -22,12 +22,21 @@ img  { width: 100%;}
 	margin: 0 auto;
 }
 .bottom_text {
+	padding: 0 0 41px;
 	font-size: 23px;
 	font-weight: bold;
 	text-align: center;
 }
+.b_h {
+	margin: 0 auto 70px;
+	text-align: center;
+	max-width: 409px;
+}
 .dn {
 	display: none;
+}
+.line {
+	height: 60px;
 }
 header {
 	box-sizing: border-box;
@@ -656,7 +665,6 @@ header {
 }
 .c_s {
 	padding: 0;
-	margin: 40px 0 0;
 }
 
 .info_img {
@@ -750,7 +758,7 @@ header {
 	}
 }
 .banner {
-	margin: 30px 0 0;
+	margin: 63px 0 0;
 	.b_btn {
 		max-width: 681px;
 		margin: 0 auto;
@@ -758,8 +766,8 @@ header {
 			position: relative;
 			display: block;
 			background: #fff;
-			padding: 20px 25px;
-			line-height: 1.3;
+			padding: 26px 32px;
+			line-height: 1.35;
 			border-radius: 6px;
 			font-size: 23px;
 			font-weight: bold;
@@ -790,7 +798,7 @@ header {
 
 aside {
 	background: #efefef;
-	padding: 17px 0 36px;
+	padding: 62px 0 36px;
 	.wrap {
 		max-width: 768px;
 		margin: 0 auto;
@@ -933,13 +941,13 @@ aside {
 
 footer {
 	.wrap {
-		padding: 55px 0 40px;
-		border-top: 1px solid #606060;
+		background: none;
+		padding: 25px 0 40px;
 	}
 
 	.f_list {
 		overflow: hidden;
-		margin: 10px 0 0;
+		margin: 10px 40px 0;
 		li {
 			position: relative;
 			float: left;
@@ -947,15 +955,15 @@ footer {
 			a {
 				display: block;
 				padding: 0 12px 0 0;
-				font-size: 15px;
-				color: #fff;
+				font-size: 16px;
+				color: #919191;
 			}
 			&:after {
 				content: ' | ';
 				position: absolute;
 				top: 0;
 				right: 0;
-				color: #fff;
+				color: #919191;
 			}
 			&:last-child:after {
 				content: '';
@@ -963,22 +971,22 @@ footer {
 		}
 	}
 	.copy {
-		margin: 27px 0 40px;
+		margin: 0 40px 0;
 		li {
 			width: 100%;
 			margin: 5px 0 0 0;
 			line-height: 1.3;
-			font-size: 13px;
-			color: #737373;
+			font-size: 15px;
+			color: #919191;
 		}
 	}
 	small {
 		display: block;
-		margin: 30px 0 0;
+		margin: 30px 40px 0;
 		font-size: 16px;
 		letter-spacing: 1px;
-		text-align: center;
-		color: #737373;
+		text-align: left;
+		color: #919191;
 	}
 
 	.twelve {
@@ -1058,11 +1066,8 @@ footer {
 
 
 @media screen and (max-width: 768px) {
-	.wrap {
-		padding: 0 5%;
-	}
 	.line {
-		height: 28px;
+		height: 45px;
 	}
 	.f_line {
 		background: #fff;
@@ -1071,6 +1076,19 @@ footer {
 
 	.dn {
 		display: none;
+	}
+
+	.wrap {
+		padding: 8% 3% 0;
+		margin: 0 3%;
+	}
+	.bottom_text {
+		padding: 0 0 6%;
+		font-size: calc(36vw/12);
+	}
+	.b_h {
+		width: 61%;
+		margin: 0 auto 9%;
 	}
 
 	header {
@@ -1620,30 +1638,34 @@ footer {
 	}
 
 	.banner {
-		.b_wrap {
-			padding: 4% 4.5% 5.8%;
-		}
-		.b_h {
-			font-size: calc(50vw/12);
-		}
-		.b_t {
-			margin: 3.2% 0 0;
-			font-size: calc(38vw/12);
-			line-height: 1.45;
-		}
+		margin: 8% 0 0;
 		.b_btn {
-			margin: 4.8% 0 0;
+			width: 88%;
 			a {
-				padding: 3.5% 0;
-				border-radius: 5px;
-				font-size: calc(44vw/12);
-				letter-spacing: 1.3px;
+				padding: 3.6% 5%;
+				line-height: 1.35;
+				border-radius: 6px;
+				font-size: calc(37vw/12);
+				&:before {
+					top: 40%;
+					right: 3%;
+					background-size: 16px 27px;
+					width: 16px;
+					height: 27px;
+				}
+			}
+			.b_cl {
+				font-size: calc(29vw/12);
+			}
+			.b_num {
+				display: inline-block;
+				font-size: calc(40vw/12);
 			}
 		}
 	}
 
 	aside {
-		padding: 2% 0 5%;
+		padding: 9% 0 5%;
 		.f_d {
 			dt {
 				margin: 6.5% 0 0;
@@ -1758,11 +1780,10 @@ footer {
 	}
 
 	footer {
-		padding: 4% 0 3%;
+		padding: 0 0 3%;
 		.wrap {
-			padding: 5% 0 5%;
+			padding: 0 0 5%;
 			margin: 0 5%;
-			border-top: 1px solid #606060;
 		}
 		.copy {
 			margin: 4% 0 6%;
@@ -1802,7 +1823,7 @@ footer {
 @media screen and (max-width: 480px) {
 
 	.line {
-		height: 17px;
+		height: 30px;
 	}
 	.f_line {
 		background: #fff;
@@ -1811,6 +1832,18 @@ footer {
 
 	.dn {
 		display: none;
+	}
+	.wrap {
+		padding: 8% 3% 0;
+		margin: 0 3%;
+	}
+	.bottom_text {
+		padding: 0 0 6%;
+		font-size: calc(38vw/12);
+	}
+	.b_h {
+		width: 62%;
+		margin: 0 auto 8%;
 	}
 
 	header {
@@ -2336,30 +2369,34 @@ footer {
 	}
 
 	.banner {
-		.b_wrap {
-			padding: 4% 4.5% 5.8%;
-		}
-		.b_h {
-			font-size: calc(52vw/12);
-		}
-		.b_t {
-			margin: 3.2% 0 0;
-			font-size: calc(40vw/12);
-			line-height: 1.5;
-		}
+		margin: 8% 0 0;
 		.b_btn {
-			margin: 4.8% 0 0;
+			width: 88%;
 			a {
-				padding: 3.5% 0;
-				border-radius: 5px;
-				font-size: calc(44vw/12);
-				letter-spacing: 1.3px;
+				padding: 3.6% 5%;
+				line-height: 1.35;
+				border-radius: 6px;
+				font-size: calc(39vw/12);
+				&:before {
+					top: 38%;
+					right: 3%;
+					background-size: 10px 17px;
+					width: 10px;
+					height: 17px;
+				}
+			}
+			.b_cl {
+				font-size: calc(31vw/12);
+			}
+			.b_num {
+				display: inline-block;
+				font-size: calc(42vw/12);
 			}
 		}
 	}
 
 	aside {
-		padding: 2% 0 5%;
+		padding: 9% 0 5%;
 		.f_d {
 			dt {
 				margin: 6.5% 0 0;
@@ -2463,9 +2500,9 @@ footer {
 	}
 
 	footer {
-		padding: 4.5% 0 4.5%;
+		padding: 0 0 4.5%;
 		.wrap {
-			padding: 5% 0 5%;
+			padding: 0 0 5%;
 			margin: 0 5%
 		}
 		.copy {
