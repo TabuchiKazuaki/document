@@ -22,6 +22,7 @@ $(document).ready(function() {
 		$('#bag528').hide();
 	}
 
+	var now = new Date();
 	var tt00 = new Date("2019/06/07 00:00");
 	if (now.getTime() > tt00.getTime()) {
 		$('#bag07').show();
@@ -47,6 +48,7 @@ $(document).ready(function() {
 		$('#bag628').hide();
 
 	}
+	var now = new Date();
 	var tt01 = new Date("2019/06/14 00:00");
 	if (now.getTime() > tt01.getTime()) {
 		$('#bag07').hide();
@@ -66,6 +68,7 @@ $(document).ready(function() {
 		$('#bag414').show();
 
 	}
+	var now = new Date();
 	var tt02 = new Date("2019/06/21 00:00");
 	if (now.getTime() > tt02.getTime()) {
 		$('#bag07').hide();
@@ -90,6 +93,7 @@ $(document).ready(function() {
 		$('#bag621').show();
 		$('#bag628').hide();
 	}
+	var now = new Date();
 	var tt03 = new Date("2019/06/28 00:00");
 	if (now.getTime() > tt03.getTime()) {
 		$('#bag07').hide();
@@ -109,8 +113,9 @@ $(document).ready(function() {
 		$('#bag628').show();
 	}
 
-	var final = new Date("2019/06/30 23:59");
-	if (now.getTime() > final.getTime()) {
+	var now = new Date();
+	var last = new Date("2019/06/30 23:59");
+	if (now.getTime() > last.getTime()) {
 		$('#bag07').hide();
 		$('#bag14').hide();
 		$('#bag21').hide();
