@@ -1249,14 +1249,22 @@ footer {
 			padding: 0.4% 0 0;
 			height: auto;
 			box-sizing: border-box;
+			.h_ani {
+				height: auto;
+			}
 			.h_h {
-				width: 35%;
-				padding: 20.3% 0 27.5%;
+				width: 43%;
+				padding: 19.8% 0 27.5%;
 				margin: 0 auto;
 			}
 			.h_t {
-				position: static;
 				margin: 0.4% 0 0;
+				figure {
+					max-width: 651px;
+					margin: 0 auto;
+					line-height: 0;
+					text-align: center;
+				}
 			}
 		}
 	}
