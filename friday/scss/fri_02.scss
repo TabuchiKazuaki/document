@@ -59,16 +59,6 @@ header {
 			margin: 0 auto;
 			height: 643px;
 		}
-
-		.h_ani {
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/8875462759b0f06c7752622ce031878e_7ec03fa30a2c06ca8f6cd0abf8ff87c7.png) center top no-repeat;
-			background-size: cover;
-			max-width: 1157px;
-		}
-		.h_asia {
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/21d97bc03afa0200974a18d8d04d99b8_f716e6f2714371c0ea4b2e537e48b381.png) center top no-repeat;
-			background-size: cover;
-		}
 		.h_fight {
 			background: url(https://bit.ly/2EZlurZ) center top no-repeat;
 			background-size: cover;
@@ -140,9 +130,18 @@ header {
 		}
 	}
 	.h_w_ani {
+		position: relative;
 		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/befbd15dbb1400e38c1cff44ebc93c6d_b7370664ff7f303f4acabc944fb67d4c.png) center center no-repeat;
 		background-size: cover;
+		height: 722px;
+		padding: 6px 0 0;
+		box-sizing: border-box;
 
+		.h_ani {
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/8875462759b0f06c7752622ce031878e_7ec03fa30a2c06ca8f6cd0abf8ff87c7.png) center top no-repeat;
+			background-size: cover;
+			max-width: 1157px;
+		}
 	}
 }
 
@@ -1145,18 +1144,6 @@ footer {
 				margin: 0 auto;
 				height: auto;
 			}
-			.h_w_ani {
-				background-size: cover;
-				.h_h {
-					width: 35%;
-					padding: 20.3% 0 21%;
-					margin: 0 auto;
-				}
-				.h_t {
-					margin: 0.4% 0 0;
-				}
-
-			}
 			.h_h {
 				width: 35%;
 				padding: 17.3% 0 18.6%;
@@ -1213,9 +1200,30 @@ footer {
 			}
 		}
 
+
+
 	}
 }
+@media screen and (max-width: 768px) {
+	.h_w_ani {
+		position: relative;
+		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/16c96ceec5c23ec61219f9f1af4608fe_deca7f85f05752489d38327b8f8275d0.png) center center no-repeat;
+		background-size: cover;
+		padding: 0.4% 0 0;
+		height: auto;
+		box-sizing: border-box;
+		.h_h {
+			width: 35%;
+			padding: 20.3% 0 21%;
+			margin: 0 auto;
+		}
+		.h_t {
+			margin: 0.4% 0 0;
+		}
 
+	}
+
+}
 
 
 
