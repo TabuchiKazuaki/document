@@ -46,8 +46,33 @@ $(document).ready(function() {
 
 		$('#bag621').hide();
 		$('#bag628').hide();
-
 	}
+	var now = new Date();
+	var tl00 = new Date("2019/06/08 00:00");
+	if (now.getTime() > tl00.getTime()) {
+		$('#bag07').hide();
+		$('#bag14').hide();
+		$('#bag21').hide();
+		$('#bag28').hide();
+
+		$('#bag107').hide();
+		$('#bag114').hide();
+
+		$('#bag307').hide();
+		$('#bag314').hide();
+		$('#bag321').hide();
+		$('#bag328').hide();
+
+		$('#bag407').hide();
+		$('#bag414').hide();
+
+		$('#bag521').hide();
+		$('#bag528').hide();
+
+		$('#bag621').hide();
+		$('#bag628').hide();
+	}
+
 	var now = new Date();
 	var tt01 = new Date("2019/06/14 00:00");
 	if (now.getTime() > tt01.getTime()) {
@@ -66,8 +91,27 @@ $(document).ready(function() {
 
 		$('#bag407').hide();
 		$('#bag414').show();
-
 	}
+	var now = new Date();
+	var tl01 = new Date("2019/06/15 00:00");
+	if (now.getTime() > tl01.getTime()) {
+		$('#bag07').hide();
+		$('#bag14').hide();
+		$('#bag21').hide();
+		$('#bag28').hide();
+
+		$('#bag107').hide();
+		$('#bag114').hide();
+
+		$('#bag307').hide();
+		$('#bag314').hide();
+		$('#bag321').hide();
+		$('#bag328').hide();
+
+		$('#bag407').hide();
+		$('#bag414').hide();
+	}
+
 	var now = new Date();
 	var tt02 = new Date("2019/06/21 00:00");
 	if (now.getTime() > tt02.getTime()) {
@@ -94,6 +138,32 @@ $(document).ready(function() {
 		$('#bag628').hide();
 	}
 	var now = new Date();
+	var tl02 = new Date("2019/06/22 00:00");
+	if (now.getTime() > tl02.getTime()) {
+		$('#bag07').hide();
+		$('#bag14').hide();
+		$('#bag21').hide();
+		$('#bag28').hide();
+
+		$('#bag107').hide();
+		$('#bag114').hide();
+
+		$('#bag307').hide();
+		$('#bag314').hide();
+		$('#bag321').hide();
+		$('#bag328').hide();
+
+		$('#bag407').hide();
+		$('#bag414').hide();
+
+		$('#bag521').hide();
+		$('#bag528').hide();
+
+		$('#bag621').hide();
+		$('#bag628').hide();
+	}
+
+	var now = new Date();
 	var tt03 = new Date("2019/06/28 00:00");
 	if (now.getTime() > tt03.getTime()) {
 		$('#bag07').hide();
@@ -114,7 +184,7 @@ $(document).ready(function() {
 	}
 
 	var now = new Date();
-	var last = new Date("2019/06/30 23:59");
+	var last = new Date("2019/06/29 00:00");
 	if (now.getTime() > last.getTime()) {
 		$('#bag07').hide();
 		$('#bag14').hide();
