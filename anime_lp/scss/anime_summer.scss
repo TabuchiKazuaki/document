@@ -475,12 +475,14 @@ header {
 				font-weight: bold;
 				color: #000;
 				.comi {
-					display: block;
+					display: inline-block;
 					background: #ababab;
 					padding: 5px 25px;
 					margin: 0 0 10px;
-					letter-spacing: 1.3px;
+					letter-spacing: 1.2px;
 					font-size: 20px;
+					border-radius: 4px;
+					color: #fff;
 				}
 				.rank {
 					display: block;
@@ -1359,7 +1361,8 @@ footer {
 						padding: 0.8% 4%;
 						margin: 0 0 1.2%;
 						letter-spacing: 1.3px;
-						font-size: calc(38vw/12);
+						font-size: calc(28vw/12);
+						border-radius: 4px;
 					}
 					.rank {
 						font-size: calc(38vw/12);
