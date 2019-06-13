@@ -78,6 +78,10 @@ header {
 	letter-spacing: 1.5px!important;
 	border: none!important;
 	color: #fff!important;
+
+	&:hover {
+		opacity: 1!important;
+	}
 }
 .contents {
 	padding: 60px 0 0;
@@ -470,6 +474,14 @@ header {
 				line-height: 1.35;
 				font-weight: bold;
 				color: #000;
+				.comi {
+					display: block;
+					background: #ababab;
+					padding: 5px 25px;
+					margin: 0 0 10px;
+					letter-spacing: 1.3px;
+					font-size: 20px;
+				}
 				.rank {
 					display: block;
 					font-size: 20px;
