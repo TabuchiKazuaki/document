@@ -15,6 +15,12 @@ a {
 }
 img  { width: 100%;}
 
+.nohv {
+	&:hover {
+		opacity: 1!important;
+	}
+}
+
 .wrap {
 	background: #fff;
 	max-width: 768px;
