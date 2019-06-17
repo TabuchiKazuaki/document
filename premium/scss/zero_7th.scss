@@ -31,43 +31,30 @@ header {
 		position: relative;
 		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/b6f012da16fee4e23e7326c678ddf44b_67f42e4c0f8f46a4cdd5d18c1be3c4df.png) center center no-repeat;
 		background-size: cover;
-		padding: 81px 0 0;
-		height: 460px;
+		padding: 39px 0 0;
+		height: 351px;
 		box-sizing: border-box;
 		.h_sub {
-			max-width: 222px;
+			max-width: 296px;
 			margin: 0 auto 0;
 			line-height: 0;
 		}
 		.h_title {
-			max-width: 560px;
-			margin: 22px auto 0;
+			max-width: 645px;
+			margin: 29px auto 0;
 			line-height: 0;
 		}
-		.h_sl {
-			max-width: 287px;
-			margin: 29px auto 0;
-		}
-		.h_img {
-			display: none;
-			overflow: hidden;
-			width: 430px;
-			margin: 29px 0 0 239px;
-			h2 {
-				float: left;
-				max-width: 287px;
-			}
-			.h_item {
-				float: right;
-				max-width: 121px;
-				margin: 21px 0px 0;
-				img {
-					display: none;
-				}
+		.h_text {
+			margin: 24px auto 0;
+			text-align: center;
+			font-size: 16px;
+			line-height: 1.4;
+			letter-spacing: 1.8px;
+			span {
+				display: block;
 			}
 		}
 	}
-
 }
 
 .h_heading {
@@ -81,26 +68,18 @@ header {
 	padding: 0 0 0 28px;
 	margin: 18px 0 0;
 	line-height: 1.5;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 25px;
-	letter-spacing: 1.2px;
+	letter-spacing: 1.3px;
 	color: #ababab;
 	.c_color {
-		display: block;
-		text-indent: -10px;
-		font-size: 25px;
-		color: #fff;
-	}
-	.c_ore {
-		display: inline-block;
-		margin: 0 0 0 5px;
 		color: #e5c200;
 	}
 }
 .h_inner {
 	background: #1a1a1a;
-	padding: 42px 18px 48px;
-	margin: 61px 0 0;
+	padding: 42px 18px 42px;
+	margin: 41px 0 0;
 	border-radius: 8px;
 	.h_btn {
 		margin: 28px 0 0;
@@ -121,19 +100,29 @@ header {
 			}
 		}
 	}
-	.h_c {
-		margin: 20px 0 0;
-		letter-spacing: 1.2px;
-		font-size: 20px;
+}
+.h_b_btn {
+	margin: 58px 0 0;
+	a {
+		display: block;
+		background: #e5c200;
+		padding: 26px 0;
+		border-radius: 8px;
 		text-align: center;
+		font-weight: bold;
+		font-size: 29px;
+		letter-spacing: 1.2px;
+		color: #000;
 		span {
-			font-size: 22px;
+			display: inline-block;
+			margin: 0 3px 0 0;
+			font-size: 32px;
 		}
 	}
 }
 
 .contents {
-	padding: 60px 0 60px;
+	padding: 39px 0 60px;
 	.c_h {
 		padding: 0 0 0 12px;
 		border-left: 5px solid #e5c200;
@@ -406,9 +395,7 @@ footer {
 			padding: 1.2% 0 1.3% 2.8%;
 			line-height: 0;
 		}
-		.h_box {
-			padding: 0 2.5% 0;
-		}
+
 		.h_wrap {
 			background: url(https://bit.ly/2ZbcasI) top center no-repeat;
 			background-size: cover;
@@ -428,59 +415,68 @@ footer {
 				width: 77%;
 				margin: 3% auto 0;
 			}
+			.h_sub {
+				max-width: 296px;
+				margin: 0 auto 0;
+				line-height: 0;
+			}
+			.h_title {
+				max-width: 645px;
+				margin: 29px auto 0;
+				line-height: 0;
+			}
+			.h_text {
+				margin: 24px auto 0;
+				text-align: center;
+				font-size: 16px;
+				line-height: 1.4;
+				letter-spacing: 1.8px;
+				span {
+					display: block;
+				}
+			}
 		}
-
 	}
 	.h_heading {
-		padding: 0 0 0 3%;
+		padding: 0 0 0 2.5%;
 		line-height: 1.5;
 		border-left: 4.5px solid #e5c200;
 		font-size: calc(45vw/12);
 	}
 	.c_tit {
-		padding: 0 0 0 5%;
-		margin: 3.2% 0 0;
+		padding: 0 0 0 3.5%;
+		margin: 2.2% 0 0;
 		line-height: 1.5;
-		font-size: calc(39vw/12);
+		font-size: calc(35vw/12);
 		letter-spacing: 1.2px;
-		.c_color {
-			text-indent: -1.8%;
-			font-size: calc(40vw/12);
-		}
-		.c_ore {
-			margin: 0 0 0 0.8%;
+	}
+
+	.h_inner {
+		padding: 6% 2.3% 6.3% 2.6%;
+		margin: 6% 0 0;
+		border-radius: 6px;
+		.h_btn {
+			margin: 3.8% 0 0;
+			a {
+				padding: 4% 0;
+				border-radius: 6px;
+				font-size: calc(45vw/12);
+				letter-spacing: 1.2px;
+			}
 		}
 	}
-	.h_inner {
-		padding: 5.2% 2.4% 6%;
-		margin: 8.6% 0 0;
-		border-radius: 6px;
-
-		.h_btn {
-			margin: 4.2% 0 0;
-			a {
-				padding: 3.8% 0;
-				border-radius: 6px;
-				font-size: calc(42vw/12);
-				letter-spacing: 1.2px;
-				span {
-					margin: 0 0.2% 0 0;
-					font-size: calc(44vw/12);
-				}
-			}
-		}
-		.h_c {
-			margin: 3.2% 0 0;
+	.h_b_btn {
+		margin: 6% 0 0;
+		a {
+			padding: 4% 0;
+			border-radius: 6px;
+			font-size: calc(45vw/12);
 			letter-spacing: 1.2px;
-			font-size: calc(32vw/12);
-			span {
-				font-size: calc(35vw/12);
-			}
 		}
 	}
 
 	.contents {
-		padding: 8% 0 9%;
+		padding: 6% 0 9%;
 		.c_h {
 			padding: 0 0 0 2.5%;
 			border-left: 4px solid #e5c200;
@@ -774,6 +770,15 @@ footer {
 			span {
 				font-size: calc(36vw/12);
 			}
+		}
+	}
+	.h_b_btn {
+		margin: 6% 0 0;
+		a {
+			padding: 4% 0;
+			border-radius: 6px;
+			font-size: calc(47vw/12);
+			letter-spacing: 1.2px;
 		}
 	}
 
