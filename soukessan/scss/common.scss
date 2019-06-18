@@ -362,7 +362,7 @@ header {
 				font-size: 23px;
 				line-height: 1.35;
 				font-weight: bold;
-				color: #fff;
+				color: #000;
 				span {
 					display: inline-block;
 
@@ -1113,23 +1113,59 @@ footer {
 			}
 		}
 		.h_wrap {
-			position: relative;
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/44397a2e799615ea05de468a05a21851_a6fef09c600f3d33306f7f7abd60be00.png) center center no-repeat;
-			background-size: cover;
+			background: url(https://bit.ly/2Kn03FS) center top repeat;
+			background-size: contain;
 			height: auto;
 			padding: 0 0 0;
+			box-sizing: border-box;
 			.h_h {
-				width: 82%;
-				padding: 6% 0 7%;
+				width: 67%;
+				padding: 6.5% 0 4%;
+				margin: 0 auto 0;
 			}
-			.h_v {
-				width: 85%;
-				padding: 9.4% 0 9.2%;
+		}
+	}
 
+	.info {
+		background: #efefef;
+		padding: 6.8% 0 5.5%;
+		.wrap {
+			padding: 0 2.5%;
+		}
+
+		.i_t {
+			font-weight: bold;
+			font-size: calc(50vw/12);
+			line-height: 1.5;
+			letter-spacing: 1.3px;
+			text-align: center;
+			.middle {
+				font-size: calc(37vw/12);
 			}
-			.h_r {
-				width: 86%;
-				padding: 3.5% 0 3.9%;
+			.t_botom {
+				font-size: calc(36vw/12);
+				.num {
+					font-size: calc(58vw/12);
+					letter-spacing: 1.5px;
+				}
+				.cs_num {
+					margin: 0 0.4% 0 -0.2%;
+					font-size: calc(59vw/12);
+					letter-spacing: 1.1px;
+				}
+				.en {
+					display: inline-block;
+					margin: 0 -6px 0 -4px;
+				}
+			}
+		}
+		.i_btn {
+			margin: 5% 0 0;
+			a {
+				padding: 3.7% 0;
+				border-radius: 4px;
+				font-size: calc(44vw/12);
+				letter-spacing: 1.4px;
 			}
 		}
 	}
@@ -1847,25 +1883,56 @@ footer {
 
 	header {
 		.logo {
-			padding: 1.6% 0 1.8% 2.5%;
+			padding: 1.6% 0 1.6% 2.5%;
 			span {
 				width: 21%;
 			}
 		}
 		.h_wrap {
-			padding: 0 0 0;
+			background-size: contain;
 			.h_h {
-				width: 83%;
-				padding: 7.5% 0 6.8%;
+				width: 68%;
+				padding: 6.5% 0 4.5%;
 			}
-			.h_v {
-				width: 86%;
-				padding: 9.4% 0 9.2%;
+		}
+	}
 
+	.info {
+		padding: 5.8% 0 6%;
+		.wrap {
+			padding: 0 2.5%;
+		}
+		.i_t {
+			font-size: calc(52vw/12);
+			line-height: 1.5;
+			letter-spacing: 1.2px;
+			.middle {
+				font-size: calc(39vw/12);
 			}
-			.h_r {
-				width: 87%;
-				padding: 3.5% 0 4.1%;
+			.t_botom {
+				font-size: calc(38vw/12);
+				.num {
+					font-size: calc(60vw/12);
+					letter-spacing: 1.4px;
+				}
+				.cs_num {
+					margin: 0 0.4% 0 -0.2%;
+					font-size: calc(61vw/12);
+					letter-spacing: 1.1px;
+				}
+				.en {
+					display: inline-block;
+					margin: 0 -6px 0 -4px;
+				}
+			}
+		}
+		.i_btn {
+			margin: 4.3% 0 0;
+			a {
+				padding: 3.7% 0;
+				border-radius: 4px;
+				font-size: calc(46vw/12);
+				letter-spacing: 1.4px;
 			}
 		}
 	}
