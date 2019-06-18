@@ -1089,10 +1089,10 @@ footer .twelve .thumb li .active img {
 
 .line {
   background: #fff;
-  height: 42px;
 }
 .line .line_box {
   background: #efefef;
+  height: 42px;
   max-width: 768px;
   margin: 0 auto;
 }
@@ -1107,7 +1107,7 @@ footer .twelve .thumb li .active img {
     padding: 0 5%;
   }
 
-  .line {
+  .line .line_box {
     height: 28px;
   }
 
@@ -1806,7 +1806,7 @@ footer .twelve .thumb li .active img {
   }
 }
 @media screen and (max-width: 480px) {
-  .line {
+  .line .line_box {
     height: 17px;
   }
 

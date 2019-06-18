@@ -1084,9 +1084,9 @@ footer {
 }
 .line {
 	background: #fff;
-	height: 42px;
 	.line_box {
 		background: #efefef;
+		height: 42px;
 		max-width: 768px;
 		margin: 0 auto;
 	}
@@ -1101,7 +1101,9 @@ footer {
 		padding: 0 5%;
 	}
 	.line {
-		height: 28px;
+		.line_box {
+			height: 28px;
+		}
 	}
 	.f_line {
 		height: 45px;
@@ -1873,7 +1875,9 @@ footer {
 @media screen and (max-width: 480px) {
 
 	.line {
-		height: 17px;
+		.line_box {
+			height: 17px;
+		}
 	}
 	.f_line {
 		background: #fff;
