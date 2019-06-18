@@ -417,19 +417,14 @@ header {
 		.c_t_btn {
 			margin: 25px 0 35px;
 			a {
+				background: #3a2;
 				display: block;
 				padding: 15px 0;
 				text-align: center;
 				border-radius: 6px;
-				border: 3px solid #3a2;
 				font-size: 30px;
-				color: #3a2;
+				color: #fff;
 
-				&:hover {
-					background: #3a2;
-					color: #fff;
-					opacity: 1;
-				}
 			}
 		}
 	}
@@ -1088,7 +1083,10 @@ footer {
 	}
 }
 
-
+.f_line {
+	background: #fff;
+	height: 60px;
+}
 @media screen and (max-width: 768px) {
 	.wrap {
 		padding: 0 5%;
@@ -1097,7 +1095,6 @@ footer {
 		height: 28px;
 	}
 	.f_line {
-		background: #fff;
 		height: 45px;
 	}
 
@@ -1441,11 +1438,6 @@ footer {
 					border-radius: 5px;
 					border: 2px solid #3a2;
 					font-size: calc(44vw/12);
-
-					&:hover {
-						background: none;
-						color: #3a2;
-					}
 				}
 			}
 		}

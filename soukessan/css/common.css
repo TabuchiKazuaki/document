@@ -422,18 +422,13 @@ header .h_wrap .h_h {
   margin: 25px 0 35px;
 }
 .contents .c_three .c_t_btn a {
+  background: #3a2;
   display: block;
   padding: 15px 0;
   text-align: center;
   border-radius: 6px;
-  border: 3px solid #3a2;
   font-size: 30px;
-  color: #3a2;
-}
-.contents .c_three .c_t_btn a:hover {
-  background: #3a2;
   color: #fff;
-  opacity: 1;
 }
 .contents .c_four {
   padding: 0 0 35px;
@@ -1092,6 +1087,11 @@ footer .twelve .thumb li .active img {
   color: #fff;
 }
 
+.f_line {
+  background: #fff;
+  height: 60px;
+}
+
 @media screen and (max-width: 768px) {
   .wrap {
     padding: 0 5%;
@@ -1102,7 +1102,6 @@ footer .twelve .thumb li .active img {
   }
 
   .f_line {
-    background: #fff;
     height: 45px;
   }
 
@@ -1407,10 +1406,6 @@ footer .twelve .thumb li .active img {
     border-radius: 5px;
     border: 2px solid #3a2;
     font-size: calc(44vw/12);
-  }
-  .contents .c_three .c_t_btn a:hover {
-    background: none;
-    color: #3a2;
   }
   .contents .c_six {
     padding: 0 0 5%;
