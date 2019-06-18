@@ -871,10 +871,8 @@ aside {
 
 .genre {
 	background: #fff;
-	padding: 62px 0 65px;
 	.wrap {
 		padding: 60px 0 0;
-		border-top: 1px solid #606060;
 	}
 	.g_h {
 		font-size: 32px;
@@ -1751,7 +1749,7 @@ footer {
 	}
 
 	.genre {
-		padding: 8% 0 5%;
+		padding: 0 0 5%;
 		.wrap {
 			padding: 8% 0 0;
 			margin: 0 5%;
@@ -2498,7 +2496,10 @@ footer {
 	}
 
 	.genre {
-		padding: 8% 0 3%;
+		padding: 0 0 3%;
+		.wrap {
+			padding: 6% 0 0;
+		}
 		.g_h {
 			font-size: calc(52vw/12);
 		}
