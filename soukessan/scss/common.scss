@@ -1083,10 +1083,13 @@ footer {
 	}
 }
 .line {
-	background: #efefef;
+	background: #fff;
 	height: 42px;
-	max-width: 768px;
-	margin: 0 auto;
+	.line_box {
+		background: #efefef;
+		max-width: 768px;
+		margin: 0 auto;
+	}
 }
 
 .f_line {
