@@ -805,6 +805,45 @@ header .h_wrap .h_h {
   line-height: 1.4;
   color: #656565;
 }
+.contents .c_eight {
+  padding: 0 0 0;
+}
+.contents .c_eight .c_i_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 40px 0 0;
+}
+.contents .c_eight .c_i_list li {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: #1a1a1a;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 48.5%;
+  border-radius: 6px;
+  margin: 3% 0 0 3%;
+}
+.contents .c_eight .c_i_list li:nth-child(2n+1) {
+  margin: 3% 0 0;
+}
+.contents .c_eight .c_i_list li:nth-child(2) {
+  margin: 0 0 0 3%;
+}
+.contents .c_eight .c_i_list li:nth-child(1) {
+  margin: 0;
+}
+.contents .c_eight .c_i_list a {
+  display: block;
+}
+.contents .c_eight .c_i_list figure {
+  line-height: 0;
+}
 
 .c_s {
   padding: 0;
@@ -1697,6 +1736,25 @@ footer .twelve .thumb li .active img {
     font-size: calc(41vw/12);
     line-height: 1.35;
   }
+  .contents .c_eight {
+    padding: 0 0 0;
+  }
+  .contents .c_eight .c_i_list {
+    margin: 6% 0 0;
+  }
+  .contents .c_eight .c_i_list li {
+    border-radius: 5px;
+    margin: 3% 0 0 3%;
+  }
+  .contents .c_eight .c_i_list li:nth-child(2n+1) {
+    margin: 3% 0 0;
+  }
+  .contents .c_eight .c_i_list li:nth-child(2) {
+    margin: 0 0 0 3%;
+  }
+  .contents .c_eight .c_i_list li:nth-child(1) {
+    margin: 0;
+  }
   .contents .twelve {
     padding: 0 0 4%;
   }
@@ -2445,6 +2503,25 @@ footer .twelve .thumb li .active img {
     padding: 0 0 0 4%;
     font-size: calc(43vw/12);
     line-height: 1.35;
+  }
+  .contents .c_eight {
+    padding: 0 0 0;
+  }
+  .contents .c_eight .c_i_list {
+    margin: 6% 0 0;
+  }
+  .contents .c_eight .c_i_list li {
+    border-radius: 5px;
+    margin: 3% 0 0 3%;
+  }
+  .contents .c_eight .c_i_list li:nth-child(2n+1) {
+    margin: 3% 0 0;
+  }
+  .contents .c_eight .c_i_list li:nth-child(2) {
+    margin: 0 0 0 3%;
+  }
+  .contents .c_eight .c_i_list li:nth-child(1) {
+    margin: 0;
   }
   .contents .twelve {
     padding: 0 0 4%;

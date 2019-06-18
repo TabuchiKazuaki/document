@@ -792,6 +792,39 @@ header {
 			}
 		}
 	}
+
+	.c_eight {
+		padding: 0 0 0;
+		.c_i_list {
+			display: flex;
+			flex-flow: row wrap;
+			margin: 40px 0 0;
+			li {
+				justify-content: flex-end;
+				background: #1a1a1a;
+				box-sizing: border-box;
+				width: 48.5%;
+				border-radius: 6px;
+				margin: 3% 0 0 3%;
+
+				&:nth-child(2n+1) {
+					margin: 3% 0 0;
+				}
+				&:nth-child(2) {
+					margin: 0 0 0 3%;
+				}
+				&:nth-child(1) {
+					margin: 0;
+				}
+			}
+			a {
+				display: block;
+			}
+			figure {
+				line-height: 0;
+			}
+		}
+	}
 }
 .c_s {
 	padding: 0;
@@ -1754,6 +1787,26 @@ footer {
 				}
 			}
 		}
+		.c_eight {
+			padding: 0 0 0;
+			.c_i_list {
+				margin: 6% 0 0;
+				li {
+					border-radius: 5px;
+					margin: 3% 0 0 3%;
+
+					&:nth-child(2n+1) {
+						margin: 3% 0 0;
+					}
+					&:nth-child(2) {
+						margin: 0 0 0 3%;
+					}
+					&:nth-child(1) {
+						margin: 0;
+					}
+				}
+			}
+		}
 		.twelve {
 			padding: 0 0 4%;
 			.tw_h {
@@ -2584,6 +2637,26 @@ footer {
 					padding: 0 0 0 4%;
 					font-size: calc(43vw/12);
 					line-height: 1.35;
+				}
+			}
+		}
+		.c_eight {
+			padding: 0 0 0;
+			.c_i_list {
+				margin: 6% 0 0;
+				li {
+					border-radius: 5px;
+					margin: 3% 0 0 3%;
+
+					&:nth-child(2n+1) {
+						margin: 3% 0 0;
+					}
+					&:nth-child(2) {
+						margin: 0 0 0 3%;
+					}
+					&:nth-child(1) {
+						margin: 0;
+					}
 				}
 			}
 		}
