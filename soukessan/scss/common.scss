@@ -593,6 +593,7 @@ header {
 				}
 			}
 		}
+
 		.c_z_btn{
 			margin: 42px 0 0;
 			a {
@@ -1628,14 +1629,14 @@ footer {
 					dl {
 						letter-spacing: 1.2px;
 						dt {
-							padding: 0 0 0 6.5%;
-							font-size: calc(41vw/12);
+							padding: 0 0 0 4.5%;
+							font-size: calc(34vw/12);
 							&:before {
 								content: '';
 								position: absolute;
-								top: 2px;
+								top: 0;
 								left: 0;
-								width: 12%;
+								width: 5%;
 								height: 100%;
 								border-radius: 50%;
 							}
@@ -1646,6 +1647,10 @@ footer {
 						}
 					}
 				}
+			}
+			.c_z_cau {
+				margin: 3% 0 0 2%;
+				font-size: calc(35vw/12);
 			}
 			.c_z_btn {
 				margin: 7% 0 0;
@@ -2441,7 +2446,7 @@ footer {
 								position: absolute;
 								top: 0px;
 								left: 0;
-								width: 12%;
+								width: 5%;
 								height: 100%;
 								border-radius: 50%;
 							}
@@ -2451,6 +2456,16 @@ footer {
 						}
 					}
 				}
+			}
+			.c_z_cau {
+				margin: 15px 0 0 10px;
+				font-size: 18px;
+				font-weight: bold;
+				color: #666;
+			}
+			.c_z_cau {
+				margin: 3% 0 0 2%;
+				font-size: calc(37vw/12);
 			}
 			.c_z_btn {
 				margin: 7% 0 0;

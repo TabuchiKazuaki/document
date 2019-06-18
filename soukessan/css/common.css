@@ -1590,21 +1590,25 @@ footer .twelve .thumb li .active img {
     letter-spacing: 1.2px;
   }
   .contents .c_zwei .c_z_item li dl dt {
-    padding: 0 0 0 6.5%;
-    font-size: calc(41vw/12);
+    padding: 0 0 0 4.5%;
+    font-size: calc(34vw/12);
   }
   .contents .c_zwei .c_z_item li dl dt:before {
     content: '';
     position: absolute;
-    top: 2px;
+    top: 0;
     left: 0;
-    width: 12%;
+    width: 5%;
     height: 100%;
     border-radius: 50%;
   }
   .contents .c_zwei .c_z_item li dl dd {
     font-size: calc(41vw/12);
     white-space: nowrap;
+  }
+  .contents .c_zwei .c_z_cau {
+    margin: 3% 0 0 2%;
+    font-size: calc(35vw/12);
   }
   .contents .c_zwei .c_z_btn {
     margin: 7% 0 0;
@@ -2326,12 +2330,22 @@ footer .twelve .thumb li .active img {
     position: absolute;
     top: 0px;
     left: 0;
-    width: 12%;
+    width: 5%;
     height: 100%;
     border-radius: 50%;
   }
   .contents .c_zwei .c_z_item li dl dd {
     font-size: calc(43vw/12);
+  }
+  .contents .c_zwei .c_z_cau {
+    margin: 15px 0 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+  }
+  .contents .c_zwei .c_z_cau {
+    margin: 3% 0 0 2%;
+    font-size: calc(37vw/12);
   }
   .contents .c_zwei .c_z_btn {
     margin: 7% 0 0;
