@@ -508,6 +508,106 @@ header {
 		}
 	}
 
+	.c_zwei {
+		padding: 0 0 50px;
+		margin: 45px 0 0;
+		figure {
+			line-height: 0;
+		}
+		.c_z_h {
+			margin: 10px 0 0;
+			font-size: 18px;
+			line-height: 1.4;
+			letter-spacing: 1.2px;
+			color: #666;
+
+		}
+		.c_z_v {
+			margin: 32px 0 0;
+			font-size: 32px;
+		}
+		.c_z_item {
+			margin: 42px 0 0;
+
+			.z_ba {
+				display: inline-block;
+				background: #ec2840;
+				padding: 4px 11px;
+				border-radius: 4px;
+				font-size: 16px;
+				font-weight: bold;
+				vertical-align: bottom;
+				letter-spacing: 2px;
+				text-align: center;
+				line-height: 1.2;
+				color: #fff;
+			}
+
+			li {
+				margin: 18px 0 0;
+				.c_z_t {
+					position: relative;
+					padding: 0 0 0 45px;
+					font-size: 26px;
+					font-weight: bold;
+					color: #666;
+					&:before {
+						content: '';
+						position: absolute;
+						top: 0;
+						left: 0;
+						background: #cfa64d;
+						width: 27px;
+						height: 27px;
+						border-radius: 50%;
+					}
+				}
+				dl {
+					display: flex;
+					align-items: center;
+					letter-spacing: 1.2px;
+					dt {
+						position: relative;
+						width: 210px;
+						padding: 0 0 0 45px;
+						font-size: 26px;
+						font-weight: bold;
+						box-sizing: border-box;
+						color: #666;
+						&:before {
+							content: '';
+							position: absolute;
+							top: 0;
+							left: 0;
+							background: #cfa64d;
+							width: 27px;
+							height: 27px;
+							border-radius: 50%;
+						}
+					}
+					dd {
+						font-size: 26px;
+						font-weight: bold;
+						color: #666;
+					}
+				}
+			}
+		}
+		.c_z_btn{
+			margin: 42px 0 0;
+			a {
+				display: block;
+				background: #cfa64d;
+				padding: 18px 0;
+				border-radius: 6px;
+				text-align: center;
+				font-size: 32px;
+				letter-spacing: 2px;
+				color: #fff;
+			}
+		}
+	}
+
 	.c_12th {
 		padding: 0 0 30px;
 		margin: 35px 0 0;
@@ -1485,6 +1585,80 @@ footer {
 			}
 		}
 
+		.c_zwei {
+			padding: 0 0 8%;
+			margin: 7% 0 0;
+			figure {
+				line-height: 0;
+			}
+			.c_z_h {
+				margin: 1.5% 0 0;
+				font-size: calc(29vw/12);
+				line-height: 1.4;
+				letter-spacing: 1.2px;
+			}
+			.c_z_v {
+				margin: 5.2% 0 0;
+				font-size: calc(51vw/12);
+			}
+			.c_z_item {
+				margin: 5.5% 0 0;
+				.z_ba {
+					padding: 3.1% 8.5% 2%;
+					border-radius: 3px;
+					font-size: calc(26vw/12);
+					letter-spacing: 2px;
+				}
+
+				li {
+					margin: 3% 0 0;
+					.c_z_t {
+						padding: 0 0 0 6.5%;
+						font-size: calc(41vw/12);
+						&:before {
+							content: '';
+							position: absolute;
+							top: 0;
+							left: 0;
+							width: 3.8%;
+							height: 100%;
+							border-radius: 50%;
+						}
+					}
+					dl {
+						letter-spacing: 1.2px;
+						dt {
+							width: 30%;
+							padding: 0 0 0 6.5%;
+							font-size: calc(41vw/12);
+							&:before {
+								content: '';
+								position: absolute;
+								top: 2px;
+								left: 0;
+								width: 12%;
+								height: 100%;
+								border-radius: 50%;
+							}
+						}
+						dd {
+							font-size: calc(41vw/12);
+							white-space: nowrap;
+						}
+					}
+				}
+			}
+			.c_z_btn {
+				margin: 7% 0 0;
+				a {
+					padding: 2.8% 0;
+					border-radius: 5px;
+					font-size: calc(51vw/12);
+					letter-spacing: 1.5px;
+				}
+			}
+		}
+
 		.c_12th {
 			padding: 0 0 3%;
 			margin: 5% 0 0;
@@ -2214,6 +2388,79 @@ footer {
 						font-size: calc(38vw/12);
 						line-height: 1.35;
 					}
+				}
+			}
+		}
+		.c_zwei {
+			padding: 0 0 8%;
+			margin: 7% 0 0;
+			figure {
+				line-height: 0;
+			}
+			.c_z_h {
+				margin: 1.5% 0 0;
+				font-size: calc(31vw/12);
+				line-height: 1.4;
+				letter-spacing: 1.2px;
+			}
+			.c_z_v {
+				margin: 5.2% 0 0;
+				font-size: calc(53vw/12);
+			}
+			.c_z_item {
+				margin: 5.5% 0 0;
+
+				.z_ba {
+					padding: 2.4% 8.5% 2%;
+					border-radius: 3px;
+					font-size: calc(28vw/12);
+					letter-spacing: 2px;
+				}
+
+				li {
+					margin: 3% 0 0;
+					.c_z_t {
+						padding: 0 0 0 6.5%;
+						font-size: calc(43vw/12);
+						&:before {
+							content: '';
+							position: absolute;
+							top: 0;
+							left: 0;
+							width: 4%;
+							height: 100%;
+							border-radius: 50%;
+						}
+					}
+					dl {
+						letter-spacing: 1.2px;
+						dt {
+							width: 30%;
+							padding: 0 0 0 6.5%;
+							font-size: calc(43vw/12);
+							&:before {
+								content: '';
+								position: absolute;
+								top: 0px;
+								left: 0;
+								width: 12%;
+								height: 100%;
+								border-radius: 50%;
+							}
+						}
+						dd {
+							font-size: calc(43vw/12);
+						}
+					}
+				}
+			}
+			.c_z_btn {
+				margin: 7% 0 0;
+				a {
+					padding: 2.8% 0;
+					border-radius: 4px;
+					font-size: calc(53vw/12);
+					letter-spacing: 1.5px;
 				}
 			}
 		}
