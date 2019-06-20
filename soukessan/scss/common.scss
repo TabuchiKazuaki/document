@@ -1643,10 +1643,12 @@ footer {
 			.c_z_item {
 				margin: 5.5% 0 0;
 				.z_ba {
-					padding: 3.1% 8.5% 2%;
+					padding: 0.8% 1.8% 0.7%;
+					margin: 0 0 0 2%;
 					border-radius: 3px;
 					font-size: calc(25vw/12);
 					letter-spacing: 2px;
+					line-height: 1;
 				}
 
 				li {
@@ -1667,19 +1669,17 @@ footer {
 					dl {
 						letter-spacing: 1.2px;
 						dt {
-							padding: 0 0 0 4.5%;
-							font-size: calc(34vw/12);
+							padding: 0 0 0 6.5%;
+							font-size: calc(43vw/12);
 							&:before {
-								content: '';
-								position: absolute;
-								top: 0;
+								top: 010%;
 								left: 0;
-								width: 5%;
+								width: 4%;
 								height: 100%;
-								border-radius: 50%;
 							}
 						}
 						dd {
+							margin: 2.5% 0 0 7%;
 							font-size: calc(36vw/12);
 							white-space: nowrap;
 						}
@@ -2472,10 +2472,11 @@ footer {
 				margin: 5.5% 0 0;
 
 				.z_ba {
-					padding: 2.4% 8.5% 2%;
+					padding: 0.8% 1.8% 0.7%;
+					margin: 0 0 0 2%;
 					border-radius: 3px;
 					font-size: calc(27vw/12);
-					letter-spacing: 2px;
+					letter-spacing: 1.5px;
 				}
 
 				li {
