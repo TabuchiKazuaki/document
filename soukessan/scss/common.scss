@@ -1017,9 +1017,22 @@ aside {
 	.g_h {
 		font-size: 32px;
 	}
+	.g_title {
+		max-width: 510px;
+		margin: 38px auto 0;
+		text-align: center;
+	}
+	.g_ookami {
+		margin: 15px 0 0;
+		a {
+			display: block;
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/36e8e40276820d35fa62d8fb771ddd04_8c0ef6a2cac09df8b79d582f1021fcc3.png) 0 0 no-repeat #f0281e;
+			color: #fff;
+		}
+	}
 	.g_item {
 		overflow: hidden;
-		margin: 38px 0 0;
+		margin: 15px 0 0;
 		li {
 			float: left;
 			width: 48.5%;
@@ -2006,7 +2019,7 @@ footer {
 			font-size: calc(50vw/12);
 		}
 		.g_item {
-			margin: 6% 0 0;
+			margin: 2% 0 0;
 			li {
 				float: left;
 				width: 48%;
@@ -2849,8 +2862,11 @@ footer {
 		.g_h {
 			font-size: calc(52vw/12);
 		}
+		.g_title {
+
+		}
 		.g_item {
-			margin: 6% 0 0;
+			margin: 2% 0 0;
 			li {
 				float: left;
 				width: 48%;
