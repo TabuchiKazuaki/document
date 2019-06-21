@@ -80,23 +80,21 @@ $(document).ready(function() {
 	var tl01 = new Date("2019/06/21 00:00");
 	if (now.getTime() > tl01.getTime()) {
 
-		$('#new21').show();
-		$('#new121').show();
-		$('#new221').show();
-		$('#new321').show();
-		$('#new421').show();
-		$('#new521').show();
+		$('#t01').show();
+		$('#t02').show();
+		$('#t03').show();
+		$('#t04').show();
+		$('#t05').show();
 	}
 
 	var now = new Date();
 	var tt02 = new Date("2019/07/14 22:00");
 	if (now.getTime() > tt02.getTime()) {
-		$('#new21').hide();
-		$('#new121').hide();
-		$('#new221').hide();
-		$('#new321').hide();
-		$('#new421').hide();
-		$('#new521').hide();
+		$('#t01').hide();
+		$('#t02').hide();
+		$('#t03').hide();
+		$('#t04').hide();
+		$('#t05').hide();
 	}
 });
 
