@@ -63,7 +63,43 @@ $(document).ready(function() {
 		  $(activeTab).fadeIn();
 		  return false;
 	 });
+	  $(".tab_content06").hide();//全ての.tab_contentを非表示
+	 $("ul.thumb06 li:first a").addClass("active").show();//tabs内最初のliに.activeを追加
+	 $(".tab_content06:first").show();//最初の.tab_contentを表示
+	 //タブクリック時
+	 $("ul.thumb06 li").click(function() {
+		  $("ul.thumb06 li a").removeClass("active");//.activeを外す
+		  $(this).children('a').addClass("active");//クリックタブに.activeを追加
+		  $(".tab_content06").hide();
+		  var activeTab = $(this).find("a").attr("href");
+		  $(activeTab).fadeIn();
+		  return false;
+	 });
+
+	var now = new Date();
+	var tl01 = new Date("2019/06/21 00:00");
+	if (now.getTime() > tl01.getTime()) {
+
+		$('#new21').show();
+		$('#new121').show();
+		$('#new221').show();
+		$('#new321').show();
+		$('#new421').show();
+		$('#new521').show();
+	}
+
+	var now = new Date();
+	var tt02 = new Date("2019/07/14 22:00");
+	if (now.getTime() > tt02.getTime()) {
+		$('#new21').hide();
+		$('#new121').hide();
+		$('#new221').hide();
+		$('#new321').hide();
+		$('#new421').hide();
+		$('#new521').hide();
+	}
 });
+
 
 
 
