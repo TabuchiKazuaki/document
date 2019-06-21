@@ -209,8 +209,10 @@ header .h_wrap .h_text span {
   max-width: 644px;
 }
 .contents .c_box li .copy_c {
-  margin: 8px 0 0;
+  max-width: 644px;
+  margin: 5px auto 0;
   font-size: 10px;
+  text-align: right;
   color: #777;
 }
 .contents .c_box li .caution {
@@ -549,6 +551,10 @@ footer small {
   .contents .c_box li .pic {
     margin: 3.8% auto 0;
   }
+  .contents .c_box li .copy_c {
+    margin: 1% auto 0;
+    font-size: calc(17vw/12);
+  }
   .contents .c_box li .caution {
     margin: 2% 0 0;
     font-size: calc(21vw/12);
@@ -833,6 +839,10 @@ footer small {
   }
   .contents .c_box li .pic {
     margin: 3.8% auto 0;
+  }
+  .contents .c_box li .copy_c {
+    margin: 1% auto 0;
+    font-size: calc(18vw/12);
   }
   .contents .c_box li .caution {
     margin: 2.5% 0 0;
