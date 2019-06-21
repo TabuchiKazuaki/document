@@ -99,18 +99,6 @@ header .h_t {
 .contents .c_t .num {
   font-size: 28px;
 }
-.contents .c_t .bagg {
-  padding: 4px 11px;
-  margin: 0;
-  border-radius: 4px;
-  font-size: 16px;
-  font-weight: bold;
-  vertical-align: bottom;
-  letter-spacing: 2px;
-  text-align: center;
-  line-height: 1.2;
-  color: #fff;
-}
 .contents .c_t .heart {
   font-size: 27px;
   font-weight: normal;
@@ -131,6 +119,20 @@ header .h_t {
 }
 .contents .c_p .num {
   font-size: 26px;
+}
+.contents .c_p .bagg {
+  display: inline-block;
+  background: #ec2840;
+  padding: 4px 11px;
+  margin: 0 0 0 6px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: bottom;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 1.2;
+  color: #fff;
 }
 .contents dl {
   padding: 33px 0 0;
@@ -389,6 +391,13 @@ footer small {
   .contents .c_p .num {
     font-size: calc(42vw/12);
   }
+  .contents .c_p .bagg {
+    padding: 1.6% 6.5% 1.8%;
+    margin: 0 0 0 2%;
+    border-radius: 3px;
+    font-size: calc(27vw/12);
+    letter-spacing: 2px;
+  }
   .contents dl {
     padding: 5% 0 0;
   }
@@ -591,6 +600,13 @@ footer small {
   }
   .contents .c_p .num {
     font-size: calc(44vw/12);
+  }
+  .contents .c_p .bagg {
+    padding: 0.5% 2.2% 0.7%;
+    margin: 0 0 0 2%;
+    border-radius: 3px;
+    font-size: calc(29vw/12);
+    letter-spacing: 2px;
   }
   .contents dl {
     padding: 5% 0 0;
