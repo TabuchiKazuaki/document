@@ -15,10 +15,6 @@ body li {
   list-style: none;
 }
 
-body {
-  overflow-y: hidden;
-}
-
 a {
   -webkit-transition: .3s;
   transition: .3s;
@@ -76,8 +72,8 @@ header .j_wrap {
   padding: 39px 0;
 }
 header .header_logo {
-  max-width: 191px;
-  padding: 17px 0 17px 38px;
+  max-width: 151px;
+  padding: 15px 0 15px 28px;
   line-height: 0;
 }
 header .h_t {
@@ -88,6 +84,10 @@ header .h_t {
 
 .contents {
   padding: 30px 0 33px;
+}
+.contents .wrap {
+  max-width: 768px;
+  margin: 0 auto;
 }
 .contents .c_t {
   font-size: 24px;
@@ -323,7 +323,9 @@ footer small {
 
 @media screen and (max-width: 768px) {
   .wrap {
-    padding: 0 5%;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 3.5%;
   }
 
   .a_wrap {
@@ -365,6 +367,13 @@ footer small {
   .contents {
     padding: 4% 0 4.3%;
   }
+  .contents .wrap {
+    max-width: 100%;
+    padding: 0 4%;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
   .contents .c_t {
     font-size: calc(38vw/12);
     letter-spacing: 1.2px;
@@ -392,10 +401,10 @@ footer small {
     font-size: calc(42vw/12);
   }
   .contents .c_p .bagg {
-    padding: 1.6% 6.5% 1.8%;
-    margin: 0 0 0 2%;
+    padding: 0.4% 1.5% 0.6%;
+    margin: 0 2% 0 0;
     border-radius: 3px;
-    font-size: calc(27vw/12);
+    font-size: calc(25vw/12);
     letter-spacing: 2px;
   }
   .contents dl {
@@ -551,12 +560,16 @@ footer small {
   }
 }
 @media screen and (max-width: 480px) {
+  .wrap {
+    padding: 0 3.5%;
+  }
+
   header .h_wrap {
     max-width: 768px;
     margin: 0 auto;
   }
   header .wrap {
-    padding: 5.2% 0 4.4%;
+    padding: 5.2% 3% 4.4%;
   }
   header .j_wrap {
     background-size: cover;
@@ -602,10 +615,10 @@ footer small {
     font-size: calc(44vw/12);
   }
   .contents .c_p .bagg {
-    padding: 0.5% 2.2% 0.7%;
-    margin: 0 0 0 2%;
+    padding: 0.4% 1.5% 0.6%;
+    margin: 0 2% 0 0;
     border-radius: 3px;
-    font-size: calc(29vw/12);
+    font-size: calc(27vw/12);
     letter-spacing: 2px;
   }
   .contents dl {
