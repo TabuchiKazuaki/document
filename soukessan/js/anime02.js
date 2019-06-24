@@ -51,6 +51,7 @@ $(document).ready(function() {
 
 	}
 
+	var now = new Date();
 	var tt02 = new Date("2019/07/26 00:00");
 	if (now.getTime() > tt02.getTime()) {
 		$('#bag0519').hide();
@@ -65,6 +66,7 @@ $(document).ready(function() {
 		$('#bag0726').show();
 	}
 
+	var now = new Date();
 	var tt02last = new Date("2019/07/28 23:59");
 	if (now.getTime() > tt02last.getTime()) {
 		$('#bag0519').hide();
@@ -76,6 +78,7 @@ $(document).ready(function() {
 	}
 
 
+	var now = new Date();
 	var tt03 = new Date("2019/08/02 00:00");
 	if (now.getTime() > tt03.getTime()) {
 		$('#bag0519').hide();
@@ -90,6 +93,7 @@ $(document).ready(function() {
 		$('#bag0802').show();
 	}
 
+	var now = new Date();
 	var tt03last = new Date("2019/08/04 23:59");
 	if (now.getTime() > tt03last.getTime()) {
 		$('#bag0519').hide();
@@ -100,6 +104,7 @@ $(document).ready(function() {
 		$('#bag0523').hide();
 	}
 
+	var now = new Date();
 	var tt04 = new Date("2019/08/09 00:00");
 	if (now.getTime() > tt04.getTime()) {
 		$('#bag0519').hide();
@@ -114,6 +119,7 @@ $(document).ready(function() {
 		$('#bag0909').show();
 	}
 
+	var now = new Date();
 	var tt04last = new Date("2019/08/11 23:59");
 	if (now.getTime() > tt04last.getTime()) {
 		$('#bag0519').hide();
@@ -124,6 +130,7 @@ $(document).ready(function() {
 		$('#bag0523').hide();
 	}
 
+	var now = new Date();
 	var tt05 = new Date("2019/08/16 00:00");
 	if (now.getTime() > tt05.getTime()) {
 		$('#bag0519').hide();
@@ -138,6 +145,7 @@ $(document).ready(function() {
 		$('#bag1016').show();
 	}
 
+	var now = new Date();
 	var tt05last = new Date("2019/08/18 23:59");
 	if (now.getTime() > tt05last.getTime()) {
 		$('#bag0519').hide();
@@ -148,6 +156,7 @@ $(document).ready(function() {
 		$('#bag0523').hide();
 	}
 
+	var now = new Date();
 	var tt05 = new Date("2019/08/23 00:00");
 	if (now.getTime() > tt05.getTime()) {
 		$('#bag0519').hide();
@@ -164,6 +173,7 @@ $(document).ready(function() {
 		$('#bag1223').show();
 	}
 
+	var now = new Date();
 	var tt05last = new Date("2019/08/25 23:59");
 	if (now.getTime() > tt05last.getTime()) {
 		$('#bag0519').hide();
@@ -174,6 +184,7 @@ $(document).ready(function() {
 		$('#bag0523').hide();
 	}
 
+	var now = new Date();
 	var tt06last = new Date("2019/08/25 23:59");
 	if (now.getTime() > tt06last.getTime()) {
 		$('#bag1123').hide();
