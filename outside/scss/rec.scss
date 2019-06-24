@@ -1,6 +1,5 @@
-
 *{margin: 0; padding:0;}
-body { line-height: 1; min-width: 320px; font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important; color: #fff; margin: 0 auto; background: #000;
+body { line-height: 1; min-width: 320px; font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif !important; color: #fff; margin: 0 auto; background: #000;
 	li {
 		list-style: none;
 	}
@@ -14,6 +13,11 @@ a {
 	}
 }
 img  { width: 100%;}
+
+.wrap {
+	max-width: 768px;
+	margin: 0 auto;
+}
 
 header {
   width: 100%;
@@ -45,6 +49,7 @@ header {
 }
 
 article {
+  width: 100%;
   margin: 0 auto 55px auto;
   .main-contents {
 	width: 680px;
@@ -70,11 +75,7 @@ article {
 	  font-size: 21px;
 	  color: #8c8c8c;
 	  margin-bottom: 15px;
-	  display: -webkit-box;
-	  display: -ms-flexbox;
 	  display: flex;
-	  -webkit-box-align: center;
-	  -ms-flex-align: center;
 	  align-items: center;
 	  &:before {
 		content: 'NEW';
@@ -90,25 +91,30 @@ article {
 	  }
 	}
 	h2 {
+	  margin: 25px 0 0;
 	  font-size: 28px;
 	  font-weight: 600;
 	  margin-bottom: 12px;
 	}
 	.text {
+	  margin: 25px 0 0;
 	  font-size: 22px;
 	  color: #8c8c8c;
-	  margin-bottom: 25px;
+	  line-height: 1.4;
 	}
-	.link a {
-	  display: block;
-	  color: #FFF;
-	  font-size: 28px;
-	  font-weight: 600;
-	  background-color: #33aa22;
-	  text-align: center;
-	  border-radius: 4px;
-	  width: 100%;
-	  padding: 14px 0 14px 0;
+	.link {
+		margin: 25px 0 0;
+		a {
+			display: block;
+			color: #FFF;
+			font-size: 28px;
+			font-weight: 600;
+			background-color: #33aa22;
+			text-align: center;
+			border-radius: 4px;
+			width: 100%;
+			padding: 14px 0 14px 0;
+		}
 	}
   }
   .sub-contents {
@@ -121,11 +127,7 @@ article {
 	  color: #FFF;
 	  dl {
 		line-height: 1.6;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
-		-webkit-box-align: start;
-		-ms-flex-align: start;
 		align-items: flex-start;
 		dt {
 		  min-width: 226px;
@@ -149,15 +151,16 @@ article {
 	}
   }
   .video-promos {
-	width: 750px;
+	max-width: 750px;
 	background: url(https://bit.ly/2PW5lLG) 0 0 no-repeat;
 	background-size: cover;
-	padding: 44px 72px 44px 72px;
+	padding: 40px 72px 44px 72px;
 	margin: 0 auto 0 auto;
+	box-sizing: border-box;
 	h3 {
-	  margin-bottom: 7px;
+		max-width: 397px;
+	  margin-bottom: 15px;
 	  img {
-		max-width: 336px;
 	  }
 	}
 	.txt {
@@ -189,14 +192,8 @@ footer {
 	width: 680px;
 	margin: 0 auto 58px auto;
 	a {
-	  display: -webkit-box;
-	  display: -ms-flexbox;
 	  display: flex;
-	  -webkit-box-align: center;
-	  -ms-flex-align: center;
 	  align-items: center;
-	  -webkit-box-pack: justify;
-	  -ms-flex-pack: justify;
 	  justify-content: space-between;
 	  color: #FFF;
 	  background-color: #171717;
@@ -220,6 +217,7 @@ footer {
 	  }
 	  img {
 		padding-right: 33px;
+		width: 2.2%;
 	  }
 	}
   }
@@ -288,35 +286,37 @@ footer {
   article {
 	margin: 0 auto 8% auto;
 	.main-contents {
-	  width: 91%;
-	  padding: 0 0 7% 0;
-	  .movie {
-		margin-bottom: 3%;
-	  }
-	  .timestamp {
-		font-size: calc(40vw/12);
-		margin-bottom: 2%;
-		&:before {
-		  content: 'NEW';
-		  border-radius: 0.5vw;
-		  padding: 1% 1.5% 1% 1.5%;
-		  font-size: calc(30vw/12);
-		  margin-right: 3.5%;
+		width: 91%;
+		padding: 0 0 7% 0;
+		.movie {
+			margin-bottom: 3.3%;
 		}
-	  }
-	  h2 {
-		font-size: calc(44vw/12);
-		margin-bottom: 2%;
-	  }
-	  .text {
-		font-size: calc(37vw/12);
-		margin-bottom: 2%;
-	  }
-	  .link a {
-		font-size: calc(49vw/12);
-		border-radius: 0.5vw;
-		padding: 2% 0 2% 0;
-	  }
+		.timestamp {
+			font-size: calc(33vw/12);
+			margin-bottom: 0;
+			&:before {
+				border-radius: 3px;
+				padding: 0.5% 1.5% 0.5%;
+				font-size: calc(29vw/12);
+				margin-right: 3.5%;
+			}
+		}
+		h2 {
+			font-size: calc(44vw/12);
+			margin: 4% 0 0;
+		}
+		.text {
+			font-size: calc(34vw/12);
+			margin: 3% 0 0;
+		}
+		.link {
+			margin: 4% 0 0;
+			a {
+				font-size: calc(44vw/12);
+				border-radius: 0.5vw;
+				padding: 3% 0;
+			}
+		}
 	}
 	.sub-contents {
 	  width: 91%;
@@ -343,8 +343,8 @@ footer {
 	  padding: 5% 9% 6% 9%;
 	  margin: 0 auto 0 auto;
 	  h3 {
-		width: 49%;
-		margin-bottom: 1%;
+		width: 65%;
+		margin-bottom: 2.5%;
 		img {
 		  max-width: 100%;
 		}
@@ -355,7 +355,7 @@ footer {
 	  }
 	  p a {
 		font-size: calc(49vw/12);
-		padding: 2% 0 2% 0;
+		padding: 4% 0 2% 0;
 		border: solid 1px #33aa22;
 		border-radius: 4px;
 	  }
@@ -383,8 +383,8 @@ footer {
 		  }
 		}
 		img {
-		  max-width: 6.5%;
-		  padding-right: 4%;
+		  max-width: 2.5%;
+		  padding-right: 3%;
 		}
 	  }
 	}

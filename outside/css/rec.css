@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +7,7 @@
 body {
   line-height: 1;
   min-width: 320px;
-  font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important;
+  font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif !important;
   color: #fff;
   margin: 0 auto;
   background: #000;
@@ -27,6 +28,11 @@ a:hover {
 
 img {
   width: 100%;
+}
+
+.wrap {
+  max-width: 768px;
+  margin: 0 auto;
 }
 
 header {
@@ -59,6 +65,7 @@ header .headline p {
 }
 
 article {
+  width: 100%;
   margin: 0 auto 55px auto;
 }
 article .main-contents {
@@ -90,8 +97,8 @@ article .main-contents .timestamp {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 article .main-contents .timestamp:before {
   content: 'NEW';
@@ -106,14 +113,19 @@ article .main-contents .timestamp:before {
   margin-right: 21px;
 }
 article .main-contents h2 {
+  margin: 25px 0 0;
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 12px;
 }
 article .main-contents .text {
+  margin: 25px 0 0;
   font-size: 22px;
   color: #8c8c8c;
-  margin-bottom: 25px;
+  line-height: 1.4;
+}
+article .main-contents .link {
+  margin: 25px 0 0;
 }
 article .main-contents .link a {
   display: block;
@@ -142,8 +154,8 @@ article .sub-contents ul li a dl {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 article .sub-contents ul li a dl dt {
   min-width: 226px;
@@ -162,17 +174,17 @@ article .sub-contents ul li a dl dd h2 {
   font-weight: 400;
 }
 article .video-promos {
-  width: 750px;
+  max-width: 750px;
   background: url(https://bit.ly/2PW5lLG) 0 0 no-repeat;
   background-size: cover;
-  padding: 44px 72px 44px 72px;
+  padding: 40px 72px 44px 72px;
   margin: 0 auto 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 article .video-promos h3 {
-  margin-bottom: 7px;
-}
-article .video-promos h3 img {
-  max-width: 336px;
+  max-width: 397px;
+  margin-bottom: 15px;
 }
 article .video-promos .txt {
   font-size: 32px;
@@ -207,11 +219,11 @@ footer .other-link a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   color: #FFF;
   background-color: #171717;
   border-radius: 8px;
@@ -235,6 +247,7 @@ footer .other-link a dl dd {
 }
 footer .other-link a img {
   padding-right: 33px;
+  width: 2.2%;
 }
 footer .copyright {
   line-height: 1.5;
@@ -306,31 +319,33 @@ footer p small {
     padding: 0 0 7% 0;
   }
   article .main-contents .movie {
-    margin-bottom: 3%;
+    margin-bottom: 3.3%;
   }
   article .main-contents .timestamp {
-    font-size: calc(40vw/12);
-    margin-bottom: 2%;
+    font-size: calc(33vw/12);
+    margin-bottom: 0;
   }
   article .main-contents .timestamp:before {
-    content: 'NEW';
-    border-radius: 0.5vw;
-    padding: 1% 1.5% 1% 1.5%;
-    font-size: calc(30vw/12);
+    border-radius: 3px;
+    padding: 0.5% 1.5% 0.5%;
+    font-size: calc(29vw/12);
     margin-right: 3.5%;
   }
   article .main-contents h2 {
     font-size: calc(44vw/12);
-    margin-bottom: 2%;
+    margin: 4% 0 0;
   }
   article .main-contents .text {
-    font-size: calc(37vw/12);
-    margin-bottom: 2%;
+    font-size: calc(34vw/12);
+    margin: 3% 0 0;
+  }
+  article .main-contents .link {
+    margin: 4% 0 0;
   }
   article .main-contents .link a {
-    font-size: calc(49vw/12);
+    font-size: calc(44vw/12);
     border-radius: 0.5vw;
-    padding: 2% 0 2% 0;
+    padding: 3% 0;
   }
   article .sub-contents {
     width: 91%;
@@ -356,8 +371,8 @@ footer p small {
     margin: 0 auto 0 auto;
   }
   article .video-promos h3 {
-    width: 49%;
-    margin-bottom: 1%;
+    width: 65%;
+    margin-bottom: 2.5%;
   }
   article .video-promos h3 img {
     max-width: 100%;
@@ -368,7 +383,7 @@ footer p small {
   }
   article .video-promos p a {
     font-size: calc(49vw/12);
-    padding: 2% 0 2% 0;
+    padding: 4% 0 2% 0;
     border: solid 1px #33aa22;
     border-radius: 4px;
   }
@@ -398,8 +413,8 @@ footer p small {
     font-size: calc(40vw/12);
   }
   footer .other-link a img {
-    max-width: 6.5%;
-    padding-right: 4%;
+    max-width: 2.5%;
+    padding-right: 3%;
   }
   footer .copyright {
     margin-bottom: 4%;
