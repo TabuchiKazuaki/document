@@ -188,6 +188,7 @@ $(document).ready(function() {
 	var tt06last = new Date("2019/08/25 23:59");
 	if (now.getTime() > tt06last.getTime()) {
 		$('#bag1123').hide();
+
 		$('#bag1223').hide();
 	}
 });
