@@ -83,9 +83,9 @@ $(document).ready(function() {
 	if (now.getTime() > tt03.getTime()) {
 		$('#bag0519').hide();
 		$('#bag0526').hide();
-		$('#bag0502').hide();
+		$('#bag0502').show();
 		$('#bag0509').hide();
-		$('#bag0516').show();
+		$('#bag0516').hide();
 		$('#bag0523').hide();
 
 		$('#bag0726').hide();
