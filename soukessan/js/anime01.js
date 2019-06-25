@@ -12,8 +12,8 @@ $(document).ready(function() {
 		$('#bag0202').hide();
 		$('#bag0209').hide();
 
-		$('#bag0319').hide();
-		$('#bag0326').hide();
+		$('#bag0302').hide();
+		$('#bag0309').hide();
 
 		$('#bag0419').hide();
 		$('#bag0426').hide();
@@ -26,9 +26,6 @@ $(document).ready(function() {
 		$('#bag0019').show();
 		$('#bag0026').hide();
 
-		$('#bag0319').show();
-		$('#bag0326').hide();
-
 		$('#bag0419').show();
 		$('#bag0426').hide();
 	}
@@ -39,9 +36,6 @@ $(document).ready(function() {
 		$('#bag0019').hide();
 		$('#bag0026').show();
 
-		$('#bag0319').hide();
-		$('#bag0326').show();
-
 		$('#bag0419').hide();
 		$('#bag0426').show();
 	}
@@ -49,9 +43,6 @@ $(document).ready(function() {
 	if (now.getTime() > tt03last.getTime()) {
 		$('#bag0019').hide();
 		$('#bag0026').hide();
-
-		$('#bag0319').hide();
-		$('#bag0326').hide();
 
 		$('#bag0419').hide();
 		$('#bag0426').hide();
@@ -66,6 +57,9 @@ $(document).ready(function() {
 
 		$('#bag0202').show();
 		$('#bag0209').hide();
+
+		$('#bag0302').show();
+		$('#bag0309').hide();
 	}
 
 	var tt05 = new Date("2019/08/09 00:00");
@@ -75,6 +69,9 @@ $(document).ready(function() {
 
 		$('#bag0202').hide();
 		$('#bag0209').show();
+
+		$('#bag0302').hide();
+		$('#bag0309').show();
 	}
 
 	var tt06last = new Date("2019/08/15 23:59");
@@ -84,6 +81,9 @@ $(document).ready(function() {
 
 		$('#bag0202').hide();
 		$('#bag0209').hide();
+
+		$('#bag0302').hide();
+		$('#bag0309').hide();
 	}
 
 });
