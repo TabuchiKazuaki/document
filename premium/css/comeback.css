@@ -87,6 +87,7 @@ header .h_wrap .h_text span {
   font-size: 26px;
   font-weight: normal;
   text-align: center;
+  white-space: nowrap;
 }
 .h_inner .c_tit {
   max-width: 644px;
@@ -455,7 +456,6 @@ footer small {
     padding: 0;
     line-height: 1.5;
     font-size: calc(42vw/12);
-    white-space: nowrap;
   }
   .h_inner .c_tit {
     padding: 0 0 0 0;
