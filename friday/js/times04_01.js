@@ -27,31 +27,6 @@ $(document).ready(function() {
 	}
 
 	var now = new Date();
-	var tt00 = new Date("2019/06/07 00:00");
-	if (now.getTime() > tt00.getTime()) {
-		$('#bag07').show();
-		$('#bag14').hide();
-		$('#bag21').hide();
-		$('#bag28').hide();
-
-		$('#bag107').show();
-		$('#bag114').hide();
-
-		$('#bag307').show();
-		$('#bag314').hide();
-		$('#bag321').hide();
-		$('#bag328').hide();
-
-		$('#bag407').show();
-		$('#bag414').hide();
-
-		$('#bag521').hide();
-		$('#bag528').hide();
-
-		$('#bag621').hide();
-		$('#bag628').hide();
-	}
-	var now = new Date();
 	var tl00 = new Date("2019/06/08 00:00");
 	if (now.getTime() > tl00.getTime()) {
 		$('#bag07').hide();
