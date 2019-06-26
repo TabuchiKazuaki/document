@@ -98,31 +98,6 @@ $(document).ready(function() {
 	}
 
 	var now = new Date();
-	var tt02 = new Date("2019/06/21 00:00");
-	if (now.getTime() > tt02.getTime()) {
-		$('#bag07').hide();
-		$('#bag14').hide();
-		$('#bag21').show();
-		$('#bag28').hide();
-
-		$('#bag107').hide();
-		$('#bag114').hide();
-
-		$('#bag307').hide();
-		$('#bag314').hide();
-		$('#bag321').show();
-		$('#bag328').hide();
-
-		$('#bag407').hide();
-		$('#bag414').hide();
-
-		$('#bag521').show();
-		$('#bag528').hide();
-
-		$('#bag621').show();
-		$('#bag628').hide();
-	}
-	var now = new Date();
 	var tl02 = new Date("2019/06/22 00:00");
 	if (now.getTime() > tl02.getTime()) {
 		$('#bag07').hide();
@@ -169,6 +144,8 @@ $(document).ready(function() {
 		$('#bag521').hide();
 		$('#bag528').show();
 
+		$('#bag1528').show();
+
 		$('#new21').show();
 		$('#new22').show();
 		$('#new121').show();
@@ -195,6 +172,8 @@ $(document).ready(function() {
 
 		$('#bag521').hide();
 		$('#bag528').hide();
+
+		$('#bag1528').hide();
 
 		$('#new21').hide();
 		$('#new22').hide();
