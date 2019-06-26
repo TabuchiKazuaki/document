@@ -13,6 +13,7 @@ $(document).ready(function() {
 		$('#ze02').hide();
 		$('#ze03').hide();
 		$('#ze04').hide();
+		$('#ze05').hide();
 	}
 
 	var now = new Date();
@@ -49,6 +50,7 @@ $(document).ready(function() {
 		$('#ze02').show();
 		$('#ze03').show();
 		$('#ze04').show();
+		$('#ze05').show();
 	}
 
 	var now = new Date();
@@ -63,5 +65,6 @@ $(document).ready(function() {
 		$('#ze02').hide();
 		$('#ze03').hide();
 		$('#ze04').hide();
+		$('#ze05').hide();
 	}
 });
