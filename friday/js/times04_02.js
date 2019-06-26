@@ -18,7 +18,6 @@ $(document).ready(function() {
 		$('#new321').show();
 		$('#new421').show();
 		$('#new521').show();
-
 	}
 
 	var now = new Date();
