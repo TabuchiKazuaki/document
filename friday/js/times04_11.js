@@ -9,6 +9,10 @@ $(document).ready(function() {
 		$('#new21').hide();
 		$('#new221').hide();
 
+		$('#ze01').hide();
+		$('#ze02').hide();
+		$('#ze03').hide();
+		$('#ze04').hide();
 	}
 
 	var now = new Date();
@@ -40,6 +44,11 @@ $(document).ready(function() {
 
 		$('#bag621').hide();
 		$('#bag628').show();
+
+		$('#ze01').show();
+		$('#ze02').show();
+		$('#ze03').show();
+		$('#ze04').show();
 	}
 
 	var now = new Date();
@@ -49,5 +58,10 @@ $(document).ready(function() {
 
 		$('#bag621').hide();
 		$('#bag628').hide();
+
+		$('#ze01').hide();
+		$('#ze02').hide();
+		$('#ze03').hide();
+		$('#ze04').hide();
 	}
 });
