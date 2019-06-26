@@ -173,6 +173,7 @@ $(document).ready(function() {
 		$('#bag521').hide();
 		$('#bag528').hide();
 
+		$('#bag1521').hide();
 		$('#bag1528').hide();
 
 		$('#new21').hide();
