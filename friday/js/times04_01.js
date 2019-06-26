@@ -125,6 +125,7 @@ $(document).ready(function() {
 		$('#new21').hide();
 		$('#new22').hide();
 		$('#new121').hide();
+		$('#bag1528').hide();
 
 	}
 
