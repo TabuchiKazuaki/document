@@ -23,8 +23,7 @@ header .h_wrap .h_kv { max-width: 1152px; margin: 54px auto 0; line-height: 0; }
 .info .i_h { font-size: 21px; font-weight: normal; line-height: 1.5; letter-spacing: 1.3px; text-align: center; color: #ababab; }
 .info .i_btn { background: #f40000; max-width: 480px; padding: 14px 0; margin: 34px auto 0; text-align: center; font-weight: bold; font-size: 23px; letter-spacing: 1.3px; color: #fff; }
 
-.contents { padding: 60px 0 0; }
-.contents .c_hline { margin: 0 0 38px; font-size: 28px; font-weight: bold; text-align: center; line-height: 1.5; letter-spacing: 1.4px; }
+.contents .c_hline { margin: 60px 0 38px; font-size: 28px; font-weight: bold; text-align: center; line-height: 1.5; letter-spacing: 1.4px; }
 .contents .c_hline span { font-size: 44px; }
 .contents .c_pic { margin: 0 0 62px; font-size: 30px; border-bottom: 1px solid #535353; letter-spacing: 1.3px; }
 .contents .c_pic span { display: inline-block; background: #f0163a; padding: 11px 20px; margin: 0 25px 20px 0; border-radius: 30px; font-size: 26px; font-weight: bold; color: #fff; }
@@ -208,24 +207,34 @@ footer .f_list li:after { content: ' | '; position: absolute; top: 0; right: 0; 
 footer .f_list li:last-child:after { content: ''; }
 footer small { display: block; margin: 30px 40px 20px; font-size: 16px; letter-spacing: 1px; text-align: left; color: #919191; }
 
+@media screen and (max-width: 1100px) { header { -webkit-box-sizing: border-box; box-sizing: border-box; }
+  header .h_wrap .h_h { width: 89%; }
+  header .h_wrap .h_kv { width: 100%; margin: 6% auto 0; } }
 @media screen and (max-width: 768px) { .line { height: 25px; }
   .f_line { background: #fff; height: 45px; }
   .dn { display: none; }
   .wrap { padding: 0 4.5% 0; margin: 0; }
   .bottom_text { padding: 0 0 6%; font-size: calc(36vw/12); }
   .b_h { width: 61%; margin: 0 auto 9%; }
-  header .wrap { max-width: none; padding: 0; }
   header .logo { padding: 1.6% 0 1.6% 2.5%; }
   header .logo span { width: 21%; }
-  header .logo .tag { padding: 1.9% 0 0 0; font-size: calc(37vw/12); }
-  header .logo .tag span { margin: 0 0 0 -7%; font-size: calc(40vw/12); }
+  header .h_wrap { padding: 4% 0 0; }
+  header .h_wrap .h_h { width: 86%; }
+  header .h_wrap .h_kv { width: 100%; margin: 6% auto 0; }
+  .info { padding: 5.3% 0 5.5%; }
+  .info .i_h { font-size: calc(33vw/12); line-height: 1.5; letter-spacing: 1.3px; }
+  .info .i_btn { width: 70%; padding: 2.5% 0; margin: 5% auto 0; font-size: calc(36vw/12); letter-spacing: 1.3px; }
   .entry { padding: 5% 0 13%; }
   .entry .e_h { font-size: calc(32vw/12); }
   .entry .e_text { margin: 6% 0 0; font-size: calc(47vw/12); letter-spacing: 1.3px; }
   .entry .e_text span { width: 3%; }
   .entry .e_btn { width: 80%; margin: 10% auto 0; }
   .entry .e_btn a { padding: 6% 0; border-radius: 5px; letter-spacing: 1.3px; font-size: calc(48vw/12); }
-  .contents { padding: 8% 0 0; }
+  .contents .c_hline { margin: 9% 0 5.5%; font-size: calc(44vw/12); line-height: 1.5; letter-spacing: 1.4px; }
+  .contents .c_hline span { font-size: calc(69vw/12); }
+  .contents .c_pic { margin: 0 0 8%; font-size: calc(47vw/12); border-bottom: 1px solid #535353; letter-spacing: 1.3px; }
+  .contents .c_pic span { padding: 1.3% 3%; margin: 0 3% 2.8% 0; border-radius: 30px; font-size: calc(40vw/12); }
+  .contents .bagg { display: inline-block; background: #f0163a; padding: 4px 10px; margin: 25px 0 10px 0; border-radius: 4px; font-size: 18px; letter-spacing: 1.3px; font-weight: bold; color: #fff; }
   .contents .c_h { border-left: 4.5px solid #3a2; padding: 0 0 0 2.6%; line-height: 1.4; font-size: calc(50vw/12); }
   .contents .c_h span { letter-spacing: 1.3px; font-size: calc(52vw/12); }
   .contents .c_h_m { margin: 3% 0 0; }
