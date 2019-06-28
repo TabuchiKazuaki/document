@@ -22,6 +22,12 @@ img  { width: 100%;}
 .line {
 	height: 40px;
 }
+.pc {
+	display: block;
+}
+.sp {
+	display: none;
+}
 header {
 	box-sizing: border-box;
 	.logo {
@@ -53,6 +59,10 @@ header {
 .info {
 	background: #1a1a1a;
 	padding: 40px 0 42px;
+	.wrap {
+		padding: 0;
+		margin: 0;
+	}
 	.i_h {
 		font-size: 21px;
 		font-weight: normal;
@@ -103,10 +113,13 @@ header {
 			color: #fff;
 		}
 	}
+	.c_sec {
+		margin: 25px 0 50px;
+	}
 	.bagg {
 		display: inline-block;
 		background: #f0163a;
-		padding: 4px 10px;
+		padding: 4px 13px;
 		margin: 25px 0 10px 0;
 		border-radius: 4px;
 		font-size: 18px;
@@ -1182,12 +1195,12 @@ footer {
 	.contents {
 
 		.c_hline {
-			margin: 9% 0 5.5%;
+			margin: 9% 0 8.5%;
 			font-size: calc(44vw/12);
 			line-height: 1.5;
 			letter-spacing: 1.4px;
 			span {
-				font-size: calc(69vw/12);
+				font-size: calc(64vw/12);
 			}
 		}
 		.c_pic {
@@ -1197,21 +1210,22 @@ footer {
 			letter-spacing: 1.3px;
 			span {
 				padding: 1.3% 3%;
-				margin: 0 3% 2.8% 0;
+				margin: 0 3% 3.8% 0;
 				border-radius: 30px;
 				font-size: calc(40vw/12);
 			}
 		}
+		.c_sec {
+			margin: 4% 0 7%;
+		}
 		.bagg {
 			display: inline-block;
-			background: #f0163a;
-			padding: 4px 10px;
-			margin: 25px 0 10px 0;
+			padding: 1.1% 2.5%;
+			margin: 4% 0 1% 0;
 			border-radius: 4px;
-			font-size: 18px;
+			font-size: calc(29vw/12);
 			letter-spacing: 1.3px;
-			font-weight: bold;
-			color: #fff;
+			white-space: nowrap;
 		}
 
 		.c_h {
@@ -1229,7 +1243,7 @@ footer {
 			margin: 3% 0 0;
 		}
 		.c_t {
-			margin: 2% 0 0;
+			margin: 2.5% 0 0;
 			font-size: calc(39vw/12);
 			line-height: 1.3;
 		}
@@ -1537,7 +1551,7 @@ footer {
 			.c_z_item {
 				margin: 5.5% 0 0;
 				.z_ba {
-					padding: 0.8% 1.8% 0.7%;
+					padding: 0.8% 2.2% 0.7%;
 					margin: 0 0 0 2%;
 					border-radius: 3px;
 					font-size: calc(25vw/12);
@@ -1585,7 +1599,7 @@ footer {
 				font-size: calc(31vw/12);
 			}
 			.c_z_btn {
-				margin: 7% 0 0;
+				margin: 5.5% 0 0;
 				a {
 					padding: 2.8% 0;
 					border-radius: 5px;
@@ -1660,7 +1674,7 @@ footer {
 					}
 				}
 				.z_ba {
-					padding: 0.8% 1.8% 0.7%;
+					padding: 0.8% 2.2% 0.7%;
 					margin: 0 0 0 2%;
 					border-radius: 3px;
 					font-size: calc(25vw/12);
@@ -1844,6 +1858,7 @@ footer {
 	}
 
 	.common_banner {
+		margin: 8% 0 0;
 		.wrap {
 			padding: 6.4% 14.4% 6.5%;
 		}
@@ -1913,6 +1928,12 @@ footer {
 			letter-spacing: 1.3px;
 		}
 	}
+	.pc {
+		display: block;
+	}
+	.sp {
+		display: none;
+	}
 }
 
 
@@ -1930,8 +1951,14 @@ footer {
 		display: none;
 	}
 	.wrap {
-		padding: 8% 3% 0;
-		margin: 0 3%;
+		padding: 0 4.3% 0;
+		margin: 0;
+	}
+	.pc {
+		display: none;
+	}
+	.sp {
+		display: block;
 	}
 
 	header {
@@ -1953,7 +1980,21 @@ footer {
 				}
 			}
 		}
-
+	}
+	.info {
+		padding: 4.7% 0 4.9%;
+		.i_h {
+			font-size: calc(37vw/12);
+			line-height: 1.5;
+			letter-spacing: 1.3px;
+		}
+		.i_btn {
+			width: 69%;
+			padding: 2.5% 0;
+			margin: 5% auto 0;
+			font-size: calc(38vw/12);
+			letter-spacing: 1.3px;
+		}
 	}
 
 	.entry {
@@ -1982,7 +2023,40 @@ footer {
 	}
 
 	.contents {
-		padding: 8% 0 0;
+
+		.c_hline {
+			margin: 7% 0 7.5%;
+			font-size: calc(44vw/12);
+			line-height: 1.5;
+			letter-spacing: 1.4px;
+			span {
+				font-size: calc(69vw/12);
+			}
+		}
+		.c_pic {
+			margin: 0 0 8%;
+			font-size: calc(47vw/12);
+			border-bottom: 1px solid #535353;
+			letter-spacing: 1.3px;
+			span {
+				padding: 1.7% 3%;
+				margin: 0 3% 2.8% 0;
+				border-radius: 30px;
+				font-size: calc(40vw/12);
+			}
+		}
+		.c_sec {
+			margin: 5% 0 5%;
+		}
+
+		.bagg {
+			display: inline-block;
+			padding: 0.6% 2.5%;
+			margin: 4% 0 1% 0;
+			border-radius: 3px;
+			font-size: calc(31vw/12);
+			letter-spacing: 1.3px;
+		}
 		.c_h {
 			border-left: 3px solid #3a2;
 			padding: 0 0 0 2.6%;
@@ -1998,9 +2072,9 @@ footer {
 			margin: 3% 0 0;
 		}
 		.c_t {
-			margin: 2% 0 0;
+			margin: 3% 0 0;
 			font-size: calc(41vw/12);
-			line-height: 1.3;
+			line-height: 1.4;
 		}
 
 		.c_one {
@@ -2304,15 +2378,15 @@ footer {
 							&:before {
 								content: '';
 								position: absolute;
-								top: 5%;
+								top: 6%;
 								left: 0;
-								width: 4%;
+								width: 10%;
 								height: 100%;
 								border-radius: 50%;
 							}
 						}
 						dd {
-							margin: 2.5% 0 0 6%;
+							margin: 0.2% 0 0 6%;
 							font-size: calc(38vw/12);
 						}
 					}
@@ -2324,7 +2398,7 @@ footer {
 				font-size: calc(33vw/12);
 			}
 			.c_z_btn {
-				margin: 7% 0 0;
+				margin: 5% 0 0;
 				a {
 					padding: 2.8% 0;
 					border-radius: 4px;
@@ -2371,7 +2445,7 @@ footer {
 		}
 
 		.c_zwei_short {
-			padding: 0 0 6%;
+			padding: 0 0 7.5%;
 			margin: 3.5% 0 0;
 			.c_z_inner {
 				dd {
@@ -2422,7 +2496,7 @@ footer {
 							}
 						}
 						dd {
-							margin: 0.5% 0 0 5%;
+							margin: 0.5% 0 0 4%;
 							width: 65%;
 							font-size: calc(42vw/12);
 						}
@@ -2441,7 +2515,7 @@ footer {
 				margin: 5% 0 0;
 				a {
 					padding: 2.6% 0;
-					border-radius: 4px;
+					border-radius: 3px;
 					font-size: calc(50vw/12);
 					letter-spacing: 2px;
 				}
@@ -2450,7 +2524,7 @@ footer {
 				background: #c3c3c3;
 				padding: 18px 0;
 				margin: 42px 0 0;
-				border-radius: 6px;
+				border-radius: 5px;
 				text-align: center;
 				font-size: 32px;
 				letter-spacing: 2px;
@@ -2608,6 +2682,7 @@ footer {
 
 
 	.common_banner {
+		margin: 6% 0 0;
 		.wrap {
 			padding: 6.4% 14.4% 6.5%;
 		}

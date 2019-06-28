@@ -12,6 +12,10 @@ img { width: 100%; }
 
 .line { height: 40px; }
 
+.pc { display: block; }
+
+.sp { display: none; }
+
 header { -webkit-box-sizing: border-box; box-sizing: border-box; }
 header .logo { overflow: hidden; background: #000; padding: 13px 0 14px 18px; line-height: 0; }
 header .logo span { float: left; display: block; max-width: 151px; }
@@ -20,6 +24,7 @@ header .h_wrap .h_h { max-width: 1045px; margin: 0 auto; line-height: 0; }
 header .h_wrap .h_kv { max-width: 1152px; margin: 54px auto 0; line-height: 0; }
 
 .info { background: #1a1a1a; padding: 40px 0 42px; }
+.info .wrap { padding: 0; margin: 0; }
 .info .i_h { font-size: 21px; font-weight: normal; line-height: 1.5; letter-spacing: 1.3px; text-align: center; color: #ababab; }
 .info .i_btn { background: #f40000; max-width: 480px; padding: 14px 0; margin: 34px auto 0; text-align: center; font-weight: bold; font-size: 23px; letter-spacing: 1.3px; color: #fff; }
 
@@ -27,7 +32,8 @@ header .h_wrap .h_kv { max-width: 1152px; margin: 54px auto 0; line-height: 0; }
 .contents .c_hline span { font-size: 44px; }
 .contents .c_pic { margin: 0 0 62px; font-size: 30px; border-bottom: 1px solid #535353; letter-spacing: 1.3px; }
 .contents .c_pic span { display: inline-block; background: #f0163a; padding: 11px 20px; margin: 0 25px 20px 0; border-radius: 30px; font-size: 26px; font-weight: bold; color: #fff; }
-.contents .bagg { display: inline-block; background: #f0163a; padding: 4px 10px; margin: 25px 0 10px 0; border-radius: 4px; font-size: 18px; letter-spacing: 1.3px; font-weight: bold; color: #fff; }
+.contents .c_sec { margin: 25px 0 50px; }
+.contents .bagg { display: inline-block; background: #f0163a; padding: 4px 13px; margin: 25px 0 10px 0; border-radius: 4px; font-size: 18px; letter-spacing: 1.3px; font-weight: bold; color: #fff; }
 .contents .c_h { border-left: 6px solid #3a2; padding: 0 0 0 18px; line-height: 1.4; font-size: 32px; }
 .contents .c_h span { letter-spacing: 1.3px; font-size: 36px; }
 .contents .c_h_m { margin: 20px 0 0; }
@@ -230,15 +236,16 @@ footer small { display: block; margin: 30px 40px 20px; font-size: 16px; letter-s
   .entry .e_text span { width: 3%; }
   .entry .e_btn { width: 80%; margin: 10% auto 0; }
   .entry .e_btn a { padding: 6% 0; border-radius: 5px; letter-spacing: 1.3px; font-size: calc(48vw/12); }
-  .contents .c_hline { margin: 9% 0 5.5%; font-size: calc(44vw/12); line-height: 1.5; letter-spacing: 1.4px; }
-  .contents .c_hline span { font-size: calc(69vw/12); }
+  .contents .c_hline { margin: 9% 0 8.5%; font-size: calc(44vw/12); line-height: 1.5; letter-spacing: 1.4px; }
+  .contents .c_hline span { font-size: calc(64vw/12); }
   .contents .c_pic { margin: 0 0 8%; font-size: calc(47vw/12); border-bottom: 1px solid #535353; letter-spacing: 1.3px; }
-  .contents .c_pic span { padding: 1.3% 3%; margin: 0 3% 2.8% 0; border-radius: 30px; font-size: calc(40vw/12); }
-  .contents .bagg { display: inline-block; background: #f0163a; padding: 4px 10px; margin: 25px 0 10px 0; border-radius: 4px; font-size: 18px; letter-spacing: 1.3px; font-weight: bold; color: #fff; }
+  .contents .c_pic span { padding: 1.3% 3%; margin: 0 3% 3.8% 0; border-radius: 30px; font-size: calc(40vw/12); }
+  .contents .c_sec { margin: 4% 0 7%; }
+  .contents .bagg { display: inline-block; padding: 1.1% 2.5%; margin: 4% 0 1% 0; border-radius: 4px; font-size: calc(29vw/12); letter-spacing: 1.3px; white-space: nowrap; }
   .contents .c_h { border-left: 4.5px solid #3a2; padding: 0 0 0 2.6%; line-height: 1.4; font-size: calc(50vw/12); }
   .contents .c_h span { letter-spacing: 1.3px; font-size: calc(52vw/12); }
   .contents .c_h_m { margin: 3% 0 0; }
-  .contents .c_t { margin: 2% 0 0; font-size: calc(39vw/12); line-height: 1.3; }
+  .contents .c_t { margin: 2.5% 0 0; font-size: calc(39vw/12); line-height: 1.3; }
   .contents .c_one { padding: 0 0 2.5%; margin: 1% 0 0; }
   .contents .c_one .c_t_item li { padding: 4% 0 0; }
   .contents .c_one .c_t_dl dd { width: 52%; }
@@ -303,7 +310,7 @@ footer small { display: block; margin: 30px 40px 20px; font-size: 16px; letter-s
   .contents .c_zwei .c_z_h { margin: 1.5% 0 0; font-size: calc(29vw/12); line-height: 1.4; letter-spacing: 1.2px; }
   .contents .c_zwei .c_z_v { margin: 5.2% 0 0; font-size: calc(51vw/12); }
   .contents .c_zwei .c_z_item { margin: 5.5% 0 0; }
-  .contents .c_zwei .c_z_item .z_ba { padding: 0.8% 1.8% 0.7%; margin: 0 0 0 2%; border-radius: 3px; font-size: calc(25vw/12); letter-spacing: 2px; line-height: 1; }
+  .contents .c_zwei .c_z_item .z_ba { padding: 0.8% 2.2% 0.7%; margin: 0 0 0 2%; border-radius: 3px; font-size: calc(25vw/12); letter-spacing: 2px; line-height: 1; }
   .contents .c_zwei .c_z_item li { margin: 3% 0 0; }
   .contents .c_zwei .c_z_item li .c_z_t { padding: 0 0 0 6.5%; font-size: calc(41vw/12); }
   .contents .c_zwei .c_z_item li .c_z_t:before { content: ''; position: absolute; top: 0; left: 0; width: 3.8%; height: 100%; border-radius: 50%; }
@@ -312,7 +319,7 @@ footer small { display: block; margin: 30px 40px 20px; font-size: 16px; letter-s
   .contents .c_zwei .c_z_item li dl dt:before { top: 10%; left: 0; width: 9%; height: 80%; }
   .contents .c_zwei .c_z_item li dl dd { margin: 1% 0 0 5%; font-size: calc(40vw/12); white-space: nowrap; }
   .contents .c_zwei .c_z_cau { margin: 3% 0 0 6%; font-size: calc(31vw/12); }
-  .contents .c_zwei .c_z_btn { margin: 7% 0 0; }
+  .contents .c_zwei .c_z_btn { margin: 5.5% 0 0; }
   .contents .c_zwei .c_z_btn a { padding: 2.8% 0; border-radius: 5px; font-size: calc(51vw/12); letter-spacing: 1.5px; }
   .contents .c_zwei .c_z_no { margin: 7% 0 0; padding: 2.8% 0; border-radius: 5px; font-size: calc(51vw/12); letter-spacing: 1.5px; }
   .contents .c_zwei_short { padding: 0 0 6%; margin: 3.5% 0 0; }
@@ -327,7 +334,7 @@ footer small { display: block; margin: 30px 40px 20px; font-size: 16px; letter-s
   .contents .c_zwei_short .c_z_item li dl dt { width: 35%; padding: 0 0 0 6%; font-size: calc(42vw/12); }
   .contents .c_zwei_short .c_z_item li dl dt:before { top: 10%; left: 0; width: 9%; height: 80%; }
   .contents .c_zwei_short .c_z_item li dl dd { margin: 0.5% 0 0 5%; width: 65%; font-size: calc(40vw/12); }
-  .contents .c_zwei_short .c_z_item .z_ba { padding: 0.8% 1.8% 0.7%; margin: 0 0 0 2%; border-radius: 3px; font-size: calc(25vw/12); letter-spacing: 2px; line-height: 1; }
+  .contents .c_zwei_short .c_z_item .z_ba { padding: 0.8% 2.2% 0.7%; margin: 0 0 0 2%; border-radius: 3px; font-size: calc(25vw/12); letter-spacing: 2px; line-height: 1; }
   .contents .c_zwei_short .c_z_btn { margin: 5% 0 0; }
   .contents .c_zwei_short .c_z_btn a { padding: 2.5% 0; border-radius: 5px; font-size: calc(49vw/12); letter-spacing: 2px; }
   .contents .c_zwei_short .c_z_no { background: #c3c3c3; padding: 18px 0; margin: 42px 0 0; border-radius: 6px; text-align: center; font-size: 32px; letter-spacing: 2px; color: #fff; }
@@ -368,6 +375,7 @@ footer small { display: block; margin: 30px 40px 20px; font-size: 16px; letter-s
   .contents .twelve .thumb li .active { border: 3px solid #3a2; }
   .contents .twelve .thumb li .active img { margin: -1.2px 0; opacity: .8; }
   .c_s { padding: 0; }
+  .common_banner { margin: 8% 0 0; }
   .common_banner .wrap { padding: 6.4% 14.4% 6.5%; }
   .common_banner figure { width: 64%; }
   .common_banner .a_text { margin: 3.5% 0 0; font-size: calc(43vw/12); letter-spacing: 1.4px; }
@@ -383,27 +391,39 @@ footer small { display: block; margin: 30px 40px 20px; font-size: 16px; letter-s
   footer .f_list li a { padding: 0 12px 0 0; font-size: calc(26vw/12); white-space: nowrap; }
   footer .f_list li:after { content: ' | '; position: absolute; top: 0; right: 0; }
   footer .f_list li:last-child:after { content: ''; }
-  footer small { margin: 5% 0 0; font-size: calc(26vw/12); letter-spacing: 1.3px; } }
+  footer small { margin: 5% 0 0; font-size: calc(26vw/12); letter-spacing: 1.3px; }
+  .pc { display: block; }
+  .sp { display: none; } }
 @media screen and (max-width: 480px) { .line { height: 10px; }
   .f_line { background: #fff; height: 31px; }
   .dn { display: none; }
-  .wrap { padding: 8% 3% 0; margin: 0 3%; }
+  .wrap { padding: 0 4.3% 0; margin: 0; }
+  .pc { display: none; }
+  .sp { display: block; }
   header .wrap { padding: 0; margin: 0; }
   header .logo { padding: 1.6% 0 1.6% 2.5%; }
   header .logo span { width: 21%; }
   header .logo .tag { padding: 1.9% 0 0 0; font-size: calc(39vw/12); }
   header .logo .tag span { margin: 0 0 0 -7%; font-size: calc(42vw/12); }
+  .info { padding: 4.7% 0 4.9%; }
+  .info .i_h { font-size: calc(37vw/12); line-height: 1.5; letter-spacing: 1.3px; }
+  .info .i_btn { width: 69%; padding: 2.5% 0; margin: 5% auto 0; font-size: calc(38vw/12); letter-spacing: 1.3px; }
   .entry { padding: 5% 0 13%; }
   .entry .e_h { font-size: calc(34vw/12); }
   .entry .e_text { margin: 6% 0 0; font-size: calc(49vw/12); letter-spacing: 1.3px; }
   .entry .e_text span { width: 3%; }
   .entry .e_btn { width: 80%; margin: 10% auto 0; }
   .entry .e_btn a { padding: 6% 0; border-radius: 4px; letter-spacing: 1.3px; font-size: calc(50vw/12); }
-  .contents { padding: 8% 0 0; }
+  .contents .c_hline { margin: 7% 0 7.5%; font-size: calc(44vw/12); line-height: 1.5; letter-spacing: 1.4px; }
+  .contents .c_hline span { font-size: calc(69vw/12); }
+  .contents .c_pic { margin: 0 0 8%; font-size: calc(47vw/12); border-bottom: 1px solid #535353; letter-spacing: 1.3px; }
+  .contents .c_pic span { padding: 1.7% 3%; margin: 0 3% 2.8% 0; border-radius: 30px; font-size: calc(40vw/12); }
+  .contents .c_sec { margin: 5% 0 5%; }
+  .contents .bagg { display: inline-block; padding: 0.6% 2.5%; margin: 4% 0 1% 0; border-radius: 3px; font-size: calc(31vw/12); letter-spacing: 1.3px; }
   .contents .c_h { border-left: 3px solid #3a2; padding: 0 0 0 2.6%; line-height: 1.4; font-size: calc(50vw/12); }
   .contents .c_h span { letter-spacing: 1.3px; font-size: calc(52vw/12); }
   .contents .c_h_m { margin: 3% 0 0; }
-  .contents .c_t { margin: 2% 0 0; font-size: calc(41vw/12); line-height: 1.3; }
+  .contents .c_t { margin: 3% 0 0; font-size: calc(41vw/12); line-height: 1.4; }
   .contents .c_one { padding: 0 0 2.5%; margin: 1% 0 0; }
   .contents .c_one .c_t_item li { padding: 4% 0 0; }
   .contents .c_one .c_t_dl dd { width: 52%; }
@@ -466,10 +486,10 @@ footer small { display: block; margin: 30px 40px 20px; font-size: 16px; letter-s
   .contents .c_zwei .c_z_item li .c_z_t:before { content: ''; position: absolute; top: 0; left: 0; width: 4%; height: 100%; border-radius: 50%; }
   .contents .c_zwei .c_z_item li dl { letter-spacing: 1.2px; }
   .contents .c_zwei .c_z_item li dl dt { padding: 0 0 0 5.5%; font-size: calc(37vw/12); }
-  .contents .c_zwei .c_z_item li dl dt:before { content: ''; position: absolute; top: 5%; left: 0; width: 4%; height: 100%; border-radius: 50%; }
-  .contents .c_zwei .c_z_item li dl dd { margin: 2.5% 0 0 6%; font-size: calc(38vw/12); }
+  .contents .c_zwei .c_z_item li dl dt:before { content: ''; position: absolute; top: 6%; left: 0; width: 10%; height: 100%; border-radius: 50%; }
+  .contents .c_zwei .c_z_item li dl dd { margin: 0.2% 0 0 6%; font-size: calc(38vw/12); }
   .contents .c_zwei .c_z_cau { margin: 3% 0 0 5%; font-size: calc(33vw/12); }
-  .contents .c_zwei .c_z_btn { margin: 7% 0 0; }
+  .contents .c_zwei .c_z_btn { margin: 5% 0 0; }
   .contents .c_zwei .c_z_btn a { padding: 2.8% 0; border-radius: 4px; font-size: calc(53vw/12); letter-spacing: 1.5px; }
   .contents .c_zwei .c_z_no { margin: 7% 0 0; padding: 2.8% 0; border-radius: 4px; font-size: calc(53vw/12); letter-spacing: 1.5px; }
   .contents .c_six { padding: 0 0 5%; margin: 1% 0 0; }
@@ -478,7 +498,7 @@ footer small { display: block; margin: 30px 40px 20px; font-size: 16px; letter-s
   .contents .c_six .c_s_dl dt { width: 59%; padding: 0 0 0 3%; font-size: calc(38vw/12); line-height: 1.35; }
   .contents .c_six .c_s_dl dt .rank { font-size: calc(40vw/12); }
   .contents .c_six .c_s_dl dt .rank .num { margin: 0 0.2% 0 0; font-size: calc(44vw/12); }
-  .contents .c_zwei_short { padding: 0 0 6%; margin: 3.5% 0 0; }
+  .contents .c_zwei_short { padding: 0 0 7.5%; margin: 3.5% 0 0; }
   .contents .c_zwei_short .c_z_inner dd { width: 47%; line-height: 0; }
   .contents .c_zwei_short .c_z_inner dt { width: 50%; margin: 0 0 0 3%; font-size: calc(46vw/12); line-height: 1.3; }
   .contents .c_zwei_short .c_z_v { margin: 5% 0 0; font-size: calc(52vw/12); }
@@ -489,11 +509,11 @@ footer small { display: block; margin: 30px 40px 20px; font-size: 16px; letter-s
   .contents .c_zwei_short .c_z_item li dl { letter-spacing: 1.2px; line-height: 1; }
   .contents .c_zwei_short .c_z_item li dl dt { width: 35%; padding: 0 0 0 5%; font-size: calc(44vw/12); }
   .contents .c_zwei_short .c_z_item li dl dt:before { top: 10%; left: 0; width: 9%; height: 80%; }
-  .contents .c_zwei_short .c_z_item li dl dd { margin: 0.5% 0 0 5%; width: 65%; font-size: calc(42vw/12); }
+  .contents .c_zwei_short .c_z_item li dl dd { margin: 0.5% 0 0 4%; width: 65%; font-size: calc(42vw/12); }
   .contents .c_zwei_short .c_z_item .z_ba { padding: 0.8% 1.8% 0.7%; margin: 0 0 0 2%; border-radius: 3px; font-size: calc(27vw/12); letter-spacing: 2px; line-height: 1; }
   .contents .c_zwei_short .c_z_btn { margin: 5% 0 0; }
-  .contents .c_zwei_short .c_z_btn a { padding: 2.6% 0; border-radius: 4px; font-size: calc(50vw/12); letter-spacing: 2px; }
-  .contents .c_zwei_short .c_z_no { background: #c3c3c3; padding: 18px 0; margin: 42px 0 0; border-radius: 6px; text-align: center; font-size: 32px; letter-spacing: 2px; color: #fff; }
+  .contents .c_zwei_short .c_z_btn a { padding: 2.6% 0; border-radius: 3px; font-size: calc(50vw/12); letter-spacing: 2px; }
+  .contents .c_zwei_short .c_z_no { background: #c3c3c3; padding: 18px 0; margin: 42px 0 0; border-radius: 5px; text-align: center; font-size: 32px; letter-spacing: 2px; color: #fff; }
   .contents .c_12th { padding: 0 0 3%; margin: 5% 0 0; }
   .contents .c_12th figure { margin: 3% 0 0; }
   .contents .c_12th .c_12h { margin: 4% 0 0; font-size: calc(47vw/12); }
@@ -529,6 +549,7 @@ footer small { display: block; margin: 30px 40px 20px; font-size: 16px; letter-s
   .contents .twelve .thumb li .active { border: 2px solid #3a2; }
   .contents .twelve .thumb li .active img { margin: -1.1px 0; opacity: .8; }
   .c_s { padding: 0; }
+  .common_banner { margin: 6% 0 0; }
   .common_banner .wrap { padding: 6.4% 14.4% 6.5%; }
   .common_banner figure { width: 64%; }
   .common_banner .a_text { margin: 3.5% 0 0; font-size: calc(45vw/12); letter-spacing: 1.4px; }
