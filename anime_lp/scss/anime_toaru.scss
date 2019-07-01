@@ -30,16 +30,16 @@ img  { width: 100%;}
 }
 
 .fadein {
-	opacity : 0.1;
-	transform : translate(0, 50px);
+	opacity : 0;
+	transform : translate(-200px, 0);
 	transition : all 500ms;
 
-	.scrollin {
-		opacity : 1;
-		transform : translate(0, 0);
-	}
-}
 
+}
+.scrollin {
+	opacity : 1;
+	transform : translate(0, 0);
+}
 header {
 	box-sizing: border-box;
 	.logo {
