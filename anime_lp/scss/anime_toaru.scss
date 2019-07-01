@@ -33,13 +33,13 @@ img  { width: 100%;}
 	opacity : 0.1;
 	transform : translate(0, 50px);
 	transition : all 500ms;
+
+	.scrollin {
+		opacity : 1;
+		transform : translate(0, 0);
+	}
 }
 
-/* 画面内に入った状態 */
-.fadein.scrollin {
-	opacity : 1;
-	transform : translate(0, 0);
-}
 header {
 	box-sizing: border-box;
 	.logo {
