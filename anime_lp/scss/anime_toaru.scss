@@ -200,9 +200,9 @@ header {
 					}
 					.c_c_img {
 						float: left;
-						max-width: 235px;
+						max-width: 269px;
 						width: 40%;
-						margin: 0 15px 0 0;
+						margin: 0 0 0 0;
 					}
 				}
 
@@ -235,7 +235,7 @@ header {
 					}
 					.c_c_img {
 						float: right;
-						max-width: 235px;
+						max-width: 237px;
 						width: 40%;
 						margin: 0 38px 0 0;
 					}
@@ -243,8 +243,36 @@ header {
 			}
 		}
 	}
+	.c_inner {
+		background: #1a1a1a;
+		padding: 60px 16px;
+		margin: 63px 0 60px;
+		border-radius: 6px;
+		figure {
+			line-height: 0;
+		}
+		.c_i_t {
+			margin: 55px 0 0;
+			font-size: 23px;
+			line-height: 1.6;
+			color: #fff;
+		}
+	}
 	.c_sec {
 		margin: 25px 0 50px;
+	}
+	.c_hp {
+		padding: 0 0 97px;
+		margin: 58px 0 0;
+		border-bottom: 1px solid #606060;
+		font-size: 28px;
+		line-height: 1.5;
+		color: #979797;
+		a {
+			display: block;
+			color: #3a2;
+
+		}
 	}
 	.bagg {
 		display: inline-block;
