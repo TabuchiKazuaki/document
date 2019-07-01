@@ -262,7 +262,6 @@ footer small { display: block; margin: 30px 40px 20px; font-size: 16px; letter-s
   .c_banner a { padding: 3% 5%; border-radius: 5px; line-height: 1.45; font-size: calc(45vw/12); }
   .c_banner a:before { top: 41%; right: 3%; background-size: 13px 23px; width: 13px; height: 23px; }
   .c_banner a span { font-size: calc(40vw/12); }
-  header .h_wrap .h_kv { width: 100%; }
   header { -webkit-box-sizing: border-box; box-sizing: border-box; }
   header .logo { padding: 1.6% 0 1.6% 2.5%; }
   header .logo .logo_img { width: 21%; }
@@ -494,14 +493,17 @@ footer small { display: block; margin: 30px 40px 20px; font-size: 16px; letter-s
   .c_banner a { padding: 3% 5%; border-radius: 5px; line-height: 1.45; font-size: calc(47vw/12); }
   .c_banner a:before { top: 40%; right: 3%; background-size: 8px 15px; width: 8px; height: 15px; }
   .c_banner a span { font-size: calc(42vw/12); }
-  header .wrap { padding: 0; margin: 0; }
+  header { -webkit-box-sizing: border-box; box-sizing: border-box; }
   header .logo { padding: 1.6% 0 1.6% 2.5%; }
-  header .logo span { width: 21%; }
-  header .logo .tag { padding: 1.9% 0 0 0; font-size: calc(39vw/12); }
-  header .logo .tag span { margin: 0 0 0 -7%; font-size: calc(42vw/12); }
-  .info { padding: 4.7% 0 4.9%; }
-  .info .i_h { font-size: calc(37vw/12); line-height: 1.5; letter-spacing: 1.3px; }
-  .info .i_btn { width: 69%; padding: 2.5% 0; margin: 5% auto 0; font-size: calc(38vw/12); letter-spacing: 1.3px; }
+  header .logo .logo_img { width: 21%; }
+  header .logo .title { padding: 2.2% 1.8% 0 0; font-size: calc(38vw/12); }
+  .info { padding: 5% 0 5.2%; }
+  .info .wrap { padding: 0 4.3%; }
+  .info .i_h { font-size: calc(34vw/12); line-height: 1.5; letter-spacing: 1.3px; }
+  .info .i_head { margin: 3.5% 0 0; line-height: 1.7; font-size: calc(48vw/12); }
+  .info .i_head span { font-size: calc(36vw/12); }
+  .info .i_btn { margin: 9% auto 0; }
+  .info .i_btn a { width: 75%; padding: 4.1% 0; font-size: calc(46vw/12); border-radius: 5px; letter-spacing: 1.3px; }
   .entry { padding: 5% 0 13%; }
   .entry .e_h { font-size: calc(34vw/12); }
   .entry .e_text { margin: 6% 0 0; font-size: calc(49vw/12); letter-spacing: 1.3px; }

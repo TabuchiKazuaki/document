@@ -1350,17 +1350,6 @@ footer {
 			}
 		}
 	}
-
-	header {
-		.logo {
-
-		}
-		.h_wrap {
-			.h_kv {
-				width: 100%;
-			}
-		}
-	}
 	header {
 		box-sizing: border-box;
 		.logo {
@@ -2426,38 +2415,50 @@ footer {
 	}
 
 	header {
-		.wrap {
-			padding: 0;
-			margin: 0;
-		}
+		box-sizing: border-box;
 		.logo {
 			padding: 1.6% 0 1.6% 2.5%;
-			span {
+			.logo_img {
 				width: 21%;
 			}
-			.tag {
-				padding: 1.9% 0 0 0;
-				font-size: calc(39vw/12);
-				span {
-					margin: 0 0 0 -7%;
-					font-size: calc(42vw/12);
-				}
+			.title {
+				padding: 2.2% 1.8% 0 0;
+				font-size: calc(38vw/12);
+			}
+		}
+		.h_wrap {
+			.h_kv {
 			}
 		}
 	}
+
 	.info {
-		padding: 4.7% 0 4.9%;
+		padding: 5% 0 5.2%;
+		.wrap {
+			padding: 0 4.3%;
+		}
 		.i_h {
-			font-size: calc(37vw/12);
+			font-size: calc(34vw/12);
 			line-height: 1.5;
 			letter-spacing: 1.3px;
 		}
+		.i_head {
+			margin: 3.5% 0 0;
+			line-height: 1.7;
+			font-size: calc(48vw/12);
+			span {
+				font-size: calc(36vw/12);
+			}
+		}
 		.i_btn {
-			width: 69%;
-			padding: 2.5% 0;
-			margin: 5% auto 0;
-			font-size: calc(38vw/12);
-			letter-spacing: 1.3px;
+			margin: 9% auto 0;
+			a {
+				width: 75%;
+				padding: 4.1% 0;
+				font-size: calc(46vw/12);
+				border-radius: 5px;
+				letter-spacing: 1.3px;
+			}
 		}
 	}
 
