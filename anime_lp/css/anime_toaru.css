@@ -229,6 +229,11 @@ header .h_wrap .h_kv { max-width: 750px; margin: 0 auto 0; line-height: 0; }
 
 .c_s { padding: 0; }
 
+.c_banner { margin: 80px 0 0; }
+.c_banner a { position: relative; display: block; background: #1a1a1a; padding: 20px 35px; border-radius: 6px; line-height: 1.4; font-size: 28px; color: #fff; }
+.c_banner a:before { content: ''; position: absolute; top: 40%; right: 3%; background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/550207/f7a25044cace23683a73c2b7122e6389_88c93a112dd4c1a084fd2a35ecae1410.png) 0 0 no-repeat; background-size: 16px 29px; width: 16px; height: 29px; }
+.c_banner a span { display: block; font-weight: bold; font-size: 26px; color: #3a2; }
+
 .common_banner { margin: 60px 0 0; }
 .common_banner .wrap { background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/463346/3517790a59412e1b865e4b03e5f42652_d459ab1abba4f465e5d442f8c76dd22a.png) center center repeat; background-size: cover; max-width: 768px; padding: 42px 76px 44px; margin: 0 auto; -webkit-box-sizing: border-box; box-sizing: border-box; }
 .common_banner figure { max-width: 336px; line-height: 0; }
@@ -253,6 +258,10 @@ footer small { display: block; margin: 30px 40px 20px; font-size: 16px; letter-s
   .wrap { padding: 0 2.5% 0; }
   .bottom_text { padding: 0 0 6%; font-size: calc(36vw/12); }
   .b_h { width: 61%; margin: 0 auto 9%; }
+  .c_banner { margin: 12% 0 0; }
+  .c_banner a { padding: 3% 5%; border-radius: 5px; line-height: 1.45; font-size: calc(45vw/12); }
+  .c_banner a:before { top: 41%; right: 3%; background-size: 13px 23px; width: 13px; height: 23px; }
+  .c_banner a span { font-size: calc(40vw/12); }
   header .h_wrap .h_kv { width: 100%; }
   header { -webkit-box-sizing: border-box; box-sizing: border-box; }
   header .logo { padding: 1.6% 0 1.6% 2.5%; }
@@ -480,6 +489,10 @@ footer small { display: block; margin: 30px 40px 20px; font-size: 16px; letter-s
   .wrap { padding: 0 4.3% 0; margin: 0; }
   .pc { display: none; }
   .sp { display: block; }
+  .c_banner { margin: 12% 0 0; }
+  .c_banner a { padding: 3% 5%; border-radius: 5px; line-height: 1.45; font-size: calc(47vw/12); }
+  .c_banner a:before { top: 40%; right: 3%; background-size: 8px 15px; width: 8px; height: 15px; }
+  .c_banner a span { font-size: calc(42vw/12); }
   header .wrap { padding: 0; margin: 0; }
   header .logo { padding: 1.6% 0 1.6% 2.5%; }
   header .logo span { width: 21%; }
