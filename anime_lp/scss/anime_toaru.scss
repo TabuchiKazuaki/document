@@ -985,18 +985,12 @@ header {
 			margin: 40px 0 40px;
 			a {
 				display: block;
+				background: #3a2;
 				padding: 15px 0;
 				text-align: center;
 				border-radius: 6px;
-				border: 3px solid #3a2;
 				font-size: 30px;
-				color: #3a2;
-
-				&:hover {
-					background: #3a2;
-					color: #fff;
-					opacity: 1;
-				}
+				color: #fff;
 			}
 		}
 		.c12_item {
@@ -2137,10 +2131,6 @@ footer {
 					border: 2px solid #3a2;
 					font-size: calc(44vw/12);
 
-					&:hover {
-						background: none;
-						color: #3a2;
-					}
 				}
 			}
 			.c12_item {
