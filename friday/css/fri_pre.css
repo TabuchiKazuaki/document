@@ -188,18 +188,17 @@ header .h_w_ani .h_ani {
   color: #fff;
 }
 .c_heading .c_h_t {
-  margin: 22px 0 0;
   text-align: center;
   font-size: 23px;
   font-weight: bold;
 }
 .c_heading .c_h_p {
-  max-width: 638px;
+  max-width: 663px;
   margin: 22px auto 0;
 }
 .c_heading .c_i_h {
   max-width: 565px;
-  margin: 30px auto 0;
+  margin: 35px auto 0;
 }
 .c_heading .c_h_bt {
   max-width: 681px;
@@ -214,6 +213,20 @@ header .h_w_ani .h_ani {
   font-size: 28px;
   font-weight: bold;
   text-align: center;
+  color: #fff;
+}
+.c_heading .c_h_btn {
+  margin: 40px 0 0;
+}
+.c_heading .c_h_btn a {
+  display: block;
+  background: #cfa64d;
+  border-radius: 4px;
+  padding: 19px 0;
+  max-width: 681px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 31px;
   color: #fff;
 }
 
@@ -255,7 +268,7 @@ header .h_w_ani .h_ani {
   margin: 30px 0 0;
 }
 .contents .c_box li {
-  background: #202121;
+  background: #eeeeee;
   padding: 30px 16.5px 35px;
   max-width: 768px;
   margin: 18px auto 0;
@@ -263,7 +276,7 @@ header .h_w_ani .h_ani {
 }
 .contents .c_box li .icon {
   position: relative;
-  background: #ddbd1a;
+  background: #caa24d;
   max-width: 91px;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
@@ -274,7 +287,7 @@ header .h_w_ani .h_ani {
   font-weight: bold;
   text-align: center;
   white-space: nowrap;
-  color: #202121;
+  color: #fff;
 }
 .contents .c_box li .icon:before {
   content: ' ';
@@ -282,7 +295,7 @@ header .h_w_ani .h_ani {
   position: absolute;
   width: 0;
   border: 7px solid transparent;
-  border-top-color: #ddbd1a;
+  border-top-color: #caa24d;
   top: 100%;
   left: 53%;
   margin-left: -10px;
@@ -302,6 +315,9 @@ header .h_w_ani .h_ani {
   line-height: 1.35;
   letter-spacing: 1.3px;
 }
+.contents .c_box li .c_ih span {
+  font-size: 37px;
+}
 .contents .c_box li .pic {
   margin: 28px auto 0;
   max-width: 644px;
@@ -319,6 +335,22 @@ header .h_w_ani .h_ani {
   font-size: 13px;
   line-height: 1.3;
   color: #777;
+}
+.contents .h_b_btn {
+  margin: 62px 0 58px;
+}
+.contents .h_b_btn a {
+  display: block;
+  background: #cfa64d;
+  padding: 18px 0;
+  letter-spacing: 1.5px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 30px;
+  color: #fff;
+}
+.contents .h_b_btn a span {
+  font-size: 32px;
 }
 .contents .c_zwei {
   padding: 0 0 50px;
@@ -1249,8 +1281,8 @@ footer small {
     position: static;
     width: 100%;
     background: #000;
-    height: 66px;
-    padding: 14px 0 0;
+    height: auto;
+    padding: 1.1% 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
@@ -1292,71 +1324,6 @@ footer small {
   }
   header .h_wrap .h_v figure {
     max-width: 240px;
-  }
-  header .h_w_ani {
-    position: relative;
-    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/16c96ceec5c23ec61219f9f1af4608fe_deca7f85f05752489d38327b8f8275d0.png) center center no-repeat;
-    background-size: cover;
-    height: 720px;
-    padding: 6px 0 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  header .h_w_ani .h_ani {
-    position: relative;
-    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/c8ebcccf82f473d60ebf4cdde069a644_56f320bff05c8e06a896a54da6650278.png) center top no-repeat;
-    background-size: contain;
-    max-width: 1157px;
-    margin: 0 auto;
-    height: 648px;
-  }
-  header .h_w_ani .h_h {
-    width: 39%;
-    padding: 231px 0 0;
-    margin: 0 auto;
-  }
-  header .h_w_ani .h_t {
-    position: static;
-    bottom: 0;
-    width: 100%;
-    background: #000;
-    height: 66px;
-    padding: 12px 0 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  header .h_w_ani .h_t figure {
-    max-width: 651px;
-    margin: 0 auto;
-    line-height: 0;
-    text-align: center;
-  }
-}
-@media screen and (max-width: 1157px) {
-  header .h_w_ani {
-    position: relative;
-    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/16c96ceec5c23ec61219f9f1af4608fe_deca7f85f05752489d38327b8f8275d0.png) center center no-repeat;
-    background-size: cover;
-    padding: 0.4% 0 0;
-    height: auto;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  header .h_w_ani .h_ani {
-    height: auto;
-  }
-  header .h_w_ani .h_h {
-    width: 40%;
-    padding: 19.8% 0 20%;
-  }
-  header .h_w_ani .h_t {
-    margin: 0.2% 0 0;
-  }
-  header .h_w_ani .h_t figure {
-    max-width: 651px;
-    margin: 0 auto;
-    line-height: 0;
-    text-align: center;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1405,7 +1372,7 @@ footer small {
     height: auto;
   }
   header .h_wrap .h_main {
-    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/91efe20a58522b40d122ff5854095bf6_059ec603f5f28f2154218d9f3d972423.png) center top no-repeat;
+    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/5e873fef2cd4199fe92122b4dfbccc97_399ebd132f5d314232236fcf349f714f.png) center top no-repeat;
     background-size: cover;
   }
   header .h_wrap .h_asia {
@@ -1429,7 +1396,7 @@ footer small {
     padding: 1.9% 0 1.8%;
   }
   header .h_wrap .h_t figure {
-    width: 87%;
+    width: 69%;
   }
   header .h_wrap .h_h {
     width: 50%;
@@ -1473,7 +1440,7 @@ footer small {
   }
 
   .c_heading {
-    padding: 5.3% 0 5.5%;
+    padding: 5.3% 0 5%;
   }
   .c_heading .c_h_h {
     width: 47%;
@@ -1482,12 +1449,11 @@ footer small {
     letter-spacing: 1.3px;
   }
   .c_heading .c_h_t {
-    margin: 3.2% 0 0;
     font-size: calc(36vw/12);
   }
   .c_heading .c_h_p {
-    width: 93%;
-    margin: 3% auto 0;
+    width: 96%;
+    margin: 4.5% auto 0;
   }
   .c_heading .c_i_h {
     width: 82%;
@@ -1501,6 +1467,14 @@ footer small {
     border-radius: 5px;
     font-size: calc(44vw/12);
     letter-spacing: 1.3px;
+  }
+  .c_heading .c_h_btn {
+    margin: 40px 0 0;
+  }
+  .c_heading .c_h_btn a {
+    border-radius: 3px;
+    padding: 3% 0;
+    font-size: calc(50vw/12);
   }
 
   .contents {
@@ -1557,7 +1531,7 @@ footer small {
     position: absolute;
     width: 0;
     border: 7px solid transparent;
-    border-top-color: #ddbd1a;
+    border-top-color: #caa24d;
     top: 100%;
     left: 53%;
     margin-left: -10px;
@@ -1576,6 +1550,9 @@ footer small {
     line-height: 1.3;
     letter-spacing: 1.3px;
   }
+  .contents .c_box li .c_ih span {
+    font-size: calc(58vw/12);
+  }
   .contents .c_box li .pic {
     margin: 3.8% auto 0;
   }
@@ -1587,6 +1564,17 @@ footer small {
     margin: 2% 0 0;
     font-size: calc(21vw/12);
     line-height: 1.3;
+  }
+  .contents .h_b_btn {
+    margin: 9% 0 8.5%;
+  }
+  .contents .h_b_btn a {
+    padding: 2.8% 0;
+    border-radius: 3px;
+    font-size: calc(47vw/12);
+  }
+  .contents .h_b_btn a span {
+    font-size: calc(51vw/12);
   }
   .contents .c_zwei {
     padding: 0 0 8%;
@@ -2218,11 +2206,10 @@ footer small {
     letter-spacing: 1.3px;
   }
   .c_heading .c_h_t {
-    margin: 3.2% 0 0;
     font-size: calc(38vw/12);
   }
   .c_heading .c_h_p {
-    width: 93%;
+    width: 96%;
     margin: 3% auto 0;
   }
   .c_heading .c_i_h {
@@ -2291,7 +2278,7 @@ footer small {
     position: absolute;
     width: 0;
     border: 5px solid transparent;
-    border-top-color: #ddbd1a;
+    border-top-color: #caa24d;
     top: 100%;
     left: 58%;
     margin-left: -10px;
@@ -2308,6 +2295,9 @@ footer small {
     font-size: calc(56vw/12);
     line-height: 1.4;
     letter-spacing: 1.35px;
+  }
+  .contents .c_box li .c_ih span {
+    font-size: calc(62vw/12);
   }
   .contents .c_box li .pic {
     margin: 3.8% auto 0;
