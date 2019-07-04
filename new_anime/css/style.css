@@ -68,6 +68,14 @@ header p {
   max-width: 152px;
   padding: 13px 0 10px 15px;
 }
+header div {
+  background: url(https://bit.ly/2BP9PKj) center top no-repeat;
+  background-size: cover;
+}
+header div img {
+  display: block;
+  margin: 0 auto;
+}
 
 .main {
   width: 750px;
@@ -273,10 +281,17 @@ footer small {
     max-width: 21%;
     padding: 2% 0 2% 3%;
   }
+  header div {
+    background: url(https://goo.gl/zfGwFA) center top no-repeat;
+    background-size: cover;
+  }
+  header div img {
+    width: 100%;
+  }
 
   .week {
     width: 100%;
-    margin: 0 auto 6.5%;
+    margin: 0 auto 6.5% auto;
   }
   .week li {
     padding-bottom: 1%;
