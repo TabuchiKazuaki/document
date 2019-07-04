@@ -1,19 +1,20 @@
-*{margin: 0; padding:0;}
+
+body *{margin: 0; padding:0;}
 body { line-height: 1; min-width: 320px; font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important; color: #fff; margin: 0 auto; background: #000;
 	li {
 		list-style: none;
 	}
 }
 a {
-	transition: .3s;
+	display: block;
+	transition: .8s;
 	text-decoration: none;
 	&:hover {
 		text-decoration: none;
-		opacity: .8;
+		opacity: .5;
 	}
 }
-img  { width: 100%;}
-
+img  { width: 100%; height: auto;}
 
 
 
@@ -295,6 +296,8 @@ footer {
 			border-bottom: solid 2px #50c300;
 		}
 	}
+
+
 
 	.main {
 		width: 96%;

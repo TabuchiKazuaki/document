@@ -1,4 +1,4 @@
-* {
+body * {
   margin: 0;
   padding: 0;
 }
@@ -16,17 +16,19 @@ body li {
 }
 
 a {
-  -webkit-transition: .3s;
-  transition: .3s;
+  display: block;
+  -webkit-transition: .8s;
+  transition: .8s;
   text-decoration: none;
 }
 a:hover {
   text-decoration: none;
-  opacity: .8;
+  opacity: .5;
 }
 
 img {
   width: 100%;
+  height: auto;
 }
 
 header {
