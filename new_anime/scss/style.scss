@@ -203,6 +203,7 @@ article:nth-of-type(5) {
 	}
 }
 
+body {
 footer {
 	width: 750px;
 	margin: 0 auto;
@@ -241,7 +242,7 @@ footer {
 		color: #919191;
 	}
 }
-
+}
 
 
 
@@ -386,30 +387,32 @@ article:nth-of-type(5) {
 	}
 }
 
-footer {
-	width: 93%;
-	margin: 0 auto;
-	padding-bottom: 5%;
-	p {
-		margin-bottom: 5%;
-		font-size: calc(32vw/12);
-		line-height: 145%;
-	}
-	.links {
-		margin-bottom: 5%;
-	}
-	ul {
-		font-size: x-small;
-		margin-bottom: 0;
-		li {
-			a {
+	body {
+		footer {
+			width: 93%;
+			margin: 0 auto;
+			padding-bottom: 5%;
+			p {
+				margin-bottom: 5%;
 				font-size: calc(32vw/12);
-				line-height: 140%;
+				line-height: 145%;
+			}
+			.links {
+				margin-bottom: 5%;
+			}
+			ul {
+				font-size: x-small;
+				margin-bottom: 0;
+				li {
+					a {
+						font-size: calc(32vw/12);
+						line-height: 140%;
+					}
+				}
+			}
+			small {
+				font-size: calc(32vw/12);
 			}
 		}
 	}
-	small {
-		font-size: calc(32vw/12);
-	}
-}
 }

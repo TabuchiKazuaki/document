@@ -229,40 +229,40 @@ article:nth-of-type(5) {
   border-radius: 8px;
 }
 
-footer {
+body footer {
   width: 750px;
   margin: 0 auto;
   padding-bottom: 40px;
 }
-footer p {
+body footer p {
   margin-bottom: 26px;
   font-size: 16px;
   line-height: 1.5em;
   color: #919191;
 }
-footer .links {
+body footer .links {
   margin-bottom: 24px;
 }
-footer ul {
+body footer ul {
   margin-bottom: 5px;
 }
-footer ul li {
+body footer ul li {
   display: inline-block;
   color: #919191;
 }
-footer ul li a {
+body footer ul li a {
   display: inline-block;
   font-size: 16px;
   line-height: 1.35em;
   color: #919191 !important;
 }
-footer ul li:after {
+body footer ul li:after {
   content: " \007c ";
 }
-footer ul li:last-child:after {
+body footer ul li:last-child:after {
   content: none;
 }
-footer small {
+body footer small {
   display: block;
   font-size: 16px;
   color: #919191;
@@ -403,28 +403,28 @@ footer small {
     border-radius: 4px;
   }
 
-  footer {
+  body footer {
     width: 93%;
     margin: 0 auto;
     padding-bottom: 5%;
   }
-  footer p {
+  body footer p {
     margin-bottom: 5%;
     font-size: calc(32vw/12);
     line-height: 145%;
   }
-  footer .links {
+  body footer .links {
     margin-bottom: 5%;
   }
-  footer ul {
+  body footer ul {
     font-size: x-small;
     margin-bottom: 0;
   }
-  footer ul li a {
+  body footer ul li a {
     font-size: calc(32vw/12);
     line-height: 140%;
   }
-  footer small {
+  body footer small {
     font-size: calc(32vw/12);
   }
 }
