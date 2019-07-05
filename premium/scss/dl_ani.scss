@@ -34,129 +34,55 @@ header {
 		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/f557318110eda0d1d5d7b5935abc87b5_d8557e6ccd1541cbd904b1c1b4dc485c.png) center center no-repeat #000;
 		background-size: cover;
 		height: 460px;
-		padding: 30px 0 0;
-
-
-		.h_box {
-			position: relative;
-			max-width: 768px;
-			margin: 0 auto;
-
-
-
-			.h_h {
-				max-width: 375px;
-				margin: 0 auto;
-			}
-		}
 
 		.h_inner {
-			overflow: hidden;
-			max-width: 681px;
-			margin: 35px auto 0;
-			.h_img {
-				float: left;
-				max-width: 231px;
+			position: relative;
+			background: #000;
+			max-width: 750px;
+			height: 460px;
+			margin: 0 auto;
+			.h_t {
 				line-height: 0;
-				text-align: right;
+
 			}
-			.h_i_r{
-				float: right;
-				margin: 0 6px 0 0;
-				.h_icon {
-					display: inline-block;
-					padding: 5px 16px;
-					margin: 0 0 0;
-					border: 2px solid #fff;
-					font-size: 21px;
-					letter-spacing: 1.5px;
-					color: #fff;
-				}
-				figure {
-					display: block;
-					margin: 25px 0 0;
-					line-height: 0;
-					max-width: 408px;
-				}
-				span {
-					display: block;
-					margin: 22px 0 0;
-					font-size: 18.5px;
-					letter-spacing: 2px;
-					color: #fff;
-				}
+			.h_h {
+				max-width: 375px;
+				margin: 63px auto 0;
+				line-height: 0;
+				max-width: 586px;
+			}
+			.h_b {
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				line-height: 0;
+
 			}
 		}
 	}
 }
 
-.anchor {
-	background: #000;
-	padding: 60px 0 0;
-	.wrap {
-		margin: 0 auto;
-	}
-	.a_box {
-		background: #1a1a1a;
-		padding: 42px 21px 34px;
-		border-radius: 6px;
-		color: #fff;
-		.a_h {
-			padding: 0 0 0 15px;
-			line-height: 1.4;
-			border-left: 5px solid #3a2;
-			letter-spacing: 1px;
-			font-size: 29px;
-			font-weight: normal;
-		}
-		.a_t {
-			display: block;
-			margin: 15px 0 0 20px;
-			border-radius: 8px;
-			line-height: 1.6;
-			letter-spacing: 1.8px;
-			font-weight: bold;
-			font-size: 29px;
-			.a_s {
-				display: block;
-				text-indent: 17px;
-				letter-spacing: 1.4px;
-				font-weight: normal;
-				font-size: 24px;
-			}
-			.a_s_c {
-				display: inline-block;
-				margin: 0 0 0 -8px;
-				color: #3a2;
-			}
-		}
-	}
 
-	.date {
-		margin: 40px 0 0;
-		text-align: center;
-		font-size: 20px;
-		letter-spacing: 1.1px;
-		color: #fff;
+.info {
+	padding: 55px 0 80px;
+	.i_h {
+		font-size: 26px;
+		line-height: 1.4;
+		font-weight: normal;
 		span {
-			font-size: 23px;
+			color: #e5c200;
 		}
 	}
-	.more {
-		padding: 0 0 63px;
-		margin: 40px auto 0;
-		width: 95%;
-		a {
-			display: block;
-			background: #33aa22;
-			padding: 25px 0;
-			border-radius: 6px;
-			text-align: center;
-			font-weight: bold;
-			font-size: 28px;
-			letter-spacing: 1.5px;
-			color: #fff;
+	.i_t {
+		margin: 4px 0 0;
+		font-weight: normal;
+		font-size: 23px;
+		line-height: 1.4;
+		color: #ababab;
+		span {
+			color: #e5c200;
 		}
+
 	}
 }
 
@@ -433,47 +359,22 @@ footer {
 			}
 		}
 		.h_wrap {
-			background: url(https://bit.ly/2U73oxb) center center repeat;
-			background-size: cover;
-			padding: 4.3% 0 0;
-			.h_box {
-				width: 91%;
-				.h_logo {
-					position: absolute;
-					top: -5%;
-					left: -2.5%;
-					width: 12%;
-				}
-				.h_h {
-					width: 61%;
-				}
-			}
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/f557318110eda0d1d5d7b5935abc87b5_d8557e6ccd1541cbd904b1c1b4dc485c.png) center center no-repeat;
+			height: auto;
 
 			.h_inner {
-				margin: 4.8% 0 0;
-				.h_img {
-					float: left;
-					width: 34%;
+				height: auto;
+				margin: 0 auto;
+				.h_t {
+					line-height: 0;
 				}
-				.h_i_r{
-					width: 60%;
-					padding: 0;
-					.h_icon {
-						padding: 1.2% 3.5% 1.5%;
-						margin: 0;
-						border: 1.5px solid #fff;
-						font-size: calc(35vw/12);
-						letter-spacing: 1.55px;
-					}
-					figure {
-						width: 100%;
-						margin: 6.5% 0 0;
-					}
-					span {
-						margin: 5% 0 0;
-						font-size: calc(32vw/12);
-						letter-spacing: 1.6px;
-					}
+				.h_h {
+					width: 79%;
+					margin: 8.4% auto 8.2%;
+				}
+				.h_b {
+					position: static;
+					line-height: 0;
 				}
 			}
 		}
@@ -780,45 +681,25 @@ footer {
 		.logo {
 			padding: 1.53% 0 1.58% 2.5%;
 			span {
+				line-height: 0;
 				width: 21%;
 			}
 		}
 		.h_wrap {
-			background: url(https://bit.ly/2U73oxb) center center repeat;
-			background-size: cover;
-			padding: 4.3% 0 0;
-
-			.h_box {
-				width: 90%;
-				padding: 0 0 0;
-				.h_h {
-					width: 56%;
-				}
-			}
+			background: none;
 
 			.h_inner {
-				margin: 4.2% 0 0;
-				.h_img {
-					float: left;
-					width: 35%;
+				margin: 0 auto;
+				.h_t {
+					line-height: 0;
 				}
-				.h_i_r{
-					width: 58%;
-					.h_icon {
-						padding: 1.2% 3.5% 1.5%;
-						border: 1px solid #fff;
-						font-size: calc(37vw/12);
-						letter-spacing: 1.55px;
-					}
-					figure {
-						width: 100%;
-						margin: 6.5% 0 0;
-					}
-					span {
-						margin: 5% 0 0;
-						font-size: calc(34vw/12);
-						letter-spacing: 1.6px;
-					}
+				.h_h {
+					width: 79%;
+					margin: 8.1% auto 8.2%;
+				}
+				.h_b {
+					position: static;
+					line-height: 0;
 				}
 			}
 		}
