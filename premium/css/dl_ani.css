@@ -166,6 +166,9 @@ header .h_wrap .h_inner .h_b {
 .contents .c_s_item li:nth-child(3) figure {
   max-width: 663px;
 }
+.contents .c_s_feature {
+  position: relative;
+}
 .contents .c_s_feature li {
   background: #1f2020;
   padding: 47px 10px 50px;
@@ -185,6 +188,11 @@ header .h_wrap .h_inner .h_b {
 .contents .c_s_feature li figure {
   max-width: 647px;
   margin: 20px auto 0;
+}
+.contents .c_s_feature li .cs_f_i {
+  position: absolute;
+  left: -19px;
+  bottom: -23px;
 }
 .contents .cs_las {
   margin: 0 0 0;

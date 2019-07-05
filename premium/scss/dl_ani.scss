@@ -167,6 +167,7 @@ header {
 	}
 
 	.c_s_feature {
+		position: relative;
 		li {
 			background: #1f2020;
 			padding: 47px 10px 50px;
@@ -185,6 +186,11 @@ header {
 			figure {
 				max-width: 647px;
 				margin: 20px auto 0;
+			}
+			.cs_f_i {
+				position: absolute;
+				left: -19px;
+				bottom: -23px;
 			}
 		}
 	}
