@@ -240,6 +240,10 @@ header {
 	.c_zwei {
 		padding: 0 0 50px;
 		margin: 45px 0 0;
+		border-bottom: 1px solid #606060;
+		&:first-child {
+			border-bottom: none;
+		}
 		figure {
 			line-height: 0;
 		}

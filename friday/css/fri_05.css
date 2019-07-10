@@ -254,6 +254,10 @@ header .h_w_ani .h_ani {
 .contents .c_zwei {
   padding: 0 0 50px;
   margin: 45px 0 0;
+  border-bottom: 1px solid #606060;
+}
+.contents .c_zwei:first-child {
+  border-bottom: none;
 }
 .contents .c_zwei figure {
   line-height: 0;
