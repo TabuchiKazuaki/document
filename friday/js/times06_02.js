@@ -6,7 +6,8 @@ $(document).ready(function() {
 		$('#bag030712').hide();
 		$('#bag040712').hide();
 		$('#bag050712').hide();
-
+		$('#bag060712').hide();
+		$('#bag070712').hide();
 	}
 
 	var now = new Date();
@@ -16,7 +17,8 @@ $(document).ready(function() {
 		$('#bag030712').show();
 		$('#bag040712').show();
 		$('#bag050712').show();
-
+		$('#bag060712').show();
+		$('#bag070712').show();
 	}
 
 	var now = new Date();
@@ -26,6 +28,7 @@ $(document).ready(function() {
 		$('#bag030712').hide();
 		$('#bag040712').hide();
 		$('#bag050712').hide();
-
+		$('#bag060712').hide();
+		$('#bag070712').hide();
 	}
 });
