@@ -1505,7 +1505,6 @@ footer {
 		}
 		.c_win {
 			margin: 7% 0 0;
-
 		}
 
 		.c_sub_h {
@@ -2619,6 +2618,55 @@ footer {
 		.c_sub_h {
 			width: 59%;
 			margin: 7% auto 0;
+		}
+
+		.c_p_list {
+			margin: 8% 0 12%;
+			li {
+				padding: 0 0 0 7%;
+				line-height: 1.5;
+				font-size: calc(47vw/12);
+				text-indent: -1.6%;
+				&:before {
+					top: -18%;
+					left: -3%;
+					font-size: calc(85vw/12);
+					line-height: 1;
+				}
+
+				&:nth-child(2) {
+					&:before {
+						top: -10%;
+					}
+				}
+			}
+		}
+		.past {
+			padding: 9% 0 9%;
+			figure {
+				line-height: 0;
+			}
+			.p_btn {
+				margin: 5.5% 0 0;
+				a {
+					padding: 3.2% 0;
+					border-radius: 4px;
+					font-size: calc(50vw/12);
+				}
+			}
+		}
+		.more {
+			padding: 8% 0 7.7%;
+			.m_text {
+				margin: 7.5% 0 0;
+				font-size: calc(45vw/12);
+				line-height: 1.65;
+			}
+		}
+		.pickup {
+			width: 61%;
+			margin: 14% auto 0;
+			line-height: 0;
 		}
 
 		.c_box {
