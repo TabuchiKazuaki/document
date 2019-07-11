@@ -85,6 +85,8 @@ $(document).ready(function() {
 		$('#t03').show();
 		$('#t04').show();
 		$('#t05').show();
+		$('#bag14').show();
+		$('#bag14_new').hide();
 	}
 
 	var now = new Date();
@@ -95,6 +97,14 @@ $(document).ready(function() {
 		$('#t03').hide();
 		$('#t04').hide();
 		$('#t05').hide();
+	}
+
+	var now = new Date();
+	var tt03 = new Date("2019/07/14 23:00");
+	if (now.getTime() > tt03.getTime()) {
+		$('#bag14').hide();
+		$('#bag14_new').show();
+		$('#bag01').text('今すぐ見る');
 	}
 });
 
