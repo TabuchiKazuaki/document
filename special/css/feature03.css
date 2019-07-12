@@ -171,6 +171,20 @@ header .h_wrap .h_t span {
   border-bottom: none;
 }
 
+.c_more {
+  margin: 40px 0 0;
+}
+.c_more a {
+  display: block;
+  background: #3a2;
+  padding: 28px 0;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  color: #fff;
+}
+
 .more {
   background: #eee;
   padding: 35px 0 33px;
@@ -495,6 +509,15 @@ footer small {
     letter-spacing: 1.3px;
   }
 
+  .c_more {
+    margin: 5% 0 0;
+  }
+  .c_more a {
+    padding: 4% 0;
+    border-radius: 5px;
+    font-size: calc(43vw/12);
+  }
+
   .more {
     padding: 5% 0 4.6%;
   }
@@ -734,6 +757,15 @@ footer small {
     border-radius: 4px;
     font-size: calc(31vw/12);
     letter-spacing: 1.3px;
+  }
+
+  .c_more {
+    margin: 5% 0 0;
+  }
+  .c_more a {
+    padding: 4% 0;
+    border-radius: 5px;
+    font-size: calc(43vw/12);
   }
 
   .more {
