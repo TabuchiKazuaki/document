@@ -104,7 +104,7 @@ header {
 			}
 			.c_t {
 				margin: 12px 0 0;
-				letter-spacing: 1.4;
+				letter-spacing: 1.4px;
 				line-height: 1.5;
 				font-size: 22px;
 				font-weight: bold;
@@ -384,87 +384,91 @@ footer {
 		}
 
 		.h_wrap {
-			background: url(https://bit.ly/2WFDVZu) center center no-repeat;
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/d65efa2d1b9db0972f2597bdeebaa37d_cd8a19343e2efdd72af8dcf81ae27b7a.png) center center no-repeat;
 			background-size: cover;
 			.h_box {
-				width: 80%;
-				padding: 5.3% 0 5.4%;
+				padding: 8.2% 0 8%;
+				margin: 0 auto;
 				height: auto;
 			}
 			.h_h {
-				max-width: 750px;
+				width: 81%;
 				margin: 0 auto;
+			}
+			.h_t {
+				width: 85%;
+				padding: 2% 0;
+				margin: 3% auto 0;
+				border: 2px solid #fff;
+				border-radius: 6px;
+				font-size: calc(54vw/12);
+				letter-spacing: 1.4px;
+				span {
+					display: inline-block;
+					margin: 0 0.5% 0 0;
+					letter-spacing: 2.5px;
+				}
 			}
 		}
 	}
 
 	.contents {
-		padding: 60px 0 0;
+		padding: 8% 0 0;
 		.c_h {
-			padding: 0 0 0 18px;
+			padding: 0 0 0 2.5%;
 			line-height: 1.4;
-			border-left: 6px solid #3a2;
-			font-size: 32px;
+			border-left: 4.5px solid #3a2;
+			font-size: calc(48vw/12);
 			span {
-				font-size: 36px;
+				font-size: calc(54vw/12);
 			}
 		}
 		.ch_m {
-			margin: 57px 0 0;
+			margin: 8% 0 0;
 		}
 		.c_inner {
 
 		}
 		.c_item {
 			li {
-				padding: 55px 0 62px;
+				padding: 8% 0 9%;
 				border-bottom: 1px solid #606060;
 
 				&:first-child {
-					padding: 45px 0 62px;
+					padding: 6.3% 0 8%;
 				}
 				figure {
-					margin: 0 0 45px;
+					margin: 0 0 6.2%;
 					line-height: 0;
 				}
 				.bagg {
 					display: inline-block;
 					background: #f0163a;
-					padding: 3px 15px;
-					border-radius: 4px;
-					text-align: center;
-					font-size: 18px;
+					padding: 0.6% 2.2%;
+					border-radius: 3px;
+					font-size: calc(29vw/12);
 					letter-spacing: 1.3px;
-					color: #fff;
 				}
 				.c_t {
-					margin: 12px 0 0;
-					letter-spacing: 1.4;
+					margin: 1.8% 0 0;
+					letter-spacing: 1.4px;
 					line-height: 1.5;
-					font-size: 22px;
+					font-size: calc(35vw/12);
 					font-weight: bold;
 					color: #666;
 				}
 				.c_btn {
-					margin: 37px 0 0;
+					margin: 5.2% 0 0;
 					a {
-						display: block;
-						background: #3a2;
-						padding: 18px 0;
-						text-align: center;
-						font-size: 30px;
-						border-radius: 5px;
-						color: #fff;
+						padding: 2.6% 0;
+						font-size: calc(48vw/12);
+						border-radius: 4px;
 					}
 				}
 			}
 		}
 		.c_col {
-			padding: 41px 0 55px;
-			border-bottom: 1px solid #606060;
-			a {
-				display: block;
-			}
+			padding: 6% 0 7%;
 			dl {
 				display: flex;
 				align-items: center;
@@ -474,59 +478,43 @@ footer {
 				dt {
 					width: 39%;
 					margin: 0 0 0 4%;
-					font-size: 23px;
-					font-weight: bold;
+					font-size: calc(38vw/12);
 					line-height: 1.4;
-					color: #000;
 
 					.bagg {
 						display: inline-block;
-						background: #f0163a;
-						padding: 1px 15px;
-						margin: 0 0 8px;
+						padding: 0.4% 5.5%;
+						margin: 0 0 1.8%;
 						border-radius: 4px;
-						text-align: center;
-						font-size: 18px;
-						font-weight: normal;
+						font-size: calc(29vw/12);
 						letter-spacing: 1.3px;
-						color: #fff;
 					}
 				}
 			}
 		}
-		.b_n {
-			border-bottom: none;
-		}
 	}
 
 	.more {
-		background: #eee;
-		padding: 35px 0 33px;
+		padding: 5% 0 4.6%;
 		.m_h {
-			font-size: 28px;
-			color: #33aa22;
+			font-size: calc(45vw/12);
 			span {
 				display: inline-block;
-				margin: 0 5px 0 0;
-				font-size: 32px;
+				margin: 0 0.5% 0 0;
+				font-size: calc(48vw/12);
 			}
 		}
 		.m_t {
-			margin: 11px 0 0;
-			font-size: 30px;
+			margin: 1.7% 0 0;
+			font-size: calc(47vw/12);
 			line-height: 1.3;
-			color: #000;
 		}
 		.m_btn {
-			margin: 32px 0 0;
+			margin: 5% 0 0;
 			a {
-				display: block;
-				background: #3a2;
-				padding: 28px 0;
-				border-radius: 6px;
-				text-align: center;
-				font-size: 28px;
-				color: #fff;
+				padding: 4% 0;
+				border-radius: 5px;
+				font-size: calc(43vw/12);
 			}
 		}
 	}
@@ -682,6 +670,113 @@ footer {
 				padding: 5.3% 0 5.4%;
 			}
 			.h_h {
+			}
+		}
+	}
+
+	.contents {
+		padding: 8% 0 0;
+		.c_h {
+			padding: 0 0 0 2.5%;
+			line-height: 1.4;
+			border-left: 4.5px solid #3a2;
+			font-size: calc(50vw/12);
+			span {
+				font-size: calc(56vw/12);
+			}
+		}
+		.ch_m {
+			margin: 8% 0 0;
+		}
+		.c_inner {
+
+		}
+		.c_item {
+			li {
+				padding: 8% 0 9%;
+				border-bottom: 1px solid #606060;
+
+				&:first-child {
+					padding: 6.3% 0 8%;
+				}
+				figure {
+					margin: 0 0 6.2%;
+					line-height: 0;
+				}
+				.bagg {
+					display: inline-block;
+					background: #f0163a;
+					padding: 0.6% 2.2%;
+					border-radius: 3px;
+					font-size: calc(31vw/12);
+					letter-spacing: 1.3px;
+				}
+				.c_t {
+					margin: 1.8% 0 0;
+					letter-spacing: 1.4px;
+					line-height: 1.5;
+					font-size: calc(37vw/12);
+					font-weight: bold;
+					color: #666;
+				}
+				.c_btn {
+					margin: 5.2% 0 0;
+					a {
+						padding: 2.6% 0;
+						font-size: calc(50vw/12);
+						border-radius: 4px;
+					}
+				}
+			}
+		}
+		.c_col {
+			padding: 6% 0 7%;
+			dl {
+				display: flex;
+				align-items: center;
+				dd {
+					width: 57%;
+				}
+				dt {
+					width: 39%;
+					margin: 0 0 0 4%;
+					font-size: calc(40vw/12);
+					line-height: 1.4;
+
+					.bagg {
+						display: inline-block;
+						padding: 0.4% 5.5%;
+						margin: 0 0 1.8%;
+						border-radius: 4px;
+						font-size: calc(31vw/12);
+						letter-spacing: 1.3px;
+					}
+				}
+			}
+		}
+	}
+
+	.more {
+		padding: 5% 0 4.6%;
+		.m_h {
+			font-size: calc(47vw/12);
+			span {
+				display: inline-block;
+				margin: 0 0.5% 0 0;
+				font-size: calc(50vw/12);
+			}
+		}
+		.m_t {
+			margin: 1.7% 0 0;
+			font-size: calc(49vw/12);
+			line-height: 1.3;
+		}
+		.m_btn {
+			margin: 5% 0 0;
+			a {
+				padding: 4% 0;
+				border-radius: 5px;
+				font-size: calc(45vw/12);
 			}
 		}
 	}
