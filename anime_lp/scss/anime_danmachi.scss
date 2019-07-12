@@ -252,9 +252,9 @@ header {
 				.c_c_i {
 					float: left;
 					width: 60%;
-					margin: 35px 0 0;
+					margin: 174px 0 0;
 					.c_c_h {
-						padding: 0 0 14px;
+						padding: 0 0 10px;
 						font-size: 31px;
 						font-weight: bold;
 						border-bottom: 1px solid #fff;
@@ -263,27 +263,28 @@ header {
 						.c_c_span {
 							font-size: 17px;
 						}
-						.cv {
-							display: block;
-							font-size: 17px;
-							font-weight: normal;
-							color: #ababab;
-						}
+					}
+					.cv {
+						display: block;
+						margin: 16px 0 0;
+						font-size: 21px;
+						font-weight: bold;
+						color: #fff;
 					}
 					.c_c_t {
 						max-width: 400px;
 						width: 87%;
 						margin: 50px 0 0;
-						font-size: 25px;
+						font-size: 26px;
 						text-align: justify;
-						letter-spacing: 1.3px;
+						letter-spacing: 1.1px;
 						line-height: 1.4;
 						color: #ababab;
 					}
 				}
 				.c_c_img {
 					float: right;
-					max-width: 235px;
+					max-width: 283px;
 					width: 40%;
 					margin: 0 15px 0 0;
 				}
@@ -292,7 +293,7 @@ header {
 					.c_c_i {
 						float: right;
 						width: 66%;
-						margin: 0;
+						margin: 76px 0 0;
 						text-align: right;
 						.c_c_h {
 							margin: 75px 0 0;
@@ -301,19 +302,19 @@ header {
 							float: right;
 							max-width: 400px;
 							width: 85%;
-							margin: 50px 0 0;
+							margin: 34px 0 0;
 						}
 					}
 					.c_c_img {
 						float: left;
-						max-width: 269px;
+						max-width: 176px;
 						width: 31%;
-						margin: 0 0 0 0;
+						margin: 0 0 0 43px;
 					}
 				}
 
 				&:nth-child(3) {
-					margin: 135px 0 0;
+					margin: 104px 0 0;
 					.c_c_i {
 						width: 63%;
 						margin: 180px 0 0;
@@ -327,7 +328,7 @@ header {
 					}
 					.c_c_img {
 						float: right;
-						max-width: 237px;
+						max-width: 188px;
 						width: 35.5%;
 						margin: 0 2.5% 0 0;
 					}
@@ -1625,8 +1626,8 @@ footer {
 					box-sizing: border-box;
 
 					.c_c_i {
-						width: 60%;
-						margin: 6.5% 0 0;
+						width: 59%;
+						margin: 24.7% 0 0;
 						.c_c_h {
 							padding: 0 0 3%;
 							font-size: calc(48vw/12);
@@ -1635,13 +1636,15 @@ footer {
 							.c_c_span {
 								font-size: calc(27vw/12);
 							}
-							.cv {
-								font-size: calc(28vw/12);
-							}
+						}
+						.cv {
+							margin: 3% 0 0;
+							font-size: calc(33vw/12);
+							letter-spacing: 1.2px;
 						}
 						.c_c_t {
 							width: 91%;
-							margin: 14% 0 0;
+							margin: 8.5% 0 0;
 							font-size: calc(37vw/12);
 							letter-spacing: 1.3px;
 							line-height: 1.5;
@@ -1649,8 +1652,8 @@ footer {
 						}
 					}
 					.c_c_img {
-						width: 37%;
-						margin: 0 1.5% 0 1.5%;
+						width: 41%;
+						margin: 0 0;
 					}
 
 					&:first-child {
@@ -1662,16 +1665,16 @@ footer {
 							width: 61%;
 							margin: 0;
 							.c_c_h {
-								margin: 21.5% 0 0;
+								margin: 39% 0 0;
 							}
 							.c_c_t {
 								width: 87%;
-								margin: 11% 0 0;
+								margin: 8.7% 0 0;
 							}
 						}
 						.c_c_img {
-							width: 39%;
-							margin: 0 0 0 0;
+							width: 25%;
+							margin: 0 0 0 7%;
 						}
 					}
 
@@ -1682,14 +1685,15 @@ footer {
 							margin: 26% 0 0;
 							.c_c_h {
 								margin: 0 0 0;
+								white-space: nowrap;
 							}
 							.c_c_t {
 								width: 87%;
-								margin: 11% 0 0;
+								margin: 10% 0 0;
 							}
 						}
 						.c_c_img {
-							width: 34%;
+							width: 27%;
 							margin: 0 2.5% 0 0;
 						}
 					}
@@ -2735,16 +2739,16 @@ footer {
 			}
 		}
 		.c_chara {
-			margin: 12% 0 0;
+			margin: 14% 0 0;
 			.c_c_list {
-				margin: 6% 2.3% 0;
+				margin: 6% 0 0;
 				li {
 					margin: 14.5% 0 0;
 					box-sizing: border-box;
 
 					.c_c_i {
-						width: 60%;
-						margin: 5% 0 0;
+						width: 55%;
+						margin: 26% 0 0;
 						.c_c_h {
 							padding: 0 0 3%;
 							font-size: calc(48vw/12);
@@ -2767,8 +2771,8 @@ footer {
 						}
 					}
 					.c_c_img {
-						width: 37%;
-						margin: 0 1.5% 0 1.5%;
+						width: 42%;
+						margin: 0;
 					}
 
 					&:first-child {
@@ -2780,7 +2784,7 @@ footer {
 							width: 61%;
 							margin: 0;
 							.c_c_h {
-								margin: 19.5% 0 0;
+								margin: 38% 0 0;
 							}
 							.c_c_t {
 								width: 85%;
@@ -2788,8 +2792,8 @@ footer {
 							}
 						}
 						.c_c_img {
-							width: 39%;
-							margin: 0 0 0 0;
+							width: 26%;
+							margin: 0 0 0 7%;
 						}
 					}
 
@@ -2797,17 +2801,18 @@ footer {
 						margin: 16% 0 0;
 						.c_c_i {
 							width: 63%;
-							margin: 25% 0 0;
+							margin: 28% 0 0;
 							.c_c_h {
 								margin: 0 0 0;
+								letter-spacing: 1.2px;
 							}
 							.c_c_t {
 								width: 87%;
-								margin: 11% 0 0;
+								margin: 10% 0 0;
 							}
 						}
 						.c_c_img {
-							width: 34%;
+							width: 28%;
 							margin: 0 2.5% 0 0;
 						}
 					}
