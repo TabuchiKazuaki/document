@@ -221,10 +221,6 @@ header {
 		margin: 46px 0 0;
 		border-top: 1px solid #606060;
 
-		&:first-of-type {
-			border-top: none;
-			padding: 0 0 58px;
-		}
 		a {
 			display: block;
 		}
@@ -261,6 +257,10 @@ header {
 				}
 			}
 		}
+	}
+	.r_i_n {
+		border-top: none;
+		padding: 0 0 58px;
 	}
 }
 
@@ -540,9 +540,6 @@ footer {
 			padding: 8% 0 8.2%;
 			margin: 7% 0 0;
 
-			&:first-of-type {
-				padding: 0 0 8.2%;
-			}
 			dl {
 				dd {
 					width: 56%;
@@ -564,6 +561,9 @@ footer {
 					}
 				}
 			}
+		}
+		.r_i_n {
+			padding: 0 0 8.2%;
 		}
 	}
 
@@ -826,6 +826,9 @@ footer {
 					}
 				}
 			}
+		}
+		.r_i_n {
+			padding: 0 0 8.2%;
 		}
 	}
 	aside {

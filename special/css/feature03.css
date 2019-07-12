@@ -229,10 +229,6 @@ header .h_wrap .h_t span {
   margin: 46px 0 0;
   border-top: 1px solid #606060;
 }
-.recommend .r_inner:first-of-type {
-  border-top: none;
-  padding: 0 0 58px;
-}
 .recommend .r_inner a {
   display: block;
 }
@@ -272,6 +268,10 @@ header .h_wrap .h_t span {
   font-weight: bold;
   line-height: 1.4;
   color: #000;
+}
+.recommend .r_i_n {
+  border-top: none;
+  padding: 0 0 58px;
 }
 
 aside {
@@ -537,9 +537,6 @@ footer small {
     padding: 8% 0 8.2%;
     margin: 7% 0 0;
   }
-  .recommend .r_inner:first-of-type {
-    padding: 0 0 8.2%;
-  }
   .recommend .r_inner dl dd {
     width: 56%;
     max-width: 399px;
@@ -558,6 +555,9 @@ footer small {
   .recommend .r_inner dl dt .r_text {
     font-size: calc(38vw/12);
     line-height: 1.4;
+  }
+  .recommend .r_i_n {
+    padding: 0 0 8.2%;
   }
 
   aside {
@@ -799,6 +799,9 @@ footer small {
   .recommend .r_inner dl dt .r_text {
     font-size: calc(40vw/12);
     line-height: 1.4;
+  }
+  .recommend .r_i_n {
+    padding: 0 0 8.2%;
   }
 
   aside {
