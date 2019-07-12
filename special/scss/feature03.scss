@@ -398,6 +398,139 @@ footer {
 		}
 	}
 
+	.contents {
+		padding: 60px 0 0;
+		.c_h {
+			padding: 0 0 0 18px;
+			line-height: 1.4;
+			border-left: 6px solid #3a2;
+			font-size: 32px;
+			span {
+				font-size: 36px;
+			}
+		}
+		.ch_m {
+			margin: 57px 0 0;
+		}
+		.c_inner {
+
+		}
+		.c_item {
+			li {
+				padding: 55px 0 62px;
+				border-bottom: 1px solid #606060;
+
+				&:first-child {
+					padding: 45px 0 62px;
+				}
+				figure {
+					margin: 0 0 45px;
+					line-height: 0;
+				}
+				.bagg {
+					display: inline-block;
+					background: #f0163a;
+					padding: 3px 15px;
+					border-radius: 4px;
+					text-align: center;
+					font-size: 18px;
+					letter-spacing: 1.3px;
+					color: #fff;
+				}
+				.c_t {
+					margin: 12px 0 0;
+					letter-spacing: 1.4;
+					line-height: 1.5;
+					font-size: 22px;
+					font-weight: bold;
+					color: #666;
+				}
+				.c_btn {
+					margin: 37px 0 0;
+					a {
+						display: block;
+						background: #3a2;
+						padding: 18px 0;
+						text-align: center;
+						font-size: 30px;
+						border-radius: 5px;
+						color: #fff;
+					}
+				}
+			}
+		}
+		.c_col {
+			padding: 41px 0 55px;
+			border-bottom: 1px solid #606060;
+			a {
+				display: block;
+			}
+			dl {
+				display: flex;
+				align-items: center;
+				dd {
+					width: 57%;
+				}
+				dt {
+					width: 39%;
+					margin: 0 0 0 4%;
+					font-size: 23px;
+					font-weight: bold;
+					line-height: 1.4;
+					color: #000;
+
+					.bagg {
+						display: inline-block;
+						background: #f0163a;
+						padding: 1px 15px;
+						margin: 0 0 8px;
+						border-radius: 4px;
+						text-align: center;
+						font-size: 18px;
+						font-weight: normal;
+						letter-spacing: 1.3px;
+						color: #fff;
+					}
+				}
+			}
+		}
+		.b_n {
+			border-bottom: none;
+		}
+	}
+
+	.more {
+		background: #eee;
+		padding: 35px 0 33px;
+		.m_h {
+			font-size: 28px;
+			color: #33aa22;
+			span {
+				display: inline-block;
+				margin: 0 5px 0 0;
+				font-size: 32px;
+			}
+		}
+		.m_t {
+			margin: 11px 0 0;
+			font-size: 30px;
+			line-height: 1.3;
+			color: #000;
+		}
+		.m_btn {
+			margin: 32px 0 0;
+			a {
+				display: block;
+				background: #3a2;
+				padding: 28px 0;
+				border-radius: 6px;
+				text-align: center;
+				font-size: 28px;
+				color: #fff;
+			}
+		}
+	}
+
 	.recommend {
 		.r_h {
 			width: 90%;
