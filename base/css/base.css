@@ -38,6 +38,21 @@ img {
   display: none;
 }
 
+.movie .movie_inner {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  margin: 18px auto 0;
+}
+.movie .movie_inner iframe {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 .bagg {
   display: inline-block;
   background: #f0163a;
@@ -758,79 +773,144 @@ header .h_wrap .h_r {
   color: #fff;
 }
 .contents .twelve {
-  padding: 0 0 45px;
+  padding: 0 0 30px;
+  margin: 35px 0 0;
 }
-.contents .twelve .tw_img {
-  line-height: 0;
-  margin: 30px 0 0;
-}
-.contents .twelve .tw_h {
-  margin: 30px 0 0;
+.contents .twelve .c_tw_t {
+  margin: 10px 0 0;
+  font-size: 23px;
   line-height: 1.4;
-  font-size: 32px;
-  color: #000;
+  color: #ababab;
 }
-.contents .twelve .tw_t {
-  margin: 15px 0 0;
-  font-size: 22px;
-  font-weight: bold;
-  line-height: 1.4;
-  color: #8c8c8c;
-}
-.contents .twelve .tw_btn {
+.contents .twelve .c_hp {
   margin: 40px 0 0;
-}
-.contents .twelve .tw_btn a {
-  display: block;
-  padding: 16px 0;
-  border: 3px solid #3a2;
-  border-radius: 6px;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  color: #3a2;
-}
-.contents .twelve .tw_btn a:hover {
-  background: #3a2;
-  opacity: 1;
+  line-height: 1.4;
+  font-size: 28px;
   color: #fff;
 }
-.contents .twelve .large {
-  margin: 25px 0 0;
+.contents .twelve .c_hp a {
+  display: inline-block;
+  font-size: 24px;
+  color: #3a2;
 }
-.contents .twelve .thumb {
+.contents .thirteen {
+  padding: 0 0 30px;
+  margin: 35px 0 0;
+}
+.contents .thirteen .c_btn {
+  margin: 30px 0 0;
+}
+.contents .thirteen .c_btn a {
+  display: block;
+  background: #3a2;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 6px;
+  border: 3px solid #3a2;
+  font-size: 30px;
+  color: #fff;
+}
+.contents .fourteen {
+  padding: 0 0 50px;
+  margin: 45px 0 0;
+}
+.contents .fourteen figure {
+  line-height: 0;
+}
+.contents .fourteen .c_f_h {
+  margin: 10px 0 0;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 1.2px;
+  color: #666;
+}
+.contents .fourteen .c_f_v {
+  margin: 32px 0 0;
+  font-size: 32px;
+}
+.contents .fourteen .c_f_item {
+  margin: 42px 0 0;
+}
+.contents .fourteen .c_f_item .z_ba {
+  display: inline-block;
+  background: #ec2840;
+  padding: 4px 11px;
+  margin: 0 0 0 6px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: bottom;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 1.2;
+  color: #fff;
+}
+.contents .fourteen .c_f_item li {
+  margin: 18px 0 0;
+}
+.contents .fourteen .c_f_item li .c_z_t {
+  position: relative;
+  padding: 0 0 0 45px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #ababab;
+}
+.contents .fourteen .c_f_item li .c_z_t:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #3a2;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+.contents .fourteen .c_f_item li dl {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 15px 0 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1.2px;
 }
-.contents .twelve .thumb li {
-  margin: 0 0 0 2%;
-}
-.contents .twelve .thumb li:first-child {
-  margin: 0;
-}
-.contents .twelve .thumb li a {
-  overflow: hidden;
-  display: block;
-  line-height: 0;
-  -webkit-transition: none;
-  transition: none;
-}
-.contents .twelve .thumb li a img {
-  margin: 0;
-}
-.contents .twelve .thumb li .active {
+.contents .fourteen .c_f_item li dl dt {
+  position: relative;
+  width: 260px;
+  padding: 0 0 0 45px;
+  font-size: 26px;
+  font-weight: bold;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border: 4px solid #3a2;
+  color: #ababab;
 }
-.contents .twelve .thumb li .active img {
-  margin: -2.5px 0;
-  opacity: .8;
+.contents .fourteen .c_f_item li dl dt:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #3a2;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+.contents .fourteen .c_f_item li dl dd {
+  font-size: 26px;
+  font-weight: bold;
+  color: #ababab;
+}
+.contents .fourteen .c_z_btn {
+  margin: 42px 0 0;
+}
+.contents .fourteen .c_z_btn a {
+  display: block;
+  background: #3a2;
+  padding: 18px 0;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 2px;
+  color: #fff;
 }
 .contents .c_item {
   display: -webkit-box;
@@ -1539,6 +1619,85 @@ footer small {
   .contents .c_six .c_s_dl dt .rank .num {
     margin: 0 0.2% 0 0;
     font-size: calc(42vw/12);
+  }
+  .contents .c_zwei {
+    padding: 7% 0 8%;
+  }
+  .contents .c_zwei figure {
+    line-height: 0;
+  }
+  .contents .c_zwei .c_z_h {
+    margin: 1.5% 0 0;
+    font-size: calc(29vw/12);
+    line-height: 1.4;
+    letter-spacing: 1.2px;
+  }
+  .contents .c_zwei .c_z_text {
+    margin: 2.5% 0 0;
+    font-size: calc(41vw/12);
+  }
+  .contents .c_zwei .c_z_v {
+    margin: 5.2% 0 0;
+    font-size: calc(51vw/12);
+  }
+  .contents .c_zwei .c_z_item {
+    margin: 5.5% 0 0;
+  }
+  .contents .c_zwei .c_z_item .z_ba {
+    padding: 1.6% 6.5% 1.8%;
+    margin: 0 0 0 2%;
+    border-radius: 3px;
+    font-size: calc(27vw/12);
+    letter-spacing: 2px;
+  }
+  .contents .c_zwei .c_z_item .z_ba_single {
+    padding: 0.4% 2% 0.6%;
+  }
+  .contents .c_zwei .c_z_item li {
+    margin: 3% 0 0;
+  }
+  .contents .c_zwei .c_z_item li .c_z_t {
+    padding: 0 0 0 6.5%;
+    font-size: calc(41vw/12);
+  }
+  .contents .c_zwei .c_z_item li .c_z_t:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3.8%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .contents .c_zwei .c_z_item li dl {
+    letter-spacing: 1.2px;
+  }
+  .contents .c_zwei .c_z_item li dl dt {
+    width: 40%;
+    padding: 0 0 0 6.5%;
+    font-size: calc(41vw/12);
+  }
+  .contents .c_zwei .c_z_item li dl dt:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 10%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .contents .c_zwei .c_z_item li dl dd {
+    font-size: calc(41vw/12);
+    white-space: nowrap;
+  }
+  .contents .c_zwei .c_z_btn {
+    margin: 7% 0 0;
+  }
+  .contents .c_zwei .c_z_btn a {
+    padding: 2.8% 0;
+    border-radius: 5px;
+    font-size: calc(51vw/12);
+    letter-spacing: 1.5px;
   }
   .contents .c_12th {
     padding: 0 0 3%;
@@ -2299,6 +2458,81 @@ footer small {
   .contents .twelve .thumb li .active img {
     margin: -1.1px 0;
     opacity: .8;
+  }
+  .contents .c_zwei {
+    padding: 0 0 8%;
+    margin: 7% 0 0;
+  }
+  .contents .c_zwei figure {
+    line-height: 0;
+  }
+  .contents .c_zwei .c_z_h {
+    margin: 1.5% 0 0;
+    font-size: calc(31vw/12);
+    line-height: 1.4;
+    letter-spacing: 1.2px;
+  }
+  .contents .c_zwei .c_z_v {
+    margin: 5.2% 0 0;
+    font-size: calc(53vw/12);
+  }
+  .contents .c_zwei .c_z_item {
+    margin: 5.5% 0 0;
+  }
+  .contents .c_zwei .c_z_item .z_ba {
+    padding: 1.5% 6.3% 1.7%;
+    margin: 0 0 0 2%;
+    border-radius: 3px;
+    font-size: calc(29vw/12);
+    letter-spacing: 2px;
+  }
+  .contents .c_zwei .c_z_item .z_ba_single {
+    padding: 0.5% 2.2% 0.7%;
+  }
+  .contents .c_zwei .c_z_item li {
+    margin: 3% 0 0;
+  }
+  .contents .c_zwei .c_z_item li .c_z_t {
+    padding: 0 0 0 6.5%;
+    font-size: calc(45vw/12);
+  }
+  .contents .c_zwei .c_z_item li .c_z_t:before {
+    content: '';
+    position: absolute;
+    top: 7%;
+    left: 0;
+    width: 4%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .contents .c_zwei .c_z_item li dl {
+    letter-spacing: 1.2px;
+  }
+  .contents .c_zwei .c_z_item li dl dt {
+    width: 30%;
+    padding: 0 0 0 6.5%;
+    font-size: calc(43vw/12);
+  }
+  .contents .c_zwei .c_z_item li dl dt:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 12%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .contents .c_zwei .c_z_item li dl dd {
+    font-size: calc(43vw/12);
+  }
+  .contents .c_zwei .c_z_btn {
+    margin: 7% 0 0;
+  }
+  .contents .c_zwei .c_z_btn a {
+    padding: 2.8% 0;
+    border-radius: 4px;
+    font-size: calc(53vw/12);
+    letter-spacing: 1.5px;
   }
 
   .c_s {
