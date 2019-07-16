@@ -145,10 +145,10 @@ header .h_wrap .h_t span {
           align-items: center;
 }
 .contents .c_col dl dd {
-  width: 57%;
+  width: 54%;
 }
 .contents .c_col dl dt {
-  width: 39%;
+  width: 42%;
   margin: 0 0 0 4%;
   font-size: 23px;
   font-weight: bold;
@@ -165,6 +165,40 @@ header .h_wrap .h_t span {
   font-size: 18px;
   font-weight: normal;
   letter-spacing: 1.3px;
+  color: #fff;
+}
+.contents .c_col figure {
+  margin: 0 0 45px;
+  line-height: 0;
+}
+.contents .c_col .bagg {
+  display: inline-block;
+  background: #f0163a;
+  padding: 3px 15px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  color: #fff;
+}
+.contents .c_col .c_t {
+  margin: 12px 0 0;
+  letter-spacing: 1.4px;
+  line-height: 1.5;
+  font-size: 22px;
+  font-weight: bold;
+  color: #666;
+}
+.contents .c_col .c_btn {
+  margin: 37px 0 0;
+}
+.contents .c_col .c_btn a {
+  display: block;
+  background: #3a2;
+  padding: 18px 0;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 5px;
   color: #fff;
 }
 .contents .b_n {
@@ -501,7 +535,7 @@ footer small {
     line-height: 1.5;
     font-size: calc(35vw/12);
     font-weight: bold;
-    color: #666;
+    color: #a1a1a1;
   }
   .contents .c_item li .c_btn {
     margin: 5.2% 0 0;
@@ -513,6 +547,9 @@ footer small {
   }
   .contents .c_col {
     padding: 6% 0 7%;
+  }
+  .contents .c_col a {
+    display: block;
   }
   .contents .c_col dl {
     display: -webkit-box;
@@ -538,6 +575,22 @@ footer small {
     border-radius: 4px;
     font-size: calc(29vw/12);
     letter-spacing: 1.3px;
+  }
+  .contents .c_col .c_t {
+    margin: 1.8% 0 0;
+    letter-spacing: 1.4px;
+    line-height: 1.5;
+    font-size: calc(35vw/12);
+    font-weight: bold;
+    color: #a1a1a1;
+  }
+  .contents .c_col .c_btn {
+    margin: 5.2% 0 0;
+  }
+  .contents .c_col .c_btn a {
+    padding: 2.6% 0;
+    font-size: calc(48vw/12);
+    border-radius: 4px;
   }
   .contents .c_four {
     padding: 0 0 5%;
@@ -780,6 +833,9 @@ footer small {
   .contents .c_col {
     padding: 6% 0 7%;
   }
+  .contents .c_col a {
+    display: block;
+  }
   .contents .c_col dl {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -794,16 +850,32 @@ footer small {
   .contents .c_col dl dt {
     width: 39%;
     margin: 0 0 0 4%;
-    font-size: calc(40vw/12);
+    font-size: calc(38vw/12);
     line-height: 1.4;
   }
   .contents .c_col dl dt .bagg {
     display: inline-block;
-    padding: 0.4% 5.5%;
-    margin: 0 0 1.8%;
-    border-radius: 4px;
+    background: #f0163a;
+    padding: 0.6% 2.2%;
+    border-radius: 3px;
     font-size: calc(31vw/12);
     letter-spacing: 1.3px;
+  }
+  .contents .c_col .c_t {
+    margin: 1.8% 0 0;
+    letter-spacing: 1.4px;
+    line-height: 1.5;
+    font-size: calc(37vw/12);
+    font-weight: bold;
+    color: #666;
+  }
+  .contents .c_col .c_btn {
+    margin: 5.2% 0 0;
+  }
+  .contents .c_col .c_btn a {
+    padding: 2.6% 0;
+    font-size: calc(50vw/12);
+    border-radius: 4px;
   }
   .contents .c_four {
     padding: 0 0 5%;
