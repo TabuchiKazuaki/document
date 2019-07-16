@@ -519,6 +519,13 @@ header {
 	}
 
 	.c_eight {
+		.c_e_list {
+			padding: 0 0 30px;
+			margin: 30px 0 0;
+			&:first-of-type {
+				margin: 0;
+			}
+		}
 		.large {
 			margin: 30px 0 0;
 		}
@@ -568,20 +575,20 @@ header {
 	}
 
 
-	.c_12th {
+	.c_nine {
 		padding: 0 0 30px;
 		margin: 35px 0 0;
 		figure {
 			margin: 20px 0 0;
 			line-height: 0;
 		}
-		.c_12h {
+		.c_9h {
 			margin: 33px 0 0;
 			font-size: 27px;
 			font-weight: bold;
 
 		}
-		.c_12t {
+		.c_9t {
 			margin:12px 0 0 0;
 			font-size: 25px;
 			line-height: 1.3;
@@ -606,7 +613,7 @@ header {
 				}
 			}
 		}
-		.c12_item {
+		.c9_item {
 			li {
 				padding: 28px 0;
 				border-top: 1px solid #606060;
@@ -615,19 +622,198 @@ header {
 				}
 			}
 		}
-		.c_dl {
+		.c_9dl {
 			display: flex;
 			align-items: center;
 			dd {
-				width: 56%;
+				width: 49%;
 			}
 			dt {
-				width: 41%;
+				width: 48%;
 				padding: 0 0 0 3%;
 				font-size: 23px;
 				line-height: 1.35;
 				font-weight: bold;
+				color: #fff;
+			}
+		}
+	}
+
+
+	.c_ten {
+		padding: 0 0 30px;
+		margin: 35px 0 0;
+		.c_ten_dl {
+			display: flex;
+			align-items: center;
+			dd {
+				width: 61%;
+			}
+			dt {
+				width: 36%;
+				margin: 0 0 0 3%;
+
+			}
+		}
+		figure {
+			margin: 20px 0 0;
+			line-height: 0;
+		}
+		.c_10h {
+			margin: 33px 0 0;
+			font-size: 27px;
+			font-weight: bold;
+
+		}
+		.c_10t {
+			margin:12px 0 0 0;
+			font-size: 25px;
+			line-height: 1.3;
+			color: #ababab;
+
+		}
+		.c_btn {
+			margin: 40px 0 40px;
+			a {
+				display: block;
+				padding: 15px 0;
+				text-align: center;
+				border-radius: 6px;
+				border: 3px solid #3a2;
+				font-size: 30px;
+				color: #3a2;
+
+				&:hover {
+					background: #3a2;
+					color: #fff;
+					opacity: 1;
+				}
+			}
+		}
+		.c10_item {
+			li {
+				padding: 28px 0;
+				border-top: 1px solid #606060;
+				a {
+					display: block;
+				}
+			}
+		}
+		.c_10dl {
+			display: flex;
+			align-items: center;
+			dd {
+				width: 49%;
+			}
+			dt {
+				width: 48%;
+				padding: 0 0 0 3%;
+				font-size: 23px;
+				line-height: 1.35;
+				font-weight: bold;
+				color: #fff;
+			}
+		}
+	}
+
+	.c_eleven {
+		padding: 0 0 30px;
+		margin: 35px 0 0;
+		.e_inner {
+			.bagg {
+				margin: 0 0 12px;
+			}
+			.e_t {
+				margin: 10px 0 0;
+				font-size: 25px;
+				line-height: 1.3;
 				color: #ababab;
+			}
+			.e_btn {
+				margin: 30px 0 0;
+				a {
+					display: block;
+					background: #3a2;
+					padding: 15px 0;
+					text-align: center;
+					border-radius: 6px;
+					border: 3px solid #3a2;
+					font-size: 30px;
+					color: #fff;
+				}
+			}
+		}
+	}
+
+	.twelve {
+		padding: 0 0 45px;
+		.tw_img {
+			line-height: 0;
+			margin: 30px 0 0;
+		}
+		.tw_h {
+			margin: 30px 0 0;
+			line-height: 1.4;
+			font-size: 32px;
+			color: #000;
+		}
+		.tw_t {
+			margin: 15px 0 0;
+			font-size: 22px;
+			font-weight: bold;
+			line-height: 1.4;
+			color: #8c8c8c;
+		}
+		.tw_btn {
+			margin: 40px 0 0;
+			a {
+				display: block;
+				padding: 16px 0;
+				border: 3px solid #3a2;
+				border-radius: 6px;
+				font-size: 30px;
+				font-weight: bold;
+				text-align: center;
+				color: #3a2;
+				&:hover {
+					background: #3a2;
+					opacity: 1;
+					color: #fff;
+				}
+			}
+		}
+		.large {
+			margin: 25px 0 0;
+		}
+		.thumb {
+			// overflow: hidden;
+			display:flex;
+			justify-content:space-between;
+			margin: 15px 0 0;
+			li {
+				margin: 0 0 0 2%;
+				&:first-child {
+					margin: 0;
+				}
+				a {
+					overflow: hidden;
+					display: block;
+					line-height:0;
+					transition: none;
+					img {
+						margin: 0;
+					}
+
+				}
+				.active {
+					box-sizing: border-box;
+					border: 4px solid #3a2;
+					img {
+						margin: -2.5px 0;
+						opacity: .8;
+
+					}
+				}
 			}
 		}
 	}
@@ -997,79 +1183,6 @@ footer {
 		letter-spacing: 1px;
 		text-align: center;
 		color: #737373;
-	}
-
-	.twelve {
-		padding: 0 0 45px;
-		.tw_img {
-			line-height: 0;
-			margin: 30px 0 0;
-		}
-		.tw_h {
-			margin: 30px 0 0;
-			line-height: 1.4;
-			font-size: 32px;
-			color: #000;
-		}
-		.tw_t {
-			margin: 15px 0 0;
-			font-size: 22px;
-			font-weight: bold;
-			line-height: 1.4;
-			color: #8c8c8c;
-		}
-		.tw_btn {
-			margin: 40px 0 0;
-			a {
-				display: block;
-				padding: 16px 0;
-				border: 3px solid #3a2;
-				border-radius: 6px;
-				font-size: 30px;
-				font-weight: bold;
-				text-align: center;
-				color: #3a2;
-				&:hover {
-					background: #3a2;
-					opacity: 1;
-					color: #fff;
-				}
-			}
-		}
-		.large {
-			margin: 25px 0 0;
-		}
-		.thumb {
-			// overflow: hidden;
-			display:flex;
-			justify-content:space-between;
-			margin: 15px 0 0;
-			li {
-				margin: 0 0 0 2%;
-				&:first-child {
-					margin: 0;
-				}
-				a {
-					overflow: hidden;
-					display: block;
-					line-height:0;
-					transition: none;
-					img {
-						margin: 0;
-					}
-
-				}
-				.active {
-					box-sizing: border-box;
-					border: 4px solid #3a2;
-					img {
-						margin: -2.5px 0;
-						opacity: .8;
-
-					}
-				}
-			}
-		}
 	}
 }
 
