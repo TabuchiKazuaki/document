@@ -23,6 +23,12 @@ $(document).ready(function() {
 		$('#bag1123').hide();
 
 		$('#bag1223').hide();
+
+		$('.bag0816').hide();
+		$('.bag0823').hide();
+
+		$('.bag0802').hide();
+		$('.bag0809').hide();
 	 }
 
 	 var now = new Date();
@@ -190,5 +196,25 @@ $(document).ready(function() {
 		$('#bag1123').hide();
 
 		$('#bag1223').hide();
+	}
+
+	var tt07 = new Date("2019/08/16 00:00");
+	if (now.getTime() > tt07.getTime()) {
+		$('.bag0816').show();
+	}
+
+	var tt07last = new Date("2019/08/22 23:59");
+	if (now.getTime() > tt07last.getTime()) {
+		$('.bag0816').hide();
+	}
+
+	var tt08 = new Date("2019/08/23 00:00");
+	if (now.getTime() > tt08.getTime()) {
+		$('.bag0823').show();
+	}
+
+	var tt08last = new Date("2019/08/29 23:59");
+	if (now.getTime() > tt08last.getTime()) {
+		$('.bag0823').hide();
 	}
 });
