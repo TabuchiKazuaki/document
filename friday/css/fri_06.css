@@ -280,26 +280,37 @@ header .h_w_ani .h_ani {
   margin: 41px 0 0;
 }
 .contents .c_feature .c_t_item dl dd {
-  width: 44%;
+  width: 48%;
   line-height: 0;
 }
 .contents .c_feature .c_t_item dl dt {
-  width: 54%;
-  margin: 0 0 0 2%;
   font-size: 22px;
   letter-spacing: 1.3px;
   font-weight: bold;
   color: #666;
 }
-.contents .c_feature .c_t_item .cf_btn {
+.contents .c_feature .c_t_item .cf_more {
   margin: 40px 0 0;
 }
-.contents .c_feature .c_t_item .cf_btn a {
+.contents .c_feature .c_t_item .cf_more a {
   display: inline-block;
   text-align: right;
   font-size: 22px;
   letter-spacing: 1.3px;
   color: #cfa64d;
+}
+.contents .c_feature .c_t_item .cf_btn {
+  margin: 40px 0 0;
+}
+.contents .c_feature .c_t_item .cf_btn a {
+  display: block;
+  background: #cfa64d;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  color: #fff;
 }
 .contents .c_feature .c_t_item .cft_btn {
   margin: 42px 0 0;
