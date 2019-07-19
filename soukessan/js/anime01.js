@@ -24,6 +24,9 @@ $(document).ready(function() {
 		$('.bag0802').hide();
 		$('.bag0809').hide();
 
+		$('.bag0316').hide();
+		$('.bag0323').hide();
+
 	 }
 
 	 var now = new Date();
@@ -104,21 +107,26 @@ $(document).ready(function() {
 	var tt07 = new Date("2019/08/16 00:00");
 	if (now.getTime() > tt07.getTime()) {
 		$('.bag0816').show();
+		$('.bag0316').show();
+
 	}
 
 	var tt07last = new Date("2019/08/22 23:59");
 	if (now.getTime() > tt07last.getTime()) {
 		$('.bag0816').hide();
+		$('.bag0316').hide();
 	}
 
 	var tt08 = new Date("2019/08/23 00:00");
 	if (now.getTime() > tt08.getTime()) {
 		$('.bag0823').show();
+		$('.bag0323').show();
 	}
 
 	var tt08last = new Date("2019/08/29 23:59");
 	if (now.getTime() > tt08last.getTime()) {
 		$('.bag0823').hide();
+		$('.bag0323').hide();
 	}
 
 });
