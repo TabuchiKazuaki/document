@@ -31,6 +31,7 @@ img {
 }
 
 header {
+  padding: 0 0 53px;
   margin: 0 auto 0;
 }
 header .h_l {
@@ -131,7 +132,7 @@ header .h_btn a {
   color: #000;
 }
 header .h_date {
-  margin: 20px auto 0;
+  margin: 15px auto 0;
   display: block;
   text-align: center;
   font-size: 20px;
@@ -143,7 +144,7 @@ header .h_date span {
 }
 
 .contents {
-  margin: 60px 0 0;
+  margin: 0;
 }
 .contents .wrap {
   max-width: 715px;
@@ -151,7 +152,7 @@ header .h_date span {
 }
 .contents .c_list {
   background: #1f2020;
-  padding: 60px 15px 50px;
+  padding: 60px 15px 47px;
   border-radius: 8px;
 }
 .contents .c_list li {
@@ -159,7 +160,7 @@ header .h_date span {
   border-top: 2px solid #404040;
 }
 .contents .c_list li:first-child {
-  padding: 0 0 50px;
+  padding: 0 0 67px;
   border-top: none;
 }
 .contents .c_list li:last-child {
@@ -246,6 +247,139 @@ header .h_date span {
   color: #fff;
 }
 .contents .c_list .c_date span {
+  font-size: 23px;
+}
+
+.genre .wrap {
+  max-width: 680px;
+  padding: 58px 0 0;
+  margin: 59px auto 0;
+  border-top: 1px solid #606060;
+}
+.genre .ch {
+  padding: 0 0 0 15px;
+  border-left: 6px solid #e5c200;
+  line-height: 1.4;
+  font-weight: bold;
+  font-size: 32px;
+}
+.genre .ch span {
+  display: inline-block;
+  margin: 0 5px 0 0;
+  font-size: 35px;
+  font-weight: bold;
+}
+.genre .ct {
+  padding: 0 0 0 25px;
+  margin: 22px 0 0;
+  line-height: 1.4;
+  font-size: 26px;
+  color: #ababab;
+}
+.genre .ct span {
+  display: inline-block;
+  margin: 0 5px 0 0;
+  font-size: 28px;
+}
+.genre .g_list {
+  overflow: hidden;
+  margin: 41px 0 0;
+}
+.genre .g_list li {
+  float: left;
+  width: 47.5%;
+  margin: 5% 0 0 5%;
+}
+.genre .g_list li:nth-child(2n+1) {
+  margin: 5% 0 0 0;
+}
+.genre .g_list li:nth-child(2) {
+  margin: 0 0 0 5%;
+}
+.genre .g_list li:nth-child(1) {
+  margin: 0;
+}
+.genre .g_btn {
+  max-width: 680px;
+  margin: 65px auto 0;
+}
+.genre .g_btn a {
+  display: block;
+  background: #e5c200;
+  padding: 27px 0;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  border-radius: 6px;
+  color: #000;
+}
+.genre .g_date {
+  margin: 18px auto 0;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1.3px;
+  color: #fff;
+}
+.genre .g_date span {
+  font-size: 23px;
+}
+
+.info .wrap {
+  max-width: 680px;
+  padding: 71px 0;
+  margin: 59px auto 0;
+  border-top: 1px solid #606060;
+}
+.info .iw_box {
+  background: #1a1a1a;
+  padding: 35px 15px 40px;
+  border-radius: 8px;
+}
+.info .i_h {
+  padding: 0 0 0 15px;
+  border-left: 6px solid #e5c200;
+  line-height: 1.4;
+  font-weight: normal;
+  font-size: 23px;
+  letter-spacing: 1.1px;
+}
+.info .i_h .color {
+  color: #e5c200;
+}
+.info .i_h .ih_s {
+  font-weight: bold;
+  font-size: 29px;
+  white-space: nowrap;
+}
+.info .i_h .num {
+  font-size: 32px;
+}
+.info .i_btn {
+  max-width: 680px;
+  margin: 33px auto 0;
+}
+.info .i_btn a {
+  display: block;
+  background: #e5c200;
+  padding: 27px 0;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  border-radius: 6px;
+  color: #000;
+}
+.info .i_date {
+  margin: 18px auto 0;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1.3px;
+  color: #fff;
+}
+.info .i_date span {
   font-size: 23px;
 }
 
