@@ -114,7 +114,6 @@ $(document).ready(function() {
 	var tt07last = new Date("2019/08/22 23:59");
 	if (now.getTime() > tt07last.getTime()) {
 		$('.bag0816').hide();
-		$('.bag0316').hide();
 	}
 
 	var tt08 = new Date("2019/08/23 00:00");
