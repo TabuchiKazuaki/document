@@ -379,10 +379,12 @@ header {
 		}
 	}
 	.g_list {
-		overflow: hidden;
+		display: flex;
+		flex-flow: row wrap;
 		margin: 41px 0 0;
 		li {
-			float: left;
+			justify-content: flex-end;
+			box-sizing: border-box;
 			width: 47.5%;
 			margin: 5% 0 0 5%;
 			a {

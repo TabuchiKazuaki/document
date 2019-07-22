@@ -385,11 +385,21 @@ header .h_date span {
   font-size: 28px;
 }
 .genre .g_list {
-  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   margin: 41px 0 0;
 }
 .genre .g_list li {
-  float: left;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 47.5%;
   margin: 5% 0 0 5%;
 }
