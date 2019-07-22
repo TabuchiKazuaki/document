@@ -190,7 +190,10 @@ header .h_date span {
   letter-spacing: 1.3px;
   font-size: 27px;
 }
-.contents .c_list .c_t span {
+.contents .c_list .c_t .clr {
+  color: #e5c200;
+}
+.contents .c_list .c_t .num {
   font-size: 30px;
 }
 .contents .c_list .chart {
@@ -783,7 +786,7 @@ footer small {
     letter-spacing: 1.3px;
     font-size: calc(43vw/12);
   }
-  .contents .c_list .c_t span {
+  .contents .c_list .c_t .num {
     font-size: calc(46vw/12);
   }
   .contents .c_list .chart {
@@ -1249,7 +1252,7 @@ footer small {
     letter-spacing: 1.3px;
     font-size: calc(45vw/12);
   }
-  .contents .c_list .c_t span {
+  .contents .c_list .c_t .num {
     font-size: calc(48vw/12);
   }
   .contents .c_list .chart {
