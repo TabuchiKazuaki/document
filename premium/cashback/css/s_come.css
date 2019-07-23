@@ -478,6 +478,10 @@ header .h_date span {
 .info .i_h .color {
   color: #e5c200;
 }
+.info .i_h .mr {
+  display: inline-block;
+  margin: 0 0 0 3px;
+}
 .info .i_h .ih_s {
   font-weight: bold;
   font-size: 29px;
@@ -929,6 +933,9 @@ footer small {
     line-height: 1.4;
     font-size: calc(37vw/12);
     letter-spacing: 1.1px;
+  }
+  .info .i_h .mr {
+    margin: 0 0 0 1%;
   }
   .info .i_h .ih_s {
     text-indent: -1%;
@@ -1394,6 +1401,9 @@ footer small {
     line-height: 1.4;
     font-size: calc(39vw/12);
     letter-spacing: 1.1px;
+  }
+  .info .i_h .mr {
+    margin: 0 0 0 1.5%;
   }
   .info .i_h .ih_s {
     text-indent: -1%;

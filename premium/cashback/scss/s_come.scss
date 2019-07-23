@@ -467,6 +467,10 @@ header {
 		.color {
 			color: #e5c200;
 		}
+		.mr {
+			display: inline-block;
+			margin: 0 0 0 3px;
+		}
 		.ih_s {
 			font-weight: bold;
 			font-size: 29px;
@@ -923,6 +927,9 @@ footer {
 			line-height: 1.4;
 			font-size: calc(37vw/12);
 			letter-spacing: 1.1px;
+			.mr {
+				margin: 0 0 0 1%;
+			}
 			.ih_s {
 				text-indent: -1%;
 				font-size: calc(47vw/12);
@@ -1406,6 +1413,9 @@ footer {
 			line-height: 1.4;
 			font-size: calc(39vw/12);
 			letter-spacing: 1.1px;
+			.mr {
+				margin: 0 0 0 1.5%;
+			}
 			.ih_s {
 				text-indent: -1%;
 				font-size: calc(49vw/12);
