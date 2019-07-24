@@ -3,7 +3,7 @@ $(document).ready(function() {
 	$(".tab_content01").hide();
 	$("ul.thumb01 li:first a").addClass("active").show();
 	$(".tab_content01:first").show();
-	//タブクリック時
+	//タブクリック
 	$("ul.thumb01 li").click(function() {
 		$("ul.thumb01 li a").removeClass("active");
 		$(this).children('a').addClass("active");
