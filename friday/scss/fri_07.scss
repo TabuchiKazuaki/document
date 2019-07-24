@@ -248,7 +248,7 @@ header {
 			}
 			.active {
 				box-sizing: border-box;
-				border: 6px solid #e02b6c;
+				border: 4px solid #cfa64d;
 				img {
 					margin: -2.6px 0;
 					opacity: .8;
@@ -261,7 +261,7 @@ header {
 		margin: 31px 0 0;
 		a {
 			display: block;
-			background: #e02b6c;
+			background: #cfa64d;
 			padding: 20px 0;
 			border-radius: 4px;
 			text-align: center;
@@ -1021,10 +1021,10 @@ header {
 		li {
 			justify-content: flex-end;
 			box-sizing: border-box;
-			background: #1a1a1a;
+			background: #eee;
 			width: 48%;
 			margin: 5% 0 0 4%;
-			border-radius: 8px;
+			border-radius: 6px;
 			&:nth-child(2n+1) {
 				margin: 5% 0 0 0;
 			}
@@ -1036,18 +1036,19 @@ header {
 			}
 			a {
 				display: block;
-				border-radius: 8px;
+				border-radius: 6px;
 				figure {
 					line-height: 0;
 					img {
-						border-radius: 8px 8px 0 0;
+						border-radius: 6px 6px 0 0;
 					}
 				}
 				.c_text {
 					padding: 20px;
 					font-size: 27px;
 					line-height: 1.4;
-					color: #fff;
+					font-weight: bold;
+					color: #000;
 				}
 			}
 		}
