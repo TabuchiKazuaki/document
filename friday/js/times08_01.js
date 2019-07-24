@@ -1,4 +1,19 @@
 $(document).ready(function() {
+
+	$(".tab_content01").hide();
+	$("ul.thumb01 li:first a").addClass("active").show();
+	$(".tab_content01:first").show();
+	//タブクリック時
+	$("ul.thumb01 li").click(function() {
+		$("ul.thumb01 li a").removeClass("active");
+		$(this).children('a').addClass("active");
+		$(".tab_content01").hide();
+		var activeTab = $(this).find("a").attr("href");
+		$(activeTab).fadeIn();
+		return false;
+	});
+
+
 	var now = new Date();
 	var tl02 = new Date("2019/06/22 00:00");
 	if (now.getTime() > tl02.getTime()) {
@@ -16,4 +31,6 @@ $(document).ready(function() {
 	if (now.getTime() > tl00.getTime()) {
 		$('.th_now').hide();
 	}
+
+
 });

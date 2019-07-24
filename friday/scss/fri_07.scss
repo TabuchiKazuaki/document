@@ -202,9 +202,74 @@ header {
 	}
 }
 
+
+
 .contents {
 	background: #fff;
 	padding: 60px 0 0;
+
+	.point {
+		margin: 25px 0 0;
+		dt {
+			font-weight: bold;
+			font-size: 26px;
+		}
+		dd {
+			margin: 10px 0 0;
+			font-size: 23px;
+			font-weight: bold;
+			line-height: 1.5;
+			color: #8c8c8c;
+		}
+	}
+
+	.large {
+		margin: 30px 0 0;
+	}
+	.thumb {
+		// overflow: hidden;
+		display:flex;
+		justify-content:space-between;
+		margin: 15px 0 0;
+		li {
+			margin: 0 0 0 2%;
+			&:first-child {
+				margin: 0;
+			}
+			a {
+				overflow: hidden;
+				display: block;
+				line-height:0;
+				transition: none;
+				img {
+					margin: 0;
+				}
+
+			}
+			.active {
+				box-sizing: border-box;
+				border: 6px solid #e02b6c;
+				img {
+					margin: -2.6px 0;
+					opacity: .8;
+
+				}
+			}
+		}
+	}
+	.btn {
+		margin: 31px 0 0;
+		a {
+			display: block;
+			background: #e02b6c;
+			padding: 20px 0;
+			border-radius: 4px;
+			text-align: center;
+			font-size: 32px;
+			color: #fff;
+		}
+	}
+
 	.c_ge {
 		display: inline-block;
 		padding: 5px 25px;
@@ -1627,6 +1692,49 @@ footer {
 			}
 		}
 
+
+		.point {
+			margin: 3.8% 0 0;
+			dt {
+				font-size: calc(41vw/12);
+			}
+			dd {
+				margin: 1.3% 0 0;
+				font-size: calc(37vw/12);
+				line-height: 1.45;
+			}
+		}
+
+		.large {
+			margin: 4% 0 0;
+		}
+		.thumb {
+			margin: 2.5% 0 0;
+			li {
+				margin: 0 0 0 2%;
+				&:first-child {
+					margin: 0;
+				}
+				.active {
+					border: 4.5px solid #e02b6c;
+					img {
+						margin: -2px 0;
+						opacity: .8;
+
+					}
+				}
+			}
+		}
+		.btn {
+			margin: 4.8%  0 0;
+			a {
+				padding: 3% 0;
+				border-radius: 4px;
+				font-size: calc(50vw/12);
+			}
+		}
+
+
 		.c_h_m {
 			margin: 4% 0 0;
 		}
@@ -2512,6 +2620,34 @@ footer {
 			margin: 2.5% 0 0 4.2%;
 			font-size: calc(41vw/12);
 			line-height: 1.3;
+		}
+		.large {
+			margin: 4% 0 0;
+		}
+		.thumb {
+			margin: 2.5% 0 0;
+			li {
+				margin: 0 0 0 2%;
+				&:first-child {
+					margin: 0;
+				}
+				.active {
+					border: 3px solid #e02b6c;
+					img {
+						margin: -1.2px 0;
+						opacity: .8;
+
+					}
+				}
+			}
+		}
+		.btn {
+			margin: 4.8%  0 0;
+			a {
+				padding: 3% 0;
+				border-radius: 3px;
+				font-size: calc(52vw/12);
+			}
 		}
 		.c_feature {
 			.c_t_item {
