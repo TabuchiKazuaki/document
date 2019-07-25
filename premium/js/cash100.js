@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 	var tt01 = new Date("2019/05/04 15:15");
 	if (now.getTime() > tt01.getTime()) {
-		$('.now3').hide();
+		$('.now3').show();
 		$('.now2').hide();
 		$('.now1').hide();
 		$('.now0').hide();
