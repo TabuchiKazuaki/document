@@ -25,7 +25,7 @@ img  { width: 100%; height: auto;}
 }
 
 header {
-	padding: 0 0 41px;
+	padding: 0 0 43px;
 	.h_l {
 		max-width: 151px;
 		padding: 10px 0 10px 20px;
@@ -69,7 +69,7 @@ header {
 		}
 	}
 	.h_cp {
-		margin: 27px 0 0;
+		margin: 30px 0 0;
 		text-align: center;
 		letter-spacing: 2.5px;
 		font-size: 18px;
@@ -491,13 +491,14 @@ footer {
 		display: block;
 	}
 	header {
-		padding: 0 0 7%;
+		padding: 0 0 5.6%;
 		.h_l {
 			width: 21%;
 			padding: 1.2% 0 1.2% 2.2%
 		}
 		.h_a {
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/9ac5e8236667bc3d250fbf8b75536f79_f13d53901ae2843c6c4bd37639261b37.png) center center no-repeat #000;
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/9ac5e8236667bc3d250fbf8b75536f79_f13d53901ae2843c6c4bd37639261b37.png) center center no-repeat;
+			background-size: cover;
 			min-height: auto;
 			padding: 0 0 0;
 			margin: 0 auto;
@@ -506,21 +507,21 @@ footer {
 			padding: 4.8% 0 4.9%;
 		}
 
-		.h_m {
-			max-width: 286px;
-			width: 40%;
-			margin: 2.4% auto 0;
-		}
 		.h_t {
 			max-width: 260px;
-			width: 50%;
+			width: 35%;
 			margin: 0 auto 0;
+		}
+		.h_m {
+			max-width: 286px;
+			width: 38%;
+			margin: 2.4% auto 0;
 		}
 		.h_i {
 			display: flex;
 			align-items: center;
 			width: 78%;
-			margin: 3.4% auto 0;
+			margin: 3.7% auto 0;
 			dd {
 				width: 72%;
 			}
