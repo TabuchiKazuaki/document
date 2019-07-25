@@ -50,7 +50,7 @@ header .h_l {
 }
 header .h_a {
   position: relative;
-  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/d456c278c8af757217a6f66a23c49ed6_5218e7fa09a529eceeb8d181a9a1ba4a.png) top center no-repeat #000;
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/d456c278c8af757217a6f66a23c49ed6_5218e7fa09a529eceeb8d181a9a1ba4a.png) center center no-repeat #000;
   min-height: 419px;
   padding: 0 0 0;
   margin: 0 auto;
@@ -79,6 +79,7 @@ header .h_i {
 }
 header .h_i dd {
   max-width: 425px;
+  margin: 0 auto;
   line-height: 0;
 }
 header .h_i dt {
@@ -89,70 +90,18 @@ header .h_i dt {
 header .h_cp {
   margin: 40px 0 0;
   text-align: center;
+  letter-spacing: 1.4px;
+  font-size: 18px;
 }
-header .h_present {
-  background: #1f2020;
-  max-width: 553px;
-  padding: 40px 0 40px;
-  margin: 80px auto 0;
-  letter-spacing: 1.3px;
-  border-radius: 8px;
-}
-header .h_present .h_p_h {
-  background: #e5c200;
-  max-width: 230px;
-  padding: 3px 0 6px;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 30px;
-  color: #000;
-}
-header .h_present .h_p_h span {
-  font-size: 23px;
-}
-header .h_present .h_p_t {
-  margin: 15px 0 0;
-  font-size: 32px;
-  line-height: 1.4;
-  text-align: center;
-}
-header .h_present .h_p_t .num {
-  font-size: 35px;
-  letter-spacing: 1.8px;
-}
-header .h_present .h_p_t .hpt_c {
-  display: inline-block;
-  margin: 0 0 0 15px;
-  color: #e6c300;
-}
-header .h_present figure {
-  max-width: 215px;
-  margin: 50px auto 0;
-  line-height: 0;
-}
-header .h_btn {
-  max-width: 680px;
-  margin: 45px auto 0;
-}
-header .h_btn a {
-  display: block;
-  background: #e5c200;
-  padding: 27px 0;
-  text-align: center;
-  font-size: 28px;
-  font-weight: bold;
-  letter-spacing: 1.3px;
-  border-radius: 6px;
-  color: #000;
+header .h_cp span {
+  font-size: 21px;
 }
 header .h_date {
   margin: 15px auto 0;
   display: block;
   text-align: center;
   font-size: 20px;
-  letter-spacing: 1.3px;
+  letter-spacing: 1.8px;
   color: #fff;
 }
 header .h_date span {
