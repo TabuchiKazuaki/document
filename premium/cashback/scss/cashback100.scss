@@ -55,17 +55,21 @@ header {
 	.h_i {
 		display: flex;
 		align-items: center;
-		max-width: 580px;
-		margin: 0 auto;
+		max-width: 593px;
+		margin: 30px auto 0;
 		dd {
 			max-width: 425px;
-			margin: 19px auto 0;
 			line-height: 0;
 		}
 		dt {
 			max-width: 146px;
+			margin: 0 0 0 17px;
+			line-height: 0;
 		}
-
+	}
+	.h_cp {
+		margin: 40px 0 0;
+		text-align: center;
 	}
 	.h_present {
 		background: #1f2020;
