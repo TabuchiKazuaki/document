@@ -638,30 +638,6 @@ footer small {
   color: #919191;
 }
 
-.hana {
-  opacity: 0;
-}
-
-@-webkit-keyframes item_sp {
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes item_list {
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes item_list {
-  100% {
-    opacity: 1;
-  }
-}
-.hana {
-  -webkit-animation: item_sp 0.5s ease 2s 1 forwards;
-  animation: item_sp 1s ease 2.2s 1 forwards;
-}
-
 @media screen and (max-width: 768px) {
   .pc {
     display: none;
@@ -1129,11 +1105,6 @@ footer small {
     margin: 5% 0 0;
     font-size: calc(26vw/12);
     letter-spacing: 1.3px;
-  }
-
-  .hana {
-    -webkit-animation: item_sp 0.5s ease 2s 1 forwards;
-    animation: item_sp 1s ease 1.8s 1 forwards;
   }
 }
 @media screen and (max-width: 480px) {
