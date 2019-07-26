@@ -882,21 +882,33 @@ footer small {
     padding: 0 2.4%;
     margin: 0 auto;
   }
+  .contents .c_h {
+    padding: 0 0 0 3%;
+    border-left: 4px solid #e5c200;
+    font-size: calc(55vw/12);
+    letter-spacing: 1.8px;
+    line-height: 1.4;
+  }
+  .contents .c_h span {
+    font-size: calc(58vw/12);
+  }
   .contents .c_box {
-    margin: 4% 0 0;
+    margin: 4.5% 0 0;
   }
   .contents .c_box li {
     padding: 4.4% 2.4% 4.3%;
     margin: 3% 0 0;
     margin: 2.6% auto 0;
-    border-radius: 4px;
+    border-radius: 6px;
   }
   .contents .c_box li .icon {
-    width: 18%;
+    width: 16%;
     margin: 0 auto;
-    padding: 0.8% 0 1%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0.8% 0 1.2%;
     border-radius: 30px;
-    font-size: calc(25vw/12);
+    font-size: calc(21vw/12);
     letter-spacing: 0.6px;
   }
   .contents .c_box li .icon:before {
@@ -904,35 +916,32 @@ footer small {
     height: 0;
     position: absolute;
     width: 0;
-    border: 5px solid transparent;
+    border: 7px solid transparent;
     border-top-color: #ddbd1a;
     top: 100%;
-    left: 58%;
+    left: 53%;
     margin-left: -10px;
   }
   .contents .c_box li .icon span {
+    display: inline-block;
     margin: 0 0 0 2.5%;
-    font-size: calc(32vw/12);
+    font-size: calc(29vw/12);
   }
   .contents .c_box li:first-child {
     margin: 0;
   }
   .contents .c_box li .c_ih {
-    margin: 3% auto 0;
-    font-size: calc(56vw/12);
-    line-height: 1.4;
-    letter-spacing: 1.35px;
+    margin: 3.3% auto 0;
+    font-size: calc(54vw/12);
+    line-height: 1.3;
+    letter-spacing: 1.3px;
   }
   .contents .c_box li .pic {
     margin: 3.8% auto 0;
   }
-  .contents .c_box li .copy_c {
-    margin: 1% auto 0;
-    font-size: calc(18vw/12);
-  }
   .contents .c_box li .caution {
-    margin: 2.5% 0 0;
-    font-size: calc(25vw/12);
+    margin: 2% 0 0;
+    font-size: calc(21vw/12);
     line-height: 1.3;
   }
 
