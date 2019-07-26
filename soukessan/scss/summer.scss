@@ -125,6 +125,15 @@ header {
 			font-size: 36px;
 		}
 	}
+	.rank {
+		display: block;
+		font-size: 20px;
+		color: #3a2;
+		.num {
+			margin: 0 2px 0 0;
+			font-size: 30px;
+		}
+	}
 
 	.c_h_m {
 		margin: 20px 0 0;
@@ -1429,6 +1438,14 @@ footer {
 	.contents {
 		padding: 8% 0 0;
 
+		.rank {
+			font-size: calc(32vw/12);
+			.num {
+				margin: 0 0.3% 0 0;
+				font-size: calc(47vw/12);
+			}
+		}
+
 		.c_h {
 			border-left: 4.5px solid #3a2;
 			padding: 0 0 0 2.6%;
@@ -2369,6 +2386,14 @@ footer {
 			span {
 				letter-spacing: 1.3px;
 				font-size: calc(52vw/12);
+			}
+		}
+
+		.rank {
+			font-size: calc(34vw/12);
+			.num {
+				margin: 0 0.3% 0 0;
+				font-size: calc(49vw/12);
 			}
 		}
 

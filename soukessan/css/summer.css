@@ -136,6 +136,15 @@ header .h_wrap .h_a {
   letter-spacing: 1.3px;
   font-size: 36px;
 }
+.contents .rank {
+  display: block;
+  font-size: 20px;
+  color: #3a2;
+}
+.contents .rank .num {
+  margin: 0 2px 0 0;
+  font-size: 30px;
+}
 .contents .c_h_m {
   margin: 20px 0 0;
 }
@@ -1437,6 +1446,13 @@ footer .twelve .thumb li .active img {
   .contents {
     padding: 8% 0 0;
   }
+  .contents .rank {
+    font-size: calc(32vw/12);
+  }
+  .contents .rank .num {
+    margin: 0 0.3% 0 0;
+    font-size: calc(47vw/12);
+  }
   .contents .c_h {
     border-left: 4.5px solid #3a2;
     padding: 0 0 0 2.6%;
@@ -2295,6 +2311,13 @@ footer .twelve .thumb li .active img {
   .contents .c_h span {
     letter-spacing: 1.3px;
     font-size: calc(52vw/12);
+  }
+  .contents .rank {
+    font-size: calc(34vw/12);
+  }
+  .contents .rank .num {
+    margin: 0 0.3% 0 0;
+    font-size: calc(49vw/12);
   }
   .contents .c_h_m {
     margin: 3% 0 0;
