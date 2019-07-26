@@ -68,6 +68,10 @@ header .h_wrap .h_h {
   padding: 45px 0 0;
   margin: 0 auto 0;
 }
+header .h_wrap .h_a {
+  max-width: 512px;
+  padding: 70px 0 0;
+}
 
 .info {
   background: #efefef;
@@ -830,6 +834,10 @@ header .h_wrap .h_h {
   text-align: left;
   font-weight: bold;
   color: #000;
+}
+.contents .c_five .c_f_li dt span {
+  font-size: 29px;
+  color: #3a2;
 }
 .contents .c_item {
   display: -webkit-box;
@@ -1878,6 +1886,9 @@ footer .twelve .thumb li .active img {
     font-size: calc(41vw/12);
     line-height: 1.35;
   }
+  .contents .c_five .c_f_li dt span {
+    font-size: calc(45vw/12);
+  }
   .contents .c_eight {
     padding: 0 0 0;
   }
@@ -2697,6 +2708,9 @@ footer .twelve .thumb li .active img {
     padding: 0 0 0 4%;
     font-size: calc(43vw/12);
     line-height: 1.35;
+  }
+  .contents .c_five .c_f_li dt span {
+    font-size: calc(47vw/12);
   }
   .contents .c_eight {
     padding: 0 0 0;

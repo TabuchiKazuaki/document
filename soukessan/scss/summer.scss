@@ -52,6 +52,10 @@ header {
 			padding: 45px 0 0;
 			margin: 0 auto 0;
 		}
+		.h_a {
+			max-width: 512px;
+			padding: 70px 0 0;
+		}
 	}
 }
 
@@ -823,6 +827,10 @@ header {
 				text-align: left;
 				font-weight: bold;
 				color: #000;
+				span {
+					font-size: 29px;
+					color: #3a2;
+				}
 			}
 		}
 	}
@@ -1929,6 +1937,9 @@ footer {
 					padding: 0 0 0 4%;
 					font-size: calc(41vw/12);
 					line-height: 1.35;
+					span {
+						font-size: calc(45vw/12);
+					}
 				}
 			}
 		}
@@ -2838,6 +2849,9 @@ footer {
 					padding: 0 0 0 4%;
 					font-size: calc(43vw/12);
 					line-height: 1.35;
+					span {
+						font-size: calc(47vw/12);
+					}
 				}
 			}
 		}
