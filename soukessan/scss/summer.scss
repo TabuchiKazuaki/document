@@ -776,7 +776,7 @@ header {
 		li {
 			justify-content: flex-end;
 			box-sizing: border-box;
-			background: #1a1a1a;
+			background: #efefef;
 			width: 48%;
 			margin: 5% 0 0 4%;
 			border-radius: 8px;
@@ -802,7 +802,8 @@ header {
 					padding: 20px;
 					font-size: 27px;
 					line-height: 1.4;
-					color: #fff;
+					font-weight: bold;
+					color: #000;
 				}
 			}
 		}
@@ -836,10 +837,6 @@ header {
 				text-align: left;
 				font-weight: bold;
 				color: #000;
-				span {
-					font-size: 29px;
-					color: #3a2;
-				}
 			}
 		}
 	}
@@ -1954,9 +1951,6 @@ footer {
 					padding: 0 0 0 4%;
 					font-size: calc(41vw/12);
 					line-height: 1.35;
-					span {
-						font-size: calc(45vw/12);
-					}
 				}
 			}
 		}
@@ -2874,9 +2868,6 @@ footer {
 					padding: 0 0 0 4%;
 					font-size: calc(43vw/12);
 					line-height: 1.35;
-					span {
-						font-size: calc(47vw/12);
-					}
 				}
 			}
 		}
