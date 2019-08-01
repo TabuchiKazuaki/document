@@ -226,7 +226,9 @@ footer small { display: block; margin: 30px 40px 20px; font-size: 16px; letter-s
   .c_bottom { background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/463346/f036e69af7b60e3cd2b7b081fc582759_88a55430873e946b9012fd58cfd4c337.png) center top repeat; background-size: cover; background-size: 100% auto; } }
 @media screen and (max-width: 1100px) { header { -webkit-box-sizing: border-box; box-sizing: border-box; }
   header .h_wrap .h_h { width: 89%; }
-  header .h_wrap .h_kv { width: 100%; margin: 6% auto 0; } }
+  header .h_wrap .h_kv { width: 100%; margin: 6% auto 0; }
+  .c_top { background-size: 100% auto; }
+  .c_bottom { background-size: contain; } }
 @media screen and (max-width: 768px) { .line { height: 25px; }
   .f_line { background: #fff; height: 45px; }
   .dn { display: none; }
