@@ -2233,11 +2233,13 @@ footer {
 							padding: 0 0 0 6%;
 							font-size: calc(43vw/12);
 							&:before {
-								top: 0;
+								content: '';
+								position: absolute;
+								top: 0px;
 								left: 0;
-								background: #3a2;
-								width: 11%;
+								width: 12%;
 								height: 100%;
+								border-radius: 50%;
 							}
 						}
 						dd {
@@ -2311,11 +2313,13 @@ footer {
 							padding: 0 0 0 6%;
 							font-size: calc(43vw/12);
 							&:before {
-								top: 0;
+								content: '';
+								position: absolute;
+								top: 0px;
 								left: 0;
-								background: #3a2;
-								width: 11%;
+								width: 12%;
 								height: 100%;
+								border-radius: 50%;
 							}
 						}
 						dd {
@@ -3401,11 +3405,13 @@ footer {
 							padding: 0 0 0 6%;
 							font-size: calc(47vw/12);
 							&:before {
-								top: 0;
+								content: '';
+								position: absolute;
+								top: 0px;
 								left: 0;
-								background: #3a2;
-								width: 11%;
+								width: 12%;
 								height: 100%;
+								border-radius: 50%;
 							}
 						}
 						dd {
@@ -3477,10 +3483,13 @@ footer {
 							padding: 0 0 0 6%;
 							font-size: calc(45vw/12);
 							&:before {
-								top: 0;
+								content: '';
+								position: absolute;
+								top: 0px;
 								left: 0;
-								width: 11%;
+								width: 12%;
 								height: 100%;
+								border-radius: 50%;
 							}
 						}
 						dd {

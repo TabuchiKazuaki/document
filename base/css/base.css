@@ -2160,11 +2160,13 @@ footer small {
     font-size: calc(43vw/12);
   }
   .contents .fourteen .c_f_item li dl dt:before {
-    top: 0;
+    content: '';
+    position: absolute;
+    top: 0px;
     left: 0;
-    background: #3a2;
-    width: 11%;
+    width: 12%;
     height: 100%;
+    border-radius: 50%;
   }
   .contents .fourteen .c_f_item li dl dd {
     width: 70%;
@@ -2233,11 +2235,13 @@ footer small {
     font-size: calc(43vw/12);
   }
   .contents .sixteen .c_f_item li dl dt:before {
-    top: 0;
+    content: '';
+    position: absolute;
+    top: 0px;
     left: 0;
-    background: #3a2;
-    width: 11%;
+    width: 12%;
     height: 100%;
+    border-radius: 50%;
   }
   .contents .sixteen .c_f_item li dl dd {
     width: 70%;
@@ -3201,11 +3205,13 @@ footer small {
     font-size: calc(47vw/12);
   }
   .contents .fourteen .c_f_item li dl dt:before {
-    top: 0;
+    content: '';
+    position: absolute;
+    top: 0px;
     left: 0;
-    background: #3a2;
-    width: 11%;
+    width: 12%;
     height: 100%;
+    border-radius: 50%;
   }
   .contents .fourteen .c_f_item li dl dd {
     width: 70%;
@@ -3274,10 +3280,13 @@ footer small {
     font-size: calc(45vw/12);
   }
   .contents .sixteen .c_f_item li dl dt:before {
-    top: 0;
+    content: '';
+    position: absolute;
+    top: 0px;
     left: 0;
-    width: 11%;
+    width: 12%;
     height: 100%;
+    border-radius: 50%;
   }
   .contents .sixteen .c_f_item li dl dd {
     width: 70%;
