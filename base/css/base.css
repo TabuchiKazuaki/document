@@ -812,7 +812,7 @@ header .h_wrap .h_r {
 .contents .z_ba {
   display: inline-block;
   background: #ec2840;
-  padding: 4px 11px;
+  padding: 3px 11px;
   margin: 0 0 0 6px;
   border-radius: 4px;
   font-size: 15px;
@@ -2163,12 +2163,16 @@ footer small {
   }
   .contents .z_ba {
     display: inline-block;
-    padding: 0.8% 2.2% 0.6%;
+    padding: 0.6% 2.2% 0.6%;
     margin: 0 0 0 2%;
     border-radius: 3px;
     font-size: calc(28vw/12);
     letter-spacing: 1.5px;
     line-height: 1.2;
+  }
+  .contents .z_ba_single {
+    padding: 0.4% 1.8% 0.6%;
+    line-height: 1.1;
   }
   .contents .sixteen {
     padding: 0 0 6%;
@@ -3131,12 +3135,16 @@ footer small {
   }
   .contents .z_ba {
     display: inline-block;
-    padding: 0.8% 2.2% 0.6%;
+    padding: 0.6% 2.2% 0.6%;
     margin: 0 0 0 2%;
     border-radius: 2px;
-    font-size: calc(30vw/12);
-    letter-spacing: 1.5px;
-    line-height: 1;
+    font-size: calc(29vw/12);
+    letter-spacing: 1.3px;
+    line-height: 1.1;
+  }
+  .contents .z_ba_single {
+    padding: 0.4% 1.8% 0.6%;
+    line-height: 1.1;
   }
   .contents .fourteen {
     padding: 0 0 6%;
