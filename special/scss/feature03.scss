@@ -20,7 +20,14 @@ img  { width: 100%; }
 	max-width: 768px;
 	margin: 0 auto;
 }
-
+.bagg {
+	display: inline-block;
+	background: #f0163a;
+	padding: 0.6% 2.2%;
+	border-radius: 3px;
+	font-size: calc(31vw/12);
+	letter-spacing: 1.3px;
+}
 header {
 	.logo {
 		background: #000;
@@ -570,6 +577,14 @@ footer {
 	.wrap {
 		padding: 0 4.8%;
 	}
+	.bagg {
+		display: inline-block;
+		background: #f0163a;
+		padding: 0.6% 2.2%;
+		border-radius: 3px;
+		font-size: calc(29vw/12);
+		letter-spacing: 1.3px;
+	}
 	header {
 		.logo {
 			padding: 1.53% 0 1.58% 2.5%;
@@ -1033,11 +1048,18 @@ footer {
 			letter-spacing: 1.3px;
 		}
 	}
-
 }
 @media screen and (max-width: 480px) {
 	.wrap {
 		padding: 0 5%;
+	}
+	.bagg {
+		display: inline-block;
+		background: #f0163a;
+		padding: 0.6% 2.2%;
+		border-radius: 3px;
+		font-size: calc(29vw/12);
+		letter-spacing: 1.3px;
 	}
 	header {
 		.logo {
