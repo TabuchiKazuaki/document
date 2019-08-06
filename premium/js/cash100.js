@@ -1,8 +1,8 @@
 $(document).ready(function() {
 	var now = new Date();
 
-	var tt01 = new Date("2019/05/04 15:15");
-	if (now.getTime() > tt01.getTime()) {
+	var ttbefore = new Date("2019/05/04 15:15");
+	if (now.getTime() > ttbefore.getTime()) {
 		$('.now10').hide();
 		$('.now9').hide();
 		$('.now8').hide();
