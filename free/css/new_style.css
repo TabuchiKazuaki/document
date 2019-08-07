@@ -47,6 +47,14 @@ header .h_w {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+header .h_h {
+  max-width: 380px;
+  margin: 0 auto 0;
+}
+header .h_t {
+  max-width: 588px;
+  margin: 40px auto 0;
+}
 
 .header_item {
   overflow: hidden;
@@ -315,18 +323,18 @@ header .h_w {
     line-height: 0;
     width: 21%;
   }
-  header .header_heading {
+  header .h_h {
     margin: 0 auto 0;
     width: 92%;
   }
-  header .header_heading img {
+  header .h_h img {
     width: 80%;
   }
-  header .header_title {
+  header .h_t {
     margin: 4% auto 0;
     width: 92%;
   }
-  header .header_title img {
+  header .h_t img {
     width: 85%;
   }
 
@@ -553,17 +561,17 @@ header .h_w {
     padding: 1.2% 0 1.2% 2.2%;
     width: 21%;
   }
-  header .header_heading {
+  header .h_h {
     width: 100%;
   }
-  header .header_heading img {
+  header .h_h img {
     width: 60%;
   }
-  header .header_title {
+  header .h_t {
     width: 100%;
     margin: 3% auto 0;
   }
-  header .header_title img {
+  header .h_t img {
     width: 78%;
   }
 
