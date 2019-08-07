@@ -318,24 +318,25 @@ header .h_t {
     font-size: calc(26vw/12);
   }
 
+  header .h_w {
+    background-size: cover;
+    height: auto;
+    padding: 6% 0 8%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
   header .h_l {
     padding: 1.2% 0 1.2% 2.2%;
     line-height: 0;
     width: 21%;
   }
   header .h_h {
-    margin: 0 auto 0;
     width: 92%;
-  }
-  header .h_h img {
-    width: 80%;
+    margin: 0 auto 0;
   }
   header .h_t {
     margin: 4% auto 0;
     width: 92%;
-  }
-  header .h_t img {
-    width: 85%;
   }
 
   .header_item {
