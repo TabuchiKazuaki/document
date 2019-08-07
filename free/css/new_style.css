@@ -56,28 +56,6 @@ header .h_t {
   margin: 40px auto 0;
 }
 
-.header_item {
-  overflow: hidden;
-  width: 92%;
-  margin: 3.5% auto 0;
-  max-width: 840px;
-  margin: 3% auto 0;
-  padding: 0 0 6%;
-}
-.header_item li {
-  float: left;
-  width: 24%;
-  margin: 0 0 0 1%;
-  line-height: 0;
-  opacity: 0;
-}
-.header_item li:first-child {
-  margin: 0;
-}
-.header_item li a {
-  display: block;
-}
-
 .bagg {
   display: inline-block;
   background: #f0163a;
@@ -331,27 +309,12 @@ header .h_t {
     width: 21%;
   }
   header .h_h {
-    width: 92%;
+    width: 51%;
     margin: 0 auto 0;
   }
   header .h_t {
     margin: 4% auto 0;
-    width: 92%;
-  }
-
-  .header_item {
-    overflow: hidden;
-    width: 92%;
-    margin: 3.5% auto 0;
-    max-width: 840px;
-    margin: 3% auto 0;
-    padding: 0 0 7%;
-  }
-  .header_item li {
-    float: left;
-    width: 24%;
-    margin: 0 0 0 1.3%;
-    line-height: 0;
+    width: 77%;
   }
 
   .contents {
@@ -558,36 +521,25 @@ header .h_t {
     font-size: calc(26vw/12);
   }
 
+  header .h_w {
+    background-size: cover;
+    height: auto;
+    padding: 6% 0 8%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
   header .h_l {
     padding: 1.2% 0 1.2% 2.2%;
+    line-height: 0;
     width: 21%;
   }
   header .h_h {
-    width: 100%;
-  }
-  header .h_h img {
-    width: 60%;
+    width: 51%;
+    margin: 0 auto 0;
   }
   header .h_t {
-    width: 100%;
-    margin: 3% auto 0;
-  }
-  header .h_t img {
-    width: 78%;
-  }
-
-  .header_item {
-    overflow: hidden;
-    width: 92%;
-    margin: 3.5% auto 0;
-    max-width: 840px;
-    margin: 3% auto 0;
-    padding: 0 0 7%;
-  }
-  .header_item li {
-    float: left;
-    width: 23.8%;
-    margin: 0 0 0 1.6%;
+    margin: 4% auto 0;
+    width: 77%;
   }
 
   .contents {
