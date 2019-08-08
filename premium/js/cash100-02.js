@@ -3,7 +3,8 @@ $(document).ready(function() {
 
 	var ttbefore = new Date("2019/05/04 15:15");
 	if (now.getTime() > ttbefore.getTime()) {
-		$('.dt01').hide();
+		$('.dt01').show();
+		$('.dt02').hide();
 		$('.now10').hide();
 		$('.now9').hide();
 		$('.now8').hide();
@@ -15,6 +16,17 @@ $(document).ready(function() {
 		$('.now2').hide();
 		$('.now1').hide();
 		$('.now0').hide();
+	}
+
+	var dtt01 = new Date("2019/08/11 00:00");
+	if (now.getTime() > dtt01.getTime()) {
+		$('.dt01').hide();
+		$('.dt02').show();
+	}
+	var dtt02 = new Date("2019/08/14 00:00");
+	if (now.getTime() > dtt02.getTime()) {
+		$('.dt01').show();
+		$('.dt02').hide();
 	}
 	var tt10 = new Date("2019/08/21 00:00");
 	if (now.getTime() > tt10.getTime()) {
