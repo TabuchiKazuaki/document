@@ -24,7 +24,7 @@ img  { width: 100%; height: auto;}
 	display: none;
 }
 
-header {
+.h_all {
 	padding: 0 0 43px;
 	.h_l {
 		max-width: 151px;
@@ -127,6 +127,61 @@ header {
 			letter-spacing: 1.3px;
 			border-radius: 6px;
 			color: #000;
+		}
+	}
+}
+
+.h_point {
+	padding: 0 0 43px;
+	.h_l {
+		max-width: 151px;
+		padding: 10px 0 10px 20px;
+		line-height: 0;
+	}
+	.h_a {
+		position: relative;
+		background: url(https://bit.ly/33lRalW) center center no-repeat #000;
+		min-height: 649px;
+		padding: 0 0 0;
+		margin: 0 auto;
+	}
+	.h_w {
+		padding: 51px 0 0;
+		z-index: 100;
+	}
+
+	.h_m {
+		max-width: 335px;
+		margin: 0 auto 0;
+	}
+	.h_t {
+		max-width: 295px;
+		margin: 32px auto 0;
+	}
+	.h_i {
+		display: flex;
+		align-items: center;
+		max-width: 593px;
+		margin: 30px auto 0;
+		dd {
+			max-width: 425px;
+			margin: 0 auto;
+			line-height: 0;
+		}
+		dt {
+			max-width: 146px;
+			margin: 0 0 0 17px;
+			text-align: center;
+			line-height: 0;
+		}
+	}
+	.h_cp {
+		margin: 30px 0 0;
+		text-align: center;
+		letter-spacing: 2.5px;
+		font-size: 18px;
+		span {
+			font-size: 21px;
 		}
 	}
 }
