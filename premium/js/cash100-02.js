@@ -4,7 +4,6 @@ $(document).ready(function() {
 	var ttbefore = new Date("2019/05/04 15:15");
 	if (now.getTime() > ttbefore.getTime()) {
 		$('.dt01').hide();
-		$('.dt02').hide();
 		$('.now10').hide();
 		$('.now9').hide();
 		$('.now8').hide();
