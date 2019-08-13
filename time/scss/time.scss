@@ -1454,10 +1454,9 @@ aside {
 
 
 footer {
-	background: #000;
+	background: #efefef;
 	.wrap {
 		padding: 55px 0 40px;
-		border-top: 1px solid #606060;
 	}
 
 	.f_list {
@@ -2718,6 +2717,40 @@ footer {
 			margin: 5% 0 0;
 			font-size: calc(26vw/12);
 			letter-spacing: 1.3px;
+		}
+	}
+}
+
+
+.c_tw {
+	.c_tw_h {
+		max-width: 394px;
+		margin: 54px auto 0;
+	}
+	.c_tw_t {
+		margin: 50px 0 0;
+		text-align: center;
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 1.6;
+		letter-spacing: 1.4px;
+		color: #666;
+		span {
+			color: #a1882f;
+		}
+	}
+	.c_tw_btn {
+		margin: 40px 0 0;
+		a {
+			background: #1995e0;
+			display: block;
+			padding: 25px 0;
+			text-align: center;
+			font-size: 29px;
+			font-weight: bold;
+			border-radius: 10px;
+			letter-spacing: 1.4px;
+			color: #fff;
 		}
 	}
 }
