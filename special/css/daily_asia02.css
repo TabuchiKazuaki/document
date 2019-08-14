@@ -16,13 +16,13 @@ body li {
 
 a {
   display: block;
-  -webkit-transition: .8s;
-  transition: .8s;
+  -webkit-transition: .3s;
+  transition: .3s;
   text-decoration: none;
 }
 a:hover {
   text-decoration: none;
-  opacity: .5;
+  opacity: .8;
 }
 
 img {
@@ -62,18 +62,19 @@ img {
 .bagg {
   display: inline-block;
   background: #f0163a;
-  padding: 2px 10px;
+  padding: 3px 13px;
   margin: 0 0 5px 0;
   border-radius: 3px;
-  font-weight: bold;
-  font-size: 15px;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 1.5px;
   text-align: center;
   color: #fff;
 }
 
 header {
   width: 100%;
-  margin: 0 auto 35px auto;
+  margin: 0 auto;
 }
 header h1 {
   max-width: 152px;
@@ -174,18 +175,29 @@ header .wrap h2 {
 
 .c_h {
   padding: 0 0 0 18px;
+  margin: 0 0 35px;
   font-size: 32px;
   font-weight: bold;
   line-height: 1.5;
+  letter-spacing: 1.4px;
   border-left: 6px solid #3a2;
 }
 
+.c_heading .wrap {
+  max-width: 750px;
+  padding: 55px 0 92px;
+  margin: 0 auto;
+}
+
 .c_three {
-  padding: 0 0 15px;
-  margin: 15px 0 0;
+  padding: 0;
+  margin: 0;
+}
+.c_three a {
+  display: block;
 }
 .c_three .c_thr_item li {
-  padding: 35px 0 0;
+  padding: 0 0 0;
   border-bottom: 1px solid #606060;
 }
 .c_three .c_thr_item li:last-child {
@@ -204,8 +216,8 @@ header .wrap h2 {
   line-height: 0;
 }
 .c_three .c_thr_dl dt {
-  width: 45%;
-  padding: 0 0 0 3%;
+  width: 44%;
+  padding: 0 0 0 4%;
   font-size: 23px;
   line-height: 1.35;
   font-weight: bold;
@@ -216,12 +228,12 @@ header .wrap h2 {
 }
 .c_three .c_thr_text {
   margin: 20px 0 0;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 1.4;
   color: #ababab;
 }
 .c_three .c_thr_btn {
-  margin: 25px 0 35px;
+  margin: 25px 0 0;
 }
 .c_three .c_thr_btn a {
   display: block;
@@ -351,11 +363,11 @@ footer small {
     padding: 0.8% 3%;
     margin: 0 0 1% 0;
     border-radius: 3px;
-    font-size: calc(26vw/12);
+    font-size: calc(28vw/12);
   }
 
   header {
-    margin: 0 auto 3.5% auto;
+    margin: 0 auto;
   }
   header h1 {
     width: 21%;
@@ -374,17 +386,21 @@ footer small {
 
   .c_h {
     padding: 0 0 0 2.7%;
-    font-size: calc(42vw/12);
+    margin: 0 0 6.5%;
+    font-size: calc(52vw/12);
     line-height: 1.5;
     border-left: 4.5px solid #3a2;
   }
 
+  .c_heading .wrap {
+    padding: 8% 4.7% 12%;
+  }
+
   .c_three {
-    padding: 0 0 3%;
-    margin: 1% 0 0;
+    padding: 0;
   }
   .c_three .c_thr_item li {
-    padding: 4% 0 0;
+    padding: 0;
   }
   .c_three .c_thr_dl dd {
     width: 52%;
@@ -402,7 +418,7 @@ footer small {
     line-height: 1.4;
   }
   .c_three .c_thr_btn {
-    margin: 4% 0 5.5%;
+    margin: 4% 0 0;
   }
   .c_three .c_thr_btn a {
     padding: 2.7% 0;
@@ -607,11 +623,11 @@ footer small {
     padding: 0.8% 3%;
     margin: 0 0 1% 0;
     border-radius: 3px;
-    font-size: calc(26vw/12);
+    font-size: calc(30vw/12);
   }
 
   header {
-    margin: 0 auto 3.5% auto;
+    margin: 0 auto;
   }
   header h1 {
     width: 21%;
@@ -630,17 +646,21 @@ footer small {
 
   .c_h {
     padding: 0 0 0 2.7%;
-    font-size: calc(42vw/12);
+    margin: 0 0 6%;
+    font-size: calc(54vw/12);
     line-height: 1.5;
     border-left: 3px solid #3a2;
   }
 
+  .c_heading .wrap {
+    padding: 7% 4.7% 11%;
+  }
+
   .c_three {
-    padding: 0 0 2%;
-    margin: 1% 0 0;
+    padding: 0;
   }
   .c_three .c_thr_item li {
-    padding: 4% 0 0;
+    padding: 0;
   }
   .c_three .c_thr_dl dd {
     width: 52%;
@@ -658,7 +678,7 @@ footer small {
     line-height: 1.4;
   }
   .c_three .c_thr_btn {
-    margin: 4% 0 5.5%;
+    margin: 4% 0 0;
   }
   .c_three .c_thr_btn a {
     padding: 2.7% 0;
