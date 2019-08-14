@@ -235,6 +235,53 @@ header .h_w_ani .h_ani {
   line-height: 1.5;
   color: #8c8c8c;
 }
+.contents .c_six {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding: 0 0 50px;
+  margin: 35px 0 0;
+}
+.contents .c_six li {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #1a1a1a;
+  width: 48%;
+  margin: 5% 0 0 4%;
+  border-radius: 8px;
+}
+.contents .c_six li:nth-child(2n+1) {
+  margin: 5% 0 0 0;
+}
+.contents .c_six li:nth-child(2) {
+  margin: 0 0 0 4%;
+}
+.contents .c_six li:nth-child(1) {
+  margin: 0;
+}
+.contents .c_six li a {
+  display: block;
+  border-radius: 8px;
+}
+.contents .c_six li a figure {
+  line-height: 0;
+}
+.contents .c_six li a figure img {
+  border-radius: 8px 8px 0 0;
+}
+.contents .c_six li a .c_text {
+  padding: 20px;
+  font-size: 27px;
+  line-height: 1.4;
+  color: #fff;
+}
 .contents .c_ten {
   padding: 0 0 30px;
   margin: 35px 0 0;
@@ -1053,49 +1100,6 @@ header .h_w_ani .h_ani {
   display: table-cell;
   word-wrap: break-word;
   overflow-wrap: break-word;
-}
-.contents .c_six {
-  padding: 0 0 35px;
-  margin: 15px 0 0;
-}
-.contents .c_six .c_s_item li {
-  padding: 25px 0;
-  border-bottom: 1px solid #606060;
-}
-.contents .c_six .c_s_item li:last-child {
-  border-bottom: none;
-}
-.contents .c_six .c_s_item li a {
-  display: block;
-}
-.contents .c_six .c_s_dl {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.contents .c_six .c_s_dl dd {
-  width: 38%;
-  line-height: 0;
-}
-.contents .c_six .c_s_dl dt {
-  width: 59%;
-  padding: 0 0 0 3%;
-  font-size: 23px;
-  line-height: 1.35;
-  font-weight: bold;
-  color: #000;
-}
-.contents .c_six .c_s_dl dt .rank {
-  display: block;
-  font-size: 20px;
-  color: #cfa64d;
-}
-.contents .c_six .c_s_dl dt .rank .num {
-  margin: 0 2px 0 0;
-  font-size: 30px;
 }
 .contents .c_12th {
   padding: 0 0 30px;
@@ -2349,29 +2353,6 @@ footer small {
     border: 2px solid #cfa64d;
     font-size: calc(44vw/12);
   }
-  .contents .c_six {
-    padding: 0 0 5%;
-    margin: 1% 0 0;
-  }
-  .contents .c_six .c_s_item li {
-    padding: 3% 0;
-  }
-  .contents .c_six .c_s_dl dd {
-    width: 38%;
-  }
-  .contents .c_six .c_s_dl dt {
-    width: 59%;
-    padding: 0 0 0 3%;
-    font-size: calc(36vw/12);
-    line-height: 1.35;
-  }
-  .contents .c_six .c_s_dl dt .rank {
-    font-size: calc(38vw/12);
-  }
-  .contents .c_six .c_s_dl dt .rank .num {
-    margin: 0 0.2% 0 0;
-    font-size: calc(42vw/12);
-  }
   .contents .c_12th {
     padding: 0 0 3%;
     margin: 5% 0 0;
@@ -2408,6 +2389,29 @@ footer small {
     padding: 0 0 0 3%;
     font-size: calc(38vw/12);
     line-height: 1.35;
+  }
+  .contents .c_six {
+    padding: 0 0 6%;
+    margin: 4% 0 0;
+  }
+  .contents .c_six li {
+    width: 48%;
+    margin: 5% 0 0 4%;
+    border-radius: 6px;
+  }
+  .contents .c_six li a {
+    border-radius: 6px;
+  }
+  .contents .c_six li a figure {
+    line-height: 0;
+  }
+  .contents .c_six li a figure img {
+    border-radius: 6px 6px 0 0;
+  }
+  .contents .c_six li a .c_text {
+    padding: 6%;
+    font-size: calc(42vw/12);
+    line-height: 1.4;
   }
   .contents .c_seven {
     padding: 0 0 5%;
@@ -3240,29 +3244,6 @@ footer small {
     font-size: calc(38vw/12);
     line-height: 1.35;
   }
-  .contents .c_six {
-    padding: 0 0 5%;
-    margin: 1% 0 0;
-  }
-  .contents .c_six .c_s_item li {
-    padding: 3% 0;
-  }
-  .contents .c_six .c_s_dl dd {
-    width: 38%;
-  }
-  .contents .c_six .c_s_dl dt {
-    width: 59%;
-    padding: 0 0 0 3%;
-    font-size: calc(38vw/12);
-    line-height: 1.35;
-  }
-  .contents .c_six .c_s_dl dt .rank {
-    font-size: calc(40vw/12);
-  }
-  .contents .c_six .c_s_dl dt .rank .num {
-    margin: 0 0.2% 0 0;
-    font-size: calc(44vw/12);
-  }
   .contents .c_12th {
     padding: 0 0 3%;
     margin: 5% 0 0;
@@ -3295,6 +3276,29 @@ footer small {
     padding: 0 0 0 3%;
     font-size: calc(40vw/12);
     line-height: 1.35;
+  }
+  .contents .c_six {
+    padding: 0 0 6%;
+    margin: 4% 0 0;
+  }
+  .contents .c_six li {
+    width: 48%;
+    margin: 5% 0 0 4%;
+    border-radius: 4px;
+  }
+  .contents .c_six li a {
+    border-radius: 4px;
+  }
+  .contents .c_six li a figure {
+    line-height: 0;
+  }
+  .contents .c_six li a figure img {
+    border-radius: 4px 4px 0 0;
+  }
+  .contents .c_six li a .c_text {
+    padding: 6%;
+    font-size: calc(44vw/12);
+    line-height: 1.4;
   }
   .contents .c_seven {
     padding: 0 0 5%;
