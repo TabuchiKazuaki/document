@@ -263,6 +263,10 @@ header {
 				padding: 35px 0 0;
 				border-bottom: 1px solid #606060;
 
+				&:first-child {
+					padding: 0;
+				}
+
 				&:last-child {
 					border-bottom: none;
 				}
@@ -582,6 +586,9 @@ footer {
 			.c_thr_item {
 				li {
 					padding: 4% 0 0;
+					&:first-child {
+						padding: 0;
+					}
 				}
 			}
 			.c_thr_dl {
@@ -933,6 +940,9 @@ footer {
 			.c_thr_item {
 				li {
 					padding: 4% 0 0;
+					&:first-child {
+						padding: 0;
+					}
 				}
 			}
 			.c_thr_dl {
