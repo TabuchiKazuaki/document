@@ -391,6 +391,9 @@ header .h_cp span {
   font-size: 32px;
   text-align: center;
 }
+.contents .c_fit .c_top_sec {
+  margin: 19px auto 0;
+}
 .contents .c_merit {
   margin: 45px 0 0;
 }
@@ -1013,7 +1016,7 @@ footer small {
     font-size: calc(29vw/12);
   }
   .contents .c_fit li {
-    padding: 9.5% 2.5% 10.5%;
+    padding: 9.5% 1% 10.5%;
     max-width: 768px;
     margin: 0 auto 0;
   }
@@ -1022,6 +1025,9 @@ footer small {
     line-height: 1.6;
     letter-spacing: 1.3px;
     font-size: calc(42vw/12);
+  }
+  .contents .c_fit .c_top_sec {
+    margin: 3% auto 0;
   }
   .contents .c_merit {
     margin: 4% 0 0;
