@@ -61,15 +61,6 @@ header {
 			line-height: 0;
 		}
 	}
-	.h_cp {
-		margin: 30px 0 0;
-		text-align: center;
-		letter-spacing: 2.5px;
-		font-size: 18px;
-		span {
-			font-size: 21px;
-		}
-	}
 }
 
 .chace {
@@ -329,9 +320,14 @@ header {
 		.ch_btn {
 			margin: 6% auto 0;
 			a {
-				padding: 3.8% 0;
-				border-radius: 5px;
-				font-size: calc(45vw/12);
+				display: block;
+				background: #e5c200;
+				padding: 26px 0;
+				border-radius: 6px;
+				text-align: center;
+				font-size: 28px;
+				font-weight: bold;
+				color: #000;
 			}
 		}
 		.ch_caution {
@@ -792,15 +788,6 @@ footer {
 				margin: 0 0 0 2.5%;
 			}
 		}
-		.h_cp {
-			margin: 30px 0 0;
-			text-align: center;
-			letter-spacing: 2.5px;
-			font-size: 18px;
-			span {
-				font-size: 21px;
-			}
-		}
 	}
 	.chace {
 		margin: 10% 0 0;
@@ -898,11 +885,11 @@ footer {
 		.c_h {
 			padding: 0 0 0 2.5%;
 			border-left: 4px solid #e5c200;
-			font-size: calc(50vw/12);
+			font-size: calc(45vw/12);
 			letter-spacing: 1.8px;
 			line-height: 1.4;
 			span {
-				font-size: calc(56vw/12);
+				font-size: calc(48vw/12);
 			}
 		}
 		.ch_m {
@@ -975,34 +962,19 @@ footer {
 					margin: 9% auto 0;
 					width: 100%;
 				}
-				.copy_c {
-					max-width: 644px;
-					margin: 5px auto 0;
-					font-size: 10px;
-					text-align: right;
-					color: #777;
-				}
 
 				.caution {
-					margin: 10px 0 0;
-					text-align: center;
-					font-size: 13px;
+					margin: 2% 0 0;
+					font-size: calc(20vw/12);
 					line-height: 1.5;
-					color: #ababab ;
 				}
 			}
 			.ch_btn {
-				max-width: 680px;
-				margin: 44px auto 0;
+				margin: 6% auto 0;
 				a {
-					display: block;
-					background: #e5c200;
-					padding: 26px 0;
-					border-radius: 6px;
-					text-align: center;
-					font-size: 28px;
-					font-weight: bold;
-					color: #000;
+					padding: 3.8% 0;
+					border-radius: 5px;
+					font-size: calc(45vw/12);
 				}
 			}
 			.ch_caution {
@@ -1025,23 +997,23 @@ footer {
 			li {
 				padding: 9.5% 1% 10.5%;
 				max-width: 768px;
-				margin: 18px auto 0;
+				margin: 0 auto 0;
 				border-top: 2px solid #404040;
 				.pic {
-					margin: 32px auto 0;
+					margin: 2% auto 0;
 				}
 			}
 			.c_top {
 				margin: 0 auto 0;
 				line-height: 1.5;
 				letter-spacing: 1.3px;
-				font-size: calc(42vw/12);
+				font-size: calc(47vw/12);
 			}
 			.c_top_sec {
-				margin: 3% auto 0;
+				margin: 4% auto 0;
 				line-height: 1.5;
 				letter-spacing: 1.3px;
-				font-size: calc(42vw/12);
+				font-size: calc(49vw/12);
 			}
 		}
 		.c_merit {
@@ -1162,6 +1134,8 @@ footer {
 
 
 	.info {
+		margin: 8% 0 0;
+
 		.wrap {
 			padding: 5% 2.2% 5.4%;
 			margin: 0 2.2% 4.5%;
@@ -1352,7 +1326,7 @@ footer {
 			margin: 0 auto;
 		}
 		.h_w {
-			padding: 11% 0 0;
+			padding: 10% 0 0;
 		}
 
 		.h_m {
@@ -1375,42 +1349,34 @@ footer {
 				margin: 0 0 0 2.5%;
 			}
 		}
-		.h_cp {
-			margin: 30px 0 0;
-			text-align: center;
-			letter-spacing: 2.5px;
-			font-size: 18px;
-			span {
-				font-size: 21px;
-			}
-		}
+
 	}
 	.chace {
 		margin: 10% 0 0;
 		.wrap {
 			width: 75%;
 			padding: 5.5% 0 5.5%;
-			border-radius: 6px;
+			border-radius: 5px;
 		}
 		.ch_h {
 			width: 42%;
 			padding: 1.3% 0;
 			margin: 0 auto;
-			font-size: calc(32vw/12);
+			font-size: calc(34vw/12);
 			border-radius: 30px;
 			letter-spacing: 1.2px;
 			span {
-				font-size: calc(36vw/12);
+				font-size: calc(38vw/12);
 			}
 		}
 		.ch_txt {
 			margin: 2% 0 0;
-			font-size: calc(51vw/12);
+			font-size: calc(53vw/12);
 			letter-spacing: 1.2px;
 			line-height: 1.33;
 			.num {
 				letter-spacing: 1.3px;
-				font-size: calc(56vw/12);
+				font-size: calc(58vw/12);
 			}
 		}
 		.ch_img {
@@ -1422,20 +1388,20 @@ footer {
 			margin: 6% auto 0;
 			a {
 				padding: 4% 0;
-				border-radius: 5px;
-				font-size: calc(45vw/12);
+				border-radius: 4px;
+				font-size: calc(47vw/12);
 			}
 		}
 		.ch_caution {
 			margin: 2.6% 0 0;
-			font-size: calc(21vw/12);
+			font-size: calc(23vw/12);
 		}
 		.ch_date {
 			margin: 3% 0 0;
 			letter-spacing: 1.7px;
-			font-size: calc(26vw/12);
+			font-size: calc(28vw/12);
 			span {
-				font-size: calc(28vw/12);
+				font-size: calc(30vw/12);
 			}
 		}
 	}
@@ -1444,7 +1410,7 @@ footer {
 		margin: 3% 0 0;
 		border: 1.5px solid #cfa64d;
 		border-radius: 30px;
-		font-size: calc(29vw/12);
+		font-size: calc(31vw/12);
 		letter-spacing: 1.1px;
 	}
 	.gen {
@@ -1481,11 +1447,11 @@ footer {
 		.c_h {
 			padding: 0 0 0 2.5%;
 			border-left: 4px solid #e5c200;
-			font-size: calc(50vw/12);
+			font-size: calc(47vw/12);
 			letter-spacing: 1.8px;
 			line-height: 1.4;
 			span {
-				font-size: calc(56vw/12);
+				font-size: calc(50vw/12);
 			}
 		}
 		.ch_m {
@@ -1493,7 +1459,7 @@ footer {
 		}
 		.c_t {
 			padding: 4% 0 0 2.3%;
-			font-size: calc(41vw/12);
+			font-size: calc(43vw/12);
 			line-height: 1.3;
 			letter-spacing: 1.2px;
 		}
@@ -1504,7 +1470,7 @@ footer {
 		.c_box {
 			padding: 0 2%;
 			margin: 7% 0 0;
-			border-radius: 6px;
+			border-radius: 5px;
 			li {
 				padding: 9.5% 2.5% 10.5%;
 				max-width: 768px;
@@ -1533,11 +1499,11 @@ footer {
 
 				.c_it {
 					margin: 4.6% 0 0;
-					font-size: calc(43vw/12);
+					font-size: calc(45vw/12);
 					line-height: 1.35;
 					letter-spacing: 1.4px;
 					.num {
-						font-size: calc(48vw/12);
+						font-size: calc(50vw/12);
 					}
 				}
 				.c_sec_ih {
@@ -1546,11 +1512,11 @@ footer {
 				}
 				.c_sec_it {
 					margin: 4.3% 0 0;
-					font-size: calc(51vw/12);
+					font-size: calc(53vw/12);
 					line-height: 1.4;
 					letter-spacing: 1.4px;
 					.num {
-						font-size: calc(55vw/12);
+						font-size: calc(57vw/12);
 					}
 				}
 
@@ -1558,73 +1524,56 @@ footer {
 					margin: 9% auto 0;
 					width: 100%;
 				}
-				.copy_c {
-					max-width: 644px;
-					margin: 5px auto 0;
-					font-size: 10px;
-					text-align: right;
-					color: #777;
-				}
 
 				.caution {
-					margin: 10px 0 0;
-					text-align: center;
-					font-size: 13px;
-					line-height: 1.5;
-					color: #ababab ;
+					margin: 2% 0 0;
+					font-size: calc(23vw/12);
 				}
 			}
 			.ch_btn {
-				max-width: 680px;
-				margin: 44px auto 0;
+				margin: 6% auto 0;
 				a {
-					display: block;
-					background: #e5c200;
-					padding: 26px 0;
-					border-radius: 6px;
-					text-align: center;
-					font-size: 28px;
-					font-weight: bold;
-					color: #000;
+					padding: 3.8% 0;
+					border-radius: 5px;
+					font-size: calc(47vw/12);
 				}
 			}
 			.ch_caution {
 				margin: 4% 0 0;
-				font-size: calc(21vw/12);
+				font-size: calc(23vw/12);
 			}
 			.ch_date {
 				margin: 3% 0 0;
 				letter-spacing: 1.8px;
-				font-size: calc(26vw/12);
+				font-size: calc(28vw/12);
 				span {
-					font-size: calc(29vw/12);
+					font-size: calc(31vw/12);
 				}
 			}
 		}
 		.c_fit {
 			padding: 0 2.5%;
 			margin: 8% 0 0;
-			border-radius: 6px;
+			border-radius: 5px;
 			li {
 				padding: 9.5% 1% 10.5%;
 				max-width: 768px;
-				margin: 18px auto 0;
-				border-top: 2px solid #404040;
+				margin: 0 auto 0;
 				.pic {
-					margin: 32px auto 0;
+					margin: 2% auto 0;
 				}
 			}
 			.c_top {
 				margin: 0 auto 0;
 				line-height: 1.5;
 				letter-spacing: 1.3px;
-				font-size: calc(42vw/12);
+				font-size: calc(51vw/12);
 			}
 			.c_top_sec {
-				margin: 3% auto 0;
+				margin: 4% auto 0;
 				line-height: 1.5;
 				letter-spacing: 1.3px;
-				font-size: calc(42vw/12);
+				font-size: calc(53vw/12);
 			}
 		}
 		.c_merit {
@@ -1633,14 +1582,14 @@ footer {
 				padding: 4.4% 2.4% 4.3%;
 				margin: 3% 0 0;
 				margin: 2.6% auto 0;
-				border-radius: 6px;
+				border-radius: 5px;
 				.icon {
 					width: 16%;
 					margin: 0 auto;
 					box-sizing: border-box;
 					padding: 0.8% 0 1.2%;
 					border-radius: 30px;
-					font-size: calc(21vw/12);
+					font-size: calc(23vw/12);
 					letter-spacing: 0.6px;
 					&:before {
 						content: ' ';
@@ -1656,7 +1605,7 @@ footer {
 					span {
 						display: inline-block;
 						margin: 0 0 0 2.5%;
-						font-size: calc(29vw/12);
+						font-size: calc(31vw/12);
 					}
 				}
 
@@ -1666,11 +1615,11 @@ footer {
 
 				.c_ih {
 					margin: 3.3% auto 0;
-					font-size: calc(54vw/12);
+					font-size: calc(56vw/12);
 					line-height: 1.3;
 					letter-spacing: 1.3px;
 					span {
-						font-size: calc(58vw/12);
+						font-size: calc(60vw/12);
 					}
 				}
 				.pic {
@@ -1678,12 +1627,12 @@ footer {
 				}
 				.copy_c {
 					margin: 1% auto 0;
-					font-size: calc(17vw/12);
+					font-size: calc(19vw/12);
 				}
 
 				.caution {
 					margin: 2% 0 0;
-					font-size: calc(21vw/12);
+					font-size: calc(23vw/12);
 					line-height: 1.3;
 				}
 			}
@@ -1700,20 +1649,20 @@ footer {
 			padding: 0 0 0 2.3%;
 			border-left: 4.5px solid #e5c200;
 			line-height: 1.4;
-			font-size: calc(50vw/12);
+			font-size: calc(52vw/12);
 			span {
 				margin: 0 0.8% 0 0;
-				font-size: calc(53vw/12);
+				font-size: calc(55vw/12);
 			}
 		}
 		.ct {
 			padding: 0 0 0 3%;
 			margin: 3% 0 0;
 			line-height: 1.4;
-			font-size: calc(41vw/12);
+			font-size: calc(43vw/12);
 			span {
 				margin: 0 0.8% 0 0;
-				font-size: calc(44vw/12);
+				font-size: calc(46vw/12);
 			}
 		}
 		.g_list {
@@ -1728,42 +1677,43 @@ footer {
 			margin: 9% auto 0;
 			a {
 				padding: 4% 0;
-				font-size: calc(44vw/12);
+				font-size: calc(46vw/12);
 				letter-spacing: 1.3px;
-				border-radius: 5px;
+				border-radius: 4px;
 			}
 		}
 		.g_date {
 			margin: 2.5% auto 0;
-			font-size: calc(32vw/12);
+			font-size: calc(34vw/12);
 			letter-spacing: 1.3px;
 			span {
-				font-size: calc(36vw/12);
+				font-size: calc(38vw/12);
 			}
 		}
 	}
 
 
 	.info {
+		margin: 8% 0 0;
 		.wrap {
 			padding: 5% 2.2% 5.4%;
 			margin: 0 2.2% 4.5%;
-			border-radius: 4px;
+			border-radius: 3px;
 		}
 		.i_h {
 			padding: 0 0 0 2.5%;
 			border-left: 2.5px solid #e5c200;
 			line-height: 1.4;
-			font-size: calc(39vw/12);
+			font-size: calc(41vw/12);
 			letter-spacing: 1.2px;
 			.num {
 				letter-spacing: 1.3px;
-				font-size: calc(42vw/12);
+				font-size: calc(44vw/12);
 			}
 			.bol {
-				font-size: calc(48vw/12);
+				font-size: calc(50vw/12);
 				.num {
-					font-size: calc(50vw/12);
+					font-size: calc(52vw/12);
 				}
 			}
 		}
@@ -1771,9 +1721,9 @@ footer {
 			padding: 0 0 0 3.2%;
 			margin: 2.5% auto 0;
 			letter-spacing: 1.4px;
-			font-size: calc(46vw/12);
+			font-size: calc(48vw/12);
 			.num {
-				font-size: calc(50vw/12);
+				font-size: calc(52vw/12);
 				letter-spacing: 1.5px;
 			}
 		}
@@ -1781,9 +1731,9 @@ footer {
 			margin: 3.6% auto 0;
 			a {
 				padding: 3.8% 0;
-				font-size: calc(46vw/12);
+				font-size: calc(48vw/12);
 				letter-spacing: 1.3px;
-				border-radius: 4px;
+				border-radius: 3px;
 			}
 		}
 	}
@@ -1803,10 +1753,10 @@ footer {
 			margin: 9% 0 6.2%;
 			border-left: 4.5px solid #e5c200;
 			line-height: 1.3;
-			font-size: calc(55vw/12);
+			font-size: calc(57vw/12);
 			span {
 				margin: 0 0.8% 0 0;
-				font-size: calc(58vw/12);
+				font-size: calc(60vw/12);
 			}
 		}
 	}
@@ -1822,24 +1772,24 @@ footer {
 		.f_d {
 			dt {
 				margin: 6.5% 0 0;
-				font-size: calc(44vw/12);
+				font-size: calc(46vw/12);
 				letter-spacing: 1.3px;
 			}
 			dd {
 				margin: 3.7% 0 0;
-				font-size: calc(37vw/12);
+				font-size: calc(39vw/12);
 				line-height: 1.45;
 				letter-spacing: 1.3px;
 				.caution {
 					margin: 2% 0 0;
-					font-size: calc(31vw/12);
+					font-size: calc(33vw/12);
 				}
 				.f_item {
 					margin: 2.3% 0 2% 4.2%;
 					li {
 						margin: 1% 0 0;
 						line-height: 1.4;
-						font-size: calc(32vw/12);
+						font-size: calc(34vw/12);
 					}
 				}
 				a {
@@ -1857,14 +1807,14 @@ footer {
 					padding: 0 0 0 4%;
 					margin: 0.8% 0 0;
 					line-height: 1.4;
-					font-size: calc(38vw/12);
+					font-size: calc(40vw/12);
 				}
 			}
 		}
 		.f_c {
 			margin: 2.5% 0 0;
 			line-height: 1.4;
-			font-size: calc(32vw/12);
+			font-size: calc(34vw/12);
 		}
 	}
 
@@ -1880,7 +1830,7 @@ footer {
 			li {
 				margin: 0.7% 0 0 0;
 				line-height: 1.3;
-				font-size: calc(24vw/12);
+				font-size: calc(26vw/12);
 			}
 		}
 
@@ -1890,7 +1840,7 @@ footer {
 				margin: 0 2% 0 0;
 				a {
 					padding: 0 13px 0 0;
-					font-size: calc(25vw/12);
+					font-size: calc(27vw/12);
 					white-space: nowrap;
 				}
 				&:after {
@@ -1906,11 +1856,10 @@ footer {
 		}
 		small {
 			margin: 5% 0 0;
-			font-size: calc(26vw/12);
+			font-size: calc(28vw/12);
 			letter-spacing: 1.3px;
 		}
 	}
-	// .hana { -webkit-animation: item_sp 0.5s ease 2s 1 forwards; animation: item_sp 1s ease 1.8s 1 forwards; }
 }
 
 

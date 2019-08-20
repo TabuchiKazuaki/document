@@ -77,15 +77,6 @@ header .h_i dt {
   text-align: right;
   line-height: 0;
 }
-header .h_cp {
-  margin: 30px 0 0;
-  text-align: center;
-  letter-spacing: 2.5px;
-  font-size: 18px;
-}
-header .h_cp span {
-  font-size: 21px;
-}
 
 .chace {
   margin: 77px 0 0;
@@ -344,9 +335,14 @@ header .h_cp span {
   margin: 6% auto 0;
 }
 .contents .c_box .ch_btn a {
-  padding: 3.8% 0;
-  border-radius: 5px;
-  font-size: calc(45vw/12);
+  display: block;
+  background: #e5c200;
+  padding: 26px 0;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
 }
 .contents .c_box .ch_caution {
   margin: 25px 0 0;
@@ -788,15 +784,6 @@ footer small {
     width: 17.5%;
     margin: 0 0 0 2.5%;
   }
-  header .h_cp {
-    margin: 30px 0 0;
-    text-align: center;
-    letter-spacing: 2.5px;
-    font-size: 18px;
-  }
-  header .h_cp span {
-    font-size: 21px;
-  }
 
   .chace {
     margin: 10% 0 0;
@@ -895,12 +882,12 @@ footer small {
   .contents .c_h {
     padding: 0 0 0 2.5%;
     border-left: 4px solid #e5c200;
-    font-size: calc(50vw/12);
+    font-size: calc(45vw/12);
     letter-spacing: 1.8px;
     line-height: 1.4;
   }
   .contents .c_h span {
-    font-size: calc(56vw/12);
+    font-size: calc(48vw/12);
   }
   .contents .ch_m {
     margin: 9% 0 0;
@@ -970,33 +957,18 @@ footer small {
     margin: 9% auto 0;
     width: 100%;
   }
-  .contents .c_box li .copy_c {
-    max-width: 644px;
-    margin: 5px auto 0;
-    font-size: 10px;
-    text-align: right;
-    color: #777;
-  }
   .contents .c_box li .caution {
-    margin: 10px 0 0;
-    text-align: center;
-    font-size: 13px;
+    margin: 2% 0 0;
+    font-size: calc(20vw/12);
     line-height: 1.5;
-    color: #ababab;
   }
   .contents .c_box .ch_btn {
-    max-width: 680px;
-    margin: 44px auto 0;
+    margin: 6% auto 0;
   }
   .contents .c_box .ch_btn a {
-    display: block;
-    background: #e5c200;
-    padding: 26px 0;
-    border-radius: 6px;
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-    color: #000;
+    padding: 3.8% 0;
+    border-radius: 5px;
+    font-size: calc(45vw/12);
   }
   .contents .c_box .ch_caution {
     margin: 4% 0 0;
@@ -1018,23 +990,23 @@ footer small {
   .contents .c_fit li {
     padding: 9.5% 1% 10.5%;
     max-width: 768px;
-    margin: 18px auto 0;
+    margin: 0 auto 0;
     border-top: 2px solid #404040;
   }
   .contents .c_fit li .pic {
-    margin: 32px auto 0;
+    margin: 2% auto 0;
   }
   .contents .c_fit .c_top {
     margin: 0 auto 0;
     line-height: 1.5;
     letter-spacing: 1.3px;
-    font-size: calc(42vw/12);
+    font-size: calc(47vw/12);
   }
   .contents .c_fit .c_top_sec {
-    margin: 3% auto 0;
+    margin: 4% auto 0;
     line-height: 1.5;
     letter-spacing: 1.3px;
-    font-size: calc(42vw/12);
+    font-size: calc(49vw/12);
   }
   .contents .c_merit {
     margin: 4% 0 0;
@@ -1147,6 +1119,9 @@ footer small {
     font-size: calc(36vw/12);
   }
 
+  .info {
+    margin: 8% 0 0;
+  }
   .info .wrap {
     padding: 5% 2.2% 5.4%;
     margin: 0 2.2% 4.5%;
@@ -1327,7 +1302,7 @@ footer small {
     margin: 0 auto;
   }
   header .h_w {
-    padding: 11% 0 0;
+    padding: 10% 0 0;
   }
   header .h_m {
     width: 37%;
@@ -1349,15 +1324,6 @@ footer small {
     width: 17.5%;
     margin: 0 0 0 2.5%;
   }
-  header .h_cp {
-    margin: 30px 0 0;
-    text-align: center;
-    letter-spacing: 2.5px;
-    font-size: 18px;
-  }
-  header .h_cp span {
-    font-size: 21px;
-  }
 
   .chace {
     margin: 10% 0 0;
@@ -1365,28 +1331,28 @@ footer small {
   .chace .wrap {
     width: 75%;
     padding: 5.5% 0 5.5%;
-    border-radius: 6px;
+    border-radius: 5px;
   }
   .chace .ch_h {
     width: 42%;
     padding: 1.3% 0;
     margin: 0 auto;
-    font-size: calc(32vw/12);
+    font-size: calc(34vw/12);
     border-radius: 30px;
     letter-spacing: 1.2px;
   }
   .chace .ch_h span {
-    font-size: calc(36vw/12);
+    font-size: calc(38vw/12);
   }
   .chace .ch_txt {
     margin: 2% 0 0;
-    font-size: calc(51vw/12);
+    font-size: calc(53vw/12);
     letter-spacing: 1.2px;
     line-height: 1.33;
   }
   .chace .ch_txt .num {
     letter-spacing: 1.3px;
-    font-size: calc(56vw/12);
+    font-size: calc(58vw/12);
   }
   .chace .ch_img {
     width: 74%;
@@ -1398,20 +1364,20 @@ footer small {
   }
   .chace .ch_btn a {
     padding: 4% 0;
-    border-radius: 5px;
-    font-size: calc(45vw/12);
+    border-radius: 4px;
+    font-size: calc(47vw/12);
   }
   .chace .ch_caution {
     margin: 2.6% 0 0;
-    font-size: calc(21vw/12);
+    font-size: calc(23vw/12);
   }
   .chace .ch_date {
     margin: 3% 0 0;
     letter-spacing: 1.7px;
-    font-size: calc(26vw/12);
+    font-size: calc(28vw/12);
   }
   .chace .ch_date span {
-    font-size: calc(28vw/12);
+    font-size: calc(30vw/12);
   }
 
   .c_ge {
@@ -1419,7 +1385,7 @@ footer small {
     margin: 3% 0 0;
     border: 1.5px solid #cfa64d;
     border-radius: 30px;
-    font-size: calc(29vw/12);
+    font-size: calc(31vw/12);
     letter-spacing: 1.1px;
   }
 
@@ -1456,19 +1422,19 @@ footer small {
   .contents .c_h {
     padding: 0 0 0 2.5%;
     border-left: 4px solid #e5c200;
-    font-size: calc(50vw/12);
+    font-size: calc(47vw/12);
     letter-spacing: 1.8px;
     line-height: 1.4;
   }
   .contents .c_h span {
-    font-size: calc(56vw/12);
+    font-size: calc(50vw/12);
   }
   .contents .ch_m {
     margin: 9% 0 0;
   }
   .contents .c_t {
     padding: 4% 0 0 2.3%;
-    font-size: calc(41vw/12);
+    font-size: calc(43vw/12);
     line-height: 1.3;
     letter-spacing: 1.2px;
   }
@@ -1479,7 +1445,7 @@ footer small {
   .contents .c_box {
     padding: 0 2%;
     margin: 7% 0 0;
-    border-radius: 6px;
+    border-radius: 5px;
   }
   .contents .c_box li {
     padding: 9.5% 2.5% 10.5%;
@@ -1507,12 +1473,12 @@ footer small {
   }
   .contents .c_box li .c_it {
     margin: 4.6% 0 0;
-    font-size: calc(43vw/12);
+    font-size: calc(45vw/12);
     line-height: 1.35;
     letter-spacing: 1.4px;
   }
   .contents .c_box li .c_it .num {
-    font-size: calc(48vw/12);
+    font-size: calc(50vw/12);
   }
   .contents .c_box li .c_sec_ih {
     width: 91%;
@@ -1520,82 +1486,65 @@ footer small {
   }
   .contents .c_box li .c_sec_it {
     margin: 4.3% 0 0;
-    font-size: calc(51vw/12);
+    font-size: calc(53vw/12);
     line-height: 1.4;
     letter-spacing: 1.4px;
   }
   .contents .c_box li .c_sec_it .num {
-    font-size: calc(55vw/12);
+    font-size: calc(57vw/12);
   }
   .contents .c_box li .pic {
     margin: 9% auto 0;
     width: 100%;
   }
-  .contents .c_box li .copy_c {
-    max-width: 644px;
-    margin: 5px auto 0;
-    font-size: 10px;
-    text-align: right;
-    color: #777;
-  }
   .contents .c_box li .caution {
-    margin: 10px 0 0;
-    text-align: center;
-    font-size: 13px;
-    line-height: 1.5;
-    color: #ababab;
+    margin: 2% 0 0;
+    font-size: calc(23vw/12);
   }
   .contents .c_box .ch_btn {
-    max-width: 680px;
-    margin: 44px auto 0;
+    margin: 6% auto 0;
   }
   .contents .c_box .ch_btn a {
-    display: block;
-    background: #e5c200;
-    padding: 26px 0;
-    border-radius: 6px;
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-    color: #000;
+    padding: 3.8% 0;
+    border-radius: 5px;
+    font-size: calc(47vw/12);
   }
   .contents .c_box .ch_caution {
     margin: 4% 0 0;
-    font-size: calc(21vw/12);
+    font-size: calc(23vw/12);
   }
   .contents .c_box .ch_date {
     margin: 3% 0 0;
     letter-spacing: 1.8px;
-    font-size: calc(26vw/12);
+    font-size: calc(28vw/12);
   }
   .contents .c_box .ch_date span {
-    font-size: calc(29vw/12);
+    font-size: calc(31vw/12);
   }
   .contents .c_fit {
     padding: 0 2.5%;
     margin: 8% 0 0;
-    border-radius: 6px;
+    border-radius: 5px;
   }
   .contents .c_fit li {
     padding: 9.5% 1% 10.5%;
     max-width: 768px;
-    margin: 18px auto 0;
-    border-top: 2px solid #404040;
+    margin: 0 auto 0;
   }
   .contents .c_fit li .pic {
-    margin: 32px auto 0;
+    margin: 2% auto 0;
   }
   .contents .c_fit .c_top {
     margin: 0 auto 0;
     line-height: 1.5;
     letter-spacing: 1.3px;
-    font-size: calc(42vw/12);
+    font-size: calc(51vw/12);
   }
   .contents .c_fit .c_top_sec {
-    margin: 3% auto 0;
+    margin: 4% auto 0;
     line-height: 1.5;
     letter-spacing: 1.3px;
-    font-size: calc(42vw/12);
+    font-size: calc(53vw/12);
   }
   .contents .c_merit {
     margin: 4% 0 0;
@@ -1604,7 +1553,7 @@ footer small {
     padding: 4.4% 2.4% 4.3%;
     margin: 3% 0 0;
     margin: 2.6% auto 0;
-    border-radius: 6px;
+    border-radius: 5px;
   }
   .contents .c_merit li .icon {
     width: 16%;
@@ -1613,7 +1562,7 @@ footer small {
             box-sizing: border-box;
     padding: 0.8% 0 1.2%;
     border-radius: 30px;
-    font-size: calc(21vw/12);
+    font-size: calc(23vw/12);
     letter-spacing: 0.6px;
   }
   .contents .c_merit li .icon:before {
@@ -1630,30 +1579,30 @@ footer small {
   .contents .c_merit li .icon span {
     display: inline-block;
     margin: 0 0 0 2.5%;
-    font-size: calc(29vw/12);
+    font-size: calc(31vw/12);
   }
   .contents .c_merit li:first-child {
     margin: 0;
   }
   .contents .c_merit li .c_ih {
     margin: 3.3% auto 0;
-    font-size: calc(54vw/12);
+    font-size: calc(56vw/12);
     line-height: 1.3;
     letter-spacing: 1.3px;
   }
   .contents .c_merit li .c_ih span {
-    font-size: calc(58vw/12);
+    font-size: calc(60vw/12);
   }
   .contents .c_merit li .pic {
     margin: 3.8% auto 0;
   }
   .contents .c_merit li .copy_c {
     margin: 1% auto 0;
-    font-size: calc(17vw/12);
+    font-size: calc(19vw/12);
   }
   .contents .c_merit li .caution {
     margin: 2% 0 0;
-    font-size: calc(21vw/12);
+    font-size: calc(23vw/12);
     line-height: 1.3;
   }
 
@@ -1666,21 +1615,21 @@ footer small {
     padding: 0 0 0 2.3%;
     border-left: 4.5px solid #e5c200;
     line-height: 1.4;
-    font-size: calc(50vw/12);
+    font-size: calc(52vw/12);
   }
   .genre .ch span {
     margin: 0 0.8% 0 0;
-    font-size: calc(53vw/12);
+    font-size: calc(55vw/12);
   }
   .genre .ct {
     padding: 0 0 0 3%;
     margin: 3% 0 0;
     line-height: 1.4;
-    font-size: calc(41vw/12);
+    font-size: calc(43vw/12);
   }
   .genre .ct span {
     margin: 0 0.8% 0 0;
-    font-size: calc(44vw/12);
+    font-size: calc(46vw/12);
   }
   .genre .g_list {
     margin: 6% 0 0;
@@ -1695,49 +1644,52 @@ footer small {
   }
   .genre .g_btn a {
     padding: 4% 0;
-    font-size: calc(44vw/12);
+    font-size: calc(46vw/12);
     letter-spacing: 1.3px;
-    border-radius: 5px;
+    border-radius: 4px;
   }
   .genre .g_date {
     margin: 2.5% auto 0;
-    font-size: calc(32vw/12);
+    font-size: calc(34vw/12);
     letter-spacing: 1.3px;
   }
   .genre .g_date span {
-    font-size: calc(36vw/12);
+    font-size: calc(38vw/12);
   }
 
+  .info {
+    margin: 8% 0 0;
+  }
   .info .wrap {
     padding: 5% 2.2% 5.4%;
     margin: 0 2.2% 4.5%;
-    border-radius: 4px;
+    border-radius: 3px;
   }
   .info .i_h {
     padding: 0 0 0 2.5%;
     border-left: 2.5px solid #e5c200;
     line-height: 1.4;
-    font-size: calc(39vw/12);
+    font-size: calc(41vw/12);
     letter-spacing: 1.2px;
   }
   .info .i_h .num {
     letter-spacing: 1.3px;
-    font-size: calc(42vw/12);
+    font-size: calc(44vw/12);
   }
   .info .i_h .bol {
-    font-size: calc(48vw/12);
+    font-size: calc(50vw/12);
   }
   .info .i_h .bol .num {
-    font-size: calc(50vw/12);
+    font-size: calc(52vw/12);
   }
   .info .i_t {
     padding: 0 0 0 3.2%;
     margin: 2.5% auto 0;
     letter-spacing: 1.4px;
-    font-size: calc(46vw/12);
+    font-size: calc(48vw/12);
   }
   .info .i_t .num {
-    font-size: calc(50vw/12);
+    font-size: calc(52vw/12);
     letter-spacing: 1.5px;
   }
   .info .i_btn {
@@ -1745,9 +1697,9 @@ footer small {
   }
   .info .i_btn a {
     padding: 3.8% 0;
-    font-size: calc(46vw/12);
+    font-size: calc(48vw/12);
     letter-spacing: 1.3px;
-    border-radius: 4px;
+    border-radius: 3px;
   }
 
   .i_m {
@@ -1765,11 +1717,11 @@ footer small {
     margin: 9% 0 6.2%;
     border-left: 4.5px solid #e5c200;
     line-height: 1.3;
-    font-size: calc(55vw/12);
+    font-size: calc(57vw/12);
   }
   .point .ch span {
     margin: 0 0.8% 0 0;
-    font-size: calc(58vw/12);
+    font-size: calc(60vw/12);
   }
 
   aside {
@@ -1782,18 +1734,18 @@ footer small {
   }
   aside .f_d dt {
     margin: 6.5% 0 0;
-    font-size: calc(44vw/12);
+    font-size: calc(46vw/12);
     letter-spacing: 1.3px;
   }
   aside .f_d dd {
     margin: 3.7% 0 0;
-    font-size: calc(37vw/12);
+    font-size: calc(39vw/12);
     line-height: 1.45;
     letter-spacing: 1.3px;
   }
   aside .f_d dd .caution {
     margin: 2% 0 0;
-    font-size: calc(31vw/12);
+    font-size: calc(33vw/12);
   }
   aside .f_d dd .f_item {
     margin: 2.3% 0 2% 4.2%;
@@ -1801,7 +1753,7 @@ footer small {
   aside .f_d dd .f_item li {
     margin: 1% 0 0;
     line-height: 1.4;
-    font-size: calc(32vw/12);
+    font-size: calc(34vw/12);
   }
   aside .f_d dd a:hover {
     text-decoration: underline;
@@ -1816,12 +1768,12 @@ footer small {
     padding: 0 0 0 4%;
     margin: 0.8% 0 0;
     line-height: 1.4;
-    font-size: calc(38vw/12);
+    font-size: calc(40vw/12);
   }
   aside .f_c {
     margin: 2.5% 0 0;
     line-height: 1.4;
-    font-size: calc(32vw/12);
+    font-size: calc(34vw/12);
   }
 
   footer {
@@ -1838,7 +1790,7 @@ footer small {
   footer .copy li {
     margin: 0.7% 0 0 0;
     line-height: 1.3;
-    font-size: calc(24vw/12);
+    font-size: calc(26vw/12);
   }
   footer .f_list {
     margin: 1.8% 0 0;
@@ -1848,7 +1800,7 @@ footer small {
   }
   footer .f_list li a {
     padding: 0 13px 0 0;
-    font-size: calc(25vw/12);
+    font-size: calc(27vw/12);
     white-space: nowrap;
   }
   footer .f_list li:after {
@@ -1862,7 +1814,7 @@ footer small {
   }
   footer small {
     margin: 5% 0 0;
-    font-size: calc(26vw/12);
+    font-size: calc(28vw/12);
     letter-spacing: 1.3px;
   }
 }
