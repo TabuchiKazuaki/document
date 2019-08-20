@@ -417,6 +417,24 @@ img  { width: 100%;}
 			content: '関西男子・博多女子編';
 		}
 	}
+	.eighth {
+		&:before {
+			content: '大阪男子・東京女子編';
+		}
+	}
+	.eighth_s {
+		.parson_item {
+			li {
+
+				&:nth-child(4) {
+					margin: 0 0 0 2.5%;
+				}
+			}
+		}
+		&:before {
+			content: '関東男子・東北女子編';
+		}
+	}
 }
 
 
@@ -697,7 +715,7 @@ img  { width: 100%;}
 	padding: 4% 0 0;
 
 	&:before {
-		content: '東京女子';
+		content: '名古屋女子';
 		position: absolute;
 		top: 27px;
 		left: 12%;
@@ -722,12 +740,12 @@ img  { width: 100%;}
 }
 .cast_inner_box_section_second {
 	&:before {
-		content: '東北女子';
+		content: '東京女子';
 		left: 29%;
 	}
 
 	&:after {
-		content: '関東男子';
+		content: '九州男子';
 		left: 79%;
 	}
 }
@@ -771,7 +789,7 @@ img  { width: 100%;}
 	}
 }
 .cast_women_item_sec {
-	width: 47.5%;
+	width: 48%;
 	li {
 		width: 30.5%;
 		margin: 0 0 0 4%;
@@ -1775,6 +1793,16 @@ body[data-page-num="1614207"] .btn--summary a {
 				}
 			}
 		}
+		.eighth_s {
+			.parson_item {
+
+				li {
+					&:nth-child(4) {
+						margin: 0 0 0 2%;
+					}
+				}
+			}
+		}
 	}
 
 	.entry {
@@ -2765,6 +2793,16 @@ body[data-page-num="1614207"] .btn--summary a {
 			}
 		}
 		.seventh_s {
+			.parson_item {
+
+				li {
+					&:nth-child(4) {
+						margin: 0 0 0 2%;
+					}
+				}
+			}
+		}
+		.eighth_s {
 			.parson_item {
 
 				li {
