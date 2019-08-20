@@ -898,9 +898,9 @@ footer {
 			margin: 9% 0 0;
 		}
 		.c_box {
-			padding: 0 15px;
-			margin: 0 0 0;
-			border-radius: 8px;
+			padding: 0 2%;
+			margin: 9% 0 0;
+			border-radius: 6px;
 			li {
 				padding: 9.5% 2.5% 10.5%;
 				max-width: 768px;
@@ -916,6 +916,13 @@ footer {
 				.c_img {
 					width: 47%;
 					margin: 7% auto 0;
+				}
+				.c_top {
+					width: 47%;
+					margin: 6% auto 0;
+					line-height: 1.6;
+					letter-spacing: 1.3px;
+					font-size: 32px;
 				}
 
 				.c_ih {
@@ -994,6 +1001,20 @@ footer {
 				span {
 					font-size: calc(29vw/12);
 				}
+			}
+		}
+		.c_fit {
+			li {
+				padding: 9.5% 2.5% 10.5%;
+				max-width: 768px;
+				margin: 0 auto 0;
+				border-top: 1px solid #404040;
+			}
+			.c_top {
+				margin: 0 auto 0;
+				line-height: 1.6;
+				letter-spacing: 1.3px;
+				font-size: calc(42vw/12);
 			}
 		}
 		.c_merit {
