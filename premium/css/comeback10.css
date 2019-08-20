@@ -240,6 +240,9 @@ header .h_i dt {
   margin: 62px 0 0;
   border-top: 1px solid #404040;
 }
+.contents .w_c {
+  margin: 62px 0 0;
+}
 .contents .ch_m {
   margin: 60px 0 0;
 }
@@ -747,14 +750,6 @@ footer small {
 }
 
 @media screen and (max-width: 768px) {
-  .pc {
-    display: none;
-  }
-
-  .sp {
-    display: block;
-  }
-
   header {
     padding: 0;
   }
@@ -1302,10 +1297,6 @@ footer small {
     display: none;
   }
 
-  .sp {
-    display: block;
-  }
-
   header {
     padding: 0;
   }
@@ -1440,6 +1431,9 @@ footer small {
     padding: 31px 0 0;
     margin: 31px 0 0;
     border-top: 1px solid #404040;
+  }
+  .contents .w_c {
+    margin: 20px 0 0;
   }
   .contents .c_h {
     padding: 0 0 0 2.5%;
