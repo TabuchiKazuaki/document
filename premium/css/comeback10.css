@@ -1309,65 +1309,122 @@ footer small {
   }
 }
 @media screen and (max-width: 480px) {
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+
   header {
-    padding: 0 0 7%;
+    padding: 0;
   }
   header .h_l {
     width: 21%;
     padding: 1.2% 0 1.2% 2.2%;
   }
   header .h_a {
-    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/9ac5e8236667bc3d250fbf8b75536f79_f13d53901ae2843c6c4bd37639261b37.png) center center no-repeat #000;
-    background-size: cover;
-    min-height: auto;
+    position: relative;
     padding: 0 0 0;
     margin: 0 auto;
   }
   header .h_w {
-    padding: 4.8% 0 4.9%;
+    padding: 11% 0 0;
   }
   header .h_m {
-    max-width: 286px;
-    width: 40%;
-    margin: 2.4% auto 0;
-  }
-  header .h_t {
-    max-width: 260px;
-    width: 50%;
+    width: 37%;
     margin: 0 auto 0;
   }
+  header .h_t {
+    width: 71%;
+    margin: 2.7% auto 0;
+  }
   header .h_i {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 78%;
-    margin: 3.4% auto 0;
+    width: 71%;
+    margin: 2.7% auto 0;
   }
   header .h_i dd {
-    width: 72%;
+    margin: 0 auto;
+    line-height: 0;
   }
   header .h_i dt {
-    width: 25%;
-    margin: 0 0 0 3%;
+    max-width: 114px;
+    margin: 0 0 0 22px;
+    text-align: right;
+    line-height: 0;
   }
   header .h_cp {
-    margin: 3.6% 0 0;
+    margin: 30px 0 0;
+    text-align: center;
     letter-spacing: 2.5px;
-    font-size: calc(28vw/12);
+    font-size: 18px;
   }
   header .h_cp span {
+    font-size: 21px;
+  }
+
+  .chace {
+    margin: 10% 0 0;
+  }
+  .chace .wrap {
+    width: 75%;
+    padding: 5.5% 0 5.5%;
+    border-radius: 6px;
+  }
+  .chace .ch_h {
+    width: 42%;
+    padding: 1.3% 0;
+    margin: 0 auto;
     font-size: calc(32vw/12);
+    border-radius: 30px;
+    letter-spacing: 1.2px;
+  }
+  .chace .ch_h span {
+    font-size: calc(36vw/12);
+  }
+  .chace .ch_txt {
+    margin: 2% 0 0;
+    font-size: calc(51vw/12);
+    letter-spacing: 1.2px;
+    line-height: 1.33;
+  }
+  .chace .ch_txt .num {
+    letter-spacing: 1.3px;
+    font-size: calc(56vw/12);
+  }
+  .chace .ch_img {
+    width: 74%;
+    margin: 6% auto 0;
+  }
+  .chace .ch_btn {
+    width: 90%;
+    margin: 6% auto 0;
+  }
+  .chace .ch_btn a {
+    padding: 4% 0;
+    border-radius: 5px;
+    font-size: calc(45vw/12);
+  }
+  .chace .ch_caution {
+    margin: 2.6% 0 0;
+    font-size: calc(21vw/12);
+  }
+  .chace .ch_date {
+    margin: 3% 0 0;
+    letter-spacing: 1.7px;
+    font-size: calc(26vw/12);
+  }
+  .chace .ch_date span {
+    font-size: calc(28vw/12);
   }
 
   .c_ge {
     padding: 0.8% 3.5%;
     margin: 3% 0 0;
-    border: 1px solid #cfa64d;
+    border: 1.5px solid #cfa64d;
     border-radius: 30px;
-    font-size: calc(31vw/12);
+    font-size: calc(29vw/12);
     letter-spacing: 1.1px;
   }
 
@@ -1398,18 +1455,31 @@ footer small {
     margin: 0;
   }
   .contents .wrap {
-    padding: 0 2.4%;
-    margin: 0 2.2%;
+    padding: 0 4.4%;
+    margin: 0 auto;
   }
   .contents .c_h {
-    padding: 0 0 0 3%;
+    padding: 0 0 0 2.5%;
     border-left: 4px solid #e5c200;
-    font-size: calc(52vw/12);
+    font-size: calc(50vw/12);
     letter-spacing: 1.8px;
     line-height: 1.4;
   }
   .contents .c_h span {
-    font-size: calc(58vw/12);
+    font-size: calc(56vw/12);
+  }
+  .contents .ch_m {
+    margin: 9% 0 0;
+  }
+  .contents .c_t {
+    padding: 4% 0 0 2.3%;
+    font-size: calc(41vw/12);
+    line-height: 1.3;
+    letter-spacing: 1.2px;
+  }
+  .contents .c_inner {
+    padding: 8.5% 0 0;
+    margin: 9% 0 0;
   }
   .contents .c_box {
     padding: 0 2%;
@@ -1418,6 +1488,7 @@ footer small {
   }
   .contents .c_box li {
     padding: 9.5% 2.5% 10.5%;
+    max-width: 768px;
     margin: 0 auto 0;
     border-top: 1px solid #404040;
   }
@@ -1425,15 +1496,15 @@ footer small {
     padding: 11% 0 6.5%;
   }
   .contents .c_box li .icon {
-    width: 18%;
+    width: 17%;
     margin: 0 auto;
   }
   .contents .c_box li .c_img {
-    width: 48%;
+    width: 47%;
     margin: 7% auto 0;
   }
   .contents .c_box li .c_ih {
-    width: 48%;
+    width: 47%;
     margin: 6% auto 0;
     line-height: 1.6;
     letter-spacing: 1.3px;
@@ -1480,15 +1551,21 @@ footer small {
     color: #ababab;
   }
   .contents .c_box .ch_btn {
-    margin: 6% auto 0;
+    max-width: 680px;
+    margin: 44px auto 0;
   }
   .contents .c_box .ch_btn a {
-    padding: 4% 0;
+    display: block;
+    background: #e5c200;
+    padding: 26px 0;
     border-radius: 6px;
-    font-size: calc(44vw/12);
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
   }
   .contents .c_box .ch_caution {
-    margin: 3% 0 0;
+    margin: 4% 0 0;
     font-size: calc(21vw/12);
   }
   .contents .c_box .ch_date {
@@ -1517,13 +1594,13 @@ footer small {
     margin: 0 auto 0;
     line-height: 1.5;
     letter-spacing: 1.3px;
-    font-size: calc(44vw/12);
+    font-size: calc(42vw/12);
   }
   .contents .c_fit .c_top_sec {
     margin: 3% auto 0;
     line-height: 1.5;
     letter-spacing: 1.3px;
-    font-size: calc(44vw/12);
+    font-size: calc(42vw/12);
   }
   .contents .c_merit {
     margin: 4% 0 0;
@@ -1588,27 +1665,27 @@ footer small {
   .genre .wrap {
     width: 91%;
     padding: 0 0 7%;
-    margin: 8% auto 0;
+    margin: 0 auto 0;
   }
   .genre .ch {
     padding: 0 0 0 2.3%;
-    border-left: 3px solid #e5c200;
+    border-left: 4.5px solid #e5c200;
     line-height: 1.4;
-    font-size: calc(52vw/12);
+    font-size: calc(50vw/12);
   }
   .genre .ch span {
     margin: 0 0.8% 0 0;
-    font-size: calc(55vw/12);
+    font-size: calc(53vw/12);
   }
   .genre .ct {
     padding: 0 0 0 3%;
     margin: 3% 0 0;
     line-height: 1.4;
-    font-size: calc(43vw/12);
+    font-size: calc(41vw/12);
   }
   .genre .ct span {
     margin: 0 0.8% 0 0;
-    font-size: calc(46vw/12);
+    font-size: calc(44vw/12);
   }
   .genre .g_list {
     margin: 6% 0 0;
@@ -1623,17 +1700,17 @@ footer small {
   }
   .genre .g_btn a {
     padding: 4% 0;
-    font-size: calc(46vw/12);
+    font-size: calc(44vw/12);
     letter-spacing: 1.3px;
-    border-radius: 4px;
+    border-radius: 5px;
   }
   .genre .g_date {
     margin: 2.5% auto 0;
-    font-size: calc(34vw/12);
+    font-size: calc(32vw/12);
     letter-spacing: 1.3px;
   }
   .genre .g_date span {
-    font-size: calc(38vw/12);
+    font-size: calc(36vw/12);
   }
 
   .info .wrap {
@@ -1693,15 +1770,15 @@ footer small {
     margin: 9% 0 6.2%;
     border-left: 4.5px solid #e5c200;
     line-height: 1.3;
-    font-size: calc(57vw/12);
+    font-size: calc(55vw/12);
   }
   .point .ch span {
     margin: 0 0.8% 0 0;
-    font-size: calc(60vw/12);
+    font-size: calc(58vw/12);
   }
 
   aside {
-    padding: 0 0 3%;
+    padding: 0 0 4%;
   }
   aside .wrap {
     padding: 2% 0 0;
@@ -1710,18 +1787,18 @@ footer small {
   }
   aside .f_d dt {
     margin: 6.5% 0 0;
-    font-size: calc(46vw/12);
+    font-size: calc(44vw/12);
     letter-spacing: 1.3px;
   }
   aside .f_d dd {
     margin: 3.7% 0 0;
-    font-size: calc(39vw/12);
+    font-size: calc(37vw/12);
     line-height: 1.45;
     letter-spacing: 1.3px;
   }
   aside .f_d dd .caution {
     margin: 2% 0 0;
-    font-size: calc(33vw/12);
+    font-size: calc(31vw/12);
   }
   aside .f_d dd .f_item {
     margin: 2.3% 0 2% 4.2%;
@@ -1729,7 +1806,7 @@ footer small {
   aside .f_d dd .f_item li {
     margin: 1% 0 0;
     line-height: 1.4;
-    font-size: calc(34vw/12);
+    font-size: calc(32vw/12);
   }
   aside .f_d dd a:hover {
     text-decoration: underline;
@@ -1744,19 +1821,19 @@ footer small {
     padding: 0 0 0 4%;
     margin: 0.8% 0 0;
     line-height: 1.4;
-    font-size: calc(40vw/12);
+    font-size: calc(38vw/12);
   }
   aside .f_c {
     margin: 2.5% 0 0;
     line-height: 1.4;
-    font-size: calc(34vw/12);
+    font-size: calc(32vw/12);
   }
 
   footer {
-    padding: 2% 0 3%;
+    padding: 4% 0 3%;
   }
   footer .wrap {
-    padding: 3% 0 4%;
+    padding: 4% 0 5%;
     margin: 0 5%;
     border-top: 1px solid #404040;
   }
@@ -1766,7 +1843,7 @@ footer small {
   footer .copy li {
     margin: 0.7% 0 0 0;
     line-height: 1.3;
-    font-size: calc(26vw/12);
+    font-size: calc(24vw/12);
   }
   footer .f_list {
     margin: 1.8% 0 0;
@@ -1776,7 +1853,7 @@ footer small {
   }
   footer .f_list li a {
     padding: 0 13px 0 0;
-    font-size: calc(27vw/12);
+    font-size: calc(25vw/12);
     white-space: nowrap;
   }
   footer .f_list li:after {
@@ -1790,7 +1867,7 @@ footer small {
   }
   footer small {
     margin: 5% 0 0;
-    font-size: calc(28vw/12);
+    font-size: calc(26vw/12);
     letter-spacing: 1.3px;
   }
 }
