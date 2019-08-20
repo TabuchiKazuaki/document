@@ -1172,29 +1172,34 @@ footer {
 
 	.info {
 		.wrap {
-			max-width: 718px;
 			padding: 5% 2.2% 5.4%;
-			margin: 0 2.2% 7.5%;
-			border-radius: 5px;
+			margin: 0 2.2% 4.5%;
+			border-radius: 4px;
 		}
 		.i_h {
 			padding: 0 0 0 2.5%;
-			border-left: 4px solid #e5c200;
+			border-left: 2.5px solid #e5c200;
 			line-height: 1.4;
-			font-size: calc(37vw/12);
-			letter-spacing: 1.3px;
+			font-size: calc(39vw/12);
+			letter-spacing: 1.2px;
 			.num {
-				letter-spacing: 1.4px;
-				font-size: calc(49vw/12);
+				letter-spacing: 1.3px;
+				font-size: calc(42vw/12);
+			}
+			.bol {
+				font-size: calc(48vw/12);
+				.num {
+					font-size: calc(50vw/12);
+				}
 			}
 		}
 		.i_t {
 			padding: 0 0 0 3.2%;
 			margin: 2.5% auto 0;
 			letter-spacing: 1.4px;
-			font-size: calc(44vw/12);
+			font-size: calc(46vw/12);
 			.num {
-				font-size: calc(48vw/12);
+				font-size: calc(50vw/12);
 				letter-spacing: 1.5px;
 			}
 		}
@@ -1202,7 +1207,7 @@ footer {
 			margin: 3.6% auto 0;
 			a {
 				padding: 3.8% 0;
-				font-size: calc(44vw/12);
+				font-size: calc(46vw/12);
 				letter-spacing: 1.3px;
 				border-radius: 4px;
 			}
@@ -1509,21 +1514,15 @@ footer {
 				}
 			}
 			.ch_btn {
-				max-width: 680px;
-				margin: 44px auto 0;
+				margin: 6% auto 0;
 				a {
-					display: block;
-					background: #e5c200;
-					padding: 26px 0;
+					padding: 4% 0;
 					border-radius: 6px;
-					text-align: center;
-					font-size: 28px;
-					font-weight: bold;
-					color: #000;
+					font-size: calc(44vw/12);
 				}
 			}
 			.ch_caution {
-				margin: 4% 0 0;
+				margin: 3% 0 0;
 				font-size: calc(21vw/12);
 			}
 			.ch_date {
@@ -1691,7 +1690,13 @@ footer {
 			letter-spacing: 1.2px;
 			.num {
 				letter-spacing: 1.3px;
+				font-size: calc(42vw/12);
+			}
+			.bol {
 				font-size: calc(48vw/12);
+				.num {
+					font-size: calc(50vw/12);
+				}
 			}
 		}
 		.i_t {
