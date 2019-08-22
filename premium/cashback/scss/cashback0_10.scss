@@ -140,11 +140,11 @@ header {
 }
 
 .info {
-	margin: 50px 0 0;
+	margin: 55px 0 0;
 	.wrap {
 		background: #1a1a1a;
 		max-width: 718px;
-		padding: 40px 18px 44px;
+		padding: 42px 18px 41px;
 		margin: 0 auto 63px;
 		border-radius: 6px;
 	}
@@ -152,20 +152,28 @@ header {
 		padding: 0 0 0 18px;
 		border-left: 5px solid #e5c200;
 		line-height: 1.3;
-		font-size: 23px;
-		font-weight: normal;
-		letter-spacing: 1.3px;
-		.bol {
-			font-weight: bold;
-			font-size: 30px;
-		}
+		font-size: 29px;
+		font-weight: bold;
+		letter-spacing: 1.4px;
 		.num {
-			letter-spacing: 1.4px;
+			letter-spacing: 1.6px;
 			font-size: 32px;
 		}
-		.clr {
+	}
+	.i_text {
+		margin: 11px 0 0 20px;
+		line-height: 1.3;
+		font-size: 29px;
+		font-weight: bold;
+		letter-spacing: 1.2px;
+		color: #ababab;
+		.color{
 			color: #e5c200;
 		}
+		.num {
+			font-size: 32px;
+		}
+
 	}
 	.i_btn {
 		margin: 26px auto 0;
@@ -204,6 +212,11 @@ header {
 	.wrap {
 		max-width: 715px;
 		margin: 0 auto;
+	}
+	.m_wp {
+		padding: 62px 0 0;
+		margin: 62px auto 0;
+		border-top: 1px solid #404040;
 	}
 	.c_h {
 		padding: 0 0 0 18px;
@@ -906,6 +919,10 @@ footer {
 			margin: 31px 0 0;
 			border-top: 1px solid #404040;
 		}
+		.m_wp {
+			padding: 9% 0 0;
+			margin: 9% 5% 0;
+		}
 		.w_c {
 			margin: 20px 0 0;
 		}
@@ -940,12 +957,12 @@ footer {
 			letter-spacing: 1.2px;
 		}
 		.c_inner {
-			padding: 31px 0 0;
-			margin: 31px 0 0;
+			padding: 9% 0 0;
+			margin: 9% 0 0;
 		}
 		.c_box {
 			padding: 0 2%;
-			margin: 7% 0 0;
+			margin: 8% 0 0;
 			border-radius: 6px;
 			li {
 				padding: 9.5% 2.5% 10.5%;
@@ -978,6 +995,7 @@ footer {
 					font-size: calc(41vw/12);
 					line-height: 1.35;
 					letter-spacing: 1.4px;
+					white-space: nowrap;
 					.num {
 						font-size: calc(43vw/12);
 					}
@@ -997,7 +1015,7 @@ footer {
 				}
 
 				.pic {
-					margin: 9% auto 0;
+					margin: 15% auto 0;
 					width: 100%;
 				}
 
@@ -1176,35 +1194,29 @@ footer {
 
 		.wrap {
 			padding: 5% 2.2% 5.4%;
-			margin: 0 2.2% 4.5%;
+			margin: 0 2.2% 0;
 			border-radius: 4px;
 		}
 		.i_h {
-			padding: 0 0 0 2.5%;
-			border-left: 2.5px solid #e5c200;
+			padding: 0 0 0 3%;
+			border-left: 4px solid #e5c200;
 			line-height: 1.4;
-			font-size: calc(39vw/12);
+			font-size: calc(48vw/12);
 			letter-spacing: 1.2px;
 			.num {
-				letter-spacing: 1.3px;
-				font-size: calc(42vw/12);
-			}
-			.bol {
-				font-size: calc(48vw/12);
-				.num {
-					font-size: calc(50vw/12);
-				}
+				letter-spacing: 1.5px;
+				font-size: calc(50vw/12);
 			}
 		}
-		.i_t {
-			padding: 0 0 0 3.2%;
-			margin: 2.5% auto 0;
-			letter-spacing: 1.4px;
+		.i_text {
+			margin: 1.8% 0 0 2.8%;
+			line-height: 1.3;
 			font-size: calc(46vw/12);
+			letter-spacing: 1.2px;
 			.num {
-				font-size: calc(50vw/12);
-				letter-spacing: 1.5px;
+				font-size: calc(49vw/12);
 			}
+
 		}
 		.i_btn {
 			margin: 3.6% auto 0;
@@ -1215,15 +1227,8 @@ footer {
 				border-radius: 4px;
 			}
 		}
-		.i_date {
-			margin: 2.5% auto 0;
-			font-size: calc(31vw/12);
-			letter-spacing: 1.3px;
-			span {
-				font-size: calc(34vw/12);
-			}
-		}
 	}
+
 	.i_m {
 		margin: 0;
 		.wrap {
@@ -1495,6 +1500,10 @@ footer {
 		.cw_l {
 			margin: 22px 0 0;
 		}
+		.m_wp {
+			padding: 9% 0 0;
+			margin: 9% 5% 0;
+		}
 		.c_btn {
 			margin: 4% 0 0;
 			a {
@@ -1524,8 +1533,8 @@ footer {
 			letter-spacing: 1.2px;
 		}
 		.c_inner {
-			padding: 31px 0 0;
-			margin: 31px 0 0;
+			padding: 9% 0 0;
+			margin: 9% 0 0;
 		}
 		.c_box {
 			padding: 0 2%;
@@ -1558,12 +1567,12 @@ footer {
 				}
 
 				.c_it {
-					margin: 4.6% 0 0;
-					font-size: calc(43vw/12);
+					margin: 5.2% 0 0;
+					font-size: calc(41vw/12);
 					line-height: 1.35;
 					letter-spacing: 1.4px;
 					.num {
-						font-size: calc(56vw/12);
+						font-size: calc(45vw/12);
 					}
 				}
 				.c_sec_ih {
@@ -1581,8 +1590,7 @@ footer {
 				}
 
 				.pic {
-					margin: 9% auto 0;
-					width: 100%;
+					margin: 15% auto 0;
 				}
 
 				.caution {
@@ -1757,35 +1765,29 @@ footer {
 		margin: 8% 0 0;
 		.wrap {
 			padding: 5% 2.2% 5.4%;
-			margin: 0 2.2% 4.5%;
-			border-radius: 3px;
+			margin: 0 2.2% 0;
+			border-radius: 4px;
 		}
 		.i_h {
-			padding: 0 0 0 2.5%;
+			padding: 0 0 0 2%;
 			border-left: 2.5px solid #e5c200;
 			line-height: 1.4;
-			font-size: calc(41vw/12);
+			font-size: calc(48vw/12);
 			letter-spacing: 1.2px;
 			.num {
-				letter-spacing: 1.3px;
-				font-size: calc(44vw/12);
-			}
-			.bol {
-				font-size: calc(50vw/12);
-				.num {
-					font-size: calc(52vw/12);
-				}
+				letter-spacing: 1.5px;
+				font-size: calc(51vw/12);
 			}
 		}
-		.i_t {
-			padding: 0 0 0 3.2%;
-			margin: 2.5% auto 0;
-			letter-spacing: 1.4px;
+		.i_text {
+			margin: 1.8% 0 0 2.8%;
+			line-height: 1.3;
 			font-size: calc(48vw/12);
+			letter-spacing: 1px;
 			.num {
-				font-size: calc(52vw/12);
-				letter-spacing: 1.5px;
+				font-size: calc(51vw/12);
 			}
+
 		}
 		.i_btn {
 			margin: 3.6% auto 0;
@@ -1793,15 +1795,7 @@ footer {
 				padding: 3.8% 0;
 				font-size: calc(48vw/12);
 				letter-spacing: 1.3px;
-				border-radius: 3px;
-			}
-		}
-		.i_date {
-			margin: 2.5% auto 0;
-			font-size: calc(33vw/12);
-			letter-spacing: 1.3px;
-			span {
-				font-size: calc(36vw/12);
+				border-radius: 4px;
 			}
 		}
 	}
