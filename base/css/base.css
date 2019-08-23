@@ -110,16 +110,16 @@ header .h_wrap {
   position: relative;
   background: url(https://bit.ly/2Vpvgcl) center center no-repeat;
   background-size: cover;
-  height: 260px;
+  height: 160px;
   padding: 0 0 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 header .h_wrap .h_h {
   max-width: 625px;
-  padding: 65px 0 0;
+  padding: 58px 0 0;
   margin: 0 auto 0;
-  font-size: 85px;
+  font-size: 55px;
   font-weight: bold;
   font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO" !important;
   text-align: center;
@@ -1581,6 +1581,46 @@ footer small {
           transform: translate(0, 0px);
   -webkit-animation: ani 0.5s ease 0s infinite alternate none running;
           animation: ani 0.5s ease 0s infinite alternate none running;
+  font-size: 20px;
+}
+
+.common_banner .wrap {
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/463346/3517790a59412e1b865e4b03e5f42652_d459ab1abba4f465e5d442f8c76dd22a.png) center center repeat;
+  background-size: cover;
+  max-width: 768px;
+  padding: 42px 76px 50px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.common_banner figure {
+  max-width: 336px;
+  line-height: 0;
+}
+.common_banner .a_text {
+  margin: 23px 0 0;
+  font-size: 28px;
+  letter-spacing: 1.4px;
+  color: #fff;
+}
+.common_banner .a_btn {
+  margin: 32px 0 0;
+}
+.common_banner .a_btn a {
+  display: block;
+  padding: 20px 0;
+  border: 2px solid #3a2;
+  border-radius: 6px;
+  font-size: 26px;
+  letter-spacing: 1.8px;
+  text-align: center;
+  font-weight: bold;
+  color: #3a2;
+}
+.common_banner .a_btn a:hover {
+  background: #3a2;
+  opacity: 1;
+  color: #fff;
 }
 
 @-webkit-keyframes ani {
@@ -1607,6 +1647,34 @@ footer small {
             transform: translate(0, 0px);
     -webkit-animation: ani 0.5s ease 0s infinite alternate none running;
             animation: ani 0.5s ease 0s infinite alternate none running;
+    font-size: calc(38vw/12);
+  }
+
+  .common_banner .wrap {
+    padding: 6.4% 10% 6%;
+  }
+  .common_banner figure {
+    width: 55%;
+  }
+  .common_banner .a_text {
+    margin: 3.5% 0 0;
+    font-size: calc(43vw/12);
+    letter-spacing: 1.4px;
+  }
+  .common_banner .a_btn {
+    margin: 6.2% 0 0;
+  }
+  .common_banner .a_btn a {
+    padding: 3.5% 0;
+    border: 1.5px solid #3a2;
+    border-radius: 5px;
+    font-size: calc(41vw/12);
+    letter-spacing: 1.6px;
+  }
+  .common_banner .a_btn a:hover {
+    background: none;
+    opacity: .8;
+    color: #3a2;
   }
 
   .module_text {
@@ -1665,8 +1733,8 @@ footer small {
     padding: 0 0 0;
   }
   header .h_wrap .h_h {
-    padding: 5% 0;
-    font-size: calc(123vw/12);
+    padding: 4% 0;
+    font-size: calc(70vw/12);
   }
 
   .contents {
@@ -2648,6 +2716,28 @@ footer small {
     margin: 5% 0 0;
     line-height: 1.4;
     font-size: calc(47vw/12);
+  }
+
+  .common_banner .wrap {
+    padding: 5.5% 10% 6%;
+  }
+  .common_banner figure {
+    width: 55%;
+  }
+  .common_banner .a_text {
+    margin: 3.5% 0 0;
+    font-size: calc(45vw/12);
+    letter-spacing: 1.4px;
+  }
+  .common_banner .a_btn {
+    margin: 5.8% 0 0;
+  }
+  .common_banner .a_btn a {
+    padding: 3.5% 0;
+    border: 1px solid #3a2;
+    border-radius: 3px;
+    font-size: calc(45vw/12);
+    letter-spacing: 1.5px;
   }
 
   .bagg {
