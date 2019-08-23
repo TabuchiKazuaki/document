@@ -25,10 +25,10 @@ $(function() {
 			});
 			$('.release').click(function(){
 				if($('.m_n').css('display','block')) {
-					$(".m_n").css('display','none');
+					$(".m_n").css('display','block');
 				}
 				else {
-					$(".m_n").css('display','block');
+					$(".m_n").css('display','none');
 				}
 			});
 		}
