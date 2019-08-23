@@ -156,6 +156,24 @@ header .h_date span {
   max-width: 715px;
   margin: 0 auto;
 }
+.contents .movie {
+  max-width: 768px;
+  margin: 0 auto;
+}
+.contents .movie .movie_inner {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  margin: 25px auto 0;
+}
+.contents .movie .movie_inner iframe {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
 .contents .c_list {
   background: #1f2020;
   padding: 60px 15px 47px;
@@ -739,6 +757,9 @@ footer small {
   .contents .wrap {
     padding: 0 2.4%;
     margin: 0 auto;
+  }
+  .contents .movie .movie_inner {
+    margin: 3.5% auto 0;
   }
   .contents .c_list {
     padding: 8.3% 2.2% 7%;
