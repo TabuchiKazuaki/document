@@ -23,6 +23,9 @@ $(function() {
 					$(this).addClass("active");
 				}
 			});
+			$('.release').click(function(){
+				$(".m_n").css('display','block');
+			});
 		}
 	}
 
