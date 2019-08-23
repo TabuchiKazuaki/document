@@ -111,6 +111,26 @@ header {
 		margin: 20px 0 0;
 	}
 
+	.movie {
+		max-width: 768px;
+		margin: 0 auto;
+		.movie_inner {
+			position: relative;
+			width: 100%;
+			padding-top: 56.25%;
+			margin: 25px auto 0;
+
+			iframe {
+				position: absolute;
+				z-index: 5;
+				left: 0;
+				top: 0;
+				width: 100% !important;
+				height: 100% !important;
+			}
+		}
+	}
+
 	.c_t {
 		margin: 12px 0 0;
 		font-size: 25px;
@@ -1162,6 +1182,11 @@ footer {
 			span {
 				letter-spacing: 1.3px;
 				font-size: calc(52vw/12);
+			}
+		}
+		.movie {
+			.movie_inner {
+				margin: 3.5% auto 0;
 			}
 		}
 
