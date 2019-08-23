@@ -3,8 +3,28 @@
 
 $(function() {
 
-	$('.m_n').hide();
-    $('.module_text').click(function(e){
-    $(this).toggleClass("active");
-    $(this).next(".m_n").slideToggle();
+	tog = {
+
+		init : function() {
+			this.toggleAction();
+		},
+
+		// toggle アクション
+		toggleAction :function(){
+			$('.m_n').hide();
+
+			$('.m_t').click(function(){
+				$(this).next('.m_n').slideToggle();
+
+				if($(this).hasClass('active')) {
+					$(this).removeClass("active");
+				}
+				else {
+					$(this).addClass("active");
+				}
+			});
+		}
+	}
+
+	tog.init();
 });
