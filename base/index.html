@@ -47,12 +47,14 @@
 		<p class="c_t">
 			セクション説明セクション説明セクション説明セクション説明セクション説明
 		</p>
+		<div class="bot_wrap">
+			<p class="bot">↓タイトルクリックで折り畳み↓</p>
+		</div>
 
-		<p class="module_text">モジュール番号 1 ランキング5位〜10位	 3位までは大モジュール(2は5位まで大)</p>
-
+		<p class="module_text m_t">モジュール番号 1 ランキング5位〜10位	 3位までは大モジュール(2は5位まで大)</p>
 		<!-- 01 -->
 
-		<div class="c_one">
+		<div class="c_one m_n">
 			<ul class="c_t_item">
 				<li>
 					<dl class="c_t_dl">
@@ -966,7 +968,38 @@
 	</div>
 </footer>
 
+<script src="https://abematv-kaiyu.github.io/document/owl/jquery.min.js"></script>
+<script src="base/js/base.js"></script>
+<script src="https://abematv-kaiyu.github.io/document/base/js/base.js"></script>
+<script>
+$(function() {
 
+	tog = {
+
+		init : function() {
+			this.toggleAction();
+		},
+
+		// toggle アクション
+		toggleAction :function(){
+			$('.m_n').hide();
+
+			$('.m_t').click(function(){
+				$(this).next('.m_n').slideToggle();
+
+				if($(this).hasClass('active')) {
+					$(this).removeClass("active");
+				}
+				else {
+					$(this).addClass("active");
+				}
+			});
+		}
+	}
+
+	tog.init();
+});
+</script>
 
 
 
