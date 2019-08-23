@@ -24,7 +24,12 @@ $(function() {
 				}
 			});
 			$('.release').click(function(){
-				$(".m_n").css('display','block');
+				if($('.m_n').css('display','block')) {
+					$(".m_n").css('display','none');
+				}
+				else {
+					$(".m_n").css('display','block');
+				}
 			});
 		}
 	}
