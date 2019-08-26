@@ -985,6 +985,11 @@
 	<li><a href="#18" class="scrollTo">モジュール 18番</a></li>
 	<li><a href="#19" class="scrollTo">モジュール 19番</a></li>
 </ul>
+<div class="btnHamburger">
+ <span class="line line_01"></span>
+ <span class="line line_02"></span>
+ <span class="line line_03"></span>
+</div>
 
 
 
@@ -1046,7 +1051,11 @@ $(window).bind("load", function(){
 		return false;
 	});
 });
-
+$(function(){
+  $('.btnHamburger').on('click', function(){
+    $(this).toggleClass('is-active');
+  });
+});
 </script>
 
 

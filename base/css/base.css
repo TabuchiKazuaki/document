@@ -2642,6 +2642,52 @@ footer small {
   .w_right {
     display: none;
   }
+
+  .btnHamburger {
+    position: fixed;
+    top: 5%;
+    right: 3%;
+    margin-left: -25px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .btnHamburger .line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #fff;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .btnHamburger .line_01 {
+    top: 10px;
+  }
+  .btnHamburger .line_02 {
+    top: 24px;
+  }
+  .btnHamburger .line_03 {
+    top: 38px;
+  }
+
+  .btnHamburger.is-active .line_01 {
+    top: 24px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .btnHamburger.is-active .line_02 {
+    opacity: 0;
+  }
+
+  .btnHamburger.is-active .line_03 {
+    top: 24px;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
 }
 .w_right {
   float: right;
