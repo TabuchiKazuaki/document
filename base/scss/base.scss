@@ -2726,23 +2726,47 @@ footer {
 			letter-spacing: 1.3px;
 		}
 	}
+	.w_right {
+		display: none;
+	}
 }
 
-.w_nat {
-	overflow: hidden;
-	max-width: 1024px;
-	margin: 0 auto;
-	.w_left {
-		float: left;
-		width: 80%;
-		max-width: 768px;
-	}
-	.w_right {
-		float: right;
-		width: 16%;
-		position: fixed;
-		right: 0;
-		background: #ddd;
+
+
+.w_right {
+	float: right;
+	width: 200px;
+	position: fixed;
+	top: 10%;
+	right: 0;
+	box-sizing:border-box;
+	border-radius: 8px 0 0 8px;
+	border: 1px solid #eee;
+	padding: 5px 0 15px 0;
+	background-image: linear-gradient(
+		-45deg,
+		#f5eeed 25%,
+		#f4e2de 25%,
+		#f4e2de 50%,
+		#f5eeed 50%,
+		#f5eeed 75%,
+		#f4e2de 75%,
+		#f4e2de
+	);
+	li {
+		padding: 10px 0 0 10px;
+		text-align: center;
+		a {
+			display: block;
+			font-size: 18px;
+			font-weight: bold;
+			color: #333;
+
+			&:hover {
+				color: red;
+			}
+		}
+
 	}
 }
 
