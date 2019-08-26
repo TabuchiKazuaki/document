@@ -59,7 +59,7 @@ $(function(){
 $(function(){
     var topBtn = $('.w_right');
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
+        if ($(this).scrollTop() > 250) {
             topBtn.fadeIn();
         } else {
             topBtn.fadeOut();
