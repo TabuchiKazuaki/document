@@ -1063,27 +1063,9 @@
 </footer>
 
 <script src="https://abematv-kaiyu.github.io/document/owl/jquery.min.js"></script>
-<script src="https://abematv-kaiyu.github.io/document/base/js/base.js"></script>
 <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
-<script>
-$(window).bind("load", function(){
-	$('.scrollTo').click(function() {
-		var speed = 300; // ミリ秒
-		var href= $(this).attr("href");
-		var target = $(href == "#" || href == "" ? 'html' : href);
-		var position = target.offset().top;
-		$('body,html').animate({scrollTop:position}, speed, 'linear');
-		return false;
-	});
-});
-$(function(){
-  $('.btnHamburger').on('click', function(){
-    $(this).toggleClass('is-active');
-    $(this).next('.module_num').fadeToggle();
-    return false;
-  });
-});
-</script>
+<script src="https://abematv-kaiyu.github.io/document/base/js/base.js"></script>
+
 
 
 
