@@ -56,20 +56,3 @@ $(function(){
 
 
 
-$(function(){
-	var topBtn = $('.w_right');
-	$(window).scroll(function () {
-		if(window.matchMedia("(max-width:1200px)").matches){
-			$('.w_right').fadeOut();
-			if ($(this).scrollTop() > 250) {
-				topBtn.fadeIn();
-			}
-		} else {
-			$('.w_right').fadeIn();
-			if ($(this).scrollTop() < 250) {
-				topBtn.fadeOut();
-			}
-		}
-	});
-});
-
