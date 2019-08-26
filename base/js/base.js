@@ -53,3 +53,14 @@ $(function(){
     return false;
   });
 });
+
+
+
+$(function(){
+    var topBtn = $('.w_right');
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 500) {
+            topBtn.fadeIn();
+        }
+    });
+});
