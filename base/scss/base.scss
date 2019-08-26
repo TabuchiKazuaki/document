@@ -2728,7 +2728,20 @@ footer {
 	}
 }
 
-
+.w_nat {
+	overflow: hidden;
+	max-width: 1024px;
+	margin: 0 auto;
+	.w_left {
+		float: left;
+		width: 80%;
+		max-width: 768px;
+	}
+	.w_right {
+		float: right;
+		width: 16%;
+	}
+}
 
 
 

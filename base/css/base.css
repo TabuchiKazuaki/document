@@ -2639,6 +2639,21 @@ footer small {
     letter-spacing: 1.3px;
   }
 }
+.w_nat {
+  overflow: hidden;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.w_nat .w_left {
+  float: left;
+  width: 80%;
+  max-width: 768px;
+}
+.w_nat .w_right {
+  float: right;
+  width: 16%;
+}
+
 @media screen and (max-width: 480px) {
   .module_text {
     padding: 2% 0 2% 3%;
