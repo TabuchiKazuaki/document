@@ -24,6 +24,8 @@ $(function() {
 				}
 			});
 			$('.release').click(function(){
+				$(this).css('background','#ce8d79');
+				$(this).text('ここをクリックで全モジュールの表示 済み');
 				$(".m_n").css('display','block');
 			});
 		}
