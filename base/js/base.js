@@ -48,21 +48,38 @@ $(window).bind("load", function(){
 });
 $(function(){
   $('.btnHamburger').on('click', function(){
-    $(this).toggleClass('is-active');
-    $(this).next('.module_num').fadeToggle();
-    return false;
+	$(this).toggleClass('is-active');
+	$(this).next('.module_num').fadeToggle();
+	return false;
   });
 });
 
 
 
 $(function(){
-    var topBtn = $('.w_right');
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 250) {
-            topBtn.fadeIn();
-        } else {
-            topBtn.fadeOut();
-        }
-    });
+	var topBtn = $('.w_right');
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 250) {
+			topBtn.fadeIn();
+		} else {
+			topBtn.fadeOut();
+		}
+	});
+
 });
+
+$(function(){
+  var timer = false;
+  $(window).resize(function() {
+	if (timer !== false) {
+	  clearTimeout(timer);
+	}
+	timer = setTimeout(function() {
+		if(window.matchMedia("(max-width:1200px)").matches){
+			$('.w_right').fadeOut();
+		}else{
+			$('.w_right').fadeIn();// 500pxより大きいときの処理を記述します
+		}
+	}, 200);
+  });
+})
