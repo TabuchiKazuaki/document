@@ -1628,11 +1628,90 @@ footer small {
 }
 
 @media screen and (max-width: 1080px) {
-  .w_right {
-    width: 20%;
+  .btnHamburger {
+    display: block;
+    position: fixed;
+    top: 2%;
+    right: 2%;
+    width: 5%;
+    height: 50px;
+    cursor: pointer;
+    z-index: 100;
   }
-  .w_right li a {
-    font-size: calc(21vw/12);
+  .btnHamburger .line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .btnHamburger .line_01 {
+    top: 10px;
+  }
+  .btnHamburger .line_02 {
+    top: 24px;
+  }
+  .btnHamburger .line_03 {
+    top: 38px;
+  }
+
+  .btnHamburger.is-active .line_01 {
+    top: 24px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .btnHamburger.is-active .line_02 {
+    opacity: 0;
+  }
+  .btnHamburger.is-active .line_03 {
+    top: 24px;
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+
+  .module_num {
+    display: none;
+    position: fixed;
+    top: 8%;
+    left: 2.5%;
+    background: #fff;
+    border: 2px solid #333;
+    width: 95%;
+    opacity: .9;
+    z-index: 100;
+  }
+  .module_num ul {
+    padding: 3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    line-height: 1.5;
+  }
+  .module_num ul li {
+    width: 25%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: inline-block;
+  }
+  .module_num ul li a {
+    display: block;
+    font-size: calc(32vw/12);
+    font-weight: bold;
+    color: #333;
+  }
+  .module_num ul li a:hover {
+    color: red;
   }
 }
 @media screen and (max-width: 768px) {
