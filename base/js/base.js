@@ -59,8 +59,10 @@ $(function(){
 $(function(){
     var topBtn = $('.w_right');
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 500) {
+        if ($(this).scrollTop() > 350) {
             topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
         }
     });
 });
