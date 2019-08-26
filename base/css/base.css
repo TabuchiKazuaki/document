@@ -54,6 +54,10 @@ img {
   font-size: 25px;
 }
 
+.btnHamburger {
+  display: none;
+}
+
 .dn {
   display: none;
 }
@@ -2644,6 +2648,7 @@ footer small {
   }
 
   .btnHamburger {
+    display: block;
     position: fixed;
     top: 5%;
     right: 3%;
@@ -2676,17 +2681,15 @@ footer small {
   .btnHamburger.is-active .line_01 {
     top: 24px;
     -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
+            transform: rotate(45deg);
   }
-
   .btnHamburger.is-active .line_02 {
     opacity: 0;
   }
-
   .btnHamburger.is-active .line_03 {
     top: 24px;
     -webkit-transform: rotate(135deg);
-    transform: rotate(135deg);
+            transform: rotate(135deg);
   }
 }
 .w_right {
