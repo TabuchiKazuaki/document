@@ -1599,6 +1599,14 @@ footer small {
             transform: translateY(30px);
   }
 }
+@media screen and (max-width: 1080px) {
+  .w_right {
+    width: 20%;
+  }
+  .w_right li a {
+    font-size: calc(21vw/12);
+  }
+}
 @media screen and (max-width: 768px) {
   .bot_wrap {
     margin: 10% auto 0;

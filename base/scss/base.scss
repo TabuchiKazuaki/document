@@ -1573,7 +1573,14 @@ footer {
 
 
 
-
+@media screen and (max-width: 1080px) {
+	.w_right {
+		width: 20%;
+		li a {
+			font-size: calc(21vw/12);
+		}
+	}
+}
 
 
 
