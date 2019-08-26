@@ -10,25 +10,7 @@
 <body>
 <link href="css/base.css" rel="stylesheet">
 <!-- <link href="https://abematv-kaiyu.github.io/document/base/css/base.css" rel="stylesheet"> -->
-<script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
-<script>
-$(window).bind("load", function(){
-	$('.scrollTo').click(function() {
-		// スクロールの速度
-		var speed = 300; // ミリ秒
-		// アンカーの値取得
-		var href= $(this).attr("href");
-		// 移動先を取得
-		var target = $(href == "#" || href == "" ? 'html' : href);
-		// 移動先を数値で取得
-		var position = target.offset().top;
-		// スムーススクロール
-		$('body,html').animate({scrollTop:position}, speed, 'linear');
-		return false;
-	});
-});
 
-</script>
 
 
 <!-- 全部 -->
@@ -1049,6 +1031,26 @@ $(window).bind("load", function(){
 
 <script src="https://abematv-kaiyu.github.io/document/owl/jquery.min.js"></script>
 <script src="https://abematv-kaiyu.github.io/document/base/js/base.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script>
+$(window).bind("load", function(){
+	$('.scrollTo').click(function() {
+		// スクロールの速度
+		var speed = 300; // ミリ秒
+		// アンカーの値取得
+		var href= $(this).attr("href");
+		// 移動先を取得
+		var target = $(href == "#" || href == "" ? 'html' : href);
+		// 移動先を数値で取得
+		var position = target.offset().top;
+		// スムーススクロール
+		$('body,html').animate({scrollTop:position}, speed, 'linear');
+		return false;
+	});
+});
+
+</script>
+
 
 </body>
 
