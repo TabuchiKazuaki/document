@@ -2650,8 +2650,8 @@ footer small {
   .btnHamburger {
     display: block;
     position: fixed;
-    top: 5%;
-    right: 3%;
+    top: 2%;
+    right: 2%;
     margin-left: -25px;
     width: 50px;
     height: 50px;
@@ -2690,6 +2690,45 @@ footer small {
     top: 24px;
     -webkit-transform: rotate(135deg);
             transform: rotate(135deg);
+  }
+
+  .module_num {
+    position: fixed;
+    top: 8%;
+    left: 2.5%;
+    background: #fff;
+    border: 2px solid #333;
+    width: 95%;
+    opacity: .9;
+  }
+  .module_num ul {
+    padding: 3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    line-height: 1.5;
+  }
+  .module_num ul li {
+    width: 25%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: inline-block;
+  }
+  .module_num ul li a {
+    display: block;
+    font-size: calc(32vw/12);
+    font-weight: bold;
+    color: #333;
+  }
+  .module_num ul li a:hover {
+    color: red;
   }
 }
 .w_right {

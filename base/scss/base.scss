@@ -37,6 +37,7 @@ img  { width: 100%;}
 .btnHamburger {
 	display: none;
 }
+
 .dn {
 	display: none;
 }
@@ -2735,8 +2736,8 @@ footer {
 	.btnHamburger {
 		display: block;
 		position: fixed;
-		top: 5%;
-		right: 3%;
+		top: 2%;
+		right: 2%;
 		margin-left: -25px;
 		width: 50px;
 		height: 50px;
@@ -2770,7 +2771,37 @@ footer {
 			transform: rotate(135deg);
 		}
 	}
+	.module_num {
+		position: fixed;
+		top: 8%;
+		left: 2.5%;
+		background: #fff;
+		border: 2px solid #333;
+		width: 95%;
+		opacity: .9;
+		ul {
+			padding: 3%;
+			display: flex;
+			flex-flow: row wrap;
+			line-height: 1.5;
+			li {
+				width: 25%;
+				justify-content: flex-end;
+				box-sizing: border-box;
+				display: inline-block;
+				a {
+					display: block;
+					font-size: calc(32vw/12);
+					font-weight: bold;
+					color: #333;
 
+					&:hover{
+						color: red;
+					}
+				}
+			}
+		}
+	}
 }
 
 

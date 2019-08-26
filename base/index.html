@@ -1077,6 +1077,8 @@ $(window).bind("load", function(){
 $(function(){
   $('.btnHamburger').on('click', function(){
     $(this).toggleClass('is-active');
+    $(this).next('.module_num').fadeToggle();
+    return false;
   });
 });
 </script>
