@@ -2652,7 +2652,7 @@ footer small {
     position: fixed;
     top: 2%;
     right: 2%;
-    width: 4%;
+    width: 5%;
     height: 50px;
     cursor: pointer;
   }
@@ -2765,6 +2765,28 @@ footer small {
     margin: 5% 0 0;
     line-height: 1.4;
     font-size: calc(47vw/12);
+  }
+
+  .btnHamburger {
+    width: 7%;
+    height: 50px;
+  }
+  .btnHamburger .line {
+    width: 100%;
+    height: 3px;
+  }
+  .btnHamburger .line_01 {
+    top: 5px;
+  }
+  .btnHamburger .line_02 {
+    top: 12px;
+  }
+  .btnHamburger .line_03 {
+    top: 19px;
+  }
+
+  .btnHamburger.is-active {
+    top: 2%;
   }
 
   .cb .wrap {
