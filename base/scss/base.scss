@@ -45,6 +45,11 @@ img  { width: 100%;}
 	max-width: 421px;
 	margin: 0 auto;
 }
+.m_t {
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+}
 .movie {
 	margin: 0 0 20px;
 	.movie_inner {
