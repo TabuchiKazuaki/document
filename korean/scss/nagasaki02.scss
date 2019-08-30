@@ -107,7 +107,7 @@ header {
 			height: 780px;
 			width: 100%;
 			animation-name: scroll-header-bg;
-			animation-duration: 300s;                  /*3秒で画像1枚分スクロールする*/
+			animation-duration: 200s;                  /*3秒で画像1枚分スクロールする*/
 			animation-timing-function: linear;       /*再生速度を一定にする*/
 			animation-iteration-count: infinite;
 		}
@@ -129,7 +129,7 @@ header {
     }
 
     100% {
-        background-position: 2000px 0;      /*画像サイズに合わせて変更する（負号で左スクロール）*/
+        background-position: 2500px 0;      /*画像サイズに合わせて変更する（負号で左スクロール）*/
     }
 }
 .every {

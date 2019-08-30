@@ -136,8 +136,8 @@ header .h_wrap .h_movie {
   width: 100%;
   -webkit-animation-name: scroll-header-bg;
           animation-name: scroll-header-bg;
-  -webkit-animation-duration: 300s;
-          animation-duration: 300s;
+  -webkit-animation-duration: 200s;
+          animation-duration: 200s;
   /*3秒で画像1枚分スクロールする*/
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
@@ -162,7 +162,7 @@ header .h_wrap .h_kv {
     /*初期値を設定する*/
   }
   100% {
-    background-position: 2000px 0;
+    background-position: 2500px 0;
     /*画像サイズに合わせて変更する（負号で左スクロール）*/
   }
 }
@@ -173,7 +173,7 @@ header .h_wrap .h_kv {
     /*初期値を設定する*/
   }
   100% {
-    background-position: 2000px 0;
+    background-position: 2500px 0;
     /*画像サイズに合わせて変更する（負号で左スクロール）*/
   }
 }
