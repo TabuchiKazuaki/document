@@ -9,7 +9,7 @@ $(document).ready(function() {
 		$("ul.thumb01 li a").removeClass("active flipInX");//.activeを外す
 		$(this).children('a').addClass("active flipInX");//クリックタブに.activeを追加
 		$(".tab_content01").hide();
-		var activeTab = $(this).closest('cc_item').next('.c_c_img').find("a").attr("href");
+		var activeTab = $(this).parents(".c_c_list").next('.c_c_img').children('tab_content01').find("a").attr("href");
 		$(activeTab).fadeIn();
 		return false;
 	});
@@ -23,7 +23,7 @@ $(document).ready(function() {
 		$("ul.thumb02 li a").removeClass("active flipInX");//.activeを外す
 		$(this).children('a').addClass("active flipInX");//クリックタブに.activeを追加
 		$(".tab_content02").hide();
-		var activeTab = $(this).parents(".c_c_list").next('.c_c_img').find("a").attr("href");
+		var activeTab = $(this).parents(".c_c_list").next('.c_c_img').children('tab_content02').find("a").attr("href");
 		$(activeTab).fadeIn();
 		return false;
 	});
