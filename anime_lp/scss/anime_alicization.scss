@@ -3023,17 +3023,28 @@ footer {
 
 		.thumb {
 			margin: 2.5% 0 0;
-			justify-content: space-between;
+			justify-content: unset;
+			overflow: hidden;
 			li {
-				margin: 0 0 0 4%;
+				float: left;
+				width: 48%;
+				margin: 3% 0 0 4%;
+
+				&:nth-child(2n+1) {
+					margin: 3% 0 0;
+				}
+				&:nth-child(2) {
+					margin: 0 0 0 4%;
+				}
 				&:first-child {
 					margin: 0;
 				}
+
 				a {
 					padding: 1% 5%;
-					font-size: calc(27vw/12);
-					white-space: nowrap;
+					font-size: calc(36vw/12);
 					line-height: 2;
+					text-align: center;
 				}
 			}
 		}
