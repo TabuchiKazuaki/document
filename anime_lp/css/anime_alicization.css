@@ -622,7 +622,7 @@ footer small { display: block; margin: 30px 40px 20px; font-size: 16px; letter-s
   .contents .c_movie .c_minner { position: relative; width: 100%; padding-top: 56.25%; margin: 18px auto 0; }
   .contents .c_movie .c_minner iframe { position: absolute; z-index: 5; left: 0; top: 0; width: 100% !important; height: 100% !important; }
   .contents .large { margin: 4.5% 0 0; }
-  .contents .thumb { margin: 2.5% 0 0; }
+  .contents .thumb { margin: 2.5% 0 0; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
   .contents .thumb li { margin: 0 0 0 4%; }
   .contents .thumb li:first-child { margin: 0; }
   .contents .thumb li a { padding: 1% 5%; font-size: calc(27vw/12); white-space: nowrap; line-height: 2; }
