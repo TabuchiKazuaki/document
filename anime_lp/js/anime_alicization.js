@@ -9,7 +9,7 @@ $(document).ready(function() {
 		$("ul.thumb01 li a").removeClass("active flipInX");//.activeを外す
 		$(this).children('a').addClass("active flipInX");//クリックタブに.activeを追加
 		$(".tab_content01").hide();
-		var activeTab = $(this).parents(".c_c_list").next('.c_c_img').children('tab_content01').find("a").attr("href");
+		var activeTab = $(this).parents(".cc_item").next('.tab_content01').find("a").attr("href");
 		$(activeTab).fadeIn();
 		return false;
 	});
@@ -23,7 +23,7 @@ $(document).ready(function() {
 		$("ul.thumb02 li a").removeClass("active flipInX");//.activeを外す
 		$(this).children('a').addClass("active flipInX");//クリックタブに.activeを追加
 		$(".tab_content02").hide();
-		var activeTab = $(this).parents(".c_c_list").next('.c_c_img').children('tab_content02').find("a").attr("href");
+		var activeTab = $(this).parents(".c_c_list").next('.tab_content02').find("a").attr("href");
 		$(activeTab).fadeIn();
 		return false;
 	});
@@ -36,20 +36,7 @@ $(document).ready(function() {
 		$("ul.thumb03 li a").removeClass("active flipInX");//.activeを外す
 		$(this).children('a').addClass("active flipInX");//クリックタブに.activeを追加
 		$(".tab_content03").hide();
-		var activeTab = $(this).parents(".c_c_list").next('.c_c_img').("active").show.find("a").attr("href");
-		$(activeTab).fadeIn();
-		return false;
-	});
-
-	$(".tab_content06").hide();//全ての.tab_contentを非表示
-	$("ul.thumb06 li:first a").addClass("active").show();//tabs内最初のliに.activeを追加
-	$(".tab_content06:first").show();//最初の.tab_contentを表示
-	//タブクリック時
-	$("ul.thumb06 li").click(function() {
-		$("ul.thumb06 li a").removeClass("active");//.activeを外す
-		$(this).children('a').addClass("active");//クリックタブに.activeを追加
-		$(".tab_content06").hide();
-		var activeTab = $(this).find("a").attr("href");
+		var activeTab = $(this).parents(".c_c_list").next('.tab_content03').find("a").attr("href");
 		$(activeTab).fadeIn();
 		return false;
 	});
