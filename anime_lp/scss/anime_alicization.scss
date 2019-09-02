@@ -1873,61 +1873,6 @@ footer {
 			line-height: 1.5;
 			letter-spacing: 1.3px;
 		}
-		.c_chara {
-			margin: 9% 0 0;
-			.c_c_list {
-				.cc_item {
-					overflow: hidden;
-					margin: 6% 0 0;
-
-					&:first-child {
-						margin: 0;
-					}
-					&:nth-child(2) {
-						margin: 4% 0 0;
-						.c_c_i {
-							margin: 7% 0 0;
-						}
-					}
-					&:nth-child(3) {
-						margin: 2% 0 0;
-						.c_c_i {
-							margin: 9% 0 0;
-						}
-					}
-					.c_c_i {
-						width: 50%;
-						margin: 0 0;
-						.c_c_h {
-							padding: 0 0 2.2%;
-							font-size: calc(38vw/12);
-							border-bottom: 1px solid #fff;
-							letter-spacing: 1.5px;
-							line-height: 1.45;
-							.c_c_span {
-								font-size: calc(26vw/12);
-							}
-						}
-						.cv {
-							margin: 3% 0 0;
-							font-size: calc(32vw/12);
-						}
-						.c_c_t {
-							max-width: none;
-							width: 95%;
-							margin: 5.6% 0 0;
-							font-size: calc(29vw/12);
-							letter-spacing: 1.1px;
-							line-height: 1.4;
-						}
-					}
-					.c_c_img {
-						width: 48%;
-						margin: 0 0 0 0;
-					}
-				}
-			}
-		}
 
 		.c_inner {
 			background: #1a1a1a;
@@ -2689,6 +2634,7 @@ footer {
 	.line {
 		height: 10px;
 	}
+
 	.f_line {
 		background: #fff;
 		height: 31px;
@@ -2743,6 +2689,7 @@ footer {
 		}
 		.h_wrap {
 			.h_kv {
+
 			}
 		}
 	}
@@ -3023,7 +2970,6 @@ footer {
 
 		.thumb {
 			margin: 2.5% 0 0;
-			justify-content: unset;
 			overflow: hidden;
 			li {
 				float: left;
@@ -3075,9 +3021,9 @@ footer {
 						}
 					}
 					&:nth-child(3) {
-						margin: 1% 0 0;
+						margin: 2% 0 0;
 						.c_c_i {
-							margin: 13% 0 0;
+							margin: 9% 0 0;
 						}
 					}
 					.c_c_i {
@@ -3085,7 +3031,7 @@ footer {
 						margin: 0 0;
 						.c_c_h {
 							padding: 0 0 2.2%;
-							font-size: calc(35vw/12);
+							font-size: calc(38vw/12);
 							border-bottom: 1px solid #fff;
 							letter-spacing: 1.5px;
 							line-height: 1.45;
