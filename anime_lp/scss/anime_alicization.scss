@@ -301,16 +301,10 @@ header {
 		margin: 30px 0 0;
 	}
 	.thumb {
-		display:-webkit-box;
-        display:-ms-flexbox;
-        display: -webkit-flex;
-        display:flex;
-        -webkit-justify-content: space-between;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: left;
+		overflow: hidden;
 		margin: 15px 0 0;
 		li {
+			float: left;
 			margin: 0 0 0 2%;
 			&:first-child {
 				margin: 0;
