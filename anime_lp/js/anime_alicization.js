@@ -62,13 +62,21 @@ $(document).ready(function() {
       $("ul.thumb02 li:first a").addClass("active").show();//tabs内最初のliに.activeを追加
       $(".tab_content02:first").show();//最初の.tab_contentを表示
       //タブクリック時
+      $('.tex').hide();
+      $('.tex:first').show();
+
       $("ul.thumb02 li").click(function() {
             $("ul.thumb02 li a").removeClass("active flipInX");//.activeを外す
             $(this).children('a').addClass("active flipInX");//クリックタブに.activeを追加
             $(".tab_content02").hide();
+            $(".tex").hide();
+             var textTab = $(this).find("a").attr("href");
+            $(textTab).fadeIn();
             var activeTab = $(this).find("a").attr("href");
             $(activeTab).fadeIn();
             return false;
+
+
       });
 
        $(".tab_content03").hide();//全ての.tab_contentを非表示
