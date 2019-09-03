@@ -31,6 +31,4 @@ $(document).ready(function() {
 	if (now.getTime() > tl00.getTime()) {
 		$('.th_now').hide();
 	}
-
-
 });
