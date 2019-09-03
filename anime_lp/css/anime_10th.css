@@ -97,8 +97,9 @@ header .h_wrap .h_r { padding: 40px 0 0; max-width: 657px; }
 .contents .c_two .c_t_btn a { display: block; padding: 15px 0; text-align: center; border-radius: 6px; border: 3px solid #3a2; font-size: 30px; color: #3a2; }
 .contents .c_two .c_t_btn a:hover { background: #3a2; color: #fff; opacity: 1; }
 .contents .c_three { padding: 0 0 35px; margin: 15px 0 0; }
-.contents .c_three .c_thr_item li { padding: 35px 0 0; border-bottom: 1px solid #606060; }
+.contents .c_three .c_thr_item li { padding: 35px 0 35px; border-bottom: 1px solid #606060; }
 .contents .c_three .c_thr_item li:last-child { border-bottom: none; }
+.contents .c_three .c_thr_item li a { display: block; }
 .contents .c_three .c_thr_dl { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 .contents .c_three .c_thr_dl dd { width: 52%; line-height: 0; }
 .contents .c_three .c_thr_dl dt { width: 45%; padding: 0 0 0 3%; font-size: 23px; line-height: 1.35; font-weight: bold; color: #fff; }
@@ -321,7 +322,7 @@ footer .twelve .thumb li .active img { margin: -2.5px 0; opacity: .8; }
   .contents .c_six .c_s_dl dt .rank { font-size: calc(38vw/12); }
   .contents .c_six .c_s_dl dt .rank .num { margin: 0 0.2% 0 0; font-size: calc(42vw/12); }
   .contents .c_three { padding: 0 0 5%; margin: 1% 0 0; }
-  .contents .c_three .c_thr_item li { padding: 4% 0 0; }
+  .contents .c_three .c_thr_item li { padding: 4% 0; }
   .contents .c_three .c_thr_dl dd { width: 52%; }
   .contents .c_three .c_thr_dl dt { width: 45%; padding: 0 0 0 3%; font-size: calc(36vw/12); line-height: 1.35; letter-spacing: 1.3px; }
   .contents .c_three .c_thr_text { margin: 4% 0 0; font-size: calc(41vw/12); line-height: 1.4; }
@@ -490,7 +491,7 @@ footer .twelve .thumb li .active img { margin: -2.5px 0; opacity: .8; }
   .contents .c_two .c_row .c_r_dl dt .rank .num { margin: 0 0.2% 0 0; font-size: calc(48vw/12); }
   .contents .c_two .c_t_text { margin: 3% 0 0; font-size: calc(43vw/12); line-height: 1.4; }
   .contents .c_three { padding: 0 0 5%; margin: 1% 0 0; }
-  .contents .c_three .c_thr_item li { padding: 4% 0 0; }
+  .contents .c_three .c_thr_item li { padding: 4% 0; }
   .contents .c_three .c_thr_dl dd { width: 52%; }
   .contents .c_three .c_thr_dl dt { width: 45%; padding: 0 0 0 3%; font-size: calc(38vw/12); line-height: 1.35; letter-spacing: 1.3px; }
   .contents .c_three .c_thr_text { margin: 4% 0 0; font-size: calc(43vw/12); line-height: 1.4; }
