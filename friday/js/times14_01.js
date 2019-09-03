@@ -15,7 +15,7 @@ $(document).ready(function() {
 
 
 	var now = new Date();
-	var tl02 = new Date("2019/06/22 00:00");
+	var tl02 = new Date("2019/06/21 00:00");
 	if (now.getTime() > tl02.getTime()) {
 		$('.th_now').hide();
 	}
