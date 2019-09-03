@@ -1579,7 +1579,17 @@ footer {
 	}
 }
 
-
+.bagg {
+	display: inline-block;
+	background: #f0163a;
+	padding: 2px 10px;
+	margin: 0 0 5px 0;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+}
 
 @media screen and (max-width: 1301px) {
 	header {
@@ -1738,6 +1748,12 @@ footer {
 
 
 @media screen and (max-width: 768px) {
+	.bagg {
+		padding: 0.8% 3%;
+		margin: 0 0 1% 0;
+		border-radius: 3px;
+		font-size: calc(26vw/12);
+	}
 	.wrap {
 		padding: 0 5%;
 	}
@@ -2860,6 +2876,13 @@ footer {
 		border-radius: 3px;
 		font-size: calc(28vw/12);
 		letter-spacing: 2px;
+	}
+
+	.bagg {
+		padding: 0.8% 3%;
+		margin: 0 0 1% 0;
+		border-radius: 3px;
+		font-size: calc(26vw/12);
 	}
 
 	header {
