@@ -58,15 +58,15 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$('.tex').hide();
-	$('.tex:first').show();
-	$('.ta1').click(function() {
-		$('.tex').hide();
-		$('.tt01').fadeIn();
+	$('.leg').hide();
+	$('.leg:first').show();
+	$('.bg1').click(function() {
+		$('.leg').hide();
+		$('.be01').fadeIn();
 	});
-	$('.ta2').click(function() {
-		$('.tex').hide();
-		$('.tt02').fadeIn();
+	$('.bg2').click(function() {
+		$('.leg').hide();
+		$('.be02').fadeIn();
 	});
 
 
