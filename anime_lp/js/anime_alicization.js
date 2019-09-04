@@ -61,15 +61,15 @@ $(document).ready(function() {
 	$('.tex').hide();
 	$('.tex:first').show();
 	$('.ta1').click(function() {
-		$('.tex').fadeOut();
+		$('.tex').hide();
 		$('.tt01').fadeIn();
 	});
 	$('.ta2').click(function() {
-		$('.tex').fadeOut();
+		$('.tex').hide();
 		$('.tt02').fadeIn();
 	});
 	$('.ta3').click(function() {
-		$('.tex').fadeOut();
+		$('.tex').hide();
 		$('.tt03').fadeIn();
 	});
 
