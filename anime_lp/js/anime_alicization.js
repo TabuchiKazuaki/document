@@ -68,10 +68,6 @@ $(document).ready(function() {
 		$('.tex').hide();
 		$('.tt02').fadeIn();
 	});
-	$('.ta3').click(function() {
-		$('.tex').hide();
-		$('.tt03').fadeIn();
-	});
 
 	$(".tab_content02").hide();//全ての.tab_contentを非表示
 	$("ul.thumb02 li:first a").addClass("active").show();//tabs内最初のliに.activeを追加
