@@ -46,6 +46,16 @@ img  { width: 100%;}
 .line {
 	height: 36px;
 }
+.c_single {
+	display: block;
+	background: #3a2;
+	padding: 15px 0;
+	text-align: center;
+	border-radius: 6px;
+	border: 3px solid #3a2;
+	font-size: 30px;
+	color: #fff;
+}
 header {
 	box-sizing: border-box;
 	.logo {
@@ -1219,6 +1229,11 @@ footer {
 			}
 		}
 	}
+	.c_single {
+		padding: 2.5% 0;
+		border-radius: 4px;
+		font-size: calc(48vw/12);
+	}
 
 	.contents {
 		padding: 8% 0 0;
@@ -2054,6 +2069,12 @@ footer {
 		margin: 0 0 1% 0;
 		border-radius: 3px;
 		font-size: calc(26vw/12);
+	}
+
+	.c_single {
+		padding: 2.5% 0;
+		border-radius: 4px;
+		font-size: calc(50vw/12);
 	}
 
 	.contents {
