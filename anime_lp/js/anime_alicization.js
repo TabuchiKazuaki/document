@@ -47,6 +47,7 @@ $(document).ready(function() {
       $(".tab_content01").hide();//全ての.tab_contentを非表示
       $("ul.thumb01 li:first a").addClass("active").show();//tabs内最初のliに.activeを追加
       $(".tab_content01:first").show();//最初の.tab_contentを表示
+
       //タブクリック時
       $("ul.thumb01 li").click(function() {
             $("ul.thumb01 li a").removeClass("active flipInX");//.activeを外す
@@ -57,11 +58,25 @@ $(document).ready(function() {
             return false;
       });
 
+      $('.tex').hide();
+      $('.tex:first').show();
+      &('.ta1').click(function() {
+            $('.tex').hide();
+            $('.tt01').show();
+      });
+      &('.ta2').click(function() {
+            $('.tex').hide();
+            $('.tt02').show();
+      });
+      &('.ta3').click(function() {
+            $('.tex').hide();
+            $('.tt03').show();
+      });
 
       $(".tab_content02").hide();//全ての.tab_contentを非表示
       $("ul.thumb02 li:first a").addClass("active").show();//tabs内最初のliに.activeを追加
       $(".tab_content02:first").show();//最初の.tab_contentを表示
-      //タブクリック時
+
       $('.tex').hide();
       $('.tex:first').show();
 
