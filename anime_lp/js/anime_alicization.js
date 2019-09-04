@@ -69,6 +69,33 @@ $(document).ready(function() {
 		$('.tt02').fadeIn();
 	});
 
+
+	$('.tsx').hide();
+	$('.tsx:first').show();
+	$('.ta20').click(function() {
+		$('.tsx').hide();
+		$('.ts01').fadeIn();
+	});
+	$('.ta21').click(function() {
+		$('.tsx').hide();
+		$('.ts02').fadeIn();
+	});
+	$('.ta22').click(function() {
+		$('.tsx').hide();
+		$('.ts03').fadeIn();
+	});
+
+	$('.tmx').hide();
+	$('.tmx:first').show();
+	$('.tm20').click(function() {
+		$('.tmx').hide();
+		$('.tm01').fadeIn();
+	});
+	$('.tm21').click(function() {
+		$('.tmx').hide();
+		$('.tm02').fadeIn();
+	});
+
 	$(".tab_content02").hide();//全ての.tab_contentを非表示
 	$("ul.thumb02 li:first a").addClass("active").show();//tabs内最初のliに.activeを追加
 	$(".tab_content02:first").show();//最初の.tab_contentを表示
