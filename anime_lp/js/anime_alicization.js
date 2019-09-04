@@ -72,15 +72,15 @@ $(document).ready(function() {
 
 	$('.tsx').hide();
 	$('.tsx:first').show();
-	$('.ta20').click(function() {
+	$('.tb21').click(function() {
 		$('.tsx').hide();
 		$('.ts01').fadeIn();
 	});
-	$('.ta21').click(function() {
+	$('.tb21').click(function() {
 		$('.tsx').hide();
 		$('.ts02').fadeIn();
 	});
-	$('.ta22').click(function() {
+	$('.tb22').click(function() {
 		$('.tsx').hide();
 		$('.ts03').fadeIn();
 	});
