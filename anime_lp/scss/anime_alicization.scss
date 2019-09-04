@@ -88,7 +88,10 @@ header {
 		line-height: 1.4;
 		letter-spacing: 1.4px;
 		color: #fff;
-		span {
+		.i_sub {
+			font-size: 27px;
+		}
+		.num {
 			font-size: 33px;
 		}
 	}
@@ -1549,7 +1552,10 @@ footer {
 			margin: 3.5% 0 0;
 			line-height: 1.7;
 			font-size: calc(48vw/12);
-			span {
+			.i_sub {
+				font-size: calc(40vw/12);
+			}
+			.num {
 				font-size: calc(52vw/12);
 			}
 		}
@@ -2731,7 +2737,10 @@ footer {
 			margin: 3.5% 0 0;
 			line-height: 1.7;
 			font-size: calc(50vw/12);
-			span {
+			.i_sub {
+				font-size: calc(42vw/12);
+			}
+			.num {
 				font-size: calc(54vw/12);
 			}
 		}
