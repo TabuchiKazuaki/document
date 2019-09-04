@@ -72,7 +72,7 @@ $(document).ready(function() {
 
 	$('.tsx').hide();
 	$('.tsx:first').show();
-	$('.tb21').click(function() {
+	$('.tb20').click(function() {
 		$('.tsx').hide();
 		$('.ts01').fadeIn();
 	});
