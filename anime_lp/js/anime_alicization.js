@@ -62,15 +62,15 @@ $(document).ready(function() {
       $('.tex:first').show();
       &('.ta1').click(function() {
             $('.tex').hide();
-            $('.tt01').show();
+            $('.tt01').fadeIn();
       });
       &('.ta2').click(function() {
             $('.tex').hide();
-            $('.tt02').show();
+            $('.tt02').fadeIn();
       });
       &('.ta3').click(function() {
             $('.tex').hide();
-            $('.tt03').show();
+            $('.tt03').fadeIn();
       });
 
       $(".tab_content02").hide();//全ての.tab_contentを非表示
