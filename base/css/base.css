@@ -46,6 +46,14 @@ img {
   background: #2d8474;
 }
 
+.cf_te {
+  padding: 0 0 0 43px;
+  margin: 30px 0 0 !important;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  color: #ababab;
+}
+
 .release {
   display: inline-block;
   background: red;
@@ -1736,6 +1744,12 @@ footer small {
   }
 }
 @media screen and (max-width: 768px) {
+  .cf_te {
+    padding: 0 0 0 4%;
+    margin: 5% 0 0 !important;
+    font-size: calc(30vw/12);
+  }
+
   .bot_wrap {
     margin: 10% auto 0;
   }
@@ -2878,6 +2892,12 @@ footer small {
   }
 }
 @media screen and (max-width: 480px) {
+  .cf_te {
+    padding: 0 0 0 5%;
+    margin: 5% 0 0 !important;
+    font-size: calc(30vw/12);
+  }
+
   .bot_wrap {
     margin: 10% auto 0;
   }
