@@ -16,7 +16,7 @@ $(document).ready(function() {
 		$('.t0815_28').hide();
 
 		$('.t0915_21').hide();
-		$('.t1015_21').hide();
+		$('.t1022_28').hide();
 
 		$('.t1115_28').hide();
 
@@ -100,11 +100,11 @@ $(document).ready(function() {
 	var t05sec = new Date("2019/11/22 00:00");
 	if (now.getTime() > t05sec.getTime()) {
 		$('.t0915_21').hide();
-		$('.t1015_21').show();
+		$('.t1022_28').show();
 	}
 	var t05end = new Date("2019/11/28 23:59");
 	if (now.getTime() > t05end.getTime()) {
-		$('.t1015_21').hide();
+		$('.t1022_28').hide();
 	}
 
 
