@@ -915,6 +915,60 @@ header {
 				color: #fff;
 			}
 		}
+		.c_fl_item {
+			margin: 42px 0 0;
+			li {
+				margin: 18px 0 0;
+				.c_z_t {
+					position: relative;
+					padding: 0 0 0 45px;
+					font-size: 26px;
+					font-weight: bold;
+					color: #ababab;
+					&:before {
+						content: '';
+						position: absolute;
+						top: 0;
+						left: 0;
+						background: #3a2;
+						width: 27px;
+						height: 27px;
+						border-radius: 50%;
+					}
+				}
+				dl {
+					display: flex;
+					align-items: center;
+					letter-spacing: 1.2px;
+					dt {
+						position: relative;
+						width: 100%;
+						padding: 0 0 0 45px;
+						font-size: 26px;
+						font-weight: normal;
+						box-sizing: border-box;
+						color: #ababab;
+						&:before {
+							content: '';
+							position: absolute;
+							top: 0;
+							left: 0;
+							background: #3a2;
+							width: 27px;
+							height: 27px;
+							border-radius: 50%;
+						}
+					}
+					dd {
+						width: 100%;
+						line-height: 1.3;
+						font-size: 20px;
+						font-weight: normal;
+						color: #ababab;
+					}
+				}
+			}
+		}
 	}
 
 	.sixteen {
@@ -2461,6 +2515,46 @@ footer {
 					}
 				}
 			}
+			.c_fl_item {
+				margin: 6% 0 0;
+
+				li {
+					margin: 3% 0 0;
+					.c_z_t {
+						padding: 0 0 0 6%;
+						font-size: calc(38vw/12);
+						&:before {
+							content: '';
+							position: absolute;
+							top: 0;
+							left: 0;
+							width: 3.8%;
+							height: 100%;
+							border-radius: 50%;
+						}
+					}
+					dl {
+						letter-spacing: 1.2px;
+						dt {
+							padding: 0 0 0 5%;
+							font-size: calc(43vw/12);
+							&:before {
+								content: '';
+								position: absolute;
+								top: 0px;
+								left: 0;
+								width: 12%;
+								height: 100%;
+								border-radius: 50%;
+							}
+						}
+						dd {
+							width: 70%;
+							font-size: calc(30vw/12);
+						}
+					}
+				}
+			}
 			.c_z_btn{
 				margin: 6% 0 0;
 				a {
@@ -3743,6 +3837,47 @@ footer {
 						dd {
 							width: 70%;
 							font-size: calc(47vw/12);
+						}
+					}
+				}
+			}
+			.c_fl_item {
+				margin: 6% 0 0;
+
+				li {
+					margin: 3% 0 0;
+					.c_z_t {
+						padding: 0 0 0 6%;
+						font-size: calc(40vw/12);
+						&:before {
+							content: '';
+							position: absolute;
+							top: 3%;
+							left: 0;
+							width: 3.9%;
+							height: 111%;
+							border-radius: 50%;
+						}
+					}
+					dl {
+						letter-spacing: 1.2px;
+						dt {
+							width: 38%;
+							padding: 0 0 0 5%;
+							font-size: calc(47vw/12);
+							&:before {
+								content: '';
+								position: absolute;
+								top: 0px;
+								left: 0;
+								width: 10.5%;
+								height: 100%;
+								border-radius: 50%;
+							}
+						}
+						dd {
+							width: 70%;
+							font-size: calc(32vw/12);
 						}
 					}
 				}
