@@ -934,6 +934,62 @@ header .h_wrap .h_r {
   font-weight: bold;
   color: #ababab;
 }
+.contents .fourteen .c_fl_item {
+  margin: 42px 0 0;
+}
+.contents .fourteen .c_fl_item li {
+  margin: 18px 0 0;
+}
+.contents .fourteen .c_fl_item li .c_z_t {
+  position: relative;
+  padding: 0 0 0 45px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #ababab;
+}
+.contents .fourteen .c_fl_item li .c_z_t:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #3a2;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+.contents .fourteen .c_fl_item li dl {
+  overflow: hidden;
+  letter-spacing: 1.2px;
+}
+.contents .fourteen .c_fl_item li dl dt {
+  position: relative;
+  width: 100%;
+  padding: 0 0 0 45px;
+  font-size: 26px;
+  font-weight: bold;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #ababab;
+}
+.contents .fourteen .c_fl_item li dl dt:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #3a2;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+.contents .fourteen .c_fl_item li dl dd {
+  width: 100%;
+  line-height: 1.3;
+  padding: 22px 0 0 44px;
+  letter-spacing: 1.3px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #ababab;
+}
 .contents .fourteen .c_z_btn {
   margin: 42px 0 0;
 }
@@ -2397,6 +2453,48 @@ footer small {
     width: 70%;
     font-size: calc(43vw/12);
   }
+  .contents .fourteen .c_fl_item {
+    margin: 5% 0 0;
+  }
+  .contents .fourteen .c_fl_item li {
+    margin: 3% 0 0;
+  }
+  .contents .fourteen .c_fl_item li:first-child {
+    margin: 0;
+  }
+  .contents .fourteen .c_fl_item li .c_z_t {
+    padding: 0 0 0 6%;
+    font-size: calc(38vw/12);
+  }
+  .contents .fourteen .c_fl_item li .c_z_t:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3.8%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .contents .fourteen .c_fl_item li dl {
+    letter-spacing: 1.2px;
+  }
+  .contents .fourteen .c_fl_item li dl dt {
+    padding: 0 0 0 6%;
+    font-size: calc(43vw/12);
+  }
+  .contents .fourteen .c_fl_item li dl dt:before {
+    content: '';
+    position: absolute;
+    top: 0.5%;
+    left: 0;
+    width: 4%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .contents .fourteen .c_fl_item li dl dd {
+    font-size: calc(31vw/12);
+    padding: 3.3% 0 0 6.3%;
+  }
   .contents .fourteen .c_z_btn {
     margin: 6% 0 0;
   }
@@ -3586,6 +3684,45 @@ footer small {
   .contents .fourteen .c_f_item li dl dd {
     width: 70%;
     font-size: calc(47vw/12);
+  }
+  .contents .fourteen .c_fl_item {
+    margin: 5% 0 0;
+  }
+  .contents .fourteen .c_fl_item li {
+    margin: 3% 0 0;
+  }
+  .contents .fourteen .c_fl_item li .c_z_t {
+    padding: 0 0 0 6%;
+    font-size: calc(40vw/12);
+  }
+  .contents .fourteen .c_fl_item li .c_z_t:before {
+    content: '';
+    position: absolute;
+    top: 3%;
+    left: 0;
+    width: 3.9%;
+    height: 111%;
+    border-radius: 50%;
+  }
+  .contents .fourteen .c_fl_item li dl {
+    letter-spacing: 1.2px;
+  }
+  .contents .fourteen .c_fl_item li dl dt {
+    padding: 0 0 0 6%;
+    font-size: calc(45vw/12);
+  }
+  .contents .fourteen .c_fl_item li dl dt:before {
+    content: '';
+    position: absolute;
+    top: 0.5%;
+    left: 0;
+    width: 4%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .contents .fourteen .c_fl_item li dl dd {
+    font-size: calc(33vw/12);
+    padding: 3.3% 0 0 6.3%;
   }
   .contents .fourteen .c_z_btn {
     margin: 6% 0 0;
