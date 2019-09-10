@@ -14,6 +14,18 @@ $(document).ready(function() {
 		$('.now2').hide();
 		$('.now1').hide();
 		$('.now0').hide();
+		$('.tperiod').hide();
+	}
+
+	var period01 = new Date("2019/09/14 00:00");
+	if (now.getTime() > period01.getTime()) {
+		$('.tdef').hide();
+		$('.tperiod').show();
+	}
+	var period01end = new Date("2019/09/16 23:59");
+	if (now.getTime() > period01end.getTime()) {
+		$('.tperiod').hide();
+		$('.tdef').show();
 	}
 
 	var tt10 = new Date("2019/09/21 00:00");
@@ -30,6 +42,18 @@ $(document).ready(function() {
 		$('.now9').hide();
 		$('.now8').show();
 	}
+
+	var period02 = new Date("2019/09/21 00:00");
+	if (now.getTime() > period02.getTime()) {
+		$('.tdef').hide();
+		$('.tperiod').show();
+	}
+	var period02end = new Date("2019/09/23 23:59");
+	if (now.getTime() > period02end.getTime()) {
+		$('.tperiod').hide();
+		$('.tdef').show();
+	}
+
 	var tt07 = new Date("2019/09/24 00:00");
 	if (now.getTime() > tt07.getTime()) {
 		$('.now8').hide();
