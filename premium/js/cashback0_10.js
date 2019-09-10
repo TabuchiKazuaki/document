@@ -14,6 +14,7 @@ $(document).ready(function() {
 		$('.now2').hide();
 		$('.now1').hide();
 		$('.now0').hide();
+		$('.vir').hide();
 		$('.tperiod').hide();
 	}
 
@@ -21,6 +22,7 @@ $(document).ready(function() {
 	if (now.getTime() > period01.getTime()) {
 		$('.tdef').hide();
 		$('.tperiod').show();
+		$('.vir').show();
 	}
 	var period01end = new Date("2019/09/16 23:59");
 	if (now.getTime() > period01end.getTime()) {
