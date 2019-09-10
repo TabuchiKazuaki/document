@@ -24,7 +24,7 @@ $(document).ready(function() {
 		$('.tperiod').show();
 		$('.vir').show();
 	}
-	var period01end = new Date("2019/09/16 23:59");
+	var period01end = new Date("2019/09/17 00:00");
 	if (now.getTime() > period01end.getTime()) {
 		$('.tperiod').hide();
 		$('.tdef').show();
@@ -50,7 +50,7 @@ $(document).ready(function() {
 		$('.tdef').hide();
 		$('.tperiod').show();
 	}
-	var period02end = new Date("2019/09/23 23:59");
+	var period02end = new Date("2019/09/24 00:00");
 	if (now.getTime() > period02end.getTime()) {
 		$('.tperiod').hide();
 		$('.tdef').show();
