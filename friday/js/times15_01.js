@@ -21,7 +21,7 @@ $(document).ready(function() {
 	}
 
 	var now = new Date();
-	var ts00 = new Date("2019/09/13 00:00");
+	var ts00 = new Date("2019/09/13 00:01");
 	if (now.getTime() > ts00.getTime()) {
 		$('.th_now').show();
 	}
