@@ -21,13 +21,13 @@ $(document).ready(function() {
 	}
 
 	var now = new Date();
-	var ts00 = new Date("2019/09/06 00:00");
+	var ts00 = new Date("2019/09/13 00:00");
 	if (now.getTime() > ts00.getTime()) {
 		$('.th_now').show();
 	}
 
 	var now = new Date();
-	var tl00 = new Date("2019/09/07 00:00");
+	var tl00 = new Date("2019/09/14 00:00");
 	if (now.getTime() > tl00.getTime()) {
 		$('.th_now').hide();
 	}
