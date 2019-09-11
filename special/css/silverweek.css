@@ -817,17 +817,17 @@ header .h_w_ani .h_ani {
   opacity: 1;
 }
 .contents .c_three {
-  padding: 0 0 15px;
+  padding: 0 0 35px;
   margin: 15px 0 0;
 }
-.contents .c_three .c_ten li {
+.contents .c_three .c_thr_item li {
   padding: 35px 0 0;
   border-bottom: 1px solid #606060;
 }
-.contents .c_three .c_ten li:last-child {
+.contents .c_three .c_thr_item li:last-child {
   border-bottom: none;
 }
-.contents .c_three .c_ten .c_ten_dl {
+.contents .c_three .c_thr_dl {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -835,151 +835,36 @@ header .h_w_ani .h_ani {
       -ms-flex-align: center;
           align-items: center;
 }
-.contents .c_three .c_ten .c_ten_dl dd {
-  width: 65%;
-  line-height: 0;
-}
-.contents .c_three .c_ten .c_ten_dl dt {
-  width: 32%;
-  padding: 0 0 0 3%;
-  font-size: 23px;
-  line-height: 1.35;
-  font-weight: bold;
-  color: #000;
-}
-.contents .c_three .c_ten .c_ten_dl dt span {
-  display: inline-block;
-}
-.contents .c_three .c_ten_row li {
-  padding: 25px 0;
-  border-bottom: 1px solid #606060;
-}
-.contents .c_three .c_ten_row li a {
-  display: block;
-}
-.contents .c_three .c_ten_row li:first-child {
-  border-top: 1px solid #606060;
-}
-.contents .c_three .c_ten_row li:last-child {
-  border-bottom: none;
-}
-.contents .c_three .c_ten_row .c_ten_dl {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.contents .c_three .c_ten_row .c_ten_dl dd {
+.contents .c_three .c_thr_dl dd {
   width: 52%;
   line-height: 0;
 }
-.contents .c_three .c_ten_row .c_ten_dl dt {
+.contents .c_three .c_thr_dl dt {
   width: 45%;
   padding: 0 0 0 3%;
   font-size: 23px;
   line-height: 1.35;
   font-weight: bold;
-  color: #000;
+  color: #fff;
 }
-.contents .c_three .c_ten_row .c_ten_dl dt .rank {
-  display: block;
-  font-size: 20px;
-  color: #3a2;
-}
-.contents .c_three .c_ten_row .c_ten_dl dt .rank .num {
-  margin: 0 2px 0 0;
-  font-size: 30px;
-}
-.contents .c_three .c_t_item li {
-  padding: 35px 0 0;
-  border-bottom: 1px solid #606060;
-}
-.contents .c_three .c_t_item li:last-child {
-  border-bottom: none;
-}
-.contents .c_three .c_t_dl {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.contents .c_three .c_t_dl dd {
-  width: 56%;
-  line-height: 0;
-}
-.contents .c_three .c_t_dl dt {
-  width: 41%;
-  padding: 0 0 0 3%;
-  font-size: 23px;
-  line-height: 1.35;
-  font-weight: bold;
-  color: #000;
-}
-.contents .c_three .c_t_dl dt span {
+.contents .c_three .c_thr_dl dt span {
   display: inline-block;
 }
-.contents .c_three .c_row li {
-  padding: 25px 0;
-  border-bottom: 1px solid #606060;
-}
-.contents .c_three .c_row li a {
-  display: block;
-}
-.contents .c_three .c_row li:first-child {
-  border-top: 1px solid #606060;
-}
-.contents .c_three .c_row li:last-child {
-  border-bottom: none;
-}
-.contents .c_three .c_row .c_thr_dl {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.contents .c_three .c_row .c_thr_dl dd {
-  width: 42%;
-  line-height: 0;
-}
-.contents .c_three .c_row .c_thr_dl dt {
-  width: 53%;
-  padding: 0 0 0 3%;
-  font-size: 23px;
-  line-height: 1.35;
-  font-weight: bold;
-  color: #000;
-}
-.contents .c_three .c_row .c_thr_dl dt .rank {
-  display: block;
-  font-size: 20px;
-  color: #3a2;
-}
-.contents .c_three .c_row .c_thr_dl dt .rank .num {
-  margin: 0 2px 0 0;
-  font-size: 30px;
-}
-.contents .c_three .c_t_text {
+.contents .c_three .c_thr_text {
   margin: 20px 0 0;
   font-size: 26px;
   line-height: 1.4;
-  color: #666;
+  color: #ababab;
 }
-.contents .c_three .c_t_btn {
-  margin: 25px 0 35px;
+.contents .c_three .c_thr_btn {
+  margin: 25px 0 32px;
 }
-.contents .c_three .c_t_btn a {
+.contents .c_three .c_thr_btn a {
   display: block;
-  background: #cfa64d;
+  background: #3a2;
   padding: 15px 0;
   text-align: center;
   border-radius: 6px;
-  border: 3px solid #cfa64d;
   font-size: 30px;
   color: #fff;
 }
@@ -2396,57 +2281,26 @@ footer small {
     line-height: 1.35;
   }
   .contents .c_three {
-    padding: 0 0 2%;
+    padding: 0 0 5%;
     margin: 1% 0 0;
   }
-  .contents .c_three .c_ten li {
+  .contents .c_three .c_thr_item li {
     padding: 4% 0 0;
-    border-bottom: 1px solid #606060;
   }
-  .contents .c_three .c_ten li:last-child {
-    border-bottom: none;
+  .contents .c_three .c_thr_dl dd {
+    width: 52%;
   }
-  .contents .c_three .c_ten .c_ten_dl {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .contents .c_three .c_ten .c_ten_dl dd {
-    width: 65%;
-  }
-  .contents .c_three .c_ten .c_ten_dl dt {
-    width: 32%;
+  .contents .c_three .c_thr_dl dt {
+    width: 45%;
     padding: 0 0 0 3%;
     font-size: calc(36vw/12);
     line-height: 1.35;
+    letter-spacing: 1.3px;
   }
-  .contents .c_three .c_ten_row li {
-    padding: 3.5% 0;
-  }
-  .contents .c_three .c_ten_row li:first-child {
-    border-top: 1px solid #606060;
-  }
-  .contents .c_three .c_ten_row .c_ten_dl dd {
-    width: 55%;
-  }
-  .contents .c_three .c_ten_row .c_ten_dl dt {
-    width: 42%;
-    padding: 0 0 0 3%;
-    font-size: calc(40vw/12);
-    line-height: 1.35;
-  }
-  .contents .c_three .c_ten_row .c_ten_dl dt .rank {
-    font-size: calc(34vw/12);
-  }
-  .contents .c_three .c_ten_row .c_ten_dl dt .rank .num {
-    margin: 0 0.2% 0 0;
-    font-size: calc(46vw/12);
-  }
-  .contents .c_three .c_t_item li {
-    padding: 4% 0 0;
+  .contents .c_three .c_thr_text {
+    margin: 4% 0 0;
+    font-size: calc(41vw/12);
+    line-height: 1.4;
   }
   .contents .c_three .c_t_dl {
     display: -webkit-box;
@@ -2471,34 +2325,34 @@ footer small {
   .contents .c_three .c_row li:first-child {
     border-top: 1px solid #606060;
   }
-  .contents .c_three .c_row .c_thr_dl dd {
+  .contents .c_three .c_row .c_r_dl dd {
     width: 44%;
   }
-  .contents .c_three .c_row .c_thr_dl dt {
+  .contents .c_three .c_row .c_r_dl dt {
     width: 53%;
     padding: 0 0 0 3%;
-    font-size: calc(40vw/12);
+    font-size: 23px;
     line-height: 1.35;
   }
-  .contents .c_three .c_row .c_thr_dl dt .rank {
-    font-size: calc(34vw/12);
+  .contents .c_three .c_row .c_r_dl dt .rank {
+    font-size: calc(32vw/12);
   }
-  .contents .c_three .c_row .c_thr_dl dt .rank .num {
+  .contents .c_three .c_row .c_r_dl dt .rank .num {
     margin: 0 0.2% 0 0;
-    font-size: calc(46vw/12);
+    font-size: calc(47vw/12);
   }
-  .contents .c_three .c_t_text {
+  .contents .c_three .c_thr_text {
     margin: 3% 0 0;
     font-size: calc(41vw/12);
     line-height: 1.4;
   }
-  .contents .c_three .c_t_btn {
-    margin: 3.5% 0 5%;
+  .contents .c_three .c_thr_btn {
+    margin: 3.5% 0 4%;
   }
-  .contents .c_three .c_t_btn a {
+  .contents .c_three .c_thr_btn a {
     padding: 2.3% 0;
     border-radius: 5px;
-    border: 2px solid #cfa64d;
+    border: 2px solid #3a2;
     font-size: calc(44vw/12);
   }
   .contents .c_12th {
@@ -3371,60 +3225,42 @@ footer small {
     line-height: 1.35;
   }
   .contents .c_three {
-    padding: 0 0 1.5%;
+    padding: 0 0 5%;
     margin: 1% 0 0;
   }
-  .contents .c_three .c_ten li {
+  .contents .c_three .c_thr_item li {
     padding: 4% 0 0;
-    border-bottom: 1px solid #606060;
   }
-  .contents .c_three .c_ten li:last-child {
-    border-bottom: none;
+  .contents .c_three .c_thr_dl dd {
+    width: 52%;
   }
-  .contents .c_three .c_ten .c_ten_dl {
+  .contents .c_three .c_thr_dl dt {
+    width: 45%;
+    padding: 0 0 0 3%;
+    font-size: calc(38vw/12);
+    line-height: 1.35;
+    letter-spacing: 1.3px;
+  }
+  .contents .c_three .c_thr_text {
+    margin: 4% 0 0;
+    font-size: calc(43vw/12);
+    line-height: 1.4;
+  }
+  .contents .c_three .c_thr_btn {
+    margin: 4% 0 4%;
+  }
+  .contents .c_three .c_thr_btn a {
+    padding: 2.7% 0;
+    border-radius: 3px;
+    font-size: calc(50vw/12);
+  }
+  .contents .c_three .c_t_dl {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-  }
-  .contents .c_three .c_ten .c_ten_dl dd {
-    width: 65%;
-  }
-  .contents .c_three .c_ten .c_ten_dl dt {
-    width: 32%;
-    padding: 0 0 0 3%;
-    font-size: calc(38vw/12);
-    line-height: 1.35;
-  }
-  .contents .c_three .c_ten .c_ten_dl dt span {
-    display: inline-block;
-  }
-  .contents .c_three .c_ten_row li {
-    padding: 3.5% 0;
-  }
-  .contents .c_three .c_ten_row li:first-child {
-    border-top: 1px solid #606060;
-  }
-  .contents .c_three .c_ten_row .c_ten_dl dd {
-    width: 55%;
-  }
-  .contents .c_three .c_ten_row .c_ten_dl dt {
-    width: 42%;
-    padding: 0 0 0 3%;
-    font-size: calc(42vw/12);
-    line-height: 1.35;
-  }
-  .contents .c_three .c_ten_row .c_ten_dl dt .rank {
-    font-size: calc(36vw/12);
-  }
-  .contents .c_three .c_ten_row .c_ten_dl dt .rank .num {
-    margin: 0 0.2% 0 0;
-    font-size: calc(48vw/12);
-  }
-  .contents .c_three .c_t_item li {
-    padding: 4% 0 0;
   }
   .contents .c_three .c_t_dl dd {
     width: 52%;
@@ -3441,21 +3277,21 @@ footer small {
   .contents .c_three .c_row li:first-child {
     border-top: 1px solid #606060;
   }
-  .contents .c_three .c_row .c_thr_dl dd {
+  .contents .c_three .c_row .c_r_dl dd {
     width: 44%;
   }
-  .contents .c_three .c_row .c_thr_dl dt {
+  .contents .c_three .c_row .c_r_dl dt {
     width: 53%;
     padding: 0 0 0 3%;
-    font-size: calc(42vw/12);
+    font-size: 23px;
     line-height: 1.35;
   }
-  .contents .c_three .c_row .c_thr_dl dt .rank {
-    font-size: calc(36vw/12);
+  .contents .c_three .c_row .c_r_dl dt .rank {
+    font-size: calc(34vw/12);
   }
-  .contents .c_three .c_row .c_thr_dl dt .rank .num {
+  .contents .c_three .c_row .c_r_dl dt .rank .num {
     margin: 0 0.2% 0 0;
-    font-size: calc(48vw/12);
+    font-size: calc(49vw/12);
   }
   .contents .c_three .c_t_text {
     margin: 3% 0 0;
@@ -3467,8 +3303,8 @@ footer small {
   }
   .contents .c_three .c_t_btn a {
     padding: 2.3% 0;
-    border-radius: 5px;
-    border: 1.5px solid #cfa64d;
+    border-radius: 3px;
+    border: 2px solid #3a2;
     font-size: calc(46vw/12);
   }
   .contents .c_four {
