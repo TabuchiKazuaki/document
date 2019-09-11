@@ -809,6 +809,9 @@ header {
 			li {
 				padding: 35px 0 0;
 				border-bottom: 1px solid #606060;
+				&:first-child {
+					border-top: 1px solid #606060;
+				}
 
 				&:last-child {
 					border-bottom: none;
