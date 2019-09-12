@@ -91,22 +91,47 @@ header {
 	}
 	.h_wrap {
 		position: relative;
-		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/488507/eaa10ba60fbf2f27f81513eddf2d0ea3_17dcb81abac4c94a0815f6a06480e8eb.jpg) center center no-repeat;
+		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/488507/b86221c4a06b9b6d46d347261699f99c_40dfd8bbdcbcab29638b2528496a906a.jpg) center center no-repeat;
 		background-size: cover;
 		max-width: 1920px;
 		height: 780px;
-		padding: 314px 0 0;
+		padding: 278px 0 0;
 		margin: 0 auto;
 		box-sizing: border-box;
-
-		.h_kv {
-			max-width: 904px;
+		.h_movie {
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/488507/692ff5e5b2b41161dcb671c4d640fd24_58512030114e322c62fb4d2de1de02bc.png) center center repeat-x;
+			background-size: cover;
+			height: 780px;
+			width: 100%;
+			animation-name: scroll-header-bg;
+			animation-duration: 200s;                  /*3秒で画像1枚分スクロールする*/
+			animation-timing-function: linear;       /*再生速度を一定にする*/
+			animation-iteration-count: infinite;
+		}
+		.h_h {
+			max-width: 395px;
 			margin: 0 auto 0;
+			line-height: 0;
+		}
+		.h_kv {
+			max-width: 754px;
+			margin: 29px auto 0;
 			line-height: 0;
 		}
 	}
 }
+@keyframes scroll-header-bg {
+    0% {
+        background-position: 0 0;            /*初期値を設定する*/
+    }
 
+    100% {
+        background-position: 2500px 0;      /*画像サイズに合わせて変更する（負号で左スクロール）*/
+    }
+}
 .every {
 	padding: 60px 0 42px;
 	figure {
@@ -1736,16 +1761,8 @@ footer {
 }
 
 
-@media screen and (max-width: 920px) {
-	header {
-		.h_wrap {
-			.h_kv {
-				width: 86%;
-				margin: 0 auto;
-			}
-		}
-	}
-}
+
+
 
 @media screen and (max-width: 768px) {
 	.bot_wrap {
@@ -1833,22 +1850,41 @@ footer {
 
 	header {
 		.logo {
-			padding: 1.6% 0 1.6% 2.5%;
+			padding: 3.6% 0 1.6% 2.5%;
 			span {
 				width: 21%;
 			}
 		}
 		.h_wrap {
 			position: relative;
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/488507/216612984dbd4e93ab449a7cf6cbbddc_71fe0a5ef6dae20bfc0ddae43c5ad9fb.png) center center no-repeat;
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/488507/be9a0cd4ae8e7dfdd34a642a9a5b3769_275fabbb33b9dc62c7ed0ce6e380fb4c.jpg) center center no-repeat;
 			background-size: cover;
 			height: auto;
-			padding: 28.2% 0 28.5%;
-			.h_kv {
-				width: 86%;
+			padding: 27.2% 0 28.1%;
+			.h_movie {
+				display: none;
+				position: absolute;
+				top: 0;
+				left: 0;
+				background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/488507/692ff5e5b2b41161dcb671c4d640fd24_58512030114e322c62fb4d2de1de02bc.png) center center repeat-x;
+				background-size: cover;
+				height: 780px;
+				width: 100%;
+				animation-name: scroll-header-bg;
+				animation-duration: 2000s;                  /*3秒で画像1枚分スクロールする*/
+				animation-timing-function: linear;       /*再生速度を一定にする*/
+				animation-iteration-count: infinite;
+			}
+			.h_h {
+				width: 52%;
 				margin: 0 auto 0;
 			}
+			.h_kv {
+				width: 77%;
+				margin: 4.1% auto 0;
+			}
 		}
+
 	}
 	.info {
 		margin: 8.3% 0 0;
@@ -3161,15 +3197,20 @@ footer {
 
 	header {
 		.logo {
-			padding: 1.2% 0 1.6% 2.5%;
+			padding: 3.2% 0 1.6% 2.5%;
 			span {
 				width: 21%;
 			}
 		}
 		.h_wrap {
-			padding: 28.2% 0 28.5%;
+			padding: 28.2% 0 28.1%;
+			.h_h {
+				width: 57%;
+				margin: 0 auto 0;
+			}
 			.h_kv {
-				width: 86%;
+				width: 84.5%;
+				margin: 3.8% auto 0;
 			}
 		}
 	}
