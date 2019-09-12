@@ -123,6 +123,24 @@ header {
 			font-size: 25px;
 		}
 	}
+	.more {
+		padding: 62px 0 60px;
+		.m_wrap {
+			max-width: 681px;
+			margin: 0 auto;
+		}
+		a {
+			display: block;
+			padding: 18px 0;
+			border-radius: 4px;
+			text-align: center;
+			letter-spacing: 1.5px;
+			border: 3px solid #a1882f;
+			font-weight: bold;
+			font-size: 30px;
+			color: #a1882f;
+		}
+	}
 	.c_one {
 		padding: 0 0 35px;
 		margin: 15px 0 0;
@@ -322,7 +340,7 @@ header {
 
 
 	.c_three {
-		padding: 0 0 28px;
+		padding: 0 0 10px;
 		margin: 0 0 0;
 
 		.c_th_h {
@@ -336,7 +354,7 @@ header {
 
 		.c_thr_item {
 			li {
-				padding: 46px 0 0;
+				padding: 22px 0 0;
 				border-bottom: 1px solid #606060;
 
 				&:last-child {
@@ -376,7 +394,7 @@ header {
 			a {
 				display: block;
 				background: #a1882f;
-				padding: 15px 0;
+				padding: 17px 0;
 				text-align: center;
 				border-radius: 6px;
 				font-size: 30px;
@@ -1711,6 +1729,20 @@ footer {
 				font-size: calc(38vw/12);
 			}
 		}
+		.more {
+			padding: 8.1% 0 8.1%;
+			.m_wrap {
+				width: 90%;
+				margin: 0 auto;
+			}
+			a {
+				padding: 2.8% 0;
+				border-radius: 4px;
+				letter-spacing: 1.5px;
+				border: 2px solid #a1882f;
+				font-size: calc(47vw/12);
+			}
+		}
 		.c_one {
 			padding: 0 0 2.5%;
 			margin: 1% 0 0;
@@ -1867,7 +1899,7 @@ footer {
 			}
 		}
 		.c_three {
-			padding: 0 0 3%;
+			padding: 0 0 2%;
 			margin: 0 0 0;
 			.c_th_h {
 				margin: 5% 0 0;
@@ -1879,7 +1911,7 @@ footer {
 
 			.c_thr_item {
 				li {
-					padding: 5% 0 0;
+					padding: 2.5% 0 0;
 				}
 			}
 			.c_thr_dl {
@@ -1903,7 +1935,7 @@ footer {
 			.c_thr_btn {
 				margin: 7% 0 7.5%;
 				a {
-					padding: 2.7% 0;
+					padding: 2.8% 0;
 					border-radius: 4px;
 					font-size: calc(48vw/12);
 				}
@@ -2921,6 +2953,16 @@ footer {
 				font-size: calc(40vw/12);
 			}
 		}
+		.more {
+			padding: 9% 0 9%;
+			a {
+				padding: 2.8% 0;
+				border-radius: 3px;
+				letter-spacing: 1.5px;
+				border: 1.5px solid #a1882f;
+				font-size: calc(49vw/12);
+			}
+		}
 		.c_one {
 			padding: 0 0 2.5%;
 			margin: 1% 0 0;
@@ -3082,7 +3124,7 @@ footer {
 
 			.c_thr_item {
 				li {
-					padding: 5% 0 0;
+					padding: 2% 0 0;
 				}
 			}
 			.c_thr_dl {
@@ -3106,7 +3148,7 @@ footer {
 			.c_thr_btn {
 				margin: 5% 0 5.5%;
 				a {
-					padding: 2.7% 0;
+					padding: 2.9% 0;
 					border-radius: 3px;
 					font-size: calc(50vw/12);
 				}
