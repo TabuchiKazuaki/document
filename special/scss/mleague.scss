@@ -780,28 +780,22 @@ footer {
 
 
 	.info {
-		padding: 8% 0 6%;
-				.i_h {
-			font-weight: bold;
-			font-size: 31px;
-			text-align: center;
+		padding: 8% 0 7%;
+		.i_h {
+			font-size: calc(50vw/12);
 			span {
-				font-size: 35px;
+				font-size: calc(53vw/12);
 			}
 		}
 		.i_t {
-			margin: 35px 0 0;
-			font-size: 20px;
-			font-weight: bold;
-			text-align: center;
+			margin: 5% 0 0;
+			font-size: calc(33vw/12);
 			line-height: 1.55;
 		}
 		.mw_b {
-			max-width: 680px;
-			margin: 50px auto 0;
+			margin: 7% auto 0;
 		}
 		.m_i {
-			position: relative;
 			width: 100%;
 			padding-top: 56.25%;
 			margin: 18px auto 0;
@@ -817,18 +811,12 @@ footer {
 		}
 
 		.i_btn {
-			max-width: 680px;
-			margin: 37px auto 0;
+			margin: 6% auto 0;
 			a {
-				display: block;
-				background: #138745;
-				padding: 26px 0;
+				padding: 2.5% 0;
 				border-radius: 40px;
-				font-size: 26px;
-				font-weight: bold;
-				text-align: center;
+				font-size: calc(43vw/12);
 				letter-spacing: 1.3px;
-				color: #fff;
 			}
 		}
 	}
@@ -836,13 +824,12 @@ footer {
 	.contents {
 		padding: 8% 0 0;
 		.c_h {
-			border-left: 4.5px solid #138745;
 			padding: 0 0 0 2.6%;
 			line-height: 1.4;
-			font-size: calc(50vw/12);
+			font-size: calc(52vw/12);
 			span {
 				letter-spacing: 1.3px;
-				font-size: calc(52vw/12);
+				font-size: calc(55vw/12);
 			}
 		}
 
@@ -1201,37 +1188,41 @@ footer {
 	}
 
 	.info {
-		padding: 9% 0 6.5%;
-		.wrap {
-		}
+		padding: 8% 0 7%;
 		.i_h {
-			font-weight: bold;
-			font-size: calc(51vw/12);
-			text-align: center;
-		}
-		.i_hs {
-			margin: 3.5% 0 0;
-			font-size: calc(40vw/12);
-		}
-		.i_num {
-			margin: 2.8% 0 0;
-			font-size: calc(38vw/12);
-			.num {
-				margin: 0 0.4% 0 0.2%;
-				font-size: calc(62vw/12);
+			font-size: calc(50vw/12);
+			span {
+				font-size: calc(53vw/12);
 			}
-			.n_clr {
-				.pit {
-					margin: 0 -3px;
-				}
+		}
+		.i_t {
+			margin: 5% 0 0;
+			font-size: calc(33vw/12);
+			line-height: 1.55;
+		}
+		.mw_b {
+			margin: 7% auto 0;
+		}
+		.m_i {
+			width: 100%;
+			padding-top: 56.25%;
+			margin: 18px auto 0;
+
+			iframe {
+				position: absolute;
+				z-index: 5;
+				left: 0;
+				top: 0;
+				width: 100% !important;
+				height: 100% !important;
 			}
 		}
 
 		.i_btn {
-			margin: 5% 5% 0;
+			margin: 6% auto 0;
 			a {
-				padding: 4% 0;
-				border-radius: 5px;
+				padding: 2.5% 0;
+				border-radius: 40px;
 				font-size: calc(43vw/12);
 				letter-spacing: 1.3px;
 			}
