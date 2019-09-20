@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	var now = new Date();
-	var timer01 = new Date("2019/09/24 12:00");
+	var timer01 = new Date("2019/09/23 12:00");
 	if (now.getTime() > timer01.getTime()) {
 		// $('#date01').attr("href","https://abema.tv/video/title/90-1300?s=90-1300_s200");
 		$('#date01').text('今すぐみる');
