@@ -101,11 +101,19 @@ header {
 		border-left: 6px solid #a1882f;
 		padding: 0 0 0 18px;
 		line-height: 1.4;
-		font-size: 32px;
+		font-size: 31px;
 		span {
 			letter-spacing: 1.3px;
-			font-size: 36px;
+			font-size: 35px;
 		}
+	}
+	.c_h_bn {
+		border-left: none;
+		padding: 0 0 0;
+	}
+	.c_mr {
+		margin: 31px 0 0;
+		font-size: 29px;
 	}
 
 	.c_h_m {
@@ -337,11 +345,15 @@ header {
 			}
 		}
 	}
+	.b_n {
+		border: none !important;
+	}
 
 
 	.c_three {
-		padding: 0 0 7px;
+		padding: 0 0 0;
 		margin: 0 0 0;
+		border-bottom: 1px solid #969696;
 
 		.c_th_h {
 			margin: 33px 0 0;
@@ -354,12 +366,15 @@ header {
 
 		.c_thr_item {
 			li {
-				padding: 22px 0 0;
+				padding: 35px 0 0;
 				border-bottom: 1px solid #606060;
 
 				&:last-child {
 					border-bottom: none;
 				}
+			}
+			.c_thr_sin{
+				padding: 22px 0 0;
 			}
 		}
 		.c_thr_dl {
@@ -1716,6 +1731,11 @@ footer {
 				font-size: calc(52vw/12);
 			}
 		}
+		.c_h_bn {
+			border-left: none;
+			padding: 0 0 0 2%;
+		}
+
 
 		.c_h_m {
 			margin: 9% 0 0;
@@ -1728,6 +1748,10 @@ footer {
 			span {
 				font-size: calc(38vw/12);
 			}
+		}
+		.c_mr {
+			margin: 5.5% 0 0;
+			font-size: calc(46vw/12);
 		}
 		.more {
 			padding: 8.1% 0 8.1%;
@@ -1899,7 +1923,7 @@ footer {
 			}
 		}
 		.c_three {
-			padding: 0 0 1.5%;
+			padding: 0 0 0.5%;
 			margin: 0 0 0;
 			.c_th_h {
 				margin: 5% 0 0;
@@ -1911,6 +1935,9 @@ footer {
 
 			.c_thr_item {
 				li {
+					padding: 5.5% 0 0;
+				}
+				.c_thr_sin{
 					padding: 2.5% 0 0;
 				}
 			}
@@ -1933,7 +1960,7 @@ footer {
 			}
 
 			.c_thr_btn {
-				margin: 7% 0 7.5%;
+				margin: 7% 0 6.5%;
 				a {
 					padding: 2.8% 0;
 					border-radius: 4px;
@@ -2573,6 +2600,8 @@ footer {
 				font-size: calc(52vw/12);
 			}
 		}
+
+
 		.c_box {
 			margin: 4% 0 0;
 			li {
@@ -2940,6 +2969,10 @@ footer {
 				font-size: calc(54vw/12);
 			}
 		}
+		.c_h_bn {
+			border-left: none;
+			padding: 0 0 0 2%;
+		}
 
 		.c_h_m {
 			margin: 9% 0 0;
@@ -2952,6 +2985,10 @@ footer {
 			span {
 				font-size: calc(40vw/12);
 			}
+		}
+		.c_mr {
+			margin: 5% 0 0;
+			font-size: calc(48vw/12);
 		}
 		.more {
 			padding: 9% 0 9%;
@@ -3119,11 +3156,14 @@ footer {
 			}
 		}
 		.c_three {
-			padding: 0 0 1.5%;
+			padding: 0 0 0.5%;
 			margin: 0 0 0;
 
 			.c_thr_item {
 				li {
+					padding: 5% 0 0;
+				}
+				.c_thr_sin{
 					padding: 2% 0 0;
 				}
 			}
