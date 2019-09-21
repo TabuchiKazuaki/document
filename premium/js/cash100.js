@@ -21,30 +21,37 @@ $(document).ready(function() {
 	}
 	var tt09 = new Date("2019/08/22 00:00");
 	if (now.getTime() > tt09.getTime()) {
+		$('.now10').hide();
 		$('.now9').show();
 	}
 	var tt08 = new Date("2019/08/23 00:00");
 	if (now.getTime() > tt08.getTime()) {
+		$('.now9').hide();
 		$('.now8').show();
 	}
 	var tt07 = new Date("2019/08/24 00:00");
 	if (now.getTime() > tt07.getTime()) {
+		$('.now8').hide();
 		$('.now7').show();
 	}
 	var tt06 = new Date("2019/08/25 00:00");
 	if (now.getTime() > tt06.getTime()) {
+		$('.now7').hide();
 		$('.now6').show();
 	}
 	var tt05 = new Date("2019/08/26 00:00");
 	if (now.getTime() > tt05.getTime()) {
+		$('.now6').hide();
 		$('.now5').show();
 	}
 	var tt04 = new Date("2019/08/27 00:00");
 	if (now.getTime() > tt04.getTime()) {
+		$('.now5').hide();
 		$('.now4').show();
 	}
 	var tt03 = new Date("2019/08/28 00:00");
 	if (now.getTime() > tt03.getTime()) {
+		$('.now4').hide();
 		$('.now3').show();
 	}
 	var tt02 = new Date("2019/08/29 00:00");
