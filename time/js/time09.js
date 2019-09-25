@@ -2,8 +2,8 @@ $(document).ready(function() {
 	var now = new Date();
 	var timer01 = new Date("2019/09/25 12:00");
 	if (now.getTime() > timer01.getTime()) {
-		$('#date01').attr("href","https://abema.tv/video/episode/90-493_s0_p3000");
-		$('#date01').text('地上波SP版を今すぐみる');
+		$('#date01').show();
+		$('.ctr').addClass('ctr_add');
 	}
 	var timer01end = new Date("2019/10/25 12:00");
 	if (now.getTime() > timer01end.getTime()) {
