@@ -1,9 +1,14 @@
 $(document).ready(function() {
 	var now = new Date();
+	var timer01before = new Date("2019/09/25 12:00");
+	if (now.getTime() > timer01before.getTime()) {
+		$('#date01').hide();
+		$('#date04').hide();
+	}
 	var timer01 = new Date("2019/09/25 12:00");
 	if (now.getTime() > timer01.getTime()) {
 		$('#date01').show();
-		$('.ctr').addClass('ctr_add');
+		$('.ctr1').addClass('ctr_add');
 	}
 	var timer01end = new Date("2019/10/25 12:00");
 	if (now.getTime() > timer01end.getTime()) {
@@ -21,12 +26,12 @@ $(document).ready(function() {
 	// }
 	var timer04 = new Date("2019/09/28 01:20");
 	if (now.getTime() > timer04.getTime()) {
-		$('#date04').attr("href","https://abema.tv/video/episode/90-979_s99_p1");
-		$('#date04').text('地上波SP版を今すぐみる');
+		$('#date04').show();
+		$('.ctr4').addClass('ctr_add');
 	}
 	var timer04end = new Date("2020/09/28 01:19");
 	if (now.getTime() > timer04end.getTime()) {
-		$('#date01').hide();
+		$('#date04').hide();
 	}
 });
 
