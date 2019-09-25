@@ -8,7 +8,6 @@ $(document).ready(function() {
 	var timer01 = new Date("2019/09/25 12:00");
 	if (now.getTime() > timer01.getTime()) {
 		$('#date01').show();
-		$('.ctr1').addClass('ctr_add');
 	}
 	var timer01end = new Date("2019/10/25 12:00");
 	if (now.getTime() > timer01end.getTime()) {
@@ -27,7 +26,6 @@ $(document).ready(function() {
 	var timer04 = new Date("2019/09/28 01:20");
 	if (now.getTime() > timer04.getTime()) {
 		$('#date04').show();
-		$('.ctr4').addClass('ctr_add');
 	}
 	var timer04end = new Date("2020/09/28 01:19");
 	if (now.getTime() > timer04end.getTime()) {
