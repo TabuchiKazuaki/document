@@ -35,6 +35,18 @@ img {
   margin: 0 auto;
 }
 
+.bagg {
+  display: inline-block;
+  background: #f0163a;
+  padding: 2px 10px;
+  margin: 0 0 5px 0;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+}
+
 header {
   width: 100%;
   margin: 0 auto 60px auto;
@@ -287,6 +299,13 @@ footer p small {
 }
 
 @media screen and (max-width: 768px) {
+  .bagg {
+    padding: 0.8% 3%;
+    margin: 0 0 1% 0;
+    border-radius: 3px;
+    font-size: calc(26vw/12);
+  }
+
   header {
     width: 100%;
     margin: 0 auto 8% auto;
@@ -441,5 +460,12 @@ footer p small {
 @media screen and (max-width: 480px) {
   footer .copyright {
     line-height: 1;
+  }
+
+  .bagg {
+    padding: 0.8% 3%;
+    margin: 0 0 1% 0;
+    border-radius: 3px;
+    font-size: calc(26vw/12);
   }
 }
