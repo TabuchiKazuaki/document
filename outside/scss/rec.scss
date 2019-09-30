@@ -260,84 +260,84 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  header {
-	width: 100%;
-	margin: 0 auto 8% auto;
-	.logo {
-	  padding: 1% 0 1% 3%;
-	  img {
-		max-width: 23%;
-	  }
-	}
-	.headline {
-	  background: url(https://goo.gl/zfGwFA) center top no-repeat;
-	  background-size: cover;
-	  padding: 6.5% 0 6.5% 0;
-	  h1 {
-		font-size: calc(86vw/12);
-		letter-spacing: 1vw;
-		margin-bottom: 3%;
-	  }
-	  p {
-		font-size: calc(41vw/12);
-		letter-spacing: 0.3vw;
-	  }
-	}
-  }
-  article {
-	margin: 0 auto 8% auto;
-	.main-contents {
-		width: 91%;
-		padding: 0 0 7% 0;
-		.movie {
-			margin-bottom: 3.3%;
-		}
-		.timestamp {
-			font-size: calc(33vw/12);
-			margin-bottom: 0;
-			&:before {
-				border-radius: 3px;
-				padding: 0.5% 1.5% 0.5%;
-				font-size: calc(29vw/12);
-				margin-right: 3.5%;
+	header {
+		width: 100%;
+		margin: 0 auto 8% auto;
+		.logo {
+			padding: 1% 0 1% 3%;
+			img {
+				max-width: 23%;
 			}
 		}
-		h2 {
-			font-size: calc(44vw/12);
-			margin: 4% 0 0;
+		.headline {
+			background: url(https://goo.gl/zfGwFA) center top no-repeat;
+			background-size: cover;
+			padding: 6.5% 0 6.5% 0;
+			h1 {
+				font-size: calc(86vw/12);
+				letter-spacing: 1vw;
+				margin-bottom: 3%;
+			}
+			p {
+				font-size: calc(41vw/12);
+				letter-spacing: 0.3vw;
+			}
 		}
-		.text {
-			font-size: calc(34vw/12);
-			margin: 3% 0 0;
-		}
-		.link {
-			margin: 4% 0 0;
-			a {
+	}
+	article {
+		margin: 0 auto 8% auto;
+		.main-contents {
+			width: 91%;
+			padding: 0 0 7% 0;
+			.movie {
+				margin-bottom: 3.3%;
+			}
+			.timestamp {
+				font-size: calc(33vw/12);
+				margin-bottom: 0;
+				&:before {
+					border-radius: 3px;
+					padding: 0.5% 1.5% 0.5%;
+					font-size: calc(29vw/12);
+					margin-right: 3.5%;
+				}
+			}
+			h2 {
 				font-size: calc(44vw/12);
-				border-radius: 0.5vw;
-				padding: 3% 0;
+				margin: 4% 0 0;
+			}
+			.text {
+				font-size: calc(34vw/12);
+				margin: 3% 0 0;
+			}
+			.link {
+				margin: 4% 0 0;
+				a {
+					font-size: calc(44vw/12);
+					border-radius: 0.5vw;
+					padding: 3% 0;
+				}
 			}
 		}
-	}
 	.sub-contents {
-	  width: 91%;
-	  margin: 0 auto 7% auto;
-	  ul li a {
-		padding: 4% 0 4% 0;
-		dl {
-		  line-height: 1.6;
-		  dt {
-			min-width: 33.5%;
-			max-width: 33.5%;
-			margin-right: 4%;
-		  }
-		  dd {
-			p, h2 {
-			  font-size: calc(36vw/12);
+		width: 91%;
+		margin: 0 auto 7% auto;
+		ul li a {
+			padding: 4% 0 4% 0;
+			dl {
+				line-height: 1.6;
+				dt {
+					min-width: 33.5%;
+					max-width: 33.5%;
+					margin-right: 4%;
+				}
+				dd {
+					p, h2 {
+						font-size: calc(36vw/12);
+					}
+				}
 			}
-		  }
 		}
-	  }
 	}
 	.video-promos {
 	  width: 100%;
