@@ -34,6 +34,17 @@ img  { width: 100%;}
 .dn {
 	display: none;
 }
+.bagg {
+	display: inline-block;
+	background: #f0163a;
+	padding: 5px 18px;
+	margin: 0 0 5px 0;
+	border-radius: 3px;
+	font-size: 16px;
+	letter-spacing: 1.4px;
+	text-align: center;
+	color: #fff;
+}
 header {
 	box-sizing: border-box;
 	border-top: 15px solid #138745;
@@ -908,6 +919,12 @@ footer {
 			}
 		}
 	}
+	.bagg {
+		padding: 0.8% 2.5%;
+		margin: 0 0 1% 0;
+		font-size: calc(26vw/12);
+		letter-spacing: 1.4px;
+	}
 
 	.contents {
 		padding: 5% 0 0;
@@ -1436,6 +1453,13 @@ footer {
 				letter-spacing: 1.4px;
 			}
 		}
+	}
+
+	.bagg {
+		padding: 0.8% 2.5%;
+		margin: 0 0 0.5% 0;
+		font-size: calc(28vw/12);
+		letter-spacing: 1.4px;
 	}
 
 
