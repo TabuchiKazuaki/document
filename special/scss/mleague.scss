@@ -171,13 +171,17 @@ header {
 .contents {
 	background: #eee;
 	padding: 60px 0 0;
+	.b_b {
+		padding: 0 0 15px;
+		border-bottom: 1px solid #606060;
+	}
 	.c_ge {
 		background: none;
 		border: 3px solid #138745;
 		display: inline-block;
 		padding: 6px 15px 8px;
 		border-radius: 30px;
-		margin: 60px 0 26px;
+		margin: 42px 0 26px;
 		font-size: 24.5px;
 		text-align: center;
 		font-weight: bold;
@@ -943,10 +947,14 @@ footer {
 
 	.contents {
 		padding: 5% 0 0;
+		.b_b {
+			padding: 0 0 2%;
+			border-bottom: 1px solid #606060;
+		}
 		.c_ge {
 			display: inline-block;
 			padding: 1% 2.2% 1.2%;
-			margin: 8% 0 4%;
+			margin: 6% 0 4%;
 			border-radius: 30px;
 			font-size: calc(40vw/12);
 			border: 2px solid #138745;
@@ -1491,6 +1499,9 @@ footer {
 
 	.contents {
 		padding: 4% 0 0;
+		.b_b {
+			padding: 0 0 2%;
+		}
 		.c_ge {
 			display: inline-block;
 			padding: 1% 2.2% 1.2%;
