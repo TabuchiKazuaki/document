@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -338,6 +339,9 @@ header .h_text span {
 .contents .c_box li:nth-child(2) {
   padding: 70px 0 42px;
 }
+.contents .c_box li:nth-child(3) {
+  padding: 63px 1.5px 59px;
+}
 .contents .c_box li .icon {
   max-width: 104px;
   margin: 0 auto;
@@ -409,6 +413,62 @@ header .h_text span {
   font-size: 13px;
   line-height: 1.5;
   color: #ababab;
+}
+.contents .c_box li .c_mex {
+  text-align: center;
+  font-size: 32px;
+  font-weight: normal;
+  color: #fff;
+}
+.contents .c_box li .c_hl {
+  margin: 12px 0 0;
+  text-align: center;
+  letter-spacing: 1.8px;
+  font-size: 42px;
+  color: #e6c300;
+}
+.contents .c_box li .c_mitem {
+  margin: 33px 0 0;
+}
+.contents .c_box li .c_mitem li {
+  position: relative;
+  padding: 5px 0 0 25px;
+  max-width: none;
+  margin: 5px auto 0;
+  border-top: none;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 1.3px;
+  color: #ababab;
+}
+.contents .c_box li .c_mitem li:before {
+  content: '・';
+  position: absolute;
+  top: 0;
+  left: -13px;
+  font-size: 45px;
+  line-height: 1;
+}
+.contents .c_box li .c_m_sec {
+  margin: 28px auto 0;
+}
+.contents .c_box li .c_m_sec li {
+  position: relative;
+  padding: 0 0 0 25px;
+  margin: 5px 0 0;
+  max-width: auto;
+  border-top: none;
+  font-size: 22px;
+  letter-spacing: 1.3px;
+  line-height: 1.3;
+  color: #ababab;
+}
+.contents .c_box li .c_m_sec li:before {
+  content: '※';
+  position: absolute;
+  top: 0;
+  left: -2px;
+  font-size: 22px;
 }
 .contents .c_box .ch_btn {
   margin: 6% auto 0;
