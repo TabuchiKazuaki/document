@@ -12,10 +12,9 @@ function countDown() {
 	var m = Math.floor((left % a_day) / (60 * 1000)) % 60
 	var s = Math.floor((left % a_day) / 1000) % 60 % 60
 
-	$("#TimeLeft").text(d + '日' + h + '時間' + m + '分' + s + '秒');
-	$("#Timeday").text(d);
-	$("#Timehour").text(h);
-	$("#Timeminute").text(m);
-	$("#Timesecond").text(s);
+	$("#day").text(d);
+	$("#hour").text(h);
+	$("#min").text(m);
+	$("#sec").text(s);
 	setTimeout('countDown()', 1000);
 }
