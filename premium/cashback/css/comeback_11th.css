@@ -77,6 +77,35 @@ header .h_text {
 header .h_text span {
   font-size: 16px;
 }
+header .ch_btn {
+  max-width: 680px;
+  margin: 44px auto 0;
+}
+header .ch_btn a {
+  display: block;
+  background: #33aa22;
+  padding: 26px 0;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+}
+header .ch_caution {
+  margin: 25px 0 0;
+  text-align: center;
+  font-size: 13px;
+  color: #ababab;
+}
+header .ch_date {
+  margin: 22px 0 0;
+  text-align: center;
+  letter-spacing: 1.8px;
+  font-size: 16px;
+}
+header .ch_date span {
+  font-size: 19px;
+}
 
 .chace {
   margin: 51px 0 0;
@@ -122,35 +151,6 @@ header .h_text span {
 .chace .ch_img {
   max-width: 215px;
   margin: 39px auto 0;
-}
-.chace .ch_btn {
-  max-width: 680px;
-  margin: 44px auto 0;
-}
-.chace .ch_btn a {
-  display: block;
-  background: #33aa22;
-  padding: 26px 0;
-  border-radius: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: bold;
-  color: #fff;
-}
-.chace .ch_caution {
-  margin: 25px 0 0;
-  text-align: center;
-  font-size: 13px;
-  color: #ababab;
-}
-.chace .ch_date {
-  margin: 22px 0 0;
-  text-align: center;
-  letter-spacing: 1.8px;
-  font-size: 16px;
-}
-.chace .ch_date span {
-  font-size: 19px;
 }
 
 .info {
@@ -469,34 +469,6 @@ header .h_text span {
   top: 0;
   left: -2px;
   font-size: 22px;
-}
-.contents .c_box .ch_btn {
-  margin: 6% auto 0;
-}
-.contents .c_box .ch_btn a {
-  display: block;
-  background: #3a2;
-  padding: 26px 0;
-  border-radius: 6px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: bold;
-  color: #fff;
-}
-.contents .c_box .ch_caution {
-  margin: 25px 0 0;
-  text-align: center;
-  font-size: 13px;
-  color: #ababab;
-}
-.contents .c_box .ch_date {
-  margin: 22px 0 0;
-  text-align: center;
-  letter-spacing: 1.8px;
-  font-size: 16px;
-}
-.contents .c_box .ch_date span {
-  font-size: 19px;
 }
 .contents .c_fit {
   background: #202121;
@@ -913,6 +885,34 @@ footer small {
   }
   header .h_text span {
     font-size: calc(29vw/12);
+  }
+  header .ch_btn {
+    margin: 6% auto 0;
+  }
+  header .ch_btn a {
+    display: block;
+    background: #3a2;
+    padding: 26px 0;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+  }
+  header .ch_caution {
+    margin: 25px 0 0;
+    text-align: center;
+    font-size: 13px;
+    color: #ababab;
+  }
+  header .ch_date {
+    margin: 22px 0 0;
+    text-align: center;
+    letter-spacing: 1.8px;
+    font-size: 16px;
+  }
+  header .ch_date span {
+    font-size: 19px;
   }
 
   .chace {
@@ -1554,6 +1554,27 @@ footer small {
   header .h_text span {
     font-size: calc(28vw/12);
   }
+  header .ch_btn {
+    width: 88%;
+    margin: 6% auto 0;
+  }
+  header .ch_btn a {
+    padding: 4% 0;
+    border-radius: 4px;
+    font-size: calc(47vw/12);
+  }
+  header .ch_caution {
+    margin: 2.6% 0 0;
+    font-size: calc(23vw/12);
+  }
+  header .ch_date {
+    margin: 3% 0 0;
+    letter-spacing: 1.7px;
+    font-size: calc(28vw/12);
+  }
+  header .ch_date span {
+    font-size: calc(30vw/12);
+  }
 
   .chace {
     margin: 7% 0 0;
@@ -1587,27 +1608,6 @@ footer small {
   .chace .ch_img {
     width: 39%;
     margin: 6% auto 0;
-  }
-  .chace .ch_btn {
-    width: 88%;
-    margin: 6% auto 0;
-  }
-  .chace .ch_btn a {
-    padding: 4% 0;
-    border-radius: 4px;
-    font-size: calc(47vw/12);
-  }
-  .chace .ch_caution {
-    margin: 2.6% 0 0;
-    font-size: calc(23vw/12);
-  }
-  .chace .ch_date {
-    margin: 3% 0 0;
-    letter-spacing: 1.7px;
-    font-size: calc(28vw/12);
-  }
-  .chace .ch_date span {
-    font-size: calc(30vw/12);
   }
 
   .c_ge {
