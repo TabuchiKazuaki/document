@@ -3,7 +3,7 @@ $(function() {
 });
 function countDown() {
 	var time = new Date();
-	var end = new Date("January 01,2020 00:00:00");
+	var end = new Date("2019/11/30");
 	var left = end - time;
 	var a_day = 24 * 60 * 60 * 1000;
 
