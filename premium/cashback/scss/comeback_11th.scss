@@ -63,35 +63,6 @@ header {
 			font-size: 16px;
 		}
 	}
-	.ch_btn {
-		max-width: 680px;
-		margin: 44px auto 0;
-		a {
-			display: block;
-			background: #33aa22;
-			padding: 26px 0;
-			border-radius: 6px;
-			text-align: center;
-			font-size: 28px;
-			font-weight: bold;
-			color: #fff;
-		}
-	}
-	.ch_caution {
-		margin: 25px 0 0;
-		text-align: center;
-		font-size: 13px;
-		color: #ababab;
-	}
-	.ch_date {
-		margin: 22px 0 0;
-		text-align: center;
-		letter-spacing: 1.8px;
-		font-size: 16px;
-		span {
-			font-size: 19px;
-		}
-	}
 }
 
 .chace {
@@ -99,7 +70,7 @@ header {
 	.wrap {
 		background: #1f2020;
 		max-width: 555px;
-		padding: 41px 20px 41px;
+		padding: 41px 0 41px;
 		margin: 0 auto;
 		border-radius: 8px;
 		box-sizing: border-box;
@@ -137,6 +108,37 @@ header {
 		max-width: 215px;
 		margin: 39px auto 0;
 	}
+	.ch_btn {
+		max-width: 680px;
+		margin: 44px auto 0;
+		a {
+			display: block;
+			background: #33aa22;
+			padding: 26px 0;
+			border-radius: 6px;
+			text-align: center;
+			font-size: 28px;
+			font-weight: bold;
+			color: #fff;
+		}
+	}
+	.ch_caution {
+		margin: 25px 0 0;
+		text-align: center;
+		font-size: 13px;
+		color: #ababab;
+	}
+	.ch_date {
+		margin: 22px 0 0;
+		text-align: center;
+		letter-spacing: 1.8px;
+		font-size: 16px;
+		span {
+			font-size: 19px;
+		}
+	}
+
+
 }
 
 .info {
@@ -464,6 +466,34 @@ header {
 						font-size: 22px;
 					}
 				}
+			}
+		}
+		.ch_btn {
+			margin: 6% auto 0;
+			a {
+				display: block;
+				background: #3a2;
+				padding: 26px 0;
+				border-radius: 6px;
+				text-align: center;
+				font-size: 28px;
+				font-weight: bold;
+				color: #fff;
+			}
+		}
+		.ch_caution {
+			margin: 25px 0 0;
+			text-align: center;
+			font-size: 13px;
+			color: #ababab;
+		}
+		.ch_date {
+			margin: 22px 0 0;
+			text-align: center;
+			letter-spacing: 1.8px;
+			font-size: 16px;
+			span {
+				font-size: 19px;
 			}
 		}
 	}
@@ -900,34 +930,6 @@ footer {
 			letter-spacing: 1.3px;
 			span {
 				font-size: calc(29vw/12);
-			}
-		}
-		.ch_btn {
-			margin: 6% auto 0;
-			a {
-				display: block;
-				background: #3a2;
-				padding: 26px 0;
-				border-radius: 6px;
-				text-align: center;
-				font-size: 28px;
-				font-weight: bold;
-				color: #fff;
-			}
-		}
-		.ch_caution {
-			margin: 25px 0 0;
-			text-align: center;
-			font-size: 13px;
-			color: #ababab;
-		}
-		.ch_date {
-			margin: 22px 0 0;
-			text-align: center;
-			letter-spacing: 1.8px;
-			font-size: 16px;
-			span {
-				font-size: 19px;
 			}
 		}
 	}

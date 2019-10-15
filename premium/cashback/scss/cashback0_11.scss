@@ -64,30 +64,6 @@ header {
 			line-height: 0;
 		}
 	}
-}
-
-.chace {
-	margin: 49px 0 0;
-	.wrap {
-		background: #1f2020;
-		max-width: 555px;
-		padding: 36px 22px 41px;
-		margin: 0 auto;
-		border-radius: 8px;
-		box-sizing: border-box;
-	}
-	.chance_h {
-		max-width: 436px;
-		margin: 0 auto 0;
-	}
-	.chance_t {
-		max-width: 431px;
-		margin: 32px auto 0;
-	}
-	.chance_gift {
-		max-width: 169px;
-		margin: 40px auto 0;
-	}
 	.ch_btn {
 		max-width: 680px;
 		margin: 44px auto 0;
@@ -140,6 +116,30 @@ header {
 		span {
 			font-size: 19px;
 		}
+	}
+}
+
+.chace {
+	margin: 49px 0 0;
+	.wrap {
+		background: #1f2020;
+		max-width: 555px;
+		padding: 36px 22px 41px;
+		margin: 0 auto;
+		border-radius: 8px;
+		box-sizing: border-box;
+	}
+	.chance_h {
+		max-width: 436px;
+		margin: 0 auto 0;
+	}
+	.chance_t {
+		max-width: 431px;
+		margin: 32px auto 0;
+	}
+	.chance_gift {
+		max-width: 169px;
+		margin: 40px auto 0;
 	}
 }
 
@@ -883,6 +883,27 @@ footer {
 		.chace {
 			margin: 6% 0 0;
 		}
+		.ch_btn {
+			width: 90%;
+			margin: 6% auto 0;
+			a {
+				padding: 4% 0;
+				border-radius: 5px;
+				font-size: calc(45vw/12);
+			}
+		}
+		.ch_caution {
+			margin: 2.6% 0 0;
+			font-size: calc(21vw/12);
+		}
+		.ch_date {
+			margin: 3% 0 0;
+			letter-spacing: 1.7px;
+			font-size: calc(26vw/12);
+			span {
+				font-size: calc(28vw/12);
+			}
+		}
 	}
 	.chace {
 		margin: 10% 0 0;
@@ -915,27 +936,6 @@ footer {
 		.ch_img {
 			width: 74%;
 			margin: 6% auto 0;
-		}
-		.ch_btn {
-			width: 90%;
-			margin: 6% auto 0;
-			a {
-				padding: 4% 0;
-				border-radius: 5px;
-				font-size: calc(45vw/12);
-			}
-		}
-		.ch_caution {
-			margin: 2.6% 0 0;
-			font-size: calc(21vw/12);
-		}
-		.ch_date {
-			margin: 3% 0 0;
-			letter-spacing: 1.7px;
-			font-size: calc(26vw/12);
-			span {
-				font-size: calc(28vw/12);
-			}
 		}
 	}
 	.c_ge {
@@ -1499,23 +1499,30 @@ footer {
 				margin: 0 0 0 2.5%;
 			}
 		}
-		.tperiod {
-			.h_t {
-				width: 82%;
-				margin: 0 auto 0;
-			}
-			.h_i {
-				width: 85%;
-				margin: 3.4% auto 0;
-				dd {
-					width: 100%;
-					margin: 0 auto;
-					line-height: 0;
-				}
-			}
-		}
+
 		.chace {
 			margin: 6% 0 0;
+		}
+		.ch_btn {
+			width: 88%;
+			margin: 6% auto 0;
+			a {
+				padding: 4% 0;
+				border-radius: 4px;
+				font-size: calc(47vw/12);
+			}
+		}
+		.ch_caution {
+			margin: 2.6% 0 0;
+			font-size: calc(23vw/12);
+		}
+		.ch_date {
+			margin: 3% 0 0;
+			letter-spacing: 1.7px;
+			font-size: calc(28vw/12);
+			span {
+				font-size: calc(30vw/12);
+			}
 		}
 	}
 	.chace {
@@ -1549,27 +1556,6 @@ footer {
 		.ch_img {
 			width: 74%;
 			margin: 6% auto 0;
-		}
-		.ch_btn {
-			width: 88%;
-			margin: 6% auto 0;
-			a {
-				padding: 4% 0;
-				border-radius: 4px;
-				font-size: calc(47vw/12);
-			}
-		}
-		.ch_caution {
-			margin: 2.6% 0 0;
-			font-size: calc(23vw/12);
-		}
-		.ch_date {
-			margin: 3% 0 0;
-			letter-spacing: 1.7px;
-			font-size: calc(28vw/12);
-			span {
-				font-size: calc(30vw/12);
-			}
 		}
 	}
 	.c_ge {
