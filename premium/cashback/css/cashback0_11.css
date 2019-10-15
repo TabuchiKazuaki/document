@@ -150,7 +150,13 @@ header .tperiod .h_i dd {
   color: #000;
 }
 .chace .timer {
-  margin: 18px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 18px auto 0;
   text-align: center;
 }
 .chace .ch_caution {
