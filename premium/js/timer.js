@@ -17,7 +17,7 @@ function countDown() {
 	$("#min").text(m);
 	$("#sec").text(s);
 	setTimeout('countDown()', 1000);
-});
+}
 
 $(document).ready(function() {
 	var now = new Date();
