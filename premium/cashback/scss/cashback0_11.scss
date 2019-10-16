@@ -835,6 +835,20 @@ footer {
 			font-size: calc(28vw/12);
 		}
 	}
+	.timer {
+		margin: 3% auto 0 ;
+		font-size: calc(32vw/12);
+		letter-spacing: 1.4px;
+		.time {
+			min-width: 58px;
+			width: 58px;
+			padding: 3% 3%;
+			margin: 0 3%;
+			font-size: calc(42vw/12);
+			border-radius: 7px;
+			letter-spacing: 1.6px;
+		}
+	}
 	header {
 		padding: 0;
 		.h_l {
@@ -852,6 +866,10 @@ footer {
 		.h_active {
 			background-size: cover;
 			min-height: auto;
+			padding: 6.8% 0 0;
+			.h_w {
+				padding: 6.8% 0 0;
+			}
 		}
 
 		.h_w {
@@ -868,7 +886,7 @@ footer {
 		}
 	}
 	.chace {
-		margin: 10% 0 0;
+		margin: 6% 0 0;
 		.wrap {
 			width: 75%;
 			padding: 5.5% 0 5.5%;
@@ -1462,13 +1480,11 @@ footer {
 			padding: 0 0 0;
 			margin: 0 auto;
 		}
-		.h_w {
-			padding: 6.4% 0 0;
-		}
-
 		.h_active {
-			background-size: cover;
-			min-height: auto;
+			padding: 6.8% 0 0;
+			.h_w {
+				padding: 6.8% 0 0;
+			}
 		}
 
 		.h_w {
@@ -1485,7 +1501,7 @@ footer {
 		}
 	}
 	.chace {
-		margin: 7% 0 0;
+		margin: 6% 0 0;
 		.wrap {
 			width: 75%;
 			padding: 5.2% 0 5%;
