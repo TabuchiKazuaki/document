@@ -36,7 +36,7 @@ img {
 
 .ch_btn {
   max-width: 715px;
-  margin: 44px auto 0;
+  margin: 62px auto 0;
 }
 .ch_btn a {
   display: block;
@@ -105,39 +105,19 @@ header .h_a {
   margin: 0 auto;
 }
 header .h_active {
-  background-size: cover;
-  min-height: 468px;
+  min-height: 465px;
 }
 header .h_w {
-  padding: 48px 0 0;
+  padding: 49px 0 0;
 }
 header .h_m {
   max-width: 634px;
   margin: 0 auto 0;
+  line-height: 0;
 }
 header .h_t {
   max-width: 537px;
-  margin: 18px auto 0;
-}
-header .h_i {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  max-width: 533px;
-  margin: 27px auto 0;
-}
-header .h_i dd {
-  max-width: 341px;
-  margin: 0 auto;
-  line-height: 0;
-}
-header .h_i dt {
-  max-width: 164px;
-  margin: 0 0 0 22px;
-  text-align: right;
+  margin: 8px auto 0;
   line-height: 0;
 }
 
@@ -840,7 +820,7 @@ footer small {
 @media screen and (max-width: 768px) {
   .ch_btn {
     width: 90%;
-    margin: 6% auto 0;
+    margin: 10% auto 0;
   }
   .ch_btn a {
     padding: 4% 0;
@@ -872,44 +852,20 @@ footer small {
     padding: 0 0 0;
     margin: 0 auto;
   }
+  header .h_active {
+    background-size: cover;
+    min-height: auto;
+  }
   header .h_w {
-    padding: 6.4% 0 0;
+    padding: 6.8% 0 6.5%;
   }
   header .h_m {
-    width: 35%;
+    width: 85%;
     margin: 0 auto 0;
   }
   header .h_t {
-    width: 53%;
-    margin: 2.5% auto 0;
-  }
-  header .h_i {
-    width: 70%;
-    margin: 3.4% auto 0;
-  }
-  header .h_i dd {
-    width: 64%;
-    margin: 0 auto;
-  }
-  header .h_i dt {
-    width: 33.5%;
-    margin: 0 0 0 2.5%;
-  }
-  header .tperiod .h_t {
-    width: 81%;
-    margin: 0 auto 0;
-  }
-  header .tperiod .h_i {
-    width: 79%;
-    margin: 3% auto 0;
-  }
-  header .tperiod .h_i dd {
-    width: 100%;
-    margin: 0 auto;
-    line-height: 0;
-  }
-  header .chace {
-    margin: 6% 0 0;
+    width: 72%;
+    margin: 1.2% auto 0;
   }
 
   .chace {
@@ -1267,6 +1223,14 @@ footer small {
     font-size: calc(36vw/12);
   }
 
+  .c_iwrap {
+    padding: 11% 0 11.2%;
+    margin: 9% 0 0;
+  }
+  .c_iwrap .c_img {
+    width: 76%;
+  }
+
   .info {
     margin: 8% 0 0;
   }
@@ -1450,12 +1414,12 @@ footer small {
   }
 
   .ch_btn {
-    width: 88%;
-    margin: 6% auto 0;
+    width: 90%;
+    margin: 10% auto 0;
   }
   .ch_btn a {
     padding: 4% 0;
-    border-radius: 4px;
+    border-radius: 5px;
     font-size: calc(47vw/12);
   }
 
@@ -1482,28 +1446,20 @@ footer small {
   header .h_w {
     padding: 6.4% 0 0;
   }
+  header .h_active {
+    background-size: cover;
+    min-height: auto;
+  }
+  header .h_w {
+    padding: 6.8% 0 6.5%;
+  }
   header .h_m {
-    width: 36%;
+    width: 85%;
     margin: 0 auto 0;
   }
   header .h_t {
-    width: 53%;
-    margin: 2.5% auto 0;
-  }
-  header .h_i {
-    width: 70%;
-    margin: 3.4% auto 0;
-  }
-  header .h_i dd {
-    width: 64%;
-    margin: 0 auto;
-  }
-  header .h_i dt {
-    width: 33.5%;
-    margin: 0 0 0 2.5%;
-  }
-  header .chace {
-    margin: 6% 0 0;
+    width: 72%;
+    margin: 1.2% auto 0;
   }
 
   .chace {
@@ -1855,6 +1811,14 @@ footer small {
   }
   .genre .g_date span {
     font-size: calc(38vw/12);
+  }
+
+  .c_iwrap {
+    padding: 11% 0 11.2%;
+    margin: 9% 0 0;
+  }
+  .c_iwrap .c_img {
+    width: 77%;
   }
 
   .info {
