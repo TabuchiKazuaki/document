@@ -102,16 +102,16 @@ $(document).ready(function() {
 	if (now.getTime() > before.getTime()) {
 		$('.chace').hide();
 	}
-	var weekend = new Date("2019/11/02 00:00");
-	if (now.getTime() > weekend.getTime()) {
-		$('.chace').show();
-		$('.h_a').addClass('h_active');
-	}
-	var between02 = new Date("2019/11/04 00:00");
-	if (now.getTime() > between02.getTime()) {
-		$('.chace').hide();
-		$('.h_a').removeClass('h_active');
-	}
+	// var weekend = new Date("2019/11/02 00:00");
+	// if (now.getTime() > weekend.getTime()) {
+	// 	$('.chace').show();
+	// 	$('.h_a').addClass('h_active');
+	// }
+	// var between02 = new Date("2019/11/04 00:00");
+	// if (now.getTime() > between02.getTime()) {
+	// 	$('.chace').hide();
+	// 	$('.h_a').removeClass('h_active');
+	// }
 	var weekend02 = new Date("2019/11/09 00:00");
 	if (now.getTime() > weekend02.getTime()) {
 		$('.chace').show();
@@ -132,28 +132,28 @@ $(document).ready(function() {
 		$('.chace').hide();
 		$('.h_a').removeClass('h_active');
 	}
-	var weekend04 = new Date("2019/11/23 00:00");
-	if (now.getTime() > weekend04.getTime()) {
-		$('.chace').show();
-		$('.h_a').addClass('h_active');
-	}
+	// var weekend04 = new Date("2019/11/23 00:00");
+	// if (now.getTime() > weekend04.getTime()) {
+	// 	$('.chace').show();
+	// 	$('.h_a').addClass('h_active');
+	// }
 
-	var between05 = new Date("2019/11/25 00:00");
-	if (now.getTime() > between05.getTime()) {
-		$('.chace').hide();
-		$('.h_a').removeClass('h_active');
-	}
-	var weekend05 = new Date("2019/11/30 00:00");
-	if (now.getTime() > weekend05.getTime()) {
-		$('.chace').show();
-		$('.h_a').addClass('h_active');
-	}
+	// var between05 = new Date("2019/11/25 00:00");
+	// if (now.getTime() > between05.getTime()) {
+	// 	$('.chace').hide();
+	// 	$('.h_a').removeClass('h_active');
+	// }
+	// var weekend05 = new Date("2019/11/30 00:00");
+	// if (now.getTime() > weekend05.getTime()) {
+	// 	$('.chace').show();
+	// 	$('.h_a').addClass('h_active');
+	// }
 
-	var between06 = new Date("2019/12/01 00:00");
-	if (now.getTime() > between06.getTime()) {
-		$('.chace').hide();
-		$('.h_a').removeClass('h_active');
-	}
+	// var between06 = new Date("2019/12/01 00:00");
+	// if (now.getTime() > between06.getTime()) {
+	// 	$('.chace').hide();
+	// 	$('.h_a').removeClass('h_active');
+	// }
 });
 
 
