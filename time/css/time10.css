@@ -170,6 +170,11 @@ header .h_wrap .h_h {
   font-size: 30px;
   color: #a1882f;
 }
+.contents .more a:hover {
+  background: #a1882f;
+  color: #fff;
+  opacity: 1;
+}
 .contents .c_one {
   padding: 0 0 35px;
   margin: 15px 0 0;
@@ -1765,6 +1770,11 @@ footer small {
     letter-spacing: 1.5px;
     border: 2px solid #a1882f;
     font-size: calc(47vw/12);
+  }
+  .contents .more a:hover {
+    background: none;
+    color: #a1882f;
+    opacity: .8;
   }
   .contents .c_one {
     padding: 0 0 2.5%;

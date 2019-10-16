@@ -147,6 +147,11 @@ header {
 			font-weight: bold;
 			font-size: 30px;
 			color: #a1882f;
+			&:hover {
+				background: #a1882f;
+				color: #fff;
+				opacity: 1;
+			}
 		}
 	}
 	.c_one {
@@ -1772,6 +1777,12 @@ footer {
 				letter-spacing: 1.5px;
 				border: 2px solid #a1882f;
 				font-size: calc(47vw/12);
+
+				&:hover {
+					background: none;
+					color: #a1882f;
+					opacity: .8;
+				}
 			}
 		}
 		.c_one {
