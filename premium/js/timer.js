@@ -1,5 +1,7 @@
-
 $(function() {
+	countDown();
+});
+function countDown() {
 	var time = new Date();
 	var end = new Date("2019/11/30");
 	var left = end - time;
