@@ -1,7 +1,5 @@
+
 $(function() {
-	countDown();
-});
-function countDown() {
 	var time = new Date();
 	var end = new Date("2019/11/30");
 	var left = end - time;
@@ -17,4 +15,64 @@ function countDown() {
 	$("#min").text(m);
 	$("#sec").text(s);
 	setTimeout('countDown()', 1000);
-}
+});
+
+$(document).ready(function() {
+	var now = new Date();
+	var before = new Date("2019/06/15 00:00");
+	if (now.getTime() > before.getTime()) {
+		$('.chace').hide();
+	}
+	var weekend = new Date("2019/11/01 00:00");
+	if (now.getTime() > weekend.getTime()) {
+		$('.chace').show();
+	}
+	var between02 = new Date("2019/11/03 00:00");
+	if (now.getTime() > between02.getTime()) {
+		$('.chace').hide();
+	}
+	var weekend02 = new Date("2019/11/09 00:00");
+	if (now.getTime() > weekend02.getTime()) {
+		$('.chace').show();
+	}
+	var between03 = new Date("2019/11/11 00:00");
+	if (now.getTime() > between03.getTime()) {
+		$('.chace').hide();
+	}
+	var weekend03 = new Date("2019/11/16 00:00");
+	if (now.getTime() > weekend03.getTime()) {
+		$('.chace').show();
+	}
+	var between04 = new Date("2019/11/18 00:00");
+	if (now.getTime() > between04.getTime()) {
+		$('.chace').hide();
+	}
+	var weekend04 = new Date("2019/11/23 00:00");
+	if (now.getTime() > weekend04.getTime()) {
+		$('.chace').show();
+	}
+
+	var between05 = new Date("2019/11/25 00:00");
+	if (now.getTime() > between05.getTime()) {
+		$('.chace').hide();
+	}
+	var weekend05 = new Date("2019/11/30 00:00");
+	if (now.getTime() > weekend05.getTime()) {
+		$('.chace').show();
+	}
+
+	var between06 = new Date("2019/12/01 00:00");
+	if (now.getTime() > between06.getTime()) {
+		$('.chace').hide();
+	}
+});
+
+
+
+
+
+
+
+
+
+
