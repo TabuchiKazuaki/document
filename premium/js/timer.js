@@ -24,12 +24,11 @@ $(document).ready(function() {
 	var before = new Date("2019/06/15 00:00");
 	if (now.getTime() > before.getTime()) {
 		$('.chace').hide();
-		$('.h_a').addClass('h_active');
 	}
-	var weekend = new Date("2019/11/01 00:00");
+	var weekend = new Date("2019/11/02 00:00");
 	if (now.getTime() > weekend.getTime()) {
 		$('.chace').show();
-		$('.h_a').removeClass('h_active');
+		$('.h_a').addClass('h_active');
 	}
 	var between02 = new Date("2019/11/04 00:00");
 	if (now.getTime() > between02.getTime()) {
