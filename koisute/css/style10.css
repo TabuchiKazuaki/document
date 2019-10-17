@@ -420,6 +420,18 @@ img {
 .video_inner .eighth_s:before {
   content: '関東男子・東北女子編';
 }
+.video_inner .nine:before {
+  content: '大阪男子・名古屋女子編';
+}
+.video_inner .nine .parson_item li:nth-child(4) {
+  margin: 0 0 0 2.5%;
+}
+.video_inner .nine_s .parson_item li:nth-child(4) {
+  margin: 0 0 0 2.5%;
+}
+.video_inner .nine_s:before {
+  content: '九州男子・東京女子編';
+}
 
 .v_m {
   padding: 10px 0 0 4%;
@@ -604,7 +616,7 @@ img {
 
 .cast {
   background: #f4ebe6;
-  padding: 0 0 5.1%;
+  padding: 0 0 3.1%;
 }
 
 body[data-page-num="1964406"] .btn--summary a {
@@ -709,7 +721,7 @@ body[data-page-num="1964406"] .btn--summary a {
   content: '関西女子';
   position: absolute;
   top: 27px;
-  left: 18.5%;
+  left: 20.5%;
   font-weight: bold;
   font-size: 20px;
   letter-spacing: 1px;
@@ -720,7 +732,7 @@ body[data-page-num="1964406"] .btn--summary a {
   content: 'センバツ男子';
   position: absolute;
   top: 26px;
-  left: 74.5%;
+  left: 69.5%;
   font-weight: bold;
   font-size: 20px;
   letter-spacing: 1px;
@@ -742,7 +754,7 @@ body[data-page-num="1964406"] .btn--summary a {
   position: relative;
   background: #fffeff;
   width: 48%;
-  padding: 4% 2% 3.9%;
+  padding: 4% 2% 2%;
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1687,6 +1699,12 @@ body[data-page-num="1614207"] .btn--summary a {
   .video_inner .eighth_s .parson_item li:nth-child(4) {
     margin: 0 0 0 2%;
   }
+  .video_inner .nine .parson_item li:nth-child(4) {
+    margin: 0 0 0 2%;
+  }
+  .video_inner .nine_s .parson_item li:nth-child(4) {
+    margin: 0 0 0 2%;
+  }
 
   .v_m {
     padding: 2% 0 0;
@@ -1874,7 +1892,7 @@ body[data-page-num="1614207"] .btn--summary a {
   }
 
   .cast {
-    padding: 0 0 5%;
+    padding: 0 0 3%;
   }
 
   .cast_heading .cast_sub {
@@ -2624,6 +2642,12 @@ body[data-page-num="1614207"] .btn--summary a {
     margin: 0 0 0 2%;
   }
   .video_inner .eighth_s .parson_item li:nth-child(4) {
+    margin: 0 0 0 2%;
+  }
+  .video_inner .nine .parson_item li:nth-child(4) {
+    margin: 0 0 0 2%;
+  }
+  .video_inner .nine_s .parson_item li:nth-child(4) {
     margin: 0 0 0 2%;
   }
 
