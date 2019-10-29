@@ -34,6 +34,11 @@ img {
   display: block;
 }
 
+.ch_timg {
+  max-width: 536px;
+  margin: 43px auto 0;
+}
+
 .ch_btn {
   max-width: 715px;
   margin: 62px auto 0;
@@ -968,6 +973,11 @@ footer small {
 }
 
 @media screen and (max-width: 768px) {
+  .ch_timg {
+    width: 79%;
+    margin: 7% auto 0;
+  }
+
   .ch_btn {
     width: 90%;
     margin: 10% auto 0;
@@ -1669,6 +1679,11 @@ footer small {
 @media screen and (max-width: 480px) {
   .pc {
     display: none;
+  }
+
+  .ch_timg {
+    width: 80%;
+    margin: 6.2% auto 0;
   }
 
   .ch_btn {
