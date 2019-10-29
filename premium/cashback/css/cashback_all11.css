@@ -780,12 +780,18 @@ footer small {
 }
 
 @media screen and (max-width: 768px) {
+  .line {
+    height: 28px;
+  }
+
   header {
     padding: 0;
   }
-  header .h_l {
+  header .h_l span {
+    display: inline-block;
     width: 21%;
-    padding: 1% 0 1.1% 2.2%;
+    padding: 1.6% 0 1.6% 2.2%;
+    line-height: 0;
   }
   header .h_a {
     position: relative;
@@ -793,7 +799,7 @@ footer small {
     margin: 0 auto;
   }
   header .h_w {
-    padding: 9% 0 0;
+    padding: 7.8% 0 0;
   }
   header .h_m {
     width: 38%;
@@ -804,7 +810,7 @@ footer small {
     margin: 0 auto 0;
   }
   header .h_cau {
-    margin: 4.2% 0 0;
+    margin: 3% 0 0;
     font-size: calc(34vw/12);
     letter-spacing: 1.2px;
   }
@@ -840,29 +846,6 @@ footer small {
     border-radius: 30px;
     font-size: calc(29vw/12);
     letter-spacing: 1.1px;
-  }
-
-  .gen {
-    margin: 4% 0 0;
-  }
-  .gen li {
-    width: 31.73%;
-    margin: 2.4% 0 0 2.4%;
-  }
-  .gen li:nth-child(3n+1) {
-    margin: 2.4% 0 0;
-  }
-  .gen li:nth-child(3) {
-    margin: 0 0 0 2.4%;
-  }
-  .gen li:nth-child(2) {
-    margin: 0 0 0 2.4%;
-  }
-  .gen li:nth-child(1) {
-    margin: 0;
-  }
-  .gen li img {
-    line-height: 0;
   }
 
   .contents {
@@ -920,7 +903,7 @@ footer small {
   }
   .contents .c_box {
     padding: 0 2%;
-    margin: 5% 0 0;
+    margin: 0;
     border-radius: 6px;
   }
   .contents .c_box li {
@@ -1366,6 +1349,10 @@ footer small {
 @media screen and (max-width: 480px) {
   .pc {
     display: none;
+  }
+
+  .line {
+    height: 18px;
   }
 
   header {

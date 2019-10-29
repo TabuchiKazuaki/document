@@ -800,12 +800,19 @@ footer {
 
 
 @media screen and (max-width: 768px) {
+	.line {
+		height: 28px;
+	}
 
 	header {
 		padding: 0;
 		.h_l {
-			width: 21%;
-			padding: 1% 0 1.1% 2.2%
+			span {
+				display: inline-block;
+				width: 21%;
+				padding: 1.6% 0 1.6% 2.2%;
+				line-height: 0;
+			}
 		}
 		.h_a {
 			position: relative;
@@ -813,7 +820,7 @@ footer {
 			margin: 0 auto;
 		}
 		.h_w {
-			padding: 9% 0 0;
+			padding: 7.8% 0 0;
 		}
 
 		.h_m {
@@ -825,7 +832,7 @@ footer {
 			margin: 0 auto 0;
 		}
 		.h_cau {
-			margin: 4.2% 0 0;
+			margin: 3% 0 0;
 			font-size: calc(34vw/12);
 			letter-spacing: 1.2px;
 			span {
@@ -862,30 +869,6 @@ footer {
 		border-radius: 30px;
 		font-size: calc(29vw/12);
 		letter-spacing: 1.1px;
-	}
-	.gen {
-		margin: 4% 0 0;
-		li {
-			width: 31.73%;
-			margin: 2.4% 0 0 2.4%;
-
-			&:nth-child(3n+1) {
-				margin: 2.4% 0 0;
-			}
-
-			&:nth-child(3) {
-				margin: 0 0 0 2.4%;
-			}
-			&:nth-child(2) {
-				margin: 0 0 0 2.4%;
-			}
-			&:nth-child(1) {
-				margin: 0;
-			}
-			img {
-				line-height: 0;
-			}
-		}
 	}
 
 	.contents {
@@ -942,7 +925,7 @@ footer {
 		}
 		.c_box {
 			padding: 0 2%;
-			margin: 5% 0 0;
+			margin: 0;
 			border-radius: 6px;
 			li {
 				padding: 6.5% 2.5% 10.5%;
@@ -1412,6 +1395,9 @@ footer {
 @media screen and (max-width: 480px) {
 	.pc {
 		display: none;
+	}
+	.line {
+		height: 18px;
 	}
 
 	header {
