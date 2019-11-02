@@ -3,6 +3,7 @@ $(function() {
 });
 
 function countDown() {
+	var now = new Date();
 	var ts00 = new Date("2019/11/02");
 	if (now.getTime() > ts00.getTime()) {
 		var time = new Date();
