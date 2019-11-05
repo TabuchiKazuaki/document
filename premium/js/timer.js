@@ -97,6 +97,15 @@ function countDown() {
 
 
 $(document).ready(function() {
+	$("iframe").on("load", function(){
+	    try {
+	        $(this).height(0);
+	        $(this).height(this.contentWindow.document.documentElement.scrollHeight);
+	    } catch (e) {
+	    }
+	});
+	$("iframe").trigger("load");
+
 	var now = new Date();
 	var before = new Date("2019/06/15 00:00");
 	if (now.getTime() > before.getTime()) {
