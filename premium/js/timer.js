@@ -95,6 +95,10 @@ function countDown() {
 	// }
 }
 
+$(window).on('resize load', function (e) {
+	$(this).height(0);
+	$(this).height(this.contentWindow.document.documentElement.scrollHeight);
+}).trigger('resize');
 
 $(document).ready(function() {
 	// $("iframe").on("load", function(){
@@ -103,10 +107,7 @@ $(document).ready(function() {
 	//     }
 	// });
 	// $("iframe").trigger("load");
-	$(window).on('resize load', function (e) {
-		$(this).height(0);
-		$(this).height(this.contentWindow.document.documentElement.scrollHeight);
-	}).trigger('resize');
+
 
 	var now = new Date();
 	var before = new Date("2019/06/15 00:00");
