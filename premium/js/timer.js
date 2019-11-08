@@ -57,8 +57,9 @@ function countDown() {
 		$("#sec").text(s);
 		setTimeout('countDown()', 1000);
 	}
-	var tv00before = new Date("2019/11/26 00:00");
+	var tv00before = new Date("2019/10/26 00:00");
 	if (now.getTime() > tv00before.getTime()) {
+		$('.ch_02').hide();
 		$('.t05').hide();
 		$('.t04').hide();
 		$('.t03').hide();
@@ -68,6 +69,8 @@ function countDown() {
 	var tv05 = new Date("2019/11/26 00:00");
 	if (now.getTime() > tv05.getTime()) {
 		$('.t05').show();
+		$('.ch_01').hide();
+		$('.ch_02').show();
 	}
 	var tv04 = new Date("2019/11/27 00:00");
 	if (now.getTime() > tv04.getTime()) {
