@@ -92,6 +92,12 @@ function countDown() {
 		$('.t02').hide();
 		$('.t01').show();
 	}
+	var tvafter = new Date("2019/12/01 00:00");
+	if (now.getTime() > tvafter.getTime()) {
+		$('.ch_01').show();
+		$('.ch_02').hide();
+		$('.t01').hide();
+	}
 }
 
 
