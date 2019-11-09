@@ -31,35 +31,35 @@ $(document).ready(function() {
 		$('.chace').show();
 		$('.h_a').removeClass('h_active');
 	}
-	var between02 = new Date("2019/11/03 00:00");
+	var between02 = new Date("2019/11/04 00:00");
 	if (now.getTime() > between02.getTime()) {
 		$('.chace').hide();
-		$('.h_a').addClass('h_active');
+		$('.h_a').removeClass('h_active');
 	}
 	var weekend02 = new Date("2019/11/09 00:00");
 	if (now.getTime() > weekend02.getTime()) {
 		$('.chace').show();
-		$('.h_a').removeClass('h_active');
+		$('.h_a').addClass('h_active');
 	}
 	var between03 = new Date("2019/11/11 00:00");
 	if (now.getTime() > between03.getTime()) {
 		$('.chace').hide();
-		$('.h_a').addClass('h_active');
+		$('.h_a').removeClass('h_active');
 	}
 	var weekend03 = new Date("2019/11/16 00:00");
 	if (now.getTime() > weekend03.getTime()) {
 		$('.chace').show();
-		$('.h_a').removeClass('h_active');
+		$('.h_a').addClass('h_active');
 	}
 	var between04 = new Date("2019/11/18 00:00");
 	if (now.getTime() > between04.getTime()) {
 		$('.chace').hide();
-		$('.h_a').addClass('h_active');
+		$('.h_a').removeClass('h_active');
 	}
 	var weekend04 = new Date("2019/11/23 00:00");
 	if (now.getTime() > weekend04.getTime()) {
 		$('.chace').show();
-		$('.h_a').removeClass('h_active');
+		$('.h_a').addClass('h_active');
 	}
 
 	var between05 = new Date("2019/11/25 00:00");
@@ -70,7 +70,7 @@ $(document).ready(function() {
 	var weekend05 = new Date("2019/11/30 00:00");
 	if (now.getTime() > weekend05.getTime()) {
 		$('.chace').show();
-		$('.h_a').removeClass('h_active');
+		$('.h_a').addClass('h_active');
 	}
 
 	var between06 = new Date("2019/12/01 00:00");
