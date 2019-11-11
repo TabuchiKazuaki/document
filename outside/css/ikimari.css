@@ -291,10 +291,13 @@ header .h_box .h_r .h_date {
 }
 
 .line {
-  max-width: 750px;
-  margin: 0 auto;
-  background: #efefef;
+  background: #fff;
   height: 35px;
+}
+.line .line_w {
+  max-width: 750px;
+  background: #efefef;
+  margin: 0 auto;
 }
 
 footer {
