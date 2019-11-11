@@ -292,9 +292,9 @@ header .h_box .h_r .h_date {
 
 .line {
   background: #fff;
-  height: 35px;
 }
 .line .line_w {
+  height: 35px;
   max-width: 750px;
   background: #efefef;
   margin: 0 auto;
@@ -692,8 +692,7 @@ footer small {
     margin: 0;
   }
 
-  .line {
-    background: #efefef;
+  .line .line_w {
     height: 28px;
   }
 
@@ -942,8 +941,7 @@ footer small {
     margin: 0;
   }
 
-  .line {
-    background: #efefef;
+  .line .line_w {
     height: 18px;
   }
 

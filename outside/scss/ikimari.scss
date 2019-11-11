@@ -268,8 +268,8 @@ header {
 
 .line {
 	background: #fff;
-	height: 35px;
 	.line_w {
+		height: 35px;
 		max-width: 750px;
 		background: #efefef;
 		margin: 0 auto;
@@ -675,8 +675,9 @@ footer {
 		}
 	}
 	.line {
-		background: #efefef;
-		height: 28px;
+		.line_w {
+			height: 28px;
+		}
 	}
 
 
@@ -929,8 +930,9 @@ footer {
 		}
 	}
 	.line {
-		background: #efefef;
-		height: 18px;
+		.line_w {
+			height: 18px;
+		}
 	}
 
 
