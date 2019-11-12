@@ -248,17 +248,17 @@ img  { width: 100%; }
 		.r_h_sec {
 			width: 63%;
 			margin: 11% auto 0;
-			font-size: calc(51vw/11);
+			font-size: calc(65vw/11);
 			letter-spacing: 9px;
 			text-indent: 4%;
 
 			&:before {
-				border-top: solid 3px #fff;
+				border-top: solid 2px #fff;
 				width: 17%;
 				z-index: 1;
 			}
 			&:after {
-				border-top: solid 3px #fff;
+				border-top: solid 2px #fff;
 				width: 18%;
 				z-index: 1;
 			}
@@ -271,15 +271,15 @@ img  { width: 100%; }
 			position: relative;
 			width: 63%;
 			margin: 15.5% auto 0;
-			font-size: calc(65vw/11);
+			font-size: calc(68vw/11);
 			text-align: center;
-			letter-spacing: 9px;
-			text-indent: 5%;
+			letter-spacing: 8px;
+			text-indent: 4%;
 
 			&:before {
 				content: '';
 				display: block;
-				border-top: solid 1.5px #fff;
+				border-top: solid 2px #fff;
 				width: 17%;
 				height: 1px;
 				position: absolute;
@@ -290,7 +290,7 @@ img  { width: 100%; }
 			&:after {
 				content: '';
 				display: block;
-				border-top: solid 1.5px #fff;
+				border-top: solid 2px #fff;
 				width: 18%;
 				height: 1px;
 				position: absolute;
@@ -331,7 +331,7 @@ img  { width: 100%; }
 				}
 				i {
 					display: inline-block;
-					margin: 0 0 0 -2px;
+					margin: 0 -2px 0 -1px;
 				}
 			}
 		}
