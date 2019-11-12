@@ -35,7 +35,7 @@ img {
 }
 
 .result {
-  padding: 120px 0;
+  padding: 50px 0;
 }
 .result .r_h {
   max-width: 260px;
@@ -74,7 +74,9 @@ img {
 }
 .result .r_h_sec span {
   position: relative;
+  display: inline-block;
   z-index: 5;
+  text-indent: 9px;
 }
 .result .r_h_thi {
   position: relative;
@@ -108,7 +110,9 @@ img {
 }
 .result .r_h_thi span {
   position: relative;
+  display: inline-block;
   z-index: 5;
+  text-indent: 9px;
 }
 .result .r_h_sec_t {
   font-size: 24px;
@@ -148,7 +152,7 @@ img {
   }
 
   .result {
-    padding: 12% 0 9%;
+    padding: 6% 0 4%;
   }
   .result .r_h {
     width: 40%;
@@ -241,7 +245,7 @@ img {
 }
 @media screen and (max-width: 480px) {
   .result {
-    padding: 12% 0 9%;
+    padding: 6% 0 4%;
   }
   .result .r_h {
     width: 43%;
