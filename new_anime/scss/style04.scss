@@ -18,7 +18,16 @@ img  { width: 100%; height: auto;}
 
 
 
-
+.c_h {
+	border-left: 6px solid #3a2;
+	padding: 0 0 0 18px;
+	line-height: 1.4;
+	font-size: 32px;
+	span {
+		letter-spacing: 1.3px;
+		font-size: 36px;
+	}
+}
 
 
 
@@ -152,6 +161,16 @@ header {
 
 
 @media screen and (max-width: 768px) {
+	.c_h {
+		border-left: 4.5px solid #3a2;
+		padding: 0 0 0 2.6%;
+		line-height: 1.4;
+		font-size: calc(50vw/12);
+		span {
+			letter-spacing: 1.3px;
+			font-size: calc(52vw/12);
+		}
+	}
 	header {
 		margin: 0 0 5%;
 		.logo {
@@ -245,3 +264,15 @@ header {
 
 
 
+@media screen and (max-width: 480px) {
+	.c_h {
+		border-left: 3px solid #3a2;
+		padding: 0 0 0 2.6%;
+		line-height: 1.4;
+		font-size: calc(52vw/12);
+		span {
+			letter-spacing: 1.3px;
+			font-size: calc(54vw/12);
+		}
+	}
+}
