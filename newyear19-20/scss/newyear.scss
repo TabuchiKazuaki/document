@@ -310,6 +310,12 @@ header {
 				border: 3px solid #a1882f;
 				font-size: 30px;
 				color: #a1882f;
+
+				&:hover {
+					opacity: 1;
+					background: #a1882f;
+					color: #fff;
+				}
 			}
 		}
 		.c19_item {
@@ -869,6 +875,11 @@ footer {
 					border: 2px solid #a1882f;
 					border-radius: 5px;
 					font-size: calc(40vw/12);
+					&:hover {
+						opacity: .8;
+						background: none;
+						color: #a1882f;
+					}
 				}
 			}
 			.c19_item {
