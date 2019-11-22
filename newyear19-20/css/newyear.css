@@ -318,19 +318,20 @@ header .h_wrap .h_h {
   margin: 12px 0 0 0;
   font-size: 25px;
   line-height: 1.3;
-  color: #ababab;
+  color: #666666;
 }
 .contents .c_nineteen .c_btn {
   margin: 40px 0 0;
 }
 .contents .c_nineteen .c_btn a {
   display: block;
-  background: #3a2;
+  background: none;
   padding: 15px 0;
   text-align: center;
   border-radius: 6px;
+  border: 3px solid #a1882f;
   font-size: 30px;
-  color: #fff;
+  color: #a1882f;
 }
 .contents .c_nineteen .c19_item li {
   padding: 35px 0;
@@ -854,6 +855,7 @@ footer small {
   }
   .contents .c_nineteen .c_btn a {
     padding: 3% 0;
+    border: 2px solid #a1882f;
     border-radius: 5px;
     font-size: calc(40vw/12);
   }
@@ -1277,6 +1279,7 @@ footer small {
   }
   .contents .c_nineteen .c_btn a {
     padding: 3% 0;
+    border: 1.5px solid #a1882f;
     border-radius: 4px;
     font-size: calc(42vw/12);
   }
