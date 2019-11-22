@@ -354,70 +354,47 @@ aside .f_c {
 }
 
 .genre {
-  background: #fff;
-  padding: 0 0 58px;
+  padding: 62px 0 65px;
 }
 .genre .wrap {
-  padding: 0 0 0;
+  padding: 60px 0 0;
+  border-top: 1px solid #606060;
 }
 .genre .g_h {
   font-size: 32px;
-  padding: 40px 0 0;
 }
 .genre .g_item {
-  margin: 42px 0 0;
+  overflow: hidden;
+  margin: 38px 0 0;
 }
 .genre .g_item li {
-  width: 100%;
+  float: left;
+  width: 48.5%;
+  margin: 0 0 0 3%;
+}
+.genre .g_item li:nth-child(2n+1) {
+  margin: 3% 0 0 0;
+}
+.genre .g_item li:nth-child(2n+2) {
+  margin: 3% 0 0 3%;
+}
+.genre .g_item li:nth-child(1) {
   margin: 0;
+}
+.genre .g_item li:nth-child(2) {
+  margin: 0 0 0 3%;
 }
 .genre .g_item li a {
   display: block;
+  background: #fff;
   padding: 25px 0;
-  border: 2px solid #cfa64d;
+  border: 2px solid #3a2;
   border-radius: 6px;
   text-align: center;
   font-size: 28px;
   font-weight: bold;
   letter-spacing: 1.3px;
-  color: #cfa64d;
-}
-.genre .g_item li a:hover {
-  background: #cfa64d;
-  color: #fff;
-  opacity: 1;
-}
-.genre .g_btn {
-  margin: 64px 0 0;
-}
-.genre .g_btn a {
-  position: relative;
-  display: block;
-  padding: 22px;
-  font-size: 23px;
-  font-weight: bold;
-  line-height: 1.4;
-  border-radius: 6px;
-  border: 2px solid #cfa64d;
-  color: #cfa64d;
-}
-.genre .g_btn a:before {
-  content: '';
-  position: absolute;
-  top: 38%;
-  right: 2.5%;
-  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/444f417210d296ef8579d6c67755f978_646bb576acbb3c8195de0323375d6225.png) 0 0 no-repeat;
-  background-size: 20px 34px;
-  width: 20px;
-  height: 34px;
-}
-.genre .g_btn a .gt {
-  display: block;
-  font-size: 18.5px;
-  color: #000;
-}
-.genre .g_btn a .gnum {
-  font-size: 28px;
+  color: #3a2;
 }
 
 footer {
@@ -805,54 +782,42 @@ footer small {
   }
 
   .genre {
-    padding: 0 0 8.4%;
+    padding: 4% 0 5%;
   }
   .genre .wrap {
-    padding: 0;
+    padding: 8% 0 0;
     margin: 0 5%;
+    border-top: 1px solid #606060;
   }
   .genre .g_h {
     font-size: calc(50vw/12);
-    padding: 5% 0 0;
   }
   .genre .g_item {
     margin: 6% 0 0;
   }
+  .genre .g_item li {
+    float: left;
+    width: 48%;
+    margin: 0 0 0 4%;
+  }
+  .genre .g_item li:nth-child(2n+1) {
+    margin: 4% 0 0 0;
+  }
+  .genre .g_item li:nth-child(2n+2) {
+    margin: 4% 0 0 4%;
+  }
+  .genre .g_item li:nth-child(1) {
+    margin: 0;
+  }
+  .genre .g_item li:nth-child(2) {
+    margin: 0 0 0 4%;
+  }
   .genre .g_item li a {
-    padding: 4% 0;
-    border: 1.5px solid #cfa64d;
+    padding: 8% 0;
+    border: 2px solid #3a2;
     border-radius: 5px;
     font-size: calc(44vw/12);
     letter-spacing: 1.3px;
-  }
-  .genre .g_item li a:hover {
-    background: none;
-    color: #cfa64d;
-  }
-  .genre .g_btn {
-    margin: 9% 0 0;
-  }
-  .genre .g_btn a {
-    display: block;
-    padding: 3.1%;
-    font-size: calc(37vw/12);
-    line-height: 1.4;
-    border-radius: 6px;
-    border: 1.5px solid #cfa64d;
-    color: #cfa64d;
-  }
-  .genre .g_btn a:before {
-    top: 38%;
-    right: 2.5%;
-    background-size: 16px 27px;
-    width: 16px;
-    height: 27px;
-  }
-  .genre .g_btn a .gt {
-    font-size: calc(30vw/12);
-  }
-  .genre .g_btn a .gnum {
-    font-size: calc(43vw/12);
   }
 
   .z_ba {
@@ -1194,54 +1159,42 @@ footer small {
   }
 
   .genre {
-    padding: 0 0 8.5%;
+    padding: 3% 0 5%;
   }
   .genre .wrap {
-    padding: 0;
+    padding: 8% 0 0;
     margin: 0 5%;
+    border-top: 1px solid #606060;
   }
   .genre .g_h {
     font-size: calc(52vw/12);
-    padding: 4% 0 0;
   }
   .genre .g_item {
     margin: 6% 0 0;
   }
+  .genre .g_item li {
+    float: left;
+    width: 48%;
+    margin: 0 0 0 4%;
+  }
+  .genre .g_item li:nth-child(2n+1) {
+    margin: 4% 0 0 0;
+  }
+  .genre .g_item li:nth-child(2n+2) {
+    margin: 4% 0 0 4%;
+  }
+  .genre .g_item li:nth-child(1) {
+    margin: 0;
+  }
+  .genre .g_item li:nth-child(2) {
+    margin: 0 0 0 4%;
+  }
   .genre .g_item li a {
-    padding: 4% 0;
-    border: 1px solid #cfa64d;
-    border-radius: 4px;
+    padding: 8% 0;
+    border: 1px solid #3a2;
+    border-radius: 3px;
     font-size: calc(46vw/12);
     letter-spacing: 1.3px;
-  }
-  .genre .g_item li a:hover {
-    background: none;
-    color: #cfa64d;
-  }
-  .genre .g_btn {
-    margin: 9% 0 0;
-  }
-  .genre .g_btn a {
-    display: block;
-    padding: 3.1%;
-    font-size: calc(39vw/12);
-    line-height: 1.4;
-    border-radius: 5px;
-    border: 1px solid #cfa64d;
-    color: #cfa64d;
-  }
-  .genre .g_btn a:before {
-    top: 38%;
-    right: 2.5%;
-    background-size: 10px 17px;
-    width: 10px;
-    height: 17px;
-  }
-  .genre .g_btn a .gt {
-    font-size: calc(32vw/12);
-  }
-  .genre .g_btn a .gnum {
-    font-size: calc(45vw/12);
   }
 
   footer {
