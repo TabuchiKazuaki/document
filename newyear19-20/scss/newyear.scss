@@ -16,7 +16,7 @@ a {
 img  { width: 100%;}
 
 .wrap {
-	max-width: 768px;
+	max-width: 681px;
 	margin: 0 auto;
 }
 
@@ -25,7 +25,7 @@ img  { width: 100%;}
 }
 .line {
 	background: #efefef;
-	max-width: 768px;
+	max-width: 681px;
 	margin: 0 auto 40px;
 	height: 35px;
 }
@@ -286,7 +286,7 @@ aside {
 	background: #efefef;
 	padding: 17px 0 36px;
 	.wrap {
-		max-width: 768px;
+		max-width: 681px;
 		margin: 0 auto;
 	}
 	.f_d {
@@ -334,6 +334,81 @@ aside {
 		font-size: 20px;
 	}
 }
+
+.function {
+	padding: 80px 0 80px;
+	.f_h {
+		font-weight: bold;
+		font-size: 35px;
+		line-height: 1.4;
+		text-align: center;
+		letter-spacing: 2px;
+		.f_b {
+			display: inline-block;
+			margin: 0 7px 0 0;
+			letter-spacing: 1.2px;
+			font-size: 48px;
+		}
+		.num {
+			display: inline-block;
+			margin: 0 6px 0 0;
+			letter-spacing: 1.2px;
+			font-size: 60px;
+		}
+		.cl {
+			color: #e5c200;
+		}
+		.f_sec {
+			letter-spacing: 3.5px;
+		}
+	}
+
+	.f_item {
+		overflow: hidden;
+		margin: 50px 0 0;
+		li {
+			float: left;
+			background: #efefef;
+			width: 47.4%;
+			margin: 5.2% 0 0 5.2%;
+			border-radius: 6px;
+			text-align: center;
+
+			&:nth-child(2n+1) {
+				margin: 5.2% 0 0 0;
+			}
+			&:nth-child(2n) {
+				margin: 5.2% 0 0 5.2%;
+			}
+			&:nth-child(2) {
+				margin: 0 0 0 5.2%;
+			}
+			&:first-child {
+				margin: 0;
+			}
+			figure {
+				line-height: 0;
+			}
+			.f_box {
+				padding: 25px 0 40px;
+			}
+
+			.fi_h {
+				font-size: 32px;
+				font-weight: bold;
+				letter-spacing: 1.3px;
+				color: #666;
+			}
+			.fi_t {
+				margin: 18px 0 0;
+				font-size: 28px;
+				letter-spacing: 1.5px;
+				color: #666;
+			}
+		}
+	}
+}
+
 
 .genre {
 	padding: 62px 0 65px;
@@ -465,7 +540,7 @@ footer {
 	}
 	.line {
 		height: 28px;
-		max-width: 768px;
+		max-width: 681px;
 		margin: 0 auto 4%;
 	}
 	.f_line {
@@ -750,6 +825,78 @@ footer {
 				border-radius: 5px;
 				font-size: calc(44vw/12);
 				letter-spacing: 1.3px;
+			}
+		}
+	}
+
+	.function {
+		padding: 10% 0 10%;
+		.f_h {
+			font-size: 35px;
+			line-height: 1.4;
+			letter-spacing: 2px;
+			.f_b {
+				display: inline-block;
+				margin: 0 7px 0 0;
+				letter-spacing: 1.2px;
+				font-size: 48px;
+			}
+			.num {
+				display: inline-block;
+				margin: 0 6px 0 0;
+				letter-spacing: 1.2px;
+				font-size: 60px;
+			}
+			.cl {
+				color: #e5c200;
+			}
+			.f_sec {
+				letter-spacing: 3.5px;
+			}
+		}
+
+		.f_item {
+			overflow: hidden;
+			margin: 50px 0 0;
+			li {
+				float: left;
+				background: #efefef;
+				width: 47.4%;
+				margin: 5.2% 0 0 5.2%;
+				border-radius: 6px;
+				text-align: center;
+
+				&:nth-child(2n+1) {
+					margin: 5.2% 0 0 0;
+				}
+				&:nth-child(2n) {
+					margin: 5.2% 0 0 5.2%;
+				}
+				&:nth-child(2) {
+					margin: 0 0 0 5.2%;
+				}
+				&:first-child {
+					margin: 0;
+				}
+				figure {
+					line-height: 0;
+				}
+				.f_box {
+					padding: 25px 0 40px;
+				}
+
+				.fi_h {
+					font-size: 32px;
+					font-weight: bold;
+					letter-spacing: 1.3px;
+					color: #666;
+				}
+				.fi_t {
+					margin: 18px 0 0;
+					font-size: 28px;
+					letter-spacing: 1.5px;
+					color: #666;
+				}
 			}
 		}
 	}
