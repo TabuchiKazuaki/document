@@ -38,11 +38,13 @@ img {
   display: none;
 }
 
-.line {
+.line_w {
   background: #efefef;
-  max-width: 681px;
-  margin: 0 auto 40px;
   height: 35px;
+}
+.line_w .line {
+  max-width: 768px;
+  margin: 0 auto;
 }
 
 .f_line {
