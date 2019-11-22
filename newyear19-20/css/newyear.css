@@ -595,10 +595,12 @@ footer small {
     padding: 0 5%;
   }
 
-  .line {
+  .line_w {
     height: 28px;
-    max-width: 681px;
-    margin: 0 auto 4%;
+  }
+  .line_w .line {
+    max-width: 768px;
+    margin: 0 auto;
   }
 
   .f_line {
@@ -1100,9 +1102,8 @@ footer small {
   }
 }
 @media screen and (max-width: 480px) {
-  .line {
+  .line_w {
     height: 17px;
-    margin: 0 auto 4%;
   }
 
   .f_line {
