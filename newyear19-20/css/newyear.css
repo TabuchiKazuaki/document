@@ -434,44 +434,45 @@ aside .f_c {
 .function .f_h .f_sec {
   letter-spacing: 3.5px;
 }
-.function .f_item {
+.function .fu_item {
   overflow: hidden;
   margin: 50px 0 0;
 }
-.function .f_item li {
+.function .fu_item li {
   float: left;
   background: #efefef;
+  max-width: 321px;
   width: 47.4%;
   margin: 5.2% 0 0 5.2%;
   border-radius: 6px;
   text-align: center;
 }
-.function .f_item li:nth-child(2n+1) {
+.function .fu_item li:nth-child(2n+1) {
   margin: 5.2% 0 0 0;
 }
-.function .f_item li:nth-child(2n) {
+.function .fu_item li:nth-child(2n) {
   margin: 5.2% 0 0 5.2%;
 }
-.function .f_item li:nth-child(2) {
+.function .fu_item li:nth-child(2) {
   margin: 0 0 0 5.2%;
 }
-.function .f_item li:first-child {
+.function .fu_item li:first-child {
   margin: 0;
 }
-.function .f_item li figure {
+.function .fu_item li figure {
   line-height: 0;
 }
-.function .f_item li .f_box {
-  padding: 25px 0 40px;
+.function .fu_item li .f_box {
+  padding: 28px 0 39px;
 }
-.function .f_item li .fi_h {
+.function .fu_item li .fi_h {
   font-size: 32px;
   font-weight: bold;
   letter-spacing: 1.3px;
   color: #666;
 }
-.function .f_item li .fi_t {
-  margin: 18px 0 0;
+.function .fu_item li .fi_t {
+  margin: 17px 0 0;
   font-size: 28px;
   letter-spacing: 1.5px;
   color: #666;
