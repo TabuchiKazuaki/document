@@ -470,6 +470,57 @@ aside {
 	}
 }
 
+.now {
+	padding: 40px 0 45px;
+	.wrap {
+		padding: 0 0 63px;
+		border-bottom: 2px solid #ababab;
+	}
+	.n_h {
+		max-width: 570px;
+		margin: 0 auto;
+	}
+	.n_img {
+		max-width: 551px;
+		margin: 81px auto 0;
+	}
+	.n_t {
+		margin: 56px 0 0;
+		line-height: 1.68;
+		font-size: 32px;
+		font-weight: bold;
+		text-align: center;
+		.num {
+			font-size: 35px;
+			letter-spacing: 1.5px;
+		}
+		.cl {
+			color: #e6c300;
+		}
+		.mr {
+			display: inline-block;
+			margin: 0 4px 0 0;
+		}
+		.ml {
+			display: inline-block;
+			margin: 0 0 0 4px;
+		}
+		.cls {
+			font-size: 41px;
+		}
+		.lin {
+			display: inline-block;
+			border-bottom: 5px solid #e6c300;
+			line-height: 1.4;
+		}
+	}
+	.n_point {
+		max-width: 644px;
+		margin: 80px auto 0;
+		line-height: 0;
+	}
+}
+
 
 .genre {
 	padding: 62px 0 65px;
@@ -1025,6 +1076,50 @@ footer {
 			font-size: calc(32vw/12);
 		}
 	}
+	.now {
+		padding: 5% 0 5.5%;
+		.wrap {
+			padding: 0 0 7%;
+			margin: 0 4.6%;
+			border-bottom: 1.5px solid #ababab;
+		}
+		.n_h {
+			width: 84%;
+		}
+		.n_img {
+			width: 81%;
+			margin: 13% auto 0;
+		}
+		.n_t {
+			margin: 7% 0 0;
+			line-height: 1.68;
+			font-size: calc(50vw/12);
+			white-space: nowrap;
+			.num {
+				font-size: calc(54vw/12);
+				letter-spacing: 1.45px;
+			}
+			.mr {
+				display: inline-block;
+				margin: 0 0.5% 0 0;
+			}
+			.ml {
+				display: inline-block;
+				margin: 0 0 0 0.5%;
+			}
+			.cls {
+				font-size: calc(62vw/12);
+			}
+			.lin {
+				border-bottom: 4px solid #e6c300;
+				line-height: 1.4;
+			}
+		}
+		.n_point {
+			width: 95%;
+			margin: 11% auto 0;
+		}
+	}
 
 	.genre {
 		padding: 4% 0 5%;
@@ -1496,6 +1591,51 @@ footer {
 			margin: 2.5% 0 0;
 			line-height: 1.4;
 			font-size: calc(34vw/12);
+		}
+	}
+
+	.now {
+		padding: 5% 0 5.5%;
+		.wrap {
+			padding: 0 0 7%;
+			margin: 0 4.6%;
+			border-bottom: 1px solid #ababab;
+		}
+		.n_h {
+			width: 84%;
+		}
+		.n_img {
+			width: 81%;
+			margin: 13% auto 0;
+		}
+		.n_t {
+			margin: 7% 0 0;
+			line-height: 1.68;
+			font-size: calc(51vw/12);
+			white-space: nowrap;
+			.num {
+				font-size: calc(56vw/12);
+				letter-spacing: 1.45px;
+			}
+			.mr {
+				display: inline-block;
+				margin: 0 0.5% 0 0;
+			}
+			.ml {
+				display: inline-block;
+				margin: 0 0 0 0.5%;
+			}
+			.cls {
+				font-size: calc(63vw/12);
+			}
+			.lin {
+				border-bottom: 3px solid #e6c300;
+				line-height: 1.4;
+			}
+		}
+		.n_point {
+			width: 95%;
+			margin: 11% auto 0;
 		}
 	}
 
