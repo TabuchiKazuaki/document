@@ -432,7 +432,7 @@ aside {
 			max-width: 321px;
 			width: 47.4%;
 			margin: 5.2% 0 0 5.2%;
-			border-radius: 6px;
+			border-radius: 9px;
 			text-align: center;
 
 			&:nth-child(2n+1) {
@@ -938,7 +938,7 @@ footer {
 	.function {
 		padding: 10% 0 10%;
 		.f_h {
-			font-size: 35px;
+			font-size: calc(55vw/12);
 			line-height: 1.4;
 			letter-spacing: 2px;
 			.f_b {
@@ -962,8 +962,7 @@ footer {
 		}
 
 		.f_item {
-			overflow: hidden;
-			margin: 50px 0 0;
+			margin: 7% 0 0;
 			li {
 				float: left;
 				background: #efefef;
@@ -988,7 +987,7 @@ footer {
 					line-height: 0;
 				}
 				.f_box {
-					padding: 25px 0 40px;
+					padding: 9% 0 11.5%;;
 				}
 
 				.fi_h {
