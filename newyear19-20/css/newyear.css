@@ -44,11 +44,12 @@ img {
 }
 
 .line_w {
-  height: 35px;
+  background: #fff;
 }
 .line_w .lin {
   background: #efefef;
   max-width: 768px;
+  height: 35px;
   margin: 0 auto;
 }
 
@@ -1068,11 +1069,8 @@ footer small {
     display: none;
   }
 
-  .line_w {
-    height: 28px;
-  }
   .line_w .lin {
-    max-width: 768px;
+    height: 28px;
     margin: 0 auto;
   }
 
@@ -1808,7 +1806,7 @@ footer small {
   }
 }
 @media screen and (max-width: 480px) {
-  .line_w {
+  .line_w .lin {
     height: 17px;
   }
 
