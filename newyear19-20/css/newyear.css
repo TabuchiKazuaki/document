@@ -234,6 +234,18 @@ header .h_line span {
   padding: 20px 0;
 }
 
+.contents .c_topic {
+  display: inline-block;
+  background: #a1882f;
+  padding: 8px 18px;
+  margin: 21px 0 22px;
+  border-radius: 30px;
+  font-size: 24.5px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
 .contents .c_h {
   border-left: 8px solid #a1882f;
   padding: 0 0 0 25px;
@@ -927,7 +939,7 @@ footer small {
     position: relative;
     background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/a20f3265feaabf4d7d8668a6af1a6b70_55031cc71cbf0e99dfe62817ea630024.png) center top no-repeat;
     background-size: cover;
-    max-width: auto;
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
   }
@@ -1132,6 +1144,13 @@ footer small {
     padding: 3% 0;
   }
 
+  .contents .c_topic {
+    padding: 1.5% 3%;
+    margin: 4.6% 0 3.8%;
+    border-radius: 30px;
+    font-size: calc(39vw/12);
+    letter-spacing: 1.5px;
+  }
   .contents .c_h {
     border-left: 6px solid #a1882f;
     padding: 0 0 0 3%;
@@ -1772,6 +1791,13 @@ footer small {
     padding: 3% 0;
   }
 
+  .contents .c_topic {
+    padding: 1.5% 3%;
+    margin: 4.8% 0 3.8%;
+    border-radius: 30px;
+    font-size: calc(41vw/12);
+    letter-spacing: 1.5px;
+  }
   .contents .c_h {
     border-left: 4px solid #a1882f;
     padding: 0 0 0 3%;
