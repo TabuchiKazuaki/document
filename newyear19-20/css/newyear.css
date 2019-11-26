@@ -460,12 +460,17 @@ header .h_line span {
 }
 .contents .c_one .c_one_btn a {
   display: block;
-  background: #a1882f;
+  background: none;
   padding: 15px 0;
   text-align: center;
   border-radius: 6px;
   border: 3px solid #a1882f;
   font-size: 30px;
+  color: #a1882f;
+}
+.contents .c_one .c_one_btn a:hover {
+  opacity: 1;
+  background: #a1882f;
   color: #fff;
 }
 .contents .c_eight {
@@ -1286,6 +1291,11 @@ footer small {
     border-radius: 5px;
     border: 1.5px solid #a1882f;
     font-size: calc(48vw/12);
+  }
+  .contents .c_one .c_one_btn a:hover {
+    opacity: .8;
+    background: none;
+    color: #a1882f;
   }
   .contents .c_one .c_row li {
     padding: 3.5% 0;
