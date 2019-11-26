@@ -378,6 +378,9 @@ header .h_line span {
 .contents .c_one .c_t_item li:last-child {
   border-bottom: none;
 }
+.contents .c_one .c_t_item li:first-child {
+  padding: 25px 0 0;
+}
 .contents .c_one .c_t_dl {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1256,6 +1259,9 @@ footer small {
   .contents .c_one .c_t_item li {
     padding: 4% 0 0;
   }
+  .contents .c_one .c_t_item li:first-child {
+    padding: 2.8% 0 0;
+  }
   .contents .c_one .c_t_dl dd {
     width: 52%;
   }
@@ -1902,6 +1908,9 @@ footer small {
   }
   .contents .c_one .c_t_item li {
     padding: 4% 0 0;
+  }
+  .contents .c_one .c_t_item li:first-child {
+    padding: 2.8% 0 0;
   }
   .contents .c_one .c_t_dl dd {
     width: 52%;
