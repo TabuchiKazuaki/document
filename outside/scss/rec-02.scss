@@ -135,7 +135,7 @@ article {
 		li {
 			&:first-child {
 				a {
-					padding: 12px 0 28px;
+					padding: 6px 0 28px;
 				}
 			}
 		}
@@ -348,6 +348,15 @@ footer {
 	.sub-contents {
 		width: 91%;
 		margin: 0 auto 7% auto;
+		ul {
+			li {
+				&:first-child {
+					a {
+						padding: 1.2% 0 4%;
+					}
+				}
+			}
+		}
 		ul li a {
 			padding: 4% 0 4% 0;
 			dl {
