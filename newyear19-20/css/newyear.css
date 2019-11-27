@@ -140,6 +140,11 @@ header .h_line span {
   margin: 0 5px 0 0;
   font-size: 42px;
 }
+header .hl_i figure {
+  max-width: 778px;
+  margin: 0 auto;
+  line-height: 0;
+}
 
 .c_fr {
   background: #efefef;
@@ -1126,20 +1131,12 @@ footer small {
     margin: 0 auto;
     line-height: 0;
   }
-  header .h_line {
-    background: #c7000b;
-    padding: 17px 0;
-    letter-spacing: 1.7px;
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 1;
-    color: #e8cb73;
-  }
-  header .h_line span {
-    display: inline-block;
-    margin: 0 5px 0 0;
-    font-size: 42px;
+}
+@media screen and (max-width: 780px) {
+  header .hl_i figure {
+    width: 92%;
+    margin: 0 auto;
+    line-height: 0;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1237,6 +1234,9 @@ footer small {
     display: inline-block;
     margin: 0 0.3% 0 0;
     font-size: calc(66vw/12);
+  }
+  header .hl_i figure {
+    width: 92%;
   }
 
   .c_fr {
@@ -2585,6 +2585,19 @@ footer small {
     width: 84%;
     padding: 4.4% 0 0;
     margin: 0 auto;
+  }
+  header .h_line {
+    padding: 2.3% 0;
+    letter-spacing: 1.7px;
+    font-size: calc(65vw/12);
+  }
+  header .h_line span {
+    display: inline-block;
+    margin: 0 0.3% 0 0;
+    font-size: calc(68vw/12);
+  }
+  header .hl_i figure {
+    width: 92%;
   }
 
   .function {
