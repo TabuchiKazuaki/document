@@ -458,6 +458,9 @@ header .h_line span {
 .contents .c_one .c_row li a {
   display: block;
 }
+.contents .c_one .c_row li:last-child {
+  border-bottom: none;
+}
 .contents .c_one .c_row li:first-child {
   border-top: 1px solid #606060;
 }
