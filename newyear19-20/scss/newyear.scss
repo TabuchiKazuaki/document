@@ -133,14 +133,6 @@ header {
 		padding: 13px 0;
 		font-size: 51px;
 	}
-	.hl_i {
-
-		figure {
-			max-width: 778px;
-			margin: 0 auto;
-			line-height: 0;
-		}
-	}
 }
 .c_fr {
 	background: #efefef;
@@ -792,7 +784,7 @@ header {
 			margin: 40px 0 27px;
 			a {
 				display: block;
-				background: #3a2;
+				background: #a1882f;
 				padding: 15px 0;
 				text-align: center;
 				border-radius: 6px;
@@ -821,7 +813,7 @@ header {
 				font-size: 23px;
 				line-height: 1.35;
 				font-weight: bold;
-				color: #fff;
+				color: #000;
 			}
 		}
 	}
@@ -1227,7 +1219,7 @@ footer {
 	margin: 0 0 0;
 	border-radius: 3px;
 	font-weight: bold;
-	font-size: 21px;
+	font-size: 18px;
 	text-align: center;
 	color: #fff;
 }
@@ -1265,17 +1257,6 @@ footer {
 	}
 }
 
-@media screen and (max-width: 780px) {
-	header {
-		.hl_i {
-			figure {
-				width: 92%;
-				margin: 0 auto;
-				line-height: 0;
-			}
-		}
-	}
-}
 
 @media screen and (max-width: 768px) {
 	.bagg {
@@ -1385,11 +1366,6 @@ footer {
 			padding: 2.3% 0;
 			letter-spacing: 1.7px;
 			font-size: calc(65vw/12);
-		}
-		.hl_i {
-			figure {
-				width: 92%;
-			}
 		}
 	}
 
@@ -3035,11 +3011,6 @@ footer {
 			padding: 2.3% 0;
 			letter-spacing: 1.5px;
 			font-size: calc(67vw/12);
-		}
-		.hl_i {
-			figure {
-				width: 92%;
-			}
 		}
 	}
 
