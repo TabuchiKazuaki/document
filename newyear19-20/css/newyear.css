@@ -144,6 +144,9 @@ header .h_line span {
   margin: 0 5px 0 0;
   font-size: 42px;
 }
+header .h_sou {
+  font-size: 32px;
+}
 header .hl_ma {
   padding: 13px 0;
   font-size: 51px;
@@ -160,6 +163,11 @@ header .hl_i figure {
 }
 .c_fr .c_fr_i {
   max-width: 479px;
+  margin: 0 auto;
+  line-height: 0;
+}
+.c_fr .c_fr_sou {
+  max-width: 550px;
   margin: 0 auto;
   line-height: 0;
 }
@@ -310,6 +318,10 @@ header .hl_i figure {
 }
 .c__btn a span {
   font-size: 31px;
+}
+
+.c__sou {
+  margin: 44px 0 0;
 }
 
 .c__btn_le {
@@ -1273,6 +1285,9 @@ footer small {
     margin: 0 0.3% 0 0;
     font-size: calc(66vw/12);
   }
+  header .h_sou {
+    font-size: calc(45vw/12);
+  }
   header .hl_ma {
     padding: 2.3% 0;
     letter-spacing: 1.7px;
@@ -1287,6 +1302,10 @@ footer small {
   }
   .c_fr .c_fr_i {
     width: 70%;
+    margin: 0 auto;
+  }
+  .c_fr .c_fr_sou {
+    width: 81%;
     margin: 0 auto;
   }
   .c_fr .c_fr_h {
@@ -1402,6 +1421,10 @@ footer small {
   }
   .c__btn a span {
     font-size: calc(49vw/12);
+  }
+
+  .c__sou {
+    margin: 6.3% 0 0;
   }
 
   .c__btn_le {
@@ -2099,6 +2122,10 @@ footer small {
     width: 71%;
     margin: 0 auto;
   }
+  .c_fr .c_fr_sou {
+    width: 82%;
+    margin: 0 auto;
+  }
   .c_fr .c_fr_h {
     margin: 2.3% 0 0;
     line-height: 1.4;
@@ -2212,6 +2239,10 @@ footer small {
   }
   .c__btn a span {
     font-size: calc(51vw/12);
+  }
+
+  .c__sou {
+    margin: 6.3% 0 0;
   }
 
   .c__btn_le {
@@ -2707,6 +2738,10 @@ footer small {
     display: inline-block;
     margin: 0 0.3% 0 0;
     font-size: calc(68vw/12);
+  }
+  header .h_sou {
+    letter-spacing: 1.2px;
+    font-size: calc(46vw/12);
   }
   header .hl_ma {
     padding: 2.3% 0;
