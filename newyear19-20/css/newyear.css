@@ -610,11 +610,17 @@ header .hl_ma {
 }
 .contents .c_three .c_thr_btn a {
   display: block;
-  background: #a1882f;
+  background: none;
   padding: 15px 0;
   text-align: center;
+  border: 3px solid #a1882f;
   border-radius: 6px;
   font-size: 30px;
+  color: #a1882f;
+}
+.contents .c_three .c_thr_btn a:hover {
+  opacity: 1;
+  background: #a1882f;
   color: #fff;
 }
 .contents .c_five {
@@ -1760,6 +1766,11 @@ footer small {
     border-radius: 5px;
     border: 2px solid #a1882f;
     font-size: calc(44vw/12);
+  }
+  .contents .c_three .c_thr_btn a:hover {
+    opacity: .8;
+    background: none;
+    color: #a1882f;
   }
   .contents .c_five {
     padding: 0 0 2%;
