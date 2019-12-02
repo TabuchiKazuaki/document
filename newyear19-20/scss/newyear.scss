@@ -1249,6 +1249,11 @@ aside {
 				font-weight: bold;
 				letter-spacing: 1.3px;
 				color: #a1882f;
+				&:hover {
+					background: #a1882f;
+					opacity: 1;
+					color: #fff;
+				}
 			}
 		}
 	}
@@ -2371,6 +2376,11 @@ footer {
 					border-radius: 5px;
 					font-size: calc(44vw/12);
 					letter-spacing: 1.3px;
+					&:hover {
+						background: none;
+						opacity: 0.8;
+						color: #a1882f;
+					}
 				}
 			}
 		}

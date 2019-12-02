@@ -1278,6 +1278,11 @@ aside .f_c {
   letter-spacing: 1.3px;
   color: #a1882f;
 }
+.genre .g_item li a:hover {
+  background: #a1882f;
+  opacity: 1;
+  color: #fff;
+}
 
 footer {
   background: #efefef;
@@ -2336,6 +2341,11 @@ footer small {
     border-radius: 5px;
     font-size: calc(44vw/12);
     letter-spacing: 1.3px;
+  }
+  .genre .g_item li a:hover {
+    background: none;
+    opacity: 0.8;
+    color: #a1882f;
   }
 
   .z_ba {
