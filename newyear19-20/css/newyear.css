@@ -709,6 +709,46 @@ header .hl_ma {
   line-height: 1.4;
   color: #1a1a1a;
 }
+.contents .c_seven {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding: 0 0 50px;
+  margin: 35px 0 0;
+}
+.contents .c_seven li {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #1a1a1a;
+  width: 48%;
+  margin: 5% 0 0 4%;
+}
+.contents .c_seven li:nth-child(2n+1) {
+  margin: 5% 0 0 0;
+}
+.contents .c_seven li:nth-child(2) {
+  margin: 0 0 0 4%;
+}
+.contents .c_seven li:nth-child(1) {
+  margin: 0;
+}
+.contents .c_seven li a {
+  display: block;
+  border-radius: 6px;
+}
+.contents .c_seven li a figure {
+  line-height: 0;
+}
+.contents .c_seven li a figure img {
+  border-radius: 6px;
+}
 .contents .c_eight {
   padding: 0 0 10px;
   margin: 30px 0 0;
@@ -1811,6 +1851,25 @@ footer small {
     font-size: calc(42vw/12);
     line-height: 1.4;
   }
+  .contents .c_seven {
+    padding: 0 0 5%;
+    margin: 5% 0 0;
+  }
+  .contents .c_seven li {
+    border-radius: 6px;
+  }
+  .contents .c_seven li a {
+    border-radius: 6px;
+  }
+  .contents .c_seven li a figure img {
+    border-radius: 6px;
+  }
+  .contents .c_seven li a .c_text {
+    padding: 6.5%;
+    font-size: calc(42vw/12);
+    line-height: 1.4;
+    font-weight: bold;
+  }
   .contents .c_eight {
     padding: 0 0 1.5%;
     margin: 5% 0 0;
@@ -2667,6 +2726,25 @@ footer small {
     padding: 6%;
     font-size: calc(44vw/12);
     line-height: 1.4;
+  }
+  .contents .c_seven {
+    padding: 0 0 5%;
+    margin: 5% 0 0;
+  }
+  .contents .c_seven li {
+    border-radius: 4px;
+  }
+  .contents .c_seven li a {
+    border-radius: 4px;
+  }
+  .contents .c_seven li a figure img {
+    border-radius: 4px;
+  }
+  .contents .c_seven li a .c_text {
+    padding: 6.5%;
+    font-size: calc(44vw/12);
+    line-height: 1.4;
+    font-weight: bold;
   }
   .contents .c_eight {
     padding: 0 0 1.5%;
