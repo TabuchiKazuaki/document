@@ -1364,9 +1364,22 @@ header {
 				img {
 				}
 			}
+			.tw_date {
+				margin: 20px 0 0;
+				font-size: 22px;
+				color: #ababab;
+				.tw_s {
+					font-size: 25px;
+				}
+				.tw_ml {
+					display: inline-block;
+					margin: 0 0 0 18px;
+				}
+			}
+
 			.c_text {
 				padding: 20px 0 80px;
-				font-size: 24px;
+				font-size: 22px;
 				line-height: 1.4;
 				color: #fff;
 			}
@@ -2998,16 +3011,27 @@ footer {
 			margin: 5% 0 0;
 			li {
 				.c_text {
-					padding: 5% 0 26%;
-					font-size: calc(41vw/12);
+					padding: 4% 0 26%;
+					font-size: calc(36vw/12);
 					line-height: 1.4;
+				}
+				.tw_date {
+					margin: 5% 0 0;
+					font-size: calc(42vw/12);
+					letter-spacing: 1.3px;
+					.tw_s {
+						font-size: calc(39vw/12);
+					}
+					.tw_ml {
+						margin: 0 0 0 2.8%;
+					}
 				}
 				.c_n_btn {
 					width: 100%;
 					a {
-						padding: 5% 0;
+						padding: 5.5% 0;
 						border-radius: 3px;
-						font-size: calc(41vw/12);
+						font-size: calc(42vw/12);
 					}
 				}
 			}
@@ -4413,19 +4437,27 @@ footer {
 			margin: 5% 0 0;
 			li {
 				.c_text {
-					padding: 5% 0 26%;
-					font-size: calc(43vw/12);
+					padding: 4% 0 26%;
+					font-size: calc(38vw/12);
 					line-height: 1.4;
 				}
+				.tw_date {
+					margin: 5% 0 0;
+					font-size: calc(44vw/12);
+					letter-spacing: 1.3px;
+					.tw_s {
+						font-size: calc(41vw/12);
+					}
+					.tw_ml {
+						margin: 0 0 0 2.8%;
+					}
+				}
 				.c_n_btn {
-					position: absolute;
-					bottom: 0;
-					left: 0;
 					width: 100%;
 					a {
 						padding: 5.5% 0;
 						border-radius: 3px;
-						font-size: calc(46vw/12);
+						font-size: calc(44vw/12);
 					}
 				}
 			}
