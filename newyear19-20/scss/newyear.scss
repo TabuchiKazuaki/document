@@ -989,6 +989,24 @@ header {
 				}
 			}
 		}
+		.movie {
+			margin: 0 0 20px;
+			.movie_inner {
+				position: relative;
+				width: 100%;
+				padding-top: 56.25%;
+				margin: 18px auto 0;
+
+				iframe {
+					position: absolute;
+					z-index: 5;
+					left: 0;
+					top: 0;
+					width: 100% !important;
+					height: 100% !important;
+				}
+			}
+		}
 	}
 
 	.c_nineteen {

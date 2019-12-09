@@ -1027,6 +1027,23 @@ header .hl_ma {
   background: #a1882f;
   color: #fff;
 }
+.contents .c_eleven .movie {
+  margin: 0 0 20px;
+}
+.contents .c_eleven .movie .movie_inner {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  margin: 18px auto 0;
+}
+.contents .c_eleven .movie .movie_inner iframe {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
 .contents .c_nineteen {
   padding: 0 0 30px;
   margin: 15px 0 0;
