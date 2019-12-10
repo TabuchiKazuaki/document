@@ -1035,7 +1035,7 @@ header .h_ma .h_i3 {
   font-size: 30px;
   color: #a1882f;
 }
-.contents .c_twentyone .c_21btn a:before {
+.contents .c_twentyone .c_21btn a:hover {
   opacity: 1;
   background: #a1882f;
   color: #fff;
@@ -2079,6 +2079,11 @@ footer small {
     border-radius: 5px;
     font-size: calc(47vw/12);
     font-weight: bold;
+  }
+  .contents .c_twentyone .c_21btn a:hover {
+    opacity: 0.8;
+    background: none;
+    color: #a1882f;
   }
 
   .c_s {

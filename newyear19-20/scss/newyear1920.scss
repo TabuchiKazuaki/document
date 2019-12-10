@@ -1020,7 +1020,7 @@ header {
 				border: 3px solid #a1882f;
 				font-size: 30px;
 				color: #a1882f;
-				&:before {
+				&:hover {
 					opacity: 1;
 					background: #a1882f;
 					color: #fff;
@@ -2144,6 +2144,11 @@ footer {
 					border-radius: 5px;
 					font-size: calc(47vw/12);
 					font-weight: bold;
+					&:hover {
+						opacity: 0.8;
+						background: none;
+						color: #a1882f;
+					}
 				}
 			}
 		}
