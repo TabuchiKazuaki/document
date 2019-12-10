@@ -63,7 +63,7 @@ $(document).ready(function() {
 		  $(activeTab).fadeIn();
 		  return false;
 	 });
-	  $(".tab_content06").hide();//全ての.tab_contentを非表示
+	$(".tab_content06").hide();//全ての.tab_contentを非表示
 	 $("ul.thumb06 li:first a").addClass("active").show();//tabs内最初のliに.activeを追加
 	 $(".tab_content06:first").show();//最初の.tab_contentを表示
 	 //タブクリック時
@@ -74,7 +74,32 @@ $(document).ready(function() {
 		  var activeTab = $(this).find("a").attr("href");
 		  $(activeTab).fadeIn();
 		  return false;
-	 });
+	});
+	$(".tab_content07").hide();//全ての.tab_contentを非表示
+	$("ul.thumb07 li:first a").addClass("active").show();//tabs内最初のliに.activeを追加
+	$(".tab_content07:first").show();//最初の.tab_contentを表示
+	//タブクリック時
+	$("ul.thumb07 li").click(function() {
+		  $("ul.thumb07 li a").removeClass("active");//.activeを外す
+		  $(this).children('a').addClass("active");//クリックタブに.activeを追加
+		  $(".tab_content07").hide();
+		  var activeTab = $(this).find("a").attr("href");
+		  $(activeTab).fadeIn();
+		  return false;
+	});
+	$(".tab_content08").hide();//全ての.tab_contentを非表示
+	$("ul.thumb08 li:first a").addClass("active").show();//tabs内最初のliに.activeを追加
+	$(".tab_content08:first").show();//最初の.tab_contentを表示
+	//タブクリック時
+	$("ul.thumb08 li").click(function() {
+		  $("ul.thumb08 li a").removeClass("active");//.activeを外す
+		  $(this).children('a').addClass("active");//クリックタブに.activeを追加
+		  $(".tab_content08").hide();
+		  var activeTab = $(this).find("a").attr("href");
+		  $(activeTab).fadeIn();
+		  return false;
+	});
+
 
 	var now = new Date();
 	var tl01 = new Date("2019/06/21 00:00");
