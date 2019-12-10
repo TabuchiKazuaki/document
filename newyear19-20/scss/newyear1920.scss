@@ -2674,6 +2674,35 @@ footer {
 			letter-spacing: 1.5px;
 		}
 
+		.c_h {
+			letter-spacing: 1.4px;
+			font-size: calc(55vw/12);
+			line-height: 0.8;
+			span {
+				display: inline-block;
+				margin: 0 5px 0 0;
+				font-size: calc(61vw/12);
+			}
+			&:before {
+				top: 0;
+				left: 0;
+				width: 11%;
+				height: 100%;
+				background-size: 100% auto;
+			}
+			&:after {
+				top: 0;
+				right: 0;
+				width: 11%;
+				height: 100%;
+				background-size: 100% auto;
+			}
+		}
+
+		.c_h11 {
+			width: 44%;
+		}
+
 		.c_h_m {
 			margin: 5.5% 0 0 0;
 		}
