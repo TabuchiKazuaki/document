@@ -11,8 +11,8 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	var now = new Date();
-	var def = new Date("2020/01/01 00:00");
-	if (now.getTime() > def.getTime()) {
+	var t01 = new Date("2020/01/01 00:00");
+	if (now.getTime() > t01.getTime()) {
 		$('.h02').show();
 		$('.h01').hide();
 	}
