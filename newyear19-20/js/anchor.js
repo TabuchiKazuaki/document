@@ -3,13 +3,13 @@ $(document).ready(function() {
 	var now = new Date();
 	var banner = new Date("2019/01/01 00:00");
 	if (now.getTime() > banner.getTime()) {
-		$('.cl01').hide();
-		$('.cl02').show();
+		$('.cl01').show();
+		$('.cl02').hide();
 	}
 	var banneraf = new Date("2020/01/01 00:00");
 	if (now.getTime() > banneraf.getTime()) {
-		$('.cl01').show();
-		$('.cl02').hide();
+		$('.cl01').hide();
+		$('.cl02').show();
 	}
 });
 
