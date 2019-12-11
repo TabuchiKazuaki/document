@@ -998,11 +998,14 @@ header .h_na .h_i3 {
   border-top: none;
 }
 .contents .c_twentyone {
-  padding: 0 0 15px;
+  padding: 0 0 5px;
   margin: 35px 0 0;
 }
 .contents .c_twentyone .c21_item li {
-  padding: 60px 0 0;
+  padding: 50px 0 0;
+}
+.contents .c_twentyone .c21_item li:first-child {
+  padding: 0;
 }
 .contents .c_twentyone .c21_item figure {
   margin: 0 0 35px;
@@ -2134,11 +2137,14 @@ footer small {
     padding: 5% 0;
   }
   .contents .c_twentyone {
-    padding: 0 0 3.5%;
+    padding: 0 0 2%;
     margin: 4% 0 0;
   }
   .contents .c_twentyone .c21_item li {
-    padding: 8% 0 0;
+    padding: 7.7% 0 0;
+  }
+  .contents .c_twentyone .c21_item li:first-child {
+    padding: 0;
   }
   .contents .c_twentyone .c21_item figure {
     margin: 0 0 4.5%;
@@ -3108,11 +3114,14 @@ footer small {
     padding: 5% 0;
   }
   .contents .c_twentyone {
-    padding: 0 0 3%;
+    padding: 0 0 1%;
     margin: 4% 0 0;
   }
   .contents .c_twentyone .c21_item li {
-    padding: 8% 0 0;
+    padding: 7.7% 0 0;
+  }
+  .contents .c_twentyone .c21_item li:first-child {
+    padding: 0;
   }
   .contents .c_twentyone .c21_item figure {
     margin: 0 0 4.2%;
