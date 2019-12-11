@@ -1301,19 +1301,33 @@ aside .f_c {
   opacity: 1;
   color: #fff;
 }
-
-.g_top {
+.genre .g_top {
   margin: 45px 0 0;
   text-align: right;
 }
-.g_top a {
+.genre .g_top a {
   display: inline-block;
   font-weight: bold;
   font-size: 30px;
   letter-spacing: 1.4px;
   color: #a1882f;
 }
-.g_top a span {
+.genre .g_top a span {
+  font-size: 32px;
+}
+
+.c_top {
+  margin: 45px 0 20px;
+  text-align: right;
+}
+.c_top a {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1.4px;
+  color: #a1882f;
+}
+.c_top a span {
   font-size: 32px;
 }
 
@@ -2403,15 +2417,25 @@ footer small {
     opacity: 0.8;
     color: #a1882f;
   }
-
-  .g_top {
+  .genre .g_top {
     margin: 6% 0 0;
   }
-  .g_top a {
+  .genre .g_top a {
     font-size: calc(47vw/12);
     letter-spacing: 1.3px;
   }
-  .g_top a span {
+  .genre .g_top a span {
+    font-size: calc(51vw/12);
+  }
+
+  .c_top {
+    margin: 6% 0 3%;
+  }
+  .c_top a {
+    font-size: calc(47vw/12);
+    letter-spacing: 1.3px;
+  }
+  .c_top a span {
     font-size: calc(51vw/12);
   }
 
@@ -3365,15 +3389,25 @@ footer small {
     font-size: calc(46vw/12);
     letter-spacing: 1.3px;
   }
-
-  .g_top {
+  .genre .g_top {
     margin: 5.5% 0 0;
   }
-  .g_top a {
+  .genre .g_top a {
     font-size: calc(49vw/12);
     letter-spacing: 1.3px;
   }
-  .g_top a span {
+  .genre .g_top a span {
+    font-size: calc(53vw/12);
+  }
+
+  .c_top {
+    margin: 5.5% 0 3%;
+  }
+  .c_top a {
+    font-size: calc(49vw/12);
+    letter-spacing: 1.3px;
+  }
+  .c_top a span {
     font-size: calc(53vw/12);
   }
 
