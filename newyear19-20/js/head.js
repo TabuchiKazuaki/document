@@ -17,8 +17,8 @@ $(document).ready(function() {
 		$('.h01').hide();
 
 		// banner
-		$('.cl01').show();
-		$('.cl02').hide();
+		$('.cl01').hide();
+		$('.cl02').show();
 	}
 
 	var defdaily = new Date("2019/12/10 00:00");
