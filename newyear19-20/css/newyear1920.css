@@ -180,6 +180,7 @@ header .h_ma .h_i3 {
   letter-spacing: 1.4px;
   font-size: 34px;
   line-height: 0.8;
+  text-align: center;
 }
 .contents .c_h span {
   display: inline-block;
@@ -204,11 +205,14 @@ header .h_ma .h_i3 {
   width: 30px;
   height: 31px;
 }
-.contents .c_h11 {
-  max-width: 448px;
-  width: 100%;
-  text-align: center;
-  padding: 0 0 0 12px;
+.contents .c_h_short {
+  padding: 0 40px 0 43px;
+}
+.contents .c_h_midd {
+  padding: 0 40px 0 43px;
+}
+.contents .c_h_long {
+  padding: 0 40px 0 43px;
 }
 .contents .c_m {
   margin: 20px 0 0;
@@ -1478,9 +1482,30 @@ footer small {
     height: 100%;
     background-size: 100% auto;
   }
-  .contents .c_h11 {
-    width: 66%;
-    padding: 0 0 0 2.3%;
+  .contents .c_h_short {
+    padding: 0 5% 0 5.5%;
+  }
+  .contents .c_h_short:before {
+    top: 13%;
+    width: 8.5%;
+  }
+  .contents .c_h_short:after {
+    top: 13%;
+    width: 8.5%;
+  }
+  .contents .c_h_midd {
+    padding: 0 4.2% 0 6%;
+  }
+  .contents .c_h_long {
+    padding: 0 5% 0 6%;
+  }
+  .contents .c_h_long:before {
+    top: 10%;
+    width: 6%;
+  }
+  .contents .c_h_long:after {
+    top: 10%;
+    width: 6%;
   }
   .contents .c_m {
     margin: 2.8% 0 0;
@@ -2421,9 +2446,30 @@ footer small {
     right: 0;
     width: 6.5%;
   }
-  .contents .c_h11 {
-    width: 67%;
-    padding: 0 0 0 2.3%;
+  .contents .c_h_short {
+    padding: 0 5.2% 0 6%;
+  }
+  .contents .c_h_short:before {
+    top: 8%;
+    width: 11.5%;
+  }
+  .contents .c_h_short:after {
+    top: 8%;
+    width: 11.5%;
+  }
+  .contents .c_h_midd {
+    padding: 0 5.5% 0 6%;
+  }
+  .contents .c_h_long {
+    padding: 0 6% 0 6.5%;
+  }
+  .contents .c_h_long:before {
+    top: 10%;
+    width: 5.5%;
+  }
+  .contents .c_h_long:after {
+    top: 10%;
+    width: 5.5%;
   }
   .contents .c_h_m {
     margin: 5.5% 0 0 0;
