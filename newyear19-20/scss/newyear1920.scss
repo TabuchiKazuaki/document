@@ -55,19 +55,10 @@ img  { width: 100%;}
 
 
 .daily {
-	padding: 86px 0 0;
-	.c_h {
-		max-width: 282px;
-		margin: 0 auto;
-	}
-	.c_text {
-		margin: 20px 0 0;
-		font-size: 30px;
-		text-align: center;
-	}
+
 	.l_wrap {
 		max-width: 768px;
-		margin: 38px auto 0;
+		margin: 20px auto 0;
 	}
 
 	.days {
@@ -304,6 +295,20 @@ header {
 	letter-spacing: 1.3px;
 	color: #a1882f;
 }
+.f_40 {
+	font-size: 40px;
+}
+.f_35 {
+	font-size: 35px;
+}
+.f_30 {
+	font-size: 30px;
+}
+
+.cw_h {
+	padding: 40px 0 0;
+	text-align: center;
+}
 
 .contents {
 	background: #fff;
@@ -318,10 +323,6 @@ header {
 		font-weight: bold;
 		text-align: center;
 		color: #fff;
-	}
-	.cw_h {
-		padding: 40px 0 0;
-		text-align: center;
 	}
 
 	.c_rank {
@@ -1500,15 +1501,6 @@ footer {
 		height: 45px;
 	}
 	.daily {
-		background-size: 19% auto;
-		padding: 12% 0 0;
-		.c_h {
-			width: 39%;
-		}
-		.c_text {
-			margin: 3% 0 0;
-			font-size: calc(48vw/12);
-		}
 		.l_wrap {
 			margin: 5% auto 0;
 		}
@@ -1669,6 +1661,18 @@ footer {
 		line-height: 1.3;
 		letter-spacing: 1.3px;
 	}
+	.f_40 {
+		font-size: calc(63vw/12);
+	}
+	.f_35 {
+		font-size: calc(55vw/12);
+	}
+	.f_30 {
+		font-size: calc(47vw/12);
+	}
+	.cw_h {
+		padding: 6% 0 0;
+	}
 
 	.contents {
 		.c_topic {
@@ -1678,10 +1682,6 @@ footer {
 			font-size: calc(39vw/12);
 			letter-spacing: 1.5px;
 		}
-		.cw_h {
-			padding: 6% 0 0;
-		}
-
 		.c_h_m {
 			margin: 6% 0 0 0;
 		}
@@ -2678,15 +2678,7 @@ footer {
 		height: 31px;
 	}
 	.daily {
-		background-size: 19% auto;
-		padding: 12% 0 0;
-		.c_h {
-			font-size: calc(67vw/12);
-		}
-		.c_text {
-			margin: 3% 0 0;
-			font-size: calc(51vw/12);
-		}
+
 		.l_wrap {
 			margin: 4% auto 0;
 		}
