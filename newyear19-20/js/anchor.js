@@ -19,7 +19,6 @@ $(document).ready(function() {
 	var daily28 = new Date("2019/12/28 00:00");
 	if (now.getTime() > daily28.getTime()) {
 		$('.d_chack').show();
-		&('#d28').show();
 	}
 
 	var daily29 = new Date("2019/12/29 00:00");
