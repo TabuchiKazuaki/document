@@ -1401,14 +1401,16 @@ aside {
 .campaign {
 	margin: 25px 0 35px;
 	.cam_h {
-		border-left: 6px solid #a1882f;
-		padding: 0 0 0 3%;
-		margin: 3.5% 0 0 0;
-		line-height: 1.4;
-		font-size: calc(50vw/12);
-		span {
-			letter-spacing: 1.3px;
-			font-size: calc(52vw/12);
+		.c_h {
+			border-left: 8px solid #a1882f;
+			padding: 0 0 0 25px;
+			margin: 25px 0 0;
+			line-height: 1.3;
+			font-size: 32px;
+			span {
+				letter-spacing: 1.3px;
+				font-size: 36px;
+			}
 		}
 	}
 
@@ -2736,15 +2738,16 @@ footer {
 	.campaign {
 		margin: 3% 0 4%;
 		.cam_h {
-			border-left: 4px solid #a1882f;
+			border-left: 6px solid #a1882f;
 			padding: 0 0 0 3%;
 			margin: 3.5% 0 0 0;
 			line-height: 1.4;
-			font-size: calc(52vw/12);
+			font-size: calc(50vw/12);
 			span {
 				letter-spacing: 1.3px;
-				font-size: calc(54vw/12);
+				font-size: calc(52vw/12);
 			}
+
 		}
 
 		.cam_btn {
@@ -3919,14 +3922,14 @@ footer {
 	.campaign {
 		margin: 3% 0 4%;
 		.cam_h {
-			border-left: 8px solid #a1882f;
-			padding: 0 0 0 25px;
-			margin: 25px 0 0;
-			line-height: 1.3;
-			font-size: 32px;
+			border-left: 4px solid #a1882f;
+			padding: 0 0 0 3%;
+			margin: 3.5% 0 0 0;
+			line-height: 1.4;
+			font-size: calc(52vw/12);
 			span {
 				letter-spacing: 1.3px;
-				font-size: 36px;
+				font-size: calc(54vw/12);
 			}
 		}
 		.cam_btn {
