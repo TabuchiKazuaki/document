@@ -1054,6 +1054,74 @@ header .h_na .h_i3 {
   background: #a1882f;
   color: #fff;
 }
+.contents .c_twentytwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding: 0 0 50px;
+  margin: 35px 0 0;
+}
+.contents .c_twentytwo li {
+  position: relative;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 48%;
+  padding: 0 0;
+  margin: 5% 0 0 4%;
+}
+.contents .c_twentytwo li:nth-child(2n+1) {
+  margin: 5% 0 0 0;
+}
+.contents .c_twentytwo li:nth-child(2) {
+  margin: 0 0 0 4%;
+}
+.contents .c_twentytwo li:nth-child(1) {
+  margin: 0;
+}
+.contents .c_twentytwo li figure {
+  line-height: 0;
+}
+.contents .c_twentytwo li .tw_date {
+  margin: 20px 0 0;
+  font-size: 22px;
+  letter-spacing: 1.4px;
+  color: #ababab;
+}
+.contents .c_twentytwo li .tw_date .tw_s {
+  font-size: 25px;
+}
+.contents .c_twentytwo li .tw_date .tw_ml {
+  display: inline-block;
+  margin: 0 0 0 18px;
+}
+.contents .c_twentytwo li .c_text {
+  padding: 20px 0 80px;
+  font-size: 22px;
+  line-height: 1.4;
+  color: #fff;
+}
+.contents .c_twentytwo li .c_n_btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.contents .c_twentytwo li .c_n_btn a {
+  display: block;
+  background: #3a2;
+  padding: 15px 0;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+}
 
 aside {
   background: #efefef;
@@ -2124,6 +2192,34 @@ footer small {
     background: none;
     color: #a1882f;
   }
+  .contents .c_twentytwo {
+    padding: 0 0 5%;
+    margin: 5% 0 0;
+  }
+  .contents .c_twentytwo li .c_text {
+    padding: 4% 0 26%;
+    font-size: calc(36vw/12);
+    line-height: 1.4;
+  }
+  .contents .c_twentytwo li .tw_date {
+    margin: 5% 0 0;
+    font-size: calc(42vw/12);
+    letter-spacing: 1.3px;
+  }
+  .contents .c_twentytwo li .tw_date .tw_s {
+    font-size: calc(39vw/12);
+  }
+  .contents .c_twentytwo li .tw_date .tw_ml {
+    margin: 0 0 0 2.8%;
+  }
+  .contents .c_twentytwo li .c_n_btn {
+    width: 100%;
+  }
+  .contents .c_twentytwo li .c_n_btn a {
+    padding: 5.5% 0;
+    border-radius: 3px;
+    font-size: calc(42vw/12);
+  }
 
   .c_s {
     padding: 0;
@@ -3045,6 +3141,34 @@ footer small {
     border: 1.5px solid #a1882f;
     border-radius: 3px;
     font-size: calc(49vw/12);
+  }
+  .contents .c_twentytwo {
+    padding: 0 0 5%;
+    margin: 5% 0 0;
+  }
+  .contents .c_twentytwo li .c_text {
+    padding: 4% 0 26%;
+    font-size: calc(38vw/12);
+    line-height: 1.4;
+  }
+  .contents .c_twentytwo li .tw_date {
+    margin: 5% 0 0;
+    font-size: calc(44vw/12);
+    letter-spacing: 1.3px;
+  }
+  .contents .c_twentytwo li .tw_date .tw_s {
+    font-size: calc(41vw/12);
+  }
+  .contents .c_twentytwo li .tw_date .tw_ml {
+    margin: 0 0 0 2.8%;
+  }
+  .contents .c_twentytwo li .c_n_btn {
+    width: 100%;
+  }
+  .contents .c_twentytwo li .c_n_btn a {
+    padding: 5.5% 0;
+    border-radius: 3px;
+    font-size: calc(44vw/12);
   }
 
   .c_t {
