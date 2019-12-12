@@ -1398,6 +1398,17 @@ aside {
 	}
 }
 
+.campaign {
+	margin: 25px 0;
+	.wrap {
+		figure {
+			line-height: 0;
+		}
+	}
+	a {
+		display: block;
+	}
+}
 
 .genre {
 	padding: 15px 0 20px;
@@ -2709,6 +2720,15 @@ footer {
 		}
 	}
 
+	.campaign {
+		margin: 3% 0;
+		.wrap {
+			figure {
+				line-height: 0;
+			}
+		}
+	}
+
 	.genre {
 		padding: 2% 0 2.5%;
 		.wrap {
@@ -3871,6 +3891,10 @@ footer {
 			width: 95%;
 			margin: 11% auto 0;
 		}
+	}
+
+	.campaign {
+		margin: 3% 0;
 	}
 
 	.genre {
