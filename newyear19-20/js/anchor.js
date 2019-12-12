@@ -20,7 +20,7 @@ $(document).ready(function() {
 
 	var defdaily = new Date("2019/12/10 00:00");
 	if (now.getTime() > defdaily.getTime()) {
-		$('.d_chack').hide();
+		$('.d_check').hide();
 		$('#d28').show();
 		$('#d29').hide();
 		$('#d30').hide();
@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 	var daily28 = new Date("2019/12/28 00:00");
 	if (now.getTime() > daily28.getTime()) {
-		$('.d_chack').show();
+		$('.d_check').show();
 		$('#d28').show();
 	}
 
