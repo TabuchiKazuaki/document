@@ -1399,14 +1399,14 @@ aside {
 }
 
 .campaign {
-	margin: 25px 0;
-	.wrap {
-		figure {
+	margin: 25px 0 35px;
+
+	.cam_btn {
+		margin: 20px 0 0;
+		a {
+			display: block;
 			line-height: 0;
 		}
-	}
-	a {
-		display: block;
 	}
 }
 
@@ -2720,12 +2720,12 @@ footer {
 		}
 	}
 
+
 	.campaign {
-		margin: 3% 0;
-		.wrap {
-			figure {
-				line-height: 0;
-			}
+		margin: 3% 0 4%;
+
+		.cam_btn {
+			margin: 3% 0 0;
 		}
 	}
 
@@ -3894,7 +3894,11 @@ footer {
 	}
 
 	.campaign {
-		margin: 3% 0;
+		margin: 3% 0 4%;
+
+		.cam_btn {
+			margin: 3% 0 0;
+		}
 	}
 
 	.genre {
