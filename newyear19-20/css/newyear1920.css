@@ -87,9 +87,12 @@ img {
   display: none;
 }
 
+.daily {
+  background: #fff;
+}
 .daily .l_wrap {
-  max-width: 768px;
-  margin: 38px auto 0;
+  max-width: 750px;
+  margin: 25px auto 0;
 }
 .daily .days {
   display: -webkit-box;
@@ -98,7 +101,7 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 25px;
+  padding: 0 18px;
   border-bottom: 2px solid #e62e00;
 }
 .daily .days li {
@@ -108,7 +111,7 @@ img {
 .daily .days li a {
   display: block;
   padding: 5px 12px;
-  font-size: 36px;
+  font-size: 38px;
   font-weight: bold;
   letter-spacing: 1.3px;
   color: #c3c3c3;
@@ -1506,10 +1509,10 @@ footer small {
   }
 
   .daily .l_wrap {
-    margin: 5% auto 0;
+    margin: 3.3% auto 0;
   }
   .daily .days {
-    padding: 0 3.5%;
+    padding: 0 2.1%;
     border-bottom: 1.5px solid #e62e00;
   }
   .daily .days li {
@@ -2552,10 +2555,10 @@ footer small {
   }
 
   .daily .l_wrap {
-    margin: 4% auto 0;
+    margin: 3% auto 0;
   }
   .daily .days {
-    padding: 0 2.8%;
+    padding: 0 2.4%;
     border-bottom: 1px solid #e62e00;
   }
   .daily .days li {
