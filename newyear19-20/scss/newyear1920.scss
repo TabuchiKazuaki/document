@@ -962,6 +962,7 @@ header {
 			display: block;
 			margin: 0 0 10px;
 			letter-spacing: 1.2px;
+			font-size: 20px;
 			color: #666;
 			.num {
 				display: inline-block;
@@ -2294,13 +2295,12 @@ footer {
 			}
 			.c_10w {
 				margin: 0 0 2.5%;
+				font-size: calc(31vw/12);
 				letter-spacing: 1.2px;
 				.num {
-					display: inline-block;
 					font-size: calc(35vw/12);
 				}
 				.mr {
-					display: inline-block;
 					margin: 0 0 0 2%;
 				}
 			}
@@ -3408,14 +3408,16 @@ footer {
 				margin: 5% 0 0;
 				font-size: calc(44vw/12);
 			}
-			.num {
-				display: inline-block;
-				font-size: 22px;
-				color: #666;
-			}
-			.mr {
-				display: inline-block;
-				margin: 0 0 0 12px;
+			.c_10w {
+				margin: 0 0 2.5%;
+				font-size: calc(33vw/12);
+				letter-spacing: 1.2px;
+				.num {
+					font-size: calc(37vw/12);
+				}
+				.mr {
+					margin: 0 0 0 2%;
+				}
 			}
 			.c_btn {
 				margin: 5.5% 0 4%;

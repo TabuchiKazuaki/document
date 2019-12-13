@@ -931,6 +931,7 @@ header .h_na .h_i3 {
   display: block;
   margin: 0 0 10px;
   letter-spacing: 1.2px;
+  font-size: 20px;
   color: #666;
 }
 .contents .c_ten .c_10w .num {
@@ -2187,14 +2188,13 @@ footer small {
   }
   .contents .c_ten .c_10w {
     margin: 0 0 2.5%;
+    font-size: calc(31vw/12);
     letter-spacing: 1.2px;
   }
   .contents .c_ten .c_10w .num {
-    display: inline-block;
     font-size: calc(35vw/12);
   }
   .contents .c_ten .c_10w .mr {
-    display: inline-block;
     margin: 0 0 0 2%;
   }
   .contents .c_ten .c_btn {
@@ -3214,14 +3214,16 @@ footer small {
     margin: 5% 0 0;
     font-size: calc(44vw/12);
   }
-  .contents .c_ten .num {
-    display: inline-block;
-    font-size: 22px;
-    color: #666;
+  .contents .c_ten .c_10w {
+    margin: 0 0 2.5%;
+    font-size: calc(33vw/12);
+    letter-spacing: 1.2px;
   }
-  .contents .c_ten .mr {
-    display: inline-block;
-    margin: 0 0 0 12px;
+  .contents .c_ten .c_10w .num {
+    font-size: calc(37vw/12);
+  }
+  .contents .c_ten .c_10w .mr {
+    margin: 0 0 0 2%;
   }
   .contents .c_ten .c_btn {
     margin: 5.5% 0 4%;
