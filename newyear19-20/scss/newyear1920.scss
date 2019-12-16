@@ -940,18 +940,21 @@ header {
 	.c_ten {
 		padding: 0 0 15px;
 		margin: 35px 0 0;
+		a {
+			display: block;
+		}
 		.c_ten_dl {
 			display: flex;
 			align-items: center;
 			margin: 20px 0 0;
-			a {
-			}
+
 			dd {
 				width: 61%;
 			}
 			dt {
 				width: 36%;
 				margin: 0 0 0 3%;
+				color: #000;
 			}
 		}
 		figure {
