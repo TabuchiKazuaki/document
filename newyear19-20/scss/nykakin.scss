@@ -389,6 +389,25 @@ header {
 
 .contents {
 	background: #fff;
+	.c_sub {
+		padding: 0 0 18px;
+		margin: 55px 0 30px;
+		border-bottom: 1px solid #787878;
+		text-align: center;
+		font-size: 47px;
+		line-height: 1.35;
+		letter-spacing: 1.3px;
+		.sin {
+			display: block;
+			font-size: 37px;
+			.num {
+				font-size: 42px;
+			}
+		}
+		.cl {
+			color: #d12023;
+		}
+	}
 	.c_fig {
 		max-width: 681px;
 		margin: 40px auto 50px;
@@ -2028,6 +2047,20 @@ footer {
 	}
 
 	.contents {
+
+		.c_sub {
+			padding: 0 0 2.8%;
+			margin: 8% 0 5%;
+			font-size: calc(74vw/12);
+			line-height: 1.35;
+			letter-spacing: 1.3px;
+			.sin {
+				font-size: calc(58vw/12);
+				.num {
+					font-size: calc(65vw/12);
+				}
+			}
+		}
 		.c_fig {
 			margin: 5.5% auto 7%;
 		}
@@ -3277,6 +3310,22 @@ footer {
 	}
 
 	.contents {
+		.c_sub {
+			padding: 0 0 2.8%;
+			margin: 8% 0 5%;
+			font-size: calc(76vw/12);
+			line-height: 1.35;
+			letter-spacing: 1.3px;
+			.sin {
+				font-size: calc(60vw/12);
+				.num {
+					font-size: calc(67vw/12);
+				}
+			}
+		}
+		.c_fig {
+			margin: 5.5% auto 7%;
+		}
 		.c_item {
 			padding: 2.5% 0 0;
 			li {
