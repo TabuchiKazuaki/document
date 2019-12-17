@@ -1,11 +1,11 @@
 
 $(document).ready(function() {
 	var now = new Date();
-	var banner = new Date("2019/01/01 00:00");
-	if (now.getTime() > banner.getTime()) {
-		$('.cl01').show();
-		$('.cl02').hide();
-	}
+	// var banner = new Date("2019/01/01 00:00");
+	// if (now.getTime() > banner.getTime()) {
+	// 	$('.cl01').show();
+	// 	$('.cl02').hide();
+	// }
 	// var banneraf = new Date("2020/01/01 00:00");
 	// if (now.getTime() > banneraf.getTime()) {
 	// 	$('.cl01').hide();
@@ -20,8 +20,6 @@ $(document).ready(function() {
 
 	var defdaily = new Date("2019/12/10 00:00");
 	if (now.getTime() > defdaily.getTime()) {
-		$('.d_check').hide();
-		$('.d_wrap').hide();
 		$('#d28').show();
 		$('#d29').hide();
 		$('#d30').hide();
@@ -35,8 +33,6 @@ $(document).ready(function() {
 
 	var daily28 = new Date("2019/12/28 00:00");
 	if (now.getTime() > daily28.getTime()) {
-		$('.d_check').show();
-		$('.d_wrap').show();
 		$('#d28').show();
 	}
 
