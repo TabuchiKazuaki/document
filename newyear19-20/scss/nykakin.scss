@@ -391,7 +391,7 @@ header {
 	background: #fff;
 	.c_fig {
 		max-width: 681px;
-		margin: 40px auto 0;
+		margin: 40px auto 50px;
 		line-height: 0;
 		a {
 			display: none;
@@ -1698,6 +1698,7 @@ footer {
 	background: #efefef;
 	.wrap {
 		padding: 40px 0 40px;
+		border-top: 1px solid #7d7d7d;
 	}
 	.copy {
 		margin: 0 0 32px;
@@ -2027,6 +2028,9 @@ footer {
 	}
 
 	.contents {
+		.c_fig {
+			margin: 5.5% auto 7%;
+		}
 		.c_item {
 			padding: 2.5% 0 0;
 			li {

@@ -335,7 +335,7 @@ header .h_b .hb_i img {
 }
 .contents .c_fig {
   max-width: 681px;
-  margin: 40px auto 0;
+  margin: 40px auto 50px;
   line-height: 0;
 }
 .contents .c_fig a {
@@ -1626,6 +1626,7 @@ footer {
 }
 footer .wrap {
   padding: 40px 0 40px;
+  border-top: 1px solid #7d7d7d;
 }
 footer .copy {
   margin: 0 0 32px;
@@ -1946,6 +1947,9 @@ footer small {
     padding: 6% 0 0;
   }
 
+  .contents .c_fig {
+    margin: 5.5% auto 7%;
+  }
   .contents .c_item {
     padding: 2.5% 0 0;
   }
