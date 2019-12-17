@@ -6,11 +6,11 @@ $(document).ready(function() {
 		$('.cl01').show();
 		$('.cl02').hide();
 	}
-	// var banneraf = new Date("2020/01/01 00:00");
-	// if (now.getTime() > banneraf.getTime()) {
-	// 	$('.cl01').hide();
-	// 	$('.cl02').show();
-	// }
+	var banneraf = new Date("2020/01/01 00:00");
+	if (now.getTime() > banneraf.getTime()) {
+		$('.cl01').hide();
+		$('.cl02').show();
+	}
 });
 
 
