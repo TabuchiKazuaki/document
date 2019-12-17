@@ -835,9 +835,27 @@ header .h_b .hb_i img {
 }
 .contents .c_six li a .c_text {
   padding: 20px;
-  font-size: 27px;
+  font-size: 23px;
   line-height: 1.4;
   color: #1a1a1a;
+}
+.contents .c_six li .c_bagg {
+  display: inline-block;
+  background: #000;
+  padding: 2px 10px;
+  margin: 0 0 5px;
+  font-size: 16px;
+  border-radius: 4px;
+  letter-spacing: 1.3px;
+  color: #fff;
+}
+.contents .c_six li .c_bagg .num {
+  font-size: 17px;
+}
+.contents .c_six li .c_bagg .cl {
+  display: inline-block;
+  margin: 0 3px;
+  color: #e5c200;
 }
 .contents .c_seven {
   display: -webkit-box;
@@ -2318,8 +2336,24 @@ footer small {
   .contents .c_six li a .c_text {
     padding: 6%;
     font-weight: bold;
-    font-size: calc(42vw/12);
+    font-size: calc(36vw/12);
     line-height: 1.4;
+  }
+  .contents .c_six li .c_bagg {
+    display: inline-block;
+    padding: 0.8% 4.5%;
+    margin: 0 0 2.5%;
+    font-size: calc(25vw/12);
+    border-radius: 4px;
+    letter-spacing: 1.3px;
+    white-space: nowrap;
+  }
+  .contents .c_six li .c_bagg .num {
+    font-size: calc(27vw/12);
+  }
+  .contents .c_six li .c_bagg .cl {
+    display: inline-block;
+    margin: 0 1%;
   }
   .contents .c_seven {
     padding: 0 0 5%;
@@ -3475,8 +3509,23 @@ footer small {
   }
   .contents .c_six li a .c_text {
     padding: 6%;
-    font-size: calc(44vw/12);
+    font-size: calc(38vw/12);
     line-height: 1.4;
+  }
+  .contents .c_six li .c_bagg {
+    padding: 0.8% 4.5%;
+    margin: 0 0 2.5%;
+    font-size: calc(26vw/12);
+    border-radius: 4px;
+    letter-spacing: 1.3px;
+    white-space: nowrap;
+  }
+  .contents .c_six li .c_bagg .num {
+    font-size: calc(28vw/12);
+  }
+  .contents .c_six li .c_bagg .cl {
+    display: inline-block;
+    margin: 0 1%;
   }
   .contents .c_seven {
     padding: 0 0 5%;
