@@ -184,7 +184,7 @@ img  { width: 100%;}
 	background: #fff;
 	padding: 57px 0 60px;
 	.i_h {
-		border-left: 8px solid #a1882f;
+		border-left: 8px solid #d12023;
 		padding: 0 0 0 23px;
 		margin: 0;
 		line-height: 1.3;
@@ -370,7 +370,7 @@ header {
 	font-size: 54px;
 	line-height: 1.3;
 	letter-spacing: 1.3px;
-	color: #a1882f;
+	color: #d12023;
 }
 .f_40 {
 	font-size: 40px;
@@ -389,9 +389,97 @@ header {
 
 .contents {
 	background: #fff;
+	.c_fig {
+		max-width: 681px;
+		margin: 40px auto 0;
+		line-height: 0;
+		a {
+			display: none;
+		}
+	}
+	.c_item {
+		padding: 15px 0 0;
+		li {
+			padding: 42px 0 60px;
+			border-top: 1px solid #606060;
+			text-align: center;
+
+			&:first-child {
+				border-top: none;
+			}
+		}
+		.pot {
+			display: block;
+			background: #d12023;
+			max-width: 120px;
+			padding: 9px 0;
+			margin: 0 auto;
+			font-weight: bold;
+			border-radius: 30px;
+			letter-spacing: 1.3px;
+			font-size: 24px;
+			text-align: center;
+			color: #fff;
+			span {
+				display: inline-block;
+				margin: 0 0 0 -8px;
+				font-size: 28px;
+			}
+		}
+		.i_t {
+			max-width: 659px;
+			margin: 43px auto 0;
+			line-height: 0;
+		}
+		.i_t_s {
+			max-width: 609px;
+			margin: 43px auto 0;
+		}
+		.i_img_f {
+			max-width: 680px;
+			margin: 40px auto 0;
+			line-height: 0;
+		}
+		.i_img_s {
+			margin: 40px auto 0;
+			line-height: 0;
+		}
+
+
+		.i_cau {
+			margin: 30px 0 0;
+			font-size: 15px;
+			font-weight: bold;
+			line-height: 1.5;
+			color: #535353;
+		}
+
+		.i_btn {
+			margin: 31px 0 0;
+			a {
+				display: block;
+				background: #d12023;
+				padding: 19px 0;
+				border-radius: 6px;
+				text-align: center;
+				font-size: 28px;
+				font-weight: bold;
+				letter-spacing: 1.8px;
+				color: #fff;
+			}
+		}
+		.i_text {
+			margin: 15px 0 0;
+			font-size: 22px;
+			letter-spacing: 1.2px;
+			span {
+				font-size: 24px;
+			}
+		}
+	}
 	.c_topic {
 		display: inline-block;
-		background: #a1882f;
+		background: #d12023;
 		padding: 8px 18px;
 		margin: 41px 0 -5px;
 		border-radius: 30px;
@@ -412,7 +500,7 @@ header {
 	.c_head {
 		padding: 0 0 0 25px;
 		margin: 30px 0 0;
-		border-left: 8px solid #a1882f;
+		border-left: 8px solid #d12023;
 		line-height: 1.4;
 		font-size: 32px;
 	}
@@ -445,7 +533,7 @@ header {
 			display: flex;
 			align-items: center;
 			.cr_l {
-				background: #a1882f;
+				background: #d12023;
 				width: 11%;
 				max-width: 80px;
 				padding: 3px 0 5px;
@@ -480,16 +568,16 @@ header {
 			a {
 				display: block;
 				padding: 22px 0;
-				border: 3px solid #a1882f;
+				border: 3px solid #d12023;
 				text-align: center;
 				font-size: 30px;
 				font-weight: bold;
 				border-radius: 6px;
 				letter-spacing: 3px;
-				color: #a1882f;
+				color: #d12023;
 				&:hover {
 					opacity: 1;
-					background: #a1882f;
+					background: #d12023;
 					color: #fff;
 				}
 			}
@@ -530,7 +618,7 @@ header {
 				.rank {
 					display: block;
 					font-size: 20px;
-					color: #a1882f;
+					color: #d12023;
 					.num {
 						margin: 0 2px 0 0;
 						font-size: 30px;
@@ -570,7 +658,7 @@ header {
 					.rank {
 						display: block;
 						font-size: 20px;
-						color: #a1882f;
+						color: #d12023;
 						.num {
 							margin: 0 2px 0 0;
 							font-size: 30px;
@@ -594,12 +682,12 @@ header {
 				padding: 15px 0;
 				text-align: center;
 				border-radius: 6px;
-				border: 3px solid #a1882f;
+				border: 3px solid #d12023;
 				font-size: 30px;
-				color: #a1882f;
+				color: #d12023;
 				&:hover {
 					opacity: 1;
-					background: #a1882f;
+					background: #d12023;
 					color: #fff;
 				}
 			}
@@ -659,13 +747,13 @@ header {
 				background: none;
 				padding: 15px 0;
 				text-align: center;
-				border: 3px solid #a1882f;
+				border: 3px solid #d12023;
 				border-radius: 6px;
 				font-size: 30px;
-				color: #a1882f;
+				color: #d12023;
 				&:hover {
 					opacity: 1;
-					background: #a1882f;
+					background: #d12023;
 					color: #fff;
 				}
 			}
@@ -743,7 +831,7 @@ header {
 				.rank {
 					display: block;
 					font-size: 20px;
-					color: #a1882f;
+					color: #d12023;
 					.num {
 						margin: 0 2px 0 0;
 						font-size: 30px;
@@ -869,7 +957,7 @@ header {
 				}
 				.active {
 					box-sizing: border-box;
-					border: 4px solid #a1882f;
+					border: 4px solid #d12023;
 					img {
 						margin: -2px 0;
 						opacity: .8;
@@ -903,14 +991,14 @@ header {
 				background: none;
 				padding: 20px 0;
 				border-radius: 4px;
-				border: 3px solid #a1882f;
+				border: 3px solid #d12023;
 				text-align: center;
 				font-size: 32px;
 				letter-spacing: 1.3px;
-				color: #a1882f;
+				color: #d12023;
 
 				&:hover {
-					background: #a1882f;
+					background: #d12023;
 					opacity: 1;
 					color: #fff;
 				}
@@ -946,13 +1034,13 @@ header {
 				background: none;
 				padding: 15px 0;
 				text-align: center;
-				border: 2px solid #a1882f;
+				border: 2px solid #d12023;
 				border-radius: 6px;
 				font-size: 30px;
-				color: #a1882f;
+				color: #d12023;
 
 				&:hover {
-					background: #a1882f;
+					background: #d12023;
 					opacity: 1;
 					color: #fff;
 				}
@@ -1039,13 +1127,13 @@ header {
 				padding: 15px 0;
 				text-align: center;
 				border-radius: 6px;
-				border: 3px solid #a1882f;
+				border: 3px solid #d12023;
 				font-size: 30px;
-				color: #a1882f;
+				color: #d12023;
 
 				&:hover {
 					opacity: 1;
-					background: #a1882f;
+					background: #d12023;
 					color: #fff;
 				}
 			}
@@ -1079,12 +1167,12 @@ header {
 					padding: 15px 0;
 					text-align: center;
 					border-radius: 6px;
-					border: 3px solid #a1882f;
+					border: 3px solid #d12023;
 					font-size: 30px;
-					color: #a1882f;
+					color: #d12023;
 					&:hover {
 						opacity: 1;
-						background: #a1882f;
+						background: #d12023;
 						color: #fff;
 					}
 				}
@@ -1139,13 +1227,13 @@ header {
 				padding: 15px 0;
 				text-align: center;
 				border-radius: 6px;
-				border: 3px solid #a1882f;
+				border: 3px solid #d12023;
 				font-size: 30px;
-				color: #a1882f;
+				color: #d12023;
 
 				&:hover {
 					opacity: 1;
-					background: #a1882f;
+					background: #d12023;
 					color: #fff;
 				}
 			}
@@ -1181,7 +1269,7 @@ header {
 			}
 		}
 		.c_twh {
-			border-left: 6px solid #a1882f;
+			border-left: 6px solid #d12023;
 			padding: 0 0 0 18px;
 			line-height: 1.5;
 			font-size: 32px;
@@ -1227,12 +1315,12 @@ header {
 				padding: 15px 0;
 				text-align: center;
 				border-radius: 6px;
-				border: 3px solid #a1882f;
+				border: 3px solid #d12023;
 				font-size: 30px;
-				color: #a1882f;
+				color: #d12023;
 				&:hover {
 					opacity: 1;
-					background: #a1882f;
+					background: #d12023;
 					color: #fff;
 				}
 			}
@@ -1243,9 +1331,9 @@ header {
 			padding: 15px 0;
 			text-align: center;
 			border-radius: 6px;
-			border: 3px solid #a1882f;
+			border: 3px solid #d12023;
 			font-size: 30px;
-			color: #a1882f;
+			color: #d12023;
 		}
 	}
 
@@ -1307,14 +1395,14 @@ header {
 					background: none;
 					padding: 15px 0;
 					border-radius: 5px;
-					border: 3px solid #a1882f;
+					border: 3px solid #d12023;
 					text-align: center;
 					font-size: 28px;
-					color: #a1882f;
+					color: #d12023;
 
 					&:hover {
 						opacity: 1;
-						background: #a1882f;
+						background: #d12023;
 						color: #fff;
 					}
 				}
@@ -1367,7 +1455,7 @@ aside {
 				}
 			}
 			a {
-				color: #a1882f;
+				color: #d12023;
 				text-decoration: underline;
 				&:hover {
 					text-decoration: none;
@@ -1386,30 +1474,37 @@ aside {
 }
 
 .function {
-	padding: 40px 0 54px;
+	padding: 65px 0 54px;
 	.f_h {
 		font-weight: bold;
 		font-size: 35px;
 		line-height: 1.4;
 		text-align: center;
 		letter-spacing: 2px;
+		figure {
+			max-width: 355px;
+			margin: 0 auto;
+			line-height: 0;
+		}
 		.f_b {
 			display: inline-block;
-			margin: 0 7px 0 0;
+			margin: 0 -2px 0 0;
 			letter-spacing: 1.2px;
 			font-size: 48px;
 		}
 		.num {
 			display: inline-block;
-			margin: 0 6px 0 0;
+			margin: 0px -4px 0 0;
 			letter-spacing: 1.2px;
-			font-size: 60px;
+			font-size: 42px;
 		}
 		.cl {
-			color: #a1882f;
+			color: #d12023;
 		}
 		.f_sec {
-			letter-spacing: 3.5px;
+			display: block;
+			margin: 10px 0 0;
+			letter-spacing: 4px;
 		}
 	}
 
@@ -1519,14 +1614,13 @@ aside {
 	background: #fff;
 	.wrap {
 		padding: 40px 0 0;
-		border-top: 1px solid #606060;
 	}
 	.g_b {
 		padding: 40px 0 40px;
 	}
 	.g_h {
 		padding: 0 0 0 25px;
-		border-left: 8px solid #a1882f;
+		border-left: 8px solid #d12023;
 		line-height: 1.4;
 		font-size: 32px;
 	}
@@ -1554,15 +1648,15 @@ aside {
 				display: block;
 				background: #fff;
 				padding: 25px 0;
-				border: 2px solid #a1882f;
+				border: 2px solid #d12023;
 				border-radius: 6px;
 				text-align: center;
 				font-size: 28px;
 				font-weight: bold;
 				letter-spacing: 1.3px;
-				color: #a1882f;
+				color: #d12023;
 				&:hover {
-					background: #a1882f;
+					background: #d12023;
 					opacity: 1;
 					color: #fff;
 				}
@@ -1577,7 +1671,7 @@ aside {
 			font-weight: bold;
 			font-size: 30px;
 			letter-spacing: 1.4px;
-			color: #a1882f;
+			color: #d12023;
 			span {
 				font-size: 32px;
 			}
@@ -1593,7 +1687,7 @@ aside {
 		font-weight: bold;
 		font-size: 30px;
 		letter-spacing: 1.4px;
-		color: #a1882f;
+		color: #d12023;
 		span {
 			font-size: 32px;
 		}
@@ -1739,7 +1833,7 @@ footer {
 	.info {
 		padding: 7% 0 7.2%;
 		.i_h {
-			border-left: 6px solid #a1882f;
+			border-left: 6px solid #d12023;
 			padding: 0 0 0 3%;
 			margin: 0;
 			line-height: 1.3;
@@ -1933,6 +2027,63 @@ footer {
 	}
 
 	.contents {
+		.c_item {
+			padding: 2.5% 0 0;
+			li {
+				padding: 6% 0 7.5%;
+			}
+			.pot {
+				width: 18%;
+				padding: 1.3% 0;
+				border-radius: 30px;
+				letter-spacing: 1.3px;
+				font-size: calc(38vw/12);
+				span {
+					margin: 0 0 0 -4%;
+					font-size: calc(42vw/12);
+				}
+			}
+			.i_t {
+				width: 97%;
+				margin: 7% auto 0;
+			}
+			.i_t_s {
+				width: 90%;
+				margin: 7% auto 0;
+			}
+			.i_img_f {
+				width: 100%;
+				margin: 6% auto 0;
+			}
+			.i_img_s {
+				width: 100%;
+				margin: 6% auto 0;
+			}
+
+			.i_cau {
+				margin: 5% 0 0;
+				font-size: calc(24vw/12);
+				line-height: 1.5;
+			}
+
+			.i_btn {
+				margin: 5% 0 0;
+				a {
+					padding: 2.8% 0;
+					border-radius: 4px;
+					font-size: calc(38vw/12);
+					letter-spacing: 1.6px;
+				}
+			}
+			.i_text {
+				margin: 3% 0 0;
+				font-size: calc(34vw/12);
+				letter-spacing: 1.2px;
+				span {
+					font-size: calc(37vw/12);
+				}
+			}
+		}
 		.c_topic {
 			padding: 1.5% 3%;
 			margin: 6% 0 -1%;
@@ -1952,7 +2103,7 @@ footer {
 		.c_head {
 			padding: 0 0 0 3%;
 			margin: 4% 0 0;
-			border-left: 6px solid #a1882f;
+			border-left: 6px solid #d12023;
 			line-height: 1.4;
 			font-size: calc(50vw/12);
 		}
@@ -2000,14 +2151,14 @@ footer {
 				margin: 5.8% 0 8.5%;
 				a {
 					padding: 3.2% 0;
-					border: 2px solid #a1882f;
+					border: 2px solid #d12023;
 					font-size: calc(47vw/12);
 					border-radius: 5px;
 					letter-spacing: 2.5px;
 					&:hover {
 						opacity: .8;
 						background: none;
-						color: #a1882f;
+						color: #d12023;
 					}
 				}
 			}
@@ -2050,13 +2201,13 @@ footer {
 				a {
 					padding: 2.3% 0;
 					border-radius: 5px;
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 					font-size: calc(48vw/12);
 					font-weight: bold;
 					&:hover {
 						opacity: .8;
 						background: none;
-						color: #a1882f;
+						color: #d12023;
 					}
 				}
 			}
@@ -2172,12 +2323,12 @@ footer {
 				a {
 					padding: 2.3% 0;
 					border-radius: 5px;
-					border: 2px solid #a1882f;
+					border: 2px solid #d12023;
 					font-size: calc(44vw/12);
 					&:hover {
 						opacity: .8;
 						background: none;
-						color: #a1882f;
+						color: #d12023;
 					}
 
 				}
@@ -2323,7 +2474,7 @@ footer {
 					}
 					.active {
 						box-sizing: border-box;
-						border: 3px solid #a1882f;
+						border: 3px solid #d12023;
 						img {
 							margin: -1.6px 0;
 							opacity: .8;
@@ -2348,13 +2499,13 @@ footer {
 				a {
 					padding: 3% 0;
 					border-radius: 3px;
-					border: 2px solid #a1882f;
+					border: 2px solid #d12023;
 					font-size: calc(51vw/12);
 					font-weight: bold;
 					&:hover {
 						background: none;
 						opacity: 0.8;
-						color: #a1882f;
+						color: #d12023;
 					}
 				}
 			}
@@ -2380,12 +2531,12 @@ footer {
 				a {
 					padding: 2.7% 0;
 					border-radius: 5px;
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 					font-size: calc(40vw/12);
 					&:hover {
 						background: none;
 						opacity: 0.8;
-						color: #a1882f;
+						color: #d12023;
 					}
 				}
 			}
@@ -2443,14 +2594,14 @@ footer {
 					padding: 2.5% 0;
 					border-radius: 5px;
 					font-size: calc(48vw/12);
-					border: 2px solid #a1882f;
+					border: 2px solid #d12023;
 					font-weight: bold;
-					color: #a1882f;
+					color: #d12023;
 
 					&:hover {
 						opacity: 0.8;
 						background: none;
-						color: #a1882f;
+						color: #d12023;
 					}
 				}
 			}
@@ -2476,12 +2627,12 @@ footer {
 					a {
 						padding: 3% 0;
 						border-radius: 4px;
-						border: 2px solid #a1882f;
+						border: 2px solid #d12023;
 						font-size: calc(48vw/12);
 						&:hover {
 							opacity: 0.8;
 							background: none;
-							color: #a1882f;
+							color: #d12023;
 						}
 					}
 				}
@@ -2509,14 +2660,14 @@ footer {
 				margin: 6% 0 0;
 				a {
 					padding: 3% 0;
-					border: 2px solid #a1882f;
+					border: 2px solid #d12023;
 					border-radius: 5px;
 					font-size: calc(40vw/12);
 					font-weight: bold;
 					&:hover {
 						opacity: .8;
 						background: none;
-						color: #a1882f;
+						color: #d12023;
 					}
 				}
 			}
@@ -2543,7 +2694,7 @@ footer {
 				}
 			}
 			.c_twh {
-				border-left: 4.5px solid #a1882f;
+				border-left: 4.5px solid #d12023;
 				padding: 0 0 0 2.6%;
 				line-height: 1.4;
 				font-size: calc(50vw/12);
@@ -2579,20 +2730,20 @@ footer {
 				margin: 6% 0 0;
 				a {
 					padding: 2.2% 0;
-					border: 2px solid #a1882f;
+					border: 2px solid #d12023;
 					border-radius: 5px;
 					font-size: calc(47vw/12);
 					font-weight: bold;
 					&:hover {
 						opacity: 0.8;
 						background: none;
-						color: #a1882f;
+						color: #d12023;
 					}
 				}
 			}
 			.c_21b_no {
 				padding: 2.2% 0;
-				border: 2px solid #a1882f;
+				border: 2px solid #d12023;
 				border-radius: 5px;
 				font-size: calc(47vw/12);
 				font-weight: bold;
@@ -2624,13 +2775,13 @@ footer {
 					a {
 						padding: 5.5% 0;
 						border-radius: 4px;
-						border: 2px solid #a1882f;
+						border: 2px solid #d12023;
 						font-weight: bold;
 						font-size: calc(42vw/12);
 						&:hover {
 							opacity: 0.8;
 							background: none;
-							color: #a1882f;
+							color: #d12023;
 						}
 					}
 				}
@@ -2669,12 +2820,16 @@ footer {
 	}
 
 	.function {
-		padding: 5% 0 6%;
+		padding: 9% 0 8%;
 		.f_h {
 			font-size: calc(55vw/12);
 			line-height: 1.4;
 			letter-spacing: 2px;
 			white-space: nowrap;
+			figure {
+				width: 53%;
+				margin: 0 auto;
+			}
 			.f_b {
 				margin: 0 1% 0 0;
 				letter-spacing: 1.2px;
@@ -2682,12 +2837,13 @@ footer {
 			}
 			.num {
 				display: inline-block;
-				margin: 0 0.8% 0 0;
+				margin: 0 -0.8% 0 0;
 				letter-spacing: 1.2px;
-				font-size: calc(94vw/12);
+				font-size: calc(65vw/12);
 			}
 			.f_sec {
-				letter-spacing: 3px;
+				margin: 1.3% 0 0;
+				letter-spacing: 4px;
 			}
 		}
 
@@ -2806,18 +2962,17 @@ footer {
 	}
 
 	.genre {
-		padding: 2% 0 2.5%;
+		padding: 2% 0 4.5%;
 		.wrap {
 			padding: 6% 0 0;
 			margin: 0 5%;
-			border-top: 1px solid #606060;
 		}
 		.g_b {
 			padding: 2% 0 4%;
 		}
 		.g_h {
 			padding: 0 0 0 3%;
-			border-left: 6px solid #a1882f;
+			border-left: 6px solid #d12023;
 			line-height: 1.4;
 			font-size: calc(50vw/12);
 		}
@@ -2842,14 +2997,14 @@ footer {
 				}
 				a {
 					padding: 8% 0;
-					border: 2px solid #a1882f;
+					border: 2px solid #d12023;
 					border-radius: 5px;
 					font-size: calc(44vw/12);
 					letter-spacing: 1.3px;
 					&:hover {
 						background: none;
 						opacity: 0.8;
-						color: #a1882f;
+						color: #d12023;
 					}
 				}
 			}
@@ -2982,7 +3137,7 @@ footer {
 	.info {
 		padding: 7% 0 7.2%;
 		.i_h {
-			border-left: 4px solid #a1882f;
+			border-left: 4px solid #d12023;
 			padding: 0 0 0 3%;
 			margin: 0;
 			line-height: 1.3;
@@ -3118,6 +3273,63 @@ footer {
 	}
 
 	.contents {
+		.c_item {
+			padding: 2.5% 0 0;
+			li {
+				padding: 6% 0 7.5%;
+			}
+			.pot {
+				width: 18%;
+				padding: 1.3% 0;
+				border-radius: 30px;
+				letter-spacing: 1.3px;
+				font-size: calc(40vw/12);
+				span {
+					margin: 0 0 0 -4%;
+					font-size: calc(44vw/12);
+				}
+			}
+			.i_t {
+				width: 97%;
+				margin: 7% auto 0;
+			}
+			.i_t_s {
+				width: 90%;
+				margin: 7% auto 0;
+			}
+			.i_img_f {
+				width: 100%;
+				margin: 6% auto 0;
+			}
+			.i_img_s {
+				width: 100%;
+				margin: 6% auto 0;
+			}
+
+			.i_cau {
+				margin: 5% 0 0;
+				font-size: calc(25vw/12);
+				line-height: 1.5;
+			}
+
+			.i_btn {
+				margin: 5% 0 0;
+				a {
+					padding: 2.8% 0;
+					border-radius: 4px;
+					font-size: calc(39vw/12);
+					letter-spacing: 1.6px;
+				}
+			}
+			.i_text {
+				margin: 3% 0 0;
+				font-size: calc(35vw/12);
+				letter-spacing: 1.2px;
+				span {
+					font-size: calc(38vw/12);
+				}
+			}
+		}
 		.c_topic {
 			padding: 1.5% 3%;
 			margin: 6% 0 -1%;
@@ -3134,7 +3346,7 @@ footer {
 		.c_head {
 			padding: 0 0 0 2.8%;
 			margin: 3.5% 0 0;
-			border-left: 4px solid #a1882f;
+			border-left: 4px solid #d12023;
 			line-height: 1.4;
 			font-size: calc(52vw/12);
 		}
@@ -3183,7 +3395,7 @@ footer {
 				margin: 5.8% 0 8.5%;
 				a {
 					padding: 3% 0;
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 					font-size: calc(49vw/12);
 					border-radius: 4px;
 					letter-spacing: 2.5px;
@@ -3227,7 +3439,7 @@ footer {
 				a {
 					padding: 2.3% 0;
 					border-radius: 3px;
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 					font-size: calc(50vw/12);
 				}
 			}
@@ -3353,7 +3565,7 @@ footer {
 				a {
 					padding: 2.3% 0;
 					border-radius: 3px;
-					border: 2px solid #a1882f;
+					border: 2px solid #d12023;
 					font-size: calc(46vw/12);
 
 				}
@@ -3499,7 +3711,7 @@ footer {
 					}
 					.active {
 						box-sizing: border-box;
-						border: 2px solid #a1882f;
+						border: 2px solid #d12023;
 						img {
 							margin: -1.2px 0;
 							opacity: .8;
@@ -3525,7 +3737,7 @@ footer {
 					padding: 3% 0;
 					border-radius: 3px;
 					font-size: calc(53vw/12);
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 					font-weight: bold;
 				}
 			}
@@ -3550,10 +3762,10 @@ footer {
 				margin: 6% 0 4%;
 				a {
 					padding: 2.7% 0;
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 					border-radius: 4px;
 					font-size: calc(42vw/12);
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 				}
 			}
 			.c9_item {
@@ -3601,7 +3813,7 @@ footer {
 				margin: 5.5% 0 0;
 				a {
 					padding: 2.5% 0;
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 					border-radius: 4px;
 					font-size: calc(50vw/12);
 				}
@@ -3628,7 +3840,7 @@ footer {
 					margin: 5% 0 0;
 					a {
 						padding: 3% 0;
-						border: 1.5px solid #a1882f;
+						border: 1.5px solid #d12023;
 						border-radius: 3px;
 						font-size: calc(50vw/12);
 					}
@@ -3657,7 +3869,7 @@ footer {
 				margin: 6% 0 0;
 				a {
 					padding: 3% 0;
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 					border-radius: 4px;
 					font-size: calc(42vw/12);
 				}
@@ -3685,7 +3897,7 @@ footer {
 				}
 			}
 			.c_twh {
-				border-left: 3px solid #a1882f;
+				border-left: 3px solid #d12023;
 				padding: 0 0 0 2.6%;
 				line-height: 1.4;
 				font-size: calc(52vw/12);
@@ -3721,14 +3933,14 @@ footer {
 				margin: 6% 0 0;
 				a {
 					padding: 2.2% 0;
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 					border-radius: 3px;
 					font-size: calc(49vw/12);
 				}
 			}
 			.c_21b_no {
 				padding: 2.2% 0;
-				border: 1.5px solid #a1882f;
+				border: 1.5px solid #d12023;
 				border-radius: 3px;
 				font-size: calc(49vw/12);
 			}
@@ -3793,7 +4005,7 @@ footer {
 	.function {
 		padding: 5% 0 6%;
 		.f_h {
-			font-size: calc(56vw/12);
+			font-size: calc(57vw/12);
 			line-height: 1.4;
 			letter-spacing: 1.8px;
 			.f_b {
@@ -3926,18 +4138,17 @@ footer {
 	}
 
 	.genre {
-		padding: 2% 0 2.5%;
+		padding: 2% 0 6%;
 		.wrap {
 			padding: 5% 0 0;
 			margin: 0 5%;
-			border-top: 1px solid #606060;
 		}
 		.g_b {
 			padding: 2% 0 2%;
 		}
 		.g_h {
 			padding: 0 0 0 2.8%;
-			border-left: 4px solid #a1882f;
+			border-left: 4px solid #d12023;
 			line-height: 1.4;
 			font-size: calc(52vw/12);
 		}
@@ -3962,7 +4173,7 @@ footer {
 				}
 				a {
 					padding: 8% 0;
-					border: 1px solid #a1882f;
+					border: 1px solid #d12023;
 					border-radius: 3px;
 					font-size: calc(46vw/12);
 					letter-spacing: 1.3px;
