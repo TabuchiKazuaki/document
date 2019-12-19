@@ -184,7 +184,7 @@ img  { width: 100%;}
 	background: #fff;
 	padding: 57px 0 60px;
 	.i_h {
-		border-left: 8px solid #a1882f;
+		border-left: 8px solid #d12023;
 		padding: 0 0 0 23px;
 		margin: 0;
 		line-height: 1.3;
@@ -214,120 +214,120 @@ header {
 			max-width: 151px;
 		}
 	}
-	.h_ma {
-		display: none;
-		background-image: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/c04d4c55961d26e52c1a3cbefb7949c2_4e8c462ada3c18a1d20bfaa6b7f2b05f.png);
-		background-position: center center;
-		background-repeat: repeat;
+	.h_wrap {
 		position: relative;
-		height: 322px;
-		padding: 10px 0 0;
-		box-sizing: border-box;
-		.h_i {
-			background:  url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/70aa5055a2b8765a0fd785f7aa36aed5_1b3ad705a6c28c95e00e218777eea444.png) center top no-repeat;
-			background-size: cover;
-			margin: 27px auto 0;
-		}
+		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/3bbf7d547edf9d96d48fa9cc1aec821c_618bd079fbaad587632db9fe9d80030d.png) center center repeat;
+		height: 525px;
 
-		.h_h {
-			max-width: 520px;
-			padding: 39px 0px 39px;
-			margin: 0 auto;
-			line-height: 0;
-			box-sizing: border-box;
+	}
+	.h_i {
+		background-image: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/5741733bcee770782860d8843d7a37de_0554b7095d0da7e00495440a741776bf.png) , url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/16eda12473d0e51848ef22f5b3f77f5b_e707a8eb4fd8dc98a4052ec766ceb0dd.png);
+		background-position: top center ,bottom center;
+		background-repeat: repeat-x, repeat-x;
+		background-size: inherit;
+		padding: 87px 0 0;
+		height: 525px;
+		box-sizing: border-box;
+	}
+
+	.h_img {
+		max-width: 417px;
+		padding: 0;
+		margin: 0 auto 0;
+		width: 100%;
+		img {
+			max-width: 1920px;
 		}
 	}
-	.h_na {
-		display: none;
-		background-image: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/235525402f22ff91b3e6daa421fcc39a_bef294bfaf0b0485e91a1d807b58648b.png);
-		background-position: center center;
-		background-repeat: repeat;
-		position: relative;
-		height: 322px;
-		padding: 10px 0 0;
-		box-sizing: border-box;
-		.h_ni {
-			background:  url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/a32c937b52da33f0212b409ca0d4d44f_485e254daeb5d4665bc6859ebd750c2f.png) center top no-repeat;
-			background-size: cover;
-			margin: 27px auto 0;
-		}
-		.h_nh {
-			max-width: 556px;
-			padding: 50px 0px 43px;
-			margin: 0 auto;
-			line-height: 0;
-			box-sizing: border-box;
-		}
-		.h_i1 {
-			position: absolute;
-			top: 81px;
-			left: 0;
-			max-width: 180px;
-
-		}
-		.h_i2 {
-			position: absolute;
-			top: 22px;
-			right: 207px;
-			max-width: 88px;
-		}
-		.h_i3 {
-			position: absolute;
-			bottom: 32px;
-			right: 0px;
-			max-width: 227px;
+	.h_h {
+		max-width: 791px;
+		margin: 38px auto 0;
+		line-height: 0;
+	}
+	.ht {
+		margin: 32px 0 0;
+		text-align: center;
+		font-weight: bold;
+		font-size: 25px;
+		letter-spacing: 1.3px;
+		span {
+			display: inline-block;
+			margin: 0 3px;
+			font-size: 28px;
 		}
 	}
 }
 
-.c_h {
-	display: inline-block;
-	position: relative;
-	letter-spacing: 1.4px;
-	font-size: 34px;
-	line-height: 0.8;
+
+.trial_info {
+	background: #efefef;
+	padding: 38px 0 40px;
 	text-align: center;
-	span {
-		display: inline-block;
-		margin: 0 5px 0 0;
 
-		font-size: 38px;
+	.t_h {
+		font-size: 50px;
+		line-height: 1.3;
+		letter-spacing: 1.3px;
+		.cl {
+			color: #d12023;
+		}
+		.sin {
+			display: block;
+			font-size: 25px;
+			letter-spacing: 1.2px;
+			.num {
+				display: inline-block;
+				margin: 0 3px 0 0;
+				font-size: 28px;
+			}
+		}
+		.num_s {
+			font-size: 56px;
+		}
 	}
-	&:before {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 0;
-		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/9ac0a5332887d8f204bdd11c3c7b5bcd_390b648e29f37f6067afcd45f3f88c38.png) 0 0 no-repeat;
-		width: 30px;
-		height: 31px;
+	.t_img {
+		max-width: 679px;
+		margin: 33px auto 0;
 	}
-	&:after {
-		content: '';
-		position: absolute;
-		top: 0;
-		right: 0;
-		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/f244978fce901eb14d92244e086b1128_7bf62221e86fc4e1fd13cd84aea0efd3.png) 0 0 no-repeat;
-		width: 30px;
-		height: 31px;
+	.t_cau {
+		margin: 30px 0 0;
+		font-size: 24px;
+		font-weight: bold;
+		line-height: 1.5;
+		color: #1a1a1a;
+	}
+
+	.f_btn {
+		margin: 31px 0 0;
+		a {
+			display: block;
+			background: #d12023;
+			padding: 19px 0;
+			border-radius: 6px;
+			text-align: center;
+			font-size: 28px;
+			font-weight: bold;
+			letter-spacing: 1.8px;
+			color: #fff;
+		}
+	}
+	.t_date {
+		margin: 35px 0 0;
+		font-size: 21px;
+		letter-spacing: 1.2px;
+		span {
+			font-size: 23px;
+		}
 	}
 }
-.c_h_short {
-	padding: 0 40px 0 43px;
-}
-.c_h_midd {
-	padding: 0 40px 0 43px;
-}
-.c_h_long {
-	padding: 0 40px 0 43px;
-}
+
 
 .c_m {
 	margin: 20px 0 0;
 	font-size: 54px;
 	line-height: 1.3;
 	letter-spacing: 1.3px;
-	color: #a1882f;
+	color: #d12023;
 }
 .f_40 {
 	font-size: 40px;
@@ -346,9 +346,126 @@ header {
 
 .contents {
 	background: #fff;
+	.c_sub {
+		padding: 0 0 18px;
+		margin: 55px 0 30px;
+		border-bottom: 1px solid #787878;
+		text-align: center;
+		font-size: 47px;
+		line-height: 1.35;
+		letter-spacing: 1.3px;
+		.sin {
+			display: block;
+			font-size: 37px;
+			.num {
+				font-size: 42px;
+			}
+		}
+		.cl {
+			color: #d12023;
+		}
+	}
+	.c_ti {
+		padding: 0 0 18px;
+		margin: 55px 0 30px;
+		border-bottom: 1px solid #787878;
+		text-align: center;
+		font-size: 47px;
+		line-height: 1.35;
+		letter-spacing: 1.3px;
+		color: #d12023;
+	}
+	.c_fig {
+		max-width: 681px;
+		margin: 40px auto 50px;
+		line-height: 0;
+		a {
+			display: none;
+		}
+	}
+	.c_item {
+		padding: 15px 0 0;
+		li {
+			padding: 42px 0 60px;
+			border-top: 1px solid #606060;
+			text-align: center;
+
+			&:first-child {
+				border-top: none;
+			}
+		}
+		.pot {
+			display: block;
+			background: #d12023;
+			max-width: 120px;
+			padding: 9px 0;
+			margin: 0 auto;
+			font-weight: bold;
+			border-radius: 30px;
+			letter-spacing: 1.3px;
+			font-size: 24px;
+			text-align: center;
+			color: #fff;
+			span {
+				display: inline-block;
+				margin: 0 0 0 -8px;
+				font-size: 28px;
+			}
+		}
+		.i_t {
+			max-width: 659px;
+			margin: 43px auto 0;
+			line-height: 0;
+		}
+		.i_t_s {
+			max-width: 609px;
+			margin: 43px auto 0;
+		}
+		.i_img_f {
+			max-width: 680px;
+			margin: 40px auto 0;
+			line-height: 0;
+		}
+		.i_img_s {
+			margin: 40px auto 0;
+			line-height: 0;
+		}
+
+
+		.i_cau {
+			margin: 30px 0 0;
+			font-size: 15px;
+			font-weight: bold;
+			line-height: 1.5;
+			color: #535353;
+		}
+
+		.i_btn {
+			margin: 31px 0 0;
+			a {
+				display: block;
+				background: #d12023;
+				padding: 19px 0;
+				border-radius: 6px;
+				text-align: center;
+				font-size: 28px;
+				font-weight: bold;
+				letter-spacing: 1.8px;
+				color: #fff;
+			}
+		}
+		.i_text {
+			margin: 15px 0 0;
+			font-size: 22px;
+			letter-spacing: 1.2px;
+			span {
+				font-size: 24px;
+			}
+		}
+	}
 	.c_topic {
 		display: inline-block;
-		background: #a1882f;
+		background: #d12023;
 		padding: 8px 18px;
 		margin: 41px 0 -5px;
 		border-radius: 30px;
@@ -368,10 +485,12 @@ header {
 
 	.c_head {
 		padding: 0 0 0 25px;
-		margin: 30px 0 0;
-		border-left: 8px solid #a1882f;
+		border-left: 8px solid #d12023;
 		line-height: 1.4;
 		font-size: 32px;
+		span {
+			font-style: 34px;
+		}
 	}
 	.mmt {
 		margin: 55px 0 0;
@@ -402,7 +521,7 @@ header {
 			display: flex;
 			align-items: center;
 			.cr_l {
-				background: #a1882f;
+				background: #d12023;
 				width: 11%;
 				max-width: 80px;
 				padding: 3px 0 5px;
@@ -437,16 +556,16 @@ header {
 			a {
 				display: block;
 				padding: 22px 0;
-				border: 3px solid #a1882f;
+				border: 3px solid #d12023;
 				text-align: center;
 				font-size: 30px;
 				font-weight: bold;
 				border-radius: 6px;
 				letter-spacing: 3px;
-				color: #a1882f;
+				color: #d12023;
 				&:hover {
 					opacity: 1;
-					background: #a1882f;
+					background: #d12023;
 					color: #fff;
 				}
 			}
@@ -487,7 +606,7 @@ header {
 				.rank {
 					display: block;
 					font-size: 20px;
-					color: #a1882f;
+					color: #d12023;
 					.num {
 						margin: 0 2px 0 0;
 						font-size: 30px;
@@ -527,7 +646,7 @@ header {
 					.rank {
 						display: block;
 						font-size: 20px;
-						color: #a1882f;
+						color: #d12023;
 						.num {
 							margin: 0 2px 0 0;
 							font-size: 30px;
@@ -551,12 +670,12 @@ header {
 				padding: 15px 0;
 				text-align: center;
 				border-radius: 6px;
-				border: 3px solid #a1882f;
+				border: 3px solid #d12023;
 				font-size: 30px;
-				color: #a1882f;
+				color: #d12023;
 				&:hover {
 					opacity: 1;
-					background: #a1882f;
+					background: #d12023;
 					color: #fff;
 				}
 			}
@@ -616,13 +735,13 @@ header {
 				background: none;
 				padding: 15px 0;
 				text-align: center;
-				border: 3px solid #a1882f;
+				border: 3px solid #d12023;
 				border-radius: 6px;
 				font-size: 30px;
-				color: #a1882f;
+				color: #d12023;
 				&:hover {
 					opacity: 1;
-					background: #a1882f;
+					background: #d12023;
 					color: #fff;
 				}
 			}
@@ -700,7 +819,7 @@ header {
 				.rank {
 					display: block;
 					font-size: 20px;
-					color: #a1882f;
+					color: #d12023;
 					.num {
 						margin: 0 2px 0 0;
 						font-size: 30px;
@@ -739,9 +858,29 @@ header {
 				}
 				.c_text {
 					padding: 20px;
-					font-size: 27px;
+					font-size: 23px;
 					line-height: 1.4;
-					color: #1a1a1a;
+					color: #666;
+				}
+			}
+
+			.c_bagg {
+				display: inline-block;
+				background: #000;
+				padding: 2px 10px;
+				margin: 0 0 5px;
+				font-size: 16px;
+				font-weight: bold;
+				border-radius: 4px;
+				letter-spacing: 1.3px;
+				color: #fff;
+				.num {
+					font-size: 17px;
+				}
+				.cl {
+					display: inline-block;
+					margin: 0 3px;
+					color: #e5c200;
 				}
 			}
 		}
@@ -826,7 +965,7 @@ header {
 				}
 				.active {
 					box-sizing: border-box;
-					border: 4px solid #a1882f;
+					border: 4px solid #d12023;
 					img {
 						margin: -2px 0;
 						opacity: .8;
@@ -860,19 +999,22 @@ header {
 				background: none;
 				padding: 20px 0;
 				border-radius: 4px;
-				border: 3px solid #a1882f;
+				border: 3px solid #d12023;
 				text-align: center;
 				font-size: 32px;
 				letter-spacing: 1.3px;
-				color: #a1882f;
+				color: #d12023;
 
 				&:hover {
-					background: #a1882f;
+					background: #d12023;
 					opacity: 1;
 					color: #fff;
 				}
 			}
 		}
+	}
+	.pmt {
+		padding: 30px 0 10px;
 	}
 
 	.c_nine {
@@ -903,13 +1045,13 @@ header {
 				background: none;
 				padding: 15px 0;
 				text-align: center;
-				border: 2px solid #a1882f;
+				border: 2px solid #d12023;
 				border-radius: 6px;
 				font-size: 30px;
-				color: #a1882f;
+				color: #d12023;
 
 				&:hover {
-					background: #a1882f;
+					background: #d12023;
 					opacity: 1;
 					color: #fff;
 				}
@@ -996,13 +1138,13 @@ header {
 				padding: 15px 0;
 				text-align: center;
 				border-radius: 6px;
-				border: 3px solid #a1882f;
+				border: 3px solid #d12023;
 				font-size: 30px;
-				color: #a1882f;
+				color: #d12023;
 
 				&:hover {
 					opacity: 1;
-					background: #a1882f;
+					background: #d12023;
 					color: #fff;
 				}
 			}
@@ -1036,12 +1178,12 @@ header {
 					padding: 15px 0;
 					text-align: center;
 					border-radius: 6px;
-					border: 3px solid #a1882f;
+					border: 3px solid #d12023;
 					font-size: 30px;
-					color: #a1882f;
+					color: #d12023;
 					&:hover {
 						opacity: 1;
-						background: #a1882f;
+						background: #d12023;
 						color: #fff;
 					}
 				}
@@ -1096,13 +1238,13 @@ header {
 				padding: 15px 0;
 				text-align: center;
 				border-radius: 6px;
-				border: 3px solid #a1882f;
+				border: 3px solid #d12023;
 				font-size: 30px;
-				color: #a1882f;
+				color: #d12023;
 
 				&:hover {
 					opacity: 1;
-					background: #a1882f;
+					background: #d12023;
 					color: #fff;
 				}
 			}
@@ -1138,7 +1280,7 @@ header {
 			}
 		}
 		.c_twh {
-			border-left: 6px solid #a1882f;
+			border-left: 6px solid #d12023;
 			padding: 0 0 0 18px;
 			line-height: 1.5;
 			font-size: 32px;
@@ -1184,12 +1326,12 @@ header {
 				padding: 15px 0;
 				text-align: center;
 				border-radius: 6px;
-				border: 3px solid #a1882f;
+				border: 3px solid #d12023;
 				font-size: 30px;
-				color: #a1882f;
+				color: #d12023;
 				&:hover {
 					opacity: 1;
-					background: #a1882f;
+					background: #d12023;
 					color: #fff;
 				}
 			}
@@ -1200,9 +1342,9 @@ header {
 			padding: 15px 0;
 			text-align: center;
 			border-radius: 6px;
-			border: 3px solid #a1882f;
+			border: 3px solid #d12023;
 			font-size: 30px;
-			color: #a1882f;
+			color: #d12023;
 		}
 	}
 
@@ -1264,14 +1406,14 @@ header {
 					background: none;
 					padding: 15px 0;
 					border-radius: 5px;
-					border: 3px solid #a1882f;
+					border: 3px solid #d12023;
 					text-align: center;
 					font-size: 28px;
-					color: #a1882f;
+					color: #d12023;
 
 					&:hover {
 						opacity: 1;
-						background: #a1882f;
+						background: #d12023;
 						color: #fff;
 					}
 				}
@@ -1324,7 +1466,7 @@ aside {
 				}
 			}
 			a {
-				color: #a1882f;
+				color: #d12023;
 				text-decoration: underline;
 				&:hover {
 					text-decoration: none;
@@ -1343,30 +1485,37 @@ aside {
 }
 
 .function {
-	padding: 40px 0 54px;
+	padding: 65px 0 54px;
 	.f_h {
 		font-weight: bold;
 		font-size: 35px;
 		line-height: 1.4;
 		text-align: center;
 		letter-spacing: 2px;
+		figure {
+			max-width: 355px;
+			margin: 0 auto;
+			line-height: 0;
+		}
 		.f_b {
 			display: inline-block;
-			margin: 0 7px 0 0;
+			margin: 0 -2px 0 0;
 			letter-spacing: 1.2px;
 			font-size: 48px;
 		}
 		.num {
 			display: inline-block;
-			margin: 0 6px 0 0;
+			margin: 0px -4px 0 0;
 			letter-spacing: 1.2px;
-			font-size: 60px;
+			font-size: 42px;
 		}
 		.cl {
-			color: #a1882f;
+			color: #d12023;
 		}
 		.f_sec {
-			letter-spacing: 3.5px;
+			display: block;
+			margin: 10px 0 0;
+			letter-spacing: 4px;
 		}
 	}
 
@@ -1472,18 +1621,17 @@ aside {
 
 
 .genre {
-	padding: 15px 0 20px;
+	padding: 15px 0 40px;
 	background: #fff;
 	.wrap {
 		padding: 40px 0 0;
-		border-top: 1px solid #606060;
 	}
 	.g_b {
 		padding: 40px 0 40px;
 	}
 	.g_h {
 		padding: 0 0 0 25px;
-		border-left: 8px solid #a1882f;
+		border-left: 8px solid #d12023;
 		line-height: 1.4;
 		font-size: 32px;
 	}
@@ -1511,15 +1659,15 @@ aside {
 				display: block;
 				background: #fff;
 				padding: 25px 0;
-				border: 2px solid #a1882f;
+				border: 2px solid #d12023;
 				border-radius: 6px;
 				text-align: center;
 				font-size: 28px;
 				font-weight: bold;
 				letter-spacing: 1.3px;
-				color: #a1882f;
+				color: #d12023;
 				&:hover {
-					background: #a1882f;
+					background: #d12023;
 					opacity: 1;
 					color: #fff;
 				}
@@ -1534,7 +1682,7 @@ aside {
 			font-weight: bold;
 			font-size: 30px;
 			letter-spacing: 1.4px;
-			color: #a1882f;
+			color: #d12023;
 			span {
 				font-size: 32px;
 			}
@@ -1550,7 +1698,7 @@ aside {
 		font-weight: bold;
 		font-size: 30px;
 		letter-spacing: 1.4px;
-		color: #a1882f;
+		color: #d12023;
 		span {
 			font-size: 32px;
 		}
@@ -1561,6 +1709,7 @@ footer {
 	background: #efefef;
 	.wrap {
 		padding: 40px 0 40px;
+		border-top: 1px solid #7d7d7d;
 	}
 	.copy {
 		margin: 0 0 32px;
@@ -1621,7 +1770,14 @@ footer {
 	color: #fff;
 }
 
+@media screen and (max-width: 840px) {
 
+	header {
+		.h_h {
+			width: 88%;
+		}
+	}
+}
 
 @media screen and (max-width: 768px) {
 	.bagg {
@@ -1696,7 +1852,7 @@ footer {
 	.info {
 		padding: 7% 0 7.2%;
 		.i_h {
-			border-left: 6px solid #a1882f;
+			border-left: 6px solid #d12023;
 			padding: 0 0 0 3%;
 			margin: 0;
 			line-height: 1.3;
@@ -1712,46 +1868,47 @@ footer {
 	}
 
 	header {
+		box-sizing: border-box;
 		.logo {
 			padding: 1.6% 0 1.8% 2.5%;
 			span {
 				width: 21%;
 			}
 		}
-		.h_ma {
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/c04d4c55961d26e52c1a3cbefb7949c2_4e8c462ada3c18a1d20bfaa6b7f2b05f.png);
-			background-size: contain;
-			position: relative;
+		.h_wrap {
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/e0a447ce6da21fe2f56b3faa33956db3_be7316323a246c1668484c2d33c45df4.png) center center repeat;
 			height: auto;
-			padding: 4.8% 0 5%;
+			background-size: cover;
+
+		}
+		.h_i {
+			background-size: 8.5% auto;
+			padding: 11% 0 10.5%;
+			height: auto;
 			box-sizing: border-box;
-			.h_h {
-				width: 69%;
-				padding: 5% 0 5.05%;
-				box-sizing: border-box;
-			}
-			.h_i {
-				background:  url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/dcc01268ea07e76b9c56ad16c12c06e2_8d7ede029f2261063509e43ea02640c1.png) center top no-repeat;
-				background-size: cover;
-				margin: 0 auto 0;
+		}
+
+		.h_img {
+			width: 45%;
+			padding: 0;
+			margin: 0 auto 0;
+			img {
+				max-width: 1920px;
 			}
 		}
-		.h_na {
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/235525402f22ff91b3e6daa421fcc39a_bef294bfaf0b0485e91a1d807b58648b.png);
-			background-size: contain;
-			position: relative;
-			height: auto;
-			padding: 5% 0 5.3%;
-			box-sizing: border-box;
-			.h_ni {
-				background:  url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/f5706c35abd54567377006b58d7ba8f9_966b5ceafd508bfe9adcf0470b6aa37d.png) center top no-repeat;
-				background-size: cover;
-				margin: 0 auto;
-			}
-			.h_nh {
-				width: 75%;
-				padding: 6.5% 0px 7.2%;
-				margin: 0 auto;
+		.h_h {
+			width: 84%;
+			margin: 5% auto 0;
+			line-height: 0;
+		}
+		.ht {
+			margin: 4% 0 0;
+			font-size: calc(39vw/12);
+			letter-spacing: 1.3px;
+			span {
+				display: inline-block;
+				margin: 0 0.5%;
+				font-size: calc(41vw/12);
 			}
 		}
 	}
@@ -1765,36 +1922,45 @@ footer {
 			margin: 0 5px 0 0;
 			font-size: calc(59vw/12);
 		}
-		&:before {
-			content: '';
-			position: absolute;
-			top: 10%;
-			left: 0;
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/9ac0a5332887d8f204bdd11c3c7b5bcd_390b648e29f37f6067afcd45f3f88c38.png) 0 0 no-repeat;
-			width: 6.5%;
-			height: 100%;
-			background-size: 100% auto;
-		}
-		&:after {
-			content: '';
-			position: absolute;
-			top: 10%;
-			right: 0;
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/f244978fce901eb14d92244e086b1128_7bf62221e86fc4e1fd13cd84aea0efd3.png) 0 0 no-repeat;
-			width: 6.5%;
-			height: 100%;
-			background-size: 100% auto;
-		}
+
 	}
-	.c_h_short {
-		padding: 0 5% 0 5.5%;
-		&:before {
-			top: 13%;
-			width: 8.5%;
+
+	.trial_info {
+		padding: 5% 0 5%;
+		.t_h {
+			font-size: calc(77vw/12);
+			line-height: 1.45;
+			letter-spacing: 1.3px;
+			.sin {
+				font-size: calc(40vw/12);
+				letter-spacing: 1.2px;
+				.num {
+					margin: 0 0.5% 0 0;
+					font-size: calc(43vw/12);
+				}
+			}
+			.num_s {
+				font-size: calc(80vw/12);
+			}
 		}
-		&:after {
-			top: 13%;
-			width: 8.5%;
+		.t_img {
+			width: 100%;
+			margin: 5% auto 0;
+		}
+		.t_cau {
+			margin: 4.5% 0 0;
+			font-size: calc(36vw/12);
+			line-height: 1.4;
+			letter-spacing: 1.3px;
+		}
+
+		.t_date {
+			margin: 4% 0 0;
+			font-size: calc(34vw/12);
+			letter-spacing: 1.1px;
+			span {
+				font-size: calc(37vw/12);
+			}
 		}
 	}
 
@@ -1834,6 +2000,87 @@ footer {
 	}
 
 	.contents {
+
+		.c_sub {
+			padding: 0 0 2.8%;
+			margin: 8% 0 5%;
+			font-size: calc(74vw/12);
+			line-height: 1.35;
+			letter-spacing: 1.3px;
+			.sin {
+				font-size: calc(58vw/12);
+				.num {
+					font-size: calc(65vw/12);
+				}
+			}
+		}
+		.c_ti {
+			padding: 0 0 2.8%;
+			margin: 8% 0 5%;
+			font-size: calc(74vw/12);
+			line-height: 1.35;
+			letter-spacing: 1.3px;
+		}
+		.c_fig {
+			margin: 5.5% auto 7%;
+		}
+		.c_item {
+			padding: 2.5% 0 0;
+			li {
+				padding: 6% 0 7.5%;
+			}
+			.pot {
+				width: 18%;
+				padding: 1.3% 0;
+				border-radius: 30px;
+				letter-spacing: 1.3px;
+				font-size: calc(38vw/12);
+				span {
+					margin: 0 0 0 -4%;
+					font-size: calc(42vw/12);
+				}
+			}
+			.i_t {
+				width: 97%;
+				margin: 7% auto 0;
+			}
+			.i_t_s {
+				width: 90%;
+				margin: 7% auto 0;
+			}
+			.i_img_f {
+				width: 100%;
+				margin: 6% auto 0;
+			}
+			.i_img_s {
+				width: 100%;
+				margin: 6% auto 0;
+			}
+
+			.i_cau {
+				margin: 5% 0 0;
+				font-size: calc(24vw/12);
+				line-height: 1.5;
+			}
+
+			.i_btn {
+				margin: 5% 0 0;
+				a {
+					padding: 2.8% 0;
+					border-radius: 4px;
+					font-size: calc(38vw/12);
+					letter-spacing: 1.6px;
+				}
+			}
+			.i_text {
+				margin: 3% 0 0;
+				font-size: calc(34vw/12);
+				letter-spacing: 1.2px;
+				span {
+					font-size: calc(37vw/12);
+				}
+			}
+		}
 		.c_topic {
 			padding: 1.5% 3%;
 			margin: 6% 0 -1%;
@@ -1852,10 +2099,12 @@ footer {
 
 		.c_head {
 			padding: 0 0 0 3%;
-			margin: 4% 0 0;
-			border-left: 6px solid #a1882f;
+			border-left: 6px solid #d12023;
 			line-height: 1.4;
 			font-size: calc(50vw/12);
+			span {
+				font-style: calc(53vw/12);
+			}
 		}
 		.mmt {
 			margin: 7% 0 0;
@@ -1901,14 +2150,14 @@ footer {
 				margin: 5.8% 0 8.5%;
 				a {
 					padding: 3.2% 0;
-					border: 2px solid #a1882f;
+					border: 2px solid #d12023;
 					font-size: calc(47vw/12);
 					border-radius: 5px;
 					letter-spacing: 2.5px;
 					&:hover {
 						opacity: .8;
 						background: none;
-						color: #a1882f;
+						color: #d12023;
 					}
 				}
 			}
@@ -1951,13 +2200,13 @@ footer {
 				a {
 					padding: 2.3% 0;
 					border-radius: 5px;
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 					font-size: calc(48vw/12);
 					font-weight: bold;
 					&:hover {
 						opacity: .8;
 						background: none;
-						color: #a1882f;
+						color: #d12023;
 					}
 				}
 			}
@@ -2073,12 +2322,12 @@ footer {
 				a {
 					padding: 2.3% 0;
 					border-radius: 5px;
-					border: 2px solid #a1882f;
+					border: 2px solid #d12023;
 					font-size: calc(44vw/12);
 					&:hover {
 						opacity: .8;
 						background: none;
-						color: #a1882f;
+						color: #d12023;
 					}
 
 				}
@@ -2153,8 +2402,24 @@ footer {
 					.c_text {
 						padding: 6%;
 						font-weight: bold;
-						font-size: calc(42vw/12);
+						font-size: calc(36vw/12);
 						line-height: 1.4;
+					}
+				}
+				.c_bagg {
+					display: inline-block;
+					padding: 0.8% 4.5%;
+					margin: 0 0 2.5%;
+					font-size: calc(25vw/12);
+					border-radius: 4px;
+					letter-spacing: 1.3px;
+					white-space: nowrap;
+					.num {
+						font-size: calc(27vw/12);
+					}
+					.cl {
+						display: inline-block;
+						margin: 0 1%;
 					}
 				}
 			}
@@ -2224,7 +2489,7 @@ footer {
 					}
 					.active {
 						box-sizing: border-box;
-						border: 3px solid #a1882f;
+						border: 3px solid #d12023;
 						img {
 							margin: -1.6px 0;
 							opacity: .8;
@@ -2249,16 +2514,19 @@ footer {
 				a {
 					padding: 3% 0;
 					border-radius: 3px;
-					border: 2px solid #a1882f;
+					border: 2px solid #d12023;
 					font-size: calc(51vw/12);
 					font-weight: bold;
 					&:hover {
 						background: none;
 						opacity: 0.8;
-						color: #a1882f;
+						color: #d12023;
 					}
 				}
 			}
+		}
+		.pmt {
+			padding: 5% 0 1.5%;
 		}
 
 		.c_nine {
@@ -2281,12 +2549,12 @@ footer {
 				a {
 					padding: 2.7% 0;
 					border-radius: 5px;
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 					font-size: calc(40vw/12);
 					&:hover {
 						background: none;
 						opacity: 0.8;
-						color: #a1882f;
+						color: #d12023;
 					}
 				}
 			}
@@ -2344,14 +2612,14 @@ footer {
 					padding: 2.5% 0;
 					border-radius: 5px;
 					font-size: calc(48vw/12);
-					border: 2px solid #a1882f;
+					border: 2px solid #d12023;
 					font-weight: bold;
-					color: #a1882f;
+					color: #d12023;
 
 					&:hover {
 						opacity: 0.8;
 						background: none;
-						color: #a1882f;
+						color: #d12023;
 					}
 				}
 			}
@@ -2377,12 +2645,12 @@ footer {
 					a {
 						padding: 3% 0;
 						border-radius: 4px;
-						border: 2px solid #a1882f;
+						border: 2px solid #d12023;
 						font-size: calc(48vw/12);
 						&:hover {
 							opacity: 0.8;
 							background: none;
-							color: #a1882f;
+							color: #d12023;
 						}
 					}
 				}
@@ -2410,14 +2678,14 @@ footer {
 				margin: 6% 0 0;
 				a {
 					padding: 3% 0;
-					border: 2px solid #a1882f;
+					border: 2px solid #d12023;
 					border-radius: 5px;
 					font-size: calc(40vw/12);
 					font-weight: bold;
 					&:hover {
 						opacity: .8;
 						background: none;
-						color: #a1882f;
+						color: #d12023;
 					}
 				}
 			}
@@ -2444,7 +2712,7 @@ footer {
 				}
 			}
 			.c_twh {
-				border-left: 4.5px solid #a1882f;
+				border-left: 4.5px solid #d12023;
 				padding: 0 0 0 2.6%;
 				line-height: 1.4;
 				font-size: calc(50vw/12);
@@ -2480,20 +2748,20 @@ footer {
 				margin: 6% 0 0;
 				a {
 					padding: 2.2% 0;
-					border: 2px solid #a1882f;
+					border: 2px solid #d12023;
 					border-radius: 5px;
 					font-size: calc(47vw/12);
 					font-weight: bold;
 					&:hover {
 						opacity: 0.8;
 						background: none;
-						color: #a1882f;
+						color: #d12023;
 					}
 				}
 			}
 			.c_21b_no {
 				padding: 2.2% 0;
-				border: 2px solid #a1882f;
+				border: 2px solid #d12023;
 				border-radius: 5px;
 				font-size: calc(47vw/12);
 				font-weight: bold;
@@ -2525,13 +2793,13 @@ footer {
 					a {
 						padding: 5.5% 0;
 						border-radius: 4px;
-						border: 2px solid #a1882f;
+						border: 2px solid #d12023;
 						font-weight: bold;
 						font-size: calc(42vw/12);
 						&:hover {
 							opacity: 0.8;
 							background: none;
-							color: #a1882f;
+							color: #d12023;
 						}
 					}
 				}
@@ -2570,12 +2838,16 @@ footer {
 	}
 
 	.function {
-		padding: 5% 0 6%;
+		padding: 9% 0 8%;
 		.f_h {
 			font-size: calc(55vw/12);
 			line-height: 1.4;
 			letter-spacing: 2px;
 			white-space: nowrap;
+			figure {
+				width: 53%;
+				margin: 0 auto;
+			}
 			.f_b {
 				margin: 0 1% 0 0;
 				letter-spacing: 1.2px;
@@ -2583,12 +2855,13 @@ footer {
 			}
 			.num {
 				display: inline-block;
-				margin: 0 0.8% 0 0;
+				margin: 0 -0.8% 0 0;
 				letter-spacing: 1.2px;
-				font-size: calc(94vw/12);
+				font-size: calc(65vw/12);
 			}
 			.f_sec {
-				letter-spacing: 3px;
+				margin: 1.3% 0 0;
+				letter-spacing: 4px;
 			}
 		}
 
@@ -2707,18 +2980,17 @@ footer {
 	}
 
 	.genre {
-		padding: 2% 0 2.5%;
+		padding: 2% 0 5.5%;
 		.wrap {
-			padding: 4% 0 0;
+			padding: 3% 0 0;
 			margin: 0 5%;
-			border-top: 1px solid #606060;
 		}
 		.g_b {
 			padding: 2% 0 4%;
 		}
 		.g_h {
 			padding: 0 0 0 3%;
-			border-left: 6px solid #a1882f;
+			border-left: 6px solid #d12023;
 			line-height: 1.4;
 			font-size: calc(50vw/12);
 		}
@@ -2743,14 +3015,14 @@ footer {
 				}
 				a {
 					padding: 8% 0;
-					border: 2px solid #a1882f;
+					border: 2px solid #d12023;
 					border-radius: 5px;
 					font-size: calc(44vw/12);
 					letter-spacing: 1.3px;
 					&:hover {
 						background: none;
 						opacity: 0.8;
-						color: #a1882f;
+						color: #d12023;
 					}
 				}
 			}
@@ -2883,7 +3155,7 @@ footer {
 	.info {
 		padding: 7% 0 7.2%;
 		.i_h {
-			border-left: 4px solid #a1882f;
+			border-left: 4px solid #d12023;
 			padding: 0 0 0 3%;
 			margin: 0;
 			line-height: 1.3;
@@ -2899,87 +3171,75 @@ footer {
 	}
 
 	header {
-		.h_ma {
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/c04d4c55961d26e52c1a3cbefb7949c2_4e8c462ada3c18a1d20bfaa6b7f2b05f.png);
-			background-size: contain;
-			position: relative;
-			height: auto;
-			padding: 4.8% 0 5%;
-			box-sizing: border-box;
-			.h_h {
-				width: 70%;
-				padding: 5% 0 5.05%;
-				box-sizing: border-box;
-			}
-			.h_i {
-				background:  url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/dcc01268ea07e76b9c56ad16c12c06e2_8d7ede029f2261063509e43ea02640c1.png) center top no-repeat;
-				background-size: cover;
-				margin: 0 auto 0;
+		.logo {
+			padding: 1.6% 0 1.8% 2.5%;
+			span {
+				width: 21%;
 			}
 		}
-		.h_na {
-			background-size: contain;
-			position: relative;
-			height: auto;
-			padding: 5% 0 5.2%;
-			box-sizing: border-box;
-			.h_ni {
-				background-size: cover;
-				margin: 0 auto;
-			}
-			.h_nh {
-				width: 74%;
-				padding: 6.5% 0px 7.2%;
-				margin: 0 auto;
+		.h_i {
+			background-size: 8.5% auto;
+			padding: 11% 0 10.5%;
+		}
+
+		.h_img {
+			width: 45%;
+			padding: 0;
+			margin: 0 auto 0;
+		}
+		.h_h {
+			width: 84%;
+			margin: 5% auto 0;
+			line-height: 0;
+		}
+		.ht {
+			margin: 4% 0 0;
+			font-size: calc(41vw/12);
+			letter-spacing: 1.3px;
+			span {
+				display: inline-block;
+				margin: 0 0.5%;
+				font-size: calc(43vw/12);
 			}
 		}
 	}
 
-	.c_h {
-		letter-spacing: 1.4px;
-		font-size: calc(55vw/12);
-		line-height: 0.8;
-		span {
-			display: inline-block;
-			margin: 0 5px 0 0;
-			font-size: calc(61vw/12);
+	.trial_info {
+		padding: 5% 0 5%;
+		.t_h {
+			font-size: calc(78vw/12);
+			line-height: 1.45;
+			letter-spacing: 1.3px;
+			.sin {
+				font-size: calc(41vw/12);
+				letter-spacing: 1.2px;
+				.num {
+					margin: 0 0.5% 0 0;
+					font-size: calc(44vw/12);
+				}
+			}
+			.num_s {
+				font-size: calc(81vw/12);
+			}
 		}
-		&:before {
-			top: 6%;
-			left: 0;
-			width: 6.5%;
+		.t_img {
+			width: 100%;
+			margin: 5% auto 0;
 		}
-		&:after {
-			top: 6%;
-			right: 0;
-			width: 6.5%;
+		.t_cau {
+			margin: 4.5% 0 0;
+			font-size: calc(37vw/12);
+			line-height: 1.4;
+			letter-spacing: 1.3px;
 		}
-	}
-	.c_h_short {
-		padding: 0 5.2% 0 6%;
-		&:before {
-			top: 8%;
-			width: 11.5%;
-		}
-		&:after {
-			top: 8%;
-			width: 11.5%;
-		}
-	}
 
-	.c_h_midd {
-		padding: 0 5.5% 0 5.5%;
-	}
-
-	.c_h_long {
-		padding: 0 6% 0 6.5%;
-		&:before {
-			top: 10%;
-			width: 5.5%;
-		}
-		&:after {
-			top: 10%;
-			width: 5.5%;
+		.t_date {
+			margin: 4% 0 0;
+			font-size: calc(35vw/12);
+			letter-spacing: 1.1px;
+			span {
+				font-size: calc(38vw/12);
+			}
 		}
 	}
 
@@ -2993,6 +3253,87 @@ footer {
 	}
 
 	.contents {
+		.c_sub {
+			padding: 0 0 2.8%;
+			margin: 8% 0 5%;
+			font-size: calc(76vw/12);
+			line-height: 1.35;
+			letter-spacing: 1.3px;
+			.sin {
+				font-size: calc(60vw/12);
+				.num {
+					font-size: calc(67vw/12);
+				}
+			}
+		}
+		.c_ti {
+			padding: 0 0 2.8%;
+			margin: 8% 0 5%;
+			font-size: calc(76vw/12);
+			line-height: 1.35;
+			letter-spacing: 1.3px;
+		}
+
+		.c_fig {
+			margin: 5.5% auto 7%;
+		}
+		.c_item {
+			padding: 2.5% 0 0;
+			li {
+				padding: 6% 0 7.5%;
+			}
+			.pot {
+				width: 18%;
+				padding: 1.3% 0;
+				border-radius: 30px;
+				letter-spacing: 1.3px;
+				font-size: calc(40vw/12);
+				span {
+					margin: 0 0 0 -4%;
+					font-size: calc(44vw/12);
+				}
+			}
+			.i_t {
+				width: 97%;
+				margin: 7% auto 0;
+			}
+			.i_t_s {
+				width: 90%;
+				margin: 7% auto 0;
+			}
+			.i_img_f {
+				width: 100%;
+				margin: 6% auto 0;
+			}
+			.i_img_s {
+				width: 100%;
+				margin: 6% auto 0;
+			}
+
+			.i_cau {
+				margin: 5% 0 0;
+				font-size: calc(25vw/12);
+				line-height: 1.5;
+			}
+
+			.i_btn {
+				margin: 5% 0 0;
+				a {
+					padding: 2.8% 0;
+					border-radius: 4px;
+					font-size: calc(39vw/12);
+					letter-spacing: 1.6px;
+				}
+			}
+			.i_text {
+				margin: 3% 0 0;
+				font-size: calc(35vw/12);
+				letter-spacing: 1.2px;
+				span {
+					font-size: calc(38vw/12);
+				}
+			}
+		}
 		.c_topic {
 			padding: 1.5% 3%;
 			margin: 6% 0 -1%;
@@ -3008,10 +3349,12 @@ footer {
 
 		.c_head {
 			padding: 0 0 0 2.8%;
-			margin: 3.5% 0 0;
-			border-left: 4px solid #a1882f;
+			border-left: 4px solid #d12023;
 			line-height: 1.4;
 			font-size: calc(52vw/12);
+			span {
+				font-style: calc(55vw/12);
+			}
 		}
 		.mmt {
 			margin: 6.5% 0 0;
@@ -3058,7 +3401,7 @@ footer {
 				margin: 5.8% 0 8.5%;
 				a {
 					padding: 3% 0;
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 					font-size: calc(49vw/12);
 					border-radius: 4px;
 					letter-spacing: 2.5px;
@@ -3102,7 +3445,7 @@ footer {
 				a {
 					padding: 2.3% 0;
 					border-radius: 3px;
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 					font-size: calc(50vw/12);
 				}
 			}
@@ -3228,7 +3571,7 @@ footer {
 				a {
 					padding: 2.3% 0;
 					border-radius: 3px;
-					border: 2px solid #a1882f;
+					border: 2px solid #d12023;
 					font-size: calc(46vw/12);
 
 				}
@@ -3303,8 +3646,23 @@ footer {
 					}
 					.c_text {
 						padding: 6%;
-						font-size: calc(44vw/12);
+						font-size: calc(38vw/12);
 						line-height: 1.4;
+					}
+				}
+				.c_bagg {
+					padding: 0.8% 4.5%;
+					margin: 0 0 2.5%;
+					font-size: calc(26vw/12);
+					border-radius: 4px;
+					letter-spacing: 1.3px;
+					white-space: nowrap;
+					.num {
+						font-size: calc(28vw/12);
+					}
+					.cl {
+						display: inline-block;
+						margin: 0 1%;
 					}
 				}
 			}
@@ -3374,7 +3732,7 @@ footer {
 					}
 					.active {
 						box-sizing: border-box;
-						border: 2px solid #a1882f;
+						border: 2px solid #d12023;
 						img {
 							margin: -1.2px 0;
 							opacity: .8;
@@ -3400,10 +3758,13 @@ footer {
 					padding: 3% 0;
 					border-radius: 3px;
 					font-size: calc(53vw/12);
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 					font-weight: bold;
 				}
 			}
+		}
+		.pmt {
+			padding: 5% 0 1.5%;
 		}
 
 		.c_nine {
@@ -3425,10 +3786,10 @@ footer {
 				margin: 6% 0 4%;
 				a {
 					padding: 2.7% 0;
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 					border-radius: 4px;
 					font-size: calc(42vw/12);
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 				}
 			}
 			.c9_item {
@@ -3476,7 +3837,7 @@ footer {
 				margin: 5.5% 0 0;
 				a {
 					padding: 2.5% 0;
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 					border-radius: 4px;
 					font-size: calc(50vw/12);
 				}
@@ -3503,7 +3864,7 @@ footer {
 					margin: 5% 0 0;
 					a {
 						padding: 3% 0;
-						border: 1.5px solid #a1882f;
+						border: 1.5px solid #d12023;
 						border-radius: 3px;
 						font-size: calc(50vw/12);
 					}
@@ -3532,7 +3893,7 @@ footer {
 				margin: 6% 0 0;
 				a {
 					padding: 3% 0;
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 					border-radius: 4px;
 					font-size: calc(42vw/12);
 				}
@@ -3560,7 +3921,7 @@ footer {
 				}
 			}
 			.c_twh {
-				border-left: 3px solid #a1882f;
+				border-left: 3px solid #d12023;
 				padding: 0 0 0 2.6%;
 				line-height: 1.4;
 				font-size: calc(52vw/12);
@@ -3596,14 +3957,14 @@ footer {
 				margin: 6% 0 0;
 				a {
 					padding: 2.2% 0;
-					border: 1.5px solid #a1882f;
+					border: 1.5px solid #d12023;
 					border-radius: 3px;
 					font-size: calc(49vw/12);
 				}
 			}
 			.c_21b_no {
 				padding: 2.2% 0;
-				border: 1.5px solid #a1882f;
+				border: 1.5px solid #d12023;
 				border-radius: 3px;
 				font-size: calc(49vw/12);
 			}
@@ -3668,7 +4029,7 @@ footer {
 	.function {
 		padding: 5% 0 6%;
 		.f_h {
-			font-size: calc(56vw/12);
+			font-size: calc(57vw/12);
 			line-height: 1.4;
 			letter-spacing: 1.8px;
 			.f_b {
@@ -3801,18 +4162,17 @@ footer {
 	}
 
 	.genre {
-		padding: 2% 0 2.5%;
+		padding: 2% 0 6%;
 		.wrap {
 			padding: 3% 0 0;
 			margin: 0 5%;
-			border-top: 1px solid #606060;
 		}
 		.g_b {
 			padding: 2% 0 2%;
 		}
 		.g_h {
 			padding: 0 0 0 2.8%;
-			border-left: 4px solid #a1882f;
+			border-left: 4px solid #d12023;
 			line-height: 1.4;
 			font-size: calc(52vw/12);
 		}
@@ -3837,7 +4197,7 @@ footer {
 				}
 				a {
 					padding: 8% 0;
-					border: 1px solid #a1882f;
+					border: 1px solid #d12023;
 					border-radius: 3px;
 					font-size: calc(46vw/12);
 					letter-spacing: 1.3px;
