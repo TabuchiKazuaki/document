@@ -482,6 +482,25 @@ header.h_manz .h_b .hb_f {
   font-size: 22px;
 }
 
+.contents .c_bagg {
+  display: inline-block;
+  background: #000;
+  padding: 2px 10px;
+  margin: 0 0 5px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  letter-spacing: 1.3px;
+  color: #fff;
+}
+.contents .c_bagg .num {
+  font-size: 17px;
+}
+.contents .c_bagg .cl {
+  display: inline-block;
+  margin: 0 3px;
+  color: #e5c200;
+}
 .contents .c_topic {
   display: inline-block;
   background: #a1882f;
@@ -2162,6 +2181,22 @@ footer small {
     font-size: calc(29vw/12);
   }
 
+  .contents .c_bagg {
+    display: inline-block;
+    padding: 0.8% 4.5%;
+    margin: 0 0 2.5%;
+    font-size: calc(25vw/12);
+    border-radius: 4px;
+    letter-spacing: 1.3px;
+    white-space: nowrap;
+  }
+  .contents .c_bagg .num {
+    font-size: calc(27vw/12);
+  }
+  .contents .c_bagg .cl {
+    display: inline-block;
+    margin: 0 1%;
+  }
   .contents .c_topic {
     padding: 1.5% 3%;
     margin: 6% 0 -1%;
@@ -3208,6 +3243,21 @@ footer small {
     font-size: calc(31vw/12);
   }
 
+  .contents .c_bagg {
+    padding: 0.8% 4.5%;
+    margin: 0 0 2.5%;
+    font-size: calc(26vw/12);
+    border-radius: 4px;
+    letter-spacing: 1.3px;
+    white-space: nowrap;
+  }
+  .contents .c_bagg .num {
+    font-size: calc(28vw/12);
+  }
+  .contents .c_bagg .cl {
+    display: inline-block;
+    margin: 0 1%;
+  }
   .contents .c_topic {
     padding: 1.5% 3%;
     margin: 6% 0 -1%;
