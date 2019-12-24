@@ -1305,7 +1305,7 @@ aside .f_d dt {
 }
 aside .f_d dd {
   margin: 25px 0 0;
-  font-size: 21px;
+  font-size: 19px;
   line-height: 1.45;
   letter-spacing: 1.4px;
   color: #666;
@@ -1328,6 +1328,9 @@ aside .f_d dd a {
   text-decoration: underline;
 }
 aside .f_d dd a:hover {
+  text-decoration: none;
+}
+aside .f_d dd .anh_line {
   text-decoration: none;
 }
 aside .f_d .dd_last {
@@ -1555,6 +1558,7 @@ footer {
 }
 footer .wrap {
   padding: 40px 0 40px;
+  border-top: 1px solid #606060;
 }
 footer .copy {
   margin: 0 0 32px;
@@ -2586,7 +2590,7 @@ footer small {
   }
   aside .f_d dd {
     margin: 3.7% 0 0;
-    font-size: calc(34vw/12);
+    font-size: calc(32vw/12);
     line-height: 1.45;
     letter-spacing: 1.3px;
   }
@@ -3630,7 +3634,7 @@ footer small {
   }
   aside .f_d dd {
     margin: 3.7% 0 0;
-    font-size: calc(36vw/12);
+    font-size: calc(34vw/12);
     line-height: 1.45;
     letter-spacing: 1.3px;
   }
