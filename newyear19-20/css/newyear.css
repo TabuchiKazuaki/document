@@ -393,6 +393,21 @@ header.h_manz .h_b .hb_f {
   color: #a1882f;
 }
 
+.d_check {
+  margin: 30px 0 50px;
+}
+.d_check .d_w {
+  max-width: 750px;
+  margin: 0 auto;
+}
+.d_check .d_w .d_h {
+  width: 100%;
+  line-height: 0;
+}
+.d_check .d_w a {
+  display: none;
+}
+
 .c_manz {
   background: #efefef;
   padding: 26px 0 40px;
@@ -2090,6 +2105,10 @@ footer small {
     font-size: calc(78vw/12);
   }
 
+  .d_check {
+    margin: 4% 0 5.5%;
+  }
+
   .c_manz {
     padding: 3% 0 6%;
   }
@@ -3151,6 +3170,10 @@ footer small {
   }
   .c_cb .c_cb_t .num {
     font-size: calc(80vw/12);
+  }
+
+  .d_check {
+    margin: 4% 0 5.5%;
   }
 
   .c_manz {
