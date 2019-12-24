@@ -81,4 +81,51 @@ $(document).ready(function() {
 		$('#d05').show();
 	}
 
+
+	//abemanojikan
+	var bef = new Date("2019/01/01 00:00");
+	if (now.getTime() > bef.getTime()) {
+		$('.t01').hide();
+		$('.t02').hide();
+		$('.t03').hide();
+	}
+	var time01 = new Date("2020/01/01 00:00");
+	if (now.getTime() > time01.getTime()) {
+		$('.t01').show();
+	}
+	var time02 = new Date("2020/01/02 00:00");
+	if (now.getTime() > time02.getTime()) {
+		$('.t02').show();
+	}
+	var time03 = new Date("2020/01/03 00:00");
+	if (now.getTime() > time03.getTime()) {
+		$('.t03').show();
+	}
+	var time04 = new Date("2020/01/04 00:00");
+	if (now.getTime() > time04.getTime()) {
+		$('.t03').hide();
+	}
+
+
+	var anchor01 = new Date("2020/01/01 02:25");
+	if (now.getTime() > anchor01.getTime()) {
+		$('#a01').text('今すぐみる');
+		$('#a01').attr("href", "https://abema.tv/video/episode/90-1346_s1_p1");
+	}
+	var anchor02 = new Date("2020/01/01 04:25");
+	if (now.getTime() > anchor02.getTime()) {
+		$('#a02').text('今すぐみる');
+		$('#a02').attr("href", "https://abema.tv/video/episode/90-1345_s1_p1");
+	}
+	var anchor03 = new Date("2020/01/02 03:55");
+	if (now.getTime() > anchor03.getTime()) {
+		$('#a03').text('今すぐみる');
+		$('#a03').attr("href", "https://abema.tv/video/title/137-64");
+	}
+	var anchor04 = new Date("2020/01/03 04:30");
+	if (now.getTime() > anchor04.getTime()) {
+		$('#a04').text('今すぐみる');
+		$('#a04').attr("href", "https://abema.tv/video/episode/90-1340_s1_p1");
+	}
+
 });
