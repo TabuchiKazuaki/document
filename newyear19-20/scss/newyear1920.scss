@@ -1249,6 +1249,24 @@ header {
 			font-size: 30px;
 			color: #a1882f;
 		}
+		.c21_entry {
+			margin: 30px 0 0;
+			a {
+				display: block;
+				background: none;
+				padding: 15px 0;
+				text-align: center;
+				border-radius: 6px;
+				border: 3px solid #c7000b;
+				font-size: 30px;
+				color: #a1882f;
+				&:hover {
+					opacity: 1;
+					background: #c7000b;
+					color: #fff;
+				}
+			}
+		}
 	}
 
 	.c_twentytwo {
@@ -2585,6 +2603,21 @@ footer {
 				font-size: calc(47vw/12);
 				font-weight: bold;
 			}
+			.c21_entry {
+				margin: 4.5% 0 0;
+				a {
+					padding: 2.2% 0;
+					border: 2px solid #c7000b;
+					border-radius: 5px;
+					font-size: calc(47vw/12);
+					font-weight: bold;
+					&:hover {
+						opacity: 0.8;
+						background: none;
+						color: #c7000b;
+					}
+				}
+			}
 		}
 
 		.c_twentytwo {
@@ -3729,6 +3762,15 @@ footer {
 				border: 1.5px solid #a1882f;
 				border-radius: 3px;
 				font-size: calc(49vw/12);
+			}
+			.c21_entry {
+				margin: 4.5% 0 0;
+				a {
+					padding: 2.2% 0;
+					border: 2px solid #c7000b;
+					border-radius: 5px;
+					font-size: calc(49vw/12);
+				}
 			}
 		}
 
