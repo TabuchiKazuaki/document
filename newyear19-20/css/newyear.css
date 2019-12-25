@@ -497,6 +497,14 @@ header.h_manz .h_b .hb_f {
   font-size: 22px;
 }
 
+.contents .c_fig {
+  max-width: 681px;
+  margin: 40px auto 50px;
+  line-height: 0;
+}
+.contents .c_fig a {
+  display: none;
+}
 .contents .c_bagg {
   display: inline-block;
   background: #000;
@@ -1607,6 +1615,21 @@ aside .f_c {
   color: #fff;
 }
 
+.m_top {
+  padding: 0 0 45px;
+  text-align: right;
+}
+.m_top a {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1.4px;
+  color: #d12023;
+}
+.m_top a span {
+  font-size: 32px;
+}
+
 footer {
   background: #efefef;
 }
@@ -2182,6 +2205,9 @@ footer small {
     font-size: calc(29vw/12);
   }
 
+  .contents .c_fig {
+    margin: 5.5% auto 7%;
+  }
   .contents .c_bagg {
     display: inline-block;
     padding: 0.8% 4.5%;
@@ -3020,6 +3046,17 @@ footer small {
     letter-spacing: 2px;
   }
 
+  .m_top {
+    padding: 0 0 6%;
+  }
+  .m_top a {
+    font-size: calc(47vw/12);
+    letter-spacing: 1.3px;
+  }
+  .m_top a span {
+    font-size: calc(51vw/12);
+  }
+
   footer .wrap {
     padding: 4% 0 3%;
     margin: 0 5%;
@@ -3248,6 +3285,9 @@ footer small {
     font-size: calc(31vw/12);
   }
 
+  .contents .c_fig {
+    margin: 5.5% auto 7%;
+  }
   .contents .c_bagg {
     padding: 0.8% 4.5%;
     margin: 0 0 2.5%;
@@ -4191,6 +4231,17 @@ footer small {
     border-radius: 3px;
     font-size: calc(46vw/12);
     letter-spacing: 1.3px;
+  }
+
+  .m_top {
+    padding: 0 0 6%;
+  }
+  .m_top a {
+    font-size: calc(49vw/12);
+    letter-spacing: 1.3px;
+  }
+  .m_top a span {
+    font-size: calc(53vw/12);
   }
 
   footer .wrap {
