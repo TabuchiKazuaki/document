@@ -362,6 +362,14 @@ header .h_na .h_i3 {
 .contents {
   background: #fff;
 }
+.contents .c_fig {
+  max-width: 681px;
+  margin: 40px auto 50px;
+  line-height: 0;
+}
+.contents .c_fig a {
+  display: none;
+}
 .contents .c_topic {
   display: inline-block;
   background: #a1882f;
@@ -1584,6 +1592,21 @@ aside .f_c {
   font-size: 32px;
 }
 
+.m_top {
+  padding: 0 0 45px;
+  text-align: right;
+}
+.m_top a {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1.4px;
+  color: #a1882f;
+}
+.m_top a span {
+  font-size: 32px;
+}
+
 footer {
   background: #efefef;
 }
@@ -1900,6 +1923,9 @@ footer small {
     padding: 6% 0 0;
   }
 
+  .contents .c_fig {
+    margin: 5.5% auto 7%;
+  }
   .contents .c_topic {
     padding: 1.5% 3%;
     margin: 6% 0 -1%;
@@ -2794,6 +2820,17 @@ footer small {
     letter-spacing: 2px;
   }
 
+  .m_top {
+    padding: 0 0 6%;
+  }
+  .m_top a {
+    font-size: calc(47vw/12);
+    letter-spacing: 1.3px;
+  }
+  .m_top a span {
+    font-size: calc(51vw/12);
+  }
+
   footer .wrap {
     padding: 4% 0 3%;
     margin: 0 5%;
@@ -3031,6 +3068,9 @@ footer small {
     font-size: calc(34vw/12);
   }
 
+  .contents .c_fig {
+    margin: 5.5% auto 7%;
+  }
   .contents .c_topic {
     padding: 1.5% 3%;
     margin: 6% 0 -1%;
@@ -3838,6 +3878,17 @@ footer small {
     letter-spacing: 1.3px;
   }
   .c_top a span {
+    font-size: calc(53vw/12);
+  }
+
+  .m_top {
+    padding: 0 0 6%;
+  }
+  .m_top a {
+    font-size: calc(49vw/12);
+    letter-spacing: 1.3px;
+  }
+  .m_top a span {
     font-size: calc(53vw/12);
   }
 

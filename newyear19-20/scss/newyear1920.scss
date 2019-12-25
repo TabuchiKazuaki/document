@@ -402,6 +402,14 @@ header {
 
 .contents {
 	background: #fff;
+	.c_fig {
+		max-width: 681px;
+		margin: 40px auto 50px;
+		line-height: 0;
+		a {
+			display: none;
+		}
+	}
 	.c_topic {
 		display: inline-block;
 		background: #a1882f;
@@ -1640,6 +1648,21 @@ aside {
 	}
 }
 
+.m_top {
+	padding: 0 0 45px;
+	text-align: right;
+	a {
+		display: inline-block;
+		font-weight: bold;
+		font-size: 30px;
+		letter-spacing: 1.4px;
+		color: #a1882f;
+		span {
+			font-size: 32px;
+		}
+	}
+}
+
 footer {
 	background: #efefef;
 	.wrap {
@@ -1956,6 +1979,9 @@ footer {
 	}
 
 	.contents {
+		.c_fig {
+			margin: 5.5% auto 7%;
+		}
 		.c_topic {
 			padding: 1.5% 3%;
 			margin: 6% 0 -1%;
@@ -2926,6 +2952,17 @@ footer {
 		letter-spacing: 2px;
 	}
 
+	.m_top {
+		padding: 0 0 6%;
+		a {
+			font-size: calc(47vw/12);
+			letter-spacing: 1.3px;
+			span {
+				font-size: calc(51vw/12);
+			}
+		}
+	}
+
 	footer {
 		.wrap {
 			padding: 4% 0 3%;
@@ -3174,6 +3211,9 @@ footer {
 	}
 
 	.contents {
+		.c_fig {
+			margin: 5.5% auto 7%;
+		}
 		.c_topic {
 			padding: 1.5% 3%;
 			margin: 6% 0 -1%;
@@ -4050,6 +4090,17 @@ footer {
 	}
 
 	.c_top {
+		padding: 0 0 6%;
+		a {
+			font-size: calc(49vw/12);
+			letter-spacing: 1.3px;
+			span {
+				font-size: calc(53vw/12);
+			}
+		}
+	}
+
+	.m_top {
 		padding: 0 0 6%;
 		a {
 			font-size: calc(49vw/12);
