@@ -389,6 +389,38 @@ header.h_manz {
 .c_manz {
 	background: #efefef;
 	padding: 26px 0 40px;
+	.f_h {
+		display: inline-block;
+		position: relative;
+		padding: 0 28px 0 31px;
+		letter-spacing: 1.4px;
+		font-size: 25px;
+		font-weight: bold;
+		line-height: 0.8;
+		span {
+			display: inline-block;
+			margin: 0 5px 0 0;
+			font-size: 38px;
+		}
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/496d067e52575b796b00a84e9446d04f_7b0a7d2c4011396e18206f892067164f.png) 0 0 no-repeat;
+			width: 23px;
+			height: 25px;
+		}
+		&:after {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/d0c4195900a33fac541cd86a18a45266_e354778b64d2ec74dbf7168dab56729e.png) 0 0 no-repeat;
+			width: 23px;
+			height: 25px;
+		}
+	}
 	.c_ma_i {
 		max-width: 536px;
 		margin: 0 auto;
@@ -2125,6 +2157,36 @@ footer {
 	}
 	.c_manz {
 		padding: 3% 0 6%;
+		.f_h {
+			padding: 0 3.8% 0 4.2%;
+			letter-spacing: 1.4px;
+			font-size: calc(39vw/12);
+			span {
+				display: inline-block;
+				margin: 0 0.9% 0 0;
+				font-size: calc(42vw/12);
+			}
+			&:before {
+				content: '';
+				position: absolute;
+				top: 10%;
+				left: 0;
+				background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/9ac0a5332887d8f204bdd11c3c7b5bcd_390b648e29f37f6067afcd45f3f88c38.png) 0 0 no-repeat;
+				width: 6.5%;
+				height: 100%;
+				background-size: 100% auto;
+			}
+			&:after {
+				content: '';
+				position: absolute;
+				top: 10%;
+				right: 0;
+				background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/f244978fce901eb14d92244e086b1128_7bf62221e86fc4e1fd13cd84aea0efd3.png) 0 0 no-repeat;
+				width: 6.5%;
+				height: 100%;
+				background-size: 100% auto;
+			}
+		}
 		.c_ma_i {
 			width: 78%;
 			margin: 0 auto;
@@ -3277,6 +3339,25 @@ footer {
 	}
 	.c_manz {
 		padding: 3% 0 6%;
+		.f_h {
+			padding: 0 3.8% 0 4.2%;
+			letter-spacing: 1.4px;
+			font-size: calc(41vw/12);
+			span {
+				margin: 0 0.9% 0 0;
+				font-size: calc(44vw/12);
+			}
+			&:before {
+				top: 6%;
+				left: 0;
+				width: 6%;
+			}
+			&:after {
+				top: 6%;
+				right: 0;
+				width: 6%;
+			}
+		}
 		.c_ma_i {
 			width: 78%;
 			margin: 0 auto;
