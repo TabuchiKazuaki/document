@@ -370,6 +370,14 @@ header .h_na .h_i3 {
 .contents .c_fig a {
   display: none;
 }
+.contents .c_las {
+  max-width: 681px;
+  margin: 40px auto 50px;
+  line-height: 0;
+}
+.contents .c_las a {
+  display: block;
+}
 .contents .c_topic {
   display: inline-block;
   background: #a1882f;
@@ -1929,6 +1937,9 @@ footer small {
   .contents .c_fig {
     margin: 5.5% auto 7%;
   }
+  .contents .c_las {
+    margin: 5.5% auto 7%;
+  }
   .contents .c_topic {
     padding: 1.5% 3%;
     margin: 6% 0 -1%;
@@ -3076,6 +3087,9 @@ footer small {
   }
 
   .contents .c_fig {
+    margin: 5.5% auto 7%;
+  }
+  .contents .c_las {
     margin: 5.5% auto 7%;
   }
   .contents .c_topic {
