@@ -422,10 +422,13 @@ header.h_manz .h_b .hb_f {
   font-weight: bold;
   line-height: 0.8;
 }
-.c_manz .f_h span {
+.c_manz .f_h .num {
   display: inline-block;
   margin: 0 5px 0 0;
   font-size: 31px;
+}
+.c_manz .f_h .num .cl {
+  color: #d12023;
 }
 .c_manz .f_h:before {
   content: '';

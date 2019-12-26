@@ -398,10 +398,14 @@ header.h_manz {
 		font-size: 25px;
 		font-weight: bold;
 		line-height: 0.8;
-		span {
+
+		.num {
 			display: inline-block;
 			margin: 0 5px 0 0;
 			font-size: 31px;
+			.cl {
+				color: #d12023;
+			}
 		}
 		&:before {
 			content: '';
