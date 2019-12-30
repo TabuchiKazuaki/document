@@ -38,6 +38,8 @@ $(document).ready(function() {
 		$('.d_check').show();
 		$('.d_wrap').show();
 		$('#d28').show();
+		$('.fl_time').hide();
+
 	}
 
 	var daily29 = new Date("2019/12/29 00:00");
