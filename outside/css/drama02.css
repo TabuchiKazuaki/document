@@ -221,6 +221,20 @@ header .h_box .h_t {
   margin: 20px 0 0;
   line-height: 0;
 }
+.contents .bagg {
+  display: inline-block;
+  background: #ec2840;
+  padding: 3px 10px;
+  margin: 0 8px 0 0;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: bottom;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 1.2;
+  color: #fff;
+}
 .contents .c_bagg {
   display: inline-block;
   background: #000;
@@ -520,6 +534,13 @@ footer small {
     margin: 3% 0 0;
     line-height: 0;
   }
+  .contents .bagg {
+    padding: 0.3% 1.5% 0.4%;
+    margin: 0 2% 0 0;
+    border-radius: 3px;
+    font-size: calc(25vw/12);
+    letter-spacing: 1.5px;
+  }
   .contents .c_bagg {
     display: inline-block;
     padding: 0.8% 3.5%;
@@ -788,6 +809,13 @@ footer small {
   .contents .main {
     margin: 3% 0 0;
     line-height: 0;
+  }
+  .contents .bagg {
+    padding: 0.6% 1.5% 0.6%;
+    margin: 0 2% 0 0;
+    border-radius: 3px;
+    font-size: calc(25vw/12);
+    letter-spacing: 1.5px;
   }
   .contents .c_bagg {
     padding: 0.8% 3.5%;
