@@ -255,10 +255,14 @@ header .j_wrap .h_s {
 }
 
 .line {
+  background: #fff;
+  height: 35px;
+}
+.line .line_w {
   background: #efefef;
+  height: 35px;
   max-width: 768px;
   margin: 0 auto;
-  height: 35px;
 }
 
 footer {
@@ -679,8 +683,11 @@ footer small {
   }
 
   .line {
-    background: #efefef;
     height: 28px;
+  }
+  .line .line_w {
+    height: 28px;
+    margin: 0 auto;
   }
 
   footer {
@@ -892,8 +899,11 @@ footer small {
   }
 
   .line {
-    background: #efefef;
     height: 18px;
+  }
+  .line .line_w {
+    height: 18px;
+    margin: 0 auto;
   }
 
   footer {
