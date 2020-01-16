@@ -744,28 +744,16 @@ footer {
 }
 @media screen and (max-width: 480px) {
 	header {
-		.h_inner {
-		}
-		.h_wrap {
-			max-width: 768px;
-			margin: 0 auto;
-		}
-		.wrap {
-			padding: 5.2% 0 4.4%;
-		}
 		.j_wrap {
-			background-size: cover;
-			padding: 11.3% 0;
-		}
-		.h_l {
-			max-width: 95px;
-			padding: 2.1% 0 2.2% 4.3%;
-		}
-		.h_t {
-			width: 83%;
 			margin: 0 auto;
-			text-align: center;
-
+			.j_box {
+				width: 100%;
+				padding: 0;
+			}
+			.h_t {
+				margin: 0 auto;
+				line-height: 0;
+			}
 		}
 	}
 	.contents {
