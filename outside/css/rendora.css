@@ -99,8 +99,6 @@ header .j_wrap .h_s {
   background: #87040f;
   padding: 52px 0 46px;
   margin: 0 auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 .contents .a_wrap .c_t {
   margin: 0;
@@ -479,6 +477,17 @@ footer small {
     margin: 8.5% auto 0;
     text-align: center;
   }
+
+  .contents .a_wrap {
+    padding: 4% 0 3.8%;
+    margin: 0 auto;
+  }
+  .contents .a_wrap .c_t {
+    margin: 0;
+    font-size: calc(36vw/12);
+    letter-spacing: 1.3px;
+    line-height: 1.7;
+  }
 }
 @media screen and (max-width: 768px) {
   .wrap {
@@ -537,7 +546,6 @@ footer small {
     padding: 4% 0 4.3%;
   }
   .contents .a_wrap {
-    background: #87040f;
     padding: 5% 0 5%;
     margin: 0 auto;
   }

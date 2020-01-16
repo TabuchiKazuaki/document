@@ -82,7 +82,6 @@ header {
 		background: #87040f;
 		padding: 52px 0 46px;
 		margin: 0 auto;
-		box-sizing: border-box;
 		.c_t {
 			margin: 0;
 			font-size: 24px;
@@ -462,6 +461,18 @@ footer {
 			}
 		}
 	}
+	.contents {
+		.a_wrap {
+			padding: 4% 0 3.8%;
+			margin: 0 auto;
+			.c_t {
+				margin: 0;
+				font-size: calc(36vw/12);
+				letter-spacing: 1.3px;
+				line-height: 1.7;
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -518,7 +529,6 @@ footer {
 	.contents {
 		padding: 4% 0 4.3%;
 		.a_wrap {
-			background: #87040f;
 			padding: 5% 0 5%;
 			margin: 0 auto;
 			.c_t {
