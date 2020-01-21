@@ -22,12 +22,12 @@ img  { width: 100%; }
 }
 
 .movie {
-	margin: 0 0 2%;
+	margin: 3.5% 0 0;
 	.movie_inner {
 		position: relative;
 		width: 100%;
 		padding-top: 56.25%;
-		margin: 18px auto 0;
+		margin: 0 auto 0;
 
 		iframe {
 			position: absolute;
@@ -230,11 +230,8 @@ header {
 				dt {
 					width: 52.5%;
 					margin: 0 0 0 3.5%;
-					font-size: 22px;
+					line-height: 1;
 					font-weight: bold;
-					line-height: 1.5;
-					letter-spacing: 1.4px;
-					color: #fff;
 				}
 			}
 		}
@@ -247,6 +244,7 @@ header {
 			font-weight: normal;
 			text-align: center;
 			letter-spacing: 1.5px;
+			line-height: 1.4;
 			border-radius: 4px;
 			color: #fff;
 		}
@@ -258,6 +256,7 @@ header {
 			font-weight: normal;
 			border-radius: 4px;
 			letter-spacing: 1.5px;
+			line-height: 1.4;
 			text-align: center;
 			color: #fff;
 			.cl {
@@ -266,9 +265,18 @@ header {
 		}
 		.date {
 			display: block;
-			margin: 6px 0 0;
+			margin: 14px 0 0;
 			font-size: 26px;
 			color: #3a2;
+		}
+		.sb {
+			display: block;
+			margin: 12px 0 0;
+			font-size: 22px;
+			font-weight: bold;
+			line-height: 1.5;
+			letter-spacing: 1.4px;
+			color: #fff;
 		}
 	}
 
@@ -590,9 +598,7 @@ footer {
 					dt {
 						width: 52.5%;
 						margin: 0 0 0 3.5%;
-						font-size: calc(35vw/12);
-						line-height: 1.4;
-						letter-spacing: 1.4px;
+						line-height: 1;
 					}
 				}
 			}
@@ -613,8 +619,14 @@ footer {
 				letter-spacing: 1.5px;
 			}
 			.date {
-				margin: 2% 0 0;
+				margin: 2.5% 0 0;
 				font-size: calc(41vw/12);
+			}
+			.sb {
+				margin: 3% 0 0;
+				font-size: calc(35vw/12);
+				line-height: 1.5;
+				letter-spacing: 1.4px;
 			}
 		}
 
@@ -889,7 +901,6 @@ footer {
 					dt {
 						width: 52.5%;
 						margin: 0 0 0 3.5%;
-						font-size: calc(37vw/12);
 						line-height: 1.4;
 						letter-spacing: 1.4px;
 					}
@@ -914,6 +925,12 @@ footer {
 			.date {
 				margin: 2% 0 0;
 				font-size: calc(43vw/12);
+			}
+			.sb {
+				margin: 3% 0 0;
+				font-size: calc(37vw/12);
+				line-height: 1.45;
+				letter-spacing: 1.4px;
 			}
 		}
 
