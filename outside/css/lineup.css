@@ -363,7 +363,7 @@ header .h_inner .h_t {
 }
 
 footer {
-  margin: 40px 0 0;
+  margin: 70px 0 0;
 }
 footer .wrap {
   max-width: 680px;
@@ -453,16 +453,17 @@ footer small {
   }
   header .h_inner .h_date {
     display: inline-block;
-    padding: 8px 30px 9px;
+    padding: 1% 4.2% 1.3%;
     margin: 4.7% 0 0;
     border-radius: 30px;
-    font-size: 28px;
+    font-size: calc(49vw/12);
     letter-spacing: 1.4px;
+    white-space: nowrap;
   }
   header .h_inner .h_date span {
     display: inline-block;
-    margin: 0 10px 0 0;
-    font-size: 32px;
+    margin: 0 3% 0 0;
+    font-size: calc(54vw/12);
   }
   header .h_inner .h_box {
     max-width: 95.8%;
@@ -497,7 +498,7 @@ footer small {
     padding: 0 0 3.8%;
     margin: 8% 0 0;
     font-size: calc(74vw/12);
-    letter-spacing: 8px;
+    letter-spacing: 6px;
   }
   .contents .mt_s {
     margin: 4% 0 0;
@@ -601,10 +602,6 @@ footer small {
     margin: 0 0 6%;
   }
   .contents .c_nineteen .c_19h {
-    margin: 4% 0 0;
-    font-size: calc(42vw/12);
-  }
-  .contents .c_nineteen .c_19h {
     margin: 3% 0 0;
     font-size: calc(42vw/12);
     line-height: 1.5;
@@ -667,6 +664,9 @@ footer small {
     font-size: calc(39vw/12);
   }
 
+  footer {
+    margin: 8% 0 0;
+  }
   footer .wrap {
     height: auto;
     max-width: 768px;
@@ -714,15 +714,74 @@ footer small {
   header {
     margin: 0 auto;
   }
-  header .h_inner {
-    background: #000;
-  }
   header .h_l {
     width: 21%;
-    padding: 1.3% 0 1.3% 2.4%;
-    line-height: 0;
+    padding: 1.4% 0 1.4% 2.5%;
+  }
+  header .h_inner {
+    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/400967/7093532f573d700579b8d187dfd2e929_ebfb795b64093a69dcf08a651e3cd5a5.png) center center no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 7% 0 0;
+    margin: 0 auto;
+  }
+  header .h_inner .h_img {
+    width: 66%;
+    padding: 0 0 0;
+    margin: 0 auto;
+  }
+  header .h_inner .h_date {
+    display: inline-block;
+    padding: 1% 4.2% 1.3%;
+    margin: 4.7% 0 0;
+    border-radius: 30px;
+    font-size: calc(51vw/12);
+    letter-spacing: 1.4px;
+    white-space: nowrap;
+  }
+  header .h_inner .h_date span {
+    display: inline-block;
+    margin: 0 3% 0 0;
+    font-size: calc(56vw/12);
+  }
+  header .h_inner .h_box {
+    max-width: 95.8%;
+    padding: 2.6% 2.45% 5.6%;
+    margin: 3.5% 2% 0;
+    border-radius: 6px;
+  }
+  header .h_inner .h_item li {
+    width: 32.6%;
+    margin: 1% 0 0 1.1%;
+  }
+  header .h_inner .h_item li:nth-child(3n+1) {
+    margin: 1% 0 0;
+  }
+  header .h_inner .h_item li:nth-child(3) {
+    margin: 0 0 0 1.1%;
+  }
+  header .h_inner .h_item li:nth-child(2) {
+    margin: 0 0 0 1.1%;
+  }
+  header .h_inner .h_item li:nth-child(1) {
+    margin: 0;
+  }
+  header .h_inner .h_t {
+    padding: 5% 0 0;
+    font-size: calc(41vw/12);
+    line-height: 1.5;
+    letter-spacing: 1.3px;
   }
 
+  .contents .main_title {
+    padding: 0 0 3.8%;
+    margin: 8% 0 0;
+    font-size: calc(76vw/12);
+    letter-spacing: 4px;
+  }
+  .contents .mt_s {
+    margin: 4% 0 0;
+  }
   .contents .c_h {
     border-left: 4px solid #3a2;
     padding: 0 0 0 2.6%;
@@ -733,21 +792,86 @@ footer small {
     letter-spacing: 1.3px;
     font-size: calc(54vw/12);
   }
+  .contents .c_h_m {
+    margin: 9% 0 0;
+  }
+  .contents .ch_50 {
+    margin: 3.8% 0 0;
+  }
+  .contents .ch_100 {
+    margin: 14% 0 0;
+  }
+  .contents .bagg {
+    display: inline-block;
+    padding: 0.8% 2%;
+    margin: 0 2% 0 0;
+    font-size: calc(34vw/12);
+    border-radius: 3px;
+  }
+  .contents .bagg_se {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 0.8% 2%;
+    font-size: calc(34vw/12);
+    border-radius: 3px;
+    letter-spacing: 1.5px;
+  }
+  .contents .bagg_se .cl {
+    color: #e5c200;
+  }
+  .contents .c_img {
+    max-width: 491px;
+    margin: 30px auto 0;
+    line-height: 0;
+  }
   .contents .c_four {
     padding: 0 0 5%;
-    margin: 1% 0 0;
+    margin: 2% 0 0;
   }
   .contents .c_four .c_f_item li {
-    padding: 3.5% 0;
+    padding: 5.9% 0;
+  }
+  .contents .c_four .c_f_item li:first-child {
+    padding: 4.5% 0 5.8%;
+  }
+  .contents .c_four .c_f_item .c_f_dl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contents .c_four .c_f_item .c_f_dl dd {
-    width: 45%;
+    width: 44%;
+    line-height: 0;
   }
   .contents .c_four .c_f_item .c_f_dl dt {
-    width: 51.5%;
+    width: 52.5%;
     margin: 0 0 0 3.5%;
-    font-size: calc(38vw/12);
-    line-height: 1.3;
+    font-size: calc(37vw/12);
+    line-height: 1.4;
+    letter-spacing: 1.4px;
+  }
+  .contents .c_four .bagg {
+    display: inline-block;
+    padding: 0.5% 3%;
+    margin: 0 2% 0 0;
+    font-size: calc(28vw/12);
+    letter-spacing: 1.5px;
+    border-radius: 3px;
+  }
+  .contents .c_four .bagg_se {
+    display: inline-block;
+    padding: 0.6% 3%;
+    margin: 0 2% 0 0;
+    border-radius: 3px;
+    font-size: calc(28vw/12);
+    letter-spacing: 1.5px;
+  }
+  .contents .c_four .date {
+    margin: 2% 0 0;
+    font-size: calc(43vw/12);
   }
   .contents .c_nineteen {
     padding: 0 0 4%;
@@ -755,10 +879,6 @@ footer small {
   }
   .contents .c_nineteen figure {
     margin: 0 0 6%;
-  }
-  .contents .c_nineteen .c_19h {
-    margin: 4% 0 0;
-    font-size: calc(44vw/12);
   }
   .contents .c_nineteen .c_19h {
     margin: 3% 0 0;
@@ -815,7 +935,7 @@ footer small {
     line-height: 0;
   }
   .contents .c_twenty .c_btn {
-    margin: 4% 0 0;
+    margin: 3% 0 0;
   }
   .contents .c_twenty .c_btn a {
     padding: 3% 0;
@@ -824,7 +944,7 @@ footer small {
   }
 
   footer {
-    padding: 0;
+    margin: 8% 0 0;
   }
   footer .wrap {
     padding: 5% 5% 5%;
@@ -836,7 +956,7 @@ footer small {
   footer .copy li {
     margin: 0.7% 0 0 0;
     line-height: 1.3;
-    font-size: calc(26vw/12);
+    font-size: calc(28vw/12);
   }
   footer .f_list {
     margin: 1.8% 0 0;
@@ -846,7 +966,7 @@ footer small {
   }
   footer .f_list li a {
     padding: 0 13px 0 0;
-    font-size: calc(27vw/12);
+    font-size: calc(29vw/12);
     white-space: nowrap;
   }
   footer .f_list li:after {
@@ -861,7 +981,7 @@ footer small {
   }
   footer small {
     margin: 5% 0 0;
-    font-size: calc(28vw/12);
+    font-size: calc(30vw/12);
     letter-spacing: 1.3px;
   }
 }
