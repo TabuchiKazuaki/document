@@ -26,7 +26,7 @@ function countDown() {
 
 $(document).ready(function() {
 	var now = new Date();
-	var weekend02 = new Date("2020/01/28 00:00");
+	var weekend02 = new Date("2020/01/20 00:00");
 	if (now.getTime() > weekend02.getTime()) {
 		$('.h_a').addClass('h_active');
 	}
