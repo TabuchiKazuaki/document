@@ -2,15 +2,15 @@ $(document).ready(function() {
 	var now = new Date();
 	var time01 = new Date("2020/01/23 00:00");
 	if (now.getTime() > time01.getTime()) {
-		$('.last').text('３日');
+		$('.last').text('3日');
 	}
 	var time02 = new Date("2020/01/24 00:00");
 	if (now.getTime() > time02.getTime()) {
-		$('.last').text('２日');
+		$('.last').text('2日');
 	}
 	var time03 = new Date("2020/01/25 00:00");
 	if (now.getTime() > time03.getTime()) {
-		$('.last').text('１日');
+		$('.last').text('1日');
 	}
 	var day24 = new Date("2020/01/26 00:00");
 	if (now.getTime() > day24.getTime()) {
