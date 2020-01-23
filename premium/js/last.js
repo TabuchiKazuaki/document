@@ -102,7 +102,7 @@ $(document).ready(function() {
 	}
 	var day02 = new Date("2020/01/26 22:00");
 	if (now.getTime() > day02.getTime()) {
-		$('.last').text('23時間');
+		$('.last').text('2時間');
 	}
 	var day01 = new Date("2020/01/26 23:00");
 	if (now.getTime() > day01.getTime()) {
