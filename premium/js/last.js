@@ -111,7 +111,7 @@ $(document).ready(function() {
 
 	var before = new Date("2020/01/26 23:59");
 	if (now.getTime() > before.getTime()) {
-		$('.hd_h').text('キャンペーン期間1月26日まで');
+		$('.hd_h').text('本キャンペーンは終了いたしました');
 		$('.last').hide();
 	}
 });
