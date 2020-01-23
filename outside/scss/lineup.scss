@@ -268,6 +268,12 @@ header {
 			margin: 14px 0 0;
 			font-size: 26px;
 			color: #3a2;
+			.d_sec {
+				display: inline-block;
+				margin: 12px 0 0;
+				font-size: 18px;
+				color: #ababab;
+			}
 		}
 		.sb {
 			display: block;
@@ -623,6 +629,11 @@ footer {
 			.date {
 				margin: 2.5% 0 0;
 				font-size: calc(41vw/12);
+				.d_sec {
+					display: inline-block;
+					margin: 3.2% 0 0;
+					font-size: calc(28vw/12);
+				}
 			}
 			.sb {
 				margin: 2.3% 0 0;
@@ -931,6 +942,11 @@ footer {
 			.date {
 				margin: 2.2% 0 0;
 				font-size: calc(43vw/12);
+				.d_sec {
+					display: inline-block;
+					margin: 3.2% 0 0;
+					font-size: calc(30vw/12);
+				}
 			}
 			.sb {
 				margin: 2.3% 0 0;
