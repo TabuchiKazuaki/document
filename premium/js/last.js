@@ -14,7 +14,8 @@ $(document).ready(function() {
 	}
 	var time04 = new Date("2020/01/26 00:00");
 	if (now.getTime() > time04.getTime()) {
-		$('.last').text('本日最終日');
+		$('.last').hide();
+		$('.hd_h').text('キャンペーン本日最終日');
 	}
 
 
