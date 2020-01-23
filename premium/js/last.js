@@ -114,5 +114,4 @@ $(document).ready(function() {
 		$('.hd_h').text('キャンペーン期間1月26日まで');
 		$('.last').hide();
 	}
-
 });
