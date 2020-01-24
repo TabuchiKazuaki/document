@@ -5,7 +5,7 @@ $(function() {
 function countDown() {
 	var now = new Date();
 	var time = new Date();
-	var end = new Date("2020/02/10 23:59");
+	var end = new Date("2020/02/11 23:59");
 	var left = end - time;
 	var a_day = 24 * 60 * 60 * 1000;
 	var d = Math.floor(left / a_day)
@@ -23,7 +23,7 @@ function countDown() {
 // 非表示時間
 $(document).ready(function() {
 	var now = new Date();
-	var between03 = new Date("2020/01/30 23:59");
+	var between03 = new Date("2020/02/12 00:00");
 	if (now.getTime() > between03.getTime()) {
 		$('.t_box').hide();
 	}
