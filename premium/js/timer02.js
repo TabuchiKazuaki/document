@@ -23,14 +23,9 @@ function countDown() {
 
 $(document).ready(function() {
 	var now = new Date();
-	var weekend02 = new Date("2020/01/20 00:00");
-	if (now.getTime() > weekend02.getTime()) {
-		$('.t_box').addClass('h_active');
-	}
 	var between03 = new Date("2020/01/30 23:59");
 	if (now.getTime() > between03.getTime()) {
 		$('.t_box').hide();
-		$('.t_box').removeClass('h_active');
 	}
 });
 
