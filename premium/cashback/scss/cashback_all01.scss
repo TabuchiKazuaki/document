@@ -827,6 +827,7 @@ footer {
 				top: 0;
 				right: 0;
 				color: #919191;
+				line-height: 0;
 			}
 			&:last-child:after {
 				content: '';
@@ -1515,6 +1516,7 @@ footer {
 					position: absolute;
 					top: 0;
 					right: 0;
+					line-height: 0;
 				}
 				&:last-child:after {
 					content: '';
@@ -2190,6 +2192,7 @@ footer {
 					position: absolute;
 					top: 0;
 					right: 0;
+					line-height: 0;
 				}
 				&:last-child:after {
 					content: '';
@@ -2199,7 +2202,7 @@ footer {
 		small {
 			margin: 5% 0 0;
 			font-size: calc(28vw/12);
-			letter-spacing: 1.3px;
+			letter-spacing: 1px;
 		}
 	}
 }
