@@ -20,7 +20,7 @@ function countDown() {
 	setTimeout('countDown()', 1000);
 }
 
-
+// 非表示時間
 $(document).ready(function() {
 	var now = new Date();
 	var between03 = new Date("2020/01/30 23:59");
