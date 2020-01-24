@@ -1655,7 +1655,8 @@ header .h_wrap .h_r {
 .t_box .timer span {
   display: inline-block;
   width: 58px;
-  background: #000;
+  background-image: -webkit-gradient(linear, left top, right top, from(#b2b2b2), to(rgba(178, 178, 178, 0)));
+  background-image: linear-gradient(to right, #b2b2b2, rgba(178, 178, 178, 0));
   padding: 7px 4px 9px;
   margin: 0 12px;
   border-radius: 6px;
