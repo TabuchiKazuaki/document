@@ -54,7 +54,7 @@ header .h_w {
   padding: 73px 0 0;
 }
 header .h_m {
-  max-width: 680px;
+  max-width: 660px;
   margin: 0 auto 0;
   line-height: 0;
 }
@@ -64,10 +64,11 @@ header .h_t {
   line-height: 0;
 }
 header .h_cau {
-  margin: 32px 0 0;
+  margin: 25px 0 0;
   font-size: 16px;
   letter-spacing: 1.2px;
   text-align: center;
+  color: #fff;
 }
 header .h_cau span {
   font-size: 18px;
@@ -85,7 +86,37 @@ header .h_btn a {
   text-align: center;
   font-size: 28px;
   font-weight: bold;
+  letter-spacing: 1.5px;
   color: #fff;
+}
+header .h_date {
+  margin: 20px 0 0;
+  font-size: 20px;
+  letter-spacing: 1.3px;
+  text-align: center;
+  color: #fff;
+}
+header .h_date span {
+  font-size: 23px;
+}
+header .t_box {
+  margin: 30px 0 0;
+}
+header .t_box .timer {
+  font-size: 18px;
+  text-align: center;
+}
+header .t_box .timer span {
+  display: inline-block;
+  background: #000;
+  padding: 10px 12px;
+  margin: 0 8px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: 1.2px;
+  line-height: 1;
+  color: #e5c200;
 }
 
 .chace {
@@ -313,7 +344,7 @@ header .h_btn a {
 .contents .c_box {
   background: #202121;
   padding: 0 15px;
-  margin: 37px 0 0;
+  margin: 53px 0 0;
   border-radius: 8px;
 }
 .contents .c_box li {
@@ -828,22 +859,22 @@ footer small {
     background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/ea505aeb19d1d0c4c949753238432c30_ef80a66c413fbdd93f8cb55339dab88f.png) center center no-repeat;
     background-size: cover;
     min-height: auto;
-    padding: 0 0 8%;
+    padding: 0;
     margin: 0 auto;
   }
   header .h_w {
     padding: 10% 0 0;
   }
   header .h_m {
-    width: 89%;
+    width: 86%;
     margin: 0 auto 0;
   }
   header .h_t {
     width: 74%;
-    margin: 1.8% auto 0;
+    margin: 1% auto 0;
   }
   header .h_cau {
-    margin: 4.2% 0 0;
+    margin: 3.6% 0 0;
     font-size: calc(25vw/12);
     letter-spacing: 1.2px;
   }
@@ -870,6 +901,14 @@ footer small {
     padding: 3.5% 0;
     border-radius: 5px;
     font-size: calc(43vw/12);
+  }
+  header .h_date {
+    margin: 3% 0 0;
+    font-size: calc(32vw/12);
+    letter-spacing: 1.3px;
+  }
+  header .h_date span {
+    font-size: calc(35vw/12);
   }
 
   .chace {
@@ -1014,7 +1053,7 @@ footer small {
   }
   .contents .c_box {
     padding: 0 2%;
-    margin: 5% 0 0;
+    margin: 7% 0 0;
     border-radius: 6px;
   }
   .contents .c_box li {
@@ -1518,6 +1557,14 @@ footer small {
     border-radius: 5px;
     font-size: calc(43vw/12);
   }
+  header .h_date {
+    margin: 3% 0 0;
+    font-size: calc(34vw/12);
+    letter-spacing: 1.3px;
+  }
+  header .h_date span {
+    font-size: calc(37vw/12);
+  }
 
   .chace {
     margin: 7% 0 0;
@@ -1661,7 +1708,7 @@ footer small {
   }
   .contents .c_box {
     padding: 0 2%;
-    margin: 5.5% 0 0;
+    margin: 7% 0 0;
     border-radius: 5px;
   }
   .contents .c_box li {
