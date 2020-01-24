@@ -1655,8 +1655,8 @@ header .h_wrap .h_r {
 .t_box .timer span {
   display: inline-block;
   width: 58px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(6%, #333333), color-stop(48%, #6d6d6d), color-stop(52%, #24282b), to(#000000));
-  background: linear-gradient(to bottom, #333333 6%, #6d6d6d 48%, #24282b 52%, #000000 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(6%, #333333), color-stop(48%, #6d6d6d), color-stop(52%, #24282b), to(#222));
+  background: linear-gradient(to bottom, #333333 6%, #6d6d6d 48%, #24282b 52%, #222 100%);
   padding: 7px 4px 9px;
   margin: 0 12px;
   border-radius: 6px;
@@ -1668,6 +1668,7 @@ header .h_wrap .h_r {
   color: #fff;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 }
 
 .banner .b_wrap {

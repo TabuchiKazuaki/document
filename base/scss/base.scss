@@ -1618,7 +1618,7 @@ header {
 		span {
 			display: inline-block;
 			width: 58px;
-			background: linear-gradient(to bottom, #333333 6%,#6d6d6d 48%,#24282b 52%,#000000 100%);
+			background: linear-gradient(to bottom, #333333 6%,#6d6d6d 48%,#24282b 52%,#222 100%);
 			padding: 7px 4px 9px;
 			margin: 0 12px;
 			border-radius: 6px;
@@ -1629,6 +1629,8 @@ header {
 			line-height: 1;
 			color: #fff;
 			box-sizing: border-box;
+
+			text-shadow: 1px 1px 1px rgba(0,0,0,.8);
 		}
 	}
 }
