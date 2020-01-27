@@ -8,9 +8,9 @@ body {
   line-height: 1;
   min-width: 320px;
   font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif !important;
-  color: #fff;
+  color: #000;
   margin: 0 auto;
-  background: #000;
+  background: #fff;
 }
 body li {
   list-style: none;
@@ -48,6 +48,13 @@ img {
   color: #fff;
 }
 
+.line_W {
+  background: #efefef;
+  height: 35px;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
 .movie {
   margin: 55px 0 20px;
 }
@@ -75,110 +82,112 @@ header .logo {
   padding: 12px 0 13px 24px;
 }
 header .h_h {
-  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/400967/e2efdf1fff587937d4f521259068665f_5012008ba987c0350f5c2a5df09e4395.png) center center no-repeat;
-  height: 172px;
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/400967/02ea243c31fd7c87982c3befb260d3f4_bd5fb972a363f0de4b00ed6bbeb3eb10.png) center center no-repeat;
+  height: 228px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 header .h_h h2 {
-  padding: 52px 0 0;
-  font-size: 52px;
-  letter-spacing: 7px;
-  text-align: center;
+  max-width: 536px;
+  padding: 19px 0 0;
+  margin: 0 auto;
+  line-height: 0;
 }
 
-.contents .c_four {
-  padding: 0 0 35px;
-  margin: 0;
+.info {
+  background: #eeeeee;
+  padding: 42px 0;
+  text-align: center;
 }
-.contents .c_four .c_f_item a {
-  display: block;
+.info .i_h {
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 1.3px;
+  color: #606060;
 }
-.contents .c_four .c_f_item li {
-  padding: 25px 0;
-  border-bottom: 1px solid #606060;
+
+.contents .c_h {
+  border-left: 6px solid #3a2;
+  padding: 0 0 0 18px;
+  line-height: 1.4;
+  font-size: 32px;
 }
-.contents .c_four .c_f_item .c_f_dl {
+.contents .c_h span {
+  letter-spacing: 1.3px;
+  font-size: 36px;
+}
+.contents .ch100 {
+  margin: 62px 0 0;
+}
+.contents .c_t {
+  margin: 30px 0 0 24px;
+  font-size: 22px;
+  line-height: 1.4;
+  color: #666;
+}
+.contents figure {
+  margin: 37px 0 0;
+  line-height: 0;
+}
+.contents .c_dl {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 41px 0 0;
 }
-.contents .c_four .c_f_item .c_f_dl dd {
-  width: 43%;
+.contents .c_dl dd {
+  max-width: 143px;
+  width: 19%;
   line-height: 0;
 }
-.contents .c_four .c_f_item .c_f_dl dt {
-  width: 54%;
+.contents .c_dl dt {
+  width: 78%;
   margin: 0 0 0 3%;
-  line-height: 1.3;
-  color: #fff;
 }
-.contents .c_four .c_f_item .c_f_dl dt .parson {
-  font-size: 23px;
-  color: #8c8c8c;
-}
-.contents .c_four .c_f_item .c_f_dl dt .title {
-  margin: 6px 0 0;
-  font-size: 22px;
-  font-weight: normal;
-  color: #fff;
-}
-.contents .c_four .c_f_item .c_f_dl dt .desc {
-  margin: 6px 0 0;
-  font-size: 15px;
-  line-height: 1.55;
-  font-family: unset;
-  color: #db7093;
-}
-.contents .c_nineteen {
-  padding: 0;
-  margin: 15px 0 0;
-}
-.contents .c_nineteen figure {
-  margin: 0 0 25px;
-  line-height: 0;
-}
-.contents .c_nineteen .c_19date {
-  font-size: 21px;
-  color: #8c8c8c;
-}
-.contents .c_nineteen .c_19h {
-  margin: 26px 0 0;
-  font-size: 27px;
+.contents .c_dl dt span {
+  display: block;
   font-weight: bold;
+  font-size: 23px;
+  letter-spacing: 1.2px;
 }
-.contents .c_nineteen .c_19t {
-  margin: 22px 0 0;
-  font-size: 22px;
-  color: #8c8c8c;
-  line-height: 1.4;
+.contents .c_dl dt .cd_h {
+  padding: 0 0 11px;
+  margin: 10px 0 0;
+  font-size: 34px;
+  border-bottom: 1px solid #ababab;
+  letter-spacing: 1.4px;
 }
-.contents .c_nineteen .c_btn {
-  margin: 26px 0 0;
+.contents .c_dl dt .cd_t {
+  margin: 18px 0 0;
+  font-size: 23px;
+  letter-spacing: 1.2px;
+  color: #606060;
 }
-.contents .c_nineteen .c_btn a {
+.contents .c_btn {
+  margin: 47px 0 50px;
+}
+.contents .c_btn a {
   display: block;
   background: #3a2;
-  padding: 15px 0;
+  padding: 22px 0;
   text-align: center;
   border-radius: 6px;
   font-size: 30px;
   letter-spacing: 2px;
   color: #fff;
 }
-.contents .c_nineteen .c19_item {
-  padding: 0 0 32px;
-  border-bottom: 1px solid #606060;
+.contents .c_back {
+  margin: 10px 0 50px;
+  text-align: right;
 }
-.contents .c_nineteen .c19_item li {
-  padding: 0 0;
-}
-.contents .c_nineteen .c19_item li a {
-  display: block;
-}
-.contents .c_nineteen .c19_item li:first-child {
-  border-top: none;
+.contents .c_back a {
+  font-size: 30px;
+  font-weight: bold;
+  color: #3a2;
 }
 
 .cb .wrap {
@@ -221,10 +230,10 @@ header .h_h h2 {
 }
 
 footer {
-  background: #000;
+  background: #efefef;
 }
 footer .wrap {
-  padding: 48px 0 50px;
+  padding: 57px 0 50px;
 }
 footer .f_list {
   overflow: hidden;
@@ -288,6 +297,10 @@ footer small {
     margin: 3% auto 0;
   }
 
+  .line_W {
+    height: 27px;
+  }
+
   .wrap {
     padding: 0 4.5%;
   }
@@ -297,76 +310,87 @@ footer small {
     width: 21%;
   }
   header .h_h {
-    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/496745/0c57040adbe18ef8f9c63dc182223da7_298ac59eab87ef4dd1f4565bd629f10d.png) 0 0 no-repeat;
+    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/400967/8e85679a2ed63b14ed8813b5652cdafa_2211a7c2a3691b06b5aafc5d8c4c6ec2.png) center center no-repeat;
     background-size: cover;
     height: auto;
-    padding: 7% 0 9%;
+    padding: 2.2% 0 7%;
   }
   header .h_h h2 {
+    width: 74%;
     padding: 0;
-    font-size: calc(76vw/12);
-    letter-spacing: 5px;
+    margin: 0 auto;
   }
 
-  .contents .c_four {
-    padding: 0 0 3%;
+  .info {
+    padding: 5.7% 0;
   }
-  .contents .c_four .c_f_item li {
-    padding: 3.6% 0;
+  .info .i_h {
+    font-size: calc(38vw/12);
+    font-weight: bold;
+    letter-spacing: 1.3px;
+    color: #606060;
   }
-  .contents .c_four .c_f_item .c_f_dl dd {
-    width: 44%;
-    line-height: 0;
+
+  .contents .c_h {
+    border-left: 4.5px solid #3a2;
+    padding: 0 0 0 2.6%;
+    line-height: 1.4;
+    font-size: calc(50vw/12);
   }
-  .contents .c_four .c_f_item .c_f_dl dt {
-    width: 53%;
+  .contents .c_h span {
+    letter-spacing: 1.3px;
+    font-size: calc(52vw/12);
+  }
+  .contents .ch100 {
+    margin: 10% 0 0;
+  }
+  .contents .c_t {
+    margin: 4.4% 0 0 3.3%;
+    font-size: calc(35vw/12);
+    line-height: 1.4;
+  }
+  .contents figure {
+    margin: 5.1% 0 0;
+  }
+  .contents .c_dl {
+    margin: 5.6% 0 0;
+  }
+  .contents .c_dl dd {
+    width: 22%;
+  }
+  .contents .c_dl dt {
+    width: 75%;
     margin: 0 0 0 3%;
-    line-height: 1.3;
   }
-  .contents .c_four .c_f_item .c_f_dl dt .parson {
+  .contents .c_dl dt span {
     font-size: calc(36vw/12);
+    letter-spacing: 1.2px;
   }
-  .contents .c_four .c_f_item .c_f_dl dt .title {
-    margin: 1.7% 0 0;
-    font-size: calc(35vw/12);
+  .contents .c_dl dt .cd_h {
+    padding: 0 0 2.2%;
+    margin: 2% 0 0;
+    font-size: calc(52vw/12);
+    letter-spacing: 1.4px;
   }
-  .contents .c_four .c_f_item .c_f_dl dt .desc {
-    margin: 1.7% 0 0;
-    font-size: calc(26vw/12);
-    line-height: 1.55;
+  .contents .c_dl dt .cd_t {
+    margin: 3.6% 0 0;
+    font-size: calc(36vw/12);
+    letter-spacing: 1.2px;
   }
-  .contents .c_nineteen {
-    padding: 0;
-    margin: 0 0 0;
+  .contents .c_btn {
+    margin: 7% 0 7.2%;
   }
-  .contents .c_nineteen figure {
-    margin: 0 0 4%;
-  }
-  .contents .c_nineteen .c_19date {
-    font-size: calc(34vw/12);
-  }
-  .contents .c_nineteen .c_19h {
-    margin: 3.4% 0 0;
-    font-size: calc(43vw/12);
-  }
-  .contents .c_nineteen .c_19t {
-    margin: 4% 0 0 0;
-    font-size: calc(35vw/12);
-    line-height: 1.3;
-  }
-  .contents .c_nineteen .c_btn {
-    margin: 4% 0 0;
-  }
-  .contents .c_nineteen .c_btn a {
-    padding: 3% 0;
+  .contents .c_btn a {
+    padding: 3.1% 0;
     border-radius: 5px;
-    font-size: calc(40vw/12);
+    font-size: calc(47vw/12);
+    letter-spacing: 2px;
   }
-  .contents .c_nineteen .c19_item {
-    padding: 0 0 4.5%;
+  .contents .c_back {
+    margin: 2% 0 7%;
   }
-  .contents .c_nineteen .c19_item li {
-    padding: 0;
+  .contents .c_back a {
+    font-size: calc(47vw/12);
   }
 
   .cb .wrap {
@@ -445,74 +469,85 @@ footer small {
     font-size: calc(26vw/12);
   }
 
+  .line_W {
+    height: 18px;
+  }
+
   header .logo {
     padding: 1.28% 0 1.35% 2.7%;
     width: 21%;
   }
   header .h_h {
-    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/496745/0c57040adbe18ef8f9c63dc182223da7_298ac59eab87ef4dd1f4565bd629f10d.png) 0 0 no-repeat;
     background-size: cover;
     height: auto;
-    padding: 7% 0 9%;
+    padding: 2.2% 0 7%;
   }
   header .h_h h2 {
+    width: 75%;
     padding: 0;
-    font-size: calc(77vw/12);
-    letter-spacing: 4px;
+    margin: 0 auto;
   }
 
-  .contents .c_four {
-    padding: 0 0 3%;
+  .contents .c_h {
+    border-left: 3px solid #3a2;
+    padding: 0 0 0 2.3%;
+    line-height: 1.4;
+    font-size: calc(52vw/12);
   }
-  .contents .c_four .c_f_item li {
-    padding: 3.5% 0;
+  .contents .c_h span {
+    letter-spacing: 1.3px;
+    font-size: calc(54vw/12);
   }
-  .contents .c_four .c_f_item .c_f_dl dd {
-    width: 45%;
-    line-height: 0;
+  .contents .ch100 {
+    margin: 9% 0 0;
   }
-  .contents .c_four .c_f_item .c_f_dl dt {
-    width: 52%;
-    margin: 0 0 0 3%;
-    line-height: 1.3;
-  }
-  .contents .c_four .c_f_item .c_f_dl dt .parson {
+  .contents .c_t {
+    margin: 4.4% 0 0 3.3%;
     font-size: calc(37vw/12);
+    line-height: 1.45;
   }
-  .contents .c_four .c_f_item .c_f_dl dt .title {
-    margin: 1.7% 0 0;
-    font-size: calc(36vw/12);
+  .contents figure {
+    margin: 5.1% 0 0;
   }
-  .contents .c_four .c_f_item .c_f_dl dt .desc {
-    margin: 1.7% 0 0;
-    font-size: calc(28vw/12);
-    line-height: 1.55;
+  .contents .c_dl {
+    margin: 5.6% 0 0;
   }
-  .contents .c_nineteen {
-    margin: 0;
+  .contents .c_dl dd {
+    width: 22%;
   }
-  .contents .c_nineteen figure {
-    margin: 0 0 4%;
+  .contents .c_dl dt {
+    width: 75%;
+    margin: 0 0 0 3%;
   }
-  .contents .c_nineteen .c_19h {
-    margin: 2.2% 0 0;
-    font-size: calc(44vw/12);
+  .contents .c_dl dt span {
+    font-size: calc(38vw/12);
+    letter-spacing: 1.2px;
   }
-  .contents .c_nineteen .c_19t {
-    margin: 2.5% 0 0 0;
-    font-size: calc(44vw/12);
-    line-height: 1.3;
+  .contents .c_dl dt .cd_h {
+    padding: 0 0 2.2%;
+    margin: 2% 0 0;
+    font-size: calc(54vw/12);
+    letter-spacing: 1.4px;
   }
-  .contents .c_nineteen .c_btn {
-    margin: 6% 0 0;
+  .contents .c_dl dt .cd_t {
+    margin: 3.6% 0 0;
+    font-size: calc(38vw/12);
+    letter-spacing: 1.2px;
   }
-  .contents .c_nineteen .c_btn a {
-    padding: 3% 0;
+  .contents .c_btn {
+    margin: 7% 0 7.2%;
+  }
+  .contents .c_btn a {
+    padding: 3.1% 0;
     border-radius: 4px;
-    font-size: calc(42vw/12);
+    font-size: calc(49vw/12);
+    letter-spacing: 2px;
   }
-  .contents .c_nineteen .c19_item li {
-    padding: 0;
+  .contents .c_back {
+    margin: 2% 0 7%;
+  }
+  .contents .c_back a {
+    font-size: calc(47vw/12);
   }
 
   .cb .wrap {
@@ -523,7 +558,7 @@ footer small {
   }
   .cb .a_text {
     margin: 3.5% 0 0;
-    font-size: calc(45vw/12);
+    font-size: calc(47vw/12);
     letter-spacing: 1.4px;
   }
   .cb .a_btn {
@@ -533,7 +568,7 @@ footer small {
     padding: 3.5% 0;
     border: 1px solid #3a2;
     border-radius: 3px;
-    font-size: calc(45vw/12);
+    font-size: calc(47vw/12);
     letter-spacing: 1.5px;
   }
 
