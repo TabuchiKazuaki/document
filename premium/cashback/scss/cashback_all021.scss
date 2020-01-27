@@ -277,11 +277,41 @@ header {
 .contents {
 	margin: 0;
 	.wrap {
-		max-width: 715px;
+		max-width: 680px;
 		margin: 0 auto;
 	}
 	.m_wp {
 		margin: 60px auto 0;
+	}
+	.ch_im {
+		max-width: 551px;
+		margin: 0 auto 70px;
+	}
+	.ch_i_sec {
+		max-width: 442px;
+		margin: 0 auto 0;
+	}
+	.c_po {
+		display: flex;
+		flex-flow: row wrap;
+		max-width: 680px;
+		margin: 50px auto 0;
+		li {
+			width: 321px;
+			justify-content: flex-end;
+			box-sizing: border-box;
+			margin: 36px 0 0 36px;
+			line-height: 0;
+			&:nth-child(2n+1) {
+				margin: 36px 0 0 0;
+			}
+			&:nth-child(2) {
+				margin: 0 0 0 36px;
+			}
+			&:nth-child(1) {
+				margin: 0;
+			}
+		}
 	}
 	.c_h {
 		padding: 0 0 0 18px;
@@ -299,13 +329,14 @@ header {
 		margin: 38px 0 0;
 		a {
 			display: block;
-			background: #e5c200;
-			padding: 18px 0;
+			background: #3a2;
+			padding: 25px 0;
 			border-radius: 6px;
 			text-align: center;
-			font-size: 25px;
+			font-size: 26px;
 			font-weight: bold;
-			color: #000;
+			letter-spacing: 1.3px;
+			color: #fff;
 		}
 	}
 	.c_wrap {
@@ -723,7 +754,7 @@ header {
 
 aside {
 	.wrap {
-		max-width: 715px;
+		max-width: 680px;
 		padding: 0 0 36px;
 		margin: 61px auto 0;
 		border-top: 2px solid #1e1e1e;
@@ -797,7 +828,7 @@ aside {
 footer {
 	background: #000;
 	.wrap {
-		max-width: 710px;
+		max-width: 680px;
 		margin: 0 auto;
 		padding: 60px 0 120px;
 		border-top: 2px solid #404040;
@@ -1053,6 +1084,34 @@ footer {
 		.cw_l {
 			margin: 10px 0 0;
 		}
+		.ch_im {
+			width: 80%;
+			margin: 0 auto 8%;
+		}
+		.ch_i_sec {
+			width: 65%;
+			margin: 0 auto 0;
+		}
+		.c_po {
+			display: flex;
+			flex-flow: row wrap;
+			max-width: 680px;
+			margin: 7% auto 0;
+			li {
+				width: 47%;
+				margin: 6% 0 0 6%;
+				line-height: 0;
+				&:nth-child(2n+1) {
+					margin: 6% 0 0 0;
+				}
+				&:nth-child(2) {
+					margin: 0 0 0 6%;
+				}
+				&:nth-child(1) {
+					margin: 0;
+				}
+			}
+		}
 		.c_h {
 			padding: 0 0 0 2.5%;
 			border-left: 4px solid #e5c200;
@@ -1064,11 +1123,12 @@ footer {
 			}
 		}
 		.c_btn {
-			margin: 3% 0 0;
+			margin: 6% 0 0;
 			a {
-				padding: 3% 0;
+				padding: 4% 0;
 				border-radius: 5px;
-				font-size: calc(39vw/12);
+				font-size: calc(41vw/12);
+				letter-spacing: 1.4px;
 			}
 		}
 		.ch_m {
@@ -1755,6 +1815,10 @@ footer {
 				border-radius: 5px;
 				font-size: calc(41vw/12);
 			}
+		}
+		.ch_im {
+			width: 81%;
+			margin: 0 auto 8%;
 		}
 		.c_h {
 			padding: 0 0 0 2.5%;
