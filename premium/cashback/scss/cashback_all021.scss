@@ -326,7 +326,7 @@ header {
 		}
 	}
 	.c_btn {
-		margin: 38px 0 0;
+		margin: 41px 0 0;
 		a {
 			display: block;
 			background: #3a2;
@@ -1808,18 +1808,41 @@ footer {
 			padding: 2% 0 0;
 			margin: 7% 5% 0;
 		}
-		.c_btn {
-			margin: 4% 0 0;
-			a {
-				padding: 3% 0;
-				border-radius: 5px;
-				font-size: calc(41vw/12);
-			}
-		}
 		.ch_im {
 			width: 81%;
 			margin: 0 auto 8%;
 		}
+		.ch_i_sec {
+			width: 66%;
+			margin: 0 auto 0;
+		}
+		.c_po {
+			margin: 8% auto 0;
+			li {
+				width: 47%;
+				margin: 6% 0 0 6%;
+				line-height: 0;
+				&:nth-child(2n+1) {
+					margin: 6% 0 0 0;
+				}
+				&:nth-child(2) {
+					margin: 0 0 0 6%;
+				}
+				&:nth-child(1) {
+					margin: 0;
+				}
+			}
+		}
+		.c_btn {
+			margin: 7% 0 0;
+			a {
+				padding: 4% 0;
+				border-radius: 5px;
+				font-size: calc(41vw/12);
+				letter-spacing: 1.4px;
+			}
+		}
+
 		.c_h {
 			padding: 0 0 0 2.5%;
 			border-left: 4px solid #e5c200;

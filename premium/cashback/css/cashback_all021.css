@@ -347,7 +347,7 @@ header .t_box .timer span {
   font-size: 34px;
 }
 .contents .c_btn {
-  margin: 38px 0 0;
+  margin: 41px 0 0;
 }
 .contents .c_btn a {
   display: block;
@@ -1789,17 +1789,39 @@ footer small {
     padding: 2% 0 0;
     margin: 7% 5% 0;
   }
-  .contents .c_btn {
-    margin: 4% 0 0;
-  }
-  .contents .c_btn a {
-    padding: 3% 0;
-    border-radius: 5px;
-    font-size: calc(41vw/12);
-  }
   .contents .ch_im {
     width: 81%;
     margin: 0 auto 8%;
+  }
+  .contents .ch_i_sec {
+    width: 66%;
+    margin: 0 auto 0;
+  }
+  .contents .c_po {
+    margin: 8% auto 0;
+  }
+  .contents .c_po li {
+    width: 47%;
+    margin: 6% 0 0 6%;
+    line-height: 0;
+  }
+  .contents .c_po li:nth-child(2n+1) {
+    margin: 6% 0 0 0;
+  }
+  .contents .c_po li:nth-child(2) {
+    margin: 0 0 0 6%;
+  }
+  .contents .c_po li:nth-child(1) {
+    margin: 0;
+  }
+  .contents .c_btn {
+    margin: 7% 0 0;
+  }
+  .contents .c_btn a {
+    padding: 4% 0;
+    border-radius: 5px;
+    font-size: calc(41vw/12);
+    letter-spacing: 1.4px;
   }
   .contents .c_h {
     padding: 0 0 0 2.5%;
