@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -539,7 +540,7 @@ header .h_wrap .h_item li:nth-child(1) {
 }
 .contents .c_ten .c10_item li {
   padding: 28px 0;
-  border-top: 1px solid #606060;
+  border-top: 1px solid #666;
 }
 .contents .c_ten .c10_item li a {
   display: block;
@@ -598,6 +599,24 @@ aside .f_d dd .f_item li {
   margin: 6px 0 0;
   line-height: 1.4;
   font-size: 19px;
+}
+aside .f_d dd .f_dot {
+  margin: 15px 0 0 35px;
+}
+aside .f_d dd .f_dot li {
+  position: relative;
+  padding: 0 0 0 38px;
+  margin: 8px 0 0;
+  line-height: 1.4;
+  font-size: 19px;
+}
+aside .f_d dd .f_dot li:before {
+  content: '・';
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 19px;
+  line-height: 0;
 }
 aside .f_d dd a {
   color: #a1882f;
@@ -1215,6 +1234,21 @@ footer small {
     line-height: 1.4;
     font-size: calc(29vw/12);
   }
+  aside .f_d dd .f_dot {
+    margin: 2.3% 0 0 5.2%;
+  }
+  aside .f_d dd .f_dot li {
+    padding: 0 0 0 4%;
+    margin: 1.4% 0 0;
+    line-height: 1.4;
+    font-size: 15px;
+  }
+  aside .f_d dd .f_dot li:before {
+    top: 11px;
+    left: 0%;
+    font-size: 15px;
+    line-height: 0;
+  }
   aside .f_d dd a:hover {
     text-decoration: underline;
   }
@@ -1799,6 +1833,21 @@ footer small {
     margin: 1% 0 0;
     line-height: 1.4;
     font-size: calc(32vw/12);
+  }
+  aside .f_d dd .f_dot {
+    margin: 2.3% 0 0 5.2%;
+  }
+  aside .f_d dd .f_dot li {
+    padding: 0 0 0 3.5%;
+    margin: 1.4% 0 0;
+    line-height: 1.4;
+    font-size: 12px;
+  }
+  aside .f_d dd .f_dot li:before {
+    top: 8px;
+    left: 0%;
+    font-size: 12px;
+    line-height: 0;
   }
   aside .f_d dd a:hover {
     text-decoration: underline;
