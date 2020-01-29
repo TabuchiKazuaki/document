@@ -384,6 +384,12 @@ header {
 				border-radius: 6px;
 				font-size: 30px;
 				color: #0199e0;
+
+				&:hover {
+					opacity: 1;
+					background: #0199e0;
+					color: #fff;
+				}
 			}
 		}
 	}
@@ -1030,8 +1036,14 @@ footer {
 				a {
 					padding: 2.3% 0;
 					border-radius: 5px;
-					border: 2px solid #3a2;
+					border: 2px solid #0199e0;
 					font-size: calc(44vw/12);
+
+					&:hover {
+						opacity: 8;
+						background: none;
+						color: #0199e0;
+					}
 
 				}
 			}

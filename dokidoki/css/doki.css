@@ -395,6 +395,11 @@ header .h_wrap .h_item li:nth-child(1) {
   font-size: 30px;
   color: #0199e0;
 }
+.contents .c_three .c_thr_btn a:hover {
+  opacity: 1;
+  background: #0199e0;
+  color: #fff;
+}
 .contents .c_six {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1012,8 +1017,13 @@ footer small {
   .contents .c_three .c_thr_btn a {
     padding: 2.3% 0;
     border-radius: 5px;
-    border: 2px solid #3a2;
+    border: 2px solid #0199e0;
     font-size: calc(44vw/12);
+  }
+  .contents .c_three .c_thr_btn a:hover {
+    opacity: 8;
+    background: none;
+    color: #0199e0;
   }
   .contents .c_six {
     padding: 0 0 8%;
