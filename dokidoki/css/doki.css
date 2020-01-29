@@ -132,6 +132,11 @@ header .h_wrap .h_item li:nth-child(1) {
   letter-spacing: 1.3px;
   color: #0199e0;
 }
+.contents .c_ph_l {
+  font-size: 36px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
 .contents .c_t {
   margin: 35px 0 0;
   font-weight: bold;
@@ -823,6 +828,10 @@ footer small {
     font-size: calc(63vw/12);
     letter-spacing: 1.3px;
   }
+  .contents .c_ph_l {
+    font-size: calc(57vw/12);
+    letter-spacing: 1px;
+  }
   .contents .c_t {
     margin: 4.5% 0 0;
     font-size: calc(41vw/12);
@@ -1398,6 +1407,10 @@ footer small {
     margin: 10.6% auto 0;
     font-size: calc(67vw/12);
     letter-spacing: 1.3px;
+  }
+  .contents .c_ph_l {
+    font-size: calc(58vw/12);
+    letter-spacing: 1px;
   }
   .contents .bagg_se {
     display: inline-block;
