@@ -176,24 +176,46 @@ header .h_wrap .h_item li:nth-child(1) {
   margin: 43px 0 0;
   border: 2px solid #0199e0;
   border-radius: 25px;
+  text-align: center;
+}
+.contents .bene .b_h {
+  background: #0199e0;
+  border-radius: 20px 20px 0 0;
+  padding: 15px 0 18px;
+  text-align: center;
+  font-size: 33px;
+  line-height: 1.35;
+  letter-spacing: 4px;
+  color: #fff;
+}
+.contents .bene .b_h span {
+  display: inline-block;
+  margin: 0 5px 0 0;
+  letter-spacing: 2px;
+  font-size: 35px;
 }
 .contents .bene .b_item {
   overflow: hidden;
+  padding: 30px 16px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .contents .bene .b_item li {
   float: left;
-  width: 47.5%;
+  width: 49.1%;
   max-width: 332px;
-  margin: 0 0 0 5%;
+  margin: 0 0 0 2.2%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .contents .bene .b_item li:first-child {
   margin: 0;
 }
 .contents .bene .b_cau {
-  margin: 45px 0 0;
+  margin: 35px 0 0;
   font-size: 16px;
   font-weight: bold;
-  letter-spacing: 1.1px;
+  letter-spacing: 0.5px;
   color: #535353;
 }
 .contents .bene .b_btn {
@@ -956,6 +978,19 @@ footer small {
     border: 2px solid #0199e0;
     border-radius: 27px;
   }
+  .contents .bene .b_h {
+    border-radius: 20px 20px 0 0;
+    padding: 2% 0 2.6%;
+    font-size: calc(52vw/12);
+    line-height: 1.3;
+    letter-spacing: 3.5px;
+  }
+  .contents .bene .b_h span {
+    display: inline-block;
+    margin: 0 0.7% 0 0;
+    letter-spacing: 2px;
+    font-size: calc(55vw/12);
+  }
   .contents .bene .b_item {
     overflow: hidden;
   }
@@ -1581,6 +1616,19 @@ footer small {
     border: 1px solid #0199e0;
     border-radius: 16px;
   }
+  .contents .bene .b_h {
+    border-radius: 13px 13px 0 0;
+    padding: 2% 0 2.6%;
+    font-size: calc(54vw/12);
+    line-height: 1.3;
+    letter-spacing: 3.5px;
+  }
+  .contents .bene .b_h span {
+    display: inline-block;
+    margin: 0 0.7% 0 0;
+    letter-spacing: 2px;
+    font-size: calc(57vw/12);
+  }
   .contents .bene .b_item {
     overflow: hidden;
   }
@@ -1595,7 +1643,7 @@ footer small {
   .contents .bene .b_cau {
     margin: 6% 2.5% 0;
     font-size: calc(23vw/12);
-    letter-spacing: 1.1px;
+    letter-spacing: 0.5px;
   }
   .contents .bene .b_btn {
     margin: 6% 7% 0;
@@ -1712,7 +1760,7 @@ footer small {
   .contents .entry .cau {
     margin: 6% 2.5% 0;
     font-size: calc(23vw/12);
-    letter-spacing: 1.1px;
+    letter-spacing: 0.5px;
   }
   .contents .entry .en_btn {
     margin: 6% 7% 0;
