@@ -7,7 +7,7 @@
 body {
   line-height: 1;
   min-width: 320px;
-  font-family: "Yantramanav", 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important;
+  font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important;
   color: #000;
   margin: 0 auto;
   background: #fff;
@@ -219,7 +219,7 @@ header .h_wrap .h_item li:nth-child(1) {
   color: #535353;
 }
 .contents .bene .b_btn {
-  margin: 40px 46px 0;
+  margin: 33px 46px 0;
 }
 .contents .bene .b_btn a {
   display: block;
@@ -993,11 +993,12 @@ footer small {
   }
   .contents .bene .b_item {
     overflow: hidden;
+    padding: 4.8% 2.5% 0;
   }
   .contents .bene .b_item li {
     float: left;
-    width: 47.5%;
-    margin: 0 0 0 5%;
+    width: 48.5%;
+    margin: 0 0 0 3%;
   }
   .contents .bene .b_item li:first-child {
     margin: 0;
@@ -1631,18 +1632,19 @@ footer small {
   }
   .contents .bene .b_item {
     overflow: hidden;
+    padding: 4.8% 2.5% 0;
   }
   .contents .bene .b_item li {
     float: left;
-    width: 47.5%;
-    margin: 0 0 0 5%;
+    width: 48.5%;
+    margin: 0 0 0 3%;
   }
   .contents .bene .b_item li:first-child {
     margin: 0;
   }
   .contents .bene .b_cau {
-    margin: 6% 2.5% 0;
-    font-size: calc(23vw/12);
+    margin: 6% 0 0;
+    font-size: calc(24vw/12);
     letter-spacing: 0.5px;
   }
   .contents .bene .b_btn {
