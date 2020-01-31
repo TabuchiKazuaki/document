@@ -689,6 +689,12 @@ header .h_wrap .h_item li:nth-child(1) {
 .contents .c_eighteen .c_e_item .c_e_list:last-child {
   border-bottom: none;
 }
+.contents .c_eighteen .c_e_item .mn {
+  padding: 0 0 45px;
+}
+.contents .c_eighteen .c_e_item .mn:last-child {
+  border-bottom: 1px solid #606060;
+}
 .contents .c_eighteen .ce_text {
   margin: 20px 0 0;
   font-size: 25px;
@@ -1476,6 +1482,9 @@ footer small {
   .contents .c_eighteen .c_e_item .c_e_list:last-child {
     border-bottom: none;
   }
+  .contents .c_eighteen .c_e_item .mn {
+    padding: 0 0 5%;
+  }
   .contents .c_eighteen .ce_text {
     margin: 3% 0 0;
     font-size: calc(41vw/12);
@@ -2193,6 +2202,9 @@ footer small {
   }
   .contents .c_eighteen .c_e_item .c_e_list:last-child {
     border-bottom: none;
+  }
+  .contents .c_eighteen .c_e_item .mn {
+    padding: 0 0 5%;
   }
   .contents .c_eighteen .ce_text {
     margin: 3% 0 0;
