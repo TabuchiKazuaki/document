@@ -754,11 +754,17 @@ header .h_wrap .h_item li:nth-child(1) {
 }
 .contents .c_eighteen .btn a {
   display: block;
-  background: #0199e0;
-  padding: 20px 0;
-  border-radius: 4px;
+  background: none;
+  padding: 18px 0;
   text-align: center;
+  border: 3px solid #0199e0;
+  border-radius: 6px;
   font-size: 32px;
+  color: #0199e0;
+}
+.contents .c_eighteen .btn a:hover {
+  opacity: 1;
+  background: #0199e0;
   color: #fff;
 }
 
@@ -1549,6 +1555,13 @@ footer small {
     padding: 3% 0;
     border-radius: 3px;
     font-size: calc(53vw/12);
+    border: 2px solid #0199e0;
+    font-weight: bold;
+  }
+  .contents .c_eighteen .btn a:hover {
+    opacity: 8;
+    background: none;
+    color: #0199e0;
   }
 
   .c_s {
@@ -2279,6 +2292,7 @@ footer small {
     padding: 3% 0;
     border-radius: 3px;
     font-size: calc(55vw/12);
+    border: 2px solid #0199e0;
   }
 
   .c_s {
