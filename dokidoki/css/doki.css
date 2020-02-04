@@ -841,6 +841,22 @@ header .h_wrap .h_item li:nth-child(1) {
   background: #0199e0;
   color: #fff;
 }
+.contents .c_nineteen .c_no {
+  display: block;
+  margin: 40px 0 0;
+  background: none;
+  padding: 15px 0;
+  text-align: center;
+  border: 3px solid #0199e0;
+  border-radius: 6px;
+  font-size: 30px;
+  color: #0199e0;
+}
+.contents .c_nineteen .c_no:hover {
+  opacity: 1;
+  background: #0199e0;
+  color: #fff;
+}
 .contents .c_nineteen .c19_item li {
   padding: 35px 0;
   border-top: 1px solid #606060;
@@ -1722,6 +1738,18 @@ footer small {
     background: none;
     color: #0199e0;
   }
+  .contents .c_nineteen .c_no {
+    margin: 6% 0 0;
+    padding: 2.5% 0;
+    border: 2px solid #0199e0;
+    border-radius: 5px;
+    font-size: calc(48vw/12);
+  }
+  .contents .c_nineteen .c_no:hover {
+    opacity: 8;
+    background: none;
+    color: #0199e0;
+  }
   .contents .c_nineteen .c19_item li {
     padding: 5% 0;
   }
@@ -2526,6 +2554,12 @@ footer small {
     margin: 5.5% 0 0;
   }
   .contents .c_nineteen .c_btn a {
+    padding: 2.5% 0;
+    border-radius: 4px;
+    border: 1.5px solid #0199e0;
+    font-size: calc(50vw/12);
+  }
+  .contents .c_nineteen .c_no {
     padding: 2.5% 0;
     border-radius: 4px;
     border: 1.5px solid #0199e0;

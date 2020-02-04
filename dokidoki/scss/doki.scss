@@ -839,6 +839,23 @@ header {
 				}
 			}
 		}
+		.c_no {
+			display: block;
+			margin: 40px 0 0;
+			background: none;
+			padding: 15px 0;
+			text-align: center;
+			border: 3px solid #0199e0;
+			border-radius: 6px;
+			font-size: 30px;
+			color: #0199e0;
+
+			&:hover {
+				opacity: 1;
+				background: #0199e0;
+				color: #fff;
+			}
+		}
 		.c19_item {
 			li {
 				padding: 35px 0;
@@ -1795,6 +1812,19 @@ footer {
 					}
 				}
 			}
+			.c_no {
+				margin: 6% 0 0;
+				padding: 2.5% 0;
+				border: 2px solid #0199e0;
+				border-radius: 5px;
+				font-size: calc(48vw/12);
+
+				&:hover {
+					opacity: 8;
+					background: none;
+					color: #0199e0;
+				}
+			}
 			.c19_item {
 				li {
 					padding: 5% 0;
@@ -2688,6 +2718,12 @@ footer {
 					border: 1.5px solid #0199e0;
 					font-size: calc(50vw/12);
 				}
+			}
+			.c_no {
+				padding: 2.5% 0;
+				border-radius: 4px;
+				border: 1.5px solid #0199e0;
+				font-size: calc(50vw/12);
 			}
 			.c19_item {
 				li {
