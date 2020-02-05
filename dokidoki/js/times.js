@@ -33,6 +33,7 @@ $(document).ready(function() {
 	var t01las0 = new Date("2020/02/11 02:20");
 	if (now.getTime() > t01las0.getTime()) {
 		$('.tp01').show();
+		$('#t01').hide();
 		$('.tl01').hide();
 	}
 
@@ -56,6 +57,7 @@ $(document).ready(function() {
 	var t02las0 = new Date("2020/02/13 02:20");
 	if (now.getTime() > t02las0.getTime()) {
 		$('.tp02').show();
+		$('#t02').hide();
 		$('.tl02').hide();
 	}
 
@@ -79,6 +81,7 @@ $(document).ready(function() {
 	var t03las0 = new Date("2020/02/17 20:00");
 	if (now.getTime() > t03las0.getTime()) {
 		$('.tp03').show();
+		$('#t03').hide();
 		$('.tl03').hide();
 	}
 
@@ -102,6 +105,7 @@ $(document).ready(function() {
 	var t04las0 = new Date("2020/02/19 23:00");
 	if (now.getTime() > t04las0.getTime()) {
 		$('.tp04').show();
+		$('#t04').hide();
 		$('.tl04').hide();
 	}
 
@@ -125,6 +129,7 @@ $(document).ready(function() {
 	var t05las0 = new Date("2020/02/19 23:00");
 	if (now.getTime() > t05las0.getTime()) {
 		$('.tp05').show();
+		$('#t05').hide();
 		$('.tl05').hide();
 	}
 
@@ -148,6 +153,7 @@ $(document).ready(function() {
 	var t06las0 = new Date("2020/02/22 23:00");
 	if (now.getTime() > t06las0.getTime()) {
 		$('.tp06').show();
+		$('#t06').hide();
 		$('.tl06').hide();
 	}
 
@@ -171,6 +177,7 @@ $(document).ready(function() {
 	// var t07las0 = new Date("2020/03/01 23:00");
 	// if (now.getTime() > t07las0.getTime()) {
 	// 	$('.tp07').show();
+	// $('#t07').hide();
 	// 	$('.tl07').hide();
 	// }
 
@@ -193,6 +200,7 @@ $(document).ready(function() {
 	// var t08las0 = new Date("2020/03/02 20:00");
 	// if (now.getTime() > t08las0.getTime()) {
 	// 	$('.tp08').show();
+	// $('#t08').hide();
 	// 	$('.tl08').hide();
 	// }
 });
