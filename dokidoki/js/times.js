@@ -16,6 +16,7 @@ $(document).ready(function() {
 	var t01 = new Date("2020/02/04 09:40");
 	if (now.getTime() > t01.getTime()) {
 		$('#t01').text('ただいま配信中');
+		$('#t01').css('color','red');
 	}
 	var t01end = new Date("2020/02/04 23:00");
 	if (now.getTime() > t01end.getTime()) {
