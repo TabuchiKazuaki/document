@@ -46,10 +46,6 @@ $(document).ready(function() {
 		$('#t02').show();
 		$('#t02').text('ただいま配信中');
 	}
-	var t02end = new Date("2020/02/07 02:00");
-	if (now.getTime() > t02end.getTime()) {
-		$('#t02').text('番組ビデオ配信中');
-	}
 	var t02las3 = new Date("2020/02/11");
 	if (now.getTime() > t02las3.getTime()) {
 		$('#t02').text('配信終了まであと3日');
@@ -70,10 +66,6 @@ $(document).ready(function() {
 	if (now.getTime() > t03.getTime()) {
 		$('#t03').show();
 		$('#t03').text('ただいま配信中');
-	}
-	var t03end = new Date("2020/02/11 20:00");
-	if (now.getTime() > t03end.getTime()) {
-		$('#t03').text('番組ビデオ配信中');
 	}
 	var t03las3 = new Date("2020/02/15");
 	if (now.getTime() > t03las3.getTime()) {
@@ -96,10 +88,6 @@ $(document).ready(function() {
 		$('#t04').show();
 		$('#t04').text('ただいま配信中');
 	}
-	var t04end = new Date("2020/02/13 23:00");
-	if (now.getTime() > t04end.getTime()) {
-		$('#t04').text('番組ビデオ配信中');
-	}
 	var t04las3 = new Date("2020/02/17");
 	if (now.getTime() > t04las3.getTime()) {
 		$('#t04').text('配信終了まであと3日');
@@ -120,10 +108,6 @@ $(document).ready(function() {
 	if (now.getTime() > t05.getTime()) {
 		$('#t05').show();
 		$('#t05').text('ただいま配信中');
-	}
-	var t05end = new Date("2020/02/13 23:00");
-	if (now.getTime() > t05end.getTime()) {
-		$('#t05').text('番組ビデオ配信中');
 	}
 	var t05las3 = new Date("2020/02/17");
 	if (now.getTime() > t05las3.getTime()) {
@@ -146,10 +130,6 @@ $(document).ready(function() {
 		$('#t06').show();
 		$('#t06').text('ただいま配信中');
 	}
-	var t06end = new Date("2020/02/16 22:00");
-	if (now.getTime() > t06end.getTime()) {
-		$('#t06').text('番組ビデオ配信中');
-	}
 	var t06las3 = new Date("2020/02/20");
 	if (now.getTime() > t06las3.getTime()) {
 		$('#t06').text('配信終了まであと3日');
@@ -171,10 +151,6 @@ $(document).ready(function() {
 		// $('#t07').show();
 	// 	$('#t07').text('ただいま配信中');
 	// }
-	// var t07end = new Date("2020/02/24 23:00");
-	// if (now.getTime() > t07end.getTime()) {
-	// 	$('#t07').text('番組ビデオ配信中');
-	// }
 	// var t07las3 = new Date("2020/02/28");
 	// if (now.getTime() > t07las3.getTime()) {
 	// 	$('#t07').text('配信終了まであと3日');
@@ -194,10 +170,6 @@ $(document).ready(function() {
 	// if (now.getTime() > t08.getTime()) {
 	// $('#t08').show();
 	// 	$('#t08').text('ただいま配信中');
-	// }
-	// var t08end = new Date("2020/02/25 20:00");
-	// if (now.getTime() > t08end.getTime()) {
-	// 	$('#t08').text('番組ビデオ配信中');
 	// }
 	// var t08las3 = new Date("2020/02/29");
 	// if (now.getTime() > t08las3.getTime()) {
