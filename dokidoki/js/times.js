@@ -24,6 +24,7 @@ $(document).ready(function() {
 	if (now.getTime() > t01.getTime()) {
 		$('#t01').show();
 		$('#t01').text('ただいま配信中');
+		$('.a01').text('今すぐみる');
 	}
 	var t01las3 = new Date("2020/02/09");
 	if (now.getTime() > t01las3.getTime()) {
@@ -45,6 +46,7 @@ $(document).ready(function() {
 	if (now.getTime() > t02.getTime()) {
 		$('#t02').show();
 		$('#t02').text('ただいま配信中');
+		$('.a02').text('今すぐみる');
 	}
 	var t02las3 = new Date("2020/02/11");
 	if (now.getTime() > t02las3.getTime()) {
@@ -66,6 +68,7 @@ $(document).ready(function() {
 	if (now.getTime() > t03.getTime()) {
 		$('#t03').show();
 		$('#t03').text('ただいま配信中');
+		$('.a03').text('今すぐみる');
 	}
 	var t03las3 = new Date("2020/02/15");
 	if (now.getTime() > t03las3.getTime()) {
@@ -87,6 +90,7 @@ $(document).ready(function() {
 	if (now.getTime() > t04.getTime()) {
 		$('#t04').show();
 		$('#t04').text('ただいま配信中');
+		$('.a04').text('今すぐみる');
 	}
 	var t04las3 = new Date("2020/02/17");
 	if (now.getTime() > t04las3.getTime()) {
@@ -108,6 +112,7 @@ $(document).ready(function() {
 	if (now.getTime() > t05.getTime()) {
 		$('#t05').show();
 		$('#t05').text('ただいま配信中');
+		$('.a05').text('今すぐみる');
 	}
 	var t05las3 = new Date("2020/02/17");
 	if (now.getTime() > t05las3.getTime()) {
@@ -129,6 +134,7 @@ $(document).ready(function() {
 	if (now.getTime() > t06.getTime()) {
 		$('#t06').show();
 		$('#t06').text('ただいま配信中');
+		$('.a06').text('今すぐみる');
 	}
 	var t06las3 = new Date("2020/02/20");
 	if (now.getTime() > t06las3.getTime()) {
@@ -150,6 +156,7 @@ $(document).ready(function() {
 	// if (now.getTime() > t07.getTime()) {
 		// $('#t07').show();
 	// 	$('#t07').text('ただいま配信中');
+		// $('.a07').text('今すぐみる');
 	// }
 	// var t07las3 = new Date("2020/02/28");
 	// if (now.getTime() > t07las3.getTime()) {
@@ -170,6 +177,7 @@ $(document).ready(function() {
 	// if (now.getTime() > t08.getTime()) {
 	// $('#t08').show();
 	// 	$('#t08').text('ただいま配信中');
+		// $('.a08').text('今すぐみる');
 	// }
 	// var t08las3 = new Date("2020/02/29");
 	// if (now.getTime() > t08las3.getTime()) {
