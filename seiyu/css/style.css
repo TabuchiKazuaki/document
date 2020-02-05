@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1;
+  min-width: 320px;
+  font-family: 'M PLUS Rounded 1c', sans-serif !important;
+  color: #000;
+  margin: 0 auto;
+  background: #282828;
+}
+body li {
+  list-style: none;
+}
+
+a {
+  -webkit-transition: .3s;
+  transition: .3s;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  opacity: .8;
+}
+
+img {
+  width: 100%;
+}
+
+.wrap {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.fd {
+  font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important;
+}
+
+header .hl {
+  background: #000;
+}
+header .hl span {
+  display: inline-block;
+  max-width: 151px;
+  padding: 13px 0 13px 24px;
+  line-height: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+header .h_i {
+  background: #f5e117;
+  padding: 40px 0 0;
+}
+header .h_i .h_h {
+  max-width: 1020px;
+  margin: 0 auto;
+  line-height: 0;
+}
+
+.contents .c_i {
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/93e9f124fb0dd669a516dffdeef2d64a_006fc2c298fefced1d370b1a4c682be1.png) left top repeat;
+  -webkit-animation: bgiLoop 1000s linear infinite;
+          animation: bgiLoop 1000s linear infinite;
+}
+.contents .cwrap {
+  background: #282828;
+}
+.contents .c_h1 {
+  padding: 60px 0 60px;
+  font-size: 60px;
+  text-align: center;
+  font-weight: normal;
+  color: #f3dd00;
+}
+.contents .thirteen {
+  padding: 0;
+  margin: 35px 0 0;
+}
+.contents .thirteen .movie {
+  margin: 0 0 20px;
+}
+.contents .thirteen .movie .movie_inner {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  margin: 18px auto 0;
+}
+.contents .thirteen .movie .movie_inner iframe {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+.contents .thirteen .th_t {
+  margin: 60px 0 0;
+  font-size: 26px;
+  text-align: center;
+  color: #fff;
+}
+.contents .thirteen .c_btn {
+  max-width: 615px;
+  margin: 70px auto 0;
+}
+.contents .thirteen .c_btn a {
+  display: block;
+  background: #000;
+  padding: 25px 0;
+  text-align: center;
+  border: 3px solid #f3dd00;
+  font-weight: bold;
+  font-size: 34px;
+  letter-spacing: 1.3px;
+  color: #f3dd00;
+}
+.contents .thirteen .c_btn a span {
+  display: inline-block;
+  margin: 0 2px 0 0;
+  font-size: 37px;
+}
+.contents .thirteen .c_btn a:hover {
+  opacity: 1;
+  border: 3px solid #000;
+  background: #f3dd00;
+  color: #000;
+}
+.contents .thirteen .next {
+  margin: 70px 0 0;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  color: #f3dd00;
+}
+.contents .thirteen .date {
+  margin: 60px 0 0;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  color: #fff;
+}
+.contents .thirteen .date span {
+  margin: 60px 0 0;
+  font-size: 54px;
+}
+.contents .thirteen .guest {
+  padding: 50px 0 60px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+  letter-spacing: 1.3px;
+  color: #fff;
+}
+.contents .sec {
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/12e7d0b186fe3eb71e6d7942f0f6d88b_2ef122d645d21d0f179d783594975637.png) 0 0 repeat;
+}
+.contents .sec .what {
+  padding: 70px 0 70px;
+  font-size: 60px;
+  text-align: center;
+  color: #000;
+}
+.contents .sec .s_box {
+  background: #fff;
+}
+
+@-webkit-keyframes bgiLoop {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 20000px 0;
+  }
+}
+
+@keyframes bgiLoop {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 20000px 0;
+  }
+}
+@-webkit-keyframes item_sp {
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes item_list {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes item_list {
+  100% {
+    opacity: 1;
+  }
+}
+.ani_list01 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 3s 1 forwards;
+}
+
+.ani_list02 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 3.5s 1 forwards;
+}
+
+.ani_list03 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 4s 1 forwards;
+}
+
+.ani_list04 {
+  -webkit-animation: item_sp 0.5s ease 1s 1 forwards;
+  animation: item_sp 1s ease 4.5s 1 forwards;
+}
