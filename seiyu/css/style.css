@@ -388,6 +388,20 @@ footer small {
     background-position: 20000px 0;
   }
 }
+@media screen and (max-width: 1020px) {
+  header .hl span {
+    display: inline-block;
+    width: 21%;
+    padding: 1.3% 0 1.4% 2.6%;
+  }
+  header .h_i {
+    padding: 6% 0 0;
+  }
+  header .h_i .h_h {
+    width: 100%;
+    margin: 0 5%;
+  }
+}
 @-webkit-keyframes item_sp {
   100% {
     opacity: 1;
