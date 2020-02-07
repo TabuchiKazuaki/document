@@ -199,21 +199,21 @@ $(document).ready(function() {
 	// 	$('.tl08').hide();
 	// }
 
-	// var t09 = new Date("2020/02/22 09:50");
+	// var t09 = new Date("2020/02/24 14:50");
 	// if (now.getTime() > t09.getTime()) {
 	// $('#t09').show();
 	// 	$('#t09').text('ただいま配信中');
 		// $('#a09').text('今すぐみる');
 	// }
-	// var t09las3 = new Date("2020/03/20");
+	// var t09las3 = new Date("2020/03/22");
 	// if (now.getTime() > t09las3.getTime()) {
 	// 	$('#t09').text('配信終了まであと3日');
 	// }
-	// var t09las2 = new Date("2020/03/21");
+	// var t09las2 = new Date("2020/03/23");
 	// if (now.getTime() > t09las2.getTime()) {
 	// 	$('#t09').text('まもなく配信終了');
 	// }
-	// var t09las0 = new Date("2020/03/22 00:00");
+	// var t09las0 = new Date("2020/03/24 00:00");
 	// if (now.getTime() > t09las0.getTime()) {
 	// 	$('.tp09').show();
 	// $('#t09').hide();
@@ -221,21 +221,21 @@ $(document).ready(function() {
 	// }
 
 
-	// var t10 = new Date("2020/02/22 09:50");
+	// var t10 = new Date("2020/02/25 9:50");
 	// if (now.getTime() > t10.getTime()) {
 	// $('#t10').show();
 	// 	$('#t10').text('ただいま配信中');
 		// $('#a10').text('今すぐみる');
 	// }
-	// var t10las3 = new Date("2020/03/20");
+	// var t10las3 = new Date("2020/03/23");
 	// if (now.getTime() > t10las3.getTime()) {
 	// 	$('#t10').text('配信終了まであと3日');
 	// }
-	// var t10las2 = new Date("2020/03/21");
+	// var t10las2 = new Date("2020/03/24");
 	// if (now.getTime() > t10las2.getTime()) {
 	// 	$('#t10').text('まもなく配信終了');
 	// }
-	// var t10las0 = new Date("2020/03/22 00:00");
+	// var t10las0 = new Date("2020/03/25 00:00");
 	// if (now.getTime() > t10las0.getTime()) {
 	// 	$('.tp10').show();
 	// $('#t10').hide();
