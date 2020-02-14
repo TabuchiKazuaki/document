@@ -29,6 +29,10 @@ img {
   width: 100%;
 }
 
+.pc {
+  display: block;
+}
+
 .wrap {
   max-width: 768px;
   margin: 0 auto;
@@ -460,6 +464,10 @@ footer small {
 }
 
 @media screen and (max-width: 768px) {
+  .pc {
+    display: none;
+  }
+
   .wrap {
     padding: 0 5% 0;
   }
