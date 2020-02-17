@@ -216,7 +216,7 @@ $(document).ready(function() {
 	var t09las0 = new Date("2020/03/24 00:00");
 	if (now.getTime() > t09las0.getTime()) {
 		$('.tp09').show();
-	$('#t09').hide();
+		$('#t09').hide();
 		$('.tl09').hide();
 	}
 
