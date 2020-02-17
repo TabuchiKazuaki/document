@@ -174,7 +174,7 @@ $(document).ready(function() {
 	var t07las0 = new Date("2020/03/20 00:00");
 	if (now.getTime() > t07las0.getTime()) {
 		$('.tp07').show();
-	$('#t07').hide();
+		$('#t07').hide();
 		$('.tl07').hide();
 	}
 
@@ -195,7 +195,7 @@ $(document).ready(function() {
 	var t08las0 = new Date("2020/03/22 00:00");
 	if (now.getTime() > t08las0.getTime()) {
 		$('.tp08').show();
-	$('#t08').hide();
+		$('#t08').hide();
 		$('.tl08').hide();
 	}
 
@@ -238,7 +238,7 @@ $(document).ready(function() {
 	var t10las0 = new Date("2020/03/25 00:00");
 	if (now.getTime() > t10las0.getTime()) {
 		$('.tp10').show();
-	$('#t10').hide();
+		$('#t10').hide();
 		$('.tl10').hide();
 	}
 });
