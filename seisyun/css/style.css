@@ -153,6 +153,13 @@ header .h_wrap .h_item li:nth-child(1) {
 .contents {
   background: #fff;
 }
+.contents .c_ph {
+  padding: 0;
+  margin: 30px auto 0;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+}
 .contents .c_p {
   max-width: 541px;
   margin: 62px auto 0;
@@ -1253,16 +1260,16 @@ footer small {
   .contents .c_sin:before {
     top: 21%;
     left: -2%;
-    background-size: 110px 110px;
-    width: 110px;
-    height: 110px;
+    background-size: 100% auto;
+    width: 22%;
+    height: 100%;
   }
   .contents .c_sin:after {
     top: 0;
     right: 0;
-    background-size: 148px 119px;
-    width: 148px;
-    height: 119px;
+    background-size: 100% auto;
+    width: 22%;
+    height: 100%;
   }
   .contents .c_sec {
     width: 100%;
@@ -1279,18 +1286,18 @@ footer small {
     position: absolute;
     top: 6%;
     left: -3%;
-    background-size: 121px 116px;
-    width: 121px;
-    height: 116px;
+    background-size: 100% auto;
+    width: 22%;
+    height: 100%;
   }
   .contents .c_sec:after {
     content: '';
     position: absolute;
     top: 0;
     right: -2%;
-    background-size: 88px 103px;
-    width: 88px;
-    height: 103px;
+    background-size: 100% auto;
+    width: 22%;
+    height: 100%;
   }
   .contents .c_p {
     width: 79.6%;
