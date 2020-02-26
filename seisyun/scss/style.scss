@@ -284,6 +284,11 @@ header {
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
+	.e_ew {
+		max-width: 715px;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
 
 	.bene {
 		padding: 0 0 40px;
@@ -351,6 +356,79 @@ header {
 			font-weight: bold;
 			letter-spacing: 1.1px;
 			color: #535353;
+			span {
+				font-size: 23px;
+			}
+		}
+	}
+	.eco {
+		padding: 0 0 42px;
+		margin: 60px 0 0;
+		border: 3px solid #f57197;
+		border-radius: 25px;
+		text-align: center;
+
+		.en_h {
+			background: #f57197;
+			border-radius: 20px 20px 0 0;
+			padding: 15px 0 18px;
+			text-align: center;
+			font-size: 33px;
+			line-height: 1.35;
+			letter-spacing: 4px;
+			color: #fff;
+			span {
+				display: inline-block;
+				margin: 0 5px 0 0;
+				letter-spacing: 2px;
+				font-size: 35px;
+			}
+		}
+
+		.e_itme {
+			overflow: hidden;
+			padding: 30px 16px 0;
+			li {
+				float: left;
+				width: 49%;
+				max-width: 328px;
+				margin: 0 0 0 20px;
+				box-sizing: border-box;
+
+				&:first-child {
+					margin: 0;
+				}
+			}
+		}
+
+		.cau {
+			margin: 34px 0 0;
+			font-size: 16px;
+			font-weight: bold;
+			letter-spacing: 1.1px;
+			color: #535353;
+		}
+
+		.en_btn {
+			margin: 32px 46px 0;
+			a {
+				display: block;
+				background: #f57197;
+				padding: 25px 0;
+				border-radius: 4px;
+				text-align: center;
+				font-size: 34px;
+				font-weight: bold;
+				letter-spacing: 1.3px;
+				color: #fff;
+			}
+		}
+		.en_date {
+			margin: 28px 0 0;
+			font-size: 20px;
+			font-weight: bold;
+			letter-spacing: 1.1px;
+			color: #1a1a1a;
 			span {
 				font-size: 23px;
 			}
@@ -1660,6 +1738,80 @@ footer {
 			max-width: 715px;
 			padding: 0 2.5%;
 			margin: 0 auto;
+		}
+		.e_ew {
+			max-width: none;
+			width: 94%;
+			margin: 0 auto;
+			box-sizing: border-box;
+		}
+
+		.eco {
+			padding: 0 0 5.8%;
+			margin: 6% 0 0;
+			border: 2px solid #f57197;
+			border-radius: 27px;
+
+			.en_h {
+				border-radius: 20px 20px 0 0;
+				padding: 2% 0 2.6%;
+				font-size: calc(52vw/12);
+				line-height: 1.3;
+				letter-spacing: 3.5px;
+				span {
+					display: inline-block;
+					margin: 0 0.7% 0 0;
+					letter-spacing: 2px;
+					font-size: calc(55vw/12);
+				}
+			}
+
+			.e_itme {
+				padding: 5.6% 2.8% 0;
+				li {
+					float: left;
+					width: 48.5%;
+					margin: 0 0 0 3%;
+
+					&:first-child {
+						margin: 0;
+					}
+				}
+			}
+
+			.cau {
+				margin: 5% 0 0;
+				font-size: calc(25vw/12);
+				font-weight: bold;
+				letter-spacing: 0.7px;
+			}
+
+			.en_btn {
+				margin: 6% 7% 0;
+				a {
+					padding: 4% 0;
+					border-radius: 4px;
+					font-size: calc(53vw/12);
+					letter-spacing: 1.3px;
+				}
+			}
+			.en_date {
+				margin: 5% 0 0;
+				font-size: calc(31vw/12);
+				letter-spacing: 0.8px;
+				span {
+					font-size: calc(35vw/12);
+				}
+
+			}
+			.en_date {
+				margin: 4% 0 0;
+				font-size: calc(31vw/12);
+				letter-spacing: 1.1px;
+				span {
+					font-size: calc(34vw/12);
+				}
+			}
 		}
 
 		.entry {
