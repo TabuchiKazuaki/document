@@ -76,6 +76,6 @@ $(function(){
 	var end = new Date("2020/03/04 00:00");
 	if (now.getTime() > end.getTime()) {
 		$('.t_box').hide();
-		$('.ch_h').text('キャンペーンは終了しました');
+		$('.ch_h').text('3月キャンペーンは終了しました');
 	}
 });

@@ -487,6 +487,24 @@ aside {
 					font-size: 20px;
 				}
 			}
+			.f_dot {
+				margin: 15px 0 0 35px;
+				li {
+					position: relative;
+					padding: 0 0 0 38px;
+					margin: 8px 0 0;
+					line-height: 1.4;
+					font-size: 19px;
+					&:before {
+						content: '・';
+						position: absolute;
+						top: 14px;
+						left: 20px;
+						font-size: 19px;
+						line-height: 0;
+					}
+				}
+			}
 
 			a {
 				color: #a1882f;
@@ -939,6 +957,21 @@ footer {
 						line-height: 1;
 					}
 				}
+				.f_dot {
+					margin: 2.3% 0 0 5.2%;
+					li {
+						padding: 0 0 0 4%;
+						margin: 1.4% 0 0;
+						line-height: 1.4;
+						font-size: 15px;
+						&:before {
+							top: 11px;
+							left: 0%;
+							font-size: 15px;
+							line-height: 0;
+						}
+					}
+				}
 				a {
 					&:hover {
 						text-decoration: underline;
@@ -1368,6 +1401,21 @@ footer {
 						margin: 1% 0 0;
 						line-height: 1.4;
 						font-size: calc(36vw/12);
+					}
+				}
+				.f_dot {
+					margin: 2.3% 0 0 5.2%;
+					li {
+						padding: 0 0 0 3.5%;
+						margin: 1.4% 0 0;
+						line-height: 1.4;
+						font-size: 12px;
+						&:before {
+							top: 8px;
+							left: 0%;
+							font-size: 12px;
+							line-height: 0;
+						}
 					}
 				}
 				a {

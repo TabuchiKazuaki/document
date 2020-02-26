@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -504,6 +505,24 @@ aside .f_d dd .f_item li {
   line-height: 1.4;
   font-size: 20px;
 }
+aside .f_d dd .f_dot {
+  margin: 15px 0 0 35px;
+}
+aside .f_d dd .f_dot li {
+  position: relative;
+  padding: 0 0 0 38px;
+  margin: 8px 0 0;
+  line-height: 1.4;
+  font-size: 19px;
+}
+aside .f_d dd .f_dot li:before {
+  content: '・';
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 19px;
+  line-height: 0;
+}
 aside .f_d dd a {
   color: #a1882f;
   text-decoration: underline;
@@ -927,6 +946,21 @@ footer small {
     font-size: calc(32vw/12);
     line-height: 1;
   }
+  aside .f_d dd .f_dot {
+    margin: 2.3% 0 0 5.2%;
+  }
+  aside .f_d dd .f_dot li {
+    padding: 0 0 0 4%;
+    margin: 1.4% 0 0;
+    line-height: 1.4;
+    font-size: 15px;
+  }
+  aside .f_d dd .f_dot li:before {
+    top: 11px;
+    left: 0%;
+    font-size: 15px;
+    line-height: 0;
+  }
   aside .f_d dd a:hover {
     text-decoration: underline;
   }
@@ -1339,6 +1373,21 @@ footer small {
     margin: 1% 0 0;
     line-height: 1.4;
     font-size: calc(36vw/12);
+  }
+  aside .f_d dd .f_dot {
+    margin: 2.3% 0 0 5.2%;
+  }
+  aside .f_d dd .f_dot li {
+    padding: 0 0 0 3.5%;
+    margin: 1.4% 0 0;
+    line-height: 1.4;
+    font-size: 12px;
+  }
+  aside .f_d dd .f_dot li:before {
+    top: 8px;
+    left: 0%;
+    font-size: 12px;
+    line-height: 0;
   }
   aside .f_d dd a:hover {
     text-decoration: underline;
