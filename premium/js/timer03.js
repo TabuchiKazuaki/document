@@ -8,7 +8,7 @@ function countDown() {
 	var end = new Date("2020/03/01 23:59");
 	var left = end - time;
 	var a_day = 60 * 60 * 60 * 1000;
-	// var d = Math.floor(left / a_day)
+	var d = Math.floor(left / a_day)
 	var h = Math.floor((left % a_day) / (60 * 60 * 1000))
 	var m = Math.floor((left % a_day) / (60 * 1000)) % 60
 	var s = Math.floor((left % a_day) / 1000) % 60 % 60
