@@ -696,10 +696,56 @@ footer {
 
 
 @media screen and (max-width: 768px) {
+
+	.pc {
+		display: none;
+	}
+	.sp {
+		display: block;
+	}
 	.bagg {
 		padding: 0.8% 3%;
 		border-radius: 4px;
 		font-size: calc(26vw/12);
+	}
+
+
+	header {
+		box-sizing: border-box;
+		.logo {
+			overflow: hidden;
+			background: #000;
+			padding: 13px 0 14px 18px;
+			line-height: 0;
+			.logo_img {
+				display: block;
+				float: left;
+				display: block;
+				max-width: 151px;
+			}
+		}
+		.h_spwrap {
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/463346/026140f759878dd423a8eaf68e258e07_a8bfc10b62ab56cc50110b7e69f64f26.png) center top no-repeat;
+			background-size: cover;
+			height: auto;
+			padding: 10% 0 10%;
+			margin: 0 auto;
+			.h_h {
+				max-width: 437px;
+				margin: 0 auto;
+				line-height: 0;
+			}
+			.h_img {
+				max-width: 529px;
+				margin: 0 auto;
+				line-height: 0;
+			}
+			.h_cha {
+				max-width: 353px;
+				margin: 0 auto;
+				line-height: 0;
+			}
+		}
 	}
 
 	.contents {
