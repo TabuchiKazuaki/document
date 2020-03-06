@@ -539,8 +539,9 @@ header {
 			height: 1047px;
 		}
 		.d_inner {
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/463346/eff43d68885486fb8c9e16e7500e289f_5ed288152f46ea0a33baf0b2cd4b8651.png) 0 0 repeat;
-			background-size: 92px 92px;
+			background-image: url("https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/463346/fe592eb662573a7e560adf6158280f7e_6d501b82c4945ed690d5f2a51c1b1e6d.png"),url("https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/463346/eff43d68885486fb8c9e16e7500e289f_5ed288152f46ea0a33baf0b2cd4b8651.png");
+			background-size: cover,92px 92px;
+			background-repeat: no-repeat,repeat;
 
 			.di_wrap {
 				max-width: 750px;
