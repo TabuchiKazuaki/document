@@ -21,13 +21,21 @@ img { width: 100%; }
 
 .fuwa { -webkit-animation-name: fuwafuwa; animation-name: fuwafuwa; -webkit-animation-duration: 10s; animation-duration: 10s; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; -webkit-animation-timing-function: ease; animation-timing-function: ease; }
 
+.ful { -webkit-animation-name: ful; animation-name: ful; -webkit-animation-duration: 10s; animation-duration: 10s; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; -webkit-animation-timing-function: ease; animation-timing-function: ease; }
+
 /* 上下のアニメーション */
-@-webkit-keyframes fuwafuwa { 0% { -webkit-transform: translate(0, 0); transform: translate(0, 0); -webkit-transform: scale(1); transform: scale(1); }
-  50% { -webkit-transform: translate(-50px, -50px); transform: translate(-50px, -50px); -webkit-transform: scale(1.2); transform: scale(1.2); }
-  100% { -webkit-transform: translate(0, 0); transform: translate(0, 0); -webkit-transform: scale(1); transform: scale(1); } }
-@keyframes fuwafuwa { 0% { -webkit-transform: translate(0, 0); transform: translate(0, 0); -webkit-transform: scale(1); transform: scale(1); }
-  50% { -webkit-transform: translate(-50px, -50px); transform: translate(-50px, -50px); -webkit-transform: scale(1.2); transform: scale(1.2); }
-  100% { -webkit-transform: translate(0, 0); transform: translate(0, 0); -webkit-transform: scale(1); transform: scale(1); } }
+@-webkit-keyframes ful { 0% { -webkit-transform: scale(1); transform: scale(1); }
+  50% { -webkit-transform: scale(1.1); transform: scale(1.1); }
+  100% { -webkit-transform: scale(1); transform: scale(1); } }
+@keyframes ful { 0% { -webkit-transform: scale(1); transform: scale(1); }
+  50% { -webkit-transform: scale(1.1); transform: scale(1.1); }
+  100% { -webkit-transform: scale(1); transform: scale(1); } }
+@-webkit-keyframes fuwafuwa { 0% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
+  50% { -webkit-transform: translate(-50px, -50px); transform: translate(-50px, -50px); }
+  100% { -webkit-transform: translate(0, 0); transform: translate(0, 0); } }
+@keyframes fuwafuwa { 0% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
+  50% { -webkit-transform: translate(-50px, -50px); transform: translate(-50px, -50px); }
+  100% { -webkit-transform: translate(0, 0); transform: translate(0, 0); } }
 header { -webkit-box-sizing: border-box; box-sizing: border-box; }
 header .logo { overflow: hidden; background: #000; padding: 13px 0 14px 18px; line-height: 0; }
 header .logo .logo_img { display: block; float: left; display: block; max-width: 151px; }
