@@ -288,16 +288,16 @@ footer figure { max-width: 926px; margin: 0 auto; line-height: 0; }
 @media screen and (max-width: 480px) { .h_cha { -webkit-animation-name: fuwafuwa; animation-name: fuwafuwa; -webkit-animation-duration: 5s; animation-duration: 5s; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; -webkit-animation-timing-function: ease; animation-timing-function: ease; }
   .ful { -webkit-animation-name: ful; animation-name: ful; -webkit-animation-duration: 5s; animation-duration: 5s; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; -webkit-animation-timing-function: ease; animation-timing-function: ease; }
   @-webkit-keyframes ful { 0% { -webkit-transform: scale(1); transform: scale(1); }
-    50% { -webkit-transform: scale(1.05); transform: scale(1.05); }
+    50% { -webkit-transform: scale(1.04); transform: scale(1.04); }
     100% { -webkit-transform: scale(1); transform: scale(1); } }
   @keyframes ful { 0% { -webkit-transform: scale(1); transform: scale(1); }
-    50% { -webkit-transform: scale(1.05); transform: scale(1.05); }
+    50% { -webkit-transform: scale(1.04); transform: scale(1.04); }
     100% { -webkit-transform: scale(1); transform: scale(1); } }
   @-webkit-keyframes fuwafuwa { 0% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
-    50% { -webkit-transform: translate(0, -16px); transform: translate(0, -16px); }
+    50% { -webkit-transform: translate(0, -9px); transform: translate(0, -9px); }
     100% { -webkit-transform: translate(0, 0); transform: translate(0, 0); } }
   @keyframes fuwafuwa { 0% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
-    50% { -webkit-transform: translate(0, -16px); transform: translate(0, -16px); }
+    50% { -webkit-transform: translate(0, -9px); transform: translate(0, -9px); }
     100% { -webkit-transform: translate(0, 0); transform: translate(0, 0); } }
   .bagg { padding: 0.8% 3%; border-radius: 3px; font-size: calc(29vw/12); }
   header { -webkit-box-sizing: border-box; box-sizing: border-box; }
