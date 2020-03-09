@@ -736,6 +736,30 @@ footer {
 
 @media screen and (max-width: 768px) {
 
+	.h_cha {
+		animation-name:fuwafuwa;
+		animation-duration:6s;
+		animation-iteration-count:infinite;
+		animation-timing-function:ease;
+	}
+	.ful {
+		animation-name:ful;
+		animation-duration:6s;
+		animation-iteration-count:infinite;
+		animation-timing-function:ease;
+	}
+	@keyframes ful {
+		0% {transform: scale(1);}
+		50% {transform: scale(1.1);}
+		100% {transform: scale(1);}
+	}
+	@keyframes fuwafuwa {
+		0% {transform:translate(0, 0);}
+		50% {transform:translate( 0, -22px);}
+		100% {transform:translate(0, 0);}
+	}
+
+
 	.pc {
 		display: none;
 	}
@@ -1267,6 +1291,28 @@ footer {
 
 
 @media screen and (max-width: 480px) {
+	.h_cha {
+		animation-name:fuwafuwa;
+		animation-duration:5s;
+		animation-iteration-count:infinite;
+		animation-timing-function:ease;
+	}
+	.ful {
+		animation-name:ful;
+		animation-duration:5s;
+		animation-iteration-count:infinite;
+		animation-timing-function:ease;
+	}
+	@keyframes ful {
+		0% {transform: scale(1);}
+		50% {transform: scale(1.05);}
+		100% {transform: scale(1);}
+	}
+	@keyframes fuwafuwa {
+		0% {transform:translate(0, 0);}
+		50% {transform:translate( 0, -16px);}
+		100% {transform:translate(0, 0);}
+	}
 	.bagg {
 		padding: 0.8% 3%;
 		border-radius: 3px;
