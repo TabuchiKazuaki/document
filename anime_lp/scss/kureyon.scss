@@ -37,6 +37,19 @@ img  { width: 100%;}
 	display: none;
 }
 
+.fuwa {
+	-webkit-animation-name:fuwafuwa;
+	-webkit-animation-duration:4s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease;
+}
+/* 上下のアニメーション */
+@keyframes fuwafuwa {
+     0% {-webkit-transform:translate(0, 0);}
+     50% {-webkit-transform:translate(-100px, -100px);}
+     100% {-webkit-transform:translate(0, 0);}
+}
+
 header {
 	box-sizing: border-box;
 	.logo {
