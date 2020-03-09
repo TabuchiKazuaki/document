@@ -127,6 +127,30 @@ header {
 			}
 		}
 	}
+	.t_box {
+		margin: 37px 0 0;
+		.timer {
+			font-size: 21px;
+			text-align: center;
+			font-weight: bold;
+			letter-spacing: 1.3px;
+			span {
+				display: inline-block;
+				width: 58px;
+				background: #000;
+				padding: 7px 4px 9px;
+				margin: 0 12px;
+				border-radius: 6px;
+				font-weight: bold;
+				font-size: 35px;
+				text-align: center;
+				letter-spacing: 1.3px;
+				line-height: 1;
+				color: #e5c200;
+				box-sizing: border-box;
+			}
+		}
+	}
 
 	.h_btn {
 		max-width: 680px;
@@ -657,6 +681,22 @@ footer {
 					font-size: 28px;
 					line-height: 0.8;
 					letter-spacing: 3px;
+				}
+			}
+		}
+		.t_box {
+			margin: 7.1% 0 0;
+			.timer {
+				font-size: calc(33vw/12);
+				letter-spacing: 1.3px;
+				span {
+					display: inline-block;
+					width: 10%;
+					padding: 1.1% 0 1.2%;
+					margin: 0 1.5%;
+					border-radius: 5px;
+					font-size: calc(55vw/12);
+					letter-spacing: 1.3px;
 				}
 			}
 		}
@@ -1346,6 +1386,23 @@ footer {
 					font-size: calc(43vw/12);
 					line-height: 0.8;
 					letter-spacing: 3px;
+				}
+			}
+		}
+
+		.t_box {
+			margin: 7.1% 0 0;
+			.timer {
+				font-size: calc(35vw/12);
+				letter-spacing: 1.3px;
+				span {
+					display: inline-block;
+					width: 11.2%;
+					padding: 1.1% 0 1.2%;
+					margin: 0 1.5%;
+					border-radius: 5px;
+					font-size: calc(55vw/12);
+					letter-spacing: 1.3px;
 				}
 			}
 		}
