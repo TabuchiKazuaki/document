@@ -38,16 +38,16 @@ img  { width: 100%;}
 }
 
 .fuwa {
-	-webkit-animation-name:fuwafuwa;
-	-webkit-animation-duration:4s;
-	-webkit-animation-iteration-count:infinite;
-	-webkit-animation-timing-function:ease;
+	animation-name:fuwafuwa;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+	animation-timing-function:ease;
 }
 /* 上下のアニメーション */
 @keyframes fuwafuwa {
-     0% {-webkit-transform:translate(0, 0);}
-     50% {-webkit-transform:translate(-100px, -100px);}
-     100% {-webkit-transform:translate(0, 0);}
+     0% {transform:translate(0, 0);transform: scale(1);}
+     50% {transform:translate(-100px, -100px);transform: scale(1.2);}
+     100% {transform:translate(0, 0);transform: scale(1);}
 }
 
 header {
