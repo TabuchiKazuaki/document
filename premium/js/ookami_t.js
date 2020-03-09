@@ -21,4 +21,9 @@ function countDown() {
 		$("#sec").text(s);
 		setTimeout('countDown()', 1000);
 	}
+	var end = new Date("2020/04/01 00:00");
+	if (now.getTime() > end.getTime()) {
+		// $('.t01').hide();
+		$('.timer').text('5日限定！オオカミ割 キャンペーンは終了しました');
+	}
 }
