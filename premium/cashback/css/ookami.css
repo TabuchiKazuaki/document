@@ -444,16 +444,7 @@ header .t_box .timer span {
 }
 
 .chace {
-  margin: 28px 0 0;
-}
-.chace .c_top {
-  padding: 46px 0 0;
-  border-top: 1px solid #606060;
-}
-.chace .w_sec {
-  padding: 0;
-  margin: 65px auto 0;
-  border: none;
+  margin: 48px 0 0;
 }
 .chace .ch_h {
   margin: 0 auto;
@@ -463,6 +454,16 @@ header .t_box .timer span {
   letter-spacing: 1.9px;
   line-height: 1.5;
   color: #fff;
+}
+.chace .ch_h .sin {
+  display: block;
+}
+.chace .ch_h .sin .sin_t {
+  font-size: 37px;
+}
+.chace .ch_h .sec {
+  display: block;
+  font-size: 41px;
 }
 .chace .ch_h .num {
   font-size: 37px;
@@ -474,6 +475,17 @@ header .t_box .timer span {
 }
 .chace .ch_h .sht {
   font-size: 24px;
+}
+.chace .c_h {
+  border-left: 8px solid #e6c300;
+  padding: 0 0 0 18px;
+  line-height: 1.2;
+  font-size: 32px;
+  color: #fff;
+}
+.chace .c_h span {
+  letter-spacing: 1.3px;
+  font-size: 36px;
 }
 .chace .c_t {
   margin: 12px 0 0;
@@ -1290,6 +1302,16 @@ footer small {
   .chace {
     margin: 5% 0 0;
   }
+  .chace .c_h {
+    border-left: 6px solid #e6c300;
+    padding: 0 0 0 2.6%;
+    line-height: 1.2;
+    font-size: calc(50vw/12);
+  }
+  .chace .c_h span {
+    letter-spacing: 1.3px;
+    font-size: calc(52vw/12);
+  }
   .chace .c_top {
     padding: 6% 0 0;
     margin: 0 4.7%;
@@ -1913,6 +1935,16 @@ footer small {
   .chace .w_sec {
     padding: 0;
     margin: 3.5% -2.5% 0;
+  }
+  .chace .c_h {
+    border-left: 4px solid #e6c300;
+    padding: 0 0 0 2.6%;
+    line-height: 1.2;
+    font-size: calc(52vw/12);
+  }
+  .chace .c_h span {
+    letter-spacing: 1.3px;
+    font-size: calc(54vw/12);
   }
   .chace .ch_h {
     margin: 0 auto;

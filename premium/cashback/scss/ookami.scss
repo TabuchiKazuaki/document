@@ -434,16 +434,7 @@ header {
 }
 
 .chace {
-	margin: 28px 0 0;
-	.c_top {
-		padding: 46px 0 0;
-		border-top: 1px solid #606060;
-	}
-	.w_sec {
-		padding: 0;
-		margin: 65px auto 0;
-		border: none;
-	}
+	margin: 48px 0 0;
 	.ch_h {
 		margin: 0 auto;
 		font-weight: bold;
@@ -452,6 +443,16 @@ header {
 		letter-spacing: 1.9px;
 		line-height: 1.5;
 		color: #fff;
+		.sin {
+			display: block;
+			.sin_t{
+				font-size: 37px;
+			}
+		}
+		.sec {
+			display: block;
+			font-size: 41px;
+		}
 		.num {
 			font-size: 37px;
 		}
@@ -462,6 +463,17 @@ header {
 		}
 		.sht {
 			font-size: 24px;
+		}
+	}
+	.c_h {
+		border-left: 8px solid #e6c300;
+		padding: 0 0 0 18px;
+		line-height: 1.2;
+		font-size: 32px;
+		color: #fff;
+		span {
+			letter-spacing: 1.3px;
+			font-size: 36px;
 		}
 	}
 	.c_t {
@@ -1320,6 +1332,16 @@ footer {
 
 	.chace {
 		margin: 5% 0 0;
+		.c_h {
+			border-left: 6px solid #e6c300;
+			padding: 0 0 0 2.6%;
+			line-height: 1.2;
+			font-size: calc(50vw/12);
+			span {
+				letter-spacing: 1.3px;
+				font-size: calc(52vw/12);
+			}
+		}
 		.c_top {
 			padding: 6% 0 0;
 			margin: 0 4.7%;
@@ -1976,6 +1998,16 @@ footer {
 		.w_sec {
 			padding: 0;
 			margin: 3.5% -2.5% 0;
+		}
+		.c_h {
+			border-left: 4px solid #e6c300;
+			padding: 0 0 0 2.6%;
+			line-height: 1.2;
+			font-size: calc(52vw/12);
+			span {
+				letter-spacing: 1.3px;
+				font-size: calc(54vw/12);
+			}
 		}
 		.ch_h {
 			margin: 0 auto;
