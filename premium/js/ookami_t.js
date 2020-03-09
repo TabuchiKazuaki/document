@@ -20,4 +20,4 @@ function countDown() {
 		$("#sec").text(s);
 		setTimeout('countDown()', 1000);
 	}
-};
+}
