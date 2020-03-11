@@ -543,6 +543,57 @@ header .h_w .h_main {
   margin: 0 auto;
 }
 
+.entry .e_t {
+  position: relative;
+  display: inline-block;
+  padding: 0 22px 0 24px;
+  margin: 5px auto 0;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.1;
+  letter-spacing: 2.2px;
+  color: #fff;
+}
+.entry .e_t:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/5c1b29c812b1c5ab5ce60cc870f7232a_ea39382df857c4dded4274eb2bcf203b.png) 0 0 no-repeat;
+  background-size: 23px 25px;
+  width: 23px;
+  height: 25px;
+  line-height: 1;
+}
+.entry .e_t:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/177051be3fbe49608e76f752cf7d36c9_e60c6ccd4c439390977eb5fcdeeb8b61.png) 0 0 no-repeat;
+  background-size: 23px 25px;
+  width: 23px;
+  height: 25px;
+  line-height: 1;
+}
+.entry .e_btn {
+  max-width: 680px;
+  margin: 40px auto 0;
+}
+.entry .e_btn a {
+  display: block;
+  background: #e6c300;
+  padding: 25px 0;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-align: center;
+  color: #000;
+}
+.entry .e_btn a span {
+  font-size: 34px;
+}
+
 .premium {
   margin: 28px 0 0;
 }
