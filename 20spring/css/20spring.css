@@ -481,11 +481,21 @@ header .h_w .h_main {
   font-size: 35px;
 }
 .genre .g_item {
-  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   margin: 38px 0 0;
 }
 .genre .g_item li {
-  float: left;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 48.5%;
   margin: 0 0 0 3%;
 }
@@ -1094,7 +1104,6 @@ footer small {
     margin: 6% 0 0;
   }
   .genre .g_item li {
-    float: left;
     width: 48%;
     margin: 0 0 0 4%;
   }
@@ -1574,7 +1583,6 @@ footer small {
     margin: 6% 0 0;
   }
   .genre .g_item li {
-    float: left;
     width: 48%;
     margin: 0 0 0 4%;
   }

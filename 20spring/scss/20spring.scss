@@ -461,10 +461,12 @@ header {
 		}
 	}
 	.g_item {
-		overflow: hidden;
+		display: flex;
+		flex-flow: row wrap;
 		margin: 38px 0 0;
 		li {
-			float: left;
+			justify-content: flex-end;
+			box-sizing: border-box;
 			width: 48.5%;
 			margin: 0 0 0 3%;
 
@@ -1096,7 +1098,6 @@ footer {
 		.g_item {
 			margin: 6% 0 0;
 			li {
-				float: left;
 				width: 48%;
 				margin: 0 0 0 4%;
 
@@ -1605,7 +1606,6 @@ footer {
 		.g_item {
 			margin: 6% 0 0;
 			li {
-				float: left;
 				width: 48%;
 				margin: 0 0 0 4%;
 
