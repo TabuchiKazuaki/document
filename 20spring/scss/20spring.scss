@@ -19,7 +19,9 @@ img  { width: 100%; height: auto;}
 .pc {
 	display: block;
 }
-
+.sp {
+	display: none;
+}
 
 
 
@@ -29,7 +31,6 @@ header {
 	.h_l {
 		background: #000;
 		padding: 10px 0 10px 20px;
-		z-index: 10000;
 		span {
 			display: inline-block;
 			max-width: 151px;
@@ -209,12 +210,32 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+	.pc {
+		display: none;
+	}
+	.sp {
+		display: block;
+	}
 	header {
 		.h_l {
 			padding: 1.2% 0 1.2% 2.2%;
 			span {
 				display: inline-block;
 				width: 21%;
+			}
+		}
+		.h_sp {
+			.hs_w {
+				background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/c8fcec2da75094fdcdd3c3ef5b2b90ca_3a004ebc4d85757ca74dc9d472a5331c.png);
+				background-size: cover;
+				height: auto;
+				padding: 7% 0 7.5%;
+				.hs_h {
+					width: 71.2%;
+					max-width: 534px;
+					margin: 0 auto;
+					line-height: 0;
+				}
 			}
 		}
 	}
@@ -597,331 +618,23 @@ footer {
 	}
 
 	header {
-		padding: 0;
 		.h_l {
-			width: 21%;
-			padding: 1.3% 0 1.3% 2.3%
-		}
-		.h_a {
-			position: relative;
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/c4ab11a8d9b9e00792d9eee54b80953b_affa2658250ddf2f6764b432188ea744.png) center top no-repeat;
-			background-size: 100% auto;
-			min-height: auto;
-			padding: 0 0 0;
-			margin: 0 auto;
-		}
-		.h_w {
-			padding: 6% 0 0;
-		}
-
-		.h_m {
-			width: 62.2%;
-		}
-		.h_t {
-			width: 63.2%;
-			margin: 3% auto 0;
-		}
-		.h_btn {
-			width: 89%;
-			margin: 6% auto 0;
-			a {
-				padding: 3.9% 0;
-				border-radius: 4px;
-				font-size: calc(46vw/12);
-				letter-spacing: 1.3px;
-			}
-		}
-		.h_date {
-			margin: 3% auto 0;
-			font-size: calc(33vw/12);
-			letter-spacing: 1.3px;
+			padding: 1.2% 0 1.2% 2.2%;
 			span {
 				display: inline-block;
-				margin: 0 0.2% 0 0;
-				font-size: calc(37vw/12);
+				width: 21%;
 			}
 		}
-		.chace {
-			margin: 6.5% 0 0;
-			.wrap {
-				width: 94%;
-				padding: 4% 0 6%;
-			}
-		}
-	}
-
-	.t_box {
-		margin: 7.1% 0 0;
-		.timer {
-			font-size: calc(35vw/12);
-			letter-spacing: 1.3px;
-			span {
-				display: inline-block;
-				width: 11.2%;
-				padding: 1.1% 0 1.2%;
-				margin: 0 1.5%;
-				border-radius: 5px;
-				font-size: calc(55vw/12);
-				letter-spacing: 1.3px;
-			}
-		}
-	}
-
-	.chace {
-		margin: 8% 0 0;
-		.ch_box {
-			width: 100%;
-			padding: 5.7% 2.2% 5.8%;
-			margin: 0 auto;
-			border-radius: 6px;
-
-			.c_lock {
-				margin: 0 0 0;
-				line-height: 1;
-				letter-spacing: 1.3px;
-				.ct_one {
-					display: inline-block;
-					padding: 0 3.8% 0 4.1%;
-					font-size: calc(48vw/12);
-					line-height: 1.1;
-					letter-spacing: 1.2px;
-					white-space: nowrap;
-					.ct_num {
-						display: inline-block;
-						margin: 0 0.5%;
-						font-size: calc(52vw/12);
-					}
-					&:before {
-						top: 9%;
-						left: 0;
-						background-size: 100% auto;
-						width: 5.5%;
-						height: 100%;
-					}
-					&:after {
-						top: 9%;
-						right: 0;
-						background-size: 100% auto;
-						width: 5.5%;
-						height: 100%;
-					}
-				}
-				.ct_two {
-					margin: 3.4% 0 0;
-					font-size: calc(56vw/12);
-					letter-spacing: 1.8px;
-					.num {
-						font-size: calc(62vw/12);
-					}
-					.sm {
-						font-size: calc(40vw/12);
-					}
-				}
-				.ct_thr {
-					margin: 3.3% 0 0;
-					font-size: calc(48vw/12);
-					letter-spacing: 1.2px;
-					.num {
-						margin: 0 0.3% 0 0;
-						font-size: calc(51vw/12);
-					}
-					.ct_cl {
-						display: inline-block;
-						margin: 0 0.3% 0 0;
-					}
-				}
-			}
-			.cl_t {
-				display: inline-block;
-				margin: 4% 0 0;
-				font-size: calc(29vw/12);
-				letter-spacing: 1.3px;
-			}
-		}
-		.chwrap {
-			width: 72.5%;
-			padding: 5% 2% 5.8%;
-			margin: 0 auto;
-			border-radius: 4px;
-		}
-
-		.ch_h {
-			margin: 0 auto;
-			font-size: calc(46vw/12);
-			letter-spacing: 1px;
-			line-height: 1.5;
-			.num {
-				font-size: calc(60vw/12);
-			}
-		}
-		.c_t {
-			margin: 1.8% 0 0;
-			font-size: calc(33vw/12);
-			letter-spacing: 1.3px;
-		}
-		.ch_item {
-			padding: 0 9.5%;
-			margin: 4.5% 0 0;
-			li {
-				float: left;
-				width: 49.1%;
-				margin: 0 0 0 1.8%;
-				&:nth-child(3) {
-					margin: 1.8% 0 0;
-				}
-				&:nth-child(4) {
-					margin: 1.8% 0 0 1.8%;
-				}
-				&:nth-child(1) {
-					margin: 0;
-				}
-			}
-		}
-
-		.ch_btn {
-			width: 100%;
-			margin: 6.2% auto 0;
-			a {
-				padding: 4.2% 0;
-				border-radius: 3px;
-				font-size: calc(45vw/12);
-			}
-		}
-
-		.ch_date {
-			margin: 3.2% 0 0;
-			letter-spacing: 1.8px;
-			font-size: calc(27vw/12);
-			span {
-				font-size: calc(30vw/12);
-			}
-		}
-	}
-
-	.gen {
-		margin: 4% 2.5% 0;
-		li {
-			width: 31.73%;
-			margin: 2.4% 0 0 2.4%;
-
-			&:nth-child(3n+1) {
-				margin: 2.4% 0 0;
-			}
-
-			&:nth-child(3) {
-				margin: 0 0 0 2.4%;
-			}
-			&:nth-child(2) {
-				margin: 0 0 0 2.4%;
-			}
-			&:nth-child(1) {
-				margin: 0;
-			}
-			img {
-				line-height: 0;
-			}
-		}
-	}
-
-	.contents {
-		margin: 0;
-		.wrap {
-			width: 95%;
-			padding: 0;
-			margin: 0 auto;
-		}
-		.cw_l {
-			margin: 2.5% 0 0;
-		}
-		.c_h {
-			padding: 0 0 0 2.5%;
-			border-left: 3px solid #e5c200;
-			font-size: calc(47vw/12);
-			letter-spacing: 1.8px;
-			line-height: 1.4;
-			span {
-				font-size: calc(50vw/12);
-			}
-		}
-		.c_s_h {
-			width: 69.2%;
-			margin: 8% auto 8%;
-			line-height: 0;
-		}
-		.c_btn {
-			margin: 3% 0 0;
-			a {
-				padding: 3% 0;
-				border-radius: 4px;
-				font-size: calc(41vw/12);
-			}
-		}
-		.ch_m {
-			margin: 9% 0 0;
-		}
-		.c_t {
-			padding: 4% 0 0 2.3%;
-			font-size: calc(43vw/12);
-			line-height: 1.3;
-			letter-spacing: 1.2px;
-		}
-		.c_inner {
-			padding: 9% 0 0;
-			margin: 9% 0 0;
-		}
-		.c_p {
-			width: 62.4%;
-			margin: 8% auto 0;
-		}
-		.c_box {
-			padding: 0 2.2%;
-			margin: 8% 0 0;
-			border-radius: 6px;
-			li {
-				width: 47.5%;
-				padding: 0 0 5%;
-				margin: 5% 0 0 5%;
-				border-radius: 0 0 6px 6px;
-				box-sizing: border-box;
-
-				&:first-child {
-					margin: 0;
-				}
-				&:nth-child(2) {
-					margin: 0 0 0 5%;
-				}
-				&:nth-child(3) {
-					margin: 5% 0 0 0;
-				}
-				.icon {
+		.h_sp {
+			.hs_w {
+				background-size: cover;
+				height: auto;
+				padding: 7% 0 7.3%;
+				.hs_h {
+					width: 72%;
+					max-width: 534px;
 					margin: 0 auto;
 					line-height: 0;
-				}
-
-				.c_it {
-					margin: 7.5% 0 0;
-					font-size: calc(44vw/12);
-					line-height: 1.5;
-					letter-spacing: 1.4px;
-					.h_ss {
-						font-size: calc(44vw/12);
-					}
-					.num {
-						font-size: calc(44vw/12);
-					}
-				}
-			}
-			.ch_btn {
-				margin: 6% auto 0;
-				a {
-					display: block;
-					background: #e5c200;
-					padding: 26px 0;
-					border-radius: 4px;
-					text-align: center;
-					font-size: 28px;
-					font-weight: bold;
-					color: #000;
 				}
 			}
 		}
