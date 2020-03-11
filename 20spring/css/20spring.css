@@ -203,6 +203,32 @@ header .h_w .h_main {
 .contents .odd .c_w .cw_item li:nth-child(1) {
   margin: 0;
 }
+.contents .odd .c_v {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+}
+.contents .odd .cv_item {
+  overflow: hidden;
+  margin: 40px 0 0;
+}
+.contents .odd .cv_item li {
+  float: left;
+  width: 31.33%;
+  margin: 0 0 0 3%;
+}
+.contents .odd .cv_item li:first-child {
+  margin: 0;
+}
+.contents .odd .c_text {
+  margin: 60px 0 0;
+  text-align: right;
+}
+.contents .odd .c_text a {
+  font-size: 30px;
+  letter-spacing: 1.3px;
+  color: #000;
+}
 .contents .even {
   position: relative;
   background: #ffd500;
