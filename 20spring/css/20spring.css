@@ -503,15 +503,85 @@ header .h_w .h_main {
 }
 .genre .g_item li a {
   display: block;
-  background: #fff;
+  background: none;
   padding: 25px 0;
-  border: 2px solid #ffd500;
+  border: 2px solid #000;
   border-radius: 6px;
   text-align: center;
   font-size: 28px;
   font-weight: bold;
   letter-spacing: 1.3px;
-  color: #ffd500;
+}
+.genre .g_item li a .g01 {
+  max-width: 139px;
+  margin: 0 auto;
+}
+.genre .g_item li a .g02 {
+  max-width: 136px;
+  margin: 0 auto;
+}
+.genre .g_item li a .g03 {
+  max-width: 130px;
+  margin: 0 auto;
+}
+.genre .g_item li a .g04 {
+  max-width: 135px;
+  margin: 0 auto;
+}
+
+.premium {
+  margin: 28px 0 0;
+}
+.premium .c_box {
+  overflow: hidden;
+  padding: 0 15px;
+  margin: 60px 0 0;
+  border-radius: 8px;
+}
+.premium .c_box li {
+  background: #202121;
+  float: left;
+  width: 47.5%;
+  max-width: 321px;
+  padding: 0 0 35px;
+  margin: 5% 0 0 5%;
+  border-radius: 0 0 8px 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.premium .c_box li:first-child {
+  margin: 0;
+}
+.premium .c_box li:nth-child(2) {
+  margin: 0 0 0 5%;
+}
+.premium .c_box li:nth-child(3) {
+  margin: 5% 0 0 0;
+}
+.premium .c_box li .icon {
+  margin: 0 auto;
+  line-height: 0;
+}
+.premium .c_box li .c_it {
+  margin: 25px 0 0;
+  text-align: center;
+  font-size: 27px;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: 1.4px;
+  color: #ababab;
+}
+.premium .c_box li .c_it .h_ss {
+  display: block;
+  font-size: 27px;
+  font-weight: bold;
+  color: #fff;
+}
+.premium .c_box li .c_it .clr {
+  color: #e6c300;
+}
+.premium .c_box li .c_it .num {
+  font-size: 29px;
 }
 
 aside .wrap {
