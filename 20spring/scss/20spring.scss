@@ -767,6 +767,12 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+
+	.line_w {
+		.wrap_w {
+			height: 26px;
+		}
+	}
 	.pc {
 		display: none;
 	}
@@ -1287,8 +1293,10 @@ footer {
 
 
 @media screen and (max-width: 480px) {
-	.pc {
-		display: none;
+	.line_w {
+		.wrap_w {
+			height: 19px;
+		}
 	}
 
 	header {
