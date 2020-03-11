@@ -398,7 +398,7 @@ header .h_w .h_main {
   position: absolute;
   top: 0;
   left: 0;
-  background: #3a2;
+  background: #ffd500;
   width: 27px;
   height: 27px;
   border-radius: 50%;
@@ -422,7 +422,7 @@ header .h_w .h_main {
   position: absolute;
   top: 0;
   left: 0;
-  background: #3a2;
+  background: #ffd500;
   width: 27px;
   height: 27px;
   border-radius: 50%;
@@ -461,6 +461,57 @@ header .h_w .h_main {
   font-size: 32px;
   letter-spacing: 2px;
   color: #fff;
+}
+
+.genre {
+  padding: 62px 0 65px;
+}
+.genre .wrap {
+  padding: 60px 0 0;
+  border-top: 1px solid #606060;
+}
+.genre .g_h {
+  padding: 0 0 0 18px;
+  font-size: 32px;
+  font-weight: bold;
+  border-left: 9px solid #ffd500;
+  line-height: 1.4;
+}
+.genre .g_h span {
+  font-size: 35px;
+}
+.genre .g_item {
+  overflow: hidden;
+  margin: 38px 0 0;
+}
+.genre .g_item li {
+  float: left;
+  width: 48.5%;
+  margin: 0 0 0 3%;
+}
+.genre .g_item li:nth-child(2n+1) {
+  margin: 3% 0 0 0;
+}
+.genre .g_item li:nth-child(2n+2) {
+  margin: 3% 0 0 3%;
+}
+.genre .g_item li:nth-child(1) {
+  margin: 0;
+}
+.genre .g_item li:nth-child(2) {
+  margin: 0 0 0 3%;
+}
+.genre .g_item li a {
+  display: block;
+  background: #fff;
+  padding: 25px 0;
+  border: 2px solid #ffd500;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  color: #ffd500;
 }
 
 aside .wrap {
@@ -680,6 +731,16 @@ footer small {
     line-height: 0;
   }
 
+  .contents .c_h {
+    border-left: 6px solid #ffd500;
+    padding: 0 0 0 2.6%;
+    line-height: 1.4;
+    font-size: calc(50vw/12);
+  }
+  .contents .c_h span {
+    letter-spacing: 1.3px;
+    font-size: calc(52vw/12);
+  }
   .contents .cw_item {
     margin: 5.1% 0 0;
   }
@@ -933,6 +994,52 @@ footer small {
     letter-spacing: 2px;
   }
 
+  .genre {
+    padding: 4% 0 5%;
+  }
+  .genre .wrap {
+    padding: 8% 0 0;
+    margin: 0 5%;
+    border-top: 1px solid #606060;
+  }
+  .genre .g_h {
+    border-left: 6px solid #ffd500;
+    padding: 0 0 0 2.6%;
+    line-height: 1.4;
+    font-size: calc(50vw/12);
+  }
+  .genre .g_h span {
+    letter-spacing: 1.3px;
+    font-size: calc(52vw/12);
+  }
+  .genre .g_item {
+    margin: 6% 0 0;
+  }
+  .genre .g_item li {
+    float: left;
+    width: 48%;
+    margin: 0 0 0 4%;
+  }
+  .genre .g_item li:nth-child(2n+1) {
+    margin: 4% 0 0 0;
+  }
+  .genre .g_item li:nth-child(2n+2) {
+    margin: 4% 0 0 4%;
+  }
+  .genre .g_item li:nth-child(1) {
+    margin: 0;
+  }
+  .genre .g_item li:nth-child(2) {
+    margin: 0 0 0 4%;
+  }
+  .genre .g_item li a {
+    padding: 8% 0;
+    border: 2px solid #ffd500;
+    border-radius: 5px;
+    font-size: calc(44vw/12);
+    letter-spacing: 1.3px;
+  }
+
   aside {
     padding: 0 0 2%;
   }
@@ -1058,6 +1165,16 @@ footer small {
     line-height: 0;
   }
 
+  .contents .c_h {
+    border-left: 4.5px solid #ffd500;
+    padding: 0 0 0 2.6%;
+    line-height: 1.4;
+    font-size: calc(52vw/12);
+  }
+  .contents .c_h span {
+    letter-spacing: 1.3px;
+    font-size: calc(54vw/12);
+  }
   .contents .cw_item {
     margin: 5.1% 0 0;
   }
@@ -1074,6 +1191,136 @@ footer small {
   }
   .contents .cw_item li:nth-child(1) {
     margin: 0;
+  }
+  .contents .odd .c_w {
+    padding: 6% 0 11.5%;
+  }
+  .contents .odd .c_w .cw_t {
+    font-size: calc(39vw/12);
+    line-height: 2;
+    letter-spacing: 3px;
+  }
+  .contents .odd .c_w .cw_t span {
+    display: inline-block;
+    padding: 0.6% 1.6%;
+    margin: 0 0.8% 0 0;
+    font-size: calc(50vw/12);
+    letter-spacing: 2px;
+    line-height: 1;
+  }
+  .contents .odd .c_w .cw_f {
+    width: 88%;
+    margin: 6.2% auto 0;
+  }
+  .contents .odd .c_w .cw_item {
+    overflow: hidden;
+    padding: 0;
+    margin: 5.7% 0 0;
+  }
+  .contents .odd .c_w .cw_item li {
+    float: left;
+    width: 48.5%;
+    margin: 0 0 0 3%;
+    border: 8px solid #000;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    line-height: 0;
+  }
+  .contents .odd .c_w .cw_item li:nth-child(3) {
+    margin: 2.5% 0 0;
+  }
+  .contents .odd .c_w .cw_item li:nth-child(4) {
+    margin: 2.5% 0 0 3%;
+  }
+  .contents .odd .c_w .cw_item li:nth-child(1) {
+    margin: 0;
+  }
+  .contents .odd .c_v {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+  }
+  .contents .odd .cv_item {
+    overflow: hidden;
+    margin: 40px 0 0;
+  }
+  .contents .odd .cv_item li {
+    float: left;
+    width: 31.33%;
+    margin: 0 0 0 3%;
+  }
+  .contents .odd .cv_item li:first-child {
+    margin: 0;
+  }
+  .contents .odd .c_text {
+    margin: 60px 0 0;
+    text-align: right;
+  }
+  .contents .odd .c_text a {
+    font-size: 30px;
+    letter-spacing: 1.3px;
+    color: #000;
+  }
+  .contents .even {
+    position: relative;
+  }
+  .contents .even .e_w {
+    background-size: 44.8% auto, 28.5% auto , 9.2% auto;
+  }
+  .contents .even .e_i {
+    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/ac5396133fddda856abce6c2f2cb8324_8e5a2f8fd84cfefbba819957e84f1c86.png) center center no-repeat;
+    background-size: 46.5% auto;
+    background-position: center 61%;
+    padding: 8.2% 0 9%;
+  }
+  .contents .even .cw_h {
+    letter-spacing: 1.3px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .contents .even .cw_t {
+    display: inline-block;
+    padding: 0 4% 0 5.4%;
+    margin: 3% 0 0;
+    font-size: calc(71vw/12);
+    line-height: 1.2;
+  }
+  .contents .even .cw_t:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/d8464eacd559419634092793443f05d5_bb6bb855894a8d45c833b9adf4beb9e9.png) 0 0 no-repeat;
+    background-size: 35px 61px;
+    width: 35px;
+    height: 61px;
+  }
+  .contents .even .cw_t:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/1ac53e639ac45f6a7fb570e798a5ced3_8ddc45fdf20eb1380cc600ae06665d2e.png) 0 0 no-repeat;
+    background-size: 35px 61px;
+    width: 35px;
+    height: 61px;
+  }
+  .contents .even .cw_f {
+    width: 57.8%;
+    margin: 8% auto 0;
+    line-height: 0;
+  }
+  .contents .even .cw_btn {
+    margin: 8.2% 0 0;
+  }
+  .contents .even .cw_btn a {
+    display: block;
+    background: #000;
+    padding: 22px 0;
+    font-size: 34px;
+    border-radius: 6px;
+    letter-spacing: 2.5px;
+    color: #fff;
   }
   .contents .fourteen {
     padding: 0 0 6%;
@@ -1176,6 +1423,52 @@ footer small {
     border-radius: 4px;
     font-size: calc(54vw/12);
     letter-spacing: 2px;
+  }
+
+  .genre {
+    padding: 3% 0 5%;
+  }
+  .genre .wrap {
+    padding: 8% 0 0;
+    margin: 0 5%;
+    border-top: 1px solid #606060;
+  }
+  .genre .g_h {
+    border-left: 4.5px solid #ffd500;
+    padding: 0 0 0 2.6%;
+    line-height: 1.4;
+    font-size: calc(52vw/12);
+  }
+  .genre .g_h span {
+    letter-spacing: 1.3px;
+    font-size: calc(54vw/12);
+  }
+  .genre .g_item {
+    margin: 6% 0 0;
+  }
+  .genre .g_item li {
+    float: left;
+    width: 48%;
+    margin: 0 0 0 4%;
+  }
+  .genre .g_item li:nth-child(2n+1) {
+    margin: 4% 0 0 0;
+  }
+  .genre .g_item li:nth-child(2n+2) {
+    margin: 4% 0 0 4%;
+  }
+  .genre .g_item li:nth-child(1) {
+    margin: 0;
+  }
+  .genre .g_item li:nth-child(2) {
+    margin: 0 0 0 4%;
+  }
+  .genre .g_item li a {
+    padding: 8% 0;
+    border: 1px solid #ffd500;
+    border-radius: 3px;
+    font-size: calc(46vw/12);
+    letter-spacing: 1.3px;
   }
 
   aside {
