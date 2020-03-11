@@ -542,18 +542,25 @@ header .h_w .h_main {
 .entry {
   background: #efefef;
   text-align: center;
-  padding: 58px 0 32px;
+  padding: 64px 0 44px;
+}
+.entry .wrap {
+  max-width: 680px;
+  margin: 0 auto;
 }
 .entry .e_t {
   position: relative;
   display: inline-block;
-  padding: 0 22px 0 24px;
+  padding: 0 26px 0 31px;
   margin: 5px auto 0;
   font-size: 24px;
   font-weight: bold;
-  line-height: 1.1;
+  line-height: 0.9;
   letter-spacing: 2.2px;
   color: #000;
+}
+.entry .e_t span {
+  font-size: 27px;
 }
 .entry .e_t:before {
   content: '';
@@ -578,12 +585,12 @@ header .h_w .h_main {
   line-height: 1;
 }
 .entry .e_sec {
-  margin: 30px 0 0;
+  margin: 25px 0 0;
   font-size: 25px;
 }
 .entry figure {
   max-width: 286px;
-  margin: 0 auto;
+  margin: 43px auto 0;
 }
 .entry .e_btn {
   max-width: 680px;
@@ -603,7 +610,7 @@ header .h_w .h_main {
   font-size: 34px;
 }
 .entry .e_date {
-  margin: 20px auto 0;
+  margin: 15px auto 0;
   font-size: 20px;
   letter-spacing: 1.3px;
 }
@@ -1158,9 +1165,6 @@ footer small {
   .genre {
     padding: 4% 0 5%;
   }
-  .genre .wrap {
-    margin: 0 4.5%;
-  }
   .genre .g_h {
     border-left: 6px solid #ffd500;
     padding: 0 0 0 2.6%;
@@ -1195,6 +1199,68 @@ footer small {
     border: 2px solid #000;
     border-radius: 5px;
     font-size: calc(44vw/12);
+    letter-spacing: 1.3px;
+  }
+
+  .entry {
+    padding: 8.2% 0 6%;
+  }
+  .entry .wrap {
+    max-width: none;
+    width: 100%;
+    padding: 0 4.5%;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .entry .e_t {
+    display: inline-block;
+    padding: 0 3.9% 0 4.6%;
+    margin: 0.5% auto 0;
+    font-size: calc(40vw/12);
+    line-height: 1.1;
+    letter-spacing: 2.2px;
+  }
+  .entry .e_t span {
+    font-size: calc(43vw/12);
+  }
+  .entry .e_t:before {
+    top: 14%;
+    left: 0;
+    width: 3.9%;
+    height: 100%;
+    line-height: 0.6;
+  }
+  .entry .e_t:after {
+    top: 14%;
+    right: 0;
+    width: 3.9%;
+    height: 100%;
+    line-height: 0.6;
+  }
+  .entry .e_sec {
+    margin: 3.1% 0 0;
+    font-size: calc(39vw/12);
+  }
+  .entry figure {
+    width: 40.8%;
+    margin: 5.2% auto 0;
+  }
+  .entry .e_btn {
+    width: 100%;
+    margin: 5.2% auto 0;
+  }
+  .entry .e_btn a {
+    padding: 3.8% 0;
+    font-size: calc(49vw/12);
+    border-radius: 7px;
+  }
+  .entry .e_btn a span {
+    font-size: calc(52vw/12);
+  }
+  .entry .e_date {
+    margin: 2.5% auto 0;
+    font-size: calc(32vw/12);
     letter-spacing: 1.3px;
   }
 
@@ -1634,9 +1700,6 @@ footer small {
   .genre {
     padding: 3% 0 5%;
   }
-  .genre .wrap {
-    margin: 0 4.5%;
-  }
   .genre .g_h {
     border-left: 4.5px solid #ffd500;
     padding: 0 0 0 2.6%;
@@ -1671,6 +1734,68 @@ footer small {
     border: 1px solid #000;
     border-radius: 3px;
     font-size: calc(46vw/12);
+    letter-spacing: 1.3px;
+  }
+
+  .entry {
+    padding: 8.2% 0 6%;
+  }
+  .entry .wrap {
+    max-width: none;
+    width: 100%;
+    padding: 0 4.5%;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .entry .e_t {
+    display: inline-block;
+    padding: 0 3.9% 0 4.6%;
+    margin: 0.5% auto 0;
+    font-size: calc(42vw/12);
+    line-height: 1.1;
+    letter-spacing: 2.2px;
+  }
+  .entry .e_t span {
+    font-size: calc(45vw/12);
+  }
+  .entry .e_t:before {
+    top: 14%;
+    left: 0;
+    width: 3.9%;
+    height: 100%;
+    line-height: 0.6;
+  }
+  .entry .e_t:after {
+    top: 14%;
+    right: 0;
+    width: 3.9%;
+    height: 100%;
+    line-height: 0.6;
+  }
+  .entry .e_sec {
+    margin: 3.1% 0 0;
+    font-size: calc(41vw/12);
+  }
+  .entry figure {
+    width: 40.8%;
+    margin: 5.2% auto 0;
+  }
+  .entry .e_btn {
+    width: 100%;
+    margin: 5.2% auto 0;
+  }
+  .entry .e_btn a {
+    padding: 3.8% 0;
+    font-size: calc(51vw/12);
+    border-radius: 7px;
+  }
+  .entry .e_btn a span {
+    font-size: calc(54vw/12);
+  }
+  .entry .e_date {
+    margin: 2.5% auto 0;
+    font-size: calc(34vw/12);
     letter-spacing: 1.3px;
   }
 
