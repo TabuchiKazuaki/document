@@ -26,6 +26,12 @@ img  { width: 100%; height: auto;}
 
 .sfixed {
 	background: #fff;
+	z-index: 10001;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+
 	.wrap {
 		max-width: 705px;
 		padding: 35px 0 30px;
