@@ -226,6 +226,23 @@ header .h_w .h_main {
   width: 31.33%;
   margin: 0 0 0 3%;
 }
+.contents .odd .cv_item li a {
+  display: block;
+}
+.contents .odd .cv_item li .ad {
+  position: relative;
+}
+.contents .odd .cv_item li .ad:before {
+  content: '無料エピソード拡大';
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: #f0163a;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
 .contents .odd .cv_item li:first-child {
   margin: 0;
 }
