@@ -1232,6 +1232,11 @@ footer {
 					font-size: calc(54vw/12);
 					border-radius: 6px;
 					letter-spacing: 2px;
+
+					&:hover {
+						opacity: 1;
+						transition: none;
+					}
 				}
 			}
 		}
