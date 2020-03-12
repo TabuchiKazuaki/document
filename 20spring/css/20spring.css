@@ -39,6 +39,51 @@ img {
   display: none;
 }
 
+.sfixed {
+  background: #fff;
+}
+.sfixed .wrap {
+  max-width: 705px;
+  padding: 35px 0 30px;
+  margin: 0 auto;
+}
+.sfixed .f_item {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sfixed .f_item dt {
+  float: left;
+  max-width: 480px;
+}
+.sfixed .f_item dt .f_t {
+  letter-spacing: 1.1px;
+  font-size: 21px;
+  color: #666;
+}
+.sfixed .f_item dt .f_h {
+  max-width: 458px;
+  margin: 18px 0 0;
+}
+.sfixed .f_item dd {
+  float: right;
+  margin: 0 0 0 19px;
+}
+.sfixed .f_item dd .d_btn {
+  background: #e5c200;
+  padding: 27px 29px;
+  border-radius: 6px;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #000;
+}
+
 .bagg {
   display: inline-block;
   background: #f0163a;
@@ -907,6 +952,33 @@ footer small {
   }
 }
 @media screen and (max-width: 768px) {
+  .sfixed .wrap {
+    max-width: 100%;
+    padding: 4.5% 3% 4.2%;
+    margin: 0 auto;
+  }
+  .sfixed .f_item dt {
+    width: 65%;
+  }
+  .sfixed .f_item dt .f_t {
+    letter-spacing: 1.4px;
+    font-size: calc(33vw/12);
+  }
+  .sfixed .f_item dt .f_h {
+    width: 100%;
+    margin: 3.7% 0 0;
+  }
+  .sfixed .f_item dd {
+    width: 32%;
+    margin: 0 0 0 3%;
+  }
+  .sfixed .f_item dd .d_btn {
+    padding: 11% 0;
+    border-radius: 5px;
+    font-size: calc(48vw/12);
+    letter-spacing: 2.2px;
+  }
+
   .bagg {
     padding: 0.8% 3%;
     margin: 0 0 1% 0;
@@ -1521,6 +1593,32 @@ footer small {
   }
 }
 @media screen and (max-width: 480px) {
+  .sfixed .wrap {
+    padding: 4.5% 3% 4.2%;
+    margin: 0 auto;
+  }
+  .sfixed .f_item dt {
+    width: 65%;
+  }
+  .sfixed .f_item dt .f_t {
+    letter-spacing: 1px;
+    font-size: calc(34vw/12);
+  }
+  .sfixed .f_item dt .f_h {
+    width: 100%;
+    margin: 3.7% 0 0;
+  }
+  .sfixed .f_item dd {
+    width: 32%;
+    margin: 0 0 0 3%;
+  }
+  .sfixed .f_item dd .d_btn {
+    padding: 12% 0;
+    border-radius: 3px;
+    font-size: calc(49vw/12);
+    letter-spacing: 2.2px;
+  }
+
   .bagg {
     padding: 0.8% 3%;
     margin: 0 0 1% 0;
