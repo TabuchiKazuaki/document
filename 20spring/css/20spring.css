@@ -520,24 +520,9 @@ header .h_w .h_main {
   font-weight: bold;
   letter-spacing: 1.3px;
 }
-.genre .g_item li a .g01 {
+.genre .g_item li a span {
   display: inline-block;
   max-width: 139px;
-  margin: 0 auto;
-}
-.genre .g_item li a .g02 {
-  display: inline-block;
-  max-width: 136px;
-  margin: 0 auto;
-}
-.genre .g_item li a .g03 {
-  display: inline-block;
-  max-width: 130px;
-  margin: 0 auto;
-}
-.genre .g_item li a .g04 {
-  display: inline-block;
-  max-width: 135px;
   margin: 0 auto;
 }
 
@@ -1237,6 +1222,11 @@ footer small {
     font-size: calc(44vw/12);
     letter-spacing: 1.3px;
   }
+  .genre .g_item li a span {
+    display: inline-block;
+    width: 41.8%;
+    margin: 0 auto;
+  }
 
   .entry {
     padding: 8.2% 0 6%;
@@ -1811,6 +1801,11 @@ footer small {
     border-radius: 3px;
     font-size: calc(46vw/12);
     letter-spacing: 1.3px;
+  }
+  .genre .g_item li a span {
+    display: inline-block;
+    width: 42.6%;
+    margin: 0 auto;
   }
 
   .entry {
