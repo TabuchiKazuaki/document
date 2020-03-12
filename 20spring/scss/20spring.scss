@@ -140,8 +140,8 @@ header {
 			z-index: 10;
 			line-height: 0;
 			transform: translate(0, 0);
-			-webkit-animation: ani 0.5s ease 0.5s 1 forwards;
-			animation: ani 0.5s ease 0.5s 1 forwards;
+			// -webkit-animation: ani 0.5s ease 0.5s 1 forwards;
+			// animation: ani 0.5s ease 0.5s 1 forwards;
 		}
 		.h_bg02 {
 			position: absolute;
@@ -881,8 +881,8 @@ footer {
 	}
 }
 
-@-webkit-keyframes ani { 0% { transform: translateY(0px); opacity:0; } }
-@keyframes ani { 100% { transform: translateY(220px); opacity:1;} }
+// @-webkit-keyframes ani { 0% { transform: translateY(0px); opacity:0; } }
+// @keyframes ani { 100% { transform: translateY(220px); opacity:1;} }
 
 
 @media screen and (max-width: 1400px) {

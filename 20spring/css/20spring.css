@@ -161,7 +161,6 @@ header .h_a {
 }
 header .h_a .h_bg01 {
   position: absolute;
-  top: -220px;
   top: 0;
   left: 0;
   max-width: 1101px;
@@ -169,8 +168,6 @@ header .h_a .h_bg01 {
   line-height: 0;
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);
-  -webkit-animation: ani 0.5s ease 0.5s 1 forwards;
-  animation: ani 0.5s ease 0.5s 1 forwards;
 }
 header .h_a .h_bg02 {
   position: absolute;
@@ -898,20 +895,6 @@ footer small {
   color: #666666;
 }
 
-@-webkit-keyframes ani {
-  0% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-    opacity: 0;
-  }
-}
-@keyframes ani {
-  100% {
-    -webkit-transform: translateY(220px);
-            transform: translateY(220px);
-    opacity: 1;
-  }
-}
 @media screen and (max-width: 1400px) {
   header .h_a {
     background: #ffd500;
