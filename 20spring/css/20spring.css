@@ -237,10 +237,15 @@ header .h_w .h_main {
   position: absolute;
   top: 4px;
   left: 4px;
+  display: inline-block;
   background: #f0163a;
-  font-size: 20px;
+  padding: 2px 11px;
+  font-size: 19px;
   font-weight: bold;
   text-align: center;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  white-space: nowrap;
   color: #fff;
 }
 .contents .odd .cv_item li:first-child {
@@ -1093,6 +1098,15 @@ footer small {
   .contents .odd .cv_item li:first-child {
     margin: 0;
   }
+  .contents .odd .cv_item li .add:before {
+    top: 1.5%;
+    left: 2.5%;
+    display: inline-block;
+    padding: 1% 6.2%;
+    font-size: calc(30vw/12);
+    border-radius: 3px;
+    letter-spacing: 1px;
+  }
   .contents .odd .c_text {
     margin: 8% 0 0;
     text-align: right;
@@ -1711,6 +1725,15 @@ footer small {
     float: left;
     width: 31.33%;
     margin: 0 0 0 3%;
+  }
+  .contents .odd .cv_item li .add:before {
+    top: 1.5%;
+    left: 2.5%;
+    display: inline-block;
+    padding: 1% 6.2%;
+    font-size: calc(31vw/12);
+    border-radius: 3px;
+    letter-spacing: 1px;
   }
   .contents .odd .cv_item li:first-child {
     margin: 0;
