@@ -393,7 +393,9 @@ header .h_w .h_main {
   position: relative;
   padding: 0 0 0 45px;
   font-size: 26px;
-  color: #ababab;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #666;
 }
 .contents .fourteen .c_f_item li .c_z_t:before {
   content: '';
@@ -438,61 +440,6 @@ header .h_w .h_main {
 .contents .fourteen .c_f_item li dl dd {
   font-size: 26px;
   color: #666;
-}
-.contents .fourteen .c_fl_item {
-  margin: 42px 0 0;
-}
-.contents .fourteen .c_fl_item li {
-  margin: 20px 0 0;
-}
-.contents .fourteen .c_fl_item li .c_z_t {
-  position: relative;
-  padding: 0 0 0 45px;
-  font-size: 26px;
-  color: #ababab;
-}
-.contents .fourteen .c_fl_item li .c_z_t:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #ffd500;
-  width: 27px;
-  height: 27px;
-  border-radius: 50%;
-}
-.contents .fourteen .c_fl_item li dl {
-  overflow: hidden;
-  letter-spacing: 1.2px;
-}
-.contents .fourteen .c_fl_item li dl dt {
-  position: relative;
-  width: 100%;
-  padding: 0 0 0 45px;
-  font-size: 26px;
-  font-weight: bold;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  color: #ababab;
-}
-.contents .fourteen .c_fl_item li dl dt:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #ffd500;
-  width: 27px;
-  height: 27px;
-  border-radius: 50%;
-}
-.contents .fourteen .c_fl_item li dl dd {
-  width: 100%;
-  line-height: 1.3;
-  padding: 18px 0 0 44px;
-  letter-spacing: 1.3px;
-  font-size: 20px;
-  font-weight: normal;
-  color: #ababab;
 }
 .contents .fourteen .c_be_btn {
   margin: 32px 0 0;
@@ -1207,7 +1154,7 @@ footer small {
   }
   .contents .fourteen .c_f_item li .c_z_t {
     padding: 0 0 0 6%;
-    font-size: calc(38vw/12);
+    font-size: calc(43vw/12);
   }
   .contents .fourteen .c_f_item li .c_z_t:before {
     content: '';
@@ -1239,48 +1186,6 @@ footer small {
   .contents .fourteen .c_f_item li dl dd {
     width: 41%;
     font-size: calc(43vw/12);
-  }
-  .contents .fourteen .c_fl_item {
-    margin: 5% 0 0;
-  }
-  .contents .fourteen .c_fl_item li {
-    margin: 3% 0 0;
-  }
-  .contents .fourteen .c_fl_item li:first-child {
-    margin: 0;
-  }
-  .contents .fourteen .c_fl_item li .c_z_t {
-    padding: 0 0 0 6%;
-    font-size: calc(38vw/12);
-  }
-  .contents .fourteen .c_fl_item li .c_z_t:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 3.8%;
-    height: 100%;
-    border-radius: 50%;
-  }
-  .contents .fourteen .c_fl_item li dl {
-    letter-spacing: 1.2px;
-  }
-  .contents .fourteen .c_fl_item li dl dt {
-    padding: 0 0 0 6%;
-    font-size: calc(43vw/12);
-  }
-  .contents .fourteen .c_fl_item li dl dt:before {
-    content: '';
-    position: absolute;
-    top: 0.5%;
-    left: 0;
-    width: 4%;
-    height: 100%;
-    border-radius: 50%;
-  }
-  .contents .fourteen .c_fl_item li dl dd {
-    font-size: calc(31vw/12);
-    padding: 3.3% 0 0 6.3%;
   }
   .contents .fourteen .c_be_btn {
     margin: 5% 0 0;
@@ -1838,7 +1743,7 @@ footer small {
   }
   .contents .fourteen .c_f_item li .c_z_t {
     padding: 0 0 0 6%;
-    font-size: calc(40vw/12);
+    font-size: calc(47vw/12);
   }
   .contents .fourteen .c_f_item li .c_z_t:before {
     content: '';
@@ -1870,46 +1775,6 @@ footer small {
   .contents .fourteen .c_f_item li dl dd {
     width: 40%;
     font-size: calc(47vw/12);
-  }
-  .contents .fourteen .c_fl_item {
-    margin: 5% 0 0;
-  }
-  .contents .fourteen .c_fl_item li {
-    margin: 3% 0 0;
-  }
-  .contents .fourteen .c_fl_item li .c_z_t {
-    padding: 0 0 0 6%;
-    font-size: calc(40vw/12);
-  }
-  .contents .fourteen .c_fl_item li .c_z_t:before {
-    content: '';
-    position: absolute;
-    top: 3%;
-    left: 0;
-    width: 3.9%;
-    height: 111%;
-    border-radius: 50%;
-  }
-  .contents .fourteen .c_fl_item li dl {
-    letter-spacing: 1.2px;
-  }
-  .contents .fourteen .c_fl_item li dl dt {
-    padding: 0 0 0 6%;
-    font-size: calc(45vw/12);
-  }
-  .contents .fourteen .c_fl_item li dl dt:before {
-    content: '';
-    position: absolute;
-    top: 0.5%;
-    left: 0;
-    background-size: 100% 100%;
-    width: 10%;
-    height: 100%;
-    border-radius: 50%;
-  }
-  .contents .fourteen .c_fl_item li dl dd {
-    font-size: calc(33vw/12);
-    padding: 3.3% 0 0 6.3%;
   }
   .contents .fourteen .c_be_btn {
     margin: 5% 0 0;
