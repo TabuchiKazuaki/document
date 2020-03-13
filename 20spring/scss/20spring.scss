@@ -960,12 +960,15 @@ footer {
 		background: #fff;
 		z-index: 10001;
 		position: fixed;
-		left: 0;
-		bottom: 0;
+		right: 0;
+		top: 0;
 		width: 100%;
+		padding: 0;
+		text-align: left;
+		border-radius: 0;
 		.wrap {
 			max-width: 100%;
-			padding: 4.5% 3% 4.2%;
+			padding: 3.5% 3% 3.2%;
 			margin: 0 auto;
 		}
 
@@ -982,6 +985,7 @@ footer {
 				.f_t {
 					letter-spacing: 1.4px;
 					font-size: calc(33vw/12);
+					font-weight: normal;
 				}
 				.f_h {
 					max-width: 458px;
@@ -991,7 +995,7 @@ footer {
 				.f_ff {
 					max-width: 451px;
 					width: 100%;
-					margin: 3.7% 0 0;
+					margin: 1.8% 0 0;
 				}
 			}
 			.f_dd {
