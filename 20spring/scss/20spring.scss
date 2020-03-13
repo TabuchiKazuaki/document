@@ -492,6 +492,7 @@ header {
 			margin: 32px 0 0;
 			a {
 				display: block;
+				background: #ffd500;
 				padding: 18px 0;
 				border-radius: 6px;
 				border: 3px solid #000;
@@ -499,6 +500,11 @@ header {
 				font-size: 32px;
 				letter-spacing: 2px;
 				color: #000;
+				&:hover {
+					opacity: 1;
+					background: #000;
+					color: #fff;
+				}
 			}
 		}
 		.c_z_btn{
@@ -1339,6 +1345,11 @@ footer {
 					border: 2px solid #000;
 					font-size: calc(50vw/12);
 					letter-spacing: 2px;
+					&:hover {
+						opacity: .8;
+						background: #ffd500;
+						color: #fff;
+					}
 				}
 			}
 			.c_z_btn{

@@ -520,6 +520,7 @@ header .h_w .h_main {
 }
 .contents .fourteen .c_be_btn a {
   display: block;
+  background: #ffd500;
   padding: 18px 0;
   border-radius: 6px;
   border: 3px solid #000;
@@ -527,6 +528,11 @@ header .h_w .h_main {
   font-size: 32px;
   letter-spacing: 2px;
   color: #000;
+}
+.contents .fourteen .c_be_btn a:hover {
+  opacity: 1;
+  background: #000;
+  color: #fff;
 }
 .contents .fourteen .c_z_btn {
   margin: 32px 0 0;
@@ -1323,6 +1329,11 @@ footer small {
     border: 2px solid #000;
     font-size: calc(50vw/12);
     letter-spacing: 2px;
+  }
+  .contents .fourteen .c_be_btn a:hover {
+    opacity: .8;
+    background: #ffd500;
+    color: #fff;
   }
   .contents .fourteen .c_z_btn {
     margin: 6% 0 0;
