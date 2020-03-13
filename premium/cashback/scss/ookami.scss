@@ -227,7 +227,7 @@ header {
 				letter-spacing: 1.4px;
 				font-weight: normal;
 				.clr {
-					color: #3a2;
+					color: #e6c300;
 				}
 				.num {
 					font-size: 29px;
@@ -310,7 +310,7 @@ header {
 		position: relative;
 		display: inline-block;
 		padding: 0 22px 0 24px;
-		margin: 0 auto 0;
+		margin: 22px auto 0;
 		font-size: 24px;
 		font-weight: bold;
 		line-height: 1.1;
@@ -359,7 +359,7 @@ header {
 		}
 	}
 	.p_date {
-		margin: 18px 0 0;
+		margin: 21px 0 0;
 		letter-spacing: 2px;
 		font-size: 20px;
 		letter-spacing: 1.5px;
@@ -495,14 +495,14 @@ header {
 		.cl {
 			display: inline-block;
 			margin: 0 2px 0 4px;
-			color: #3a2;
+			color: #e5c200;
 		}
 		.sht {
 			font-size: 24px;
 		}
 	}
 	.c_h {
-		border-left: 8px solid #3a2;
+		border-left: 8px solid #e5c200;
 		padding: 0 0 0 18px;
 		line-height: 1.2;
 		font-size: 32px;
@@ -561,7 +561,7 @@ header {
 			}
 
 			.cl {
-				color: #3a2;
+				color: #e5c200;
 			}
 		}
 
@@ -588,35 +588,6 @@ header {
 					line-height: 0.8;
 					letter-spacing: 3px;
 				}
-			}
-		}
-		.c_tbtn {
-			max-width: 715px;
-			margin: 40px auto 0;
-			a {
-				display: block;
-				background: #3a2;
-				padding: 25px 0;
-				font-size: 30px;
-				font-weight: bold;
-				border-radius: 8px;
-				text-align: center;
-				color: #000;
-				span {
-					font-size: 34px;
-				}
-			}
-		}
-		.c_tdate {
-			margin: 18px 0 0;
-			letter-spacing: 2px;
-			font-size: 20px;
-			font-weight: normal;
-			letter-spacing: 1.5px;
-			color: #fff;
-
-			span {
-				font-size: 24px;
 			}
 		}
 	}
@@ -671,7 +642,7 @@ header {
 					color: #fff;
 				}
 				.clr {
-					color: #3a2;
+					color: #e6c300;
 				}
 				.num {
 					font-size: 29px;
@@ -821,7 +792,7 @@ footer {
 
 			.h_h {
 				max-width: 345px;
-				margin: 0 auto 0;
+				margin: 16px auto 0;
 			}
 
 			.h_main {
@@ -887,10 +858,6 @@ footer {
 					line-height: 0.6;
 				}
 			}
-			.h_main {
-				width: 53.2%;
-				margin: 3% auto 0;
-			}
 		}
 		.h_c {
 			margin: 3.5% 0 0;
@@ -918,7 +885,7 @@ footer {
 
 		.h_btn {
 			width: 88%;
-			margin: 3.5% auto 0;
+			margin: 0 auto 0;
 			a {
 				padding: 3.5% 0;
 				font-size: calc(24vw/9);
@@ -963,6 +930,7 @@ footer {
 		.h_box {
 			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/4ba5fbb68ad2479dec759f5c9fd8b848_2638030587dee27d0050fa98881fc33c.png) center top no-repeat;
 			background-size: 100% auto;
+			padding: 7.6% 0 0;
 			.h_h {
 				max-width: 345px;
 				width: 44.93%;
@@ -995,8 +963,13 @@ footer {
 				}
 			}
 			.h_main {
-				width: 81.2%;
-				margin: 3.5% auto 0;
+				width: 88.5%;
+				margin: 0 auto 0;
+			}
+			.h_tt {
+				margin: 3.5% 0 0;
+				letter-spacing: 1.1px;
+				font-size: calc(25vw/12);
 			}
 		}
 		.h_c {
