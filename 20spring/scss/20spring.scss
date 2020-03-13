@@ -69,6 +69,50 @@ img  { width: 100%; height: auto;}
 	}
 }
 
+.nfixed {
+	background: #fff;
+	z-index: 10001;
+	position: fixed;
+	right: 15px;
+	bottom: 20px;
+	width: 283px;
+	padding: 27px 26px 25px;
+	box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.35);
+	border-radius: 6px;
+	text-align: center;
+	box-sizing: border-box;
+	.wrap {
+		max-width: none;
+	}
+
+	.f_t {
+		letter-spacing: 1.1px;
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 1.35;
+		color: #666;
+	}
+	.f_ff {
+		max-width: 233px;
+		margin: 8px auto 0;
+		line-height: 0;
+	}
+	.f_dd {
+		margin: 20px 0 0;
+
+	}
+	.d_btn {
+		margin: 0;
+		background: #e5c200;
+		padding: 24px 29px;
+		border-radius: 6px;
+		font-size: 32px;
+		font-weight: bold;
+		letter-spacing: 2px;
+		text-align: center;
+		color: #000;
+	}
+}
 .bagg {
 	display: inline-block;
 	background: #f0163a;
