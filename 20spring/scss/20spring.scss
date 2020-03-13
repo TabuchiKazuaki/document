@@ -28,50 +28,44 @@ img  { width: 100%; height: auto;}
 	background: #fff;
 	z-index: 10001;
 	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-
+	right: 15px;
+	bottom: 20px;
+	width: 283px;
+	padding: 27px 26px 25px;
+	box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.35);
+	border-radius: 6px;
+	text-align: center;
+	box-sizing: border-box;
 	.wrap {
-		max-width: 705px;
-		padding: 35px 0 30px;
-		margin: 0 auto;
+		max-width: none;
 	}
-	.f_item {
-		overflow: hidden;
-		display: flex;
-		align-items: center;
-		dt {
-			float: left;
-			max-width: 480px;
-			.f_t {
-				letter-spacing: 1.1px;
-				font-size: 21px;
-				color: #666;
-			}
-			.f_h {
-				max-width: 458px;
-				margin: 18px 0 0;
-			}
-			.f_ff {
-				max-width: 451px;
-				margin: 18px 0 0;
-			}
-		}
-		dd {
-			float: right;
-			margin: 0 0 0 19px;
-			.d_btn {
-				background: #e5c200;
-				padding: 27px 29px;
-				border-radius: 6px;
-				font-size: 32px;
-				font-weight: bold;
-				letter-spacing: 2px;
-				text-align: center;
-				color: #000;
-			}
-		}
+
+	.f_t {
+		letter-spacing: 1.1px;
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 1.35;
+		color: #666;
+	}
+	.f_ff {
+		max-width: 229px;
+		margin: 10px auto 0;
+		line-height: 0;
+	}
+	.f_dd {
+		margin: 20px 0 0;
+
+	}
+	.d_btn {
+		margin: 0;
+		background: #e5c200;
+		padding: 27px 29px;
+		border-radius: 6px;
+		font-size: 32px;
+		font-weight: bold;
+		letter-spacing: 2px;
+		text-align: center;
+		color: #000;
 	}
 }
 
@@ -963,12 +957,26 @@ footer {
 @media screen and (max-width: 768px) {
 
 	.sfixed {
+		background: #fff;
+		z-index: 10001;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
 		.wrap {
 			max-width: 100%;
 			padding: 4.5% 3% 4.2%;
 			margin: 0 auto;
 		}
+
 		.f_item {
+			overflow: hidden;
+			display: flex;
+			align-items: center;
+			dt {
+				float: left;
+				max-width: 480px;
+			}
 			.ff {
 				width: 62.4%;
 				.f_t {
@@ -976,29 +984,30 @@ footer {
 					font-size: calc(33vw/12);
 				}
 				.f_h {
+					max-width: 458px;
 					width: 100%;
 					margin: 3.7% 0 0;
 				}
 				.f_ff {
+					max-width: 451px;
 					width: 100%;
 					margin: 3.7% 0 0;
 				}
 			}
-			.fmm {
-				width: 65%;
-			}
 			.f_dd {
+				float: right;
 				width: 34.6%;
 				margin: 0 0 0 3%;
 				.d_btn {
+					background: #e5c200;
 					padding: 11% 0;
 					border-radius: 5px;
+					font-weight: bold;
 					font-size: calc(48vw/12);
+					text-align: center;
 					letter-spacing: 2.2px;
+					color: #000;
 				}
-			}
-			.fdm {
-				width: 32%;
 			}
 		}
 	}
@@ -1675,6 +1684,7 @@ footer {
 
 @media screen and (max-width: 480px) {
 	.sfixed {
+
 		.wrap {
 			padding: 4.5% 3% 4.2%;
 			margin: 0 auto;
