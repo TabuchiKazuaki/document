@@ -327,6 +327,9 @@ header .h_w .h_main {
   letter-spacing: 1.3px;
   color: #000;
 }
+.contents .odd .mn {
+  margin: 0;
+}
 .contents .even {
   position: relative;
   background: #ffd500;
@@ -1169,6 +1172,9 @@ footer small {
     font-size: calc(52vw/12);
     letter-spacing: 1.3px;
   }
+  .contents .odd .mn {
+    margin: 0;
+  }
   .contents .even {
     position: relative;
   }
@@ -1814,6 +1820,9 @@ footer small {
   .contents .odd .c_text a {
     font-size: calc(54vw/12);
     letter-spacing: 1.3px;
+  }
+  .contents .odd .mn {
+    margin: 0;
   }
   .contents .even {
     position: relative;
