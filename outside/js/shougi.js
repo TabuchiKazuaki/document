@@ -188,7 +188,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 	var now = new Date();
 	var b01 = new Date("2020/03/1 08:30");
-	if (now.getTime() > e01.getTime()) {
+	if (now.getTime() > b01.getTime()) {
 		$('.e01').text('今すぐみる');
 	}
 	var b02 = new Date("2020/03/3 09:30");
