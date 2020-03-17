@@ -107,14 +107,73 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	var now = new Date();
-	var e01 = new Date("2020/03/1 08:30");
-	if (now.getTime() > e01.getTime()) {
-		// $('.e01').attr("href","https://abema.tv/video/title/26-92");
-		// $('.e01').text("今すぐビデオでみる");
+	var bbf = new Date("2019/04/01 00:00");
+	if (now.getTime() > bbf.getTime()) {
+		$('.cn1').hide();
+		$('.cn2').hide();
+		$('.cn3').hide();
+		$('.cn4').hide();
+		$('.cn5').hide();
+		$('.cn6').hide();
+		$('.cn7').hide();
+		$('.cn8').hide();
+		$('.cn9').hide();
+		$('.cn10').hide();
 	}
-	var e01ed = new Date("2020/03/1 08:30");
-	if (now.getTime() > e01ed.getTime()) {
-		// $('.e01').attr("href","javascript:void(0);");
-		// $('.e01').text("配信終了しました");
+	var e01 = new Date("2020/04/01 00:00");
+	if (now.getTime() > e01.getTime()) {
+		$('.cb1').hide();
+		$('.cn1').show();
+	}
+	var e02 = new Date("2020/04/03 00:00");
+	if (now.getTime() > e02.getTime()) {
+		$('.cb2').hide();
+		$('.cn2').show();
+	}
+
+	var e03 = new Date("2020/04/04 00:00");
+	if (now.getTime() > e03.getTime()) {
+		$('.cb3').hide();
+		$('.cn3').show();
+	}
+
+	var e04 = new Date("2020/04/06 00:00");
+	if (now.getTime() > e04.getTime()) {
+		$('.cb4').hide();
+		$('.cn4').show();
+	}
+
+	var e05 = new Date("2020/04/09 00:00");
+	if (now.getTime() > e05.getTime()) {
+		$('.cb5').hide();
+		$('.cn5').show();
+	}
+
+	var e06 = new Date("2020/04/12 00:00");
+	if (now.getTime() > e06.getTime()) {
+		$('.cb6').hide();
+		$('.cn6').show();
+	}
+
+	var e07 = new Date("2020/04/12 00:00");
+	if (now.getTime() > e07.getTime()) {
+		$('.cb7').hide();
+		$('.cn7').show();
+	}
+	var e08 = new Date("2020/04/16 00:00");
+	if (now.getTime() > e08.getTime()) {
+		$('.cb8').hide();
+		$('.cn8').show();
+	}
+
+	var e09 = new Date("2020/04/17 00:00");
+	if (now.getTime() > e09.getTime()) {
+		$('.cb9').hide();
+		$('.cn9').show();
+	}
+	var e10 = new Date("2020/04/17 00:00");
+	if (now.getTime() > e10.getTime()) {
+		$('.cb10').hide();
+		$('.cn10').show();
 	}
 });
