@@ -13,7 +13,9 @@ a {
 	}
 }
 img  { width: 100%;}
-
+.pc {
+	display: block;
+}
 .wrap {
 	max-width: 680px;
 	margin: 0 auto;
@@ -264,6 +266,9 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+	.pc {
+		display: none;
+	}
 	.bagg {
 		padding: 1.2% 3% 0.8%;
 		margin: 0 0 1% 0;
