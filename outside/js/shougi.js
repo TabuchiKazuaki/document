@@ -109,13 +109,12 @@ $(document).ready(function() {
 	var now = new Date();
 	var e01 = new Date("2020/03/1 08:30");
 	if (now.getTime() > e01.getTime()) {
-		$('.e01').hide();
-		$('.e01').attr("href","https://abema.tv/video/title/26-92");
-		$('.e01').text("今すぐビデオでみる");
+		// $('.e01').attr("href","https://abema.tv/video/title/26-92");
+		// $('.e01').text("今すぐビデオでみる");
 	}
 	var e01ed = new Date("2020/03/1 08:30");
 	if (now.getTime() > e01ed.getTime()) {
-		$('.e01').attr("href","javascript:void(0);");
-		$('.e01').text("配信終了しました");
+		// $('.e01').attr("href","javascript:void(0);");
+		// $('.e01').text("配信終了しました");
 	}
 });
