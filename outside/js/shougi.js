@@ -283,16 +283,16 @@ $(document).ready(function() {
 		$('.b10').text('今すぐみる');
 	}
 
-	var b11 = new Date("2020/03/16 09:50");
+	var b11 = new Date("2020/03/23 09:50");
 	if (now.getTime() > b11.getTime()) {
 		$('.b11').text('今すぐみる');
 	}
 
-	var b12 = new Date("2020/03/17 08:30");
+	var b12 = new Date("2020/03/24 09:30");
 	if (now.getTime() > b12.getTime()) {
 		$('.b12').text('今すぐみる');
 	}
-	var b13 = new Date("2020/03/20 09:30");
+	var b13 = new Date("2020/03/27 09:50");
 	if (now.getTime() > b13.getTime()) {
 		$('.b13').text('今すぐみる');
 	}
