@@ -12,6 +12,9 @@ $(document).ready(function() {
 		$('.nw8').hide();
 		$('.nw9').hide();
 		$('.nw10').hide();
+		$('.nw11').hide();
+		$('.nw12').hide();
+		$('.nw13').hide();
 	}
 	var now1 = new Date("2020/03/01 08:30");
 	if (now.getTime() > now1.getTime()) {
@@ -100,6 +103,33 @@ $(document).ready(function() {
 	if (now.getTime() > now10af.getTime()) {
 		$('.nw10').hide();
 	}
+
+	var now11 = new Date("2020/03/23 09:50");
+	if (now.getTime() > now11.getTime()) {
+		$('.nw11').show();
+	}
+	var now11af = new Date("2020/03/23 22:00");
+	if (now.getTime() > now11af.getTime()) {
+		$('.nw11').hide();
+	}
+
+	var now12 = new Date("2020/03/24 09:30");
+	if (now.getTime() > now12.getTime()) {
+		$('.nw12').show();
+	}
+	var now12af = new Date("2020/03/24 22:00");
+	if (now.getTime() > now12af.getTime()) {
+		$('.nw12').hide();
+	}
+
+	var now13 = new Date("2020/03/27 09:50");
+	if (now.getTime() > now13.getTime()) {
+		$('.nw13').show();
+	}
+	var now13af = new Date("2020/03/27 22:00");
+	if (now.getTime() > now13af.getTime()) {
+		$('.nw13').hide();
+	}
 });
 
 
@@ -119,6 +149,9 @@ $(document).ready(function() {
 		$('.cn8').hide();
 		$('.cn9').hide();
 		$('.cn10').hide();
+		$('.cn11').hide();
+		$('.cn12').hide();
+		$('.cn13').hide();
 	}
 	var e01 = new Date("2020/04/01 00:00");
 	if (now.getTime() > e01.getTime()) {
@@ -171,10 +204,26 @@ $(document).ready(function() {
 		$('.cb9').hide();
 		$('.cn9').show();
 	}
-	var e10 = new Date("2020/04/17 00:00");
+	var e10 = new Date("2020/04/20 00:00");
 	if (now.getTime() > e10.getTime()) {
 		$('.cb10').hide();
 		$('.cn10').show();
+	}
+
+	var e11 = new Date("2020/04/23 00:00");
+	if (now.getTime() > e11.getTime()) {
+		$('.cb11').hide();
+		$('.cn11').show();
+	}
+	var e12 = new Date("2020/04/24 00:00");
+	if (now.getTime() > e12.getTime()) {
+		$('.cb12').hide();
+		$('.cn12').show();
+	}
+	var e13 = new Date("2020/04/27 00:00");
+	if (now.getTime() > e13.getTime()) {
+		$('.cb13').hide();
+		$('.cn13').show();
 	}
 });
 
@@ -232,5 +281,19 @@ $(document).ready(function() {
 	var b10 = new Date("2020/03/20 09:30");
 	if (now.getTime() > b10.getTime()) {
 		$('.b10').text('今すぐみる');
+	}
+
+	var b11 = new Date("2020/03/16 09:50");
+	if (now.getTime() > b11.getTime()) {
+		$('.b11').text('今すぐみる');
+	}
+
+	var b12 = new Date("2020/03/17 08:30");
+	if (now.getTime() > b12.getTime()) {
+		$('.b12').text('今すぐみる');
+	}
+	var b13 = new Date("2020/03/20 09:30");
+	if (now.getTime() > b13.getTime()) {
+		$('.b13').text('今すぐみる');
 	}
 });
