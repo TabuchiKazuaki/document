@@ -189,48 +189,48 @@ $(document).ready(function() {
 	var now = new Date();
 	var b01 = new Date("2020/03/1 08:30");
 	if (now.getTime() > b01.getTime()) {
-		$('.e01').text('今すぐみる');
+		$('.b01').text('今すぐみる');
 	}
 	var b02 = new Date("2020/03/3 09:30");
 	if (now.getTime() > b02.getTime()) {
-		$('.e02').text('今すぐみる');
+		$('.b02').text('今すぐみる');
 	}
 
 	var b03 = new Date("2020/03/4 09:50");
 	if (now.getTime() > b03.getTime()) {
-		$('.e03').text('今すぐみる');
+		$('.b03').text('今すぐみる');
 	}
 
 	var b04 = new Date("2020/03/6 09:50");
 	if (now.getTime() > b04.getTime()) {
-		$('.e04').text('今すぐみる');
+		$('.b04').text('今すぐみる');
 	}
 
 	var b05 = new Date("2020/03/9 09:30");
 	if (now.getTime() > b05.getTime()) {
-		$('.e05').text('今すぐみる');
+		$('.b05').text('今すぐみる');
 	}
 
 	var b06 = new Date("2020/03/12 09:30");
 	if (now.getTime() > b06.getTime()) {
-		$('.e06').text('今すぐみる');
+		$('.b06').text('今すぐみる');
 	}
 
 	var b07 = new Date("2020/03/12 09:50");
 	if (now.getTime() > b07.getTime()) {
-		$('.e07').text('今すぐみる');
+		$('.b07').text('今すぐみる');
 	}
 	var b08 = new Date("2020/03/16 09:50");
 	if (now.getTime() > b08.getTime()) {
-		$('.e08').text('今すぐみる');
+		$('.b08').text('今すぐみる');
 	}
 
 	var b09 = new Date("2020/03/17 08:30");
 	if (now.getTime() > b09.getTime()) {
-		$('.e09').text('今すぐみる');
+		$('.b09').text('今すぐみる');
 	}
 	var b10 = new Date("2020/03/20 09:30");
 	if (now.getTime() > b10.getTime()) {
-		$('.e10').text('今すぐみる');
+		$('.b10').text('今すぐみる');
 	}
 });
