@@ -125,7 +125,7 @@ $(document).ready(function() {
 		$('.cb1').hide();
 		$('.cn1').show();
 	}
-	var e02 = new Date("2020/04/03 00:00");
+	var e02 = new Date("2020/03/10 00:00");
 	if (now.getTime() > e02.getTime()) {
 		$('.cb2').hide();
 		$('.cn2').show();
