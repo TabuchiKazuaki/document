@@ -55,7 +55,7 @@ header {
 		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/cb266b5441052fc5ae32f2f74d1b22ca_868b58a5f4756bf3fc06daaff57e5373.png) center top no-repeat;
 		background-size: cover;
 		height: 868px;
-		padding: 59px 0 0;
+		padding: 29px 0 0;
 		margin: 0 auto;
 		text-align: center;
 		box-sizing: border-box;
@@ -67,7 +67,7 @@ header {
 
 		.h_main {
 			max-width: 623px;
-			margin: 30px auto 0;
+			margin: 25px auto 0;
 			line-height: 0;
 		}
 		.h_bg {
@@ -81,16 +81,18 @@ header {
 			.hbg {
 				display: inline-block;
 				background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/6cb00f7d6065da50aa3241c3d5446e1e_ed8eeb5a8fa9aa9394f40fe9fa7a39d6.png) 0 0 no-repeat;
-				background-size: cover;
+				background-size: contain;
 				font-size: 35px;
 				letter-spacing: 3px;
 				text-align: left;
 				margin: 0 6px 0 5px;
 				padding: 0 7px 0 8px;
+				line-height: 1.3;
 				box-sizing: border-box;
 			}
 			.h_num {
 				font-size: 38px;
+				line-height: 0.5;
 			}
 		}
 	}
@@ -176,7 +178,7 @@ header {
 		position: relative;
 		display: inline-block;
 		padding: 0 22px 0 24px;
-		margin: 22px auto 0;
+		margin: 3px auto 0;
 		font-size: 24px;
 		font-weight: bold;
 		line-height: 1.1;
