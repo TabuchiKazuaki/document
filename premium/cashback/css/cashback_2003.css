@@ -52,6 +52,7 @@ header .h_a {
 }
 header .h_w {
   padding: 46px 0 0;
+  text-align: center;
 }
 header .h_m {
   max-width: 680px;
@@ -59,22 +60,12 @@ header .h_m {
   line-height: 0;
 }
 header .h_t {
-  max-width: 566px;
-  margin: 2px auto 0;
+  max-width: 540px;
+  margin: 8px auto 0;
   line-height: 0;
 }
-header .h_cau {
-  margin: 25px 0 0;
-  font-size: 16px;
-  letter-spacing: 1.2px;
-  text-align: center;
-  color: #fff;
-}
-header .h_cau span {
-  font-size: 18px;
-}
 header .h_btn {
-  margin: 40px 0 0;
+  margin: 45px 0 0;
 }
 header .h_btn a {
   display: block;
@@ -100,7 +91,7 @@ header .h_date span {
   font-size: 23px;
 }
 header .t_box {
-  margin: 30px 0 0;
+  margin: 41px 0 0;
 }
 header .t_box .timer {
   font-size: 21px;
@@ -131,80 +122,64 @@ header .t_box .t_tex {
   letter-spacing: 1.3px;
   color: #fff;
 }
-
-.chace {
-  margin: 49px 0 0;
+header .h_item {
+  overflow: hidden;
+  max-width: 646px;
+  margin: 62px auto 0;
 }
-.chace .wrap {
-  background: #1f2020;
-  max-width: 555px;
-  padding: 41px 0 41px;
-  margin: 0 auto;
-  border-radius: 8px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+header .h_item li {
+  float: left;
+  max-width: 23.12%;
+  margin: 0 0 0 2.5%;
 }
-.chace .ch_h {
-  background: #e5c200;
-  max-width: 230px;
-  padding: 7px 0;
-  margin: 0 auto;
-  font-size: 20px;
-  text-align: center;
+header .h_item li:first-child {
+  margin: 0;
+}
+header .h_fin {
+  position: relative;
+  display: inline-block;
+  padding: 0 35px;
+  font-size: 41px;
   font-weight: bold;
-  border-radius: 30px;
-  letter-spacing: 1.2px;
-  color: #000;
+  margin: 33px auto 0;
+  letter-spacing: 1.4px;
 }
-.chace .ch_h span {
-  font-size: 23px;
+header .h_fin span {
+  display: inline-block;
+  margin: 0 0 0 3px;
+  font-size: 45px;
 }
-.chace .ch_txt {
-  margin: 9px 0 0;
-  text-align: center;
+header .h_fin:before {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: 0;
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/375c57d126007533f796a71d6c4b33ce_36b776e38b9084120cbf01c67e8e0663.png) 0 0 no-repeat;
+  background-size: 24px 39px;
+  width: 24px;
+  height: 39px;
+}
+header .h_fin:after {
+  content: '';
+  position: absolute;
+  top: 7px;
+  right: 0;
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/c7f1501b9138d82465147d2e280bbf9c_3e3d2e24bd491c94c8f811470b9862bf.png) 0 0 no-repeat;
+  background-size: 24px 39px;
+  width: 24px;
+  height: 39px;
+}
+header .h_tex {
+  margin: 15px 0 0;
   font-size: 32px;
-  letter-spacing: 1.2px;
-  line-height: 1.33;
-}
-.chace .ch_txt .clr {
-  color: #e5c200;
-}
-.chace .ch_txt .num {
-  letter-spacing: 1.3px;
-  font-size: 35px;
-}
-.chace .ch_img {
-  max-width: 410px;
-  margin: 39px auto 0;
-}
-.chace .ch_btn {
-  max-width: 680px;
-  margin: 44px auto 0;
-}
-.chace .ch_btn a {
-  display: block;
-  background: #e5c200;
-  padding: 26px 0;
-  border-radius: 6px;
-  text-align: center;
-  font-size: 28px;
   font-weight: bold;
-  color: #000;
+  letter-spacing: 1.4px;
+  color: #fff;
 }
-.chace .ch_caution {
-  margin: 25px 0 0;
-  text-align: center;
-  font-size: 13px;
-  color: #ababab;
-}
-.chace .ch_date {
-  margin: 22px 0 0;
-  text-align: center;
-  letter-spacing: 1.8px;
-  font-size: 16px;
-}
-.chace .ch_date span {
-  font-size: 19px;
+header .h_tex span {
+  display: inline-block;
+  margin: 0 4px 0 0;
+  font-size: 35px;
 }
 
 .info {
@@ -1008,13 +983,13 @@ footer small {
 @media screen and (max-width: 768px) {
   header {
     padding: 0;
+    position: relative;
   }
   header .h_l {
     width: 21%;
     padding: 1.2% 0 1.2% 2.2%;
   }
   header .h_a {
-    position: relative;
     background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/ea505aeb19d1d0c4c949753238432c30_ef80a66c413fbdd93f8cb55339dab88f.png) center center no-repeat;
     background-size: cover;
     min-height: auto;
@@ -1022,128 +997,112 @@ footer small {
     margin: 0 auto;
   }
   header .h_w {
-    padding: 6.2% 0 0;
+    padding: 6% 0 0;
   }
   header .h_m {
-    width: 89%;
+    width: 88.5%;
     margin: 0 auto 0;
   }
   header .h_t {
-    width: 74%;
-    margin: 0.2% auto 0;
-  }
-  header .h_cau {
-    margin: 3.4% 0 0;
-    font-size: calc(25vw/12);
-    letter-spacing: 1.2px;
-  }
-  header .h_cau span {
-    font-size: calc(27vw/12);
-  }
-  header .h_i {
-    width: 70%;
-    margin: 3.4% auto 0;
-  }
-  header .h_i dd {
-    width: 64%;
-    margin: 0 auto;
-  }
-  header .h_i dt {
-    width: 33.5%;
-    margin: 0 0 0 2.5%;
+    width: 70.2%;
+    margin: 1% auto 0;
   }
   header .h_btn {
-    margin: 5.6% auto 0;
-    width: 90%;
+    margin: 5.6% 0 0;
   }
   header .h_btn a {
-    padding: 3.5% 0;
+    width: 88.5%;
+    padding: 3.4% 0;
+    margin: 0 auto;
     border-radius: 5px;
-    font-size: calc(43vw/12);
+    font-size: calc(44vw/12);
+    letter-spacing: 1.5px;
   }
   header .h_date {
     margin: 3% 0 0;
-    font-size: calc(32vw/12);
+    font-size: calc(31vw/12);
     letter-spacing: 1.3px;
   }
   header .h_date span {
     font-size: calc(35vw/12);
   }
   header .t_box {
-    margin: 3.5% 0 0;
+    margin: 41px 0 0;
   }
   header .t_box .timer {
-    font-size: calc(33vw/12);
+    font-size: 21px;
+    text-align: center;
+    font-weight: bold;
     letter-spacing: 1.3px;
   }
   header .t_box .timer span {
     display: inline-block;
-    width: 7.6%;
+    width: 58px;
     background: #000;
-    padding: 1.1% 0 1.2%;
-    margin: 0 1.5%;
-    border-radius: 5px;
-    font-size: calc(55vw/12);
+    padding: 7px 4px 9px;
+    margin: 0 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
     letter-spacing: 1.3px;
+    line-height: 1;
+    color: #e5c200;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   header .t_box .t_tex {
-    font-size: calc(33vw/12);
+    font-size: 21px;
+    text-align: center;
+    font-weight: bold;
     letter-spacing: 1.3px;
+    color: #fff;
   }
-
-  .chace {
-    margin: 10% 0 0;
+  header .h_item {
+    overflow: hidden;
+    max-width: 646px;
+    margin: 62px auto 0;
   }
-  .chace .wrap {
-    width: 75%;
-    padding: 5.5% 0 5.5%;
-    border-radius: 6px;
+  header .h_item li {
+    float: left;
+    max-width: 23.12%;
+    margin: 0 0 0 2.5%;
   }
-  .chace .ch_h {
-    width: 42%;
-    padding: 1.3% 0;
-    margin: 0 auto;
-    font-size: calc(32vw/12);
-    border-radius: 30px;
-    letter-spacing: 1.2px;
+  header .h_item li:first-child {
+    margin: 0;
   }
-  .chace .ch_h span {
-    font-size: calc(36vw/12);
+  header .h_fin {
+    display: inline-block;
+    padding: 0 4%;
+    font-size: calc(64vw/12);
+    margin: 4.6% auto 0;
+    letter-spacing: 1.4px;
+    white-space: nowrap;
   }
-  .chace .ch_txt {
-    margin: 2% 0 0;
-    font-size: calc(51vw/12);
-    letter-spacing: 1.2px;
-    line-height: 1.33;
+  header .h_fin span {
+    display: inline-block;
+    margin: 0 0 0 0.15%;
+    font-size: calc(65vw/12);
   }
-  .chace .ch_txt .num {
-    letter-spacing: 1.3px;
-    font-size: calc(56vw/12);
+  header .h_fin:before {
+    content: '';
+    position: absolute;
+    top: 4%;
+    left: 0;
+    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/375c57d126007533f796a71d6c4b33ce_36b776e38b9084120cbf01c67e8e0663.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 6.5%;
+    height: 100%;
   }
-  .chace .ch_img {
-    width: 74%;
-    margin: 6% auto 0;
-  }
-  .chace .ch_btn {
-    width: 90%;
-    margin: 6% auto 0;
-  }
-  .chace .ch_btn a {
-    padding: 4% 0;
-    border-radius: 5px;
-    font-size: calc(45vw/12);
-  }
-  .chace .ch_caution {
-    margin: 2.6% 0 0;
-    font-size: calc(21vw/12);
-  }
-  .chace .ch_date {
-    margin: 3% 0 0;
-    letter-spacing: 1.7px;
-    font-size: calc(26vw/12);
-  }
-  .chace .ch_date span {
-    font-size: calc(28vw/12);
+  header .h_fin:after {
+    content: '';
+    position: absolute;
+    top: 4%;
+    right: 0;
+    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/c7f1501b9138d82465147d2e280bbf9c_3e3d2e24bd491c94c8f811470b9862bf.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 6.5%;
+    height: 100%;
   }
 
   .c_ge {
@@ -1355,7 +1314,7 @@ footer small {
     top: 11px;
   }
   .contents .c_box li .icon {
-    width: 38%;
+    width: 38.6%;
     margin: 0 auto;
   }
   .contents .c_box li .c_img {
@@ -1800,14 +1759,6 @@ footer small {
     width: 75.5%;
     margin: 0.8% auto 0;
   }
-  header .h_cau {
-    margin: 3.3% 0 0;
-    font-size: calc(25vw/12);
-    letter-spacing: 1.2px;
-  }
-  header .h_cau span {
-    font-size: calc(27vw/12);
-  }
   header .h_i {
     width: 70%;
     margin: 3.4% auto 0;
@@ -1856,61 +1807,6 @@ footer small {
   header .t_box .t_tex {
     font-size: calc(33vw/12);
     letter-spacing: 1.3px;
-  }
-
-  .chace {
-    margin: 7% 0 0;
-  }
-  .chace .wrap {
-    width: 75%;
-    padding: 5.2% 0 5%;
-    border-radius: 5px;
-  }
-  .chace .ch_h {
-    width: 42%;
-    padding: 1.3% 0;
-    margin: 0 auto;
-    font-size: calc(34vw/12);
-    border-radius: 30px;
-    letter-spacing: 1.2px;
-  }
-  .chace .ch_h span {
-    font-size: calc(38vw/12);
-  }
-  .chace .ch_txt {
-    margin: 2% 0 0;
-    font-size: calc(53vw/12);
-    letter-spacing: 1.2px;
-    line-height: 1.33;
-  }
-  .chace .ch_txt .num {
-    letter-spacing: 1.3px;
-    font-size: calc(58vw/12);
-  }
-  .chace .ch_img {
-    width: 74%;
-    margin: 6% auto 0;
-  }
-  .chace .ch_btn {
-    width: 88%;
-    margin: 6% auto 0;
-  }
-  .chace .ch_btn a {
-    padding: 4% 0;
-    border-radius: 4px;
-    font-size: calc(47vw/12);
-  }
-  .chace .ch_caution {
-    margin: 2.6% 0 0;
-    font-size: calc(23vw/12);
-  }
-  .chace .ch_date {
-    margin: 3% 0 0;
-    letter-spacing: 1.7px;
-    font-size: calc(28vw/12);
-  }
-  .chace .ch_date span {
-    font-size: calc(30vw/12);
   }
 
   .c_ge {
