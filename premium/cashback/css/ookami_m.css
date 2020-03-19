@@ -655,6 +655,10 @@ header .t_box .t_tex {
   font-weight: bold;
   color: #000;
 }
+.contents .tw_w {
+  max-width: 680px;
+  margin: 0 auto;
+}
 .contents .c_tex {
   max-width: 715px;
   background: #1a1a1a;
@@ -1581,6 +1585,10 @@ footer small {
     padding: 3% 0;
     border-radius: 5px;
     font-size: calc(39vw/12);
+  }
+  .contents .tw_w {
+    max-width: 100%;
+    padding: 0 4.2%;
   }
   .contents .c_tex {
     width: 91%;
