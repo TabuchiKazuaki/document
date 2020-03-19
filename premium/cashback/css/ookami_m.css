@@ -505,6 +505,8 @@ header .t_box .t_tex {
   padding: 0 0 20px;
 }
 .contents .c_five .c_five_li {
+  padding: 20px 0;
+  margin: 0;
   border-top: 1px solid #606060;
 }
 .contents .c_five .c_five_li:first-child {
@@ -512,7 +514,6 @@ header .t_box .t_tex {
 }
 .contents .c_five .c_five_li a {
   display: block;
-  padding: 25px 0;
 }
 .contents .c_five .c_five_li dl {
   display: -webkit-box;
@@ -1184,6 +1185,10 @@ footer small {
   .contents .c_five {
     padding: 0 0 3%;
   }
+  .contents .c_five .c_five_li {
+    padding: 3.2% 0;
+    margin: 0;
+  }
   .contents .c_five .c_five_li a {
     padding: 3.7% 0;
   }
@@ -1750,6 +1755,10 @@ footer small {
   }
   .contents .c_five {
     padding: 0 0 3%;
+  }
+  .contents .c_five .c_five_li {
+    padding: 3.2% 0;
+    margin: 0;
   }
   .contents .c_five .c_five_li a {
     padding: 3.7% 0;
