@@ -100,7 +100,7 @@ header .h_box .h_bg {
 header .h_box .h_bg .hbg {
   display: inline-block;
   background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/6cb00f7d6065da50aa3241c3d5446e1e_ed8eeb5a8fa9aa9394f40fe9fa7a39d6.png) 0 0 no-repeat;
-  background-size: contain;
+  background-size: cover;
   font-size: 35px;
   letter-spacing: 3px;
   text-align: left;
@@ -1218,10 +1218,10 @@ footer small {
     padding: 4% 0 0;
   }
   header .h_box .h_h {
-    max-width: 345px;
+    width: 45.4%;
   }
   header .h_box .h_main {
-    max-width: 81.1%;
+    max-width: 81.7%;
     margin: 3.6% auto 0;
     line-height: 0;
   }
@@ -1239,7 +1239,7 @@ footer small {
     letter-spacing: 2px;
     margin: 0 0.6% 0 0.5%;
     padding: 0 0.8% 0 0.9%;
-    line-height: 1.3;
+    line-height: 1.5;
   }
   header .h_box .h_bg .h_num {
     font-size: calc(59vw/12);
@@ -1252,9 +1252,9 @@ footer small {
   }
   header .h_inner .h_lot {
     position: relative;
-    padding: 5.1%;
-    border-radius: 18px;
-    border: 2px solid #fff;
+    padding: 5.4%;
+    border-radius: 10px;
+    border: 1.5px solid #fff;
   }
   header .h_inner .h_lot .hbi_h {
     top: -4.8%;
@@ -1264,7 +1264,7 @@ footer small {
     letter-spacing: 1.2px;
   }
   header .h_inner .h_lot .hbi_t {
-    padding: 0 0 3%;
+    padding: 0 0 3.5%;
     font-size: calc(38vw/12);
     letter-spacing: 3px;
     line-height: 1.35;
@@ -1273,26 +1273,26 @@ footer small {
     font-size: calc(41vw/12);
   }
   header .h_inner .h_lot .hbi_item {
-    margin: 3.8% 4% 0;
+    margin: 3.8% 3% 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
   header .h_inner .h_lot .hbi_item li {
     overflow: hidden;
-    margin: 2.4% 0 0;
+    margin: 2.6% 0 0;
   }
   header .h_inner .h_lot .hbi_item li:first-child {
     margin: 0;
   }
   header .h_inner .h_lot .hbi_item li:first-child .hb_txt {
-    text-indent: -0.5rem;
+    text-indent: -0.35rem;
   }
   header .h_inner .h_lot .hbi_item .hb_num {
     width: 10%;
     padding: 0.5% 1.6%;
     border-radius: 30px;
     font-size: calc(29vw/12);
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
   header .h_inner .h_lot .hbi_item .hb_num span {
     font-size: calc(33vw/12);
@@ -1301,9 +1301,8 @@ footer small {
     width: 83%;
     margin: 0 0 0 2%;
     font-size: calc(28vw/12);
-    letter-spacing: 1.8px;
-    line-height: 1.6;
-    white-space: nowrap;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
   }
   header .h_t {
     display: inline-block;
