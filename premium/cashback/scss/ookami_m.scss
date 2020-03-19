@@ -318,6 +318,9 @@ header {
 			&:first-child {
 				margin: 0;
 			}
+			&:nth-child(2) {
+				padding: 39px 18px 38px;
+			}
 
 			.icon {
 				display: inline-block;
@@ -506,6 +509,9 @@ header {
 			&:first-child {
 				padding: 32px 0 37px;
 				border-top: none;
+			}
+			&:nth-child(2) {
+				padding: 41px 0;
 			}
 
 			a {
