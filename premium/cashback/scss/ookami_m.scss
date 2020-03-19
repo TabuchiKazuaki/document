@@ -301,18 +301,22 @@ header {
 		li {
 			padding: 39px 16.5px 56px;
 			margin: 18px auto 0;
-			border-top: 2px solid #404040;
-			&:first-child {
-				border-top: none;
-			}
-			&:nth-child(2) {
-				padding: 14px 0 61px;
-			}
-
 			.icon {
-				max-width: 240px;
+				display: inline-block;
+				background: #e6c300;
+				padding: 4px 30px 11px;
 				margin: 0 auto;
-				line-height: 0;
+				font-size: 35px;
+				font-weight: bold;
+				border-radius: 30px;
+				letter-spacing: 5px;
+				color: #000;
+				span {
+					display: inline-block;
+					margin: 0 0 0 5px;
+					letter-spacing: 2px;
+					font-size: 45px;
+				}
 			}
 			.c_img {
 				max-width: 290px;
