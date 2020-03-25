@@ -15,6 +15,7 @@ $(document).ready(function() {
 		$('.nw11').hide();
 		$('.nw12').hide();
 		$('.nw13').hide();
+		$('.nw14').hide();
 	}
 	var now1 = new Date("2020/03/01 08:30");
 	if (now.getTime() > now1.getTime()) {
@@ -130,6 +131,15 @@ $(document).ready(function() {
 	if (now.getTime() > now13af.getTime()) {
 		$('.nw13').hide();
 	}
+
+	var now14 = new Date("2020/03/31 09:30");
+	if (now.getTime() > now14.getTime()) {
+		$('.nw14').show();
+	}
+	var now14af = new Date("2020/03/31 23:00");
+	if (now.getTime() > now14af.getTime()) {
+		$('.nw14').hide();
+	}
 });
 
 
@@ -152,6 +162,7 @@ $(document).ready(function() {
 		$('.cn11').hide();
 		$('.cn12').hide();
 		$('.cn13').hide();
+		$('.cn14').hide();
 	}
 	var e01 = new Date("2020/04/01 00:00");
 	if (now.getTime() > e01.getTime()) {
@@ -225,6 +236,11 @@ $(document).ready(function() {
 		$('.cb13').hide();
 		$('.cn13').show();
 	}
+	var e14 = new Date("2020/04/30 00:00");
+	if (now.getTime() > e14.getTime()) {
+		$('.cb14').hide();
+		$('.cn14').show();
+	}
 });
 
 
@@ -295,5 +311,9 @@ $(document).ready(function() {
 	var b13 = new Date("2020/03/27 09:50");
 	if (now.getTime() > b13.getTime()) {
 		$('.b13').text('今すぐみる');
+	}
+	var b14 = new Date("2020/03/31 09:50");
+	if (now.getTime() > b14.getTime()) {
+		$('.b14').text('今すぐみる');
 	}
 });
