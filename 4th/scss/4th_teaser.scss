@@ -402,25 +402,6 @@ header {
 			a {
 				display: block;
 			}
-			.add {
-				position: relative;
-				&:before {
-					content: '無料エピソード拡大';
-					position: absolute;
-					top: 4px;
-					left: 4px;
-					display: inline-block;
-					background: #f0163a;
-					padding: 2px 11px;
-					font-size: 19px;
-					font-weight: bold;
-					text-align: center;
-					border-radius: 4px;
-					letter-spacing: 1px;
-					white-space: nowrap;
-					color: #fff;
-				}
-			}
 			dt {
 				background: #a1882f;
 				width: 56px;
@@ -444,8 +425,28 @@ header {
 			&:nth-child(1) {
 				margin: 0;
 			}
+
 			figure {
 				line-height: 0;
+			}
+			.add {
+				position: relative;
+				&:before {
+					content: '無料エピソード拡大';
+					position: absolute;
+					top: 4px;
+					left: 4px;
+					display: inline-block;
+					background: #f0163a;
+					padding: 2px 11px;
+					font-size: 19px;
+					font-weight: bold;
+					text-align: center;
+					border-radius: 4px;
+					letter-spacing: 1px;
+					white-space: nowrap;
+					color: #fff;
+				}
 			}
 		}
 	}
