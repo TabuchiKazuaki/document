@@ -343,6 +343,9 @@ header .h_date {
 .contents .c_box {
   padding: 77px 0 0;
 }
+.contents .c_box_sec {
+  padding: 58px 0 0;
+}
 .contents .est {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -409,7 +412,7 @@ header .h_date {
   font-weight: bold;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  color: #666;
+  color: #000;
 }
 .contents .type:before {
   content: '';
@@ -783,7 +786,6 @@ footer .wrap {
   max-width: 710px;
   margin: 0 auto;
   padding: 40px 0 80px;
-  border-top: 2px solid #404040;
 }
 footer .copy {
   margin: 0 0 32px;
