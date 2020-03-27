@@ -269,6 +269,10 @@ header .h_date {
 .contents {
   background: #fff;
 }
+.contents .wrap {
+  max-width: 680px;
+  margin: 0 auto;
+}
 .contents .c_h {
   border-left: 9px solid #a1882f;
   padding: 0 0 0 18px;
@@ -336,6 +340,237 @@ header .h_date {
   background-size: 35px 56px;
   width: 35px;
   height: 56px;
+}
+.contents .c_box {
+  padding: 50px 0 60px;
+}
+.contents .est {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 40px 0 0;
+}
+.contents .est a {
+  display: block;
+}
+.contents .est li {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 31.3%;
+  margin: 7% 0 0 3%;
+}
+.contents .est li:nth-child(3n+1) {
+  margin: 7% 0 0 0;
+}
+.contents .est li:nth-child(2) {
+  margin: 0 0 0 3%;
+}
+.contents .est li:nth-child(3) {
+  margin: 0 0 0 3%;
+}
+.contents .est li:nth-child(1) {
+  margin: 0;
+}
+.contents .est li figure {
+  line-height: 0;
+}
+.contents .est li .est_t {
+  position: relative;
+  padding: 0 0 0 25px;
+  margin: 20px 0 0;
+  font-size: 18px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  letter-spacing: 1.3px;
+  font-weight: bold;
+  color: #000;
+}
+.contents .est li .est_t:before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 0;
+  background: #a1882f;
+  background-size: 17px 17px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+}
+.contents .type {
+  position: relative;
+  padding: 0 0 0 45px;
+  font-size: 26px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #666;
+}
+.contents .type:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #a1882f;
+  background-size: 27px 27px;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+.contents .rank {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 40px 0 0;
+}
+.contents .rank a {
+  display: block;
+}
+.contents .rank li {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 31.3%;
+  margin: 7% 0 0 3%;
+}
+.contents .rank li a {
+  display: block;
+}
+.contents .rank li .add {
+  position: relative;
+}
+.contents .rank li .add:before {
+  content: '無料エピソード拡大';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  display: inline-block;
+  background: #f0163a;
+  padding: 2px 11px;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  color: #fff;
+}
+.contents .rank li dt {
+  background: #a1882f;
+  width: 56px;
+  height: 50px;
+  padding: 7px 0 0 9px;
+  font-size: 33px;
+  font-weight: bold;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.contents .rank li dt span {
+  font-size: 20px;
+}
+.contents .rank li:nth-child(2) {
+  margin: 0 0 0 3%;
+}
+.contents .rank li:nth-child(3) {
+  margin: 0 0 0 3%;
+}
+.contents .rank li:nth-child(1) {
+  margin: 0;
+}
+.contents .rank li figure {
+  line-height: 0;
+}
+
+.sec {
+  background: #efefef;
+  padding: 60px 0 0;
+}
+.sec .s_box {
+  background: #fff;
+  padding: 60px 0 0;
+  border-radius: 20px;
+}
+.sec .s_box .s_h {
+  max-width: 250px;
+  margin: 0 auto;
+}
+.sec .s_box .s_h_thr {
+  max-width: 235px;
+  margin: 0 auto;
+}
+.sec .s_box .s_head {
+  margin: 33px 0 0;
+  font-size: 37px;
+  text-align: center;
+  letter-spacing: 2.5px;
+  color: #000;
+}
+.sec .s_box .s_item {
+  overflow: hidden;
+  max-width: 635px;
+  margin: 46px auto 0;
+}
+.sec .s_box .s_item li {
+  float: left;
+  width: 25%;
+  line-height: 0;
+}
+.sec .s_box .s_bg {
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/ee30bfc7699aebcbc72953f571cb3be0_5d641d3329ddd7dcf32eb5777a1932a1.png) center top repeat;
+  background-size: 100% auto;
+  padding: 58px 30px 64px;
+  margin: 44px 0 0;
+  border-radius: 0 0 20px 20px;
+}
+.sec .s_box .s_bg .s_bh {
+  max-width: 458px;
+  margin: 0 auto;
+}
+.sec .s_box .s_bg .s_bt {
+  margin: 20px 0 0;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 1.4px;
+}
+.sec .s_box .s_bg .s_bt .num {
+  font-size: 40px;
+}
+.sec .s_box .s_bg .s_bt .cl {
+  color: #e6c300;
+}
+.sec .s_box .s_bg .sb_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  max-width: 644px;
+  margin: 43px auto 0;
+}
+.sec .s_box .s_bg .sb_list li {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 16.66%;
+  line-height: 0;
 }
 
 .gen {

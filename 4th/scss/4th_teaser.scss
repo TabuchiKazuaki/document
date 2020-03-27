@@ -238,9 +238,12 @@ header {
 	}
 }
 
-
 .contents {
 	background: #fff;
+	.wrap {
+		max-width: 680px;
+		margin: 0 auto;
+	}
 	.c_h {
 		border-left: 9px solid #a1882f;
 		padding: 0 0 0 18px;
@@ -311,8 +314,216 @@ header {
 			height: 56px;
 		}
 	}
+	.c_box {
+		padding: 50px 0 60px;
+	}
+	.est {
+		display: flex;
+		flex-flow: row wrap;
+		margin: 40px 0 0;
+		a {
+			display: block;
+		}
+		li {
+			justify-content: flex-end;
+			box-sizing: border-box;
+			width: 31.3%;
+			margin: 7% 0 0 3%;
+			&:nth-child(3n+1) {
+				margin: 7% 0 0 0;
+			}
+			&:nth-child(2) {
+				margin: 0 0 0 3%;
+			}
+			&:nth-child(3) {
+				margin: 0 0 0 3%;
+			}
+			&:nth-child(1) {
+				margin: 0;
+			}
+			figure {
+				line-height: 0;
+			}
+			.est_t {
+				position: relative;
+				padding: 0 0 0 25px;
+				margin: 20px 0 0;
+				font-size: 18px;
+				box-sizing: border-box;
+				letter-spacing: 1.3px;
+				font-weight: bold;
+				color: #000;
+				&:before {
+					content: '';
+					position: absolute;
+					top: 2px;
+					left: 0;
+					background: #a1882f;
+					background-size: 17px 17px;
+					width: 17px;
+					height: 17px;
+					border-radius: 50%;
+				}
+			}
+		}
+	}
+	.type {
+		position: relative;
+		padding: 0 0 0 45px;
+		font-size: 26px;
+		box-sizing: border-box;
+		color: #666;
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: #a1882f;
+			background-size: 27px 27px;
+			width: 27px;
+			height: 27px;
+			border-radius: 50%;
+		}
+	}
+	.rank {
+		display: flex;
+		flex-flow: row wrap;
+		margin: 40px 0 0;
+		a {
+			display: block;
+		}
+		li {
+			justify-content: flex-end;
+			box-sizing: border-box;
+			width: 31.3%;
+			margin: 7% 0 0 3%;
+			a {
+				display: block;
+			}
+			.add {
+				position: relative;
+				&:before {
+					content: '無料エピソード拡大';
+					position: absolute;
+					top: 4px;
+					left: 4px;
+					display: inline-block;
+					background: #f0163a;
+					padding: 2px 11px;
+					font-size: 19px;
+					font-weight: bold;
+					text-align: center;
+					border-radius: 4px;
+					letter-spacing: 1px;
+					white-space: nowrap;
+					color: #fff;
+				}
+			}
+			dt {
+				background: #a1882f;
+				width: 56px;
+				height: 50px;
+				padding: 7px 0 0 9px;
+				font-size: 33px;
+				font-weight: bold;
+				color: #fff;
+				box-sizing: border-box;
+				span {
+					font-size: 20px;
+				}
+			}
+
+			&:nth-child(2) {
+				margin: 0 0 0 3%;
+			}
+			&:nth-child(3) {
+				margin: 0 0 0 3%;
+			}
+			&:nth-child(1) {
+				margin: 0;
+			}
+			figure {
+				line-height: 0;
+			}
+		}
+	}
 }
 
+.sec {
+	background: #efefef;
+	padding: 60px 0 0;
+	.s_box {
+		background: #fff;
+		padding: 60px 0 0;
+		border-radius: 20px;
+		.s_h {
+			max-width: 250px;
+			margin: 0 auto;
+		}
+		.s_h_thr {
+			max-width: 235px;
+			margin: 0 auto;
+		}
+		.s_head {
+			margin: 33px 0 0;
+			font-size: 37px;
+			text-align: center;
+			letter-spacing: 2.5px;
+			color: #000;
+		}
+		.s_item {
+			overflow: hidden;
+			max-width: 635px;
+			margin: 46px auto 0;
+			li {
+				float: left;
+				width: 25%;
+				line-height: 0;
+
+			}
+		}
+
+		.s_bg {
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/ee30bfc7699aebcbc72953f571cb3be0_5d641d3329ddd7dcf32eb5777a1932a1.png) center top repeat;
+			background-size: 100% auto;
+			padding: 58px 30px 64px;
+			margin: 44px 0 0;
+			border-radius: 0 0 20px 20px;
+
+			.s_bh {
+				max-width: 458px;
+				margin: 0 auto;
+			}
+			.s_bt {
+				margin: 20px 0 0;
+				font-weight: bold;
+				font-size: 35px;
+				text-align: center;
+				line-height: 1.2;
+				letter-spacing: 1.4px;
+				.num {
+					font-size: 40px;
+				}
+				.cl {
+					color: #e6c300;
+				}
+			}
+			.sb_list {
+				display: flex;
+				flex-flow: row wrap;
+				max-width: 644px;
+				margin: 43px auto 0;
+				li {
+					justify-content: flex-end;
+					box-sizing: border-box;
+					width: 16.66%;
+					line-height: 0;
+				}
+			}
+		}
+	}
+}
 
 .gen {
 	display: flex;
