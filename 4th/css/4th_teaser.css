@@ -573,6 +573,102 @@ header .h_date {
   line-height: 0;
 }
 
+.thr {
+  background: #efefef;
+  padding: 60px 0 0;
+}
+.thr .t_box {
+  background: #fff;
+  padding: 60px 0 0;
+  border-radius: 20px;
+}
+.thr .t_box .t_h {
+  max-width: 250px;
+  margin: 0 auto;
+}
+.thr .t_box .t_i {
+  overflow: hidden;
+  max-width: 660px;
+  padding: 0 6px 0 28px;
+  margin: 60px auto 0;
+}
+.thr .t_box .t_i .ti_l {
+  float: left;
+  max-width: 318px;
+}
+.thr .t_box .t_i .ti_l .t_head {
+  font-size: 36px;
+  letter-spacing: 3.5px;
+  white-space: nowrap;
+}
+.thr .t_box .t_i .ti_l .t_t {
+  margin: 20px 0 0;
+  padding: 20px 0 0;
+  border-top: 1px solid #ababab;
+  line-height: 1.8;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  color: #606060;
+}
+.thr .t_box .t_i .t_item {
+  float: right;
+  overflow: hidden;
+  max-width: 282px;
+  margin: 0 auto 0;
+}
+.thr .t_box .t_i .t_item li {
+  float: left;
+  width: 33.3%;
+  line-height: 0;
+}
+.thr .t_box .t_bg {
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/ee30bfc7699aebcbc72953f571cb3be0_5d641d3329ddd7dcf32eb5777a1932a1.png) center top repeat;
+  background-size: 100% auto;
+  padding: 58px 30px 64px;
+  margin: 35px 0 0;
+  border-radius: 0 0 20px 20px;
+}
+.thr .t_box .t_bg .t_bh {
+  max-width: 458px;
+  margin: 0 auto;
+}
+.thr .t_box .t_bg .t_bt {
+  margin: 20px 0 0;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 1.4px;
+  color: #fff;
+}
+.thr .t_box .t_bg .t_bt .num {
+  font-size: 40px;
+}
+.thr .t_box .t_bg .t_bt .cl {
+  color: #e6c300;
+}
+.thr .t_box .t_bg .tb_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  max-width: 644px;
+  margin: 43px auto 0;
+}
+.thr .t_box .t_bg .tb_list li {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 16.66%;
+  line-height: 0;
+}
+
 .gen {
   display: -webkit-box;
   display: -ms-flexbox;
