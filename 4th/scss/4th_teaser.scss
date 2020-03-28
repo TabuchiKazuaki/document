@@ -1035,7 +1035,7 @@ footer {
 			&:before {
 				content: '';
 				position: absolute;
-				top: 8%;
+				top: 7%;
 				left: 0;
 				background-size: 100% 100%;
 				width: 3.7%;
@@ -1474,8 +1474,10 @@ footer {
 
 	.contents {
 		.wrap {
-			max-width: 100%;
 			margin: 0 auto;
+		}
+		.cw {
+			padding: 0 4.5%;
 		}
 		.c_h {
 			border-left: 4px solid #a1882f;
