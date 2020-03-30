@@ -464,6 +464,15 @@ header .h_date {
 .contents .rank li dt span {
   font-size: 20px;
 }
+.contents .rank li:nth-child(3n+1) {
+  margin: 4% 0 0 0;
+}
+.contents .rank li:nth-child(3n+2) {
+  margin: 4% 0 0 3%;
+}
+.contents .rank li:nth-child(3n+3) {
+  margin: 4% 0 0 3%;
+}
 .contents .rank li:nth-child(2) {
   margin: 0 0 0 3%;
 }
