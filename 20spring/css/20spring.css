@@ -367,6 +367,12 @@ header .h_w .h_main {
   white-space: nowrap;
   color: #fff;
 }
+.contents .odd .cv_item li .nw_ad:before {
+  content: '新番組';
+  left: 63px;
+  padding: 2px 11px;
+  width: 29%;
+}
 .contents .odd .cv_item li:first-child {
   margin: 0;
 }
@@ -1395,6 +1401,11 @@ footer small {
     letter-spacing: 1px;
     width: 79%;
   }
+  .contents .odd .cv_item li .nw_ad:before {
+    left: 42%;
+    padding: 2.2% 5.2%;
+    width: 33%;
+  }
   .contents .odd .c_text {
     margin: 5.5% 0 0;
     text-align: right;
@@ -2140,6 +2151,11 @@ footer small {
     border-radius: 2px;
     letter-spacing: 0.5px;
     width: 82%;
+  }
+  .contents .odd .cv_item li .nw_ad:before {
+    left: 42%;
+    padding: 2.3% 3.2% 1.8%;
+    width: 33%;
   }
   .contents .odd .cv_item li:first-child {
     margin: 0;

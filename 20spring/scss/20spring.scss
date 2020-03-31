@@ -342,6 +342,14 @@ header {
 						color: #fff;
 					}
 				}
+				.nw_ad {
+					&:before {
+						content: '新番組';
+						left: 63px;
+						padding: 2px 11px;
+						width: 29%;
+					}
+				}
 
 				&:first-child {
 					margin: 0;
@@ -1385,6 +1393,13 @@ footer {
 							width: 79%;
 						}
 					}
+					.nw_ad {
+						&:before {
+							left: 42%;
+							padding: 2.2% 5.2%;
+							width: 33%;
+						}
+					}
 				}
 			}
 			.c_text {
@@ -2176,6 +2191,13 @@ footer {
 							border-radius: 2px;
 							letter-spacing: 0.5px;
 							width: 82%;
+						}
+					}
+					.nw_ad {
+						&:before {
+							left: 42%;
+							padding: 2.3% 3.2% 1.8%;
+							width: 33%;
 						}
 					}
 
