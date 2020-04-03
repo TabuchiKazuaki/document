@@ -64,6 +64,18 @@ img  { width: 100%; height: auto;}
 .cl {
 	color: #a1882f;
 }
+.top {
+	margin: 40px 0 60px;
+	text-align: right;
+
+	a {
+		display: inline-block;
+		font-size: 30px;
+		font-weight: bold;
+		letter-spacing: 1.3px;
+		color: #000;
+	}
+}
 
 header {
 	padding: 0;
@@ -449,18 +461,7 @@ header {
 			}
 		}
 	}
-	.top {
-		margin: 40px 0 60px;
-		text-align: right;
 
-		a {
-			display: inline-block;
-			font-size: 30px;
-			font-weight: bold;
-			letter-spacing: 1.3px;
-			color: #000;
-		}
-	}
 }
 
 aside {
@@ -634,6 +635,13 @@ footer {
 		padding: 0 4.4%;
 		margin: 0 auto;
 		box-sizing: border-box;
+	}
+	.top {
+		margin: 5% 0 8%;
+		a {
+			display: inline-block;
+			font-size: calc(48vw/12);
+		}
 	}
 
 	header {
@@ -1014,13 +1022,6 @@ footer {
 				}
 			}
 		}
-		.top {
-			margin: 5% 0 8%;
-			a {
-				display: inline-block;
-				font-size: calc(48vw/12);
-			}
-		}
 	}
 
 
@@ -1159,6 +1160,13 @@ footer {
 	}
 	.mt70 {
 		margin: 9% 0 0;
+	}
+	.top {
+		margin: 5% 0 8%;
+		a {
+			display: inline-block;
+			font-size: calc(50vw/12);
+		}
 	}
 
 
@@ -1475,13 +1483,6 @@ footer {
 						font-size: calc(49vw/12);
 					}
 				}
-			}
-		}
-		.top {
-			margin: 5% 0 8%;
-			a {
-				display: inline-block;
-				font-size: calc(50vw/12);
 			}
 		}
 	}

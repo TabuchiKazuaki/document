@@ -86,6 +86,18 @@ img {
   color: #a1882f;
 }
 
+.top {
+  margin: 40px 0 60px;
+  text-align: right;
+}
+.top a {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  color: #000;
+}
+
 header {
   padding: 0;
 }
@@ -449,17 +461,6 @@ header .ch .ani {
 .merit .m_box li .c_it .num {
   font-size: 29px;
 }
-.merit .top {
-  margin: 40px 0 60px;
-  text-align: right;
-}
-.merit .top a {
-  display: inline-block;
-  font-size: 30px;
-  font-weight: bold;
-  letter-spacing: 1.3px;
-  color: #000;
-}
 
 aside {
   background: #efefef;
@@ -628,6 +629,14 @@ footer small {
     margin: 0 auto;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+  }
+
+  .top {
+    margin: 5% 0 8%;
+  }
+  .top a {
+    display: inline-block;
+    font-size: calc(48vw/12);
   }
 
   header {
@@ -988,13 +997,6 @@ footer small {
   .merit .m_box li .c_it .num {
     font-size: calc(47vw/12);
   }
-  .merit .top {
-    margin: 5% 0 8%;
-  }
-  .merit .top a {
-    display: inline-block;
-    font-size: calc(48vw/12);
-  }
 
   aside {
     padding: 0 0 2%;
@@ -1125,6 +1127,14 @@ footer small {
 
   .mt70 {
     margin: 9% 0 0;
+  }
+
+  .top {
+    margin: 5% 0 8%;
+  }
+  .top a {
+    display: inline-block;
+    font-size: calc(50vw/12);
   }
 
   header {
@@ -1424,13 +1434,6 @@ footer small {
   }
   .merit .m_box li .c_it .num {
     font-size: calc(49vw/12);
-  }
-  .merit .top {
-    margin: 5% 0 8%;
-  }
-  .merit .top a {
-    display: inline-block;
-    font-size: calc(50vw/12);
   }
 
   aside {
