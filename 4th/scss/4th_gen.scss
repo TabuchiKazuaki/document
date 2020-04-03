@@ -609,27 +609,44 @@ footer {
 	}
 
 	header {
+		padding: 0;
 		.h_l {
-			padding: 1% 0 1.5% 2%;
+			background: #000;
+			padding: 1.1% 0 1.1% 2.1%;
 			span {
 				display: inline-block;
-				max-width: 15.9%;
+				width: 21%;
 				line-height: 0;
 			}
 		}
 		.h_a {
 			position: relative;
 			overflow: hidden;
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/d79eb13e0041b7a307247f16271dabcd_3a10b244db2ef00fd970a9f44675e8c9.png) center top no-repeat #000;
-			background-size: cover;
-			height: auto;
-			padding: 7.7% 0 6.2%;
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/91c55c92ab4eeed5c4d15c4927bf0dd9_6a3798ff48aad432c696bbc31066958b.png) center top no-repeat #000;
+			background-size: auto;
+			height: 240px;
+			padding: 31px 0 0;
+			margin: 0 auto;
+			text-align: center;
 			box-sizing: border-box;
 		}
 		.h_i {
-			width: 35.3%;
+			max-width: 490px;
 			margin: 0 auto;
 			line-height: 0;
+		}
+		.ch {
+			background: #000;
+			text-align: center;
+			figure {
+				padding: 20px 0 18px;
+				margin: 0 auto;
+				line-height: 0;
+			}
+			.ani {
+				max-width: 168px;
+			}
+
 		}
 	}
 
