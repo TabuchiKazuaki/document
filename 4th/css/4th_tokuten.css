@@ -818,6 +818,10 @@ header .h_cau {
   width: 24px;
   height: 26px;
 }
+.entry .e_text .enum {
+  font-size: 29px;
+  color: #ddaa00;
+}
 .entry figure {
   max-width: 456px;
   margin: 30px auto 0;
@@ -1523,6 +1527,9 @@ footer small {
     width: 6.1%;
     height: 100%;
   }
+  .entry .e_text .enum {
+    font-size: calc(45vw/12);
+  }
   .entry figure {
     width: 63.8%;
     margin: 4.8% auto 0;
@@ -2160,6 +2167,9 @@ footer small {
     background-size: 100% 100%;
     width: 6.1%;
     height: 100%;
+  }
+  .entry .e_text .enum {
+    font-size: calc(47vw/12);
   }
   .entry figure {
     width: 63.8%;
