@@ -78,7 +78,7 @@ header {
 		overflow: hidden;
 		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/21d75e5c0bddf7f7c21b9188b83a2820_ffea386f18f7bbf1dd8014a3cf172e4e.jpg) center top no-repeat #000;
 		background-size: auto;
-		height: 705px;
+		height: 730px;
 		padding: 58px 0 0;
 		margin: 0 auto;
 		text-align: center;
@@ -112,6 +112,46 @@ header {
 				display: inline-block;
 				margin: 0 3px 0 0;
 				font-size: 31px;
+			}
+		}
+	}
+
+	.h_inner{
+		background: none;
+		max-width: 688px;
+		margin: 66px auto 0;
+
+		.h_lot {
+			position: relative;
+			padding: 35px;
+			border-radius: 15px;
+			border: 3px solid #fff;
+			.hbi_h {
+				position: absolute;
+				top: -6px;
+				left: 26%;
+				background: rgba(0,0,0,.97);
+				padding: 0 28px;
+				font-size: 25px;
+				font-weight: bold;
+				letter-spacing: 1.2px;
+				color: #fff;
+				line-height: 0.4;
+			}
+			.hbi_t {
+				padding: 0 0 18px;
+				font-size: 24px;
+				font-weight: bold;
+				letter-spacing: 3px;
+				line-height: 1.35;
+				border-bottom: 1px solid #606060;
+				color: #fff;
+				.num {
+					font-size: 27px;
+				}
+				.cl {
+					color: #e6c300;
+				}
 			}
 		}
 	}
