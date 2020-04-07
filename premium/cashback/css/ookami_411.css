@@ -35,6 +35,30 @@ img {
   margin: 0 auto;
 }
 
+.mt20 {
+  margin: 20px 0 0;
+}
+
+.mt30 {
+  margin: 30px 0 0;
+}
+
+.mt40 {
+  margin: 40px 0 0;
+}
+
+.mt50 {
+  margin: 50px 0 0;
+}
+
+.mt60 {
+  margin: 60px 0 0;
+}
+
+.mt70 {
+  margin: 70px 0 0;
+}
+
 .f_wrap {
   max-width: 715px;
   margin: 0 auto;
@@ -84,7 +108,7 @@ header .h_box .h_h {
   margin: 0 auto 0;
 }
 header .h_box .h_main {
-  max-width: 623px;
+  max-width: 630px;
   margin: 25px auto 0;
   line-height: 0;
 }
@@ -328,19 +352,19 @@ header .t_box .t_tex {
   border-radius: 6px;
   color: #000;
 }
-.contents .c_lot li {
+.contents .c_lot .c_li {
   background: #202121;
   padding: 39px 18px 56px;
   margin: 60px auto 0;
   border-radius: 8px;
 }
-.contents .c_lot li:first-child {
+.contents .c_lot .c_li:first-child {
   margin: 0;
 }
-.contents .c_lot li:nth-child(2) {
+.contents .c_lot .c_li:nth-child(2) {
   padding: 39px 18px 38px;
 }
-.contents .c_lot li .icon {
+.contents .c_lot .c_li .icon {
   display: inline-block;
   background: #e6c300;
   padding: 4px 25px 9px;
@@ -351,24 +375,24 @@ header .t_box .t_tex {
   letter-spacing: 5px;
   color: #000;
 }
-.contents .c_lot li .icon span {
+.contents .c_lot .c_li .icon span {
   display: inline-block;
   margin: 0 0 0 5px;
   letter-spacing: 2px;
   font-size: 45px;
 }
-.contents .c_lot li .c_img {
+.contents .c_lot .c_li .c_img {
   max-width: 290px;
   margin: 38px auto 0;
 }
-.contents .c_lot li .c_ih {
+.contents .c_lot .c_li .c_ih {
   margin: 38px auto 0;
   text-align: center;
   line-height: 1.6;
   letter-spacing: 1.3px;
   font-size: 32px;
 }
-.contents .c_lot li .c_it {
+.contents .c_lot .c_li .c_it {
   margin: 30px 0 0;
   text-align: center;
   font-size: 31px;
@@ -376,17 +400,42 @@ header .t_box .t_tex {
   letter-spacing: 1.4px;
   font-weight: bold;
 }
-.contents .c_lot li .pic {
+.contents .c_lot .c_li .c_dll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 40px 0 0;
+}
+.contents .c_lot .c_li .c_dll dd {
+  width: 40%;
+}
+.contents .c_lot .c_li .c_dll dt {
+  width: 56.5%;
+  margin: 0 0 0 3.5%;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.contents .c_lot .c_li .c_dll dt .ddt {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ddaa00;
+}
+.contents .c_lot .c_li .pic {
   margin: 32px auto 0;
 }
-.contents .c_lot li .copy_c {
+.contents .c_lot .c_li .copy_c {
   max-width: 644px;
   margin: 5px auto 0;
   font-size: 10px;
   text-align: right;
   color: #777;
 }
-.contents .c_lot li .caution {
+.contents .c_lot .c_li .caution {
   margin: 10px 0 0;
   text-align: center;
   font-size: 13px;
@@ -1096,6 +1145,30 @@ footer small {
     display: block;
   }
 
+  .mt20 {
+    margin: 3% 0 0;
+  }
+
+  .mt30 {
+    margin: 5% 0 0;
+  }
+
+  .mt40 {
+    margin: 6% 0 0;
+  }
+
+  .mt50 {
+    margin: 7% 0 0;
+  }
+
+  .mt60 {
+    margin: 8% 0 0;
+  }
+
+  .mt70 {
+    margin: 9% 0 0;
+  }
+
   header .h_l {
     width: 21%;
     padding: 1.2% 0 1.2% 2.2%;
@@ -1109,7 +1182,7 @@ footer small {
     width: 45%;
   }
   header .h_box .h_main {
-    max-width: 81.1%;
+    width: 82%;
     margin: 3.6% auto 0;
     line-height: 0;
   }
@@ -1278,18 +1351,18 @@ footer small {
     font-size: calc(47vw/12);
     border-radius: 5px;
   }
-  .contents .c_lot li {
+  .contents .c_lot .c_li {
     padding: 5.5% 2.5% 7.4%;
     margin: 8% auto 0;
     border-radius: 7px;
   }
-  .contents .c_lot li:first-child {
+  .contents .c_lot .c_li:first-child {
     margin: 0;
   }
-  .contents .c_lot li:nth-child(2) {
+  .contents .c_lot .c_li:nth-child(2) {
     padding: 5.5% 2.5% 3.4%;
   }
-  .contents .c_lot li .icon {
+  .contents .c_lot .c_li .icon {
     display: inline-block;
     padding: 0.7% 4.2% 1.4%;
     margin: 0 auto;
@@ -1298,69 +1371,69 @@ footer small {
     letter-spacing: 5px;
     white-space: nowrap;
   }
-  .contents .c_lot li .icon span {
+  .contents .c_lot .c_li .icon span {
     display: inline-block;
     margin: 0 0 0 0.2%;
     letter-spacing: 2px;
     font-size: calc(70vw/12);
   }
-  .contents .c_lot li .c_img {
+  .contents .c_lot .c_li .c_img {
     width: 47%;
     margin: 7% auto 0;
   }
-  .contents .c_lot li .c_ih {
+  .contents .c_lot .c_li .c_ih {
     width: 47%;
     margin: 6% auto 0;
     line-height: 1.6;
     letter-spacing: 1.3px;
     font-size: 32px;
   }
-  .contents .c_lot li .c_it {
+  .contents .c_lot .c_li .c_it {
     margin: 5% 0 0;
     font-size: calc(48vw/12);
     line-height: 1.35;
     letter-spacing: 1.4px;
     white-space: nowrap;
   }
-  .contents .c_lot li .c_it .num {
+  .contents .c_lot .c_li .c_it .num {
     font-size: calc(44vw/12);
   }
-  .contents .c_lot li .c_pre {
+  .contents .c_lot .c_li .c_pre {
     margin: 4.2% 0 0;
     font-size: calc(42vw/12);
     line-height: 1.35;
     letter-spacing: 1.5px;
   }
-  .contents .c_lot li .c_pre .sng {
+  .contents .c_lot .c_li .c_pre .sng {
     font-size: calc(52vw/12);
   }
-  .contents .c_lot li .c_pre .num {
+  .contents .c_lot .c_li .c_pre .num {
     font-size: calc(58vw/12);
   }
-  .contents .c_lot li .c_pre .num_s {
+  .contents .c_lot .c_li .c_pre .num_s {
     font-size: calc(43vw/12);
   }
-  .contents .c_lot li .c_sec_ih {
+  .contents .c_lot .c_li .c_sec_ih {
     width: 91%;
     margin: 7% auto 0;
   }
-  .contents .c_lot li .c_sec_it {
+  .contents .c_lot .c_li .c_sec_it {
     margin: 4.3% 0 0;
     font-size: calc(51vw/12);
     line-height: 1.4;
     letter-spacing: 1.4px;
   }
-  .contents .c_lot li .c_sec_it .num {
+  .contents .c_lot .c_li .c_sec_it .num {
     font-size: calc(55vw/12);
   }
-  .contents .c_lot li .pic {
+  .contents .c_lot .c_li .pic {
     margin: 5% auto 0;
     width: 100%;
   }
-  .contents .c_lot li .pic.tperiod {
+  .contents .c_lot .c_li .pic.tperiod {
     margin: 8.4% auto 0;
   }
-  .contents .c_lot li .caution {
+  .contents .c_lot .c_li .caution {
     margin: 2% 0 0;
     font-size: calc(20vw/12);
     line-height: 1.5;
@@ -2146,6 +2219,30 @@ footer small {
   }
 }
 @media screen and (max-width: 480px) {
+  .mt20 {
+    margin: 3% 0 0;
+  }
+
+  .mt30 {
+    margin: 5% 0 0;
+  }
+
+  .mt40 {
+    margin: 6% 0 0;
+  }
+
+  .mt50 {
+    margin: 7% 0 0;
+  }
+
+  .mt60 {
+    margin: 8% 0 0;
+  }
+
+  .mt70 {
+    margin: 9% 0 0;
+  }
+
   header .h_l {
     width: 21%;
     padding: 1.2% 0 1.2% 2.2%;
@@ -2159,7 +2256,7 @@ footer small {
     width: 45.4%;
   }
   header .h_box .h_main {
-    max-width: 81.7%;
+    width: 82.6%;
     margin: 3.6% auto 0;
     line-height: 0;
   }
@@ -2324,18 +2421,18 @@ footer small {
     font-size: calc(47vw/12);
     border-radius: 5px;
   }
-  .contents .c_lot li {
+  .contents .c_lot .c_li {
     padding: 5.5% 2.5% 7.4%;
     margin: 8% auto 0;
     border-radius: 7px;
   }
-  .contents .c_lot li:first-child {
+  .contents .c_lot .c_li:first-child {
     margin: 0;
   }
-  .contents .c_lot li:nth-child(2) {
+  .contents .c_lot .c_li:nth-child(2) {
     padding: 5.5% 2.5% 3.4%;
   }
-  .contents .c_lot li .icon {
+  .contents .c_lot .c_li .icon {
     display: inline-block;
     padding: 0.7% 4.2% 1.4%;
     margin: 0 auto;
@@ -2344,69 +2441,69 @@ footer small {
     letter-spacing: 5px;
     white-space: nowrap;
   }
-  .contents .c_lot li .icon span {
+  .contents .c_lot .c_li .icon span {
     display: inline-block;
     margin: 0 0 0 0.2%;
     letter-spacing: 2px;
     font-size: calc(70vw/12);
   }
-  .contents .c_lot li .c_img {
+  .contents .c_lot .c_li .c_img {
     width: 47%;
     margin: 7% auto 0;
   }
-  .contents .c_lot li .c_ih {
+  .contents .c_lot .c_li .c_ih {
     width: 47%;
     margin: 6% auto 0;
     line-height: 1.6;
     letter-spacing: 1.3px;
     font-size: 32px;
   }
-  .contents .c_lot li .c_it {
+  .contents .c_lot .c_li .c_it {
     margin: 5% 0 0;
     font-size: calc(48vw/12);
     line-height: 1.35;
     letter-spacing: 1.4px;
     white-space: nowrap;
   }
-  .contents .c_lot li .c_it .num {
+  .contents .c_lot .c_li .c_it .num {
     font-size: calc(44vw/12);
   }
-  .contents .c_lot li .c_pre {
+  .contents .c_lot .c_li .c_pre {
     margin: 4.2% 0 0;
     font-size: calc(42vw/12);
     line-height: 1.35;
     letter-spacing: 1.5px;
   }
-  .contents .c_lot li .c_pre .sng {
+  .contents .c_lot .c_li .c_pre .sng {
     font-size: calc(52vw/12);
   }
-  .contents .c_lot li .c_pre .num {
+  .contents .c_lot .c_li .c_pre .num {
     font-size: calc(58vw/12);
   }
-  .contents .c_lot li .c_pre .num_s {
+  .contents .c_lot .c_li .c_pre .num_s {
     font-size: calc(43vw/12);
   }
-  .contents .c_lot li .c_sec_ih {
+  .contents .c_lot .c_li .c_sec_ih {
     width: 91%;
     margin: 7% auto 0;
   }
-  .contents .c_lot li .c_sec_it {
+  .contents .c_lot .c_li .c_sec_it {
     margin: 4.3% 0 0;
     font-size: calc(51vw/12);
     line-height: 1.4;
     letter-spacing: 1.4px;
   }
-  .contents .c_lot li .c_sec_it .num {
+  .contents .c_lot .c_li .c_sec_it .num {
     font-size: calc(55vw/12);
   }
-  .contents .c_lot li .pic {
+  .contents .c_lot .c_li .pic {
     margin: 5% auto 0;
     width: 100%;
   }
-  .contents .c_lot li .pic.tperiod {
+  .contents .c_lot .c_li .pic.tperiod {
     margin: 8.4% auto 0;
   }
-  .contents .c_lot li .caution {
+  .contents .c_lot .c_li .caution {
     margin: 2% 0 0;
     font-size: calc(20vw/12);
     line-height: 1.5;
@@ -2519,6 +2616,9 @@ footer small {
     margin: 0 0 0 3.5%;
     font-size: calc(38vw/12);
     line-height: 1.3;
+  }
+  .contents .c_five {
+    margin: 4% 0 0;
   }
   .contents .c_five .c_five_li {
     padding: 6.5% 0 6.5%;

@@ -21,6 +21,24 @@ img  { width: 100%; }
 	margin: 0 auto;
 }
 
+.mt20 {
+	margin: 20px 0 0;
+}
+.mt30 {
+	margin: 30px 0 0;
+}
+.mt40 {
+	margin: 40px 0 0;
+}
+.mt50 {
+	margin: 50px 0 0;
+}
+.mt60 {
+	margin: 60px 0 0;
+}
+.mt70 {
+	margin: 70px 0 0;
+}
 
 .f_wrap {
 	max-width: 715px;
@@ -66,7 +84,7 @@ header {
 		}
 
 		.h_main {
-			max-width: 623px;
+			max-width: 630px;
 			margin: 25px auto 0;
 			line-height: 0;
 		}
@@ -311,7 +329,7 @@ header {
 				color: #000;
 			}
 		}
-		li {
+		.c_li {
 			background: #202121;
 			padding: 39px 18px 56px;
 			margin: 60px auto 0;
@@ -361,6 +379,27 @@ header {
 				line-height: 1.65;
 				letter-spacing: 1.4px;
 				font-weight: bold;
+			}
+			.c_dll {
+				display: flex;
+				align-items: center;
+				margin: 40px 0 0;
+				dd {
+					width: 40%;
+				}
+				dt {
+					width: 56.5%;
+					margin: 0 0 0 3.5%;
+					font-size: 22px;
+					font-weight: bold;
+					line-height: 1.5;
+					.ddt {
+						display: block;
+						font-size: 22px;
+						font-weight: bold;
+						color: #ddaa00;
+					}
+				}
 			}
 
 			.pic {
@@ -1112,6 +1151,24 @@ footer {
 		display: block;
 	}
 
+	.mt20 {
+		margin: 3% 0 0;
+	}
+	.mt30 {
+		margin: 5% 0 0;
+	}
+	.mt40 {
+		margin: 6% 0 0;
+	}
+	.mt50 {
+		margin: 7% 0 0;
+	}
+	.mt60 {
+		margin: 8% 0 0;
+	}
+	.mt70 {
+		margin: 9% 0 0;
+	}
 
 	header {
 		.h_l {
@@ -1128,7 +1185,7 @@ footer {
 			}
 
 			.h_main {
-				max-width: 81.1%;
+				width: 82%;
 				margin: 3.6% auto 0;
 				line-height: 0;
 			}
@@ -1303,7 +1360,7 @@ footer {
 					border-radius: 5px;
 				}
 			}
-			li {
+			.c_li {
 				padding: 5.5% 2.5% 7.4%;
 				margin: 8% auto 0;
 				border-radius: 7px;
@@ -2223,6 +2280,26 @@ footer {
 	}
 }
 @media screen and (max-width: 480px) {
+
+	.mt20 {
+		margin: 3% 0 0;
+	}
+	.mt30 {
+		margin: 5% 0 0;
+	}
+	.mt40 {
+		margin: 6% 0 0;
+	}
+	.mt50 {
+		margin: 7% 0 0;
+	}
+	.mt60 {
+		margin: 8% 0 0;
+	}
+	.mt70 {
+		margin: 9% 0 0;
+	}
+
 	header {
 		.h_l {
 			width: 21%;
@@ -2238,7 +2315,7 @@ footer {
 			}
 
 			.h_main {
-				max-width: 81.7%;
+				width: 82.6%;
 				margin: 3.6% auto 0;
 				line-height: 0;
 			}
@@ -2409,7 +2486,7 @@ footer {
 					border-radius: 5px;
 				}
 			}
-			li {
+			.c_li {
 				padding: 5.5% 2.5% 7.4%;
 				margin: 8% auto 0;
 				border-radius: 7px;
@@ -2460,6 +2537,7 @@ footer {
 						font-size: calc(44vw/12);
 					}
 				}
+
 				.c_pre {
 					margin: 4.2% 0 0;
 					font-size: calc(42vw/12);
