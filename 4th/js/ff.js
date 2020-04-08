@@ -43,7 +43,6 @@ $(document).ready(function() {
 	}
 	var time04af = new Date("2020/04/17 00:00");
 	if (now.getTime() > time04af.getTime()) {
-		$('.t04').hide();
 	}
 
 	var time05 = new Date("2020/04/19 00:00");
