@@ -68,6 +68,51 @@ img  { width: 100%; height: auto;}
 	}
 }
 
+.pfixed {
+	background: #fff;
+	z-index: 10001;
+	position: fixed;
+	right: 15px;
+	bottom: 20px;
+	width: 230px;
+	padding: 27px 24px 25px;
+	box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.35);
+	border-radius: 6px;
+	text-align: center;
+	box-sizing: border-box;
+	.wrap {
+		max-width: none;
+	}
+
+	.f_t {
+		letter-spacing: 1.1px;
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 1.35;
+		color: #666;
+	}
+	.f_ff {
+		max-width: 233px;
+		margin: 8px auto 0;
+		line-height: 0;
+	}
+	.f_dd {
+		margin: 20px 0 0;
+
+	}
+	.d_btn {
+		margin: 0;
+		background: #e5c200;
+		padding: 24px 29px;
+		border-radius: 6px;
+		font-size: 32px;
+		font-weight: bold;
+		letter-spacing: 2px;
+		text-align: center;
+		color: #000;
+	}
+}
+
 .bg_fe {
 	display: inline-block;
 	margin: 15px 0 -20px;
@@ -1312,6 +1357,63 @@ footer {
 		}
 	}
 
+	.pfixed {
+		background: #fff;
+		z-index: 10001;
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		padding: 0;
+		text-align: left;
+		border-radius: 0;
+		box-shadow: none;
+
+		.wrap {
+			max-width: 100%;
+			padding: 3.5% 3% 3.2%;
+			margin: 0 auto;
+		}
+
+		.f_item {
+			overflow: hidden;
+			display: flex;
+			align-items: center;
+			dt {
+				float: left;
+				max-width: 454px;
+			}
+			.ff {
+				width: 65.8%;
+				.f_t {
+					letter-spacing: 1.4px;
+					font-size: calc(33vw/12);
+					font-weight: normal;
+				}
+				.f_ff {
+					max-width: 458px;
+					width: 100%;
+					margin: 1.8% 0 0;
+				}
+			}
+			.f_dd {
+				float: right;
+				width: 31.5%;
+				margin: 0 0 0 2.7%;
+				.d_btn {
+					background: #e5c200;
+					padding: 10% 0;
+					border-radius: 5px;
+					font-weight: bold;
+					font-size: calc(48vw/12);
+					text-align: center;
+					letter-spacing: 2.2px;
+					color: #000;
+				}
+			}
+		}
+	}
+
 	.line_w {
 		.wrap_w {
 			height: 26px;
@@ -2314,6 +2416,43 @@ footer {
 			.f_dd {
 				width: 31.5%;
 				margin: 0 0 0 3.5%;
+				.d_btn {
+					padding: 9% 0;
+					border-radius: 3px;
+					font-size: calc(53vw/12);
+					letter-spacing: 1.6px;
+				}
+			}
+		}
+	}
+
+	.pfixed {
+		.wrap {
+			padding: 3.5% 3% 3.2%;
+			margin: 0 auto;
+		}
+		.f_item {
+			.ff {
+				width: 65.8%;
+
+
+
+				.f_t {
+					letter-spacing: 1px;
+					font-size: calc(34vw/12);
+				}
+				.f_h {
+					width: 100%;
+					margin: 3.7% 0 0;
+				}
+				.f_ff {
+					width: 100%;
+					margin: 1.7% 0 0;
+				}
+			}
+			.f_dd {
+				width: 31.5%;
+				margin: 0 0 0 2.7%;
 				.d_btn {
 					padding: 9% 0;
 					border-radius: 3px;
