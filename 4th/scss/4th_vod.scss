@@ -265,6 +265,8 @@ header {
 			letter-spacing: 1.7px;
 			color: #666;
 			span {
+				display: inline-block;
+				margin: 0 2px 0 0;
 				font-size: 31px;
 			}
 
@@ -789,6 +791,7 @@ footer {
 				border-radius: 5px;
 				letter-spacing: 1.5px;
 				span {
+					margin: 0 0.15% 0 0;
 					font-size: calc(49vw/12);
 				}
 
@@ -868,7 +871,6 @@ footer {
 		}
 		.c_eight {
 			.c_e_list {
-				padding: 0 0 4%;
 				margin: 4% 0 0;
 				&:first-of-type {
 					margin: 0;
@@ -1251,6 +1253,7 @@ footer {
 				border-radius: 4px;
 				letter-spacing: 1.5px;
 				span {
+					margin: 0 0.15% 0 0;
 					font-size: calc(49vw/12);
 				}
 
@@ -1329,7 +1332,6 @@ footer {
 		}
 		.c_eight {
 			.c_e_list {
-				padding: 0 0 4%;
 				margin: 4% 0 0;
 				&:first-of-type {
 					margin: 0;
