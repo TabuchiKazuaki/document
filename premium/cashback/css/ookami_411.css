@@ -325,6 +325,25 @@ header .t_box .t_tex {
   margin: 30px 0 0;
 }
 
+.m_lot {
+  background: #1a1a1a;
+  max-width: 680px;
+  padding: 30px 15px 40px;
+  margin: 40px 0 0;
+  border-radius: 8px;
+}
+.m_lot .ml_h {
+  font-size: 34px;
+  font-weight: normal;
+  line-height: 1.4;
+  color: #fff;
+}
+.m_lot figure {
+  max-width: 645px;
+  margin: 30px auto 0;
+  line-height: 0;
+}
+
 .contents {
   text-align: center;
 }
@@ -1285,6 +1304,21 @@ footer small {
 
   .mt70 {
     margin: 9% 0 0;
+  }
+
+  .m_lot {
+    max-width: 680px;
+    padding: 4.8% 2.6% 6%;
+    margin: 6% 0 0;
+    border-radius: 7px;
+  }
+  .m_lot .ml_h {
+    font-size: calc(54vw/12);
+    line-height: 1.4;
+  }
+  .m_lot figure {
+    width: 100%;
+    margin: 4.8% auto 0;
   }
 
   header .h_l {
@@ -2441,6 +2475,21 @@ footer small {
 
   .mt70 {
     margin: 9% 0 0;
+  }
+
+  .m_lot {
+    max-width: 680px;
+    padding: 4.8% 2.6% 6%;
+    margin: 6% 0 0;
+    border-radius: 6px;
+  }
+  .m_lot .ml_h {
+    font-size: calc(56vw/12);
+    line-height: 1.4;
+  }
+  .m_lot figure {
+    width: 100%;
+    margin: 4.8% auto 0;
   }
 
   header .h_l {
