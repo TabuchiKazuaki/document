@@ -278,6 +278,9 @@ header .h_t {
   letter-spacing: 1.7px;
   color: #666;
 }
+.contents .col_btn a span {
+  font-size: 31px;
+}
 .contents .col_btn a:hover {
   opacity: 1;
   background: #666;
@@ -353,6 +356,9 @@ header .h_t {
   letter-spacing: 1.3px;
   font-size: 28px;
   color: #606060;
+}
+.contents .tw_col .tw_btn a span {
+  font-size: 32px;
 }
 .contents .tw_col .tw_btn a:hover {
   opacity: 1;
@@ -782,6 +788,9 @@ footer small {
     border-radius: 5px;
     letter-spacing: 1.5px;
   }
+  .contents .col_btn a span {
+    font-size: calc(49vw/12);
+  }
   .contents .col_btn a:hover {
     opacity: 0.8;
     background: none;
@@ -846,6 +855,9 @@ footer small {
     border-radius: 5px;
     letter-spacing: 1.3px;
     font-size: calc(38vw/12);
+  }
+  .contents .tw_col .tw_btn a span {
+    font-size: calc(41vw/12);
   }
   .contents .tw_col .tw_btn a:hover {
     opacity: .8;
@@ -1223,6 +1235,9 @@ footer small {
     border-radius: 4px;
     letter-spacing: 1.5px;
   }
+  .contents .col_btn a span {
+    font-size: calc(49vw/12);
+  }
   .contents .col_btn a:hover {
     opacity: 0.8;
     background: none;
@@ -1287,6 +1302,9 @@ footer small {
     border-radius: 4px;
     letter-spacing: 1.3px;
     font-size: calc(40vw/12);
+  }
+  .contents .tw_col .tw_btn a span {
+    font-size: calc(43vw/12);
   }
   .contents .tw_col .tw_btn a:hover {
     opacity: .8;
