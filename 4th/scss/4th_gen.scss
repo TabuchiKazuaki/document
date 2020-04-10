@@ -235,6 +235,20 @@ header {
 }
 
 .contents {
+
+	.sp_btn {
+		margin: 40px 0 0;
+		a {
+			display: block;
+			background: #ddaa00;
+			padding: 18px 0;
+			border-radius: 6px;
+			font-size: 35px;
+			text-align: center;
+			letter-spacing: 1.5px;
+			color: #fff;
+		}
+	}
 	.c_h {
 		padding: 0 0 0 18px;
 		font-size: 32px;
@@ -1527,6 +1541,15 @@ footer {
 	}
 
 	.contents {
+		.sp_btn {
+			margin: 6% 0 0;
+			a {
+				padding: 2.7% 0;
+				border-radius: 6px;
+				font-size: calc(54vw/12);
+				letter-spacing: 1.5px;
+			}
+		}
 		.c_h {
 			border-left: 6px solid #ddaa00;
 			padding: 0 0 0 2.6%;
@@ -2562,6 +2585,15 @@ footer {
 	}
 
 	.contents {
+		.sp_btn {
+			margin: 6% 0 0;
+			a {
+				padding: 2.7% 0;
+				border-radius: 5px;
+				font-size: calc(56vw/12);
+				letter-spacing: 1.5px;
+			}
+		}
 		.c_h {
 			border-left: 4.5px solid #ddaa00;
 			padding: 0 0 0 2.6%;
