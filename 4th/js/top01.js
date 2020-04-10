@@ -53,7 +53,7 @@ $(document).ready(function() {
 	}
 	var time05af = new Date("2020/04/18 23:59:59");
 	if (now.getTime() > time05af.getTime()) {
-		$('.t06').hide();
+		$('.t05').hide();
 	}
 
 	var time06 = new Date("2020/04/19 00:00");
