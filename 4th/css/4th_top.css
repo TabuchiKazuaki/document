@@ -738,6 +738,26 @@ header .h_date {
   padding: 0 0 60px;
 }
 
+.p_btn {
+  margin: 40px 0 0;
+}
+.p_btn a {
+  display: block;
+  padding: 22px 0;
+  border: 4px solid #ddaa00;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  color: #ddaa00;
+}
+.p_btn a:hover {
+  opacity: 1;
+  background: #ddaa00;
+  color: #fff;
+}
+
 .p_up {
   background: #fff;
 }
@@ -1600,6 +1620,21 @@ footer small {
     padding: 0 2.2% 7%;
   }
 
+  .p_btn {
+    margin: 6% 0 0;
+  }
+  .p_btn a {
+    padding: 3.1% 0;
+    border: 3px solid #ddaa00;
+    border-radius: 5px;
+    font-size: calc(45vw/12);
+  }
+  .p_btn a:hover {
+    opacity: .8;
+    background: none;
+    color: #ddaa00;
+  }
+
   .p_up .w_line {
     max-width: 100%;
     height: 28px;
@@ -2386,6 +2421,16 @@ footer small {
   }
   .thr .t_las {
     padding: 0 2.2% 6.5%;
+  }
+
+  .p_btn {
+    margin: 6% 0 0;
+  }
+  .p_btn a {
+    padding: 3.1% 0;
+    border: 2px solid #ddaa00;
+    border-radius: 5px;
+    font-size: calc(47vw/12);
   }
 
   .p_up .w_line {
