@@ -287,10 +287,12 @@ header {
 		font-weight: bold;
 		border-radius: 6px;
 		letter-spacing: 1.7px;
+		transition: .3s;
 		color: #666;
 		span {
 			display: inline-block;
 			margin: 0 2px 0 0;
+			transition: .3s;
 			font-size: 31px;
 		}
 		&:hover {
@@ -1351,7 +1353,6 @@ footer {
 			font-size: calc(46vw/12);
 			border-radius: 4px;
 			letter-spacing: 1.5px;
-			transition: .3s;
 			span {
 				transition: .3s;
 				margin: 0 0.15% 0 0;

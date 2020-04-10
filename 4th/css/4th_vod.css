@@ -298,11 +298,15 @@ header .h_t {
   font-weight: bold;
   border-radius: 6px;
   letter-spacing: 1.7px;
+  -webkit-transition: .3s;
+  transition: .3s;
   color: #666;
 }
 .contents .cl_no span {
   display: inline-block;
   margin: 0 2px 0 0;
+  -webkit-transition: .3s;
+  transition: .3s;
   font-size: 31px;
 }
 .contents .cl_no:hover {
@@ -1330,8 +1334,6 @@ footer small {
     font-size: calc(46vw/12);
     border-radius: 4px;
     letter-spacing: 1.5px;
-    -webkit-transition: .3s;
-    transition: .3s;
   }
   .contents .cl_no span {
     -webkit-transition: .3s;
