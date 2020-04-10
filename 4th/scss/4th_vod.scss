@@ -857,7 +857,6 @@ footer {
 			font-size: calc(44vw/12);
 			border-radius: 5px;
 			letter-spacing: 1.5px;
-			transition: .3s;
 
 			span {
 				margin: 0 0.15% 0 0;
@@ -867,7 +866,6 @@ footer {
 				opacity: 0.8;
 				background: none;
 				color: #666;
-				transition: .3s;
 			}
 		}
 
@@ -1353,7 +1351,9 @@ footer {
 			font-size: calc(46vw/12);
 			border-radius: 4px;
 			letter-spacing: 1.5px;
+			transition: .3s;
 			span {
+				transition: .3s;
 				margin: 0 0.15% 0 0;
 				font-size: calc(49vw/12);
 			}
