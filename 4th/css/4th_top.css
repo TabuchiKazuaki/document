@@ -114,7 +114,9 @@ header .h_l span {
 header .h_a {
   position: relative;
   overflow: hidden;
-  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/6f69eb2735128d6fd0c697c97db464ff_2589d33e5d3984dea4c676890a9757f9.png) center top repeat #000;
+  background-image: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/fe162a6cf4d3bc53cc50c054bd9d8e1c_507b805b3973659aa6f8bf5c5184f42f.png), url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/6f69eb2735128d6fd0c697c97db464ff_2589d33e5d3984dea4c676890a9757f9.png);
+  background-position: center top , center top;
+  background-repeat: repeat , repeat;
   padding: 25px 0 0;
   margin: 0 auto;
   text-align: center;
@@ -1128,8 +1130,11 @@ footer small {
   header .h_a {
     position: relative;
     overflow: hidden;
-    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/5ff1fd2e7bfc1bd2d44929d0d0dc1b27_1ab1523f618c8e89908ed840fdb365d2.png) center top repeat;
-    background-size: contain;
+    background: url() center top repeat;
+    background-image: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/509703/d48cc4477ae450a33c81224685f5c4cb_4be0bca165340616c6002e03973764e7.png), url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/5ff1fd2e7bfc1bd2d44929d0d0dc1b27_1ab1523f618c8e89908ed840fdb365d2.png);
+    background-position: center top , center top;
+    background-repeat: repeat , repeat;
+    background-size: cover, contain;
     padding: 4.3% 0 0;
     margin: 0 auto;
   }
