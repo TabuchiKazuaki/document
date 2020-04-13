@@ -80,7 +80,7 @@ $(document).ready(function() {
 	if (now.getTime() > time08.getTime()) {
 		$('.t08').addClass('.add');
 	}
-	var time08af = new Date("2020/04/20 0:000");
+	var time08af = new Date("2020/04/20 00:00");
 	if (now.getTime() > time08af.getTime()) {
 		$('.t08').removeClass('.add');
 	}
