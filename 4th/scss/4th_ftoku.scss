@@ -171,6 +171,101 @@ header {
 }
 
 
+.contents {
+	background: #000;
+	.c_im {
+		max-width: 538px;
+		padding: 16px 0 0;
+		margin: 0 auto;
+		line-height: 0;
+	}
+	.c_txt {
+		margin: 30px auto 0;
+		text-align: center;
+		font-size: 30px;
+		color: #fff;
+	}
+	.c_fi {
+		max-width: 636px;
+		padding: 33px 0 0;
+		margin: 0 auto;
+		line-height: 0;
+	}
+	.c_h {
+		padding: 0 0 0 18px;
+		font-size: 32px;
+		font-weight: bold;
+		border-left: 8px solid #ddaa00;
+		line-height: 1.4;
+		color: #fff;
+	}
+	.c_dot {
+		position: relative;
+		padding: 0 0 0 45px;
+		font-size: 26px;
+		box-sizing: border-box;
+		color: #666;
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: #ddaa00;
+			background-size: 27px 27px;
+			width: 27px;
+			height: 27px;
+			border-radius: 50%;
+		}
+	}
+
+	.c_twenty {
+		.t_i {
+			display: flex;
+			flex-flow: row wrap;
+			margin: 31px 0 0;
+			li {
+				justify-content: flex-end;
+				box-sizing: border-box;
+				width: 31.73%;
+				margin: 2.4% 0 0 2.4%;
+
+				&:nth-child(3n+1) {
+					margin: 2.4% 0 0;
+				}
+
+				&:nth-child(3) {
+					margin: 0 0 0 2.4%;
+				}
+				&:nth-child(2) {
+					margin: 0 0 0 2.4%;
+				}
+				&:nth-child(1) {
+					margin: 0;
+				}
+				img {
+					line-height: 0;
+				}
+			}
+		}
+		.c_btn {
+			margin: 38px 0 0;
+			a {
+				display: block;
+				background: #e5c200;
+				padding: 18px 0;
+				border-radius: 6px;
+				text-align: center;
+				font-size: 25px;
+				font-weight: bold;
+				color: #000;
+			}
+		}
+	}
+}
+
+
+
 .p_up {
 	background: #1a1a1a;
 	text-align: center;
@@ -1163,6 +1258,85 @@ footer {
 		}
 	}
 
+
+	.contents {
+		.c_im {
+			max-width: 538px;
+			padding: 16px 0 0;
+			margin: 0 auto;
+			line-height: 0;
+		}
+		.c_txt {
+			margin: 30px auto 0;
+			text-align: center;
+			font-size: 30px;
+			color: #fff;
+		}
+		.c_fi {
+			max-width: 636px;
+			padding: 33px 0 0;
+			margin: 0 auto;
+			line-height: 0;
+		}
+		.c_h {
+			padding: 0 0 0 18px;
+			font-size: 32px;
+			font-weight: bold;
+			border-left: 8px solid #ddaa00;
+			line-height: 1.4;
+			color: #fff;
+		}
+		.c_dot {
+			padding: 0 0 0 6%;
+			font-size: calc(43vw/12);
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				background-size: 100% 100%;
+				width: 4%;
+				height: 100%;
+				border-radius: 50%;
+			}
+		}
+
+		.c_twenty {
+			.t_i {
+				margin: 4% 0 0;
+				li {
+					width: 31.73%;
+					margin: 2.4% 0 0 2.4%;
+
+					&:nth-child(3n+1) {
+						margin: 2.4% 0 0;
+					}
+
+					&:nth-child(3) {
+						margin: 0 0 0 2.4%;
+					}
+					&:nth-child(2) {
+						margin: 0 0 0 2.4%;
+					}
+					&:nth-child(1) {
+						margin: 0;
+					}
+					img {
+						line-height: 0;
+					}
+				}
+			}
+			.c_btn {
+				margin: 3% 0 0;
+				a {
+					padding: 3% 0;
+					border-radius: 5px;
+					font-size: calc(39vw/12);
+				}
+			}
+		}
+	}
+
 	.p_up {
 		.wrap {
 			max-width: 100%;
@@ -1860,6 +2034,84 @@ footer {
 			font-size: calc(24vw/12);
 			letter-spacing: 0.8px;
 			line-height: 1.4;
+		}
+	}
+
+	.contents {
+		.c_im {
+			max-width: 538px;
+			padding: 16px 0 0;
+			margin: 0 auto;
+			line-height: 0;
+		}
+		.c_txt {
+			margin: 30px auto 0;
+			text-align: center;
+			font-size: 30px;
+			color: #fff;
+		}
+		.c_fi {
+			max-width: 636px;
+			padding: 33px 0 0;
+			margin: 0 auto;
+			line-height: 0;
+		}
+		.c_h {
+			padding: 0 0 0 18px;
+			font-size: 32px;
+			font-weight: bold;
+			border-left: 8px solid #ddaa00;
+			line-height: 1.4;
+			color: #fff;
+		}
+		.c_dot {
+			padding: 0 0 0 6%;
+			font-size: calc(47vw/12);
+			&:before {
+				content: '';
+				position: absolute;
+				top: 3%;
+				left: 0;
+				background-size: 100% 100%;
+				width: 4.4%;
+				height: 100%;
+				border-radius: 50%;
+			}
+		}
+
+		.c_twenty {
+			.t_i {
+				margin: 4% 0 0;
+				li {
+					width: 31.73%;
+					margin: 2.4% 0 0 2.4%;
+
+					&:nth-child(3n+1) {
+						margin: 2.4% 0 0;
+					}
+
+					&:nth-child(3) {
+						margin: 0 0 0 2.4%;
+					}
+					&:nth-child(2) {
+						margin: 0 0 0 2.4%;
+					}
+					&:nth-child(1) {
+						margin: 0;
+					}
+					img {
+						line-height: 0;
+					}
+				}
+			}
+			.c_btn {
+				margin: 4% 0 0;
+				a {
+					padding: 3% 0;
+					border-radius: 5px;
+					font-size: calc(41vw/12);
+				}
+			}
 		}
 	}
 

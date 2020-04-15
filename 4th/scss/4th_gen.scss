@@ -477,7 +477,14 @@ header {
 				height: 68px;
 			}
 		}
+		.ct_sin {
+			font-size: 32px;
+			.num {
+				font-size: 37px;
+			}
+		}
 	}
+
 
 	.c_one {
 		padding: 0 0 35px;
@@ -1725,6 +1732,12 @@ footer {
 					height: 141%;
 				}
 			}
+			.ct_sin {
+				font-size: calc(51vw/12);
+				.num {
+					font-size: calc(56vw/12);
+				}
+			}
 		}
 
 		.c_one {
@@ -2768,6 +2781,12 @@ footer {
 					background-size: 100% 100%;
 					width: 6.5%;
 					height: 141%;
+				}
+			}
+			.ct_sin {
+				font-size: calc(53vw/12);
+				.num {
+					font-size: calc(58vw/12);
 				}
 			}
 		}
