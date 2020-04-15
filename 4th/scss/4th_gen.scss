@@ -453,7 +453,7 @@ header {
 		}
 		.ct_sec {
 			position: relative;
-			display: inline-block;
+			display: block;
 			padding: 0 52px 0 54px;
 			line-height: 1;
 			&:before {
@@ -478,7 +478,7 @@ header {
 			}
 		}
 		.ct_sin {
-			font-size: 32px;
+			font-size: 33px;
 			.num {
 				font-size: 37px;
 			}
@@ -1711,7 +1711,7 @@ footer {
 			}
 			.ct_sec {
 				position: relative;
-				display: inline-block;
+				display: block;
 				padding: 0 7.2% 0 7.6%;
 				line-height: 1;
 				&:before {
@@ -2762,7 +2762,6 @@ footer {
 			}
 			.ct_sec {
 				position: relative;
-				display: inline-block;
 				padding: 0 7.2% 0 7.6%;
 				line-height: 1;
 				&:before {
