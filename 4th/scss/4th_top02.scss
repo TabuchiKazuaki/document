@@ -361,6 +361,18 @@ header {
 					color: #fff;
 				}
 			}
+			.a_day {
+				&:before {
+					content: '全話無料';
+					left: 22px;
+				}
+			}
+			.o_day {
+				&:before {
+					content: '日替わり無料';
+					left: 15px;
+				}
+			}
 			.al_24 {
 				&:before {
 					content: '4/24全話無料';
@@ -1263,6 +1275,16 @@ footer {
 						width: 79%;
 					}
 				}
+				.a_day {
+					&:before {
+						left: 22px;
+					}
+				}
+				.o_day {
+					&:before {
+						left: 15px;
+					}
+				}
 				.al_24 {
 					&:before {
 						left: 5.5%;
@@ -2028,6 +2050,16 @@ footer {
 						border-radius: 2px;
 						letter-spacing: 0.5px;
 						width: 82%;
+					}
+				}
+				.a_day {
+					&:before {
+						left: 22px;
+					}
+				}
+				.o_day {
+					&:before {
+						left: 15px;
 					}
 				}
 				.al_24 {

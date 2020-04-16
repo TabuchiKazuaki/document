@@ -401,6 +401,14 @@ header .h_date {
   white-space: nowrap;
   color: #fff;
 }
+.contents .rank li .a_day:before {
+  content: '全話無料';
+  left: 22px;
+}
+.contents .rank li .o_day:before {
+  content: '日替わり無料';
+  left: 15px;
+}
 .contents .rank li .al_24:before {
   content: '4/24全話無料';
   left: 32px;
@@ -1294,6 +1302,12 @@ footer small {
     letter-spacing: 1px;
     width: 79%;
   }
+  .contents .rank li .a_day:before {
+    left: 22px;
+  }
+  .contents .rank li .o_day:before {
+    left: 15px;
+  }
   .contents .rank li .al_24:before {
     left: 5.5%;
   }
@@ -2054,6 +2068,12 @@ footer small {
     border-radius: 2px;
     letter-spacing: 0.5px;
     width: 82%;
+  }
+  .contents .rank li .a_day:before {
+    left: 22px;
+  }
+  .contents .rank li .o_day:before {
+    left: 15px;
   }
   .contents .rank li .al_24:before {
     left: 5.5%;
