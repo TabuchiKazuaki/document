@@ -972,6 +972,53 @@ header .ch .teen {
 .contents .c_inn .c19_item li:first-child {
   border-top: none;
 }
+.contents .c_twenty .t_i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 31px 0 0;
+}
+.contents .c_twenty .t_i li {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 31.73%;
+  margin: 2.4% 0 0 2.4%;
+}
+.contents .c_twenty .t_i li:nth-child(3n+1) {
+  margin: 2.4% 0 0;
+}
+.contents .c_twenty .t_i li:nth-child(3) {
+  margin: 0 0 0 2.4%;
+}
+.contents .c_twenty .t_i li:nth-child(2) {
+  margin: 0 0 0 2.4%;
+}
+.contents .c_twenty .t_i li:nth-child(1) {
+  margin: 0;
+}
+.contents .c_twenty .t_i li img {
+  line-height: 0;
+}
+.contents .c_twenty .c_btn {
+  margin: 38px 0 0;
+}
+.contents .c_twenty .c_btn a {
+  display: block;
+  background: #e5c200;
+  padding: 18px 0;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #000;
+}
 .contents .c_twentyone {
   padding: 0 0 20px;
   margin: 10px 0 0;
@@ -2179,6 +2226,36 @@ footer small {
   .contents .c_inn .c19_item li:first-child {
     border-top: none;
   }
+  .contents .c_twenty .t_i {
+    margin: 4% 0 0;
+  }
+  .contents .c_twenty .t_i li {
+    width: 31.73%;
+    margin: 2.4% 0 0 2.4%;
+  }
+  .contents .c_twenty .t_i li:nth-child(3n+1) {
+    margin: 2.4% 0 0;
+  }
+  .contents .c_twenty .t_i li:nth-child(3) {
+    margin: 0 0 0 2.4%;
+  }
+  .contents .c_twenty .t_i li:nth-child(2) {
+    margin: 0 0 0 2.4%;
+  }
+  .contents .c_twenty .t_i li:nth-child(1) {
+    margin: 0;
+  }
+  .contents .c_twenty .t_i li img {
+    line-height: 0;
+  }
+  .contents .c_twenty .c_btn {
+    margin: 3% 0 0;
+  }
+  .contents .c_twenty .c_btn a {
+    padding: 3% 0;
+    border-radius: 5px;
+    font-size: calc(39vw/12);
+  }
   .contents .c_twentyone {
     padding: 0 0 3.5%;
     margin: 2% 0 0;
@@ -3224,6 +3301,36 @@ footer small {
   }
   .contents .c_inn .c19_item li {
     padding: 5% 0;
+  }
+  .contents .c_twenty .t_i {
+    margin: 4% 0 0;
+  }
+  .contents .c_twenty .t_i li {
+    width: 31.73%;
+    margin: 2.4% 0 0 2.4%;
+  }
+  .contents .c_twenty .t_i li:nth-child(3n+1) {
+    margin: 2.4% 0 0;
+  }
+  .contents .c_twenty .t_i li:nth-child(3) {
+    margin: 0 0 0 2.4%;
+  }
+  .contents .c_twenty .t_i li:nth-child(2) {
+    margin: 0 0 0 2.4%;
+  }
+  .contents .c_twenty .t_i li:nth-child(1) {
+    margin: 0;
+  }
+  .contents .c_twenty .t_i li img {
+    line-height: 0;
+  }
+  .contents .c_twenty .c_btn {
+    margin: 4% 0 0;
+  }
+  .contents .c_twenty .c_btn a {
+    padding: 3% 0;
+    border-radius: 5px;
+    font-size: calc(41vw/12);
   }
   .contents .c_twentyone {
     padding: 0 0 3.5%;
