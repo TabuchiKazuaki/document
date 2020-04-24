@@ -49,6 +49,14 @@ img  { width: 100%;}
 	max-width: 768px;
 	margin: 0 auto;
 }
+
+.pc {
+	display: block;
+}
+.sp {
+	display: none;
+}
+
 header {
 	box-sizing: border-box;
 	.logo {
@@ -57,7 +65,7 @@ header {
 		line-height: 0;
 		span {
 			display: block;
-			max-width: 151px;
+			max-width: 140px;
 		}
 		a {
 			display: block;
@@ -71,7 +79,7 @@ header {
 		padding: 63px 0 0;
 		box-sizing: border-box;
 		.h_h {
-			max-width: 614px;
+			max-width: 613px;
 			margin: 0 auto 0;
 			text-align: center;
 		}
@@ -1661,6 +1669,12 @@ footer {
 
 
 @media screen and (max-width: 768px) {
+	.pc {
+		display: none;
+	}
+	.sp {
+		display: block;
+	}
 	.module_text {
 		padding: 2% 0 2% 3%;
 		margin: 5% 0 0;
@@ -1695,7 +1709,7 @@ footer {
 		.logo {
 			padding: 1.6% 0 1.6% 2.5%;
 			span {
-				width: 21%;
+				width: 18.8%;
 			}
 			a {
 				&:hover {
@@ -1709,7 +1723,9 @@ footer {
 			height: auto;
 			padding: 5.6% 0 7.2%;
 			.h_h {
-				width: 61%;
+				max-width: 476px;
+				margin: 0 auto;
+				width: 62.3%;
 			}
 			.h_t {
 				width: 75%;
@@ -2956,13 +2972,13 @@ footer {
 		.logo {
 			padding: 1.6% 0 1.6% 2.5%;
 			span {
-				width: 21%;
+				width: 19.2%;
 			}
 		}
 		.h_wrap {
 			padding: 5.3% 0 7.1%;
 			.h_h {
-				width: 62%;
+				width: 62.6%;
 			}
 			.h_t {
 				width: 75%;
