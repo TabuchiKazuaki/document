@@ -69,6 +69,14 @@ img {
   margin: 0 auto;
 }
 
+.pc {
+  display: block;
+}
+
+.sp {
+  display: none;
+}
+
 header {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1651,6 +1659,14 @@ footer small {
 }
 
 @media screen and (max-width: 768px) {
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+
   .module_text {
     padding: 2% 0 2% 3%;
     margin: 5% 0 0;
