@@ -26,4 +26,18 @@ $(document).ready(function() {
 		$('.c04bt').hide();
 	}
 
+
+	var time11 = new Date("2020/05/10 00:00");
+	if (now.getTime() > time11.getTime()) {
+		$('.ch01').hide();
+		$('.ch01').css('display','none');
+
+		$('.ch02').hide();
+		$('.ch02').css('display','none');
+
+		$('.ch03').hide();
+		$('.ch03').css('display','none');
+	}
 });
+
+
