@@ -196,6 +196,25 @@ header {
 					border-radius: 50%;
 				}
 			}
+			.add {
+				position: relative;
+				&:before {
+					content: '期間限定無料';
+					position: absolute;
+					top: 4px;
+					left: 4px;
+					display: inline-block;
+					background: #f0163a;
+					padding: 13px 11px;
+					font-size: 19px;
+					font-weight: bold;
+					text-align: center;
+					border-radius: 4px;
+					letter-spacing: 1px;
+					white-space: nowrap;
+					color: #fff;
+				}
+			}
 		}
 	}
 	.c_nine {
@@ -300,6 +319,7 @@ header {
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
+
 	.top {
 		margin: 5% 0 8%;
 		a {
@@ -432,6 +452,19 @@ header {
 						width: 7%;
 						height: 85%;
 						border-radius: 50%;
+					}
+				}
+
+				.add {
+					&:before {
+						top: 1.5%;
+						left: 5.5%;
+						display: inline-block;
+						padding: 6% 5.2%;
+						font-size: calc(29vw/12);
+						border-radius: 3px;
+						letter-spacing: 1px;
+						width: 79%;
 					}
 				}
 			}
@@ -641,6 +674,18 @@ header {
 						border-radius: 50%;
 					}
 				}
+				.add {
+					&:before {
+						top: 3%;
+						left: 6%;
+						display: inline-block;
+						padding: 6% 3.2% 5.5%;
+						font-size: calc(29vw/12);
+						border-radius: 2px;
+						letter-spacing: 0.5px;
+						width: 82%;
+					}
+				}
 			}
 		}
 		.c_nine {
@@ -677,6 +722,7 @@ header {
 					line-height: 1.35;
 				}
 			}
+
 		}
 
 		.seventeen {

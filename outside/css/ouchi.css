@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -226,6 +227,25 @@ header .h_a .h_i {
   width: 17px;
   height: 17px;
   border-radius: 50%;
+}
+.contents .est li .add {
+  position: relative;
+}
+.contents .est li .add:before {
+  content: '期間限定無料';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  display: inline-block;
+  background: #f0163a;
+  padding: 13px 11px;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  color: #fff;
 }
 .contents .c_nine {
   padding: 0;
@@ -472,6 +492,16 @@ header .h_a .h_i {
     height: 85%;
     border-radius: 50%;
   }
+  .contents .est li .add:before {
+    top: 1.5%;
+    left: 5.5%;
+    display: inline-block;
+    padding: 6% 5.2%;
+    font-size: calc(29vw/12);
+    border-radius: 3px;
+    letter-spacing: 1px;
+    width: 79%;
+  }
   .contents .c_nine {
     margin: 5% 0 0;
   }
@@ -671,6 +701,16 @@ header .h_a .h_i {
     width: 7.3%;
     height: 85%;
     border-radius: 50%;
+  }
+  .contents .est li .add:before {
+    top: 3%;
+    left: 6%;
+    display: inline-block;
+    padding: 6% 3.2% 5.5%;
+    font-size: calc(29vw/12);
+    border-radius: 2px;
+    letter-spacing: 0.5px;
+    width: 82%;
   }
   .contents .c_nine {
     padding: 0 0 5%;
