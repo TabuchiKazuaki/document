@@ -249,6 +249,15 @@ header .h_a .h_i {
   white-space: nowrap;
   color: #fff;
 }
+.contents .est li .fast {
+  position: relative;
+}
+.contents .est li .fast:before {
+  content: '先行配信';
+  width: 82%;
+  top: 4px;
+  left: 8px;
+}
 .contents .c_nine {
   padding: 0;
   margin: 35px 0 0;

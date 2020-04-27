@@ -217,6 +217,15 @@ header {
 					color: #fff;
 				}
 			}
+			.fast {
+				position: relative;
+				&:before {
+					content: '先行配信';
+					width: 82%;
+					top: 4px;
+					left: 8px;
+				}
+			}
 		}
 	}
 	.c_nine {
