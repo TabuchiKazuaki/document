@@ -106,6 +106,20 @@ img {
   line-height: 1.4;
 }
 
+.p_top {
+  margin: 30px 0 0;
+  text-align: right;
+}
+.p_top a {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+}
+.p_top span {
+  font-size: 32px;
+}
+
 header .h_l {
   background: #000;
   padding: 10px 0 11px 20px;
@@ -374,6 +388,17 @@ header .h_a .h_i {
     font-size: calc(50vw/12);
   }
 
+  .p_top {
+    margin: 5% 0 0;
+  }
+  .p_top a {
+    display: inline-block;
+    font-size: calc(48vw/12);
+  }
+  .p_top span {
+    font-size: calc(52vw/12);
+  }
+
   header .h_l {
     background: #000;
     padding: 1.1% 0 1.1% 2.1%;
@@ -562,6 +587,17 @@ header .h_a .h_i {
     padding: 0 0 0 2.6%;
     line-height: 1.4;
     font-size: calc(52vw/12);
+  }
+
+  .p_top {
+    margin: 3% 0 0;
+  }
+  .p_top a {
+    display: inline-block;
+    font-size: calc(50vw/12);
+  }
+  .p_top span {
+    font-size: calc(54vw/12);
   }
 
   header .h_l {
