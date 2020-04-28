@@ -15,6 +15,21 @@ body li {
   list-style: none;
 }
 
+.m_i {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  margin: 18px auto 0;
+}
+.m_i iframe {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 a {
   -webkit-transition: .3s;
   transition: .3s;
