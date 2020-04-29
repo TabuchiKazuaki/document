@@ -85,6 +85,30 @@ img {
   color: #666;
 }
 
+.ffixed {
+  background: #fff;
+  z-index: 10001;
+  position: fixed;
+  right: 15px;
+  bottom: 20px;
+  width: 283px;
+  padding: 27px 26px 25px;
+  -webkit-box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.35);
+          box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.35);
+  border-radius: 6px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.ffixed .wrap {
+  max-width: none;
+}
+.ffixed .f_ff {
+  max-width: 230px;
+  margin: 8px auto 0;
+  line-height: 0;
+}
+
 .mb10 {
   margin: 0 0 10px 0 !important;
 }

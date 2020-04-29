@@ -66,6 +66,29 @@ img  { width: 100%; }
 }
 
 
+.ffixed {
+	background: #fff;
+	z-index: 10001;
+	position: fixed;
+	right: 15px;
+	bottom: 20px;
+	width: 283px;
+	padding: 27px 26px 25px;
+	box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.35);
+	border-radius: 6px;
+	text-align: center;
+	box-sizing: border-box;
+	.wrap {
+		max-width: none;
+	}
+	.f_ff {
+		max-width: 230px;
+		margin: 8px auto 0;
+		line-height: 0;
+	}
+}
+
+
 .mb10 {
 	margin: 0 0 10px 0 !important;
 }
