@@ -1403,8 +1403,8 @@ footer {
 			margin: 7.8% auto 0;
 		}
 		.movie {
-			padding: 6.5% 0 5% 4.2%;
-			border-bottom: 25px solid #efefef;
+			padding: 6.5% 0 5% 4%;
+			border-bottom: 24px solid #efefef;
 			.mdl {
 				dd {
 					width: 39.5%;
@@ -1417,9 +1417,10 @@ footer {
 						display: inline-block;
 						background: linear-gradient(transparent 68%,#fdd000 68%);
 						padding: 0 2.2%;
-						font-size: calc(54vw/12);
+						font-size: calc(52vw/12);
 						line-height: 1.2;
-						letter-spacing: 0.8px;
+						letter-spacing: 0.5px;
+						white-space: nowrap;
 					}
 				}
 			}
