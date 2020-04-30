@@ -261,6 +261,12 @@ header .h_t {
   line-height: 1.35;
   color: #666;
 }
+.contents .dl_col dt .c_text .los {
+  display: block;
+  margin: 10px 0 0;
+  font-size: 18px;
+  font-weight: normal;
+}
 .contents .img_col {
   overflow: hidden;
   margin: 38px 0 0;
@@ -834,6 +840,10 @@ footer small {
     font-size: calc(37vw/12);
     line-height: 1.35;
   }
+  .contents .dl_col dt .c_text .los {
+    margin: 2.5% 0 0;
+    font-size: calc(28vw/12);
+  }
   .contents .img_col {
     margin: 5.8% 0 0;
   }
@@ -1324,6 +1334,10 @@ footer small {
     margin: 4.5% 0 0;
     font-size: calc(39vw/12);
     line-height: 1.35;
+  }
+  .contents .dl_col dt .c_text .los {
+    margin: 2.5% 0 0;
+    font-size: calc(29vw/12);
   }
   .contents .img_col {
     margin: 5.8% 0 0;
