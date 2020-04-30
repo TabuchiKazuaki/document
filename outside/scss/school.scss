@@ -124,10 +124,8 @@ img  { width: 100%; }
 	padding: 0 0 0 18px;
 	font-size: 32px;
 	font-weight: bold;
-	text-align: left;
-	border-left: 9px solid #ffd500;
-	line-height: 1.5;
-	color: #000;
+	border-left: 11px solid #00a0b5;
+	line-height: 1.2;
 }
 
 .p_top {
@@ -155,43 +153,30 @@ header {
 		}
 	}
 	.h_a {
-		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/941516/57bd3ec4a527a0873243959932c5ea12_7b2f748bc38da4433dfda565d3bc4202.jpg) center top repeat;
+		position: relative;
+		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/945170/aad33f5b7af03752ed2819e5e1b5d594_63c7f34b7d651e6248cecc08976b23fa.jpg) center top repeat;
 		background-size: auto;
-		height: 498px;
-		padding: 77px 0 0;
+		height: 421px;
+		padding: 31px 0 0;
 		margin: 0 auto;
 		text-align: center;
 		box-sizing: border-box;
-
 		.hwrap {
-			background: #fff;
 			max-width: 750px;
-			padding: 43px 0 45px;
 			margin: 0 auto;
-			border: 5px solid #003c71;
-			border-radius: 31px;
-			box-sizing: border-box;
 		}
 
 		.h_i {
-			max-width: 399px;
-			margin: 0 auto;
+			opacity: 0;
+			position: absolute;
+			bottom: 33px;
+			right: 9px;
+			max-width: 240px;
 			line-height: 0;
 		}
-
 		.h_img {
-			max-width: 572px;
-			margin: 19px auto 0;
-			line-height: 0;
-		}
-		.h_inner {
-			width: 572px;
-			margin: 16px auto 0;
-			border-top: 5px solid #003c71;
-		}
-		.h_tex {
-			max-width: 362px;
-			margin: 28px auto 0;
+			max-width: 257px;
+			margin: 0 auto 0;
 			line-height: 0;
 		}
 	}
@@ -199,33 +184,23 @@ header {
 
 
 .info {
-	background: #eefbff;
-	padding: 19px 0 24px;
+	background: #efefef;
+	padding: 41px 0 42px;
 	text-align: center;
 	.i_h {
-		display: inline-block;
-		background: linear-gradient(transparent 75%,#fdd000 75%);
 		margin: 0 auto;
-		font-size: 36px;
-		font-weight: bold;
-		line-height: 1.2;
+		font-size: 20px;
+		font-weight: normal;
+		line-height: 1.6;
 		letter-spacing: 1.5px;
-		color: #003c71;
-	}
-	.i_item {
-		margin: 20px 0 0;
-		li {
-			margin: 8px 0 0;
-			line-height: 1.3;
-			font-size: 22px;
-			font-weight: bold;
-		}
+		color: #000;
 	}
 }
 
 .contents {
 	background: #fff;
 	text-align: center;
+
 	.c_nineteen {
 		padding: 0;
 		margin: 15px 0 0;
@@ -274,102 +249,6 @@ header {
 			}
 		}
 	}
-	.o_num {
-		position: relative;
-		display: inline-block;
-		padding: 0 0 0 74px;
-		margin: 61px 0 0;
-		font-weight: bold;
-		font-size: 35px;
-
-		&:before {
-			content: '';
-			position: absolute;
-			top: -11px;
-			left: 0;
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/941516/ba60bd304245226dfbeba765c8327522_efd9a3ef9f364a82fe328f74309b88bd.png) 0 0 no-repeat;
-			background-size: 60px 60px;
-			width: 60px;
-			height: 60px;
-		}
-	}
-	.o_n_two {
-		&:before {
-			top: -11px;
-			left: 0;
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/941516/63a0a18e060a7af719c0b00848c849e8_cc2031dfefb5ce044c24272344da2e69.png) 0 0 no-repeat;
-		}
-	}
-	.o_n_thr {
-		&:before {
-			top: -11px;
-			left: 0;
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/941516/132961a7af3fcf4844cc83c4c8b759f8_3e39e554477bb8b6d44f881b120e7fc0.png) 0 0 no-repeat;
-		}
-	}
-	.o_n_four {
-		&:before {
-			top: -11px;
-			left: 0;
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/941516/8d160ce250f10d9801a8fdbaf345b14d_9aede5825744b3b6d9884e19805a7178.png) 0 0 no-repeat;
-		}
-	}
-
-	.c_one {
-		.o_i {
-			max-width: 364px;
-			margin: 49px auto 0;
-		}
-
-		.o_n_one {
-
-		}
-
-		.o_n_two {
-
-		}
-		.c_thr {
-
-		}
-	}
-	.one_box {
-		padding: 120px 0 95px;
-		margin: 38px auto 0;
-		border: 1px solid #000000;
-		figure {
-			max-width: 547px;
-			margin: 0 auto;
-			line-height: 0;
-			line-height: 0;
-		}
-		.seci {
-			max-width: 457px;
-			margin: 0 auto;
-			line-height: 0;
-		}
-		.thri {
-			max-width: 534px;
-			margin: 0 auto;
-			line-height: 0;
-		}
-		.fouri {
-			max-width: 201px;
-			margin: 0 auto;
-			line-height: 0;
-		}
-	}
-	.o_b_dou {
-		padding: 80px 0 75px;
-	}
-
-	.one_text {
-		margin: 28px 0 0;
-		font-size: 28px;
-		font-weight: bold;
-		text-align: left;
-		line-height: 1.7;
-		color: #666;
-	}
 
 	.m_wrap {
 		max-width: 850px;
@@ -405,207 +284,6 @@ header {
 					color: #003c71;
 				}
 			}
-		}
-	}
-
-
-	.c_two {
-		padding: 60px 0 0;
-		.ct_h {
-			max-width: 419px;
-			margin: 0 auto;
-			line-height: 0;
-		}
-		.ct_t {
-			width: 444px;
-			margin: 19px auto 0;
-			border-top: 5px solid #003c71;
-			figure {
-				max-width: 333px;
-				padding: 18px 0 0;
-				margin: 0 auto;
-				line-height: 0;
-			}
-		}
-
-		.two_box {
-			padding: 70px 0 63px;
-			margin: 38px auto 0;
-			border: 1px solid #000000;
-			figure {
-				max-width: 261px;
-				margin: 0 auto;
-				line-height: 0;
-			}
-		}
-	}
-
-	.thwrap {
-		max-width: 850px;
-		margin: 0 auto;
-	}
-	.c_thr {
-		padding: 60px 0 0;
-		.cth_h {
-			max-width: 409px;
-			margin: 0 auto;
-			line-height: 0;
-		}
-		.cth_t {
-			width: 435px;
-			margin: 19px auto 0;
-			border-top: 5px solid #003c71;
-			figure {
-				max-width: 212px;
-				padding: 18px 0 0;
-				margin: 0 auto;
-			}
-		}
-		.c_th_item {
-			display: flex;
-			flex-flow: row wrap;
-			max-width: 850px;
-			background: #eefbff;
-			box-sizing: border-box;
-			padding: 30px 35px 30px;
-			margin: 35px auto 0;
-			li {
-				justify-content: flex-end;
-				box-sizing: border-box;
-				width: 47%;
-				margin:  0 0 0 6%;
-				background: #fff;
-				border-radius: 15px;
-
-				&:first-child {
-					margin: 0;
-				}
-				a {
-					display: block;
-				}
-				figure {
-					line-height: 0;
-					img {
-						border-radius: 15px 15px 0 0;
-					}
-				}
-				.th_txt {
-					padding: 26px 33px 38px;
-					text-align: left;
-					font-size: 32px;
-					font-weight: bold;
-					line-height: 1.4;
-					color: #666;
-				}
-			}
-		}
-	}
-
-	.c_fouth {
-		padding: 50px 0 0;
-		.cf_h {
-			max-width: 344px;
-			margin: 0 auto;
-			line-height: 0;
-		}
-		.cf_t {
-			width: 374px;
-			margin: 19px auto 0;
-			border-top: 5px solid #003c71;
-			figure {
-				max-width: 292px;
-				padding: 18px 0 0;
-				margin: 0 auto;
-			}
-		}
-	}
-
-	.c_four {
-		padding: 0;
-		margin: 7px 0 0;
-		.c_f_item {
-			a {
-				display: block;
-			}
-			li {
-				padding: 47px 0;
-				border-bottom: 1px solid #606060;
-
-				&:last-child {
-					border-bottom: none;
-				}
-			}
-			.c_f_dl {
-				display: flex;
-				align-items: center;
-
-				dd {
-					width: 42%;
-					line-height: 0;
-				}
-				dt {
-					width: 53%;
-					margin: 0 0 0 5%;
-					font-size: 28px;
-					line-height: 1.3;
-					font-weight: bold;
-					text-align: left;
-					letter-spacing: 1.2px;
-					color: #000;
-				}
-			}
-		}
-	}
-}
-.o_h {
-	margin: 43px 0 0;
-	text-align: center;
-	font-size: 38px;
-	font-weight: bold;
-	letter-spacing: 1.3px;
-	line-height: 1.3;
-	color: #000;
-	span {
-		font-size: 41px;
-	}
-
-}
-.other {
-	background: #fff;
-	.o_item {
-		overflow: hidden;
-		max-width: 570px;
-		padding: 62px 0 33px;
-		margin: 0 auto 0;
-		li {
-			float: left;
-			width:  25%;
-			margin: 0 0 0 11.6%;
-
-			&:first-child {
-				margin: 0;
-			}
-			a {
-				display: block;
-			}
-		}
-	}
-	.o_follow {
-		max-width: 563px;
-		margin: 72px auto 72px;
-		box-sizing: border-box;
-		a {
-			display: block;
-			background: #1da1f2;
-			padding: 33px 0 27px;
-			border-radius: 9px;
-			text-align: center;
-
-			img {
-				max-width: 463px;
-				margin: 0 auto;
-			}
-
 		}
 	}
 }
@@ -686,66 +364,6 @@ footer {
 	}
 }
 
-@media screen and (max-width: 1000px) {
-	.ffixed {
-		padding: 2.8% 2.5% 2.6%;
-		width: 28.8%;
-		.wrap {
-			max-width: none;
-		}
-		a {
-			display: block;
-		}
-		.f_ff {
-			max-width: 231px;
-			line-height: 0;
-		}
-	}
-}
-@media screen and (max-width: 850px) {
-	.contents {
-		.m_wrap{
-			max-width: none;
-			width: 100%;
-			margin: 5.5% auto 0;
-		}
-		.movie {
-			padding: 6.5% 0 5% 4%;
-			border-bottom: 35px solid #efefef;
-			.mdl {
-				dd {
-					width: 40.8%;
-					max-width: 326px;
-				}
-				dt {
-					width: 54.7%;
-					margin: 0 0 0 3.5%;
-					span {
-						display: inline-block;
-						background: linear-gradient(transparent 68%,#fdd000 68%);
-						padding: 0 2.6%;
-						font-size: calc(50vw/12);
-						line-height: 1.2;
-						letter-spacing: 0.8px;
-					}
-				}
-			}
-		}
-	}
-}
-
-
-@media screen and (max-width: 800px) {
-	header {
-		.h_a {
-			.hwrap {
-				max-width: 100%;
-				width: 92%;
-			}
-		}
-	}
-}
-
 @media screen and (max-width: 768px) {
 
 	.ffixed {
@@ -773,9 +391,9 @@ footer {
 
 
 	.c_h {
-		border-left: 7px solid #ffd500;
+		border-left: 7px solid #00a0b5;
 		padding: 0 0 0 2.6%;
-		line-height: 1.4;
+		line-height: 1.2;
 		font-size: calc(50vw/12);
 	}
 	.line_w {
@@ -849,64 +467,45 @@ footer {
 			}
 		}
 		.h_a {
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/941516/49a1a5eb4c3a9ad4cced5aa5f120242a_b21f0729b0b4d2c27a83c7186f5dc494.png) left top repeat;
-			background-size: contain;
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/945170/97cece131a19e8e732b381e3a3913340_2bf3bb7180657db2519d8d500eb60749.jpg) center top repeat;
+			background-size: cover;
 			height: auto;
-			padding: 7% 0 9.5%;
-			margin: 0 auto;
-			text-align: center;
-			box-sizing: border-box;
-
+			padding: 3.23% 0 4.65%;
 			.hwrap {
-				background: #fff;
-				width: 84%;
-				padding: 4.5% 0 4%;
-				border: 4px solid #003c71;
-				border-radius: 30px;
-			}
-
-			.h_i {
-				width: 49.7%;
+				max-width: 750px;
 				margin: 0 auto;
 			}
 
+			.h_i {
+				opacity: 0;
+				position: absolute;
+				bottom: 6.3%;
+				right: 1.6%;
+				max-width: 163px;
+				width: 21.8%;
+			}
 			.h_img {
-				width: 73%;
-				margin: 2.6% auto 0;
-
-			}
-			.h_inner {
-				width: 73%;
-				margin: 2.8% auto 0;
-				border-top: 4px solid #003c71;
-			}
-			.h_tex {
-				width: 69%;
-				margin: 4.2% auto 0;
+				max-width: 212px;
+				width: 28.5%;
+				margin: 0 auto 0;
 			}
 		}
 	}
 
 
 	.info {
-		padding: 2.6% 0 3.2%;
+		padding: 6% 0 6%;
 		.i_h {
-			display: inline-block;
-			font-size: calc(57vw/12);
-			line-height: 1.2;
-			letter-spacing: 1.5px;
-		}
-		.i_item {
-			margin: 3.8% 0 0;
-			li {
-				margin: 1.25% 0 0;
-				line-height: 1.3;
-				font-size: calc(34vw/12);
-			}
+			font-size: calc(31vw/12);
+			line-height: 1.63;
+			letter-spacing: 1.2px;
+			white-space: nowrap;
 		}
 	}
 
 	.contents {
+
+
 		.c_nineteen {
 			margin: 2.5% 0 0;
 
@@ -937,83 +536,6 @@ footer {
 				}
 			}
 		}
-		.o_num {
-			position: relative;
-			display: inline-block;
-			padding: 0 0 0 10.5%;
-			margin: 8.8% 0 0;
-			font-size: calc(55vw/12);
-			white-space: nowrap;
-
-			&:before {
-				content: '';
-				position: absolute;
-				top: -26%;
-				background-size: 100% 100%;
-				width: 13.5%;
-				height: 171%;
-			}
-		}
-		.o_n_two {
-			&:before {
-				top: -26%;
-				background-size: 100% 100%;
-				width: 12.2%;
-				height: 171%;
-			}
-		}
-		.o_n_thr {
-			&:before {
-				top: -26%;
-				background-size: 100% 100%;
-				width: 17.1%;
-				height: 171%;
-			}
-		}
-		.o_n_four {
-			&:before {
-				top: -26%;
-				background-size: 100% 100%;
-				width: 14.2%;
-				height: 171%;
-			}
-		}
-
-		.c_one {
-			.o_i {
-				width: 52.4%;
-				margin: 7% auto 0;
-			}
-		}
-		.one_box {
-			padding: 17% 0 13.5%;
-			margin: 5.3% auto 0;
-			figure {
-				width: 78.6%;
-				margin: 0 auto;
-			}
-			.seci {
-				width: 65.7%;
-				margin: 0 auto;
-			}
-			.thri {
-				max-width: 76.6%;
-				margin: 0 auto;
-			}
-			.fouri {
-				max-width: 28.9%;
-				margin: 0 auto;
-			}
-		}
-		.o_b_dou {
-			padding: 11% 0 10%;
-		}
-
-		.one_text {
-			margin: 3.5% 0 0;
-			font-size: calc(38vw/12);
-			line-height: 1.5;
-		}
 
 		.m_wrap{
 			margin: 7.8% auto 0;
@@ -1040,160 +562,8 @@ footer {
 				}
 			}
 		}
-
-
-		.c_two {
-			padding: 8.5% 0 0;
-			.ct_h {
-				width: 60.2%;
-			}
-			.ct_t {
-				width: 62%;
-				margin: 2.4% auto 0;
-				border-top: 4px solid #003c71;
-				figure {
-					width: 76.95%;
-					padding: 3.7% 0 0;
-				}
-			}
-
-			.two_box {
-				padding: 9% 0 8%;
-				margin: 5.5% auto 0;
-				figure {
-					width: 37.4%;
-					margin: 0 auto;
-				}
-			}
-		}
-
-		.thwrap {
-			max-width: 850px;
-			margin: 0 au to;
-		}
-		.c_thr {
-			padding: 5% 0 0;
-			.cth_h {
-				width: 53.5%;
-				margin: 0 auto;
-			}
-			.cth_t {
-				width: 56.5%;
-				margin: 2.4% auto 0;
-				border-top: 4px solid #003c71;
-				figure {
-					max-width: 48.9%;
-					padding: 3.8% 0 0;
-				}
-			}
-			.c_th_item {
-				max-width: 100%;
-				padding: 5% 4.5% 3.5%;
-				margin: 3% auto 0;
-				li {
-					width: 47%;
-					margin:  0 0 0 6%;
-					background: #fff;
-					border-radius: 13px;
-
-					&:first-child {
-						margin: 0;
-					}
-					a {
-						display: block;
-					}
-					figure {
-						line-height: 0;
-						img {
-							border-radius: 15px 15px 0 0;
-						}
-					}
-					.th_txt {
-						padding: 8% 10% 12%;
-						font-size: calc(51vw/12);
-						line-height: 1.4;
-					}
-				}
-			}
-		}
-
-		.c_fouth {
-			padding: 6.5% 0 0;
-			.cf_h {
-				width: 49.4%;
-			}
-			.cf_t {
-				width: 52.4%;
-				margin: 2.5% auto 0;
-				border-top: 4px solid #003c71;
-				figure {
-					width: 80%;
-					padding: 4.5% 0 0;
-				}
-			}
-		}
-
-		.c_four {
-			padding: 0;
-			margin: 1% 0 0;
-			.c_f_item {
-				li {
-					padding: 6.8% 0;
-				}
-				.c_f_dl {
-					dd {
-						width: 43%;
-					}
-					dt {
-						width: 52%;
-						margin: 0 0 0 5%;
-						font-size: calc(39vw/12);
-						line-height: 1.3;
-						letter-spacing: 1.2px;
-					}
-				}
-			}
-		}
 	}
-	.o_h {
-		margin: 6% 0 0;
-		font-size: calc(61vw/12);
-		letter-spacing: 1.2px;
-		line-height: 1.3;
-		span {
-			font-size: calc(66vw/12);
-		}
-	}
-	.other {
-		background: #fff;
-		.o_item {
-			display: flex;
-			flex-flow: row wrap;
-			width: 82%;
-			padding: 5.3% 0 4.8%;
-			li {
-				float: none;
-				justify-content: space-around;
-				box-sizing: border-box;
-				width: 25.5%;
 
-				&:first-child {
-					margin: 0;
-				}
-			}
-		}
-		.o_follow {
-			width: 80.8%;
-			margin: 9% auto 11%;
-			a {
-				padding: 4% 0 3.2%;
-				border-radius: 7px;
-				img {
-					width: 82.4%;
-				}
-			}
-		}
-	}
 
 	footer {
 		.wrap {
@@ -1252,7 +622,7 @@ footer {
 @media screen and (max-width: 480px) {
 
 	.c_h {
-		border-left: 4.5px solid #ffd500;
+		border-left: 5.5px solid #00a0b5;
 		padding: 0 0 0 2.6%;
 		line-height: 1.4;
 		font-size: calc(52vw/12);
@@ -1344,62 +714,43 @@ footer {
 			padding: 1.2% 0 1.1% 2.2%;
 			span {
 				display: inline-block;
-				max-width: 19.2%;
+				max-width: 18.8%;
 			}
 		}
 		.h_a {
-			padding: 7% 0 8.5%;
-			margin: 0 auto;
-
+			background-size: cover;
+			height: auto;
+			padding: 3.23% 0 4.65%;
 			.hwrap {
-				width: 84%;
-				padding: 4.5% 0 4.7%;
-				border: 2.5px solid #003c71;
-				border-radius: 18px;
-			}
-
-			.h_i {
-				width: 53.7%;
+				max-width: 750px;
 				margin: 0 auto;
 			}
 
+			.h_i {
+				opacity: 0;
+				bottom: 6.3%;
+				right: 1.6%;
+				width: 22.4%;
+			}
 			.h_img {
-				width: 75%;
-				margin: 2.6% auto 0;
-
-			}
-			.h_inner {
-				width: 75%;
-				margin: 2.8% auto 0;
-				border-top: 2.5px solid #003c71;
-			}
-			.h_tex {
-				width: 67%;
-				margin: 4.2% auto 0;
+				width: 28.9%;
+				margin: 0 auto 0;
 			}
 		}
 	}
 
 	.info {
-		padding: 2.6% 0 3.2%;
+		padding: 6% 0 6%;
 		.i_h {
-			display: inline-block;
-			font-size: calc(59vw/12);
-			line-height: 1.2;
-			letter-spacing: 1.5px;
-		}
-		.i_item {
-			margin: 3.8% 0 0;
-			li {
-				margin: 1.25% 0 0;
-				line-height: 1.3;
-				font-size: calc(36vw/12);
-			}
+			font-size: calc(31vw/12);
+			line-height: 1.6;
+			letter-spacing: 0.6px;
 		}
 	}
 
 
 	.contents {
+
 		.c_nineteen {
 			margin: 2.5% 0 0;
 			figure {
@@ -1745,12 +1096,9 @@ footer {
 
 
 @-webkit-keyframes item_sp { 100% { opacity: 1; } }
-@keyframes item_list { 100% { opacity: 1; } }
+@keyframes item_sp { 100% { opacity: 1; } }
 
-.ani_list01 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 3s 1 forwards; }
-.ani_list02 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 3.5s 1 forwards; }
-.ani_list03 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 4s 1 forwards; }
-.ani_list04 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 4.5s 1 forwards; }
+.ai01 { -webkit-animation: item_sp 0.5s ease 1s 1 forwards; animation: item_sp 1s ease 2s 1 forwards; }
 
 
 
