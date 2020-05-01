@@ -272,10 +272,14 @@ header {
 		.o_i {
 			max-width: 364px;
 			margin: 49px auto 0;
+			line-height: 0;
 		}
 
-		.o_n_one {
 
+		.o_n_one {
+			max-width: 600px;
+			margin: 49px auto 0;
+			line-height: 0;
 		}
 
 		.o_n_two {
@@ -364,9 +368,12 @@ header {
 				}
 			}
 			.mdl_dt {
+				line-height: 1.4;
 				span {
-					padding: 0 4px 0 11px;
-					font-size: 24px;
+					display: inline-block;
+					padding: 0 4px 0 3px;
+					margin: 4px 0 0;
+					font-size: 38px;;
 					white-space: nowrap;
 				}
 			}
@@ -934,6 +941,12 @@ footer {
 				width: 52.4%;
 				margin: 7% auto 0;
 			}
+
+
+			.o_n_one {
+				width: 85.7%;
+				margin: 5.5% auto 0;
+			}
 		}
 		.one_box {
 			padding: 17% 0 13.5%;
@@ -1414,6 +1427,10 @@ footer {
 			.o_i {
 				width: 52.4%;
 				margin: 7% auto 0;
+			}
+			.o_n_one {
+				width: 86.2%;
+				margin: 5% auto 0;
 			}
 		}
 		.one_box {

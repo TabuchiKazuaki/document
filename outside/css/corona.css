@@ -290,6 +290,12 @@ header .h_a .h_tex {
 .contents .c_one .o_i {
   max-width: 364px;
   margin: 49px auto 0;
+  line-height: 0;
+}
+.contents .c_one .o_n_one {
+  max-width: 600px;
+  margin: 49px auto 0;
+  line-height: 0;
 }
 .contents .one_box {
   padding: 120px 0 95px;
@@ -374,9 +380,14 @@ header .h_a .h_tex {
   letter-spacing: 1.3px;
   color: #003c71;
 }
+.contents .movie .mdl .mdl_dt {
+  line-height: 1.4;
+}
 .contents .movie .mdl .mdl_dt span {
-  padding: 0 4px 0 11px;
-  font-size: 24px;
+  display: inline-block;
+  padding: 0 4px 0 3px;
+  margin: 4px 0 0;
+  font-size: 38px;
   white-space: nowrap;
 }
 .contents .c_two {
@@ -908,6 +919,10 @@ footer small {
     width: 52.4%;
     margin: 7% auto 0;
   }
+  .contents .c_one .o_n_one {
+    width: 85.7%;
+    margin: 5.5% auto 0;
+  }
   .contents .one_box {
     padding: 17% 0 13.5%;
     margin: 5.3% auto 0;
@@ -1349,6 +1364,10 @@ footer small {
   .contents .c_one .o_i {
     width: 52.4%;
     margin: 7% auto 0;
+  }
+  .contents .c_one .o_n_one {
+    width: 86.2%;
+    margin: 5% auto 0;
   }
   .contents .one_box {
     padding: 17% 0 13.5%;
