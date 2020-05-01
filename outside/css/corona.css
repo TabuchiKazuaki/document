@@ -368,6 +368,11 @@ header .h_a .h_tex {
   letter-spacing: 1.3px;
   color: #003c71;
 }
+.contents .movie .mdl .mdl_dt {
+  padding: 0 4px 0 11px;
+  font-size: 24px;
+  white-space: nowrap;
+}
 .contents .c_two {
   padding: 60px 0 0;
 }
@@ -684,6 +689,10 @@ footer small {
     line-height: 1.2;
     letter-spacing: 0.8px;
   }
+  .contents .movie .mdl .mdl_dt {
+    padding: 0 0.8% 0 1.8%;
+    font-size: calc(36vw/12);
+  }
 }
 @media screen and (max-width: 800px) {
   header .h_a .hwrap {
@@ -939,6 +948,10 @@ footer small {
     font-size: calc(52vw/12);
     line-height: 1.2;
     letter-spacing: 0.8px;
+  }
+  .contents .movie .mdl .mdl_dt {
+    padding: 0 0.8% 0 1.6%;
+    font-size: calc(36vw/12);
   }
   .contents .c_two {
     padding: 8.5% 0 0;
