@@ -54,6 +54,10 @@ img {
   color: #ababab;
 }
 
+.video-promos section h2 img {
+  max-width: 385px !important;
+}
+
 header {
   margin: 0 0 40px;
 }
@@ -189,6 +193,10 @@ header div img {
 }
 
 @media screen and (max-width: 768px) {
+  .video-promos section h2 img {
+    width: 54.3% !important;
+  }
+
   .c_h {
     border-left: 4.5px solid #3a2;
     padding: 0 0 0 2.6%;
@@ -299,6 +307,10 @@ header div img {
   }
 }
 @media screen and (max-width: 480px) {
+  .video-promos section h2 img {
+    width: 54.9% !important;
+  }
+
   .c_h {
     border-left: 3px solid #3a2;
     padding: 0 0 0 2.6%;
