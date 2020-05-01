@@ -358,9 +358,11 @@ header {
 				}
 			}
 			.mdl_dt {
-				padding: 0 4px 0 11px;
-				font-size: 24px;
-				white-space: nowrap;
+				span {
+					padding: 0 4px 0 11px;
+					font-size: 24px;
+					white-space: nowrap;
+				}
 			}
 		}
 	}
@@ -687,8 +689,10 @@ footer {
 					}
 				}
 				.mdl_dt {
-					padding: 0 0.8% 0 1.8%;
-					font-size: calc(36vw/12);
+					span {
+						padding: 0 0.8% 0 1.8%;
+						font-size: calc(36vw/12);
+					}
 				}
 			}
 		}
@@ -980,8 +984,10 @@ footer {
 					}
 				}
 				.mdl_dt {
-					padding: 0 0.8% 0 1.6%;
-					font-size: calc(36vw/12);
+					span {
+						padding: 0 0.8% 0 1.6%;
+						font-size: calc(36vw/12);
+					}
 				}
 			}
 		}
