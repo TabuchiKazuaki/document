@@ -93,6 +93,11 @@ img {
   margin: 0 auto;
 }
 
+.pre_w {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
 .cl {
   color: #ddaa00;
 }
@@ -115,6 +120,21 @@ img {
   font-weight: bold;
   letter-spacing: 1.3px;
   color: #fff;
+}
+
+.pre_btn a {
+  display: block;
+  background: #ddaa00;
+  padding: 23px 0;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #000;
+}
+.pre_btn a span {
+  font-size: 34px;
 }
 
 header {
@@ -870,6 +890,23 @@ footer small {
     font-size: calc(48vw/12);
   }
 
+  .pre_w {
+    max-width: none;
+    width: 94%;
+    padding: 0 3%;
+    margin: 0 auto;
+  }
+
+  .pre_btn a {
+    padding: 3.5% 0;
+    border-radius: 5px;
+    font-size: calc(50vw/12);
+    letter-spacing: 1.3px;
+  }
+  .pre_btn a span {
+    font-size: calc(53vw/12);
+  }
+
   header {
     padding: 0;
   }
@@ -1406,6 +1443,16 @@ footer small {
   .top a {
     display: inline-block;
     font-size: calc(50vw/12);
+  }
+
+  .pre_btn a {
+    padding: 3.5% 0;
+    border-radius: 5px;
+    font-size: calc(52vw/12);
+    letter-spacing: 1.3px;
+  }
+  .pre_btn a span {
+    font-size: calc(55vw/12);
   }
 
   header {
