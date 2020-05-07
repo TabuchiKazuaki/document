@@ -330,13 +330,15 @@ header {
 		margin: 38px 0 0;
 		a {
 			display: block;
-			background: #e5c200;
-			padding: 18px 0;
+			background: none;
+			padding: 23px 0;
+			border: 4px solid #ddaa00;
 			border-radius: 6px;
 			text-align: center;
-			font-size: 25px;
+			font-size: 32px;
 			font-weight: bold;
-			color: #000;
+			letter-spacing: 1.5px;
+			color: #ddaa00;
 		}
 	}
 	.c_wrap {
@@ -491,6 +493,7 @@ header {
 		display: inline-block;
 		padding: 0 25px 0 28px;
 		font-size: 26px;
+		font-weight: bold;
 		letter-spacing: 1.3px;
 		text-align: center;
 
@@ -866,7 +869,7 @@ footer {
 	}
 
 	.top {
-		margin: 5% 0 8%;
+		margin: 9% 0 14%;
 		a {
 			display: inline-block;
 			font-size: calc(48vw/12);
@@ -980,6 +983,7 @@ footer {
 			line-height: 1.4;
 		}
 	}
+
 	.merit {
 		padding: 8% 0 0;
 		.wrap {
@@ -1047,31 +1051,6 @@ footer {
 						font-size: calc(47vw/12);
 					}
 				}
-			}
-		}
-	}
-
-	.gen {
-		margin: 4% 2.5% 0;
-		li {
-			width: 31.73%;
-			margin: 2.4% 0 0 2.4%;
-
-			&:nth-child(3n+1) {
-				margin: 2.4% 0 0;
-			}
-
-			&:nth-child(3) {
-				margin: 0 0 0 2.4%;
-			}
-			&:nth-child(2) {
-				margin: 0 0 0 2.4%;
-			}
-			&:nth-child(1) {
-				margin: 0;
-			}
-			img {
-				line-height: 0;
 			}
 		}
 	}
@@ -1161,9 +1140,9 @@ footer {
 		.c_btn {
 			margin: 3% 0 0;
 			a {
-				padding: 3% 0;
+				padding: 3.8% 0;
 				border-radius: 5px;
-				font-size: calc(39vw/12);
+				font-size: calc(50vw/12);
 			}
 		}
 		.ch_m {
@@ -1218,19 +1197,6 @@ footer {
 					}
 				}
 			}
-			.ch_btn {
-				margin: 6% auto 0;
-				a {
-					display: block;
-					background: #e5c200;
-					padding: 26px 0;
-					border-radius: 6px;
-					text-align: center;
-					font-size: 28px;
-					font-weight: bold;
-					color: #000;
-				}
-			}
 		}
 
 		.c_twenty {
@@ -1267,28 +1233,86 @@ footer {
 			}
 		}
 
-		.f_dot {
-			margin: 2.3% 0 0 5.2%;
-			li {
-				padding: 0 0 0 4%;
-				margin: 1.4% 0 0;
-				line-height: 1.4;
-				font-size: 15px;
-				&:before {
-					top: 11px;
-					left: 0%;
-					font-size: 15px;
-					line-height: 0;
+
+		.c_pot {
+			width: 35.2%;
+			margin: 8.6% auto 0;
+		}
+		.c_pt {
+			display: inline-block;
+			padding: 0 3% 0 4.5%;
+			font-size: calc(42vw/12);
+			letter-spacing: 1.3px;
+
+			&:before {
+				top: 10%;
+				background-size: 100% 100%;
+				width: 5%;
+				height: 100%;
+			}
+
+			&:after {
+				top: 10%;
+				right: 0;
+				background-size: 100% 100%;
+				width: 5%;
+				height: 100%;
+			}
+		}
+
+		.c_pimg {
+			width: 81.5%;
+			margin: 4.5% auto 0;
+		}
+
+		.c_date {
+			margin: 7% 0 0;
+			font-size: calc(33vw/12);
+		}
+		.c_cau {
+			margin: 2.3% 0 0;
+			font-size: calc(26vw/12);
+			line-height: 1.4;
+		}
+
+		.c_inner {
+			padding: 2.4% 2.6% 7%;
+			margin: 8% 0 0;
+			border-radius: 7px;
+			.c_dl {
+				dt {
+					margin: 6% 0 0;
+					font-size: calc(47vw/12);
+					letter-spacing: 1.3px;
 				}
+				dd {
+					margin: 6% 0 0;
+					font-size: calc(36vw/12);
+					line-height: 1.8;
+					letter-spacing: 1.3px;
+				}
+			}
+			.cd_item {
+				font-size: calc(38vw/12);
+				line-height: 0.5;
+				li {
+					line-height: 1.25;
+				}
+				span {
+					font-size: calc(62vw/12);
+				}
+			}
+			.cd_icau {
+				margin: 5% 0 0;
+				line-height: 1.5;
+				font-size: calc(32vw/12);
 			}
 		}
 	}
-
 	aside {
-		padding: 0 0 2%;
-
 		.wrap {
-			padding: 0 4.5% 2%;
+			max-width: 100%;
+			padding: 0 6% 2%;
 			margin: 2% auto 0;
 		}
 		.f_d {
@@ -1375,15 +1399,10 @@ footer {
 			letter-spacing: 1.3px;
 		}
 	}
-	// .hana { -webkit-animation: item_sp 0.5s ease 2s 1 forwards; animation: item_sp 1s ease 1.8s 1 forwards; }
 }
 
 
 @media screen and (max-width: 480px) {
-	.pc {
-		display: none;
-	}
-
 	.pb30 {
 		padding: 0 0 5% !important;
 	}
@@ -1415,7 +1434,7 @@ footer {
 	}
 
 	.top {
-		margin: 5% 0 8%;
+		margin: 9% 0 14%;
 		a {
 			display: inline-block;
 			font-size: calc(50vw/12);
@@ -1423,68 +1442,89 @@ footer {
 	}
 
 	header {
+		padding: 0;
+		.wrap {
+			padding: 0 5%;
+		}
 		.h_l {
-			padding: 1% 0 1.5% 2%;
+			padding: 1.2% 0 1.2% 2.2%;
 			span {
 				display: inline-block;
-				width: 16%;
+				max-width: 19.2%;
 			}
 		}
 		.h_a {
 			position: relative;
-			padding: 7.2% 0 6.2%;
+			background-size: cover;
+			padding: 7% 0 5%;
+			margin: 0 auto;
+			box-sizing: border-box;
+		}
+		.h_fix {
+			position: absolute;
+			top: 1.1%;
+			right: 2%;
+			width: 24.6%;
 		}
 		.h_i {
-			width: 36%;
-			margin: 0 auto;
-			line-height: 0;
+			width: 88.2%;
 		}
 		.h_p {
-			width: 85%;
-			margin: 3.9% auto 0;
-			line-height: 0;
-		}
-
-		.h_btn {
-			max-width: 100%;
-			width: 92.6%;
-			margin: 8% auto 0;
-
-			a {
-				padding: 4.1% 0;
-				letter-spacing: 1.3px;
-				font-size: calc(46vw/12);
-				border-radius: 6px;
-				span {
-					display: inline-block;
-					margin: 0 0.3% 0 0;
-					font-size: calc(49vw/12);
-				}
-			}
+			width: 75.2%;
+			margin: 4% auto 0;
 		}
 
 		.h_inner{
 			width: 94%;
-			margin: 8% auto 0;
+			margin: 9% 3% 0;
 
 			.h_lot {
-				padding: 5.1%;
-				border-radius: 15px;
-				border: 1.5px solid #fff;
+				padding: 5.8% 5% 5.6%;
+				border-radius: 16px;
+				border: 2px solid #fff;
 				.hbi_h {
-					top: -2.8%;
+					top: -2%;
 					left: 26%;
+					background: rgba(0, 0, 0, 0.99);
 					padding: 0 4.5%;
-					font-size: calc(40vw/12);
+					font-size: calc(41vw/12);
 					letter-spacing: 1.2px;
 					line-height: 0.4;
 				}
-				.hbi_t {
-					padding: 0 0 3%;
-					font-size: calc(38vw/12);
-					letter-spacing: 1.5px;
-					line-height: 1.35;
+				.hi_item {
+					padding: 0 0 3.2%;
+
+					li {
+						position: relative;
+						display: inline-block;
+						padding: 0 0 0 6.5%;
+						font-size: calc(38vw/12);
+						letter-spacing: 1.5px;
+						line-height: 1.35;
+						white-space: nowrap;
+						&:before{
+							content: '';
+							position: absolute;
+							top: 6.5%;
+							left: 0;
+							background-size: 100% 100%;
+							width: 5.15%;
+							height: 84%;
+						}
+
+						&:nth-child(2) {
+							margin: 2% 6% 0 0;
+							&:before{
+								top: 17.5%;
+								background-size: 100% 100%;
+								width: 5.15%;
+								height: 84%;
+							}
+						}
+					}
 					.num {
+						display: inline-block;
+						margin: 0 1.8% 0;
 						font-size: calc(41vw/12);
 					}
 				}
@@ -1492,14 +1532,14 @@ footer {
 		}
 
 		.h_date {
-			margin: 2.5% 0 0;
+			margin: 3% 0 0;
 			font-size: calc(33vw/12);
 			letter-spacing: 1.1px;
 		}
 		.h_cau {
-			margin: 3% 0 0;
-			font-size: calc(24vw/12);
-			letter-spacing: 0.8px;
+			margin: 4% 0 0;
+			font-size: calc(27vw/12);
+			letter-spacing: 1.3px;
 			line-height: 1.4;
 		}
 	}
@@ -1561,7 +1601,7 @@ footer {
 
 				.c_it {
 					margin: 7.5% 0 0;
-					font-size: calc(44vw/12);
+					font-size: calc(42vw/12);
 					line-height: 1.5;
 					letter-spacing: 1.4px;
 					.h_ss {
@@ -1575,40 +1615,38 @@ footer {
 		}
 	}
 
-	.gen {
-		margin: 4% 2.5% 0;
-		li {
-			width: 31.73%;
-			margin: 2.4% 0 0 2.4%;
-
-			&:nth-child(3n+1) {
-				margin: 2.4% 0 0;
-			}
-
-			&:nth-child(3) {
-				margin: 0 0 0 2.4%;
-			}
-			&:nth-child(2) {
-				margin: 0 0 0 2.4%;
-			}
-			&:nth-child(1) {
-				margin: 0;
-			}
-			img {
-				line-height: 0;
-			}
-		}
-	}
-
 	.contents {
 		margin: 0;
 		.wrap {
-			width: 95%;
-			padding: 0;
+			width: 94%;
+			padding: 0 3%;
 			margin: 0 auto;
+			max-width: none;
 		}
 		.cw_l {
 			margin: 2.5% 0 0;
+		}
+
+		.step {
+			padding: 7% 3% 7.8%;
+			margin: 8% 0 0;
+			border-radius: 7px;
+			.one {
+				width: 22.8%;
+				margin: 0 auto;
+			}
+
+			.st_h {
+				margin: 6.2% 0 0;
+				font-size: calc(69vw/12);
+				letter-spacing: 2px;
+				line-height: 1.6;
+				white-space: nowrap;
+
+				.ls {
+					font-size: calc(81vw/12);
+				}
+			}
 		}
 
 		.c_five {
@@ -1616,6 +1654,7 @@ footer {
 			.c_five_li {
 				padding: 6.5% 0 6.5%;
 				margin: 0;
+				border-radius: 0;
 
 				&:first-child {
 					padding: 5% 0 5.5%;
@@ -1637,7 +1676,7 @@ footer {
 					font-size: calc(38vw/12);
 					line-height: 1.4;
 					span {
-						font-size: calc(41vw/12);
+						font-size: calc(43vw/12);
 					}
 				}
 			}
@@ -1645,25 +1684,25 @@ footer {
 
 		.c_h {
 			padding: 0 0 0 2.5%;
-			border-left: 5.5px solid #e5c200;
+			border-left: 6px solid #e5c200;
 			font-size: calc(47vw/12);
 			letter-spacing: 1.8px;
 			line-height: 1.4;
 			span {
-				font-size: calc(50vw/12);
+				font-size: calc(49vw/12);
 			}
 		}
 		.c_s_h {
-			width: 69.2%;
+			width: 68.4%;
 			margin: 8% auto 8%;
 			line-height: 0;
 		}
 		.c_btn {
 			margin: 3% 0 0;
 			a {
-				padding: 3% 0;
+				padding: 3.8% 0;
 				border-radius: 4px;
-				font-size: calc(41vw/12);
+				font-size: calc(52vw/12);
 			}
 		}
 		.ch_m {
@@ -1677,8 +1716,8 @@ footer {
 		}
 
 		.c_p {
-			width: 62.4%;
-			margin: 8% auto 0;
+			width: 77.2%;
+			margin: 4.5% auto 0;
 		}
 		.c_box {
 			padding: 0 2.2%;
@@ -1718,36 +1757,23 @@ footer {
 					}
 				}
 			}
-			.ch_btn {
-				margin: 6% auto 0;
-				a {
-					display: block;
-					background: #e5c200;
-					padding: 26px 0;
-					border-radius: 4px;
-					text-align: center;
-					font-size: 28px;
-					font-weight: bold;
-					color: #000;
-				}
-			}
 		}
 
 		.c_twenty {
 			.t_i {
 				li {
-					width: 31.73%;
-					margin: 2.4% 0 0 2.4%;
+					width: 31.05%;
+					margin: 3.4% 0 0 3.4%;
 
 					&:nth-child(3n+1) {
-						margin: 2.4% 0 0;
+						margin: 3.4% 0 0;
 					}
 
 					&:nth-child(3) {
-						margin: 0 0 0 2.4%;
+						margin: 0 0 0 3.4%;
 					}
 					&:nth-child(2) {
-						margin: 0 0 0 2.4%;
+						margin: 0 0 0 3.4%;
 					}
 					&:nth-child(1) {
 						margin: 0;
@@ -1758,60 +1784,119 @@ footer {
 				}
 			}
 			.c_btn {
-				margin: 4% 0 0;
+				margin: 6% 0 0;
 				a {
-					padding: 3% 0;
-					border-radius: 5px;
-					font-size: calc(41vw/12);
+					padding: 3.8% 0;
+					border-radius: 4px;
+					font-size: calc(52vw/12);
 				}
 			}
 		}
-		.f_dot {
-			margin: 2.3% 0 0 5.2%;
-			li {
-				padding: 0 0 0 3.5%;
-				margin: 1.4% 0 0;
-				line-height: 1.4;
-				font-size: 12px;
-				&:before {
-					top: 8px;
-					left: 0%;
-					font-size: 12px;
-					line-height: 0;
+
+
+		.c_pot {
+			width: 35.2%;
+			margin: 8.6% auto 0;
+		}
+		.c_pt {
+			display: inline-block;
+			padding: 0 3% 0 4.5%;
+			font-size: calc(44vw/12);
+			letter-spacing: 1.3px;
+
+			&:before {
+				top: 10%;
+				background-size: 100% 100%;
+				width: 5%;
+				height: 100%;
+			}
+
+			&:after {
+				top: 10%;
+				right: 0;
+				background-size: 100% 100%;
+				width: 5%;
+				height: 100%;
+			}
+		}
+
+		.c_pimg {
+			width: 81.5%;
+			margin: 4.5% auto 0;
+		}
+
+		.c_date {
+			margin: 7% 0 0;
+			font-size: calc(35vw/12);
+		}
+		.c_cau {
+			margin: 2.3% 0 0;
+			font-size: calc(28vw/12);
+			line-height: 1.4;
+		}
+
+		.c_inner {
+			padding: 2.4% 2.6% 7%;
+			margin: 8% 0 0;
+			border-radius: 6px;
+			.c_dl {
+				dt {
+					margin: 6% 0 0;
+					font-size: calc(49vw/12);
+					letter-spacing: 1.3px;
 				}
+				dd {
+					margin: 6% 0 0;
+					font-size: calc(38vw/12);
+					line-height: 1.8;
+					letter-spacing: 1.3px;
+				}
+			}
+			.cd_item {
+				font-size: calc(40vw/12);
+				line-height: 0.5;
+				li {
+					line-height: 1.25;
+				}
+				span {
+					font-size: calc(64vw/12);
+				}
+			}
+			.cd_icau {
+				margin: 5% 0 0;
+				line-height: 1.5;
+				font-size: calc(34vw/12);
 			}
 		}
 	}
-
-
 	aside {
-		padding: 0 0 2%;
-
 		.wrap {
-			padding: 0 4.5% 2%;
+			max-width: 100%;
+			padding: 0 6% 2%;
 			margin: 2% auto 0;
 		}
 		.f_d {
 			dt {
 				margin: 6.5% 0 0;
-				font-size: calc(48vw/12);
+				font-size: calc(46vw/12);
 				letter-spacing: 1.3px;
 			}
 			dd {
 				margin: 3.7% 0 0;
-				font-size: calc(41vw/12);
+				font-size: calc(39vw/12);
 				line-height: 1.45;
 				letter-spacing: 1.3px;
 				.caution {
 					margin: 2% 0 0;
-					font-size: calc(35vw/12);
+					font-size: calc(33vw/12);
 				}
 				.f_item {
 					margin: 2.3% 0 2% 4.2%;
 					li {
 						margin: 1% 0 0;
 						line-height: 1.4;
-						font-size: calc(36vw/12);
+						font-size: calc(34vw/12);
+						line-height: 1;
 					}
 				}
 				a {
@@ -1827,7 +1912,7 @@ footer {
 		.f_c {
 			margin: 2.5% 0 0;
 			line-height: 1.4;
-			font-size: calc(36vw/12);
+			font-size: calc(34vw/12);
 		}
 	}
 
