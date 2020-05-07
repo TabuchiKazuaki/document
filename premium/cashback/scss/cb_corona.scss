@@ -360,6 +360,11 @@ header {
 			font-weight: bold;
 			letter-spacing: 1.5px;
 			color: #ddaa00;
+			&:hover {
+				opacity: 1;
+				background: #ddaa00;
+				color: #000;
+			}
 		}
 	}
 	.c_wrap {
@@ -1185,6 +1190,12 @@ footer {
 				border: 3px solid #ddaa00;
 				border-radius: 5px;
 				font-size: calc(50vw/12);
+
+				&:hover {
+					opacity: .8;
+					background: none;
+					color: #ddaa00;
+				}
 			}
 		}
 		.ch_m {
@@ -1272,6 +1283,11 @@ footer {
 					border: 3px solid #ddaa00;
 					border-radius: 5px;
 					font-size: calc(50vw/12);
+					&:hover {
+						opacity: .8;
+						background: none;
+						color: #ddaa00;
+					}
 				}
 			}
 		}

@@ -375,6 +375,11 @@ header .h_cau {
   letter-spacing: 1.5px;
   color: #ddaa00;
 }
+.contents .c_btn a:hover {
+  opacity: 1;
+  background: #ddaa00;
+  color: #000;
+}
 .contents .c_wrap {
   padding: 62px 0 0;
   margin: 62px 0 0;
@@ -1169,6 +1174,11 @@ footer small {
     border-radius: 5px;
     font-size: calc(50vw/12);
   }
+  .contents .c_btn a:hover {
+    opacity: .8;
+    background: none;
+    color: #ddaa00;
+  }
   .contents .ch_m {
     margin: 9% 0 0;
   }
@@ -1247,6 +1257,11 @@ footer small {
     border: 3px solid #ddaa00;
     border-radius: 5px;
     font-size: calc(50vw/12);
+  }
+  .contents .c_twenty .c_btn a:hover {
+    opacity: .8;
+    background: none;
+    color: #ddaa00;
   }
   .contents .c_pot {
     width: 35.2%;
