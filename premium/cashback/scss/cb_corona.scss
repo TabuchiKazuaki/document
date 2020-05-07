@@ -34,6 +34,7 @@ img  { width: 100%; height: auto;}
 
 .tc {
 	text-align: center !important;
+	padding: 0 !important;
 }
 .pb30 {
 	padding: 0 0 35px !important;
@@ -875,7 +876,7 @@ footer {
 	header {
 		padding: 0;
 		.wrap {
-			padding: 0 6%;
+			padding: 0 5%;
 		}
 		.h_l {
 			padding: 1.2% 0 1.2% 2.2%;
@@ -919,17 +920,16 @@ footer {
 				border-radius: 20px;
 				border: 2px solid #fff;
 				.hbi_h {
-					top: -4px;
+					top: -2%;
 					left: 26%;
 					background: rgba(0, 0, 0, 0.99);
-					padding: 0 28px;
-					font-size: 25px;
+					padding: 0 4.5%;
+					font-size: calc(39vw/12);
 					letter-spacing: 1.2px;
-					line-height: 0.3;
+					line-height: 0.4;
 				}
 				.hi_item {
-					padding: 0 0 18px;
-					border-bottom: 1px solid #fff;
+					padding: 0 0 3.2%;
 
 					li {
 						position: relative;
@@ -938,6 +938,7 @@ footer {
 						font-size: calc(36vw/12);
 						letter-spacing: 1.5px;
 						line-height: 1.35;
+						white-space: nowrap;
 						&:before{
 							content: '';
 							position: absolute;
@@ -949,19 +950,19 @@ footer {
 						}
 
 						&:nth-child(2) {
-							margin: 2% 0 0;
+							margin: 2% 6% 0 0;
 							&:before{
 								top: 17.5%;
+								background-size: 100% 100%;
+								width: 5.15%;
+								height: 84%;
 							}
 						}
 					}
 					.num {
 						display: inline-block;
-						margin: 0 5px 0;
-						font-size: 26px;
-					}
-					.cl {
-						color: #ddaa00;
+						margin: 0 1.8% 0;
+						font-size: calc(39vw/12);
 					}
 				}
 			}
@@ -1078,9 +1079,10 @@ footer {
 	.contents {
 		margin: 0;
 		.wrap {
-			width: 95%;
-			padding: 0;
+			width: 94%;
+			padding: 0 3%;
 			margin: 0 auto;
+			max-width: none;
 		}
 		.cw_l {
 			margin: 2.5% 0 0;
@@ -1096,14 +1098,14 @@ footer {
 			}
 
 			.st_h {
-				margin: 4.3% 0 0;
-				font-size: 43px;
+				margin: 6.2% 0 0;
+				font-size: calc(67vw/12);
 				letter-spacing: 2px;
 				line-height: 1.6;
-				text-align: center;
+				white-space: nowrap;
 
 				.ls {
-					font-size: 47px;
+					font-size: calc(78vw/12);
 				}
 			}
 		}
@@ -1234,7 +1236,7 @@ footer {
 		.c_twenty {
 			.t_i {
 				li {
-					width: 30.73%;
+					width: 31.05%;
 					margin: 3.4% 0 0 3.4%;
 
 					&:nth-child(3n+1) {
