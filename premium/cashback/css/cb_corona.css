@@ -560,6 +560,12 @@ header .h_cau {
   width: 24px;
   height: 26px;
 }
+.contents .c_pt_sec {
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  text-align: center;
+}
 .contents .c_pimg {
   max-width: 568px;
   margin: 25px auto 0;
@@ -1286,6 +1292,10 @@ footer small {
     width: 5%;
     height: 100%;
   }
+  .contents .c_pt_sec {
+    font-size: calc(42vw/12);
+    letter-spacing: 1.3px;
+  }
   .contents .c_pimg {
     width: 81.5%;
     margin: 4.5% auto 0;
@@ -1834,6 +1844,10 @@ footer small {
     background-size: 100% 100%;
     width: 5%;
     height: 100%;
+  }
+  .contents .c_pt_sec {
+    font-size: calc(44vw/12);
+    letter-spacing: 1.3px;
   }
   .contents .c_pimg {
     width: 81.5%;
