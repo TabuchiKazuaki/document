@@ -51,19 +51,16 @@ $(document).ready(function() {
 	var t09 = new Date("2020/05/07 00:00");
 	if (now.getTime() > t09.getTime()) {
 		$('.a09').attr("href","https://abema.tv/video/title/115-71");
-		$('.a09').text("今すぐみる");
 	}
 
 	var t10 = new Date("2020/05/10 22:40");
 	if (now.getTime() > t10.getTime()) {
 		$('.a10').attr("href","https://abema.tv/video/episode/12-18_s0_p9");
-		$('.a10').text("今すぐみる");
 	}
 
 	var t11 = new Date("2020/05/04 00:00");
 	if (now.getTime() > t11.getTime()) {
 		$('.a11').attr("href","https://abema.tv/video/title/13-116");
-		$('.a11').text("今すぐみる");
 	}
 
 	var t12 = new Date("2020/05/04 18:30");
