@@ -16,8 +16,12 @@ a {
 }
 img  { width: 100%; height: auto;}
 
-
-
+.pc {
+	display: block;
+}
+.sp {
+	display: none;
+}
 .c_h {
 	border-left: 6px solid #3a2;
 	padding: 0 0 0 18px;
@@ -171,6 +175,13 @@ header {
 
 
 @media screen and (max-width: 768px) {
+
+	.pc {
+		display: none;
+	}
+	.sp {
+		display: block;
+	}
 	.c_h {
 		border-left: 4.5px solid #3a2;
 		padding: 0 0 0 2.6%;
