@@ -172,7 +172,6 @@ img  { width: 100%; }
 			}
 		}
 	}
-
 }
 
 footer {
@@ -304,6 +303,26 @@ footer {
 		margin: 0 !important;
 	}
 
+	.nav {
+		padding: 6.5% 0 0;
+		.wrap {
+			padding: 0 5.1%;
+		}
+
+		.nav_item {
+			overflow: hidden;
+			li {
+				float: left;
+				max-width: 121px;
+				width: 17.7%;
+				margin: 0 0 0 3.05%;
+				&:first-child {
+					margin: 0;
+				}
+			}
+		}
+	}
+
 	footer {
 		padding: 6% 0 0;
 		.wrap {
@@ -368,6 +387,26 @@ footer {
 	.mt70 {
 		margin: 9% 0 0 !important;
 	}
+
+	.nav {
+		padding: 6% 0 0;
+		.wrap {
+			padding: 0 5%;
+		}
+
+		.nav_item {
+			li {
+				width: 17.2%;
+				margin: 0 0 0 3.05%;
+
+				&:first-child {
+					margin: 0;
+				}
+			}
+
+		}
+	}
+
 
 	footer {
 		padding: 6% 0 0;
