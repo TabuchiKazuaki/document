@@ -86,6 +86,10 @@ img  { width: 100%; }
 .block__outer {
 	max-width: 680px;
 	margin: 0 auto;
+
+	&:first-child {
+		max-width: none;
+	}
 }
 .c_h {
 	padding: 0 0 0 18px;
