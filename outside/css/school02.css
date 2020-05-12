@@ -86,6 +86,24 @@ img {
   height: 38px;
 }
 
+.block__outer:first-child {
+  max-width: none;
+}
+
+.block__outer .heading-lv2 {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.heading-lv2__text {
+  padding: 0 0 0 18px;
+  margin: 53px 0 0;
+  font-size: 32px;
+  font-weight: bold;
+  border-left: 11px solid #00a0b5;
+  line-height: 1.2;
+}
+
 .fs {
   font-family: "Noto Sans JP", sans-serif !important;
 }
@@ -138,19 +156,6 @@ img {
 .wrap {
   max-width: 680px;
   margin: 0 auto;
-}
-
-.block__outer:first-child {
-  max-width: none;
-}
-
-.heading-lv2__text {
-  padding: 0 0 0 18px;
-  margin: 53px 0 0;
-  font-size: 32px;
-  font-weight: bold;
-  border-left: 11px solid #00a0b5;
-  line-height: 1.2;
 }
 
 @media screen and (max-width: 768px) {
