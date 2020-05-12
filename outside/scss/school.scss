@@ -5,10 +5,6 @@ body { line-height: 1; min-width: 320px; font-family: -apple-system, blinkMacSys
 		list-style: none;
 	}
 }
-.block__outer {
-	max-width: none !important;
-}
-
 .pc {
 	display: block;
 }
@@ -22,7 +18,7 @@ body { line-height: 1; min-width: 320px; font-family: -apple-system, blinkMacSys
 
 	iframe {
 		position: absolute;
-		z-index: 6;
+		z-index: 5;
 		left: 0;
 		top: 0;
 		width: 100% !important;
