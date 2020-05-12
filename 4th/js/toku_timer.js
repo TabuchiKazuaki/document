@@ -8,55 +8,55 @@ $(document).ready(function() {
 	var t02 = new Date("2020/05/23 00:00");
 	if (now.getTime() > t02.getTime()) {
 		$('.t10').hide();
-		$('.t09').show();
+		$('.t09').fadeIn();
 	}
 
 	var t03 = new Date("2020/05/24 00:00");
 	if (now.getTime() > t03.getTime()) {
 		$('.t09').hide();
-		$('.t08').show();
+		$('.t08').fadeIn();
 	}
 
 	var t04 = new Date("2020/05/25 00:00");
 	if (now.getTime() > t04.getTime()) {
 		$('.t08').hide();
-		$('.t07').show();
+		$('.t07').fadeIn();
 	}
 
 	var t05 = new Date("2020/05/26 00:00");
 	if (now.getTime() > t05.getTime()) {
 		$('.t07').hide();
-		$('.t06').show();
+		$('.t06').fadeIn();
 	}
 
 	var t06 = new Date("2020/05/27 00:00");
 	if (now.getTime() > t06.getTime()) {
 		$('.t06').hide();
-		$('.t05').show();
+		$('.t05').fadeIn();
 	}
 
 	var t07 = new Date("2020/05/28 00:00");
 	if (now.getTime() > t07.getTime()) {
 		$('.t05').hide();
-		$('.t04').show();
+		$('.t04').fadeIn();
 	}
 
 	var t08 = new Date("2020/05/29 00:00");
 	if (now.getTime() > t08.getTime()) {
 		$('.t04').hide();
-		$('.t03').show();
+		$('.t03').fadeIn();
 	}
 
 	var t09 = new Date("2020/05/30 00:00");
 	if (now.getTime() > t09.getTime()) {
 		$('.t03').hide();
-		$('.t02').show();
+		$('.t02').fadeIn();
 	}
 
 	var t10 = new Date("2020/05/31 00:00");
 	if (now.getTime() > t10.getTime()) {
 		$('.t02').hide();
-		$('.t01').show();
+		$('.t01').fadeIn();
 	}
 
 	var t11 = new Date("2020/06/01 00:00");
