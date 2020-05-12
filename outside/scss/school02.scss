@@ -156,9 +156,9 @@ img  { width: 100%; }
 	padding: 47px 0 0;
 
 	.nav_item {
-		overflow: hidden;
+		display:flex;
+		justify-content: space-between;
 		li {
-			float: left;
 			max-width: 121px;
 			width: 24%;
 			margin: 0 0 0 2.75%;
@@ -310,10 +310,7 @@ footer {
 		}
 
 		.nav_item {
-			overflow: hidden;
 			li {
-				float: left;
-				max-width: 121px;
 				width: 17.7%;
 				margin: 0 0 0 3.05%;
 				&:first-child {

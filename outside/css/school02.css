@@ -180,10 +180,14 @@ img {
   padding: 47px 0 0;
 }
 .nav .nav_item {
-  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .nav .nav_item li {
-  float: left;
   max-width: 121px;
   width: 24%;
   margin: 0 0 0 2.75%;
@@ -336,12 +340,7 @@ footer small {
   .nav .wrap {
     padding: 0 5.1%;
   }
-  .nav .nav_item {
-    overflow: hidden;
-  }
   .nav .nav_item li {
-    float: left;
-    max-width: 121px;
     width: 17.7%;
     margin: 0 0 0 3.05%;
   }
