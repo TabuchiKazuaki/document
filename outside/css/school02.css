@@ -172,11 +172,23 @@ img {
 }
 
 footer {
-  margin: 60px 0 0;
   background: #fff;
+  padding: 40px 0 0;
+}
+footer .wrap {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 60px 0 70px;
 }
 footer .f_inner {
   background: #efefef;
+}
+footer small {
+  display: block;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #666666;
 }
 
 @media screen and (max-width: 768px) {
