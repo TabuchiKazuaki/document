@@ -37,6 +37,11 @@ body li {
   height: 100% !important;
 }
 
+.heading-lv1, .heading-lv2 {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
 .movie {
   padding-top: 56.25%;
   margin: 0 auto 0;
@@ -76,7 +81,7 @@ img {
 
 .divider {
   max-width: 750px;
-  margin: 40px auto 45px;
+  margin: 40px auto 0;
   background: #efefef;
   height: 38px;
 }
@@ -141,15 +146,11 @@ img {
 
 .heading-lv2__text {
   padding: 0 0 0 18px;
+  margin: 53px 0 0;
   font-size: 32px;
   font-weight: bold;
   border-left: 11px solid #00a0b5;
   line-height: 1.2;
-}
-
-.heading-lv1, .heading-lv2 {
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
