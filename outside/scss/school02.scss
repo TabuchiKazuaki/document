@@ -151,6 +151,30 @@ img  { width: 100%; }
 }
 
 
+.nav {
+	background: #fff;
+	padding: 47px 0 0;
+
+	.nav_item {
+		overflow: hidden;
+		li {
+			float: left;
+			max-width: 121px;
+			width: 24%;
+			margin: 0 0 0 2.75%;
+
+			&:first-child {
+				margin: 0;
+			}
+
+			a {
+				display: block;
+			}
+		}
+	}
+
+}
+
 footer {
 	background: #fff;
 	padding: 40px 0 0;

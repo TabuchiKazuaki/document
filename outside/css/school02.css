@@ -175,6 +175,26 @@ img {
   margin: 0 auto;
 }
 
+.nav {
+  background: #fff;
+  padding: 47px 0 0;
+}
+.nav .nav_item {
+  overflow: hidden;
+}
+.nav .nav_item li {
+  float: left;
+  max-width: 121px;
+  width: 24%;
+  margin: 0 0 0 2.75%;
+}
+.nav .nav_item li:first-child {
+  margin: 0;
+}
+.nav .nav_item li a {
+  display: block;
+}
+
 footer {
   background: #fff;
   padding: 40px 0 0;
