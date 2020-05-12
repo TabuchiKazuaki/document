@@ -96,6 +96,10 @@ img {
   height: 38px;
 }
 
+.block__outer:nth-child(2) .heading-lv2__text {
+  margin: 31px 0 0;
+}
+
 .block__outer:first-child {
   max-width: none;
 }
@@ -220,6 +224,10 @@ footer small {
     margin: 3.8% auto 0;
     max-width: none;
     width: 91.2%;
+  }
+
+  .block__outer:nth-child(2) .heading-lv2__text {
+    margin: 5% 0 0;
   }
 
   .block__outer:first-child {
