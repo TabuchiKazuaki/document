@@ -201,7 +201,7 @@ footer {
 	.heading-lv2__text {
 		border-left: 7px solid #00a0b5;
 		padding: 0 0 0 2.6%;
-		margin: 7.3% 0 0;
+		margin: 4.3% 0 0;
 		line-height: 1.2;
 		font-size: calc(50vw/12);
 	}
@@ -228,7 +228,7 @@ footer {
 	.block__outer {
 		&:nth-child(2) {
 			.heading-lv2__text {
-				margin: 5% 0 0;
+				margin: 3% 0 0;
 			}
 		}
 	}
@@ -339,10 +339,19 @@ footer {
 	.heading-lv2__text {
 		border-left: 5.5px solid #00a0b5;
 		padding: 0 0 0 2.6%;
-		margin: 7% 0 0;
+		margin: 4% 0 0;
 		line-height: 1.4;
 		font-size: calc(52vw/12);
 	}
+
+	.block__outer {
+		&:nth-child(2) {
+			.heading-lv2__text {
+				margin: 3% 0 0;
+			}
+		}
+	}
+
 
 	.line_w {
 		.wrap_w {
