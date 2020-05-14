@@ -1,7 +1,13 @@
 .grid {
   padding: 0;
 }
+.grid:nth-of-type(1) .block__outer:nth-child(1) {
+  display: block;
+}
 .grid:nth-of-type(1) .block__outer:nth-child(2) {
+  display: none;
+}
+.grid:nth-of-type(1) .block__outer:nth-child(3) {
   background: #efefef;
   margin: -19px 0 0;
   padding: 30px 0;
@@ -60,7 +66,13 @@
   .grid {
     padding: 0;
   }
+  .grid:nth-of-type(1) .block__outer:nth-child(1) {
+    display: none;
+  }
   .grid:nth-of-type(1) .block__outer:nth-child(2) {
+    display: block;
+  }
+  .grid:nth-of-type(1) .block__outer:nth-child(3) {
     padding: 5% 0;
     margin: -4.8% 0 0 !important;
   }
