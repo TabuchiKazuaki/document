@@ -123,6 +123,22 @@
 				}
 			}
 		}
+		&:last-child {
+
+			.block-txt {
+				margin: 0 !important;
+			}
+
+			.blog-body__text :last-child, .txt :last-child {
+				max-width: none;
+				margin: 0 auto;
+				padding: 60px 0 100px;
+				font-size: 16px;
+				letter-spacing: 1px;
+				text-align: left;
+				color: #666666;
+			}
+		}
 	}
 
 	.blog-body__text h4, .txt h4 {

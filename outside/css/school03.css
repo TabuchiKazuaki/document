@@ -105,6 +105,18 @@
   .grid:nth-child(3) .column .block__outer:first-of-type {
     margin: 0;
   }
+  .grid:last-child .block-txt {
+    margin: 0 !important;
+  }
+  .grid:last-child .blog-body__text :last-child, .grid:last-child .txt :last-child {
+    max-width: none;
+    margin: 0 auto;
+    padding: 60px 0 100px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #666666;
+  }
 
   .blog-body__text h4, .txt h4 {
     font-weight: normal !important;
