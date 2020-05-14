@@ -107,3 +107,10 @@
     letter-spacing: 1.2px;
   }
 }
+@media screen and (max-width: 480px) {
+  .blog-body__text h4, .txt h4 {
+    font-size: calc(31vw/12);
+    line-height: 1.6;
+    letter-spacing: 0.6px;
+  }
+}
