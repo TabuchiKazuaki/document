@@ -30,19 +30,47 @@
 .blog-body__text h4, .txt h4 {
 	font-weight: normal!important;
 	font-family: 'Noto Sans JP', sans-serif!important;
+	margin: 0 auto;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 1.6;
+	letter-spacing: 1.5px;
+	color: #000;
 }
 
 
 
+@media screen and (max-width: 1024px) {
+	.blog-body__text h4, .txt h4 {
+		font-size: 17px;
+		line-height: 1.6;
+		letter-spacing: 1.2px;
+	}
+}
+@media screen and (max-width: 896px) {
+	.blog-body__text h4, .txt h4 {
+		font-size: 15px;
+		line-height: 1.6;
+		letter-spacing: 1.2px;
+	}
+}
+
+
 
 @media screen and (max-width: 768px) {
+	.blog-body__text h4, .txt h4 {
+		font-size: calc(31vw/12);
+		line-height: 1.63;
+		letter-spacing: 1.2px;
+		white-space: nowrap;
+	}
 	.grid {
 		padding: 0;
 		&:nth-of-type(1) {
 			.block__outer {
 				&:nth-child(2) {
 					padding: 5% 0;
-					margin: -3.8% 0 0;
+					margin: -4.8% 0 0 !important;
 				}
 			}
 		}
@@ -62,6 +90,33 @@
 		}
 	}
 
+	.blog-body__text h4, .txt h4 {
+		font-weight: normal!important;
+		font-family: 'Noto Sans JP', sans-serif!important;
+		margin: 0 auto;
+		font-size: 20px;
+		font-weight: normal;
+		line-height: 1.6;
+		letter-spacing: 1.5px;
+		color: #000;
+	}
+}
+
+
+@media screen and (max-width: 736px) {
+	.blog-body__text h4, .txt h4 {
+		font-size: 14px;
+		line-height: 1.6;
+		letter-spacing: 1.2px;
+	}
+}
+
+@media screen and (max-width: 667px) {
+	.blog-body__text h4, .txt h4 {
+		font-size: 12px;
+		line-height: 1.6;
+		letter-spacing: 1.2px;
+	}
 }
 
 
