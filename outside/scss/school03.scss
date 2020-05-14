@@ -94,9 +94,17 @@
 				display: flex;
 				justify-content: space-between;
 				padding: 0;
-				margin: 47px 0 0;
+				margin: 7.2% 0 0;
 				.img {
 					max-width: 121px;
+				}
+
+				.block__outer {
+					margin: 0 0 0 2.5%;
+
+					&:first-child {
+						margin: 0;
+					}
 				}
 			}
 		}

@@ -82,10 +82,16 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding: 0;
-    margin: 47px 0 0;
+    margin: 7.2% 0 0;
   }
   .grid:nth-child(3) .column .img {
     max-width: 121px;
+  }
+  .grid:nth-child(3) .column .block__outer {
+    margin: 0 0 0 2.5%;
+  }
+  .grid:nth-child(3) .column .block__outer:first-child {
+    margin: 0;
   }
 
   .blog-body__text h4, .txt h4 {
