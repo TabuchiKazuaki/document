@@ -31,6 +31,7 @@
 }
 .grid:last-child {
   background: #efefef;
+  margin: 60px 0 0;
 }
 .grid:last-child .blog-body__text :last-child, .grid:last-child .txt :last-child {
   max-width: 680px;
@@ -104,6 +105,9 @@
   }
   .grid:nth-child(3) .column .block__outer:first-of-type {
     margin: 0;
+  }
+  .grid:last-child {
+    margin: 7% 0 0;
   }
   .grid:last-child .blog-body__text :last-child, .grid:last-child .txt :last-child {
     max-width: none;
