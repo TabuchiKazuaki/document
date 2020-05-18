@@ -54,18 +54,6 @@
 
 }
 
-_:-ms-lang(x)::-ms-backdrop, {
-  .grid {
-	&:nth-child(3) {
-		.column {
-			.img {
-				width: 100%;
-				min-width: 121px;
-			}
-		}
-	}
-  }
-}
 
 
 
@@ -165,6 +153,7 @@ _:-ms-lang(x)::-ms-backdrop, {
 				margin: 7.2% 0 0;
 				.img {
 					max-width: 121px;
+					width: 121px;
 				}
 
 
