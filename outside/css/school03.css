@@ -37,7 +37,6 @@
 }
 .grid:nth-child(3) .column .img {
   max-width: 121px;
-  width: 121px;
 }
 .grid:last-child {
   background: #efefef;
@@ -63,6 +62,10 @@
   letter-spacing: 1.5px;
   color: #000;
 }
+_:-ms-lang(x)::-ms-backdrop,
+.grid:nth-child(3) .column .img {
+	width: 121px;
+}
 
 @media screen and (max-width: 1024px) {
   .blog-body__text h4, .txt h4 {
@@ -84,11 +87,11 @@
 	.grid:nth-child(3) .column .img {
 		width: 100%;
 	}
-	_:-ms-lang(x)::-ms-backdrop,
-	.grid:nth-child(3) .column .block__outer {
-		margin: 0 0 0 2.5%;
-		width: 18%;
-	}
+_:-ms-lang(x)::-ms-backdrop,
+.grid:nth-child(3) .column .block__outer {
+margin: 0 0 0 2.5%;
+width: 18%;
+}
   .pn {
     padding: 0 !important;
   }
