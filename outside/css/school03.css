@@ -1,3 +1,7 @@
+
+
+
+
 .block__outer .heading-lv2 {
   font-family: "Noto Sans JP", sans-serif !important;
   margin: 0 auto;
@@ -75,6 +79,11 @@
   }
 }
 @media screen and (max-width: 768px) {
+
+	_:-ms-lang(x)::-ms-backdrop,
+	.grid:nth-child(3) .column .img {
+		width: 121px;
+	}
   .pn {
     padding: 0 !important;
   }
