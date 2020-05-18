@@ -54,6 +54,20 @@
 
 }
 
+_:-ms-lang(x)::-ms-backdrop, {
+  .grid {
+	&:nth-child(3) {
+		.column {
+			.img {
+				width: 100%;
+				min-width: 121px;
+			}
+		}
+	}
+  }
+}
+
+
 
 
 .blog-body__text h4, .txt h4 {
@@ -152,6 +166,7 @@
 				.img {
 					max-width: 121px;
 				}
+
 
 				.block__outer {
 					margin: 0 0 0 2.5%;
