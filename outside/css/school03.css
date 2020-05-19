@@ -9,7 +9,11 @@ a:hover {
 }
 
 .placeholder__outer {
-	transition: none;
+	transition: none !important;
+}
+
+.img__item--action:before {
+	transition: none !important;
 }
 
 .grid {
