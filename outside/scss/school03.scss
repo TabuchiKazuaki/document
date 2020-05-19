@@ -33,7 +33,6 @@
 			margin: 47px 0 0;
 			.img {
 				max-width: 121px;
-				width: 121px;
 			}
 		}
 	}
@@ -68,6 +67,9 @@
 	color: #000;
 }
 
+.pc .img__item--action:hover:before {
+	background: none!important;
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -153,7 +155,6 @@
 				.img {
 					max-width: 121px;
 				}
-
 
 				.block__outer {
 					margin: 0 0 0 2.5%;
