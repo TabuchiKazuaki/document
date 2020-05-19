@@ -47,6 +47,16 @@ a:hover {
 .grid:nth-child(3) .column .img {
   max-width: 121px;
 }
+
+.grid:nth-child(3) .column .img a {
+	transition: .3s;
+	text-decoration: none;
+}
+.grid:nth-child(3) .column .img a:hover {
+	text-decoration: none;
+	opacity: .8;
+}
+
 .grid:last-child {
   background: #efefef;
   margin: 60px 0 0;
