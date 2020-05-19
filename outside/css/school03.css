@@ -10,7 +10,11 @@ a:hover {
 
 .placeholder__outer {
 	transition: none !important;
-	cursor: default;
+}
+
+_:-ms-lang(x)::-ms-backdrop,
+.grid:nth-child(3) .column .img {
+    width: 121px;
 }
 
 .img__item--action:before {
@@ -74,12 +78,15 @@ a:hover {
 }
 
 .blog-body__text h4, .txt h4 {
+	margin: 0 auto;
   font-weight: normal !important;
   font-family: "Noto Sans JP", sans-serif !important;
   margin: 0 auto;
   font-size: 20px;
   font-weight: normal;
   line-height: 1.6;
+  text-align: center;
+
   letter-spacing: 1.5px;
   color: #000;
 }
@@ -103,6 +110,17 @@ a:hover {
   }
 }
 @media screen and (max-width: 768px) {
+
+    _:-ms-lang(x)::-ms-backdrop,
+    .grid:nth-child(3) .column .img {
+        width: 100%;
+    }
+    _:-ms-lang(x)::-ms-backdrop,
+    .grid:nth-child(3) .column .block__outer {
+    margin: 0 0 0 2.5%;
+    width: 18%;
+    }
+
   .pn {
     padding: 0 !important;
   }
