@@ -10,6 +10,7 @@ a:hover {
 
 .placeholder__outer {
 	transition: none !important;
+	cursor: default;
 }
 
 .img__item--action:before {
@@ -49,6 +50,7 @@ a:hover {
 }
 
 .grid:nth-child(3) .column .img a {
+	cursor: pointer;
 	transition: .3s;
 	text-decoration: none;
 }
