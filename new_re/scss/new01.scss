@@ -434,6 +434,12 @@ footer {
 
 
 @media screen and (max-width: 768px) {
+	.line_w {
+		.wrap_w {
+			height: 28px;
+		}
+	}
+
 	.pc {
 		display: none;
 	}
@@ -675,6 +681,11 @@ footer {
 
 
 @media screen and (max-width: 480px) {
+	.line_w {
+		.wrap_w {
+			height: 19px;
+		}
+	}
 	.pb30 {
 		padding: 0 0 5% !important;
 	}
