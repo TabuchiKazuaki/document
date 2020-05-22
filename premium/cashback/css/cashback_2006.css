@@ -901,7 +901,8 @@ header .t_box .timer span {
   line-height: 0;
 }
 .contents .c_twenty .c_btn {
-  margin: 38px 0 0;
+  margin: 38px auto 0;
+  max-width: 654px;
 }
 .contents .c_twenty .c_btn a {
   display: block;
@@ -1733,6 +1734,7 @@ footer small {
     margin: 10.5% auto 0;
   }
   .contents .c_btn {
+    max-width: 100%;
     margin: 6% 0 0;
   }
   .contents .c_btn a {
@@ -1983,32 +1985,6 @@ footer small {
   }
   .contents .c_lot li .c_it .num {
     font-size: calc(47vw/12);
-  }
-  .contents .c_fit {
-    padding: 0 2.5%;
-    margin: 8% 0 0;
-    border-radius: 6px;
-  }
-  .contents .c_fit li {
-    padding: 9.5% 1% 10.5%;
-    max-width: 768px;
-    margin: 0 auto 0;
-    border-top: 2px solid #404040;
-  }
-  .contents .c_fit li .pic {
-    margin: 2% auto 0;
-  }
-  .contents .c_fit .c_top {
-    margin: 0 auto 0;
-    line-height: 1.5;
-    letter-spacing: 1.3px;
-    font-size: calc(47vw/12);
-  }
-  .contents .c_fit .c_top_sec {
-    margin: 4% auto 0;
-    line-height: 1.5;
-    letter-spacing: 1.3px;
-    font-size: calc(49vw/12);
   }
   .contents .c_merit {
     margin: 4% 0 0;
