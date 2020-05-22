@@ -9,14 +9,14 @@ $(document).ready(function() {
 
 	var tt02 = new Date("2020/05/31 19:00");
 	if (now.getTime() > tt02.getTime()) {
-		$('#t01').attr("href","https://abema.tv/video/title/90-1396");
-		$('#t01').text("ビデオでみる");
+		$('#t02').attr("href","https://abema.tv/video/title/90-1396");
+		$('#t02').text("ビデオでみる");
 	}
 
 	var tt03 = new Date("2020/06/01 00:00");
 	if (now.getTime() > tt03.getTime()) {
-		$('#t01').attr("href","https://abema.tv/video/title/90-1396");
-		$('#t01').text("ビデオでみる");
+		$('#t03').attr("href","https://abema.tv/video/title/90-1396");
+		$('#t03').text("ビデオでみる");
 	}
 
 
