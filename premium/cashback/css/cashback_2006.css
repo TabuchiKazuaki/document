@@ -94,13 +94,13 @@ header .h_t {
 }
 header .h_cau {
   margin: 39px 0 0;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 1.2px;
   text-align: center;
   color: #fff;
 }
 header .h_cau span {
-  font-size: 18px;
+  font-size: 16px;
 }
 header .h_btn {
   margin: 56px 0 0;
@@ -419,7 +419,8 @@ header .t_box .timer span {
   text-align: center;
   font-size: 15px;
   font-weight: normal;
-  color: #ababab;
+  letter-spacing: 0.8px;
+  color: #fff;
 }
 .contents .trial .t_btn {
   max-width: 680px;
@@ -447,7 +448,7 @@ header .t_box .timer span {
   font-size: 22px;
 }
 .contents .ch_i_sec {
-  max-width: 489px;
+  max-width: 580px;
   margin: 78px auto 0;
   line-height: 0;
 }
@@ -483,7 +484,7 @@ header .t_box .timer span {
 }
 .contents .c_h {
   padding: 0 0 0 18px;
-  border-left: 5px solid #e5c200;
+  border-left: 11px solid #e5c200;
   font-size: 32px;
   font-weight: bold;
   letter-spacing: 1.8px;
@@ -492,6 +493,14 @@ header .t_box .timer span {
 }
 .contents .c_h span {
   font-size: 34px;
+}
+.contents .ch_rec {
+  max-width: 580px;
+  margin: 72px auto 0;
+}
+.contents .ch_rec_se {
+  max-width: 564px;
+  margin: 72px auto 0;
 }
 .contents .c_btn {
   margin: 41px 0 0;
@@ -543,7 +552,7 @@ header .t_box .timer span {
 .contents .c_box {
   background: #202121;
   padding: 0 15px;
-  margin: 20px 0 0;
+  margin: 42px 0 0;
   border-radius: 8px;
 }
 .contents .c_box .cb_text {
@@ -768,17 +777,17 @@ header .t_box .timer span {
           justify-content: flex-end;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 31.73%;
-  margin: 2.4% 0 0 2.4%;
+  width: 30.8%;
+  margin: 2.8% 0 0 3.7%;
 }
 .contents .c_twenty .t_i li:nth-child(3n+1) {
-  margin: 2.4% 0 0;
+  margin: 2.8% 0 0;
 }
 .contents .c_twenty .t_i li:nth-child(3) {
-  margin: 0 0 0 2.4%;
+  margin: 0 0 0 3.7%;
 }
 .contents .c_twenty .t_i li:nth-child(2) {
-  margin: 0 0 0 2.4%;
+  margin: 0 0 0 3.7%;
 }
 .contents .c_twenty .t_i li:nth-child(1) {
   margin: 0;
@@ -1239,20 +1248,20 @@ footer small {
     padding: 7.6% 0 5%;
   }
   header .h_m {
-    width: 49.7%;
+    width: 43.5%;
     margin: 0 auto 0;
   }
   header .h_t {
-    width: 77.5%;
-    margin: 4.8% auto 0;
+    width: 77.9%;
+    margin: 4.7% auto 0;
   }
   header .h_cau {
     margin: 4.4% 0 0;
-    font-size: calc(25vw/12);
-    letter-spacing: 1.2px;
+    font-size: calc(22vw/12);
+    letter-spacing: 1px;
   }
   header .h_cau span {
-    font-size: calc(27vw/12);
+    font-size: calc(24vw/12);
   }
   header .h_i {
     width: 70%;
@@ -1267,7 +1276,7 @@ footer small {
     margin: 0 0 0 2.5%;
   }
   header .h_btn {
-    margin: 7.1% auto 0;
+    margin: 7.8% auto 0;
     width: 85%;
   }
   header .h_btn a {
@@ -1528,7 +1537,7 @@ footer small {
   }
   .contents .c_h {
     padding: 0 0 0 2.5%;
-    border-left: 4px solid #e5c200;
+    border-left: 8px solid #e5c200;
     font-size: calc(45vw/12);
     letter-spacing: 1.8px;
     line-height: 1.4;
@@ -1596,25 +1605,6 @@ footer small {
   }
   .contents .c_twenty .t_i {
     margin: 4% 0 0;
-  }
-  .contents .c_twenty .t_i li {
-    width: 31.73%;
-    margin: 2.4% 0 0 2.4%;
-  }
-  .contents .c_twenty .t_i li:nth-child(3n+1) {
-    margin: 2.4% 0 0;
-  }
-  .contents .c_twenty .t_i li:nth-child(3) {
-    margin: 0 0 0 2.4%;
-  }
-  .contents .c_twenty .t_i li:nth-child(2) {
-    margin: 0 0 0 2.4%;
-  }
-  .contents .c_twenty .t_i li:nth-child(1) {
-    margin: 0;
-  }
-  .contents .c_twenty .t_i li img {
-    line-height: 0;
   }
   .contents .c_twenty .c_btn {
     margin: 3% 0 0;
@@ -2134,20 +2124,20 @@ footer small {
     padding: 7.6% 0 5%;
   }
   header .h_m {
-    width: 50.3%;
+    width: 43.5%;
     margin: 0 auto 0;
   }
   header .h_t {
-    width: 78%;
-    margin: 4.8% auto 0;
+    width: 77.9%;
+    margin: 4.7% auto 0;
   }
   header .h_cau {
     margin: 4.4% 0 0;
-    font-size: calc(25vw/12);
+    font-size: calc(23vw/12);
     letter-spacing: 0.5px;
   }
   header .h_cau span {
-    font-size: calc(27vw/12);
+    font-size: calc(25vw/12);
   }
   header .h_i {
     width: 70%;
@@ -2162,8 +2152,8 @@ footer small {
     margin: 0 0 0 2.5%;
   }
   header .h_btn {
-    margin: 7.1% auto 0;
-    width: 85%;
+    margin: 7.8% auto 0;
+    width: 89%;
   }
   header .h_btn a {
     padding: 4.2% 0;
@@ -2425,7 +2415,7 @@ footer small {
   }
   .contents .c_h {
     padding: 0 0 0 2.5%;
-    border-left: 4px solid #e5c200;
+    border-left: 5.5px solid #e5c200;
     font-size: calc(47vw/12);
     letter-spacing: 1.8px;
     line-height: 1.4;
@@ -2484,25 +2474,6 @@ footer small {
   }
   .contents .c_twenty .t_i {
     margin: 4% 0 0;
-  }
-  .contents .c_twenty .t_i li {
-    width: 31.73%;
-    margin: 2.4% 0 0 2.4%;
-  }
-  .contents .c_twenty .t_i li:nth-child(3n+1) {
-    margin: 2.4% 0 0;
-  }
-  .contents .c_twenty .t_i li:nth-child(3) {
-    margin: 0 0 0 2.4%;
-  }
-  .contents .c_twenty .t_i li:nth-child(2) {
-    margin: 0 0 0 2.4%;
-  }
-  .contents .c_twenty .t_i li:nth-child(1) {
-    margin: 0;
-  }
-  .contents .c_twenty .t_i li img {
-    line-height: 0;
   }
   .contents .c_twenty .c_btn {
     margin: 4% 0 0;
