@@ -63,5 +63,4 @@ $(document).ready(function() {
 	if (now.getTime() > t11.getTime()) {
 		$('.t01').hide();
 	}
-
 });
