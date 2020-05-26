@@ -272,6 +272,7 @@ header {
 		font-size: 18px;
 		text-align: center;
 		line-height: 1.35;
+		letter-spacing: 1.3px;
 		color: #606060;
 	}
 	.c_box {
@@ -726,37 +727,6 @@ footer {
 		}
 	}
 
-	.hol {
-		padding: 7.1% 0 5.5%;
-		margin: 0.1% 0 0;
-		.hb_l {
-			width: 52.5%;
-			margin: 0 auto 0;
-		}
-		.hb_t {
-			margin: 6% 0 0;
-			font-size: calc(72vw/12);
-			letter-spacing: 1.5px;
-			.ss {
-				display: inline-block;
-				margin: 0 0.3%;
-				font-size: calc(59vw/12);
-			}
-		}
-		figure {
-			margin: 6.3% 0 0;
-		}
-		.p_btn {
-			a {
-				padding: 4.1% 0;
-				font-size: calc(51vw/12);
-				border-radius: 6px;
-				letter-spacing: 1.3px;
-			}
-		}
-
-	}
-
 	.p_top {
 		margin: 6.5% 0 4.5%;
 		a {
@@ -819,6 +789,22 @@ footer {
 		letter-spacing: 1.2px;
 	}
 
+	.cw_btn {
+		a {
+			padding: 4% 0;
+			letter-spacing: 1.8px;
+			font-size: calc(50vw/12);
+			border-radius: 5px;
+			border: 3px solid #ff2646;
+
+			&:hover {
+				opacity: .8;
+				background: none;
+				color: #ff2646;
+			}
+		}
+	}
+
 	.contents {
 		.c_head {
 			width: 73%;
@@ -831,6 +817,7 @@ footer {
 		.c_text {
 			margin: 7% 0 0;
 			font-size: calc(28vw/12);
+			letter-spacing: 1.1px;
 			line-height: 1.35;
 		}
 		.c_box {
@@ -900,6 +887,7 @@ footer {
 			.cb_btn {
 				a {
 					padding: 4.1% 0;
+					border: 3px solid #ff2646;
 					font-size: calc(51vw/12);
 					border-radius: 6px;
 					letter-spacing: 1.3px;
@@ -947,11 +935,25 @@ footer {
 					}
 				}
 			}
+			.date {
+				padding: 0 0 0 6%;
+				font-size: calc(42vw/12);
+				letter-spacing: 1.3px;
+				&:before {
+					content: '';
+					top: 6%;
+					left: 0;
+					background-size: 100% 100%;
+					width: 3.6%;
+					height: 100%;
+				}
+			}
 			.btn {
-				margin: 5% 0 0;
+				margin: 6% 0 0;
 				a {
-					padding: 3% 0;
+					padding: 3.6% 0;
 					border-radius: 3px;
+					border: 3px solid #ff2646;
 					font-size: calc(51vw/12);
 				}
 			}
@@ -1142,6 +1144,53 @@ footer {
 		margin: 6.5% 0 4.5%;
 		a {
 			display: inline-block;
+			font-size: calc(57vw/12);
+			span {
+				font-size: calc(60vw/12);
+			}
+		}
+	}
+
+	.c_btn {
+		a {
+			padding: 3.8% 0;
+			letter-spacing: 1.8px;
+			font-size: calc(51vw/12);
+			border-radius: 5px;
+		}
+	}
+
+	.info {
+		padding: 4.9% 0;
+		.i_h {
+			line-height: 1.6;
+			font-size: calc(40vw/12);
+		}
+	}
+
+	.topic {
+		.t_h {
+			width: 60.1%;
+			margin: 8% auto 0;
+		}
+		.t_hne {
+			width: 57.2%;
+			margin: 7.8% auto 0;
+		}
+		.t_img {
+			width: 41.5%;
+			margin: 9.5% auto 0;
+		}
+		.t_img_sec {
+			width: 42.5%;
+			margin: 9.5% auto 0;
+		}
+	}
+
+	.p_top {
+		margin: 6.5% 0 4.5%;
+		a {
+			display: inline-block;
 			font-size: calc(55vw/12);
 			span {
 				font-size: calc(58vw/12);
@@ -1158,28 +1207,25 @@ footer {
 				max-width: 19.2%;
 			}
 		}
+		.wrap {
+			width: 100%;
+			padding: 0;
+			max-width: 1139px;
+			margin: 0 auto;
+		}
 		.h_a {
-			background-size: cover;
-			padding: 7.5% 0 4.8%;
+			padding: 7% 0 4.5%;
+			margin: 0 auto;
+			box-sizing: border-box;
 		}
 
 		.h_i {
-			width: 84.8%;
+			width: 84.5%;
 		}
 
 		.h_img {
-			width: 81.9%;
-			margin: 4% auto 0;
-		}
-	}
-
-	.c_lh {
-		padding: 2.7% 0 2.8%;
-		letter-spacing: 2.4px;
-		border-radius: 35px;
-		font-size: calc(56vw/12);
-		span {
-			font-size: calc(59vw/12);
+			width: 80.2%;
+			margin: 3.4% auto 0;
 		}
 	}
 
@@ -1200,6 +1246,16 @@ footer {
 		letter-spacing: 1.2px;
 	}
 
+	.cw_btn {
+		a {
+			padding: 4% 0;
+			letter-spacing: 1.8px;
+			font-size: calc(52vw/12);
+			border-radius: 4px;
+			border: 2px solid #ff2646;
+		}
+	}
+
 	.contents {
 		.c_head {
 			width: 73.6%;
@@ -1212,6 +1268,7 @@ footer {
 		.c_text {
 			margin: 7% 0 0;
 			font-size: calc(29vw/12);
+			letter-spacing: 0.6px;
 			line-height: 1.35;
 		}
 		.c_box {
@@ -1280,6 +1337,7 @@ footer {
 			.cb_btn {
 				a {
 					padding: 4.1% 0;
+					border: 2px solid #ff2646;
 					font-size: calc(53vw/12);
 					border-radius: 5px;
 					letter-spacing: 1.3px;
@@ -1325,10 +1383,24 @@ footer {
 					}
 				}
 			}
+			.date {
+				padding: 0 0 0 5.5%;
+				font-size: calc(42vw/12);
+				letter-spacing: 1.3px;
+				&:before {
+					content: '';
+					top: 6%;
+					left: 0;
+					background-size: 100% 100%;
+					width: 3.6%;
+					height: 100%;
+				}
+			}
 			.btn {
-				margin: 5% 0 0;
+				margin: 6% 0 0;
 				a {
-					padding: 3% 0;
+					padding: 3.6% 0;
+					border: 2px solid #ff2646;
 					border-radius: 3px;
 					font-size: calc(53vw/12);
 				}
