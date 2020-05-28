@@ -464,6 +464,24 @@ header {
 				}
 			}
 		}
+		.c_no {
+			display: block;
+			margin: 40px 0 0;
+			background: none;
+			padding: 15px 0;
+			text-align: center;
+			border: 3px solid #666;
+			border-radius: 6px;
+			font-size: 30px;
+			-webkit-transition: .3s all;
+			transition: .3s all;
+			color: #666;
+			&:hover {
+				opacity: 1;
+				background: #666;
+				color: #fff;
+			}
+		}
 	}
 
 	.c_v {
@@ -960,6 +978,18 @@ footer {
 					font-size: calc(51vw/12);
 				}
 			}
+			.c_no {
+				margin: 6% 0 0;
+				padding: 2.5% 0;
+				border: 2px solid #666;
+				border-radius: 5px;
+				font-size: calc(48vw/12);
+				&:hover {
+					opacity: 8;
+					background: none;
+					color: #666;
+				}
+			}
 		}
 
 		.c_v {
@@ -1411,6 +1441,13 @@ footer {
 					border-radius: 3px;
 					font-size: calc(53vw/12);
 				}
+			}
+			.c_no {
+				margin: 6% 0 0;
+				padding: 2.5% 0;
+				border: 2px solid #666;
+				border-radius: 4px;
+				font-size: calc(50vw/12);
 			}
 		}
 
