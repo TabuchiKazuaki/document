@@ -381,7 +381,7 @@ header .h_a .h_m {
   border-radius: 50%;
 }
 .contents .c_eight .btn {
-  margin: 45px 0 0;
+  margin: 42px 0 0;
 }
 .contents .c_eight .btn a {
   display: block;
@@ -415,6 +415,53 @@ header .h_a .h_m {
   opacity: 1;
   background: #666;
   color: #fff;
+}
+.contents .c_v {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+}
+.contents .cv_item {
+  overflow: hidden;
+  margin: 45px 0 0;
+}
+.contents .cv_item li {
+  float: left;
+  width: 31.33%;
+  margin: 0 0 0 3%;
+}
+.contents .cv_item li a {
+  display: block;
+  border: 3px solid #0c0306;
+  line-height: 0;
+}
+.contents .cv_item li .add {
+  position: relative;
+}
+.contents .cv_item li .add:before {
+  content: '無料エピソード拡大';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  display: inline-block;
+  background: #f0163a;
+  padding: 2px 11px;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  color: #fff;
+}
+.contents .cv_item li .nw_ad:before {
+  content: '新番組';
+  left: 63px;
+  padding: 2px 11px;
+  width: 29%;
+}
+.contents .cv_item li:first-child {
+  margin: 0;
 }
 .contents .c_box {
   padding: 50px 0 46px;
@@ -917,6 +964,37 @@ footer small {
     background: none;
     color: #666;
   }
+  .contents .c_v {
+    font-size: calc(38vw/12);
+    letter-spacing: 1.3px;
+  }
+  .contents .cv_item {
+    overflow: hidden;
+    margin: 6% 0 0;
+  }
+  .contents .cv_item li {
+    float: left;
+    width: 31.33%;
+    margin: 0 0 0 3%;
+  }
+  .contents .cv_item li:first-child {
+    margin: 0;
+  }
+  .contents .cv_item li .add:before {
+    top: 1.5%;
+    left: 5.5%;
+    display: inline-block;
+    padding: 2.2% 5.2%;
+    font-size: calc(29vw/12);
+    border-radius: 3px;
+    letter-spacing: 1px;
+    width: 79%;
+  }
+  .contents .cv_item li .nw_ad:before {
+    left: 30.5%;
+    padding: 2.2% 5.2%;
+    width: 33%;
+  }
   .contents .c_box {
     padding: 7% 0 6.5%;
   }
@@ -1305,6 +1383,43 @@ footer small {
     border: 2px solid #666;
     border-radius: 3px;
     font-size: calc(53vw/12);
+  }
+  s
+  .contents .c_v {
+    font-size: calc(39vw/12);
+    letter-spacing: 1.3px;
+  }
+  s
+  .contents .cv_item {
+    overflow: hidden;
+    margin: 5.5% 0 0;
+  }
+  s
+  .contents .cv_item li {
+    float: left;
+    width: 31.33%;
+    margin: 0 0 0 3%;
+  }
+  s
+  .contents .cv_item li .add:before {
+    top: 3%;
+    left: 6%;
+    display: inline-block;
+    padding: 2.3% 3.2% 1.8%;
+    font-size: calc(29vw/12);
+    border-radius: 2px;
+    letter-spacing: 0.5px;
+    width: 82%;
+  }
+  s
+  .contents .cv_item li .nw_ad:before {
+    left: 30.5%;
+    padding: 2.3% 3.2% 1.8%;
+    width: 33%;
+  }
+  s
+  .contents .cv_item li:first-child {
+    margin: 0;
   }
   s
   .contents .c_box {
