@@ -357,10 +357,14 @@ header .h_a .h_m {
   position: absolute;
   top: 0;
   left: 32%;
+  max-width: 236px;
   padding: 8px 34px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .contents .c_more .m_box .more {
   max-width: 164px;
+  margin: 0 auto;
   line-height: 0;
 }
 .contents .c_more .c_tit {
@@ -1442,7 +1446,6 @@ footer small {
     border: 2px solid #000;
     left: 32%;
     padding: 1.2% 5%;
-    max-width: 236px;
     width: 35.2%;
   }
   .contents .c_more .c_tit {
