@@ -31,7 +31,7 @@ img  { width: 100%; height: auto;}
 	}
 }
 
-.ffixed {
+.tenfixed {
 	background: #fff;
 	z-index: 10001;
 	position: fixed;
@@ -896,7 +896,7 @@ footer {
 	}
 }
 @media screen and (max-width: 1300px) {
-	.ffixed {
+	.tenfixed {
 		right: 15px;
 		bottom: 20px;
 		width: 21.3%;
@@ -938,7 +938,7 @@ footer {
 
 @media screen and (max-width: 768px) {
 
-	.ffixed {
+	.tenfixed {
 		background: #fff;
 		z-index: 10001;
 		position: fixed;
@@ -1550,6 +1550,31 @@ footer {
 
 
 @media screen and (max-width: 480px) {
+	.tenfixed {
+		background: #fff;
+		z-index: 10001;
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		padding: 0;
+		text-align: left;
+		border-radius: 0;
+		box-shadow: none;
+		.wrap {
+			max-width: 100%;
+			padding: 3.5% 3% 3.2%;
+			margin: 0 auto;
+		}
+		a {
+			display: block;
+			figure {
+				max-width: 697px;
+				margin: 0 auto;
+				line-height: 0;
+			}
+		}
+	}
 	.line_w {
 		.wrap_w {
 			height: 19px;

@@ -46,7 +46,7 @@ img {
   height: 100% !important;
 }
 
-.ffixed {
+.tenfixed {
   background: #fff;
   z-index: 10001;
   position: fixed;
@@ -61,13 +61,13 @@ img {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.ffixed .wrap {
+.tenfixed .wrap {
   max-width: none;
 }
-.ffixed a {
+.tenfixed a {
   display: block;
 }
-.ffixed a figure {
+.tenfixed a figure {
   max-width: 228px;
   margin: 0 auto;
   line-height: 0;
@@ -915,7 +915,7 @@ footer small {
 }
 
 @media screen and (max-width: 1300px) {
-  .ffixed {
+  .tenfixed {
     right: 15px;
     bottom: 20px;
     width: 21.3%;
@@ -927,10 +927,10 @@ footer small {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-  .ffixed a {
+  .tenfixed a {
     display: block;
   }
-  .ffixed a figure {
+  .tenfixed a figure {
     max-width: 228px;
     margin: 0 auto;
     line-height: 0;
@@ -953,7 +953,7 @@ footer small {
   }
 }
 @media screen and (max-width: 768px) {
-  .ffixed {
+  .tenfixed {
     background: #fff;
     z-index: 10001;
     position: fixed;
@@ -966,15 +966,15 @@ footer small {
     -webkit-box-shadow: none;
             box-shadow: none;
   }
-  .ffixed .wrap {
+  .tenfixed .wrap {
     max-width: 100%;
     padding: 3.5% 3% 3.2%;
     margin: 0 auto;
   }
-  .ffixed a {
+  .tenfixed a {
     display: block;
   }
-  .ffixed a figure {
+  .tenfixed a figure {
     max-width: 697px;
     margin: 0 auto;
     line-height: 0;
@@ -1539,6 +1539,33 @@ footer small {
   }
 }
 @media screen and (max-width: 480px) {
+  .tenfixed {
+    background: #fff;
+    z-index: 10001;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    text-align: left;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .tenfixed .wrap {
+    max-width: 100%;
+    padding: 3.5% 3% 3.2%;
+    margin: 0 auto;
+  }
+  .tenfixed a {
+    display: block;
+  }
+  .tenfixed a figure {
+    max-width: 697px;
+    margin: 0 auto;
+    line-height: 0;
+  }
+
   .line_w .wrap_w {
     height: 19px;
   }
