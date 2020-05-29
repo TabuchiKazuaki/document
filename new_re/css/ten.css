@@ -46,6 +46,33 @@ img {
   height: 100% !important;
 }
 
+.ffixed {
+  background: #fff;
+  z-index: 10001;
+  position: fixed;
+  right: 15px;
+  bottom: 20px;
+  max-width: 283px;
+  padding: 27px 26px 25px;
+  -webkit-box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.35);
+          box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.35);
+  border-radius: 6px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.ffixed .wrap {
+  max-width: none;
+}
+.ffixed a {
+  display: block;
+}
+.ffixed a figure {
+  max-width: 228px;
+  margin: 0 auto;
+  line-height: 0;
+}
+
 .fd {
   font-family: 'M PLUS Rounded 1c', sans-serif !important;
 }
@@ -887,6 +914,28 @@ footer small {
   color: #fff;
 }
 
+@media screen and (max-width: 1300px) {
+  .ffixed {
+    right: 15px;
+    bottom: 20px;
+    width: 21.3%;
+    padding: 1.95% 1.95% 1.9%;
+    -webkit-box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.35);
+            box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.35);
+    border-radius: 6px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .ffixed a {
+    display: block;
+  }
+  .ffixed a figure {
+    max-width: 228px;
+    margin: 0 auto;
+    line-height: 0;
+  }
+}
 @media screen and (max-width: 980px) {
   header .h_a {
     height: auto;
@@ -904,6 +953,33 @@ footer small {
   }
 }
 @media screen and (max-width: 768px) {
+  .ffixed {
+    background: #fff;
+    z-index: 10001;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    text-align: left;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .ffixed .wrap {
+    max-width: 100%;
+    padding: 3.5% 3% 3.2%;
+    margin: 0 auto;
+  }
+  .ffixed a {
+    display: block;
+  }
+  .ffixed a figure {
+    max-width: 697px;
+    margin: 0 auto;
+    line-height: 0;
+  }
+
   .line_w .wrap_w {
     height: 28px;
   }
