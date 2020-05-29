@@ -46,7 +46,7 @@ $(document).ready(function() {
 		$('.nw4').hide();
 	}
 
-	var now5 = new Date("2020/06/10 08:30");
+	var now5 = new Date("2020/06/10 08:50");
 	if (now.getTime() > now5.getTime()) {
 		$('.nw5').show();
 	}
@@ -73,7 +73,7 @@ $(document).ready(function() {
 		$('.nw7').hide();
 	}
 
-	var now8 = new Date("2020/06/18 08:30");
+	var now8 = new Date("2020/06/18 08:50");
 	if (now.getTime() > now8.getTime()) {
 		$('.nw8').show();
 	}
@@ -252,7 +252,7 @@ $(document).ready(function() {
 		$('.b04').text('今すぐみる');
 	}
 
-	var b05 = new Date("2020/06/10 08:30");
+	var b05 = new Date("2020/06/10 08:50");
 	if (now.getTime() > b05.getTime()) {
 		$('.b05').text('今すぐみる');
 	}
@@ -266,7 +266,7 @@ $(document).ready(function() {
 	if (now.getTime() > b07.getTime()) {
 		$('.b07').text('今すぐみる');
 	}
-	var b08 = new Date("2020/06/18 08:30");
+	var b08 = new Date("2020/06/18 08:50");
 	if (now.getTime() > b08.getTime()) {
 		$('.b08').text('今すぐみる');
 	}
