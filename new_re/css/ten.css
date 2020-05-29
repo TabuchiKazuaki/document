@@ -502,10 +502,7 @@ header .h_a .h_m {
 }
 .contents .c_box {
   padding: 41px 0 40px;
-  border-top: 1px solid #606060;
-}
-.contents .c_box:first-of-type {
-  border: none;
+  border-bottom: 1px solid #606060;
 }
 .contents .c_box .cb_dl {
   display: -webkit-box;
@@ -516,16 +513,16 @@ header .h_a .h_m {
           align-items: center;
 }
 .contents .c_box .cb_dl dd {
-  width: 47%;
+  width: 43%;
   line-height: 0;
 }
 .contents .c_box .cb_dl dt {
-  width: 50%;
-  margin: 0 0 0 3%;
+  width: 52%;
+  margin: 0 0 0 5%;
 }
 .contents .c_box .cb_dl dt .ch3 {
-  margin: 0 0 9px;
-  font-size: 30px;
+  margin: 12px 0 0;
+  font-size: 23px;
   font-weight: bold;
   letter-spacing: 1.2px;
   line-height: 1.4;
@@ -534,46 +531,39 @@ header .h_a .h_m {
 .contents .c_box .cb_dl dt .ch3 span {
   font-size: 32px;
 }
-.contents .c_box .cb_dl .ba {
-  margin: 0 0 10px;
-}
 .contents .c_box .cb_dl .ba01 {
   display: inline-block;
-  background: #ff002f;
-  padding: 5px 8px;
-  margin: 0 7px 0 0;
+  background: #fabdd4;
+  padding: 5px 12px;
+  margin: 0 17px 0 0;
   border-radius: 5px;
-  letter-spacing: 1.3px;
-  text-align: center;
-  font-size: 16px;
-  text-align: center;
+  letter-spacing: 1.5px;
   font-weight: bold;
-  color: #fff;
-}
-.contents .c_box .cb_dl .ba02 {
-  background: #000;
-  padding: 4px 8px 5px;
-}
-.contents .c_box .cb_dl .ba02 .num {
   font-size: 18px;
+  text-align: center;
+  color: #000;
+}
+.contents .c_box .cb_dl .date {
+  display: inline-block;
+  letter-spacing: 1.6px;
+  font-weight: bold;
+  font-size: 27px;
+  vertical-align: bottom;
+  color: #ef4172;
 }
 .contents .c_box .cb_dl .c_dt {
-  position: relative;
-  padding: 0 0 0 32px;
+  margin: 15px 0 0;
+}
+.contents .c_box .cb_dl .c_dt a {
+  display: block;
+  background: #ef4172;
+  padding: 12px 0;
   font-size: 24px;
   font-weight: bold;
-  letter-spacing: 1.3px;
-  color: #666666;
-}
-.contents .c_box .cb_dl .c_dt:before {
-  content: '';
-  position: absolute;
-  top: 1px;
-  left: 0;
-  background: #ddaa00;
-  width: 23px;
-  height: 23px;
-  border-radius: 50%;
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 2.5px;
+  color: #fff;
 }
 .contents .c_box .cb_txt {
   line-height: 1.7;
@@ -591,8 +581,173 @@ header .h_a .h_m {
   text-align: center;
   color: #000;
 }
+.contents .c_box .c_no {
+  background: #e5e5e5;
+  padding: 12px 0;
+  margin: 15px 0 0;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 4px;
+  letter-spacing: 2.5px;
+  text-align: center;
+  color: #000;
+}
 .contents .cbox_top {
-  padding: 25px 0 46px;
+  padding: 68px 0 42px;
+}
+.contents .fun {
+  max-width: 495px;
+  margin: 57px auto 60px;
+  line-height: 0;
+}
+
+.point {
+  background: #efefef;
+  padding: 50px 0 44px;
+}
+.point .p_h {
+  max-width: 523px;
+  margin: 0 auto;
+  line-height: 0;
+}
+.point .p_t {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1.3px;
+}
+.point .p_t .sin {
+  position: relative;
+  display: inline-block;
+  padding: 0 35px 0 36px;
+}
+.point .p_t .sin .num {
+  display: inline-block;
+  margin: 0 3px 0 0;
+  font-size: 28px;
+}
+.point .p_t .sin:before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/888dbc3abaf42f49382f31797a50233c_c43f5699fe7b728bda19f1751b8d3bc2.png) 0 0 no-repeat;
+  background-size: 24px 25px;
+  width: 24px;
+  height: 25px;
+}
+.point .p_t .sin:after {
+  content: '';
+  position: absolute;
+  top: 4px;
+  right: 0;
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/508385e1c869d9468edeb5f89ea8060e_20fb65a1d6bbc244fcf07d8ee098276e.png) 0 0 no-repeat;
+  background-size: 24px 25px;
+  width: 24px;
+  height: 25px;
+}
+.point .p_t .en {
+  display: inline-block;
+  font-size: 26px;
+  margin: 0 -2px 0 0;
+}
+.point .p_t .numb {
+  font-size: 28px;
+}
+.point .p_i {
+  background: #fff;
+  max-width: 596px;
+  padding: 10px 0;
+  margin: 32px auto 0;
+  border: 3px solid #0c0306;
+}
+.point .p_i .p_box {
+  max-width: 542px;
+  margin: 0 auto;
+  line-height: 0;
+}
+.point .p_btn a {
+  display: block;
+  background: #ef4172;
+  padding: 22px 0;
+  font-size: 32px;
+  font-weight: bold;
+  border-radius: 6px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #fff;
+}
+.point .p_btn a span {
+  display: inline-block;
+  margin: 0 4px 0 0;
+  font-size: 35px;
+}
+.point .p_date {
+  font-size: 20px;
+  letter-spacing: 1.3px;
+  text-align: center;
+}
+
+.lot {
+  padding: 40px 0 0;
+}
+.lot .l_p {
+  max-width: 351px;
+  margin: 0 auto 0;
+}
+.lot .l_item {
+  overflow: hidden;
+  padding: 0;
+  margin: 57px 0 0;
+  border-radius: 8px;
+}
+.lot .l_item li {
+  background: #efefef;
+  float: left;
+  width: 47.5%;
+  max-width: 321px;
+  padding: 0 0 35px;
+  margin: 5% 0 0 5%;
+  border-radius: 0 0 8px 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.lot .l_item li:first-child {
+  margin: 0;
+}
+.lot .l_item li:nth-child(2) {
+  margin: 0 0 0 5%;
+}
+.lot .l_item li:nth-child(3) {
+  margin: 5% 0 0 0;
+}
+.lot .l_item li .icon {
+  margin: 0 auto;
+  line-height: 0;
+}
+.lot .l_item li .icon img {
+  border-radius: 9px 9px 0 0;
+}
+.lot .l_item li .c_it {
+  margin: 25px 0 0;
+  text-align: center;
+  font-size: 27px;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: 1.4px;
+  color: #666;
+}
+.lot .l_item li .c_it .h_ss {
+  display: block;
+  font-size: 27px;
+  font-weight: bold;
+  color: #666;
+}
+.lot .l_item li .c_it .clr {
+  color: #e6c300;
+}
+.lot .l_item li .c_it .num {
+  font-size: 29px;
 }
 
 .hol {
@@ -800,6 +955,57 @@ footer small {
   }
   .pre_btn a span {
     font-size: calc(53vw/12);
+  }
+
+  .lot {
+    padding: 6% 0 0;
+  }
+  .lot .l_p {
+    width: 50.3%;
+    margin: 0 auto 0;
+  }
+  .lot .l_item {
+    overflow: hidden;
+    padding: 0;
+    margin: 7.5% 0 0;
+    border-radius: 7px;
+  }
+  .lot .l_item li {
+    float: left;
+    width: 47.5%;
+    padding: 0 0 5.1%;
+    margin: 5% 0 0 5%;
+    border-radius: 0 0 7px 7px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .lot .l_item li:first-child {
+    margin: 0;
+  }
+  .lot .l_item li:nth-child(2) {
+    margin: 0 0 0 5%;
+  }
+  .lot .l_item li:nth-child(3) {
+    margin: 5% 0 0 0;
+  }
+  .lot .l_item li .icon {
+    margin: 0 auto;
+    line-height: 0;
+  }
+  .lot .l_item li .icon img {
+    border-radius: 7px 7px 0 0;
+  }
+  .lot .l_item li .c_it {
+    margin: 7.5% 0 0;
+    font-size: calc(42vw/12);
+    line-height: 1.5;
+    letter-spacing: 1.4px;
+  }
+  .lot .l_item li .c_it .h_ss {
+    font-size: calc(43vw/12);
+  }
+  .lot .l_item li .c_it .num {
+    font-size: calc(47vw/12);
   }
 
   .hol {
@@ -1040,8 +1246,8 @@ footer small {
     line-height: 0;
   }
   .contents .c_box .cb_dl dt {
-    width: 50%;
-    margin: 0 0 0 3%;
+    width: 48.5%;
+    margin: 0 0 0 4.5%;
   }
   .contents .c_box .cb_dl dt .ch3 {
     margin: 0 0 2%;
@@ -1051,9 +1257,6 @@ footer small {
   }
   .contents .c_box .cb_dl dt .ch3 span {
     font-size: calc(51vw/12);
-  }
-  .contents .c_box .cb_dl .ba {
-    margin: 0 0 3.2%;
   }
   .contents .c_box .cb_dl .ba01 {
     display: inline-block;
@@ -1211,6 +1414,54 @@ footer small {
   }
   .pre_btn a span {
     font-size: calc(55vw/12);
+  }
+
+  .lot .l_p {
+    width: 51.1%;
+    margin: 0 auto 0;
+  }
+  .lot .l_item {
+    overflow: hidden;
+    padding: 0;
+    margin: 8.5% 0 0;
+    border-radius: 5px;
+  }
+  .lot .l_item li {
+    float: left;
+    width: 47.5%;
+    padding: 0 0 5.1%;
+    margin: 5% 0 0 5%;
+    border-radius: 0 0 5px 5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .lot .l_item li:first-child {
+    margin: 0;
+  }
+  .lot .l_item li:nth-child(2) {
+    margin: 0 0 0 5%;
+  }
+  .lot .l_item li:nth-child(3) {
+    margin: 5% 0 0 0;
+  }
+  .lot .l_item li .icon {
+    margin: 0 auto;
+    line-height: 0;
+  }
+  .lot .l_item li .icon img {
+    border-radius: 6px 6px 0 0;
+  }
+  .lot .l_item li .c_it {
+    margin: 7.5% 0 0;
+    font-size: calc(42vw/12);
+    line-height: 1.5;
+    letter-spacing: 1.4px;
+  }
+  .lot .l_item li .c_it .h_ss {
+    font-size: calc(43vw/12);
+  }
+  .lot .l_item li .c_it .num {
+    font-size: calc(47vw/12);
   }
 
   .hol {
