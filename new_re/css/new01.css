@@ -335,6 +335,13 @@ header .h_box .lgo {
   height: 23px;
   border-radius: 50%;
 }
+.contents .c_box .cb_dl .c_ddd:before {
+  top: 1px;
+  left: 0;
+  background: #ddaa00;
+  width: 23px;
+  height: 23px;
+}
 .contents .c_box .cb_txt {
   line-height: 1.7;
   font-size: 21px;
@@ -702,6 +709,16 @@ footer small {
     height: 100%;
     border-radius: 50%;
   }
+  .contents .c_box .cb_dl .c_ddd {
+    font-size: 21px;
+  }
+  .contents .c_box .cb_dl .c_ddd:before {
+    top: 3%;
+    left: 0;
+    background-size: 23px 23px;
+    width: 23px;
+    height: 23px;
+  }
   .contents .c_box .cb_dl .dct_l {
     font-size: calc(32vw/12);
   }
@@ -982,6 +999,16 @@ footer small {
     width: 6.6%;
     height: 100%;
     border-radius: 50%;
+  }
+  .contents .c_box .cb_dl .c_ddd {
+    font-size: 16px;
+  }
+  .contents .c_box .cb_dl .c_ddd:before {
+    top: 3%;
+    left: 0;
+    background-size: 19px 19px;
+    width: 19px;
+    height: 19px;
   }
   .contents .c_box .cb_dl .dct_l {
     font-size: calc(33vw/12);
