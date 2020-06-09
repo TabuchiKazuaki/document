@@ -72,6 +72,9 @@ img  { width: 100%; height: auto;}
 .sp {
 	display: none;
 }
+.ssp {
+	display: block;
+}
 
 .line_w {
 	max-width: 768px;
@@ -978,6 +981,9 @@ footer {
 	.sp {
 		display: block;
 	}
+	.ssp {
+		display: block;
+	}
 	.pb30 {
 		padding: 0 0 5% !important;
 	}
@@ -1617,6 +1623,10 @@ footer {
 		margin: 9% 0 0 !important;
 	}
 
+	.ssp {
+		display: none;
+	}
+
 	.top {
 		margin: 9% 0 14%;
 		a {
@@ -1955,7 +1965,7 @@ footer {
 			}
 			.c_no {
 				padding: 3.6% 0;
-				border: 3px solid #666;
+				border: 2px solid #666;
 				border-radius: 4px;
 				font-size: calc(53vw/12);
 				&:hover {
