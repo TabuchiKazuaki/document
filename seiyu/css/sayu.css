@@ -115,6 +115,7 @@ header .h_i .h_h {
   z-index: 1000;
 }
 header .h_i .h_bill {
+  display: block !important;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -865,8 +866,8 @@ footer small {
     z-index: 1000;
   }
   header .h_i .h_bill {
-    opacity: 0;
-    display: none;
+    display: none !important;
+    opacity: 0 !important;
   }
   header .h_bottom {
     display: block !important;
