@@ -256,6 +256,9 @@ header .h_bottom {
   margin: 0 auto;
   text-align: center;
 }
+.contents .c_i_sec .mc .wrap {
+  padding: 0 0 70px;
+}
 .contents .c_i_sec .mc_sec {
   background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/fde81b12662e2e602f82853ae28074a2_dd9ac4ef704dd48ed66dc951e3eb90b6.png) center top no-repeat;
   text-align: center;
@@ -276,23 +279,36 @@ header .h_bottom {
   letter-spacing: 1.4px;
   color: #f3dd00;
 }
+.contents .c_i_sec .c_h4 {
+  padding: 102px 0 0;
+  font-size: 57px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1.4px;
+  color: #f3dd00;
+}
 .contents .c_i_sec .c_p {
   margin: 49px 0 0;
   line-height: 1.7;
   font-size: 29px;
   letter-spacing: 1.4px;
+  text-align: center;
   color: #fff;
 }
 .contents .c_i_sec .c_date {
   display: inline-block;
+  width: 156px;
   background: #f3dd00;
-  padding: 12px 20px 14px;
-  margin: 0 auto;
+  padding: 15px 22px 12px;
+  margin: 58px auto 0;
   border-radius: 30px;
   text-align: center;
   font-weight: bold;
   font-size: 36px;
   letter-spacing: 1.3px;
+  color: #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .contents .c_i_sec .menber {
   overflow: hidden;
@@ -313,6 +329,7 @@ header .h_bottom {
 .contents .c_i_sec .menber li .name {
   margin: 40px 0 0;
   font-size: 34px;
+  font-family: 'M PLUS Rounded 1c', sans-serif !important;
   color: #fff;
 }
 .contents .c_i_sec .c_se_btn {

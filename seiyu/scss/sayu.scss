@@ -213,6 +213,9 @@ header {
 			max-width: 1920px;
 			margin: 0 auto;
 			text-align: center;
+			.wrap {
+				padding: 0 0 70px;
+			}
 		}
 
 		.mc_sec {
@@ -235,23 +238,35 @@ header {
 			letter-spacing: 1.4px;
 			color: #f3dd00;
 		}
+		.c_h4 {
+			padding: 102px 0 0;
+			font-size: 57px;
+			text-align: center;
+			font-weight: bold;
+			letter-spacing: 1.4px;
+			color: #f3dd00;
+		}
 		.c_p {
 			margin: 49px 0 0;
 			line-height: 1.7;
 			font-size: 29px;
 			letter-spacing: 1.4px;
+			text-align: center;
 			color: #fff;
 		}
 		.c_date {
 			display: inline-block;
+			width: 156px;
 			background: #f3dd00;
-			padding: 12px 20px 14px;
-			margin: 0 auto;
+			padding: 15px 22px 12px;
+			margin: 58px auto 0;
 			border-radius: 30px;
 			text-align: center;
 			font-weight: bold;
 			font-size: 36px;
 			letter-spacing: 1.3px;
+			color: #000;
+			box-sizing: border-box;
 		}
 
 		.menber {
@@ -272,6 +287,7 @@ header {
 				.name {
 					margin: 40px 0 0;
 					font-size: 34px;
+					font-family: 'M PLUS Rounded 1c', sans-serif !important;
 					color: #fff;
 				}
 			}
