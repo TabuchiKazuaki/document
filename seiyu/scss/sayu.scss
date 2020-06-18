@@ -923,6 +923,7 @@ footer {
 
 			.what {
 				font-size: calc(99vw/12);
+				letter-spacing: 0.7px;
 			}
 
 			.s_box {
@@ -1287,7 +1288,7 @@ footer {
 
 			.what {
 				font-size: calc(99vw/12);
-				letter-spacing: 0.5px;
+				letter-spacing: 0.2px;
 			}
 
 			.s_box {
@@ -1318,17 +1319,18 @@ footer {
 				.sm_item {
 
 					dd {
-						width: 38%;
+						width: 37%;
 						margin: 0 auto;
 					}
 					dt {
-						width: 57.5%;
+						width: 58.5%;
 						margin: 0 0 0 4.5%;
 
 						.sm_t {
 							font-size: calc(38vw/12);
 							line-height: 1.6;
-							letter-spacing: 0.6px;
+							letter-spacing: 0.4px;
+							white-space: nowrap;
 						}
 						.smore {
 							margin: 7% 0 0;
