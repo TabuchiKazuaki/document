@@ -545,13 +545,18 @@ header .h_m {
 }
 .merit .c_p {
   max-width: 362px;
+  margin: 42px auto 0;
+  line-height: 0;
+}
+.merit .m_list {
+  max-width: 680px;
   margin: 63px auto 0;
   line-height: 0;
 }
 .merit .c_re {
   overflow: hidden;
-  padding: 0 15px;
-  margin: 60px 0 0;
+  padding: 0;
+  margin: 42px 0 0;
   border-radius: 8px;
 }
 .merit .c_re li {
@@ -1840,7 +1845,7 @@ footer small {
   }
 
   .merit .c_re {
-    padding: 0 2.2%;
+    padding: 0;
     margin: 8% 0 0;
     border-radius: 7px;
   }
@@ -2947,7 +2952,7 @@ footer small {
   }
 
   .merit .c_re {
-    padding: 0 2.2%;
+    padding: 0;
     margin: 8% 0 0;
     border-radius: 6px;
   }
