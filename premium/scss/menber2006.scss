@@ -584,24 +584,7 @@ footer {
 			}
 		}
 	}
-	.f_dot {
-		margin: 15px 0 0 0;
-		li {
-			position: relative;
-			padding: 0 0 0 38px;
-			margin: 8px 0 0;
-			line-height: 1.4;
-			font-size: 19px;
-			&:before {
-				content: '・';
-				position: absolute;
-				top: 14px;
-				left: 20px;
-				font-size: 19px;
-				line-height: 0;
-			}
-		}
-	}
+
 
 	small {
 		display: block;
@@ -1008,77 +991,6 @@ footer {
 			margin: 2.5% 0 0;
 			line-height: 1.4;
 			font-size: calc(32vw/12);
-		}
-	}
-
-	aside {
-		padding: 0 0 4%;
-
-		.wrap {
-			padding: 1% 0 0;
-			margin: 0 4% 0;
-		}
-		.f_d {
-			dt {
-				margin: 6.5% 0 0;
-				font-size: calc(43vw/12);
-				letter-spacing: 1.3px;
-			}
-			dd {
-				margin: 3.7% 0 0;
-				font-size: calc(39vw/12);
-				line-height: 1.45;
-				letter-spacing: 1.3px;
-				.caution {
-					margin: 2% 0 0;
-					font-size: calc(33vw/12);
-				}
-				.f_item {
-					margin: 2.3% 0 2% 4.2%;
-					li {
-						margin: 1% 0 0;
-						line-height: 1.4;
-						font-size: calc(34vw/12);
-					}
-				}
-				.f_dot {
-					margin: 2.3% 0 0 0;
-					li {
-						padding: 0 0 0 3.5%;
-						margin: 1.4% 0 0;
-						line-height: 1.4;
-						font-size: 12px;
-						&:before {
-							top: 8px;
-							left: 0%;
-							font-size: 12px;
-							line-height: 0;
-						}
-					}
-				}
-				a {
-					&:hover {
-						text-decoration: underline;
-					}
-				}
-			}
-			.dd_last {
-				line-height: 1.2;
-			}
-			.f_last {
-				margin: 3% 0 0 0;
-				li {
-					padding: 0 0 0 4%;
-					margin: 0.8% 0 0;
-					line-height: 1.4;
-					font-size: calc(40vw/12);
-				}
-			}
-		}
-		.f_c {
-			margin: 2.5% 0 0;
-			line-height: 1.4;
-			font-size: calc(34vw/12);
 		}
 	}
 
@@ -1516,6 +1428,77 @@ footer {
 
 		.cam_btn {
 			margin: 3% 0 0;
+		}
+	}
+
+	aside {
+		padding: 0 0 4%;
+
+		.wrap {
+			padding: 2% 0 0;
+			margin: 0 4% 0;
+		}
+		.f_d {
+			dt {
+				margin: 6.5% 0 0;
+				font-size: calc(43vw/12);
+				letter-spacing: 1.3px;
+			}
+			dd {
+				margin: 3.7% 0 0;
+				font-size: calc(39vw/12);
+				line-height: 1.45;
+				letter-spacing: 1.3px;
+				.caution {
+					margin: 2% 0 0;
+					font-size: calc(33vw/12);
+				}
+				.f_item {
+					margin: 2.3% 0 2% 4.2%;
+					li {
+						margin: 1% 0 0;
+						line-height: 1.4;
+						font-size: calc(34vw/12);
+					}
+				}
+				.f_dot {
+					margin: 2.3% 0 0 5.2%;
+					li {
+						padding: 0 0 0 3.5%;
+						margin: 1.4% 0 0;
+						line-height: 1.4;
+						font-size: 12px;
+						&:before {
+							top: 8px;
+							left: 0%;
+							font-size: 12px;
+							line-height: 0;
+						}
+					}
+				}
+				a {
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+			.dd_last {
+				line-height: 1.2;
+			}
+			.f_last {
+				margin: 3% 0 0 0;
+				li {
+					padding: 0 0 0 4%;
+					margin: 0.8% 0 0;
+					line-height: 1.4;
+					font-size: calc(40vw/12);
+				}
+			}
+		}
+		.f_c {
+			margin: 2.5% 0 0;
+			line-height: 1.4;
+			font-size: calc(34vw/12);
 		}
 	}
 
