@@ -218,9 +218,9 @@ header .case .t_item li {
 }
 header .case .t_item li span {
   display: inline-block;
-  margin: 0 2px;
+  margin: 0 0.2%;
   letter-spacing: 2px;
-  font-size: 25px;
+  font-size: calc(40vw/12);
 }
 header .case .t_item li:before {
   content: '';
@@ -1071,9 +1071,9 @@ footer small {
   }
   header .case .t_item li span {
     display: inline-block;
-    margin: 0 2px;
+    margin: 0 0.2%;
     letter-spacing: 2px;
-    font-size: 25px;
+    font-size: calc(40vw/12);
   }
   header .case .t_item li:before {
     top: 3.5%;
