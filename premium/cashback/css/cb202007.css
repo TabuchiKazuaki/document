@@ -1649,7 +1649,7 @@ footer small {
     margin: 5.5% auto 0;
   }
   header .h_b {
-    margin: 3.5% 0 0;
+    margin: 2.6% 0 0;
     font-size: calc(58vw/12);
     letter-spacing: 0.8px;
   }
@@ -1676,8 +1676,8 @@ footer small {
   }
   header .case .t_item {
     counter-reset: number 0;
-    padding: 0 0 20px;
-    margin: 0 32px 0;
+    padding: 0 0 4%;
+    margin: 0 5% 0;
   }
   header .case .t_item li {
     padding: 0 0 0 7.5%;
@@ -1703,30 +1703,31 @@ footer small {
     top: 8%;
     left: 0;
     background: #fff;
-    width: 5%;
+    width: 5.1%;
     height: 43%;
     z-index: 20;
     border-radius: 50%;
   }
   header .case .t_item li:nth-child(2):before {
-    top: 4%;
+    top: 7%;
   }
   header .case .t_item li:nth-child(2):after {
     top: 8%;
     left: 0;
-    width: 5%;
+    width: 5.1%;
     height: 43%;
   }
   header .case .t_item li:nth-child(3):after {
     top: 8%;
     left: 0;
-    width: 5%;
+    width: 5.1%;
     height: 87%;
   }
   header .case .t_cau {
     margin: 4% 0 0;
-    font-size: calc(27vw/12);
-    letter-spacing: 0.7px;
+    font-size: calc(26vw/12);
+    letter-spacing: 0.5px;
+    white-space: nowrap;
   }
   header .case .t_date {
     margin: 2.6% 0 0;
@@ -1769,7 +1770,7 @@ footer small {
     padding: 7% 0 0;
   }
   .p_up .thri {
-    padding: 5% 0 0;
+    padding: 1% 0 0;
   }
   .p_up .p_h {
     position: relative;
@@ -1831,7 +1832,7 @@ footer small {
     font-size: 28px;
   }
   .p_up .p_s_t {
-    margin: 2% 0 0;
+    margin: 3% 0 0;
     font-size: calc(64vw/12);
     letter-spacing: 0.8px;
     line-height: 1.4;
@@ -1947,7 +1948,7 @@ footer small {
   }
 
   .p_top {
-    margin: 6.5% 0 2.5%;
+    margin: 6.5% 0 0.5%;
   }
   .p_top a {
     display: inline-block;
@@ -2007,7 +2008,7 @@ footer small {
   }
   .contents .c_lob .cb_text {
     margin: 4% 0 0;
-    font-size: calc(29vw/12);
+    font-size: calc(28vw/12);
     line-height: 1.4;
     letter-spacing: 0.5px;
   }
@@ -2102,7 +2103,8 @@ footer small {
   }
   aside .wrap {
     padding: 0 0 2%;
-    margin: 2% 4.5% 0;
+    margin: 0 4.5% 0;
+    border-top: 1px solid #404040;
   }
   aside .f_d dt {
     margin: 6.5% 0 0;
