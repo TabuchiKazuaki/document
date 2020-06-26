@@ -452,6 +452,11 @@ header .h_img {
   letter-spacing: 1.3px;
   color: #ddaa00;
 }
+.contents .c_btn a:hover {
+  opacity: 1;
+  background: #ddaa00;
+  color: #000;
+}
 .contents .c_more {
   margin: 30px 0 0;
   text-align: right;
@@ -795,6 +800,11 @@ footer small {
     font-size: calc(49vw/12);
     letter-spacing: 1.3px;
     border: 3px solid #ddaa00;
+  }
+  .contents .c_btn a:hover {
+    opacity: 0.8;
+    background: none;
+    color: #ddaa00;
   }
   .contents .c_more {
     margin: 2% 0 0;
