@@ -305,7 +305,12 @@ header {
 		.r_h {
 			max-width: 622px;
 			margin: 0 auto;
+			line-height: 0;
 		}
+		.r_h_512 {
+			max-width: 512px;
+		}
+
 		.r_h_619 {
 			max-width: 619px;
 		}
@@ -942,8 +947,11 @@ footer {
 			.r_h {
 				width: 91.6%;
 			}
+			.r_h_512 {
+				width: 75.3%;
+			}
 			.r_h_619 {
-				max-width: 91.4%;
+				width: 91.4%;
 			}
 			.r_dl {
 				padding: 2.8% 3.4% 2.6%;
@@ -1472,8 +1480,11 @@ footer {
 			.r_h {
 				width: 93.3%;
 			}
+			.r_h_512 {
+				width: 77%;
+			}
 			.r_h_619 {
-				max-width: 93.1%;
+				width: 93.1%;
 			}
 			.r_dl {
 				padding: 2.7% 3.4% 2.5%;
