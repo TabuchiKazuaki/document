@@ -24,7 +24,7 @@ $(document).ready(function() {
 
 	var tt06 = new Date("2020/06/20 00:00");
 	if (now.getTime() > tt06.getTime()) {
-		$('#t06').attr("href","https://abema.tv/video/title/444-4");
+		$('#t06').attr("href","https://abema.tv/video/episode/26-96_s2_p11");
 		$('#t06').text("ビデオでみる");
 	}
 
