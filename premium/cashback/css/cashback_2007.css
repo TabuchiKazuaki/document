@@ -505,6 +505,48 @@ header .h_m {
   margin: 53px auto 0;
 }
 
+.banner {
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/cfe68a9f7e85bb668d92cf1a5f729de4_feed16fb6c80b7d81363735070b90600.png) center top no-repeat;
+  padding: 37px 0 42px;
+}
+.banner .b_m {
+  max-width: 680px;
+  margin: 0 auto 0;
+  line-height: 0;
+}
+.banner .b_t {
+  max-width: 709px;
+  margin: 40px auto 0;
+  line-height: 0;
+}
+.banner .b_b {
+  margin: 32px 0 0;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1.6px;
+}
+.banner .b_b span {
+  display: inline-block;
+  margin: 0 2px 0 0;
+  font-size: 39px;
+}
+.banner .b_btn {
+  max-width: 680px;
+  margin: 29px auto 0;
+}
+.banner .b_btn a {
+  display: block;
+  background: #ddaa00;
+  padding: 26px 0;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  color: #000;
+}
+
 .info {
   background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/b18aa8396c49d6f49064e8155e6b4a40_d8f3969d1193560d9053fffe32cd0c89.png) center top no-repeat;
   max-width: 1920px;
@@ -1739,6 +1781,42 @@ footer small {
     margin: 8% auto 0;
   }
 
+  .banner {
+    background-size: cover;
+    padding: 4% 0 5.8%;
+  }
+  .banner .wrap {
+    padding: 0 2.5%;
+  }
+  .banner .b_m {
+    width: 97.4%;
+  }
+  .banner .b_t {
+    width: 100%;
+    margin: 6% auto 0;
+  }
+  .banner .b_b {
+    margin: 3.5% 0 0;
+    font-size: calc(58vw/12);
+    letter-spacing: 0.8px;
+  }
+  .banner .b_b span {
+    display: inline-block;
+    margin: 0 0.2% 0 0;
+    font-size: calc(61vw/12);
+  }
+  .banner .b_btn {
+    max-width: 100%;
+    padding: 0 3%;
+    margin: 4.5% auto 0;
+  }
+  .banner .b_btn a {
+    padding: 3.8% 0;
+    border-radius: 4px;
+    font-size: calc(46vw/12);
+    letter-spacing: 0.7px;
+  }
+
   .info {
     background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/edd5202f960cd605184fa249a3b050b7_f67aeac5d319979f5363b8267254a2ec.png) center top no-repeat;
     background-size: cover;
@@ -2678,6 +2756,42 @@ footer small {
   .p_up .pu_h {
     width: 96.4%;
     margin: 7% auto 0;
+  }
+
+  .banner {
+    background-size: cover;
+    padding: 4% 0 5.8%;
+  }
+  .banner .wrap {
+    padding: 0 2.5%;
+  }
+  .banner .b_m {
+    width: 97.4%;
+  }
+  .banner .b_t {
+    width: 100%;
+    margin: 6% auto 0;
+  }
+  .banner .b_b {
+    margin: 3.5% 0 0;
+    font-size: calc(60vw/12);
+    letter-spacing: 0.8px;
+  }
+  .banner .b_b span {
+    display: inline-block;
+    margin: 0 0.2% 0 0;
+    font-size: calc(63vw/12);
+  }
+  .banner .b_btn {
+    max-width: 100%;
+    padding: 0 3%;
+    margin: 4.5% auto 0;
+  }
+  .banner .b_btn a {
+    padding: 3.8% 0;
+    border-radius: 4px;
+    font-size: calc(48vw/12);
+    letter-spacing: 0.7px;
   }
 
   .info {
