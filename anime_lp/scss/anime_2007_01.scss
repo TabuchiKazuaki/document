@@ -20,7 +20,12 @@ img  { width: 100%;}
 		opacity: 1!important;
 	}
 }
-
+.fs {
+	font-family: 'Noto Sans JP', sans-serif!important;
+}
+.ko {
+	font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif !important;
+}
 
 .pb30 {
 	padding: 0 0 35px !important;
@@ -151,27 +156,27 @@ header {
 }
 .bagg {
 	display: inline-block;
-	background: #f0163a;
+	background: none;
 	padding: 2px 10px;
 	margin: 0 0 5px 0;
 	border-radius: 3px;
+	border: 2px solid #f0163a;
 	font-weight: bold;
 	font-size: 15px;
 	text-align: center;
-	color: #fff;
+	color: #f0163a;
 }
 .contents {
-	padding: 60px 0 0;
 	.wrap {
-		border-radius: 6px;
+		max-width: 680px;
 	}
 	.c_h {
 		border-left: 6px solid #ddaa00;
 		padding: 0 0 0 18px;
-		line-height: 1.4;
-		font-size: 32px;
+		line-height: 1.3;
+		font-size: 30px;
+		letter-spacing: 1.3px;
 		span {
-			letter-spacing: 1.3px;
 			font-size: 36px;
 		}
 	}
@@ -202,18 +207,20 @@ header {
 	.c_nineteen {
 		padding: 0;
 		figure {
-			margin: 0 0 25px;
+			margin: 0 0 34px;
 			line-height: 0;
 		}
 		.c_19h {
 			margin: 12px 0 0;
-			font-size: 27px;
+			font-size: 25px;
 			font-weight: bold;
 			line-height: 1.3;
+			letter-spacing: 1.3px;
 		}
 		.c_19t {
 			margin: 12px 0 0 0;
-			font-size: 25px;
+			font-size: 24px;
+			font-family: 'Noto Sans JP', sans-serif!important;
 			line-height: 1.3;
 			color: #ababab;
 
@@ -223,24 +230,21 @@ header {
 			a {
 				display: block;
 				background: #ddaa00;
-				padding: 20px 0;
+				padding: 19px 0;
 				text-align: center;
 				border-radius: 6px;
 				font-size: 30px;
-				color: #fff;
+				font-weight: bold;
+				color: #000;
 			}
 		}
 		.c19_item {
-			li {
-				padding: 35px 0;
-				border-top: 1px solid #606060;
-				a {
-					display: block;
-				}
-
-				&:first-child {
-					border-top: none;
-				}
+			padding: 35px 0 55px;
+			a {
+				display: block;
+			}
+			figure {
+				line-height: 0;
 			}
 		}
 	}
@@ -354,44 +358,6 @@ header {
 				}
 			}
 		}
-		.c_row {
-			li {
-				padding: 25px 0;
-				border-bottom: 1px solid #606060;
-				a {
-					display: block;
-				}
-
-				&:first-child {
-					border-top: 1px solid #606060;
-				}
-			}
-			.c_r_dl {
-				display: flex;
-				align-items: center;
-				dd {
-					width: 44%;
-					line-height: 0;
-				}
-				dt {
-					width: 53%;
-					padding: 0 0 0 3%;
-					font-size: 23px;
-					line-height: 1.35;
-					font-weight: bold;
-					color: #fff;
-					.rank {
-						display: block;
-						font-size: 20px;
-						color: #ddaa00;
-						.num {
-							margin: 0 2px 0 0;
-							font-size: 30px;
-						}
-					}
-				}
-			}
-		}
 		.c_t_text {
 			margin: 20px 0 0;
 			font-size: 26px;
@@ -458,44 +424,6 @@ header {
 				}
 			}
 		}
-		.c_row {
-			li {
-				padding: 25px 0;
-				border-bottom: 1px solid #606060;
-				a {
-					display: block;
-				}
-
-				&:first-child {
-					border-top: 1px solid #606060;
-				}
-			}
-			.c_r_dl {
-				display: flex;
-				align-items: center;
-				dd {
-					width: 44%;
-					line-height: 0;
-				}
-				dt {
-					width: 53%;
-					padding: 0 0 0 3%;
-					font-size: 23px;
-					line-height: 1.35;
-					font-weight: bold;
-					color: #fff;
-					.rank {
-						display: block;
-						font-size: 20px;
-						color: #ddaa00;
-						.num {
-							margin: 0 2px 0 0;
-							font-size: 30px;
-						}
-					}
-				}
-			}
-		}
 		.c_t_text {
 			margin: 20px 0 0;
 			font-size: 26px;
@@ -525,17 +453,13 @@ header {
 
 
 	.c_three {
-		padding: 0 0 35px;
-		margin: 15px 0 0;
+		margin: 37px 0 0;
 
 		.c_thr_item {
 			li {
-				padding: 35px 0 35px;
-				border-bottom: 1px solid #606060;
+				padding: 32px 0 35px;
+				border-top: 1px solid #606060;
 
-				&:last-child {
-					border-bottom: none;
-				}
 				a {
 					display: block;
 				}
@@ -568,7 +492,7 @@ header {
 		}
 
 		.c_thr_btn {
-			margin: 25px 0 32px;
+			margin: 25px 0 0;
 			a {
 				display: block;
 				background: #ddaa00;
@@ -576,24 +500,25 @@ header {
 				text-align: center;
 				border-radius: 6px;
 				font-size: 30px;
-				color: #fff;
+				font-weight: bold;
+				letter-spacing: 1.6px;
+				color: #000;
 			}
 		}
 	}
 
 	.c_four {
-		padding: 0 0 35px;
 		margin: 15px 0 0;
 		.c_f_item {
 			a {
 				display: block;
 			}
 			li {
-				padding: 25px 0;
-				border-bottom: 1px solid #606060;
+				padding: 35px 0;
+				border-top: 1px solid #606060;
 
 				&:last-child {
-					border-bottom: none;
+					border-bottom: 1px solid #606060;
 				}
 			}
 			.c_f_dl {
@@ -869,8 +794,8 @@ header {
 		padding: 0 0 0 18px;
 		line-height: 1.4;
 		font-size: 32px;
+		letter-spacing: 1.1px;
 		span {
-			letter-spacing: 1.3px;
 			font-size: 36px;
 		}
 	}
@@ -941,7 +866,6 @@ header {
 }
 .banner {
 	background: #000;
-	padding: 5px 0 0;
 	.b_btn {
 		max-width: 681px;
 		margin: 0 auto;
@@ -1338,12 +1262,12 @@ footer {
 		}
 		.h_wrap {
 			position: relative;
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/44397a2e799615ea05de468a05a21851_a6fef09c600f3d33306f7f7abd60be00.png) center center no-repeat;
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/44397a2e799615ea05de468a05a21851_a6fef09c600f3d33306f7f7abd60be00.png) center top no-repeat;
 			background-size: cover;
 			height: auto;
 			padding: 0 0 0;
 			.h_h {
-				width: 82%;
+				width: 65.5%;
 				padding: 6% 0 7%;
 			}
 			.h_v {
@@ -1364,16 +1288,21 @@ footer {
 	}
 
 	.contents {
-		padding: 6% 0 0;
+		.wrap {
+			max-width: 100%;
+			padding: 0;
+			margin: 0 4.5%;
+		}
 
 		.c_h {
 			border-left: 4.5px solid #ddaa00;
 			padding: 0 0 0 2.6%;
-			line-height: 1.4;
-			font-size: calc(50vw/12);
+			line-height: 1.3;
+			font-size: calc(47vw/12);
+			letter-spacing: 0.8px;
 			span {
-				letter-spacing: 1.3px;
-				font-size: calc(52vw/12);
+				letter-spacing: 1px;
+				font-size: calc(49vw/12);
 			}
 		}
 		.thirteen {
@@ -1390,22 +1319,22 @@ footer {
 			}
 		}
 		.c_nineteen {
-
 			figure {
-				margin: 0 0 4%;
+				margin: 0 0 5%;
 			}
 			.c_19h {
-				margin: 2.2% 0 0;
-				font-size: calc(42vw/12);
+				margin: 0;
+				font-size: calc(39vw/12);
+				letter-spacing: 1.1px;
 			}
 			.c_19t {
 				margin: 2.5% 0 0 0;
-				font-size: calc(42vw/12);
+				font-size: calc(38vw/12);
 				line-height: 1.3;
 
 			}
 			.c_btn {
-				margin: 6% 0 0;
+				margin: 5.5% 0 0;
 				a {
 					padding: 3.4% 0;
 					border-radius: 5px;
@@ -1413,9 +1342,7 @@ footer {
 				}
 			}
 			.c19_item {
-				li {
-					padding: 5% 0;
-				}
+				padding: 5% 0 8%;
 			}
 		}
 
@@ -1517,33 +1444,6 @@ footer {
 				}
 			}
 
-			.c_row {
-				li {
-					padding: 3.5% 0;
-
-					&:first-child {
-						border-top: 1px solid #606060;
-					}
-				}
-				.c_r_dl {
-					dd {
-						width: 44%;
-					}
-					dt {
-						width: 53%;
-						padding: 0 0 0 3%;
-						font-size: 23px;
-						line-height: 1.35;
-						.rank {
-							font-size: calc(34vw/12);
-							.num {
-								margin: 0 0.2% 0 0;
-								font-size: calc(46vw/12);
-							}
-						}
-					}
-				}
-			}
 			.c_t_text {
 				margin: 3% 0 0;
 				font-size: calc(41vw/12);
@@ -1600,33 +1500,6 @@ footer {
 				}
 			}
 
-			.c_row {
-				li {
-					padding: 3.5% 0;
-
-					&:first-child {
-						border-top: 1px solid #606060;
-					}
-				}
-				.c_r_dl {
-					dd {
-						width: 44%;
-					}
-					dt {
-						width: 53%;
-						padding: 0 0 0 3%;
-						font-size: 23px;
-						line-height: 1.35;
-						.rank {
-							font-size: calc(34vw/12);
-							.num {
-								margin: 0 0.2% 0 0;
-								font-size: calc(46vw/12);
-							}
-						}
-					}
-				}
-			}
 			.c_t_text {
 				margin: 3% 0 0;
 				font-size: calc(41vw/12);
@@ -1634,7 +1507,6 @@ footer {
 			}
 		}
 		.c_four {
-			padding: 0 0 5%;
 			margin: 1% 0 0;
 			.c_f_item {
 				li {
@@ -1691,12 +1563,11 @@ footer {
 		}
 
 		.c_three {
-			padding: 0 0 5%;
-			margin: 1% 0 0;
+			margin: 5% 0 0;
 
 			.c_thr_item {
 				li {
-					padding: 4% 0;
+					padding: 5% 0 5%;
 				}
 			}
 			.c_thr_dl {
@@ -1730,33 +1601,6 @@ footer {
 					line-height: 1.35;
 				}
 			}
-			.c_row {
-				li {
-					padding: 3.5% 0;
-
-					&:first-child {
-						border-top: 1px solid #606060;
-					}
-				}
-				.c_r_dl {
-					dd {
-						width: 44%;
-					}
-					dt {
-						width: 53%;
-						padding: 0 0 0 3%;
-						font-size: 23px;
-						line-height: 1.35;
-						.rank {
-							font-size: calc(32vw/12);
-							.num {
-								margin: 0 0.2% 0 0;
-								font-size: calc(47vw/12);
-							}
-						}
-					}
-				}
-			}
 
 			.c_thr_text {
 				margin: 3% 0 0;
@@ -1765,13 +1609,13 @@ footer {
 			}
 
 			.c_thr_btn {
-				margin: 3.5% 0 4%;
+				margin: 3.5% 0 0;
 				a {
 					padding: 2.3% 0;
 					border-radius: 5px;
 					border: 2px solid #ddaa00;
-					font-size: calc(44vw/12);
-
+					font-size: calc(47vw/12);
+					letter-spacing: 1.3px;
 				}
 			}
 		}
@@ -1987,9 +1831,9 @@ footer {
 	}
 
 	.banner {
-		padding: 1% 0 0;
 		.b_btn {
-			width: 80%;
+			max-width: 100%;
+			width: 91%;
 			a {
 				padding: 3.6% 5%;
 				line-height: 1.35;
@@ -2148,7 +1992,7 @@ footer {
 				margin: 0 10px 0 0;
 				a {
 					padding: 0 12px 0 0;
-					font-size: calc(30vw/12);
+					font-size: calc(27vw/12);
 					white-space: nowrap;
 				}
 				&:after {
@@ -2251,7 +2095,7 @@ footer {
 		.h_wrap {
 			padding: 0 0 0;
 			.h_h {
-				width: 83%;
+				width: 66.9%;
 				padding: 7.5% 0 6.8%;
 			}
 			.h_v {
@@ -2271,6 +2115,7 @@ footer {
 		margin: 0 0 1% 0;
 		border-radius: 3px;
 		font-size: calc(26vw/12);
+		border: 1px solid #f0163a;
 	}
 
 	.c_single {
@@ -2280,18 +2125,18 @@ footer {
 	}
 
 	.contents {
-		padding: 6% 0 0;
 		.wrap {
 			border-radius: 4px;
 		}
 		.c_h {
 			border-left: 3px solid #ddaa00;
 			padding: 0 0 0 2.6%;
-			line-height: 1.4;
-			font-size: calc(50vw/12);
+			line-height: 1.2;
+			font-size: calc(49vw/12);
+			letter-spacing: 0.5px;
 			span {
 				letter-spacing: 1.3px;
-				font-size: calc(52vw/12);
+				font-size: calc(51vw/12);
 			}
 		}
 
@@ -2319,22 +2164,23 @@ footer {
 		}
 
 		.c_nineteen {
-
 			figure {
-				margin: 0 0 4%;
+				margin: 0 0 5%;
 			}
 			.c_19h {
-				margin: 2.2% 0 0;
-				font-size: calc(44vw/12);
+				margin: 0;
+				font-size: calc(41vw/12);
+				letter-spacing: 0.6px;
 			}
 			.c_19t {
 				margin: 2.5% 0 0 0;
-				font-size: calc(44vw/12);
+				font-size: calc(39vw/12);
 				line-height: 1.3;
+				letter-spacing: 0.6px;
 
 			}
 			.c_btn {
-				margin: 6% 0 0;
+				margin: 5.5% 0 0;
 				a {
 					padding: 3.4% 0;
 					border-radius: 4px;
@@ -2342,9 +2188,7 @@ footer {
 				}
 			}
 			.c19_item {
-				li {
-					padding: 5% 0;
-				}
+				padding: 5% 0 8%;
 			}
 		}
 
@@ -2432,33 +2276,6 @@ footer {
 				}
 			}
 
-			.c_row {
-				li {
-					padding: 3.5% 0;
-
-					&:first-child {
-						border-top: 1px solid #606060;
-					}
-				}
-				.c_r_dl {
-					dd {
-						width: 44%;
-					}
-					dt {
-						width: 53%;
-						padding: 0 0 0 3%;
-						font-size: 23px;
-						line-height: 1.35;
-						.rank {
-							font-size: calc(36vw/12);
-							.num {
-								margin: 0 0.2% 0 0;
-								font-size: calc(48vw/12);
-							}
-						}
-					}
-				}
-			}
 			.c_t_text {
 				margin: 3% 0 0;
 				font-size: calc(43vw/12);
@@ -2515,33 +2332,6 @@ footer {
 				}
 			}
 
-			.c_row {
-				li {
-					padding: 3.5% 0;
-
-					&:first-child {
-						border-top: 1px solid #606060;
-					}
-				}
-				.c_r_dl {
-					dd {
-						width: 44%;
-					}
-					dt {
-						width: 53%;
-						padding: 0 0 0 3%;
-						font-size: 23px;
-						line-height: 1.35;
-						.rank {
-							font-size: calc(36vw/12);
-							.num {
-								margin: 0 0.2% 0 0;
-								font-size: calc(48vw/12);
-							}
-						}
-					}
-				}
-			}
 			.c_t_text {
 				margin: 3% 0 0;
 				font-size: calc(43vw/12);
@@ -2550,12 +2340,11 @@ footer {
 		}
 
 		.c_three {
-			padding: 0 0 5%;
-			margin: 1% 0 0;
+			margin: 5% 0 0;
 
 			.c_thr_item {
 				li {
-					padding: 4% 0;
+					padding: 5% 0 5%;
 				}
 			}
 			.c_thr_dl {
@@ -2565,26 +2354,16 @@ footer {
 				dt {
 					width: 45%;
 					padding: 0 0 0 3%;
-					font-size: calc(38vw/12);
+					font-size: calc(36vw/12);
 					line-height: 1.35;
 					letter-spacing: 1.3px;
 				}
 			}
 			.c_thr_text {
 				margin: 4% 0 0;
-				font-size: calc(43vw/12);
+				font-size: calc(41vw/12);
 				line-height: 1.4;
 			}
-
-			.c_thr_btn {
-				margin: 4% 0 4%;
-				a {
-					padding: 2.7% 0;
-					border-radius: 3px;
-					font-size: calc(50vw/12);
-				}
-			}
-
 
 			.c_t_dl {
 				display: flex;
@@ -2595,57 +2374,30 @@ footer {
 				dt {
 					width: 45%;
 					padding: 0 0 0 3%;
-					font-size: calc(38vw/12);
+					font-size: calc(36vw/12);
 					line-height: 1.35;
 				}
 			}
-			.c_row {
-				li {
-					padding: 3.5% 0;
-
-					&:first-child {
-						border-top: 1px solid #606060;
-					}
-				}
-				.c_r_dl {
-					dd {
-						width: 44%;
-					}
-					dt {
-						width: 53%;
-						padding: 0 0 0 3%;
-						font-size: 23px;
-						line-height: 1.35;
-						.rank {
-							font-size: calc(34vw/12);
-							.num {
-								margin: 0 0.2% 0 0;
-								font-size: calc(49vw/12);
-							}
-						}
-					}
-				}
-			}
-			.c_t_text {
+			.c_thr_text {
 				margin: 3% 0 0;
 				font-size: calc(43vw/12);
 				line-height: 1.4;
 			}
 
-			.c_t_btn {
-				margin: 3.5% 0 5%;
+			.c_thr_btn {
+				margin: 3.4% 0 0;
 				a {
-					padding: 2.3% 0;
-					border-radius: 3px;
+					padding: 2.4% 0;
+					border-radius: 4px;
 					border: 2px solid #ddaa00;
-					font-size: calc(46vw/12);
+					font-size: calc(49vw/12);
+					letter-spacing: 1.2px;
 				}
 			}
 		}
 
 
 		.c_four {
-			padding: 0 0 5%;
 			margin: 1% 0 0;
 			.c_f_item {
 				li {
@@ -2899,9 +2651,9 @@ footer {
 	}
 
 	.banner {
-		padding: 1% 0 0;
 		.b_btn {
-			width: 80%;
+			max-width: 100%;
+			width: 91%;
 			a {
 				padding: 3.6% 5%;
 				line-height: 1.35;
@@ -3049,7 +2801,7 @@ footer {
 				margin: 0 8px 0 0;
 				a {
 					padding: 0 5px 0 0;
-					font-size: calc(32vw/12);
+					font-size: calc(28vw/12);
 					white-space: nowrap;
 				}
 				&:after {
@@ -3065,7 +2817,7 @@ footer {
 		}
 		small {
 			margin: 5% 0 0;
-			font-size: calc(28vw/12);
+			font-size: calc(26vw/12);
 			letter-spacing: 0.5px;
 		}
 	}
