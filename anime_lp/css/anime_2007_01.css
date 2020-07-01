@@ -47,7 +47,12 @@ img { width: 100%; }
 
 .wrap { background: #000; max-width: 750px; padding: 0; margin: 0 auto; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-.bottom_text { padding: 0 0 41px; font-size: 23px; font-weight: bold; text-align: center; }
+.bottom_text { padding: 0 0 64px; font-size: 23px; font-family: "Noto Sans JP", sans-serif !important; text-align: center; border-bottom: 1px solid #606060; }
+
+.season { margin: 91px auto 101px; text-align: center; }
+.season .s_text { display: inline-block; position: relative; padding: 0 31px 0 38px; font-weight: bold; font-size: 31px; text-align: center; }
+.season .s_text:before { content: ''; position: absolute; top: 0; left: 0; background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/550207/d17ed382d7e96b1e2375e4851eadc3b2_41089a6cdeb1b387498fa0cc8eaf6424.png); background-size: 28px 30px; width: 28px; height: 30px; }
+.season .s_text:after { content: ''; position: absolute; top: 0; right: 0; background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/550207/3832f046373e62b908014b897c0ac097_12b6d3535ff980903dc5728c0d15e99f.png); background-size: 28px 30px; width: 28px; height: 30px; }
 
 .b_h { margin: 23px auto 62px; text-align: center; max-width: 421px; }
 
@@ -290,7 +295,11 @@ footer .twelve .thumb li .active img { margin: -2.5px 0; opacity: .8; }
   .c_no { letter-spacing: 1.4px !important; }
   .wrap { padding: 0 3% 0; margin: 0 3%; }
   .bagg { padding: 0.8% 3%; margin: 0 0 1% 0; border-radius: 3px; font-size: calc(26vw/12); }
-  .bottom_text { padding: 0 0 6%; font-size: calc(36vw/12); }
+  .bottom_text { padding: 0 0 9%; font-size: calc(34vw/12); }
+  .season { margin: 13% auto 14.5%; text-align: center; }
+  .season .s_text { display: inline-block; padding: 0 5% 0 6%; font-size: calc(48vw/12); }
+  .season .s_text:before { top: 0; left: 0; background-size: 100% 100%; width: 7%; height: 100%; }
+  .season .s_text:after { top: 0; right: 0; background-size: 100% 100%; width: 7%; height: 100%; }
   .b_h { width: 62%; margin: 3% auto 8.2%; }
   header .logo { padding: 1.6% 0 1.6% 2.5%; }
   header .logo span { width: 18.8%; }
@@ -469,7 +478,11 @@ footer .twelve .thumb li .active img { margin: -2.5px 0; opacity: .8; }
   .c_h_bottom { margin: 0 0 3.3%; }
   .dn { display: none; }
   .wrap { padding: 0 3% 0; margin: 0 3%; }
-  .bottom_text { padding: 0 0 6%; font-size: calc(38vw/12); }
+  .bottom_text { padding: 0 0 9%; font-size: calc(36vw/12); }
+  .season { margin: 13% auto 14.5%; }
+  .season .s_text { display: inline-block; padding: 0 5% 0 6%; font-size: calc(50vw/12); }
+  .season .s_text:before { top: 0; left: 0; background-size: 100% 100%; width: 7%; height: 105%; }
+  .season .s_text:after { top: 0; right: 0; background-size: 100% 100%; width: 7%; height: 105%; }
   .b_h { width: 63%; margin: 2.5% auto 7.6%; }
   header .logo { padding: 1.6% 0 1.8% 2.5%; }
   header .logo span { width: 19.4%; }

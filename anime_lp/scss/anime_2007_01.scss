@@ -85,10 +85,45 @@ img  { width: 100%;}
 	box-sizing: border-box;
 }
 .bottom_text {
-	padding: 0 0 41px;
+	padding: 0 0 64px;
 	font-size: 23px;
-	font-weight: bold;
+	font-family: 'Noto Sans JP', sans-serif!important;
 	text-align: center;
+	border-bottom: 1px solid #606060;
+}
+.season {
+	margin: 91px auto 101px;
+	text-align: center;
+
+	.s_text {
+		display: inline-block;
+		position: relative;
+		padding: 0 31px 0 38px;
+		font-weight: bold;
+		font-size: 31px;
+		text-align: center;
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/550207/d17ed382d7e96b1e2375e4851eadc3b2_41089a6cdeb1b387498fa0cc8eaf6424.png);
+			background-size: 28px 30px;
+			width: 28px;
+			height: 30px;
+		}
+
+		&:after {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/550207/3832f046373e62b908014b897c0ac097_12b6d3535ff980903dc5728c0d15e99f.png);
+			background-size: 28px 30px;
+			width: 28px;
+			height: 30px;
+		}
+	}
 }
 .b_h {
 	margin: 23px auto 62px;
@@ -1245,8 +1280,33 @@ footer {
 		font-size: calc(26vw/12);
 	}
 	.bottom_text {
-		padding: 0 0 6%;
-		font-size: calc(36vw/12);
+		padding: 0 0 9%;
+		font-size: calc(34vw/12);
+	}
+	.season {
+		margin: 13% auto 14.5%;
+		text-align: center;
+
+		.s_text {
+			display: inline-block;
+			padding: 0 5% 0 6%;
+			font-size: calc(48vw/12);
+			&:before {
+				top: 0;
+				left: 0;
+				background-size: 100% 100%;
+				width: 7%;
+				height: 100%;
+			}
+
+			&:after {
+				top: 0;
+				right: 0;
+				background-size: 100% 100%;
+				width: 7%;
+				height: 100%;
+			}
+		}
 	}
 	.b_h {
 		width: 62%;
@@ -2077,8 +2137,32 @@ footer {
 		margin: 0 3%;
 	}
 	.bottom_text {
-		padding: 0 0 6%;
-		font-size: calc(38vw/12);
+		padding: 0 0 9%;
+		font-size: calc(36vw/12);
+	}
+	.season {
+		margin: 13% auto 14.5%;
+
+		.s_text {
+			display: inline-block;
+			padding: 0 5% 0 6%;
+			font-size: calc(50vw/12);
+			&:before {
+				top: 0;
+				left: 0;
+				background-size: 100% 100%;
+				width: 7%;
+				height: 105%;
+			}
+
+			&:after {
+				top: 0;
+				right: 0;
+				background-size: 100% 100%;
+				width: 7%;
+				height: 105%;
+			}
+		}
 	}
 	.b_h {
 		width: 63%;
