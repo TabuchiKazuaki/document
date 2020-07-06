@@ -103,11 +103,11 @@ img {
 }
 
 .pc {
-  display: block;
+  display: block !important;
 }
 
 .sp {
-  display: none;
+  display: none !important;
 }
 
 .cl {
@@ -463,12 +463,81 @@ header .h_a .h_cau {
 .point .wrap {
   background: #fff;
   max-width: 850px;
-  padding: 40px 0 0;
+  padding: 40px 75px 0;
   margin: 0 auto 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .point .p_heading {
   max-width: 586px;
   margin: 0 auto;
+  line-height: 0;
+}
+.point .p_heading span {
+  display: block;
+  margin: 10px 16px 0 0;
+  font-size: 22px;
+  font-weight: normal;
+  text-align: right;
+  line-height: 1;
+}
+.point .genr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 47px 0 0;
+}
+.point .genr li {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 47.5%;
+  margin: 5% 0 0 5%;
+  text-align: center;
+}
+.point .genr li:nth-child(3) {
+  margin: 5% 0 0 0;
+}
+.point .genr li:nth-child(2) {
+  margin: 0 0 0 5%;
+}
+.point .genr li:nth-child(1) {
+  margin: 0;
+}
+.point .genr .g_h {
+  display: inline-block;
+  min-width: 124px;
+  padding: 6px 20px;
+  margin: 0 auto;
+  text-align: center;
+  border: 3px solid #ddaa00;
+  border-radius: 30px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #ddaa00;
+}
+.point .genr figure {
+  margin: 20px 0 0;
+  line-height: 0;
+}
+.point .genr .g_t {
+  margin: 15px 0 0;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.8;
+  text-align: left;
+}
+.point .g_img {
+  margin: 53px 0 0;
   line-height: 0;
 }
 
@@ -583,11 +652,11 @@ footer small {
   }
 
   .pc {
-    display: none;
+    display: none !important;
   }
 
   .sp {
-    display: block;
+    display: block !important;
   }
 
   footer {
