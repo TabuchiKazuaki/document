@@ -952,7 +952,8 @@ header .h_a .h_cau {
 }
 
 .anshin {
-  background: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(41%, #ddf2ff), to(#ddf2ff));
+  background: linear-gradient(to bottom, #ffffff 0%, #ddf2ff 41%, #ddf2ff 100%);
 }
 .anshin .wrap {
   max-width: 964px;
@@ -961,6 +962,11 @@ header .h_a .h_cau {
   text-align: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+.anshin .a_box {
+  background: #fff;
+  max-width: 960px;
+  padding: 0 22px 39px;
 }
 .anshin .a_ribon {
   display: inline-block;
@@ -1011,6 +1017,55 @@ header .h_a .h_cau {
   font-weight: bold;
   line-height: 1.4;
   color: #e73656;
+}
+.anshin .a_dl {
+  font-size: 14px;
+  text-align: left;
+}
+.anshin .a_dl dd {
+  background: #f2395b;
+  padding: 17px 0 17px 25px;
+  margin: 55px 0 0;
+  border-radius: 6px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+}
+.anshin .a_dl dd:first-of-type {
+  margin: 20px 0 0;
+}
+.anshin .a_dl dd span {
+  font-size: 14px;
+  font-weight: normal;
+  vertical-align: super;
+}
+.anshin .a_dl dt {
+  padding: 27px 20px 0 23px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #f2395b;
+}
+.anshin .a_dl dt .bb {
+  display: block;
+  margin: 0 0 10px;
+  font-size: 25px;
+  text-shadow: 0.3px 0.3px 0;
+}
+.anshin .a_dl dt .cau {
+  display: block;
+  position: relative;
+  padding: 0 0 0 15px;
+  margin: 16px 0 0 0;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #000;
+}
+.anshin .a_dl dt .cau:before {
+  content: '※';
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 footer {
