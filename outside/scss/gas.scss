@@ -1215,7 +1215,7 @@ header {
 			color: #fff;
 		}
 		.b_box {
-			background: #fff;
+			background: #eaf6fd;
 			border: 2px solid #006ebc;
 			margin: 30px 0 0;
 			border-radius: 12px;
@@ -1572,7 +1572,7 @@ footer {
 	}
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 870px) {
 	header {
 		.h_a {
 			text-align: center;
@@ -1582,14 +1582,781 @@ footer {
 				background-size: cover;
 				height: auto;
 				padding: 5.5% 0 6%;
-				margin: 0 auto;
+				margin: 0 4.5%;
 				box-sizing: border-box;
+			}
+		}
+	}
+
+
+	.menu {
+		padding: 1.8%;
+		margin: -.5% 4.5% 0;
+		border-radius: 14px;
+		box-sizing: border-box;
+	}
+
+
+	.whats {
+		margin: 6% 4.5% 0;
+	}
+	.point {
+		.wrap {
+			padding: 5% 8.6% 9%;
+			margin: 0 4.5% 0;
+			box-sizing: border-box;
+		}
+	}
+
+	.movie {
+		.wrap {
+			margin: 0 4.5% 0;
+			box-sizing: border-box;
+		}
+	}
+
+	.merit {
+		padding: 0 0 6%;
+		.wrap {
+			padding: 9% 7% 7%;
+			margin: 0 4.5%0;
+			box-sizing: border-box;
+		}
+	}
+
+	.plan {
+		padding: 0 2.5%;
+		.wrap {
+ 			padding: 30px 0 0;
+			margin: 0 2% 0;
+		}
+
+		.bwrap {
+			max-width: 850px;
+			padding: 7px 2% 40px;
+			margin: 0 auto 0;
+			border-radius: 12px;
+			box-sizing: border-box;
+			.ebp_btn {
+				margin: 18px auto 0;
+				a {
+					position: relative;
+					padding: 15px 0;
+					margin: -7px 0 0;
+					border-radius: 12px;
+					box-shadow: 0 7px 0 #0e486c;
+					font-size: calc(21vw/12);
+					letter-spacing: 0.8px;
+					color: #fff;
+
+					&:hover{
+						margin: 0 0 -7px;
+						box-shadow: 0 0 0 #0e486c;
+					}
+					&:after {
+						content: '';
+						position: absolute;
+						top: 15px;
+						right: 20px;
+						background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/1f849e7fec2ee5b853fa2031f13f6572_afa694910548b2453ecf35a50e95e0a5.png) 0 0 no-repeat;
+						background-size: 11px 15px;
+						width: 11px;
+						height: 15px;
+					}
+				}
+			}
+		}
+	}
+
+	.flow {
+		background: #000;
+		padding: 11px;
+		.wrap {
+			background: #fffcd0;
+			max-width: 964px;
+			padding: 0 0 36px;
+			margin: 0 auto;
+			text-align: center;
+			box-sizing: border-box;
+		}
+		.f_h {
+			display: inline-block;
+			transform: skewX(-13deg);
+			padding: 2% 14%;
+			margin: 5% auto 0;
+			border-radius: 4px;
+			span {
+				font-size: calc(46vw/12);
+				line-height: 1;
+				transform: skewX(13deg);
+				letter-spacing: 1.5px;
+			}
+		}
+		.f_t {
+			padding: 0 13%;
+			margin: 4% 0 0;
+			font-size: 15px;
+			line-height: 1.65;
+		}
+		figure {
+			max-width: 802px;
+			margin: 4% 8.5% 0;
+		}
+
+
+		.f_btn {
+			max-width: 802px;
+			margin: 5% 8.2% 0;
+			a {
+				position: relative;
+				display: block;
+				background: #ffff43;
+				padding: 18px 0;
+				margin: -13px 0 0;
+				border-radius: 14px;
+				border: 5px solid #000;
+				box-shadow: 0 13px 0 #000;
+				font-size: 21px;
+				font-weight: bold;
+				text-shadow: 0.2px 0.2px 0;
+				text-align: center;
+				letter-spacing: 0.8px;
+				line-height: 1.3;
+				color: #000;
+
+				&:hover{
+					margin: 0 0 -13px;
+					box-shadow: 0 0 0 #000;
+				}
+				&:before {
+					content: '';
+					position: absolute;
+					top: 19px;
+					left: 25px;
+					background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/91eecc39b35e2271913e7bc6bead9e73_278abb372906d1084665c7326504fb62.png) 0 0 no-repeat;
+					background-size: 54px 60px;
+					width: 54px;
+					height: 60px;
+				}
+			}
+		}
+
+		.f_cau_b {
+			margin: 16px 0 0;
+			text-align: center;
+			font-size: 12px;
+		}
+
+		.f_bg {
+			display: block !important;
+			background: #fff;
+			max-width: 802px;
+			padding: 15px 30px 30px;
+			margin: 3.4% 8.2% 0;
+			border-radius: 10px;
+			box-sizing: border-box;
+		}
+	}
+
+	.anshin {
+		background: -moz-linear-gradient(top,  #ffffff 0%, #ddf2ff 41%, #ddf2ff 100%);
+		background: -webkit-linear-gradient(top,  #ffffff 0%,#ddf2ff 41%,#ddf2ff 100%);
+		background: linear-gradient(to bottom,  #ffffff 0%,#ddf2ff 41%,#ddf2ff 100%);
+
+		.wrap {
+			max-width: 964px;
+			padding: 6% 0 5.5%;
+			margin: 0 auto;
+			text-align: center;
+			box-sizing: border-box;
+		}
+
+		.a_box {
+			padding: 0 4.5% 6%;
+		}
+
+		.a_ribon {
+			display: inline-block;
+			position: relative;
+			height: 90px;
+			line-height: 90px;
+			text-align: center;
+			padding: 0 70px 0 50px;
+			font-size: 39px;
+			background: #e73656;
+			color: #FFF;
+			text-align: center;
+			box-sizing: border-box;
+
+			.ss {
+				display: inline-block;
+				margin: 0 5px 0 -15.1px;
+				font-size: 28px;
+			}
+
+			&:before {
+				position: absolute;
+				content: '';
+				width: 0px;
+				height: 0px;
+				z-index: 1;
+				top: 0;
+				left: 0;
+				border-width: 45px 0px 45px 25px;
+				border-color: transparent transparent transparent #fff;
+				border-style: solid;
+			}
+
+			&:after {
+				position: absolute;
+				content: '';
+				width: 0px;
+				height: 0px;
+				z-index: 1;
+
+				top: 0;
+				right: 0;
+				border-width: 45px 25px 45px 0px;
+				border-color: transparent #fff transparent transparent;
+				border-style: solid;
+			}
+		}
+		.a_h {
+			margin: 18px 0 0;
+			font-size: 32px;
+			font-weight: bold;
+			line-height: 1.4;
+			color: #e73656;
+		}
+
+		.a_dl {
+			font-size: 14px;
+			text-align: left;
+			dd {
+				background: #f2395b;
+				padding: 17px 0 17px 25px;
+				margin: 55px 0 0;
+				border-radius: 6px;
+				font-size: 26px;
+				font-weight: bold;
+				color: #fff;
+
+				&:first-of-type {
+					margin: 20px 0 0;
+				}
+				span {
+					font-size: 14px;
+					font-weight: normal;
+					vertical-align: super;
+				}
+			}
+			dt {
+				padding: 27px 20px 0 23px;
+				font-size: 20px;
+				font-weight: bold;
+				line-height: 1.5;
+				color: #f2395b;
+				.bb {
+					display: block;
+					margin: 0 0 10px;
+					font-size: 25px;
+					text-shadow: 0.3px 0.3px 0;
+				}
+				.cau {
+					display: block;
+					position: relative;
+					padding: 0 0 0 15px;
+					margin: 16px 0 0 0;
+					font-size: 13px;
+					line-height: 1.4;
+					color: #000;
+
+					&:before {
+						content: '※';
+						position: absolute;
+						top: 0;
+						left: 0;
+					}
+				}
+			}
+		}
+		.easy {
+			padding: 9% 5.5% 0;
+			.es_h {
+				position: relative;
+				background: #f2395b;
+				max-width: 610px;
+				padding: 17px 0;
+				margin: 0 auto;
+				font-size: 24px;
+				font-weight: normal;
+				text-align: center;
+				border-radius: 40px;
+				color: #fff;
+
+				&:before {
+					content: '';
+					position: absolute;
+					bottom: -19px;
+					left: 48%;
+					width: 0;
+					height: 0;
+					border-left: 17px solid transparent;
+					border-right: 17px solid transparent;
+					border-top: 20px solid #f2395b;
+				}
+			}
+			.es_item {
+				overflow: hidden;
+				max-width: 660px;
+				margin: 38px auto 0;
+				li {
+					float: left;
+					background: #006ebc;
+					width: 29%;
+					padding: 82px 0;
+					margin: 0 0 0 6.3%;
+					border-radius: 50%;
+					text-align: center;
+					font-size: 18px;
+					font-weight: bold;
+					color: #fff;
+
+					span {
+						font-size: 11px;
+						font-weight: normal;
+						vertical-align: super;
+					}
+
+					&:nth-child(1) {
+						margin: 0;
+					}
+				}
+			}
+
+			.more {
+				margin: 27px 0 0;
+				font-weight: bold;
+				a {
+					position: relative;
+					padding: 0 20px 0 0;
+					margin: 0 3px ;
+					text-decoration: underline;
+					color: #000;
+
+					&:before {
+						content: '';
+						position: absolute;
+						top: 7px;
+						right: 0;
+						background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/176b2612e19bdfb56716f0af2f6d76e9_ed0757d33161f40793a5a535e537ab09.jpg) 0 0 no-repeat;
+						background-size: 16px 13px;
+						width: 16px;
+						height: 13px;
+					}
+				}
+			}
+
+			.cau_item {
+				max-width: 850px;
+				margin: 28px auto 0;
+				li {
+					display: block;
+					position: relative;
+					padding: 0 0 0 15px;
+					margin: 2px 0 0;
+					font-size: 12px;
+					font-weight: bold;
+					line-height: 2;
+					text-align: left;
+					color: #000;
+
+					&:first-child {
+						margin: 0;
+					}
+
+					&:before {
+						content: '※';
+						position: absolute;
+						top: 0;
+						left: 0;
+					}
+				}
+			}
+		}
+
+		.benri {
+			background: #fff;
+			padding: 5.5% 4% 6%;
+			margin: 5% 0 0;
+			.b_h {
+				max-width: 463px;
+				margin: 0 auto;
+				line-height: 0;
+			}
+			.b_t {
+				margin: 17px 0 37px;
+				text-align: center;
+				font-size: 20px;
+				line-height: 1.4;
+				color: #2a71b9;
+			}
+			.b_sin {
+				padding: 30px 0;
+				border-radius: 12px;
+				font-size: calc(30vw/12);
+				font-weight: bold;
+				color: #fff;
+			}
+			.b_box {
+				background: #fff;
+				border: 2px solid #006ebc;
+				margin: 30px 0 0;
+				border-radius: 12px;
+
+				.b_sin {
+					padding: 15px 0;
+					border-radius: 8px 8px 0 0;
+					line-height: 1.5;
+				}
+
+				.b_item {
+					max-width: 632px;
+					padding: 10px 0 30px;
+					margin: 0 auto;
+					text-align: left;
+					li {
+						margin: 15px 0 0;
+						font-size: 20px;
+						font-weight: bold;
+						color: #006ebc;
+						span {
+							font-size: 32px;
+							vertical-align: sub;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.contact {
+		background: #06a3e0;
+		padding: 6% 3.5% 5.5%;
+		.wrap {
+			max-width: 935px;
+			margin: 0 auto;
+			box-sizing: border-box;
+		}
+
+		.co_h {
+			font-size: 33px;
+			font-weight: bold;
+			text-align: center;
+			letter-spacing: 1.5px;
+			color: #fff;
+		}
+
+		.co_box {
+			margin: 7% 0 0;
+			border-radius: 12px;
+			.co_item {
+				padding: 4% 3% 4%;
+				font-size: 33px;
+				display: flex;
+				flex-flow: row wrap;
+				li {
+					position: relative;
+					width: 48.5%;
+					min-height: 264px;
+					padding: 0 0 108px;
+					margin: 1% 0 0 3%;
+					justify-content: flex-end;
+					box-sizing: border-box;
+
+					.ci {
+						min-height: 201px;
+						padding: 20px 20px 40px;
+						border: 2px dotted #a7c0d8;
+					}
+					.co_mh {
+						font-size: 23px;
+						font-weight: bold;
+						line-height: 1.5;
+						letter-spacing: 1.3px;
+						color: #3071b7;
+					}
+					.co_t {
+						margin: 11px 0 0;
+						font-size: 16px;
+						font-weight: normal;
+						line-height: 1.6;
+						color: #000;
+						span {
+							display: block;
+							margin: 8px 0 0;
+							font-size: 12px;
+							line-height: 1.5;
+						}
+					}
+
+					.line {
+						padding: 8px;
+					}
+
+					&:nth-child(1) {
+						margin: 0;
+
+						&:after {
+							content: '';
+							position: absolute;
+							right: 38px;
+							bottom: 0;
+							background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/55abc20a5e7fb5b8cf6519e8a1f5fe63_b55680e194f3ed7a1c4dcb4aa8dcfb93.png) 0 0 no-repeat;
+							background-size: 231px 170px;
+							width: 231px;
+							height: 170px;
+						}
+						.line {
+							background: #fffded;
+						}
+					}
+					&:nth-child(4) {
+						padding: 0 0 85px;
+						&:after {
+							content: '';
+							position: absolute;
+							right: 38px;
+							bottom: 8px;
+							background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/a5a5f9d4f8c0fcd10976cf75f34b910a_8d03190b3f15aeb6871ab596f4cb5b36.png) 0 0 no-repeat;
+							background-size: 244px 151px;
+							width: 244px;
+							height: 151px;
+						}
+						.line {
+							background: #fffded;
+						}
+					}
+					&:nth-child(2) {
+						margin: 0 0 0 3%;
+
+						&:after {
+							content: '';
+							position: absolute;
+							right: 38px;
+							bottom: 8px;
+							background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/b7c847824391312ace86dd45134b4b00_99722202fa2c99247165667773dc331f.png) 0 0 no-repeat;
+							background-size: 233px 163px;
+							width: 233px;
+							height: 163px;
+						}
+						.line {
+							background: #f6f5f0;
+						}
+					}
+					&:nth-child(3) {
+						padding: 0 0 85px;
+						margin: 1% 0 0 0;
+
+						&:after {
+							content: '';
+							position: absolute;
+							right: 38px;
+							bottom: 8px;
+							background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/d26cbef4a7adc83e49ec234856842e63_949384121c24af4a17291a155a3c6077.png) 0 0 no-repeat;
+							background-size: 239px 159px;
+							width: 239px;
+							height: 159px;
+						}
+						.line {
+							background: #f6f5f0;
+						}
+					}
+				}
+			}
+
+		}
+		.bb_btn {
+			margin: 29px auto 0;
+			a {
+				position: relative;
+				display: block;
+				background: #d5ebf7;
+				max-width: 480px;
+				padding: 17px 0;
+				margin: -5px auto 0;
+				border-radius: 45px;
+				box-shadow: 0 5px 0 #004d84;
+				font-size: 25px;
+				font-weight: bold;
+				text-align: center;
+				text-shadow: 0.4px 0.4px 0;
+				letter-spacing: 1.8px;
+				color: #006ebc;
+
+				&:hover{
+					margin: 0 auto -5px;
+					box-shadow: 0 0 0 #004d84;
+				}
+				&:after {
+					content: '';
+					position: absolute;
+					top: 15px;
+					right: 20px;
+					background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/13c258457b0a2571aa5ae8ede80216bb_fbf31b58d47b6ea85f44ed2a6dd6b134.png) 0 0 no-repeat;
+					background-size: 20px 33px;
+					width: 20px;
+					height: 33px;
+				}
+			}
+		}
+	}
+
+	.other {
+		background: #fff;
+		.wrap {
+			max-width: 432px;
+			padding: 25px 0 30px;
+			margin: 0 auto;
+		}
+		.o_h {
+			font-size: 23px;
+			font-weight: bold;
+			letter-spacing: 1.2px;
+			text-align: center;
+			color: #198fff;
+		}
+		.o_box {
+			margin: 25px 0 0;
+
+			a {
+				position: relative;
+				display: block;
+				padding: 10px 0 10px 70px;
+				border: 2px solid #198fff;
+				border-radius: 10px;
+				font-size: 30px;
+				font-weight: bold;
+				color: #198fff;
+				span {
+					display: inline-block;
+					background: #198fff;
+					padding: 6px 8px;
+					margin: 0 0 0 20px;
+					letter-spacing: 1.3px;
+					border-radius: 2px;
+					font-size: 18px;
+					font-weight: normal;
+					vertical-align: middle;
+					color: #fff;
+				}
+
+				&:before {
+					content: '';
+					position: absolute;
+					top: 8px;
+					right: 50px;
+					background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/fea5728f6878611836091726c2f98674_544050b376e3a5e8bb14f9f166c52d43.png) 0 0 no-repeat;
+					background-size: 43px 68px;
+					width: 43px;
+					height: 68px;
+				}
+				&:after {
+					content: '';
+					position: absolute;
+					top: 34px;
+					right: 10px;
+					background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/185356aa97f6e986b30fdf3ce0a8f8e6_2c14b3641e72d550e5d4eb9ca235ee9b.png) 0 0 no-repeat;
+					background-size: 15px 23px;
+					width: 15px;
+					height: 23px;
+				}
 			}
 		}
 	}
 }
 
+footer {
+	margin: 2% 0 0;
+	.fwrap {
+		.wrap {
+			max-width: 960px;
+			margin: 0 auto;
+			padding: 5% 2.5% 10%;
+			box-sizing: border-box;
+		}
+	}
+	.fbwrap {
+		background: #000;
+		.wrap {
+			position: relative;
+			max-width: 850px;
+			margin: 0 auto;
+			padding: 5% 2.5% 6%;
+			box-sizing: border-box;
+		}
+		.ftop {
+			position: absolute;
+			top: -37%;
+			right: 2%;
+			max-width: 100%;
+			width: 41%;
+			a {
+				padding: 5% 6% 7%;
+				border-radius: 8px 8px 0 0;
+				font-size: calc(31vw/12);
+				span {
+					font-size: calc(30vw/12);
+				}
+			}
+		}
+	}
+	.copy {
+		li {
+			margin: 5px 0 0 0;
+			line-height: 1.3;
+			font-size: 12px;
+			color: #000;
+		}
+	}
 
+	.f_list {
+		overflow: hidden;
+		margin: 10px 0 10px;
+		li {
+			position: relative;
+			float: left;
+			margin: 0 10px 0 0;
+			a {
+				display: block;
+				padding: 0 12px 0 0;
+				font-size: 16px;
+				color: #fff;
+			}
+			&:after {
+				content: ' | ';
+				position: absolute;
+				top: 0;
+				right: 0;
+				line-height: 1;
+				font-size: 18px;
+				color: #fff;
+			}
+			&:last-child:after {
+				content: '';
+			}
+		}
+	}
+
+	small {
+		display: block;
+		margin: 30px 0 0;
+		font-size: 14px;
+		letter-spacing: 1px;
+		text-align: left;
+		color: #fff;
+	}
+}
 
 
 
@@ -2146,6 +2913,7 @@ footer {
 		.wrap {
 			width: 88%;
 			padding: 5% 0 0;
+			margin: 0 auto;
 		}
 		.ep_h {
 			width: 70.8%;
@@ -2196,7 +2964,7 @@ footer {
 		.ep_t {
 			max-width: 100%;
 			margin: 4% auto 0;
-			font-size: calc(34vw/12);
+			font-size: calc(31vw/12);
 			letter-spacing: 0.7px;
 			line-height: 1.3;
 			white-space: nowrap;
@@ -2626,7 +3394,6 @@ footer {
 				line-height: 1.2;
 			}
 			.b_box {
-				background: #eaf6fd;
 				border: 2px solid #006ebc;
 				margin: 4.5% 0 0;
 				border-radius: 12px;
@@ -3496,7 +4263,7 @@ footer {
 		.ep_t {
 			max-width: 100%;
 			margin: 6% auto 0;
-			font-size: calc(34vw/12);
+			font-size: calc(32vw/12);
 			letter-spacing: 0.5px;
 			line-height: 1.3;
 			white-space: nowrap;
