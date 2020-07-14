@@ -30,3 +30,13 @@ $(function(){
 	});
 })
 
+
+
+
+$(function(){
+  var close = $('.close');
+
+  close.on('click', function(){ //
+      window.open('about:blank','_self').close();
+  });
+});
