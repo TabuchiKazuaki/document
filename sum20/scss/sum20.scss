@@ -311,6 +311,11 @@ header {
 	.cs_box {
 		padding: 0 0 49px;
 		margin: 57px 0 0;
+		border-bottom: 1px solid #606060;
+
+		&:last-of-type {
+			border-bottom: none;
+		}
 		.bagg {
 			display: inline-block;
 			background: #f0163a;
