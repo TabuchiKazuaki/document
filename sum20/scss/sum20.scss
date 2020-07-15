@@ -311,10 +311,21 @@ header {
 	.cs_box {
 		padding: 0 0 49px;
 		margin: 57px 0 0;
+		.bagg {
+			display: inline-block;
+			background: #f0163a;
+			padding: 5px 14px;
+			margin: 48px 0 0;
+			border-radius: 4px;
+			letter-spacing: 2.1px;
+			font-size: 20px;
+			font-weight: bold;
+			color: #fff;
+		}
 
 		.cs_h {
 			padding: 0 0 0 25px;
-			margin: 40px 0 0;
+			margin: 31px 0 0;
 			letter-spacing: 1.3px;
 			line-height: 1.1;
 			border-left: 11px solid #00a4b9;
@@ -323,7 +334,7 @@ header {
 		.cs_date {
 			position: relative;
 			padding: 0 0 0 25px;
-			margin: 33px 0 0 35px;
+			margin: 25px 0 0 35px;
 			font-size: 24px;
 			font-weight: bold;
 			letter-spacing: 1.5px;
@@ -339,6 +350,14 @@ header {
 				height: 22px;
 				border-radius: 50%
 			}
+		}
+		.cs_cau {
+			margin: 27px 0 0 37px;
+			letter-spacing: 1.3px;
+			line-height: 1.4;
+			font-size: 19px;
+			font-weight: bold;
+			color: #606060;
 		}
 		.cs_btn {
 			margin: 51px 0 0;
@@ -1075,10 +1094,18 @@ footer {
 		.cs_box {
 			padding: 0 0 7%;
 			margin: 8% 0 0;
+			.bagg {
+				display: inline-block;
+				padding: 0.8% 2%;
+				margin: 6.7% 0 0;
+				border-radius: 4px;
+				letter-spacing: 1.8px;
+				font-size: calc(32vw/12);
+			}
 
 			.cs_h {
 				padding: 0 0 0 3.5%;
-				margin: 5.5% 0 0;
+				margin: 3.5% 0 0;
 				letter-spacing: 1.3px;
 				line-height: 1.1;
 				border-left: 8px solid #00a4b9;
@@ -1087,7 +1114,7 @@ footer {
 			.cs_date {
 				position: relative;
 				padding: 0 0 0 4.2%;
-				margin: 4.8% 0 0 5%;
+				margin: 4.5% 0 0 5%;
 				font-size: calc(37vw/12);
 				letter-spacing: 1.5px;
 
@@ -1099,6 +1126,12 @@ footer {
 					width: 3.2%;
 					height: 92.368%;
 				}
+			}
+			.cs_cau {
+				margin: 4% 0 0 4.7%;
+				font-size: calc(30vw/12);
+				letter-spacing: 1.3px;
+				line-height: 1.4;
 			}
 			.cs_btn {
 				margin: 7% 0 0;
@@ -1611,6 +1644,15 @@ footer {
 			padding: 0 0 7%;
 			margin: 8% 0 0;
 
+			.bagg {
+				display: inline-block;
+				padding: 0.8% 2%;
+				margin: 6.7% 0 0;
+				border-radius: 3px;
+				letter-spacing: 1.2px;
+				font-size: calc(33vw/12);
+			}
+
 			.cs_h {
 				padding: 0 0 0 3.5%;
 				margin: 5.5% 0 0;
@@ -1634,6 +1676,12 @@ footer {
 					width: 3.2%;
 					height: 86.4%;
 				}
+			}
+			.cs_cau {
+				margin: 4% 0 0 4.7%;
+				font-size: calc(32vw/12);
+				letter-spacing: 0.9px;
+				line-height: 1.35;
 			}
 			.cs_btn {
 				margin: 7% 0 0;
