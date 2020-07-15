@@ -6,9 +6,9 @@ $(function(){
 		}
 		timer = setTimeout(function() {
 			if(window.matchMedia("(max-width:768px)").matches){
-				$('.a01').attr("href","https://home.osakagas.co.jp/sp/electricity/lp/with_abema/index.html?utm_source=abema-hp&utm_medium=link&utm_campaign=electric-abema&utm_content=sp");
+				$('.a01').attr("href","https://services.osakagas.co.jp/portalc/contents-2/sp/electricity/switching/index.html?disp_plantype=onlyplan_a&utm_source=abema-hp&utm_medium=link&utm_campaign=electric-abema&utm_content=sp");
 			}else{
-				$('.a01').attr("href","https://home.osakagas.co.jp/electricity/lp/with_abema/index.html?utm_source=abema-hp&utm_medium=link&utm_campaign=electric-abema&utm_content=pc");
+				$('.a01').attr("href","https://services.osakagas.co.jp/portalc/contents-2/pc/electricity/switching/index.php?disp_plantype=onlyplan_a&utm_source=abema-hp&utm_medium=link&utm_campaign=electric-abema&utm_content=pc");
 			}
 		}, 200);
 	});
@@ -30,3 +30,13 @@ $(function(){
 	});
 })
 
+
+
+
+$(function(){
+  var close = $('#windowclose');
+
+  close.on('chick', function(){ //
+      window.open('about:blank','_self').close();
+  });
+});
