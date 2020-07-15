@@ -28,15 +28,21 @@ $(function(){
 			}
 		}, 200);
 	});
+
+	// シミュレーション
+	var timer03 = false;
+	$(window).resize(function() {
+		if (timer03 !== false) {
+			clearTimeout(timer03);
+		}
+		timer03 = setTimeout(function() {
+			if(window.matchMedia("(max-width:768px)").matches){
+				$('.a03').attr("href","https://wwwe7.osakagas.co.jp/rkninsim/electricity/c2/sp?disp_plantype=onlyplan_abema");
+			}else{
+				$('.a03').attr("href","https://wwwe7.osakagas.co.jp/rkninsim/electricity/c2/pc?disp_plantype=onlyplan_abema");
+			}
+		}, 200);
+	});
 })
 
 
-
-
-$(function(){
-  var close = $('#windowclose');
-
-  close.on('chick', function(){ //
-      window.open('about:blank','_self').close();
-  });
-});
