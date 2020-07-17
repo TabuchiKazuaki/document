@@ -356,7 +356,7 @@ header {
 .banner_b {
 	background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/80e602375a9a8ead3dce7a674b73ac66_8f8dc95a78fd4cd9f0eefae17f5664e3.png) center top no-repeat;
 	padding: 8px 0 0;
-	margin: 0;
+	margin: 72px 0 0 0;
 	height: 421px;
 	box-sizing: border-box;
 	.wrap {
@@ -462,6 +462,31 @@ header {
 	.l_p {
 		max-width: 362px;
 		margin: 0 auto 0;
+	}
+	.llist {
+		display: flex;
+		flex-flow: row wrap;
+		margin: 56px 0 0;
+		li {
+			width: 32%;
+			margin: 0.5% 0 0 2%;
+			justify-content: flex-end;
+			box-sizing: border-box;
+			line-height: 0;
+
+			&:nth-child(2) {
+				margin: 0 0 0 2%;
+			}
+			&:nth-child(3) {
+				margin: 0 0 0 2%;
+			}
+			&:nth-child(1) {
+				margin: 0;
+			}
+			&:nth-child(4) {
+				margin: 0.5% 0 0 0;
+			}
+		}
 	}
 	.l_item {
 		overflow: hidden;
