@@ -465,6 +465,11 @@ header {
 		max-width: 362px;
 		margin: 0 auto 0;
 	}
+	.m_list {
+		max-width: 680px;
+		margin: 63px auto 0;
+		line-height: 0;
+	}
 	.llist {
 		display: flex;
 		flex-flow: row wrap;
@@ -1545,6 +1550,10 @@ footer {
 		.l_p {
 			width: 53.4%;
 		}
+		.m_list {
+			width: 100%;
+			margin: 5% auto 0;
+		}
 		.llist {
 			margin: 7.5% 0 0;
 			li {
@@ -2211,6 +2220,10 @@ footer {
 		padding: 9% 0 6.6%;
 		.l_p {
 			width: 53.4%;
+		}
+		.m_list {
+			width: 100%;
+			margin: 5% auto 0;
 		}
 		.llist {
 			margin: 7.5% 0 0;
