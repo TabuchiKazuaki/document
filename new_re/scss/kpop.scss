@@ -504,6 +504,13 @@ header {
 .point {
 	background: #efefef;
 	padding: 50px 0 44px;
+
+	.p_i {
+		margin: 32px auto 0;
+		.p_box {
+			line-height: 0;
+		}
+	}
 	.p_h {
 		max-width: 539px;
 		margin: 0 auto;
@@ -1140,6 +1147,11 @@ footer {
 
 	.point {
 		padding: 6.7% 0 6.5%;
+
+		.p_i {
+			width: 100%;
+			margin: 5% auto 0;
+		}
 		.p_h {
 			width: 79.5%;
 		}
@@ -1683,6 +1695,10 @@ footer {
 
 	.point {
 		padding: 6.7% 0 6.5%;
+		.p_i {
+			width: 100%;
+			margin: 5% auto 0;
+		}
 		.p_h {
 			width: 81.3%;
 		}
