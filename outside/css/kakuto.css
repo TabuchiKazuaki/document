@@ -359,6 +359,61 @@ header .h_a .h_btn a {
   letter-spacing: 2.5px;
   color: #ddaa00;
 }
+.contents .c_box .name01 {
+  max-width: 446px;
+  margin: 48px auto 0;
+  line-height: 0;
+}
+.contents .c_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 48px auto 0;
+}
+.contents .c_item li {
+  width: 47.1%;
+  max-width: 324px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 9% 0 0 5.5%;
+}
+.contents .c_item li:nth-child(3) {
+  margin: 9% 0 0 0;
+}
+.contents .c_item li:nth-child(2) {
+  margin: 0 0 0 5.5%;
+}
+.contents .c_item li:nth-child(1) {
+  margin: 0;
+}
+.contents .c_item li .na {
+  margin: 46px auto 0;
+  line-height: 0;
+}
+.contents .c_item li .name02 {
+  max-width: 116px;
+}
+.contents .c_item li .name03 {
+  max-width: 299px;
+}
+.contents .c_item li .name04 {
+  max-width: 184px;
+}
+.contents .c_item li .name05 {
+  max-width: 286px;
+}
+.contents .look {
+  max-width: 467px;
+  margin: 84px auto 0;
+  line-height: 0;
+}
 .contents figure {
   margin: 50px 0 0;
   line-height: 0;
