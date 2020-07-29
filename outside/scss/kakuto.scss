@@ -277,6 +277,18 @@ header {
 					display: inline-block;
 					border-bottom: 3px solid #ddaa00;
 				}
+				.kome {
+					position: relative;
+					display: inline-block;
+					&:after {
+						content: '※';
+						position: absolute;
+						top: -12px;
+						right: -10px;
+						font-size: 17px;
+						font-weight: normal;
+					}
+				}
 			}
 			.cau {
 				font-size: 20px;
@@ -644,6 +656,14 @@ footer {
 						display: inline-block;
 						border-bottom: 3px solid #ddaa00;
 					}
+					.kome {
+						display: inline-block;
+						&:after {
+							top: -24%;
+							right: -9%;
+							font-size: calc(17vw/12);
+						}
+					}
 				}
 				.cau {
 					font-size: calc(21vw/12);
@@ -852,6 +872,14 @@ footer {
 					.b_b {
 						display: inline-block;
 						border-bottom: 3px solid #ddaa00;
+					}
+					.kome {
+						display: inline-block;
+						&:after {
+							top: -25%;
+							right: -9%;
+							font-size: calc(28vw/12);
+						}
 					}
 				}
 				.cau {
@@ -1248,6 +1276,14 @@ footer {
 					.b_b {
 						display: inline-block;
 						border-bottom: 1.5px solid #ddaa00;
+					}
+					.kome {
+						display: inline-block;
+						&:after {
+							top: -25%;
+							right: -9%;
+							font-size: calc(28vw/12);
+						}
 					}
 				}
 				.cau {
