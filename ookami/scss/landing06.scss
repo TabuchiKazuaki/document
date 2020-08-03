@@ -104,7 +104,7 @@ img  { width: 100%;}
 }
 .f_wrap {
 	max-width: 768px;
-	margin: 0 auto;
+	margin: 30px auto 0;
 	box-sizing: border-box;
 }
 .pc {
@@ -465,6 +465,11 @@ footer {
 
 
 @media screen and (max-width: 768px) {
+	.f_wrap {
+		max-width: 768px;
+		margin: 2% auto 0;
+		box-sizing: border-box;
+	}
 	.wrap {
 		max-width: 768px;
 		margin: 0 auto;
