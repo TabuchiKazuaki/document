@@ -975,6 +975,7 @@ footer {
 			height: auto;
 			.h_inner {
 				position: relative;
+				padding: 0 4.5%;
 				margin: 0;
 				.h_posi {
 					display: none;
@@ -987,7 +988,7 @@ footer {
 				position: relative;
 				width: 100%;
 				max-width: 680px;
-				margin: 5% auto 0;
+				margin: 8% auto 0;
 			}
 			.h_box {
 				position: relative;
@@ -998,44 +999,50 @@ footer {
 				border: none;
 				.h_bt {
 					max-width: 300px;
-					width: 69.9%;
-					padding: 0 0 1.8%;
+					width: 43.2%;
+					padding: 0 0 2.1%;
 					margin: 0;
 					border-bottom: 1px solid #000000;
 				}
 				.h_cha {
 					position: absolute;
-					top: 0;
-					right: 0;
+					top: -19%;
+					right: -5%;
 					display: block !important;
-					line-height: 0
+					line-height: 0;
+					max-width: 489px;
+					width: 70.8%;
 				}
 			}
 			.h_t {
-				margin: 2.5% 0 4%;
-				font-size: calc(21vw/12);
+				margin: 2.5% 0 3.5%;
+				font-size: calc(38vw/12);
 				letter-spacing: 1.3px;
+				line-height: 1.5;
 			}
 		}
 		.h_line {
 			.hl_dl {
-				width: 88.2%;
-				padding: 2.8% 0 3.6%;
+				display: block;
+				width: 100%;
+				padding: 4.5% 5.5% 6.5%;
 				margin: 0 auto;
+				box-sizing: border-box;
 				dd {
-					width: 50.1%;
+					width: 41.7%;
+					max-width: 282px;
 				}
 				dt {
-					width: 46%;
-					margin: 0 0 0 3.5%;
+					width: 100%;
+					margin: 0;
 					.hl_btn {
 						width: 100%;
-						margin: 3% 0 0;
+						margin: 4.3% 0 0;
 					}
 					a {
-						padding: 4.2% 0;
-						font-size: calc(28vw/12);
-						border-radius: 7px;
+						padding: 4.3% 0;
+						font-size: calc(51vw/12);
+						border-radius: 6px;
 					}
 				}
 			}
@@ -1048,332 +1055,67 @@ footer {
 			padding: 0 4.5%;
 			margin: 0 auto;
 		}
-		.ch_b {
-			max-width: 100%;
+		.c_hl {
+			width: 90.1%;
+			margin: 100% auto 0;
 		}
-		.c_lh {
-			margin: 7.2% 0 0 10.6%;
-			width: 84.3%;
-		}
-		.c_lh02 {
-			width: 84.5%;
-		}
-		.c_lh03 {
-			width: 84.4%;
+		.c_next {
+			width: 89.9%;
+			margin: 10% auto 0;
 		}
 		.c_h {
-			margin: 5% auto 0;
-			font-size: calc(47vw/12);
+			margin: 35px auto 0;
+			font-weight: bold;
+			font-size:  30px;
 			letter-spacing: 2.5px;
+			color: #fff;
 			span {
 				display: inline-block;
-				padding: 1.4% 0.1% 1.3% 3.4%;
+				background: #00a4b9;
+				padding: 11px 1px 10px 23px;
 			}
 			.dou {
 				display: inline-block;
-				padding: 1.4% 1.1% 1.8% 3.2%;
-				margin: 0 0 0 5.6%;
+				padding: 10px 8px 14px 21px;
+				margin: 0 0 0 38px;
 			}
 		}
 
-		.cs_box {
-			padding: 0 0 7%;
+		.c_item {
 			margin: 8% 0 0;
-			.bagg {
-				display: inline-block;
-				padding: 0.8% 2%;
-				margin: 6.7% 0 0;
-				border-radius: 4px;
-				letter-spacing: 1.5px;
-				font-size: calc(32vw/12);
-			}
-
-			.cs_h {
-				padding: 0 0 0 3.5%;
-				margin: 3.5% 0 0;
-				letter-spacing: 1.3px;
-				line-height: 1.1;
-				border-left: 8px solid #00a4b9;
-				font-size: calc(50vw/12);
-			}
-			.cs_date {
-				position: relative;
-				padding: 0 0 0 4.2%;
-				margin: 4.5% 0 0 5%;
-				font-size: calc(37vw/12);
-				letter-spacing: 1.5px;
-
-				&:before {
-					content: '';
-					position: absolute;
-					top: 5%;
-					left: 0;
-					width: 3.2%;
-					height: 92.368%;
-				}
-			}
-			.cs_cau {
-				margin: 4% 0 0 4.7%;
-				font-size: calc(30vw/12);
-				letter-spacing: 1.3px;
-				line-height: 1.4;
-			}
-			.cs_btn {
-				margin: 7% 0 0;
-				a {
-					padding: 3.3% 0;
-					border-radius: 6px;
-					border: 4px solid #00a4b9;
-					font-size: calc(50vw/12);
-					letter-spacing: 1.5px;
-
-					&:hover {
-						opacity: 0.8;
-						background: none;
-						color: #00a4b9;
-					}
-				}
-			}
-		}
-
-
-		.cs_item {
 			li {
-				padding: 6% 0;
-				dl {
-					display: flex;
-					align-items: center;
-					dd {
-						width: 57%;
-					}
-					dt {
-						width: 39.5%;
-						margin: 0 0 0 3.5%;
-						.title {
-							font-size: calc(46vw/12);
-							line-height: 1.5;
-							letter-spacing: 1.2px;
-						}
-						.date {
-							padding: 0 0 0 10%;
-							margin: 5% 0 0 0;
-							font-size: calc(38vw/12);
-							letter-spacing: 1.3px;
+				width: 47.6%;
+				margin: 5% 0 0 4.7%;
+				border-radius: 0 0 7px 7px;
 
-							&:before {
-								top: 7%;
-								width: 8.1%;
-								height: 96%;
-								border-radius: 50%
-							}
-						}
-					}
-				}
-			}
-			.cb_btn {
-				margin: 7% 0 0;
-				a {
-					padding: 3.4% 0;
-					border-radius: 6px;
-					border: 3px solid #00a4b9;
-					font-size: calc(51vw/12);
-					letter-spacing: 1.4px;
-
-					&:hover {
-						opacity: 0.8;
-						background: none;
-						color: #00a4b9;
-					}
-				}
-			}
-			.cb_no {
-				padding: 3.4% 0;
-				border-radius: 6px;
-				border: 3px solid #ababab;
-				font-size: calc(51vw/12);
-				letter-spacing: 1.4px;
-			}
-		}
-
-		.cb_l {
-			max-width: 100%;
-			margin: 2.5% 3.5% 0;
-
-			.cb_lh {
-				width: 27.8%;
-				margin: 0 0 0 -1%;
-			}
-		}
-		.cb_h {
-			margin: 0.5% auto 0;
-			font-size: calc(47vw/12);
-			letter-spacing: 2.5px;
-
-			span {
-				display: inline-block;
-				padding: 1.4% 2.5% 1.3% 3.4%;
-			}
-			.dou {
-				display: inline-block;
-				padding: 1.4% 3.8% 1.8% 3.2%;
-				margin: 0 0 0 11%;
-			}
-		}
-
-		.ske {
-			li {
-				padding: 6.5% 0;
-			}
-			.ske_dl {
-				display: flex;
-				.date {
-					width: 11%;
-					margin: 9% 2% 0 0;
-					letter-spacing: -3px;
-					font-size: calc(70vw/12);
-					white-space: nowrap;
-					span {
-						display: inline-block;
-						letter-spacing: 1.5px;
-						font-size: calc(45vw/12);
-						letter-spacing: 0.5px;
-						margin: -13% 0 0 2%;
-					}
-				}
-				.im {
-					width: 49%;
-				}
-				.sdt {
-					position: relative;
-					width: 37%;
-					margin: 0 0 0 3%;
-					.sti {
-						line-height: 1.5;
-						font-size: calc(37vw/12);
-					}
-					.sdate {
-						position: relative;
-						padding: 0 0 0 10.5%;
-						margin: 4% 0 0 0;
-						font-size: calc(37vw/12);
-						letter-spacing: 1.4px;
-
-						&:before {
-							top: 8%;
-							width: 9%;
-							height: 99.1%;
-						}
-					}
-
-					.sbtn {
-						position: absolute;
-						bottom: 0;
-						right: 0;
-					}
-
-					a {
-						display: inline-block;
-						font-size: calc(39vw/12);
-						padding: 2% 2%;
-						white-space: nowrap;
-					}
-				}
-			}
-		}
-		.more {
-			padding: 2% 0 3%;
-			font-size: calc(48vw/12);
-			text-align: center;
-			letter-spacing: 1.3px;
-		}
-	}
-
-	.entry {
-		height: auto;
-		padding: 6% 4.5% 6%;
-		margin: 4% 0 0;
-		.wrap {
-			max-width: 100%;
-			padding: 6.6% 4.8% 5.8%;
-			letter-spacing: 1.3px;
-
-			&:before {
-				content: '';
-				top: -3%;
-				left: -1.6%;
-				background-size: 100% 100%;
-				width: 24.038%;
-				height: 12.025%;
-			}
-		}
-		.e_h {
-			font-size: calc(47vw/12);
-			line-height: 1.5;
-			.sin {
-				position: relative;
-				display: inline-block;
-				padding: 0 3.5%;
-				font-size: calc(39vw/12);
-				.num {
-					font-size: calc(41vw/12);
+				&:nth-child(2n+1) {
+					margin: 5% 0 0 0;
 				}
 
-				&:before {
-					top: 26%;
-					left: 0;
-					background-size: 100% 100%;
-					width: 2.107%;
-					height: 59%;
+				&:nth-child(2) {
+					margin: 0 0 0 4.7%;
 				}
-				&:after {
-					top: 26%;
-					right: 0;
-					background-size: 100% 100%;
-					width: 2.107%;
-					height: 59%;
+				&:nth-child(1) {
+					margin: 0;
 				}
-			}
-		}
-		figure {
-			width: 92%;
-			margin: 5.5% auto 0;
-		}
-		.e_btn {
-			margin: 7% 0 0;
-			a {
-				padding: 3.6% 0;
-				border-radius: 6px;
-				font-size: calc(50vw/12);
-				letter-spacing: 1.5px;
-			}
-		}
-	}
-
-	.entry_sec {
-		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/13cf8f4f1d7eed6ad66c8669ce99f56c_0d7d62a1938c8b3f78ce21a72509c9ab.png) center top no-repeat;
-		background-size: cover;
-		height: auto;
-		padding: 7% 0 9%;
-		margin: 4% 0 0;
-		box-sizing: border-box;
-		.wrap {
-			max-width: 100%;
-			padding: 0;
-			margin: 0 auto;
-			box-sizing: border-box;
-		}
-
-		figure {
-			width: 92.6%;
-		}
-		.es_btn {
-			width: 79.8%;
-			margin: 5% auto 0;
-			a {
-				padding: 4.5% 0;
-				border-radius: 5px;
-				font-size: calc(50vw/12);
-				letter-spacing: 2px;
+				figure {
+					line-height: 0;
+				}
+				.title {
+					padding: 6% 6% 8%;
+					border-radius: 0 0 7px 7px;
+				}
+				.bagg {
+					padding: 1.3% 4.6%;
+					margin: 0 0 3.5%;
+					font-size: calc(31vw/12);
+					letter-spacing: 2px;
+					border-radius: 4px;
+				}
+				.tt {
+					font-size: calc(37vw/12);
+					line-height: 1.4;
+				}
 			}
 		}
 	}
@@ -1447,21 +1189,6 @@ footer {
 			margin: 2.5% 0 0;
 			line-height: 1.4;
 			font-size: calc(32vw/12);
-		}
-	}
-
-	.top {
-		margin: 6% 0 8%;
-
-		.wrap {
-			max-width: 100%;
-			margin: 0 4.5%;
-		}
-
-		a {
-			display: inline-block;
-			font-size: calc(47vw/12);
-			letter-spacing: 1.3px;
 		}
 	}
 
@@ -1571,57 +1298,78 @@ footer {
 
 
 	header {
-
-		.h_l {
-			padding: 1.3% 0 1.3% 2.3%;
-			span {
-				display: inline-block;
-				max-width: 19.2%;
-			}
-		}
-		.wrap {
-			padding: 0 3%;
-			margin: 0;
-		}
-
 		.h_a {
-			overflow: hidden;
-			background-size: cover;
-			box-sizing: border-box;
-			.h_i {
-				padding: 31.2% 0;
-				.h01 {
-					top: 3.8%;
-					width: 92.7%;
-				}
-				.h02 {
-					top: 4%;
+			height: auto;
+			.h_inner {
+				position: relative;
+				padding: 0 4.5%;
+				margin: 0;
+				.h_posi {
+					display: none;
+					top: 3%;
 					right: 0;
-					width: 14.1%;
-				}
-				.h03 {
-					top: 27.2%;
-					width: 55.8%;
-				}
-				.h04 {
-					top: 30.2%;
-					right: 14%;
-					width: 27.7%;
-				}
-				.h05 {
-					bottom: 4.5%;
-					width: 57.6%;
-				}
-				.h06 {
-					right: 0;
-					bottom: 4.5%;
-					width: 42%;
+					width: 53.3%;
 				}
 			}
-			.h_impact {
-				top: 4.5%;
-				right: 0;
-				width: 71%;
+			.h_i {
+				position: relative;
+				width: 100%;
+				max-width: 680px;
+				margin: 8% auto 0;
+			}
+			.h_box {
+				position: relative;
+				width: 100%;
+				padding: 0;
+				margin: 7% 0 0;
+				box-shadow: none;
+				border: none;
+				.h_bt {
+					max-width: 300px;
+					width: 45.2%;
+					padding: 0 0 2.1%;
+					margin: 0;
+				}
+				.h_cha {
+					position: absolute;
+					top: -19%;
+					right: -5%;
+					display: block !important;
+					line-height: 0;
+					max-width: 489px;
+					width: 70.8%;
+				}
+			}
+			.h_t {
+				margin: 2.5% 0 3.5%;
+				font-size: calc(40vw/12);
+				letter-spacing: 0.5px;
+				line-height: 1.5;
+			}
+		}
+		.h_line {
+			.hl_dl {
+				display: block;
+				width: 100%;
+				padding: 4.5% 5.5% 6.5%;
+				margin: 0 auto;
+				box-sizing: border-box;
+				dd {
+					width: 43.7%;
+				}
+				dt {
+					margin: 0;
+					.hl_btn {
+						width: 100%;
+						margin: 4.3% 0 0;
+					}
+					a {
+						padding: 4.3% 0;
+						font-size: calc(53vw/12);
+						border-radius: 4px;
+						letter-spacing: 0.8px;
+					}
+				}
 			}
 		}
 	}

@@ -1016,6 +1016,7 @@ footer small {
   }
   header .h_a .h_inner {
     position: relative;
+    padding: 0 4.5%;
     margin: 0;
   }
   header .h_a .h_inner .h_posi {
@@ -1028,7 +1029,7 @@ footer small {
     position: relative;
     width: 100%;
     max-width: 680px;
-    margin: 5% auto 0;
+    margin: 8% auto 0;
   }
   header .h_a .h_box {
     position: relative;
@@ -1041,43 +1042,50 @@ footer small {
   }
   header .h_a .h_box .h_bt {
     max-width: 300px;
-    width: 69.9%;
-    padding: 0 0 1.8%;
+    width: 43.2%;
+    padding: 0 0 2.1%;
     margin: 0;
     border-bottom: 1px solid #000000;
   }
   header .h_a .h_box .h_cha {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -19%;
+    right: -5%;
     display: block !important;
     line-height: 0;
+    max-width: 489px;
+    width: 70.8%;
   }
   header .h_a .h_t {
-    margin: 2.5% 0 4%;
-    font-size: calc(21vw/12);
+    margin: 2.5% 0 3.5%;
+    font-size: calc(38vw/12);
     letter-spacing: 1.3px;
+    line-height: 1.5;
   }
   header .h_line .hl_dl {
-    width: 88.2%;
-    padding: 2.8% 0 3.6%;
+    display: block;
+    width: 100%;
+    padding: 4.5% 5.5% 6.5%;
     margin: 0 auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   header .h_line .hl_dl dd {
-    width: 50.1%;
+    width: 41.7%;
+    max-width: 282px;
   }
   header .h_line .hl_dl dt {
-    width: 46%;
-    margin: 0 0 0 3.5%;
+    width: 100%;
+    margin: 0;
   }
   header .h_line .hl_dl dt .hl_btn {
     width: 100%;
-    margin: 3% 0 0;
+    margin: 4.3% 0 0;
   }
   header .h_line .hl_dl dt a {
-    padding: 4.2% 0;
-    font-size: calc(28vw/12);
-    border-radius: 7px;
+    padding: 4.3% 0;
+    font-size: calc(51vw/12);
+    border-radius: 6px;
   }
 
   .contents .wrap {
@@ -1085,319 +1093,65 @@ footer small {
     padding: 0 4.5%;
     margin: 0 auto;
   }
-  .contents .ch_b {
-    max-width: 100%;
+  .contents .c_hl {
+    width: 90.1%;
+    margin: 100% auto 0;
   }
-  .contents .c_lh {
-    margin: 7.2% 0 0 10.6%;
-    width: 84.3%;
-  }
-  .contents .c_lh02 {
-    width: 84.5%;
-  }
-  .contents .c_lh03 {
-    width: 84.4%;
+  .contents .c_next {
+    width: 89.9%;
+    margin: 10% auto 0;
   }
   .contents .c_h {
-    margin: 5% auto 0;
-    font-size: calc(47vw/12);
+    margin: 35px auto 0;
+    font-weight: bold;
+    font-size: 30px;
     letter-spacing: 2.5px;
+    color: #fff;
   }
   .contents .c_h span {
     display: inline-block;
-    padding: 1.4% 0.1% 1.3% 3.4%;
+    background: #00a4b9;
+    padding: 11px 1px 10px 23px;
   }
   .contents .c_h .dou {
     display: inline-block;
-    padding: 1.4% 1.1% 1.8% 3.2%;
-    margin: 0 0 0 5.6%;
+    padding: 10px 8px 14px 21px;
+    margin: 0 0 0 38px;
   }
-  .contents .cs_box {
-    padding: 0 0 7%;
+  .contents .c_item {
     margin: 8% 0 0;
   }
-  .contents .cs_box .bagg {
-    display: inline-block;
-    padding: 0.8% 2%;
-    margin: 6.7% 0 0;
-    border-radius: 4px;
-    letter-spacing: 1.5px;
-    font-size: calc(32vw/12);
+  .contents .c_item li {
+    width: 47.6%;
+    margin: 5% 0 0 4.7%;
+    border-radius: 0 0 7px 7px;
   }
-  .contents .cs_box .cs_h {
-    padding: 0 0 0 3.5%;
-    margin: 3.5% 0 0;
-    letter-spacing: 1.3px;
-    line-height: 1.1;
-    border-left: 8px solid #00a4b9;
-    font-size: calc(50vw/12);
-  }
-  .contents .cs_box .cs_date {
-    position: relative;
-    padding: 0 0 0 4.2%;
-    margin: 4.5% 0 0 5%;
-    font-size: calc(37vw/12);
-    letter-spacing: 1.5px;
-  }
-  .contents .cs_box .cs_date:before {
-    content: '';
-    position: absolute;
-    top: 5%;
-    left: 0;
-    width: 3.2%;
-    height: 92.368%;
-  }
-  .contents .cs_box .cs_cau {
-    margin: 4% 0 0 4.7%;
-    font-size: calc(30vw/12);
-    letter-spacing: 1.3px;
-    line-height: 1.4;
-  }
-  .contents .cs_box .cs_btn {
-    margin: 7% 0 0;
-  }
-  .contents .cs_box .cs_btn a {
-    padding: 3.3% 0;
-    border-radius: 6px;
-    border: 4px solid #00a4b9;
-    font-size: calc(50vw/12);
-    letter-spacing: 1.5px;
-  }
-  .contents .cs_box .cs_btn a:hover {
-    opacity: 0.8;
-    background: none;
-    color: #00a4b9;
-  }
-  .contents .cs_item li {
-    padding: 6% 0;
-  }
-  .contents .cs_item li dl {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .contents .cs_item li dl dd {
-    width: 57%;
-  }
-  .contents .cs_item li dl dt {
-    width: 39.5%;
-    margin: 0 0 0 3.5%;
-  }
-  .contents .cs_item li dl dt .title {
-    font-size: calc(46vw/12);
-    line-height: 1.5;
-    letter-spacing: 1.2px;
-  }
-  .contents .cs_item li dl dt .date {
-    padding: 0 0 0 10%;
+  .contents .c_item li:nth-child(2n+1) {
     margin: 5% 0 0 0;
-    font-size: calc(38vw/12);
-    letter-spacing: 1.3px;
   }
-  .contents .cs_item li dl dt .date:before {
-    top: 7%;
-    width: 8.1%;
-    height: 96%;
-    border-radius: 50%;
+  .contents .c_item li:nth-child(2) {
+    margin: 0 0 0 4.7%;
   }
-  .contents .cs_item .cb_btn {
-    margin: 7% 0 0;
+  .contents .c_item li:nth-child(1) {
+    margin: 0;
   }
-  .contents .cs_item .cb_btn a {
-    padding: 3.4% 0;
-    border-radius: 6px;
-    border: 3px solid #00a4b9;
-    font-size: calc(51vw/12);
-    letter-spacing: 1.4px;
+  .contents .c_item li figure {
+    line-height: 0;
   }
-  .contents .cs_item .cb_btn a:hover {
-    opacity: 0.8;
-    background: none;
-    color: #00a4b9;
+  .contents .c_item li .title {
+    padding: 6% 6% 8%;
+    border-radius: 0 0 7px 7px;
   }
-  .contents .cs_item .cb_no {
-    padding: 3.4% 0;
-    border-radius: 6px;
-    border: 3px solid #ababab;
-    font-size: calc(51vw/12);
-    letter-spacing: 1.4px;
-  }
-  .contents .cb_l {
-    max-width: 100%;
-    margin: 2.5% 3.5% 0;
-  }
-  .contents .cb_l .cb_lh {
-    width: 27.8%;
-    margin: 0 0 0 -1%;
-  }
-  .contents .cb_h {
-    margin: 0.5% auto 0;
-    font-size: calc(47vw/12);
-    letter-spacing: 2.5px;
-  }
-  .contents .cb_h span {
-    display: inline-block;
-    padding: 1.4% 2.5% 1.3% 3.4%;
-  }
-  .contents .cb_h .dou {
-    display: inline-block;
-    padding: 1.4% 3.8% 1.8% 3.2%;
-    margin: 0 0 0 11%;
-  }
-  .contents .ske li {
-    padding: 6.5% 0;
-  }
-  .contents .ske .ske_dl {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .contents .ske .ske_dl .date {
-    width: 11%;
-    margin: 9% 2% 0 0;
-    letter-spacing: -3px;
-    font-size: calc(70vw/12);
-    white-space: nowrap;
-  }
-  .contents .ske .ske_dl .date span {
-    display: inline-block;
-    letter-spacing: 1.5px;
-    font-size: calc(45vw/12);
-    letter-spacing: 0.5px;
-    margin: -13% 0 0 2%;
-  }
-  .contents .ske .ske_dl .im {
-    width: 49%;
-  }
-  .contents .ske .ske_dl .sdt {
-    position: relative;
-    width: 37%;
-    margin: 0 0 0 3%;
-  }
-  .contents .ske .ske_dl .sdt .sti {
-    line-height: 1.5;
-    font-size: calc(37vw/12);
-  }
-  .contents .ske .ske_dl .sdt .sdate {
-    position: relative;
-    padding: 0 0 0 10.5%;
-    margin: 4% 0 0 0;
-    font-size: calc(37vw/12);
-    letter-spacing: 1.4px;
-  }
-  .contents .ske .ske_dl .sdt .sdate:before {
-    top: 8%;
-    width: 9%;
-    height: 99.1%;
-  }
-  .contents .ske .ske_dl .sdt .sbtn {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
-  .contents .ske .ske_dl .sdt a {
-    display: inline-block;
-    font-size: calc(39vw/12);
-    padding: 2% 2%;
-    white-space: nowrap;
-  }
-  .contents .more {
-    padding: 2% 0 3%;
-    font-size: calc(48vw/12);
-    text-align: center;
-    letter-spacing: 1.3px;
-  }
-
-  .entry {
-    height: auto;
-    padding: 6% 4.5% 6%;
-    margin: 4% 0 0;
-  }
-  .entry .wrap {
-    max-width: 100%;
-    padding: 6.6% 4.8% 5.8%;
-    letter-spacing: 1.3px;
-  }
-  .entry .wrap:before {
-    content: '';
-    top: -3%;
-    left: -1.6%;
-    background-size: 100% 100%;
-    width: 24.038%;
-    height: 12.025%;
-  }
-  .entry .e_h {
-    font-size: calc(47vw/12);
-    line-height: 1.5;
-  }
-  .entry .e_h .sin {
-    position: relative;
-    display: inline-block;
-    padding: 0 3.5%;
-    font-size: calc(39vw/12);
-  }
-  .entry .e_h .sin .num {
-    font-size: calc(41vw/12);
-  }
-  .entry .e_h .sin:before {
-    top: 26%;
-    left: 0;
-    background-size: 100% 100%;
-    width: 2.107%;
-    height: 59%;
-  }
-  .entry .e_h .sin:after {
-    top: 26%;
-    right: 0;
-    background-size: 100% 100%;
-    width: 2.107%;
-    height: 59%;
-  }
-  .entry figure {
-    width: 92%;
-    margin: 5.5% auto 0;
-  }
-  .entry .e_btn {
-    margin: 7% 0 0;
-  }
-  .entry .e_btn a {
-    padding: 3.6% 0;
-    border-radius: 6px;
-    font-size: calc(50vw/12);
-    letter-spacing: 1.5px;
-  }
-
-  .entry_sec {
-    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/13cf8f4f1d7eed6ad66c8669ce99f56c_0d7d62a1938c8b3f78ce21a72509c9ab.png) center top no-repeat;
-    background-size: cover;
-    height: auto;
-    padding: 7% 0 9%;
-    margin: 4% 0 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  .entry_sec .wrap {
-    max-width: 100%;
-    padding: 0;
-    margin: 0 auto;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  .entry_sec figure {
-    width: 92.6%;
-  }
-  .entry_sec .es_btn {
-    width: 79.8%;
-    margin: 5% auto 0;
-  }
-  .entry_sec .es_btn a {
-    padding: 4.5% 0;
-    border-radius: 5px;
-    font-size: calc(50vw/12);
+  .contents .c_item li .bagg {
+    padding: 1.3% 4.6%;
+    margin: 0 0 3.5%;
+    font-size: calc(31vw/12);
     letter-spacing: 2px;
+    border-radius: 4px;
+  }
+  .contents .c_item li .tt {
+    font-size: calc(37vw/12);
+    line-height: 1.4;
   }
 
   aside {
@@ -1464,19 +1218,6 @@ footer small {
     margin: 2.5% 0 0;
     line-height: 1.4;
     font-size: calc(32vw/12);
-  }
-
-  .top {
-    margin: 6% 0 8%;
-  }
-  .top .wrap {
-    max-width: 100%;
-    margin: 0 4.5%;
-  }
-  .top a {
-    display: inline-block;
-    font-size: calc(47vw/12);
-    letter-spacing: 1.3px;
   }
 
   footer {
@@ -1584,57 +1325,79 @@ footer small {
     margin: 0 auto;
   }
 
-  header .h_l {
-    padding: 1.3% 0 1.3% 2.3%;
+  header .h_a {
+    height: auto;
   }
-  header .h_l span {
-    display: inline-block;
-    max-width: 19.2%;
-  }
-  header .wrap {
-    padding: 0 3%;
+  header .h_a .h_inner {
+    position: relative;
+    padding: 0 4.5%;
     margin: 0;
   }
-  header .h_a {
-    overflow: hidden;
-    background-size: cover;
+  header .h_a .h_inner .h_posi {
+    display: none;
+    top: 3%;
+    right: 0;
+    width: 53.3%;
+  }
+  header .h_a .h_i {
+    position: relative;
+    width: 100%;
+    max-width: 680px;
+    margin: 8% auto 0;
+  }
+  header .h_a .h_box {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 7% 0 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border: none;
+  }
+  header .h_a .h_box .h_bt {
+    max-width: 300px;
+    width: 45.2%;
+    padding: 0 0 2.1%;
+    margin: 0;
+  }
+  header .h_a .h_box .h_cha {
+    position: absolute;
+    top: -19%;
+    right: -5%;
+    display: block !important;
+    line-height: 0;
+    max-width: 489px;
+    width: 70.8%;
+  }
+  header .h_a .h_t {
+    margin: 2.5% 0 3.5%;
+    font-size: calc(40vw/12);
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+  }
+  header .h_line .hl_dl {
+    display: block;
+    width: 100%;
+    padding: 4.5% 5.5% 6.5%;
+    margin: 0 auto;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-  header .h_a .h_i {
-    padding: 31.2% 0;
+  header .h_line .hl_dl dd {
+    width: 43.7%;
   }
-  header .h_a .h_i .h01 {
-    top: 3.8%;
-    width: 92.7%;
+  header .h_line .hl_dl dt {
+    margin: 0;
   }
-  header .h_a .h_i .h02 {
-    top: 4%;
-    right: 0;
-    width: 14.1%;
+  header .h_line .hl_dl dt .hl_btn {
+    width: 100%;
+    margin: 4.3% 0 0;
   }
-  header .h_a .h_i .h03 {
-    top: 27.2%;
-    width: 55.8%;
-  }
-  header .h_a .h_i .h04 {
-    top: 30.2%;
-    right: 14%;
-    width: 27.7%;
-  }
-  header .h_a .h_i .h05 {
-    bottom: 4.5%;
-    width: 57.6%;
-  }
-  header .h_a .h_i .h06 {
-    right: 0;
-    bottom: 4.5%;
-    width: 42%;
-  }
-  header .h_a .h_impact {
-    top: 4.5%;
-    right: 0;
-    width: 71%;
+  header .h_line .hl_dl dt a {
+    padding: 4.3% 0;
+    font-size: calc(53vw/12);
+    border-radius: 4px;
+    letter-spacing: 0.8px;
   }
 
   .contents .wrap {
