@@ -22,7 +22,7 @@ function countDown() {
 		$("#sec").text(s);
 		setTimeout('countDown()', 1000);
 	}
-	var tv01 = new Date("2019/11/30 00:00");
+	var tv01 = new Date("2019/01/30 00:00");
 	if (now.getTime() > tv01.getTime()) {
 		$('.t02').hide();
 		$('.t01').show();
