@@ -6,7 +6,7 @@
 body {
   line-height: 1;
   min-width: 320px;
-  font-family: 'Noto Sans JP', sans-serif !important;
+  font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important;
   color: #000;
   margin: 0 auto;
   background: #fff;
@@ -31,6 +31,10 @@ img {
 
 .fs {
   font-family: "Noto Sans JP", sans-serif !important;
+}
+
+.fd {
+  font-family: -apple-system, blinkMacSystemFont, "Helvetica Neue", "Segoe UI", YuGothic, Meiryo, sans-serif !important;
 }
 
 .pc {
@@ -283,7 +287,7 @@ header .h_t {
 .contents .thumb li .active {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border: 4px solid #ddaa00;
+  border: 4px solid #33aa22;
 }
 .contents .thumb li .active img {
   margin: -2.5px 0;
@@ -295,7 +299,7 @@ header .h_t {
 }
 .contents .btn a {
   display: block;
-  background: #ddaa00;
+  background: #33aa22;
   padding: 20px 0;
   border-radius: 4px;
   text-align: center;
@@ -308,7 +312,7 @@ header .h_t {
 }
 .btn a {
   display: block;
-  background: #ddaa00;
+  background: #33aa22;
   padding: 20px 0;
   border-radius: 4px;
   text-align: center;
@@ -350,7 +354,7 @@ header .h_t {
   padding: 0 0 0 25px;
   font-size: 33px;
   letter-spacing: 1.6px;
-  border-left: 6px solid #ddaa00;
+  border-left: 6px solid #3a2;
   line-height: 1.3;
   font-weight: bold;
 }
@@ -423,7 +427,7 @@ footer .anchor a {
   width: 50%;
   display: block;
   font-size: 27px;
-  color: #ddaa00;
+  color: #33aa22;
 }
 footer .anchor a:hover {
   text-decoration: underline;
@@ -685,7 +689,7 @@ footer small {
   .contents .thumb li .active {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    border: 3px solid #ddaa00;
+    border: 3px solid #33aa22;
   }
   .contents .thumb li .active img {
     margin: -1.5px 0;
@@ -737,7 +741,7 @@ footer small {
     padding: 0 0 0 3%;
     font-size: calc(52vw/12);
     letter-spacing: 1.4px;
-    border-left: 4.5px solid #ddaa00;
+    border-left: 4.5px solid #3a2;
     line-height: 1.3;
   }
   .recommend .r_heading span {
@@ -1005,7 +1009,7 @@ footer small {
   .contents .thumb li .active {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    border: 2px solid #ddaa00;
+    border: 2px solid #33aa22;
   }
   .contents .thumb li .active img {
     margin: -1px 0;
@@ -1057,7 +1061,7 @@ footer small {
     padding: 0 0 0 3%;
     font-size: calc(54vw/12);
     letter-spacing: 1.4px;
-    border-left: 3px solid #ddaa00;
+    border-left: 3px solid #3a2;
     line-height: 1.3;
   }
   .recommend .r_heading span {
