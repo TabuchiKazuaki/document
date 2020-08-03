@@ -277,10 +277,10 @@ header .h_a .h_t {
   font-weight: bold;
   letter-spacing: 1.5px;
 }
-header .h_line {
+header .h_a .h_line {
   background: #000;
 }
-header .h_line .hl_dl {
+header .h_a .h_line .hl_dl {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -293,18 +293,18 @@ header .h_line .hl_dl {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-header .h_line .hl_dl dd {
+header .h_a .h_line .hl_dl dd {
   max-width: 808px;
   line-height: 0;
 }
-header .h_line .hl_dl dt {
+header .h_a .h_line .hl_dl dt {
   margin: 0 0 0 60px;
 }
-header .h_line .hl_dl dt .hl_btn {
+header .h_a .h_line .hl_dl dt .hl_btn {
   width: 740px;
   margin: 15px 0 0;
 }
-header .h_line .hl_dl dt a {
+header .h_a .h_line .hl_dl dt a {
   display: block;
   background: #ef0072;
   padding: 40px 0;
@@ -313,6 +313,90 @@ header .h_line .hl_dl dt a {
   border-radius: 8px;
   text-align: center;
   color: #fff;
+}
+header .h_j {
+  overflow: hidden;
+  height: 1075px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+header .h_j .h_inner {
+  max-width: 1500px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+header .h_j .h_inner .hj_dl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .h_j .h_inner .hj_dl dd figure {
+  max-width: 482px;
+  margin: 0 0 0 95px;
+}
+header .h_j .h_i {
+  position: relative;
+  max-width: 923px;
+  margin: 79px 0 0;
+}
+header .h_j .h_box {
+  max-width: 923px;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: 0 1px 0 #777777;
+          box-shadow: 0 1px 0 #777777;
+  padding: 0 0 31px;
+  margin: 56px 0 0;
+}
+header .h_j .h_box .h_bt {
+  max-width: 639px;
+  margin: 0;
+}
+header .h_j .h_t {
+  margin: 40px 0 75px;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+header .h_j .hj_line {
+  background: #000;
+}
+header .h_j .hj_line .hj_wrap {
+  max-width: 1425px;
+  margin: 0 auto;
+}
+header .h_j .hj_line .hj_date .ser {
+  display: inline-block;
+  background: #ef0072;
+  color: #fff;
+}
+header .h_j .hj_line .hj_date .at {
+  display: inline-block;
+  max-width: 390px;
+  line-height: 0;
+}
+header .h_j .hj_line .hj_date .at_d {
+  display: inline-block;
+  max-width: 41px;
+  line-height: 0;
+}
+header .h_j .hj_line .hj_date .at_h {
+  display: inline-block;
+  max-width: 102px;
+  line-height: 0;
+}
+header .h_j .hj_line .hj_date .at_m {
+  display: inline-block;
+  max-width: 50px;
+  line-height: 0;
+}
+header .h_j .hj_line .hj_date .at_b {
+  display: inline-block;
+  max-width: 49px;
+  line-height: 0;
 }
 
 .contents .wrap {
@@ -920,23 +1004,23 @@ footer small {
     font-size: calc(21vw/12);
     letter-spacing: 1.3px;
   }
-  header .h_line .hl_dl {
+  header .h_a .h_line .hl_dl {
     width: 88.2%;
     padding: 2.8% 0 3.6%;
     margin: 0 auto;
   }
-  header .h_line .hl_dl dd {
+  header .h_a .h_line .hl_dl dd {
     width: 50.1%;
   }
-  header .h_line .hl_dl dt {
+  header .h_a .h_line .hl_dl dt {
     width: 46%;
     margin: 0 0 0 3.5%;
   }
-  header .h_line .hl_dl dt .hl_btn {
+  header .h_a .h_line .hl_dl dt .hl_btn {
     width: 100%;
     margin: 3% 0 0;
   }
-  header .h_line .hl_dl dt a {
+  header .h_a .h_line .hl_dl dt a {
     padding: 4.2% 0;
     font-size: calc(28vw/12);
     border-radius: 7px;
@@ -1062,7 +1146,7 @@ footer small {
     letter-spacing: 1.3px;
     line-height: 1.5;
   }
-  header .h_line .hl_dl {
+  header .h_a .h_line .hl_dl {
     display: block;
     width: 100%;
     padding: 4.5% 5.5% 6.5%;
@@ -1070,19 +1154,19 @@ footer small {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-  header .h_line .hl_dl dd {
+  header .h_a .h_line .hl_dl dd {
     width: 41.7%;
     max-width: 282px;
   }
-  header .h_line .hl_dl dt {
+  header .h_a .h_line .hl_dl dt {
     width: 100%;
     margin: 0;
   }
-  header .h_line .hl_dl dt .hl_btn {
+  header .h_a .h_line .hl_dl dt .hl_btn {
     width: 100%;
     margin: 4.3% 0 0;
   }
-  header .h_line .hl_dl dt a {
+  header .h_a .h_line .hl_dl dt a {
     padding: 4.3% 0;
     font-size: calc(51vw/12);
     border-radius: 6px;
@@ -1375,7 +1459,7 @@ footer small {
     letter-spacing: 0.5px;
     line-height: 1.5;
   }
-  header .h_line .hl_dl {
+  header .h_a .h_line .hl_dl {
     display: block;
     width: 100%;
     padding: 4.5% 5.5% 6.5%;
@@ -1383,17 +1467,17 @@ footer small {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-  header .h_line .hl_dl dd {
+  header .h_a .h_line .hl_dl dd {
     width: 43.7%;
   }
-  header .h_line .hl_dl dt {
+  header .h_a .h_line .hl_dl dt {
     margin: 0;
   }
-  header .h_line .hl_dl dt .hl_btn {
+  header .h_a .h_line .hl_dl dt .hl_btn {
     width: 100%;
     margin: 4.3% 0 0;
   }
-  header .h_line .hl_dl dt a {
+  header .h_a .h_line .hl_dl dt a {
     padding: 4.3% 0;
     font-size: calc(53vw/12);
     border-radius: 4px;
