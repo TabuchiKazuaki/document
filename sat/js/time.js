@@ -8,7 +8,7 @@ function countDown() {
 	var ts01 = new Date("2020/07/09 23:59");
 	if (now.getTime() > ts01.getTime()) {
 		var time = new Date();
-		var end = new Date("2020/08/10 23:59");
+		var end = new Date("2020/08/30 23:59");
 		var left = end - time;
 		var a_day = 24 * 60 * 60 * 1000;
 		var d = Math.floor(left / a_day)
