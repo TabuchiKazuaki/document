@@ -587,7 +587,7 @@ header .h_j .hj_line .hj_date .at_b {
 .contents .near .n_dl dt {
   width: 39.5%;
   margin: 0 0 0 3.5%;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: bold;
   line-height: 1.6;
   letter-spacing: 1.3px;
@@ -595,13 +595,55 @@ header .h_j .hj_line .hj_date .at_b {
 .contents .near .n_dl dt .nbagg {
   display: inline-block;
   background: #f0163a;
-  padding: 4px 14px;
+  padding: 5px 10px;
   margin: 0 0 10px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
   letter-spacing: 2px;
   border-radius: 4px;
   color: #fff;
+  line-height: 1;
+}
+.contents .near .n_t {
+  margin: 40px 0 0;
+  font-size: 22px;
+  line-height: 1.8;
+  letter-spacing: 1.3px;
+  color: #606060;
+}
+.contents .near .n_h {
+  margin: 40px 0 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+.contents .near .n_date {
+  position: relative;
+  padding: 0 0 0 28px;
+  margin: 21px 0 0 0;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  color: #606060;
+}
+.contents .near .n_date:before {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 0;
+  background: #ef0072;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+.contents .near .n_no {
+  background: #efefef;
+  padding: 25px 0;
+  margin: 44px 0 0;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  color: #afafaf;
 }
 .contents .c_item {
   display: -webkit-box;
