@@ -614,6 +614,25 @@ header .h_j .hj_line .hj_date .at_b {
 .contents .c_ne_dl dd figure {
   line-height: 0;
 }
+.contents .cn_btn {
+  margin: 44px 0 0;
+}
+.contents .cn_btn a {
+  display: block;
+  background: none;
+  padding: 25px 0;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  border: 4px solid #ef0072;
+  border-radius: 5px;
+  color: #ef0072;
+}
+.contents .cn_btn a:hover {
+  opacity: 1;
+  background: #ef0072;
+  color: #fff;
+}
 .contents .near {
   margin: 73px 0 0;
   text-align: left;
@@ -1817,6 +1836,20 @@ footer small {
     margin: 0 0 0 4.4%;
     border: 1.5px solid #969696;
   }
+  .contents .cn_btn {
+    margin: 6.5% 0 0;
+  }
+  .contents .cn_btn a {
+    padding: 3.6% 0;
+    font-size: calc(56vw/12);
+    border: 3px solid #ef0072;
+    border-radius: 4px;
+  }
+  .contents .cn_btn a:hover {
+    opacity: 0.8;
+    background: none;
+    color: #ef0072;
+  }
   .contents .near {
     margin: 10.5% 0 0;
   }
@@ -2526,6 +2559,15 @@ footer small {
     width: 44.5%;
     margin: 0 0 0 4.4%;
     border: 1px solid #969696;
+  }
+  .contents .cn_btn {
+    margin: 6.5% 0 0;
+  }
+  .contents .cn_btn a {
+    padding: 3.5% 0;
+    font-size: calc(60vw/12);
+    border: 2px solid #ef0072;
+    border-radius: 3px;
   }
   .contents .near {
     margin: 10.5% 0 0;

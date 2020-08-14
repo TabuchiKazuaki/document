@@ -569,6 +569,26 @@ header {
 			}
 		}
 	}
+	.cn_btn {
+		margin: 44px 0 0;
+		a {
+			display: block;
+			background: none;
+			padding: 25px 0;
+			font-size: 36px;
+			font-weight: bold;
+			text-align: center;
+			border: 4px solid #ef0072;
+			border-radius: 5px;
+			color: #ef0072;
+
+			&:hover {
+				opacity: 1;
+				background: #ef0072;
+				color: #fff;
+			}
+		}
+	}
 	.near {
 		margin: 73px 0 0;
 		text-align: left;
@@ -1759,6 +1779,21 @@ footer {
 				border: 1.5px solid #969696;
 			}
 		}
+		.cn_btn {
+			margin: 6.5% 0 0;
+			a {
+				padding: 3.6% 0;
+				font-size: calc(56vw/12);
+				border: 3px solid #ef0072;
+				border-radius: 4px;
+
+				&:hover {
+					opacity: 0.8;
+					background: none;
+					color: #ef0072;
+				}
+			}
+		}
 		.near {
 			margin: 10.5% 0 0;
 			.n_dl {
@@ -2496,6 +2531,17 @@ footer {
 				border: 1px solid #969696;
 			}
 		}
+
+		.cn_btn {
+			margin: 6.5% 0 0;
+			a {
+				padding: 3.5% 0;
+				font-size: calc(60vw/12);
+				border: 2px solid #ef0072;
+				border-radius: 3px;
+			}
+		}
+
 		.near {
 			margin: 10.5% 0 0;
 			.n_dl {
