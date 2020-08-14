@@ -527,6 +527,24 @@ header .h_j .hj_line .hj_date .at_b {
   margin: 0 3px;
   font-size: 30px;
 }
+.contents .c_next .ff_no {
+  padding: 0 60px 0 !important;
+}
+.contents .c_next .ff_s {
+  position: relative;
+  display: inline-block;
+  padding: 0 5px 30px;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 0.4px 0.4px 0 #000;
+  letter-spacing: 1.2px;
+  white-space: nowrap;
+}
+.contents .c_next .ff_s .ss {
+  display: inline-block;
+  margin: 0 3px;
+  font-size: 35px;
+}
 .contents .c_mimg {
   max-width: 463px;
   margin: 55px auto 0;
@@ -1663,7 +1681,7 @@ footer small {
   .contents .c_hl .ff {
     display: inline-block;
     font-size: calc(70vw/12);
-    text-shadow: 0.5px 0.5px 0 #000;
+    text-shadow: 0.4px 0.4px 0 #000;
     letter-spacing: 0.8px;
     white-space: nowrap;
   }
@@ -1693,7 +1711,7 @@ footer small {
     display: inline-block;
     padding: 0 1% 4.5%;
     font-size: calc(70vw/12);
-    text-shadow: 0.5px 0.5px 0 #000;
+    text-shadow: 0.4px 0.4px 0 #000;
     letter-spacing: 0.8px;
   }
   .contents .c_hl .ff_s .ss {
@@ -1732,6 +1750,21 @@ footer small {
   .contents .c_next .ff .ss {
     display: inline-block;
     margin: 0 0.5%;
+    font-size: calc(47vw/12);
+  }
+  .contents .c_next .ff_no {
+    padding: 0 9% 0 !important;
+  }
+  .contents .c_next .ff_s {
+    display: inline-block;
+    padding: 0 1% 2.5%;
+    font-size: calc(60vw/12);
+    text-shadow: 0.4px 0.4px 0 #000;
+    letter-spacing: 0.8px;
+  }
+  .contents .c_next .ff_s .ss {
+    display: inline-block;
+    margin: 0 0.6%;
     font-size: calc(47vw/12);
   }
   .contents .c_h {
@@ -2428,6 +2461,21 @@ footer small {
     height: 55.94%;
   }
   .contents .c_next .ff .ss {
+    display: inline-block;
+    margin: 0 0.3%;
+    font-size: calc(48vw/12);
+  }
+  .contents .c_next .ff_no {
+    padding: 0 8% 0 !important;
+  }
+  .contents .c_next .ff_s {
+    display: inline-block;
+    padding: 0 1% 2.5%;
+    font-size: calc(62vw/12);
+    text-shadow: 0.3px 0.3px 0 #000;
+    letter-spacing: 0.2px;
+  }
+  .contents .c_next .ff_s .ss {
     display: inline-block;
     margin: 0 0.3%;
     font-size: calc(48vw/12);

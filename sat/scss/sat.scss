@@ -479,6 +479,24 @@ header {
 				font-size: 30px;
 			}
 		}
+		.ff_no {
+			padding: 0 60px 0!important;
+		}
+		.ff_s {
+			position: relative;
+			display: inline-block;
+			padding: 0 5px 30px;
+			font-size: 36px;
+			font-weight: bold;
+			text-shadow: 0.4px 0.4px 0 #000;
+			letter-spacing: 1.2px;
+			white-space: nowrap;
+			.ss {
+				display: inline-block;
+				margin: 0 3px;
+				font-size: 35px;
+			}
+		}
 	}
 
 	.c_mimg {
@@ -1601,7 +1619,7 @@ footer {
 			.ff {
 				display: inline-block;
 				font-size: calc(70vw/12);
-				text-shadow: 0.5px 0.5px 0 #000;
+				text-shadow: 0.4px 0.4px 0 #000;
 				letter-spacing: 0.8px;
 				white-space: nowrap;
 				&:before {
@@ -1631,7 +1649,7 @@ footer {
 				display: inline-block;
 				padding: 0 1% 4.5%;
 				font-size: calc(70vw/12);
-				text-shadow: 0.5px 0.5px 0 #000;
+				text-shadow: 0.4px 0.4px 0 #000;
 				letter-spacing: 0.8px;
 				.ss {
 					display: inline-block;
@@ -1669,6 +1687,21 @@ footer {
 				.ss {
 					display: inline-block;
 					margin: 0 0.5%;
+					font-size: calc(47vw/12);
+				}
+			}
+			.ff_no {
+				padding: 0 9% 0!important;
+			}
+			.ff_s {
+				display: inline-block;
+				padding: 0 1% 2.5%;
+				font-size: calc(60vw/12);
+				text-shadow: 0.4px 0.4px 0 #000;
+				letter-spacing: 0.8px;
+				.ss {
+					display: inline-block;
+					margin: 0 0.6%;
 					font-size: calc(47vw/12);
 				}
 			}
@@ -2391,6 +2424,21 @@ footer {
 					width: 5.942%;
 					height: 55.94%;
 				}
+				.ss {
+					display: inline-block;
+					margin: 0 0.3%;
+					font-size: calc(48vw/12);
+				}
+			}
+			.ff_no {
+				padding: 0 8% 0!important;
+			}
+			.ff_s {
+				display: inline-block;
+				padding: 0 1% 2.5%;
+				font-size: calc(62vw/12);
+				text-shadow: 0.3px 0.3px 0 #000;
+				letter-spacing: 0.2px;
 				.ss {
 					display: inline-block;
 					margin: 0 0.3%;
