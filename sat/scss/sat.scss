@@ -529,9 +529,10 @@ header {
 
 
 	.c_ne_dl {
-		display: flex;
+		overflow: hidden;
 		margin: 70px 0 0;
 		dt {
+			float: left;
 			width: 50%;
 			text-align: left;
 			.c_neh_01 {
@@ -559,6 +560,7 @@ header {
 			}
 		}
 		dd {
+			float: left;
 			width: 44.5%;
 			margin: 0 0 0 5.5%;
 			border: 2px solid #969696;
