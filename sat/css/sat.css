@@ -265,7 +265,7 @@ header .h_a .h_box {
   margin: 56px 0 0;
 }
 header .h_a .h_box .h_bt {
-  max-width: 639px;
+  max-width: 735px;
   margin: 0;
 }
 header .h_a .h_box .h_cha {
@@ -359,6 +359,43 @@ header .h_j .h_t {
   font-size: 32px;
   font-weight: bold;
   letter-spacing: 1.5px;
+}
+header .h_j .h_line {
+  background: #000;
+}
+header .h_j .h_line .hl_dl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1615px;
+  padding: 50px 0 70px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+header .h_j .h_line .hl_dl dd {
+  max-width: 808px;
+  line-height: 0;
+}
+header .h_j .h_line .hl_dl dt {
+  margin: 0 0 0 60px;
+}
+header .h_j .h_line .hl_dl dt .hl_btn {
+  width: 740px;
+  margin: 15px 0 0;
+}
+header .h_j .h_line .hl_dl dt a {
+  display: block;
+  background: #ef0072;
+  padding: 40px 0;
+  font-size: 35px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
 }
 header .h_j .hj_line {
   background: #000;
@@ -1376,6 +1413,27 @@ footer small {
     font-size: calc(21vw/12);
     letter-spacing: 1.3px;
   }
+  header .h_j .h_line .hl_dl {
+    width: 88.2%;
+    padding: 2.8% 0 3.6%;
+    margin: 0 auto;
+  }
+  header .h_j .h_line .hl_dl dd {
+    width: 50.1%;
+  }
+  header .h_j .h_line .hl_dl dt {
+    width: 46%;
+    margin: 0 0 0 3.5%;
+  }
+  header .h_j .h_line .hl_dl dt .hl_btn {
+    width: 100%;
+    margin: 3% 0 0;
+  }
+  header .h_j .h_line .hl_dl dt a {
+    padding: 4.2% 0;
+    font-size: calc(28vw/12);
+    border-radius: 7px;
+  }
   header .h_j .hj_line {
     padding: 2.8% 0 2.8%;
   }
@@ -1630,6 +1688,31 @@ footer small {
     letter-spacing: 1.1px;
     line-height: 1.5;
   }
+  header .h_j .h_line .hl_dl {
+    display: block;
+    width: 100%;
+    padding: 4.5% 5.5% 6.5%;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  header .h_j .h_line .hl_dl dd {
+    width: 41.7%;
+    max-width: 282px;
+  }
+  header .h_j .h_line .hl_dl dt {
+    width: 100%;
+    margin: 0;
+  }
+  header .h_j .h_line .hl_dl dt .hl_btn {
+    width: 100%;
+    margin: 4.3% 0 0;
+  }
+  header .h_j .h_line .hl_dl dt a {
+    padding: 4.3% 0;
+    font-size: calc(51vw/12);
+    border-radius: 6px;
+  }
   header .h_j .hj_line {
     padding: 7% 0 7%;
   }
@@ -1691,6 +1774,18 @@ footer small {
     width: 71.5%;
     margin: 8% auto 0;
   }
+  .contents .ff_s {
+    display: inline-block;
+    padding: 0;
+    font-size: calc(70vw/12);
+    text-shadow: 0.4px 0.4px 0 #000;
+    letter-spacing: 0.8px;
+  }
+  .contents .ff_s .ss {
+    display: inline-block;
+    margin: 0 0.6%;
+    font-size: calc(54vw/12);
+  }
   .contents .c_hl {
     background-size: 100% 15%;
     width: 93%;
@@ -1725,18 +1820,6 @@ footer small {
   }
   .contents .c_hl .ff_no {
     padding: 0 9% 0 !important;
-  }
-  .contents .c_hl .ff_s {
-    display: inline-block;
-    padding: 0 1% 4.5%;
-    font-size: calc(70vw/12);
-    text-shadow: 0.4px 0.4px 0 #000;
-    letter-spacing: 0.8px;
-  }
-  .contents .c_hl .ff_s .ss {
-    display: inline-block;
-    margin: 0 0.6%;
-    font-size: calc(54vw/12);
   }
   .contents .c_next {
     background-size: 100% 15%;
@@ -1773,18 +1856,6 @@ footer small {
   }
   .contents .c_next .ff_no {
     padding: 0 9% 0 !important;
-  }
-  .contents .c_next .ff_s {
-    display: inline-block;
-    padding: 0 1% 2.5%;
-    font-size: calc(60vw/12);
-    text-shadow: 0.4px 0.4px 0 #000;
-    letter-spacing: 0.8px;
-  }
-  .contents .c_next .ff_s .ss {
-    display: inline-block;
-    margin: 0 0.6%;
-    font-size: calc(47vw/12);
   }
   .contents .c_h {
     margin: 35px auto 0;
@@ -2365,6 +2436,30 @@ footer small {
     font-size: calc(40vw/12);
     letter-spacing: -0.5px;
     line-height: 1.5;
+  }
+  header .h_j .h_line .hl_dl {
+    display: block;
+    width: 100%;
+    padding: 4.5% 5.5% 6.5%;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  header .h_j .h_line .hl_dl dd {
+    width: 43.7%;
+  }
+  header .h_j .h_line .hl_dl dt {
+    margin: 0;
+  }
+  header .h_j .h_line .hl_dl dt .hl_btn {
+    width: 100%;
+    margin: 4.3% 0 0;
+  }
+  header .h_j .h_line .hl_dl dt a {
+    padding: 4.3% 0;
+    font-size: calc(53vw/12);
+    border-radius: 4px;
+    letter-spacing: 0.8px;
   }
   header .h_j .hj_line {
     padding: 7% 0 7%;
