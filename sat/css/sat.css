@@ -471,17 +471,18 @@ header .h_j .hj_line .hj_date .at_b {
 .contents .c_hl .ff_no {
   padding: 0 60px 0 !important;
 }
-.contents .c_hl .ff_s {
+.contents .ff_s {
   position: relative;
   display: inline-block;
-  padding: 0 5px 28px;
+  padding: 0;
+  margin: 45px 0 0;
   font-size: 45px;
   font-weight: bold;
   text-shadow: 0.5px 0.5px 0 #000;
   letter-spacing: 1.2px;
   white-space: nowrap;
 }
-.contents .c_hl .ff_s .ss {
+.contents .ff_s .ss {
   display: inline-block;
   margin: 0 3px;
   font-size: 35px;
@@ -530,29 +531,25 @@ header .h_j .hj_line .hj_date .at_b {
 .contents .c_next .ff_no {
   padding: 0 60px 0 !important;
 }
-.contents .c_next .ff_s {
+.contents .c_mimg {
   position: relative;
   display: inline-block;
-  padding: 0 5px 30px;
-  font-size: 36px;
+  padding: 0;
+  margin: 55px auto 0;
+  font-size: 45px;
   font-weight: bold;
-  text-shadow: 0.4px 0.4px 0 #000;
+  text-shadow: 0.5px 0.5px 0 #000;
   letter-spacing: 1.2px;
   white-space: nowrap;
+  text-align: center;
 }
-.contents .c_next .ff_s .ss {
+.contents .c_mimg .ss {
   display: inline-block;
   margin: 0 3px;
   font-size: 35px;
 }
-.contents .c_mimg {
-  max-width: 463px;
-  margin: 55px auto 0;
-  line-height: 0;
-}
 .contents .c_bimg {
   max-width: 499px;
-  margin: 55px auto 0;
   line-height: 0;
 }
 .contents .c_h {
