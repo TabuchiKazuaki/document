@@ -508,18 +508,19 @@ header .h_j .hj_line .hj_date .at_b {
 .contents .c_hl .ff_no {
   padding: 0 60px 0 !important;
 }
-.contents .ff_s {
+.contents .ff_l {
   position: relative;
   display: inline-block;
   padding: 0;
   margin: 45px 0 0;
-  font-size: 45px;
+  font-size: 41px;
   font-weight: bold;
   text-shadow: 0.5px 0.5px 0 #000;
   letter-spacing: 1.2px;
   white-space: nowrap;
+  line-height: 1.4;
 }
-.contents .ff_s .ss {
+.contents .ff_l .ss {
   display: inline-block;
   margin: 0 3px;
   font-size: 35px;
@@ -1774,14 +1775,14 @@ footer small {
     width: 71.5%;
     margin: 8% auto 0;
   }
-  .contents .ff_s {
+  .contents .ff_l {
     display: inline-block;
     padding: 0;
-    font-size: calc(70vw/12);
+    font-size: calc(64vw/12);
     text-shadow: 0.4px 0.4px 0 #000;
     letter-spacing: 0.8px;
   }
-  .contents .ff_s .ss {
+  .contents .ff_l .ss {
     display: inline-block;
     margin: 0 0.6%;
     font-size: calc(54vw/12);
@@ -2513,6 +2514,18 @@ footer small {
   .contents .c_bimg {
     width: 71.5%;
     margin: 8% auto 0;
+  }
+  .contents .ff_l {
+    display: inline-block;
+    padding: 0;
+    font-size: calc(66vw/12);
+    text-shadow: 0.4px 0.4px 0 #000;
+    letter-spacing: 0.3px;
+  }
+  .contents .ff_l .ss {
+    display: inline-block;
+    margin: 0 0.6%;
+    font-size: calc(54vw/12);
   }
   .contents .c_hl {
     background-size: 100% 15%;

@@ -459,16 +459,17 @@ header {
 		}
 
 	}
-	.ff_s {
+	.ff_l {
 		position: relative;
 		display: inline-block;
 		padding: 0;
 		margin: 45px 0 0;
-		font-size: 45px;
+		font-size: 41px;
 		font-weight: bold;
 		text-shadow: 0.5px 0.5px 0 #000;
 		letter-spacing: 1.2px;
 		white-space: nowrap;
+		line-height: 1.4;
 		.ss {
 			display: inline-block;
 			margin: 0 3px;
@@ -1719,10 +1720,10 @@ footer {
 			margin: 8% auto 0;
 		}
 
-		.ff_s {
+		.ff_l {
 			display: inline-block;
 			padding: 0;
-			font-size: calc(70vw/12);
+			font-size: calc(64vw/12);
 			text-shadow: 0.4px 0.4px 0 #000;
 			letter-spacing: 0.8px;
 			.ss {
@@ -2488,6 +2489,19 @@ footer {
 		.c_bimg {
 			width: 71.5%;
 			margin: 8% auto 0;
+		}
+
+		.ff_l {
+			display: inline-block;
+			padding: 0;
+			font-size: calc(66vw/12);
+			text-shadow: 0.4px 0.4px 0 #000;
+			letter-spacing: 0.3px;
+			.ss {
+				display: inline-block;
+				margin: 0 0.6%;
+				font-size: calc(54vw/12);
+			}
 		}
 
 		.c_hl {
