@@ -8,7 +8,7 @@ body {
   line-height: 1;
   min-width: 320px;
   font-family: "Noto Sans JP", sans-serif !important;
-  color: #000;
+  color: #fff;
   margin: 0 auto;
   background: none;
 }
@@ -60,33 +60,6 @@ img {
 
 .fl {
   font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important;
-}
-
-.tenfixed {
-  background: #fff;
-  z-index: 10001;
-  position: fixed;
-  right: 15px;
-  bottom: 20px;
-  max-width: 283px;
-  padding: 27px 26px 25px;
-  -webkit-box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.35);
-          box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.35);
-  border-radius: 6px;
-  text-align: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-.tenfixed .wrap {
-  max-width: none;
-}
-.tenfixed a {
-  display: block;
-}
-.tenfixed a figure {
-  max-width: 228px;
-  margin: 0 auto;
-  line-height: 0;
 }
 
 .fd {
@@ -213,7 +186,7 @@ img {
   font-size: 32px;
   font-weight: bold;
   letter-spacing: 1.5px;
-  color: #fff;
+  color: #000;
 }
 .pre_btn a span {
   font-size: 34px;
@@ -235,10 +208,44 @@ header .h_i {
   background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/b7b8b2a7142dd3c2be558db76905fabc_28f4623e910024173969760c5369209e.jpg) center top no-repeat;
   background-size: cover;
   height: 1095px;
+  padding: 57px 0 0;
 }
 header .h_i .wrap {
-  max-width: 680px;
+  max-width: 682px;
   margin: 0 auto;
+}
+header .h_i .hd {
+  max-width: 682px;
+  margin: 0 auto;
+  line-height: 0;
+}
+header .h_i .h_dl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 60px 0 0;
+}
+header .h_i .h_dl .h_dd {
+  width: 35%;
+}
+header .h_i .h_dl .h_dt {
+  width: 59%;
+  margin: 0 0 0 6%;
+}
+header .h_i .h_dl .h_text {
+  margin: 0 0 60px;
+  font-size: 20px;
+  letter-spacing: 1.4px;
+  text-indent: -0.5rem;
+  line-height: 1.4;
+}
+header .h_i .h_dl .h_p {
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 1.1px;
 }
 header .h_j {
   overflow: hidden;

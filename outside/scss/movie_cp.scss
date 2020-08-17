@@ -1,6 +1,6 @@
 
 *{margin: 0; padding:0;}
-body { line-height: 1; min-width: 320px; font-family: 'Noto Sans JP', sans-serif!important; color: #000; margin: 0 auto; background: none;
+body { line-height: 1; min-width: 320px; font-family: 'Noto Sans JP', sans-serif!important; color: #fff; margin: 0 auto; background: none;
 	li {
 		list-style: none;
 	}
@@ -43,31 +43,6 @@ img  { width: 100%; height: auto;}
 	font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important;
 }
 
-
-.tenfixed {
-	background: #fff;
-	z-index: 10001;
-	position: fixed;
-	right: 15px;
-	bottom: 20px;
-	max-width: 283px;
-	padding: 27px 26px 25px;
-	box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.35);
-	border-radius: 6px;
-	text-align: center;
-	box-sizing: border-box;
-	.wrap {
-		max-width: none;
-	}
-	a {
-		display: block;
-		figure {
-			max-width: 228px;
-			margin: 0 auto;
-			line-height: 0;
-		}
-	}
-}
 
 .fd {
 	font-family: 'M PLUS Rounded 1c', sans-serif !important;
@@ -175,7 +150,7 @@ img  { width: 100%; height: auto;}
 		font-size: 32px;
 		font-weight: bold;
 		letter-spacing: 1.5px;
-		color: #fff;
+		color: #000;
 		span {
 			font-size: 34px;
 		}
@@ -199,9 +174,39 @@ header {
 		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/b7b8b2a7142dd3c2be558db76905fabc_28f4623e910024173969760c5369209e.jpg) center top no-repeat;
 		background-size: cover;
 		height: 1095px;
+		padding: 57px 0 0;
 		.wrap {
-			max-width: 680px;
+			max-width: 682px;
 			margin: 0 auto;
+		}
+		.hd {
+			max-width: 682px;
+			margin: 0 auto;
+			line-height: 0;
+		}
+		.h_dl {
+			display: flex;
+			align-items: center;
+			margin: 60px 0 0;
+			.h_dd {
+				width: 35%;
+			}
+			.h_dt {
+				width: 59%;
+				margin: 0 0 0 6%;
+			}
+			.h_text {
+				margin: 0 0 60px;
+				font-size: 20px;
+				letter-spacing: 1.4px;
+				text-indent: -0.5rem;
+				line-height: 1.4;
+			}
+			.h_p {
+				font-size: 45px;
+				font-weight: bold;
+				letter-spacing: 1.1px;
+			}
 		}
 	}
 
