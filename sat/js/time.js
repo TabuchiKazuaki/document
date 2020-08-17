@@ -22,17 +22,13 @@ function countDown() {
 		$("#sec").text(s);
 		setTimeout('countDown()', 1000);
 	}
-	var bef = new Date("2020/08/01 00:00");
-	if (now.getTime() > bef.getTime()) {
-		$('.h_j').show();
-	}
 
 	var bef = new Date("2020/08/01 00:00");
 	if (now.getTime() > bef.getTime()) {
 		$('.h_j').show();
 	}
-	var before = new Date("2020/08/29 00:00");
-	if (now.getTime() > before.getTime()) {
+	var aft = new Date("2020/08/29 00:00");
+	if (now.getTime() > aft.getTime()) {
 		$('.h_j').hide();
 		$('.h_be').show();
 	}
