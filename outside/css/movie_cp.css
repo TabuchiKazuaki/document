@@ -800,6 +800,7 @@ footer small {
     margin: 0.2% 0 0;
     font-size: calc(45vw/12);
     border-radius: 4px;
+    letter-spacing: 0.2px;
   }
   header .h_i .h_dl .h_item .h_i_dl .h_i_dd {
     font-size: calc(33vw/12);
@@ -929,6 +930,10 @@ footer small {
     margin: 0 auto;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+  }
+  aside .fdt {
+    margin: 0 0 4.5%;
+    font-size: calc(44vw/12);
   }
   aside .f_d dt {
     margin: 6.5% 0 0;
@@ -1092,7 +1097,7 @@ footer small {
 
   .pre_btn a {
     padding: 3.8% 0;
-    border-radius: 4px;
+    border-radius: 3px;
     font-size: calc(53vw/12);
     letter-spacing: 1.2px;
   }
@@ -1117,23 +1122,23 @@ footer small {
     max-width: 100%;
   }
   header .h_i .hd {
-    width: 98.8%;
+    width: 99.8%;
   }
   header .h_i .h_dl {
     margin: 8% 0 0;
   }
   header .h_i .h_dl .h_text {
     margin: 0 0 20%;
-    letter-spacing: 1.3px;
+    letter-spacing: 0.6px;
     text-indent: -0.5rem;
     line-height: 1.5;
-    font-size: calc(35vw/12);
+    font-size: calc(33vw/12);
   }
   header .h_i .h_dl .h_p {
     padding: 0 0 7%;
     font-size: calc(50vw/12);
-    letter-spacing: 1.1px;
-    border-bottom: 1.5px solid #fff;
+    letter-spacing: 0.6px;
+    border-bottom: 1px solid #fff;
   }
   header .h_i .h_dl .h_item {
     padding: 2% 0 0;
@@ -1149,11 +1154,12 @@ footer small {
     width: 26%;
     padding: 0.4% 0.6% 0.7%;
     margin: 0.2% 0 0;
-    font-size: calc(47vw/12);
-    border-radius: 4px;
+    font-size: calc(45vw/12);
+    letter-spacing: -0.5px;
+    border-radius: 2px;
   }
   header .h_i .h_dl .h_item .h_i_dl .h_i_dd {
-    font-size: calc(35vw/12);
+    font-size: calc(36vw/12);
     line-height: 1.5;
   }
   header .h_i .cau {
@@ -1167,66 +1173,59 @@ footer small {
     letter-spacing: 1.1px;
   }
 
-  .contents {
-    color: #000;
-  }
   .contents .wrap {
     max-width: 680px;
     margin: 0 auto;
   }
   .contents .c_bimg {
-    width: 93.5%;
+    width: 95.5%;
     margin: 10% auto 0;
   }
   .contents .c_hr {
-    width: 88.1%;
+    width: 90.1%;
     margin: 10% auto 10%;
   }
   .contents .c_h {
     padding: 0 0 0 4%;
     line-height: 1.3;
-    border-left: 8px solid #ddaa00;
+    border-left: 5.5px solid #ddaa00;
     letter-spacing: 1.3px;
     font-size: calc(52vw/12);
   }
   .contents .ch_dl dt {
-    font-size: calc(39vw/12);
-    line-height: 1.5;
-    letter-spacing: 1.2px;
+    font-size: calc(37vw/12);
+    line-height: 1.6;
+    letter-spacing: 0.7px;
   }
   .contents .ch_dl dt .ch_h {
     margin: 0 0 9%;
-    letter-spacing: 1.3px;
+    letter-spacing: 0.8px;
     font-size: calc(53vw/12);
   }
   .contents .ch_t {
     margin: 6% 0 0;
     font-size: calc(39vw/12);
     line-height: 1.5;
-    letter-spacing: 1.2px;
+    letter-spacing: 0.5px;
   }
   .contents .ch_t span {
-    font-size: calc(33vw/12);
+    font-size: calc(31vw/12);
+    letter-spacing: -0.5px;
   }
   .contents .ch_anc {
     margin: 8% 0 0;
   }
   .contents .ch_anc a {
-    text-shadow: 0.3px 0.3px 0 #ddaa00;
+    text-shadow: 0.2px 0.2px 0 #ddaa00;
     font-size: calc(52vw/12);
-    letter-spacing: 1.3px;
+    letter-spacing: 0.8px;
   }
   .contents .ch_btn a {
     padding: 3.8% 0;
-    border-radius: 5px;
-    border: 3px solid #ddaa00;
+    border-radius: 4px;
+    border: 2px solid #ddaa00;
     font-size: calc(52vw/12);
-    letter-spacing: 1.3px;
-  }
-  .contents .ch_btn a:hover {
-    opacity: 0.8;
-    background: none;
-    color: #ddaa00;
+    letter-spacing: 0.7px;
   }
   .contents .ch_item {
     margin: 8% 0 0;
@@ -1250,15 +1249,15 @@ footer small {
   .c_po .cp_h {
     padding: 0 0 0 4%;
     line-height: 1.3;
-    border-left: 8px solid #ddaa00;
-    letter-spacing: 1.3px;
+    border-left: 5.5px solid #ddaa00;
+    letter-spacing: 0.7px;
     font-size: calc(52vw/12);
   }
   .c_po .cp_t {
     margin: 7% 0 0;
     font-size: calc(40vw/12);
     line-height: 1.6;
-    letter-spacing: 1.2px;
+    letter-spacing: 0.7px;
   }
 
   .t_top {
@@ -1280,6 +1279,10 @@ footer small {
     margin: 0 auto;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+  }
+  aside .fdt {
+    margin: 0 0 4.5%;
+    font-size: calc(47vw/12);
   }
   aside .f_d dt {
     margin: 6.5% 0 0;
