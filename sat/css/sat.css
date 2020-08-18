@@ -1158,9 +1158,26 @@ header .h_j .hj_line .hj_date .at_b {
   margin: 0 auto 0;
 }
 .lot .m_list {
+  overflow: hidden;
   max-width: 680px;
-  margin: 63px auto 0;
-  line-height: 0;
+  margin: 36px auto 0;
+}
+.lot .m_list li {
+  float: left;
+  width: 32.3%;
+  margin: 1.5% 0 0 1.5%;
+}
+.lot .m_list li:nth-child(3n+1) {
+  margin: 1.5% 0 0;
+}
+.lot .m_list li:nth-child(3) {
+  margin: 0 0 0 1.5%;
+}
+.lot .m_list li:nth-child(2) {
+  margin: 0 0 0 1.5%;
+}
+.lot .m_list li:first-child {
+  margin: 0;
 }
 .lot .llist {
   display: -webkit-box;
@@ -2435,8 +2452,26 @@ footer small {
     width: 53.4%;
   }
   .lot .m_list {
-    width: 100%;
+    overflow: hidden;
+    max-width: 680px;
     margin: 5% auto 0;
+  }
+  .lot .m_list li {
+    float: left;
+    width: 32.3%;
+    margin: 1.5% 0 0 1.5%;
+  }
+  .lot .m_list li:nth-child(3n+1) {
+    margin: 1.5% 0 0;
+  }
+  .lot .m_list li:nth-child(3) {
+    margin: 0 0 0 1.5%;
+  }
+  .lot .m_list li:nth-child(2) {
+    margin: 0 0 0 1.5%;
+  }
+  .lot .m_list li:first-child {
+    margin: 0;
   }
   .lot .llist {
     margin: 7.5% 0 0;

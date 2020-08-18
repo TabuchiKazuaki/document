@@ -1102,9 +1102,31 @@ header {
 		margin: 0 auto 0;
 	}
 	.m_list {
+		overflow: hidden;
 		max-width: 680px;
-		margin: 63px auto 0;
-		line-height: 0;
+		margin: 36px auto 0;
+		li {
+			float: left;
+			width: 32.3%;
+			margin: 1.5% 0 0 1.5%;
+
+			&:nth-child(3n+1) {
+				margin: 1.5% 0 0;
+			}
+
+			&:nth-child(3) {
+				margin: 0 0 0 1.5%;
+			}
+
+			&:nth-child(2) {
+				margin: 0 0 0 1.5%;
+			}
+
+			&:first-child {
+				margin: 0;
+			}
+
+		}
 	}
 	.llist {
 		display: flex;
@@ -2394,8 +2416,31 @@ footer {
 			width: 53.4%;
 		}
 		.m_list {
-			width: 100%;
+			overflow: hidden;
+			max-width: 680px;
 			margin: 5% auto 0;
+			li {
+				float: left;
+				width: 32.3%;
+				margin: 1.5% 0 0 1.5%;
+
+				&:nth-child(3n+1) {
+					margin: 1.5% 0 0;
+				}
+
+				&:nth-child(3) {
+					margin: 0 0 0 1.5%;
+				}
+
+				&:nth-child(2) {
+					margin: 0 0 0 1.5%;
+				}
+
+				&:first-child {
+					margin: 0;
+				}
+
+			}
 		}
 		.llist {
 			margin: 7.5% 0 0;
