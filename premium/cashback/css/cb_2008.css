@@ -636,6 +636,40 @@ header .h_m {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+.p_sin .banner {
+  background: #1f2020;
+  margin: 65px 0 0;
+  padding: 61px 0 38px;
+  border-radius: 12px;
+}
+.p_sin .banner figure {
+  max-width: 680px;
+  margin: 0 auto;
+  line-height: 0;
+}
+.p_sin .banner .b_cau {
+  margin: 53px 0 0;
+  text-align: center;
+  letter-spacing: 1.2px;
+  font-size: 17px;
+  line-height: 1.2;
+  color: #ababab;
+}
+.p_sin .banner .pre_m {
+  margin: 46px 20px 0;
+}
+.p_sin .banner .b_date {
+  margin: 28px 0 0;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 2.5px;
+  text-align: center;
+  color: #fff;
+}
+.p_sin .bwrap {
+  max-width: 716px;
+  margin: 0 auto;
+}
 .p_sin .p_h {
   padding: 0 0 0 15px;
   border-left: 11px solid #ddaa00;
@@ -1367,6 +1401,29 @@ footer small {
     padding: 0 2.4% 0;
     border-radius: 4px;
   }
+  .p_sin .banner {
+    margin: 9% 0 0;
+    padding: 8% 0 6%;
+    border-radius: 10px;
+  }
+  .p_sin .banner .b_cau {
+    margin: 7.7% 0 0;
+    letter-spacing: 1px;
+    font-size: calc(26vw/12);
+    line-height: 1.2;
+  }
+  .p_sin .banner .pre_m {
+    margin: 6% 2.8% 0;
+  }
+  .p_sin .banner .b_date {
+    margin: 4% 0 0;
+    font-size: calc(31vw/12);
+    letter-spacing: 1.5px;
+  }
+  .p_sin .bwrap {
+    max-width: 100%;
+    padding: 0;
+  }
   .p_sin .p_h {
     padding: 0 0 0 2.5%;
     border-left: 8px solid #ddaa00;
@@ -1931,6 +1988,29 @@ footer small {
   .p_sin .c_in {
     padding: 0 2.4% 0;
     border-radius: 4px;
+  }
+  .p_sin .banner {
+    margin: 9% 0 0;
+    padding: 8% 0 6%;
+    border-radius: 8px;
+  }
+  .p_sin .banner .b_cau {
+    margin: 7.7% 0 0;
+    letter-spacing: 0.4px;
+    font-size: calc(28vw/12);
+    line-height: 1.2;
+  }
+  .p_sin .banner .pre_m {
+    margin: 6% 2.8% 0;
+  }
+  .p_sin .banner .b_date {
+    margin: 4% 0 0;
+    font-size: calc(33vw/12);
+    letter-spacing: 0.5px;
+  }
+  .p_sin .bwrap {
+    max-width: 100%;
+    padding: 0;
   }
   .p_sin .p_h {
     padding: 0 0 0 2.5%;
