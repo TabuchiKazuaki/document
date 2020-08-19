@@ -938,6 +938,24 @@ footer .f_list li:after {
 footer .f_list li:last-child:after {
   content: '';
 }
+footer .f_dot {
+  margin: 15px 0 0 35px;
+}
+footer .f_dot li {
+  position: relative;
+  padding: 0 0 0 38px;
+  margin: 8px 0 0;
+  line-height: 1.4;
+  font-size: 19px;
+}
+footer .f_dot li:before {
+  content: '・';
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 19px;
+  line-height: 0;
+}
 footer small {
   display: block;
   margin: 30px 0 0;
@@ -1511,6 +1529,21 @@ footer small {
   footer .f_list li:last-child:after {
     content: '';
   }
+  footer .f_dot {
+    margin: 2.3% 0 0 5.2%;
+  }
+  footer .f_dot li {
+    padding: 0 0 0 4%;
+    margin: 1.4% 0 0;
+    line-height: 1.4;
+    font-size: 15px;
+  }
+  footer .f_dot li:before {
+    top: 11px;
+    left: 0%;
+    font-size: 15px;
+    line-height: 0;
+  }
   footer small {
     margin: 5% 0 0;
     font-size: calc(26vw/12);
@@ -2059,6 +2092,21 @@ footer small {
   }
   footer .f_list li:last-child:after {
     content: '';
+  }
+  footer .f_dot {
+    margin: 2.3% 0 0 5.2%;
+  }
+  footer .f_dot li {
+    padding: 0 0 0 3.5%;
+    margin: 1.4% 0 0;
+    line-height: 1.4;
+    font-size: 12px;
+  }
+  footer .f_dot li:before {
+    top: 8px;
+    left: 0%;
+    font-size: 12px;
+    line-height: 0;
   }
   footer small {
     margin: 5% 0 0;
