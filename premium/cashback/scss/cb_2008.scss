@@ -776,6 +776,7 @@ header {
 	.c_five {
 		margin: 0;
 		.c_five_li {
+			padding: 47px 0;
 			margin: 0;
 			border-top: 1px solid #606060;
 			border-radius: 0;
@@ -1481,6 +1482,7 @@ footer {
 		}
 		.c_five {
 			.c_five_li {
+				padding: 7.4% 0;
 				margin: 0;
 
 				&:first-child {
@@ -1820,15 +1822,16 @@ footer {
 		}
 		.c_hh {
 			padding: 8.2% 0 0;
-			font-size: calc(82vw/12);
-			letter-spacing: 1.3px;
+			font-size: calc(73vw/12);
+			letter-spacing: 0.8px;
 			line-height: 1.8;
 
 			.sec {
 				position: relative;
 				display: inline-block;
-				padding: 0 13%;
+				padding: 0 12%;
 				white-space: nowrap;
+				line-height: 1.1;
 				&:before {
 					content: '';
 					top: 11%;
@@ -2105,6 +2108,7 @@ footer {
 		}
 		.c_five {
 			.c_five_li {
+				padding: 7.4% 0;
 				margin: 0;
 
 				&:first-child {
