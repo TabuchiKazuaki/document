@@ -23,7 +23,7 @@ function countDown() {
 		setTimeout('countDown()', 1000);
 	}
 
-	var bef = new Date("2020/08/01 00:00");
+	var bef = new Date("2020/08/02 00:00");
 	if (now.getTime() > bef.getTime()) {
 		$('.t_box').show();
 	}
