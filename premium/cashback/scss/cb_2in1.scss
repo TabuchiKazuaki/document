@@ -192,10 +192,10 @@ header {
 		line-height: 0;
 	}
 	.h_stamp {
+		opacity: 0;
 		position: absolute;
 		bottom: -82px;
 		right: 0;
-
 		max-width: 254px;
 		text-align: left;
 		line-height: 0;
@@ -722,10 +722,9 @@ footer {
 // 	opacity: 0;
 // }
 
-// @-webkit-keyframes item_sp { 100% { opacity: 1; } }
-// @keyframes item_list { 100% { opacity: 1; } }
+@keyframes item_sp { 100% { opacity: 1; } }
 
-// .hana { -webkit-animation: item_sp 0.5s ease 2s 1 forwards; animation: item_sp 1s ease 2.2s 1 forwards; }
+.h_stamp { -webkit-animation: item_sp 0.5s ease 2s 1 forwards; animation: item_sp 1s ease 2.2s 1 forwards; }
 
 
 @media screen and (max-width: 1035px) {
