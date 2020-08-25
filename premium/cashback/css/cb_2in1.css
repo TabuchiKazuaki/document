@@ -384,6 +384,11 @@ header .h_stamp {
 .contents .mid_list {
   margin: 9% 0 0;
 }
+.contents .mid_list li {
+  float: left;
+  width: 25%;
+  line-height: 0;
+}
 .contents .bbb {
   padding: 0 0 64px;
 }
@@ -970,11 +975,6 @@ footer small {
     overflow: hidden;
     margin: 8% 0 0;
   }
-  .contents .mid_list li {
-    float: left;
-    width: 25%;
-    line-height: 0;
-  }
   .contents .bbb {
     padding: 0 0 8%;
     border-bottom: 1px solid #606060;
@@ -1416,11 +1416,6 @@ footer small {
   .contents .mid_list {
     overflow: hidden;
     margin: 8% 0 0;
-  }
-  .contents .mid_list li {
-    float: left;
-    width: 25%;
-    line-height: 0;
   }
   .contents .bbb {
     padding: 0 0 8%;

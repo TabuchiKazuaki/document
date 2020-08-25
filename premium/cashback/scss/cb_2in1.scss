@@ -352,7 +352,11 @@ header {
 
 	.mid_list {
 		margin: 9% 0 0;
-
+		li {
+			float: left;
+			width: 25%;
+			line-height: 0;
+		}
 	}
 	.bbb {
 		padding: 0 0 64px;
@@ -970,12 +974,6 @@ footer {
 		.mid_list {
 			overflow: hidden;
 			margin: 8% 0 0;
-
-			li {
-				float: left;
-				width: 25%;
-				line-height: 0;
-			}
 		}
 		.bbb {
 			padding: 0 0 8%;
@@ -1444,12 +1442,6 @@ footer {
 		.mid_list {
 			overflow: hidden;
 			margin: 8% 0 0;
-
-			li {
-				float: left;
-				width: 25%;
-				line-height: 0;
-			}
 		}
 		.bbb {
 			padding: 0 0 8%;
