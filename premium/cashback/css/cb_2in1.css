@@ -282,7 +282,7 @@ header .h_stamp {
   position: absolute;
   top: 5px;
   left: 0;
-  width: 32px;
+  width: 28px;
   background: #539ddc;
   border-radius: 50%;
   text-align: center;
@@ -564,6 +564,20 @@ header .h_stamp {
   margin: 40px 33px 0;
 }
 
+.c_top {
+  padding: 0 0 30px;
+  margin: 40px 0 0;
+  text-align: right;
+  white-space: nowrap;
+}
+.c_top a {
+  display: inline-block;
+  font-size: 34px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  color: #000;
+}
+
 .t_top {
   padding: 0 0 60px;
   margin: 70px 0 0;
@@ -831,6 +845,26 @@ footer small {
     border-radius: 5px;
     font-size: calc(50vw/12);
     letter-spacing: 1.1px;
+  }
+
+  .c_top {
+    padding: 0 0 5%;
+    margin: 6% 0 0;
+  }
+  .c_top a {
+    display: inline-block;
+    font-size: calc(52vw/12);
+    letter-spacing: 0.5px;
+  }
+
+  .t_top {
+    padding: 0 0 7%;
+    margin: 9% 0 0;
+  }
+  .t_top a {
+    display: inline-block;
+    font-size: calc(52vw/12);
+    letter-spacing: 0.5px;
   }
 
   .cc_cau {
@@ -1540,6 +1574,16 @@ footer small {
   }
   .entry .pre_btn {
     margin: 6% 5% 0;
+  }
+
+  .c_top {
+    padding: 0 0 5%;
+    margin: 6% 0 0;
+  }
+  .c_top a {
+    display: inline-block;
+    font-size: calc(52vw/12);
+    letter-spacing: 0.5px;
   }
 
   .t_top {
