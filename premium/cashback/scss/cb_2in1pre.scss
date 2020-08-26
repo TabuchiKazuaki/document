@@ -206,6 +206,15 @@ header {
 		text-align: left;
 		line-height: 0;
 	}
+	.h_stamp_pre {
+		opacity: 0;
+		position: absolute;
+		bottom: -82px;
+		right: 0;
+		max-width: 254px;
+		text-align: left;
+		line-height: 0;
+	}
 }
 
 .time {
@@ -806,6 +815,11 @@ footer {
 			right: 0;
 			width: 25.8%;
 		}
+		.h_stamp_pre {
+			bottom: -26%;
+			right: 0;
+			width: 25.8%;
+		}
 	}
 }
 
@@ -951,6 +965,12 @@ footer {
 		.h_stamp {
 			max-width: 190px;
 			bottom: -30%;
+			right: -2.4%;
+			width: 26.5%;
+		}
+		.h_stamp_pre {
+			max-width: 190px;
+			bottom: -37%;
 			right: -2.4%;
 			width: 26.5%;
 		}
@@ -1443,6 +1463,12 @@ footer {
 		.h_stamp {
 			max-width: 190px;
 			bottom: -30%;
+			right: -2.4%;
+			width: 26.5%;
+		}
+		.h_stamp_pre {
+			max-width: 190px;
+			bottom: -37%;
 			right: -2.4%;
 			width: 26.5%;
 		}
