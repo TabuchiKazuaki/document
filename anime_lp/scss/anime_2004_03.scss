@@ -15,6 +15,86 @@ a {
 }
 img  { width: 100%;}
 
+
+.pc {
+	display: block;
+}
+.sp {
+	display: none;
+}
+.ssp {
+	display: block;
+}
+
+.line_w {
+	max-width: 750px;
+	margin: 0 auto;
+	.wrap_w {
+		background: #efefef;
+		height: 33px;
+	}
+}
+
+.bn {
+	border: none !important;
+}
+.bb {
+	border-bottom: 1px solid #606060 !important;
+}
+.pb_no {
+	padding-bottom: 0 !important;
+}
+
+.tc {
+	text-align: center !important;
+	padding: 0 !important;
+}
+.pb30 {
+	padding: 0 0 35px !important;
+}
+.mb10 {
+	margin: 0 0 10px 0 !important;
+}
+.mn {
+	margin: 0 !important;
+}
+.mt10 {
+	margin: 10px 0 0 !important;
+}
+.mt20 {
+	margin: 20px 0 0 !important;
+}
+.mt30 {
+	margin: 30px 0 0 !important;
+}
+.mt40 {
+	margin: 40px 0 0 !important;
+}
+.mt50 {
+	margin: 50px 0 0 !important;
+}
+.mt60 {
+	margin: 60px 0 0 !important;
+}
+.mt70 {
+	margin: 70px 0 0 !important;
+}
+.mat20 {
+	margin: 20px auto 0 !important;
+}
+.mat70 {
+	margin: 70px auto 0 !important;
+}
+
+.pre_w {
+	max-width: 680px;
+	margin: 0 auto;
+}
+.cl {
+	color: #ddaa00;
+}
+
+
 .nohv {
 	&:hover {
 		opacity: 1!important;
@@ -1206,6 +1286,55 @@ footer {
 
 
 @media screen and (max-width: 768px) {
+	.pc {
+		display: none;
+	}
+	.sp {
+		display: block;
+	}
+	.ssp {
+		display: block;
+	}
+	.pb30 {
+		padding: 0 0 5% !important;
+	}
+
+	.mt10 {
+		margin: 1.8% 0 0 !important;
+	}
+	.mt20 {
+		margin: 3% 0 0 !important;
+	}
+	.mt30 {
+		margin: 5% 0 0 !important;
+	}
+	.mt40 {
+		margin: 6% 0 0 !important;
+	}
+	.mt50 {
+		margin: 6.3% 0 0 !important;
+	}
+	.mt60 {
+		margin: 8% 0 0 !important;
+	}
+	.mt70 {
+		margin: 9% 0 0 !important;
+	}
+	.mb10 {
+		margin: 0 0 1.8% 0 !important;
+	}
+	.mn {
+		margin: 0 !important;
+	}
+
+	.mat20 {
+		margin: 3% auto 0 !important;
+	}
+	.mat70 {
+		margin: 9% auto 0 !important;
+	}
+
+
 	.line {
 		height: 25px;
 	}
@@ -2089,6 +2218,51 @@ footer {
 	}
 }
 @media screen and (max-width: 480px) {
+
+	.pb30 {
+		padding: 0 0 5% !important;
+	}
+
+	.mb10 {
+		margin: 0 0 2% 0 !important;
+	}
+	.mn {
+		margin: 0 !important;
+	}
+
+	.mt10 {
+		margin: 1.8% 0 0 !important;
+	}
+
+	.mt20 {
+		margin: 3% 0 0 !important;
+	}
+	.mt30 {
+		margin: 5% 0 0 !important;
+	}
+	.mt40 {
+		margin: 6% 0 0 !important;
+	}
+	.mt50 {
+		margin: 6.2% 0 0 !important;
+	}
+	.mt60 {
+		margin: 8% 0 0 !important;
+	}
+	.mt70 {
+		margin: 9% 0 0 !important;
+	}
+
+	.mat20 {
+		margin: 3.1% auto 0 !important;
+	}
+	.mat70 {
+		margin: 9% auto 0 !important;
+	}
+
+	.ssp {
+		display: none;
+	}
 
 	.line {
 		height: 10px;
