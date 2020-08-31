@@ -226,6 +226,27 @@ img {
   color: #fff;
 }
 
+.c_ph {
+  position: relative;
+  padding: 0 0 0 34px;
+  margin: 72px 0 0 0;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+  color: #000;
+}
+.c_ph:before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 0;
+  background: #499eda;
+  background-size: 28px 28px;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+}
+
 header {
   padding: 0;
 }
@@ -321,14 +342,14 @@ header .h_line .h_bh span {
 }
 .contents .c_hl {
   width: 495px;
-  margin: 80px auto 0;
+  margin: 32px auto 0;
   line-height: 0;
 }
 .contents .ff_l {
   position: relative;
   display: inline-block;
   padding: 0;
-  margin: 45px 0 0;
+  margin: 10px 0 0;
   font-size: 26px;
   font-weight: bold;
   letter-spacing: 1.4px;
