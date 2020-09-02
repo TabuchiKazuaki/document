@@ -167,6 +167,29 @@ img {
   color: #ddaa00;
 }
 
+.c_h {
+  padding: 0 0 0 18px;
+  font-size: 32px;
+  font-weight: bold;
+  border-left: 11px solid #539ddc;
+  line-height: 1.3;
+  color: #fff;
+}
+
+.c_top {
+  padding: 0 0 30px;
+  margin: 40px 0 0;
+  text-align: right;
+  white-space: nowrap;
+}
+.c_top a {
+  display: inline-block;
+  font-size: 34px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  color: #fff;
+}
+
 header {
   padding: 0;
 }
@@ -193,6 +216,9 @@ header .h_m {
   max-width: 605px;
   margin: 0 auto 0;
   line-height: 0;
+}
+header .h_m02 {
+  max-width: 630px;
 }
 
 .time {
@@ -422,11 +448,14 @@ header .h_m {
   margin: 65px 0 0;
 }
 .contents .c_three .c_titem li {
-  padding: 48px 0 0;
+  padding: 48px 0;
   border-bottom: 1px solid #606060;
 }
 .contents .c_three .c_titem li:first-child {
-  padding: 0;
+  padding: 0 0 48px;
+}
+.contents .c_three .c_titem li a {
+  display: block;
 }
 .contents .c_three .c_tdl {
   display: -webkit-box;
@@ -1085,6 +1114,23 @@ footer small {
     letter-spacing: 1.1px;
   }
 
+  .c_h {
+    padding: 0 0 0 3%;
+    font-size: calc(51vw/12);
+    border-left: 8px solid #539ddc;
+    line-height: 1.3;
+  }
+
+  .c_top {
+    padding: 0 0 5%;
+    margin: 6% 0 0;
+  }
+  .c_top a {
+    display: inline-block;
+    font-size: calc(52vw/12);
+    letter-spacing: 0.5px;
+  }
+
   header {
     padding: 0;
   }
@@ -1104,6 +1150,9 @@ footer small {
   header .h_m {
     width: 79%;
     margin: 0 auto 0;
+  }
+  header .h_m02 {
+    width: 82.4%;
   }
 
   .time {
@@ -1269,7 +1318,10 @@ footer small {
     margin: 9.5% 0 0;
   }
   .contents .c_three .c_titem li {
-    padding: 7% 0 0;
+    padding: 6.5% 0;
+  }
+  .contents .c_three .c_titem li:first-child {
+    padding: 0 0 6.5%;
   }
   .contents .c_three .c_tdl dd {
     width: 57%;
@@ -1688,6 +1740,23 @@ footer small {
     letter-spacing: 0.8px;
   }
 
+  .c_h {
+    padding: 0 0 0 3%;
+    font-size: calc(54vw/12);
+    border-left: 5.5px solid #539ddc;
+    line-height: 1.3;
+  }
+
+  .c_top {
+    padding: 0 0 5%;
+    margin: 6% 0 0;
+  }
+  .c_top a {
+    display: inline-block;
+    font-size: calc(52vw/12);
+    letter-spacing: 0.5px;
+  }
+
   header {
     padding: 0;
   }
@@ -1704,6 +1773,9 @@ footer small {
   }
   header .h_m {
     width: 81%;
+  }
+  header .h_m02 {
+    width: 84.4%;
   }
 
   .time {
@@ -1867,7 +1939,10 @@ footer small {
     margin: 9.5% 0 0;
   }
   .contents .c_three .c_titem li {
-    padding: 7% 0 0;
+    padding: 6.5% 0;
+  }
+  .contents .c_three .c_titem li:first-child {
+    padding: 0 0 6.5%;
   }
   .contents .c_three .c_tdl dd {
     width: 55%;

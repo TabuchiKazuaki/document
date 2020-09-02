@@ -132,6 +132,29 @@ img  { width: 100%; height: auto;}
 	color: #ddaa00;
 }
 
+.c_h {
+	padding: 0 0 0 18px;
+	font-size: 32px;
+	font-weight: bold;
+	border-left: 11px solid #539ddc;
+	line-height: 1.3;
+	color: #fff;
+}
+
+.c_top {
+	padding: 0 0 30px;
+	margin: 40px 0 0;
+	text-align: right;
+	white-space: nowrap;
+	a {
+		display: inline-block;
+		font-size: 34px;
+		font-weight: bold;
+		letter-spacing: 1.3px;
+		color: #fff;
+	}
+}
+
 header {
 	padding: 0;
 	.h_l {
@@ -157,6 +180,9 @@ header {
 		max-width: 605px;
 		margin: 0 auto 0;
 		line-height: 0;
+	}
+	.h_m02 {
+		max-width: 630px;
 	}
 }
 
@@ -394,11 +420,14 @@ header {
 
 		.c_titem {
 			li {
-				padding: 48px 0 0;
+				padding: 48px 0;
 				border-bottom: 1px solid #606060;
 
 				&:first-child {
-					padding: 0;
+					padding: 0 0 48px;
+				}
+				a {
+					display: block;
 				}
 			}
 		}
@@ -1076,6 +1105,23 @@ footer {
 		}
 	}
 
+	.c_h {
+		padding: 0 0 0 3%;
+		font-size: calc(51vw/12);
+		border-left: 8px solid #539ddc;
+		line-height: 1.3;
+	}
+
+	.c_top {
+		padding: 0 0 5%;
+		margin: 6% 0 0;
+		a {
+			display: inline-block;
+			font-size: calc(52vw/12);
+			letter-spacing: 0.5px;
+		}
+	}
+
 	header {
 		padding: 0;
 		.h_l {
@@ -1095,6 +1141,9 @@ footer {
 		.h_m {
 			width: 79%;
 			margin: 0 auto 0;
+		}
+		.h_m02 {
+			width: 82.4%;
 		}
 	}
 
@@ -1272,8 +1321,13 @@ footer {
 
 			.c_titem {
 				li {
-					padding: 7% 0 0;
+					padding: 6.5% 0;
+
+					&:first-child {
+						padding: 0 0 6.5%;
+					}
 				}
+
 			}
 			.c_tdl {
 				dd {
@@ -1715,6 +1769,23 @@ footer {
 		}
 	}
 
+	.c_h {
+		padding: 0 0 0 3%;
+		font-size: calc(54vw/12);
+		border-left: 5.5px solid #539ddc;
+		line-height: 1.3;
+	}
+
+	.c_top {
+		padding: 0 0 5%;
+		margin: 6% 0 0;
+		a {
+			display: inline-block;
+			font-size: calc(52vw/12);
+			letter-spacing: 0.5px;
+		}
+	}
+
 	header {
 		padding: 0;
 		.h_l {
@@ -1731,6 +1802,9 @@ footer {
 
 		.h_m {
 			width: 81%;
+		}
+		.h_m02 {
+			width: 84.4%;
 		}
 	}
 
@@ -1907,7 +1981,11 @@ footer {
 
 			.c_titem {
 				li {
-					padding: 7% 0 0;
+					padding: 6.5% 0;
+
+					&:first-child {
+						padding: 0 0 6.5%;
+					}
 				}
 			}
 			.c_tdl {
