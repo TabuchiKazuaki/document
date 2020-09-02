@@ -267,6 +267,7 @@ header .h_a .h_box {
 header .h_a .h_box .h_bt {
   max-width: 735px;
   margin: 0;
+  line-height: 0;
 }
 header .h_a .h_box .h_cha {
   display: none;
@@ -353,6 +354,10 @@ header .h_be .h_box {
 header .h_be .h_box .h_bt {
   max-width: 639px;
   margin: 0;
+  line-height: 0;
+}
+header .h_be .h_box .h_bt02 {
+  max-width: 908px;
 }
 header .h_be .h_t {
   margin: 40px 0 75px;
@@ -1566,6 +1571,9 @@ footer small {
   header .h_be .h_box .h_bt {
     width: 73.6%;
   }
+  header .h_be .h_box .h_bt02 {
+    width: 98.5%;
+  }
   header .h_be .h_t {
     margin: 4.5% 0 6.7%;
     font-size: calc(21vw/12);
@@ -1945,9 +1953,13 @@ footer small {
   header .h_be .h_box .h_bt {
     max-width: 300px;
     width: 43%;
-    padding: 0 1% 4% 0;
+    padding: 0 0 4% 0;
     margin: 6% 0 0;
     border-bottom: 1px solid #000000;
+  }
+  header .h_be .h_box .h_bt02 {
+    max-width: 304px;
+    width: 43.4%;
   }
   header .h_be .h_t {
     margin: 2.5% 0 2.8%;
@@ -2861,6 +2873,9 @@ footer small {
     padding: 0 1% 4% 0;
     margin: 6% 0 0;
     border-bottom: 1px solid #000000;
+  }
+  header .h_be .h_box .h_bt02 {
+    width: 44.4%;
   }
   header .h_be .h_t {
     margin: 2.5% 0 2.8%;
