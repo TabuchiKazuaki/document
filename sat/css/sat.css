@@ -775,6 +775,9 @@ header .h_j .hj_line .hj_date .at_b {
           box-shadow: 0 1px 0 #777;
   line-height: 0;
 }
+.contents .c_ne_dl dt .c_neh_02 {
+  max-width: 341px;
+}
 .contents .c_ne_dl dt .c_ne_d {
   display: inline-block;
   margin: 30px 0 0;
@@ -1552,20 +1555,26 @@ footer small {
             box-sizing: border-box;
   }
   header .h_be .h_inner .hj_dl dt {
-    width: 63%;
+    width: 62%;
   }
   header .h_be .h_inner .hj_dl dd {
-    width: 32%;
+    width: 33%;
     margin: 0 0 0 5%;
   }
   header .h_be .h_inner .hj_dl dd figure {
     max-width: 482px;
     margin: 0;
   }
+  header .h_be .h_inner .hj_dl02 dt {
+    width: 61%;
+  }
+  header .h_be .h_inner .hj_dl02 dd {
+    width: 34%;
+  }
   header .h_be .h_i {
     position: relative;
     max-width: 923px;
-    margin: 79px 0 0;
+    margin: 9% 0 0;
   }
   header .h_be .h_box {
     width: 100%;
@@ -1666,6 +1675,12 @@ footer small {
   header .h_j .h_inner .hj_dl dd figure {
     max-width: 482px;
     margin: 0;
+  }
+  header .h_j .h_inner .hj_dl02j dt {
+    width: 61%;
+  }
+  header .h_j .h_inner .hj_dl02j dd {
+    width: 34%;
   }
   header .h_j .h_i {
     position: relative;
@@ -2069,7 +2084,7 @@ footer small {
   }
   header .h_j .h_inner .hj_dl dd {
     position: absolute;
-    top: 62%;
+    top: 61%;
     right: 1%;
     width: 40%;
     margin: 0;
@@ -2098,14 +2113,18 @@ footer small {
     border-bottom: 1px solid #000000;
   }
   header .h_j .h_box .h_bt02 {
-    max-width: 304px;
-    width: 43.4%;
+    max-width: 375px;
+    width: 53.7%;
+    padding: 0 0 4% 0;
   }
   header .h_j .h_t {
     margin: 3.5% 0 3.8%;
     font-size: calc(38vw/12);
     letter-spacing: 1.1px;
     line-height: 1.5;
+  }
+  header .h_j .h_t02 {
+    margin: 4.2% 0 4.4%;
   }
   header .h_j .h_line .hl_dl {
     display: block;
@@ -2304,6 +2323,9 @@ footer small {
   .contents .c_ne_dl dt .c_neh_01 {
     width: 98.6%;
     padding: 0 0 11%;
+  }
+  .contents .c_ne_dl dt .c_neh_02 {
+    width: 98.5%;
   }
   .contents .c_ne_dl dt .c_ne_d {
     display: inline-block;
@@ -3007,6 +3029,9 @@ footer small {
     margin: 6% 0 0;
   }
   header .h_j .h_box .h_bt02 {
+    width: 98.5%;
+  }
+  header .h_j .h_box .h_bt02 {
     width: 44.4%;
   }
   header .h_j .h_t {
@@ -3014,6 +3039,9 @@ footer small {
     font-size: calc(40vw/12);
     letter-spacing: -0.5px;
     line-height: 1.5;
+  }
+  header .h_j .h_t02 {
+    margin: 4.2% 0 4.4%;
   }
   header .h_j .h_line .hl_dl {
     display: block;
@@ -3222,6 +3250,9 @@ footer small {
   .contents .c_ne_dl dt .c_neh_01 {
     width: 99.1%;
     padding: 0 0 11%;
+  }
+  .contents .c_ne_dl dt .c_neh_02 {
+    width: 99%;
   }
   .contents .c_ne_dl dt .c_ne_d {
     display: inline-block;
