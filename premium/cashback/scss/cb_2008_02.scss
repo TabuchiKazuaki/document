@@ -517,6 +517,22 @@ header {
 				}
 			}
 		}
+		.c_no {
+			margin: 42px 0 0;
+			display: block;
+			background: #ccc;
+			padding: 26px 0;
+			text-align: center;
+			border-radius: 6px;
+			font-weight: bold;
+			font-size: 30px;
+			color: #ddaa00;
+			&:hover {
+				opacity: 1;
+				background: #ddaa00;
+				color: #000;
+			}
+		}
 	}
 
 	.entry {
@@ -1430,6 +1446,18 @@ footer {
 					}
 				}
 			}
+			.c_no {
+				margin: 4% 0 0;
+				padding: 3.8% 0;
+				border: 3px solid #ddaa00;
+				border-radius: 5px;
+				font-size: calc(48vw/12);
+				&:hover {
+					opacity: 0.8;
+					background: none;
+					color: #ddaa00;
+				}
+			}
 		}
 
 		.entry {
@@ -2107,6 +2135,13 @@ footer {
 					border-radius: 4px;
 					font-size: calc(50vw/12);
 				}
+			}
+			.c_no {
+				margin: 4% 0 0;
+				padding: 3.8% 0;
+				border: 2px solid #ddaa00;
+				border-radius: 4px;
+				font-size: calc(50vw/12);
 			}
 		}
 

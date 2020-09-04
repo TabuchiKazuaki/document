@@ -546,6 +546,22 @@ header .h_m02 {
   background: #ddaa00;
   color: #000;
 }
+.contents .c_three .c_no {
+  margin: 42px 0 0;
+  display: block;
+  background: #ccc;
+  padding: 26px 0;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #ddaa00;
+}
+.contents .c_three .c_no:hover {
+  opacity: 1;
+  background: #ddaa00;
+  color: #000;
+}
 .contents .entry {
   background: #1f2020;
   padding: 50px 18px 50px;
@@ -1420,6 +1436,18 @@ footer small {
     background: none;
     color: #ddaa00;
   }
+  .contents .c_three .c_no {
+    margin: 4% 0 0;
+    padding: 3.8% 0;
+    border: 3px solid #ddaa00;
+    border-radius: 5px;
+    font-size: calc(48vw/12);
+  }
+  .contents .c_three .c_no:hover {
+    opacity: 0.8;
+    background: none;
+    color: #ddaa00;
+  }
   .contents .entry {
     padding: 7.5% 2.5% 7%;
     border-radius: 7px;
@@ -2055,6 +2083,13 @@ footer small {
     margin: 4% 0 7%;
   }
   .contents .c_three .c_tbtn a {
+    padding: 3.8% 0;
+    border: 2px solid #ddaa00;
+    border-radius: 4px;
+    font-size: calc(50vw/12);
+  }
+  .contents .c_three .c_no {
+    margin: 4% 0 0;
     padding: 3.8% 0;
     border: 2px solid #ddaa00;
     border-radius: 4px;
