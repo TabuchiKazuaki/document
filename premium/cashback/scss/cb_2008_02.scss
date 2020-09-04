@@ -333,6 +333,35 @@ header {
 				height: 70px;
 			}
 		}
+		.sec_oo {
+			position: relative;
+			display: inline-block;
+			padding: 0 90px;
+			font-size: 41px;
+			line-height: 1.1;
+			white-space: nowrap;
+
+			&:before {
+				content: '';
+				position: absolute;
+				top: 10px;
+				left: 25px;
+				background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/3cc66ef640cb451cdee9b6b812d5f29a_e4562d8accd1d65cd95d2e1ff2cba985.png) center top no-repeat;
+				background-size: 70px 70px;
+				width: 70px;
+				height: 70px;
+			}
+			&:after {
+				content: '';
+				position: absolute;
+				top: 10px;
+				right: 25px;
+				background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/ccdca5865b3ed740100821738ef19d5f_c5fe438166374d059d01bf083fb63aad.png) center top no-repeat;
+				background-size: 70px 70px;
+				width: 70px;
+				height: 70px;
+			}
+		}
 	}
 
 	.c_tri {
@@ -1250,6 +1279,7 @@ footer {
 				&:before {
 					content: '';
 					top: 11%;
+					left: 3%;
 					background-size: 100% 100%;
 					width: 10.295%;
 					height: 77.79%;
@@ -1259,6 +1289,31 @@ footer {
 					position: absolute;
 					top: 11%;
 					right: 2%;
+					background-size: 100% 100%;
+					width: 10.295%;
+					height: 77.79%;
+				}
+			}
+
+			.sec_oo {
+				position: relative;
+				display: inline-block;
+				padding: 0 13%;
+				font-size: calc(64vw/12);
+
+				&:before {
+					content: '';
+					top: 14%;
+					left: 3%;
+					background-size: 100% 100%;
+					width: 10.295%;
+					height: 77.79%;
+				}
+				&:after {
+					content: '';
+					position: absolute;
+					top: 14%;
+					right: 4%;
 					background-size: 100% 100%;
 					width: 10.295%;
 					height: 77.79%;
@@ -1922,7 +1977,26 @@ footer {
 					width: 10.295%;
 					height: 77.79%;
 				}
+			}
+			.sec_oo {
+				display: inline-block;
+				padding: 0 13%;
+				font-size: calc(65vw/12);
 
+				&:before {
+					top: 14%;
+					left: 3%;
+					background-size: 100% 100%;
+					width: 10.295%;
+					height: 77.79%;
+				}
+				&:after {
+					top: 14%;
+					right: 4%;
+					background-size: 100% 100%;
+					width: 10.295%;
+					height: 77.79%;
+				}
 			}
 		}
 
