@@ -77,6 +77,30 @@ img  { width: 100%; height: auto;}
 		}
 	}
 }
+
+.pre_ll {
+	a {
+		display: block;
+		background: none;
+		padding: 24px 0;
+		border: 3px solid #539ddc;
+		border-radius: 6px;
+		text-align: center;
+		font-size: 32px;
+		font-weight: bold;
+		letter-spacing: 1.5px;
+		color: #539ddc;
+		span {
+			font-size: 34px;
+		}
+
+		&:hover {
+			opacity: 1;
+			background: #539ddc;
+			color: #fff;
+		}
+	}
+}
 .bn {
 	border: none !important;
 }
