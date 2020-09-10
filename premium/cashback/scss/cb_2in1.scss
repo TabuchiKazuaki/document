@@ -879,6 +879,21 @@ footer {
 			letter-spacing: 1.1px;
 		}
 	}
+
+	.pre_ll {
+		a {
+			padding: 3.7% 0;
+			border-radius: 5px;
+			font-size: calc(50vw/12);
+			letter-spacing: 1.1px;
+
+			&:hover {
+				opacity: .8;
+				background: none;
+				color: #539ddc;
+			}
+		}
+	}
 	.c_top {
 		padding: 0 0 5%;
 		margin: 6% 0 0;
@@ -1382,6 +1397,14 @@ footer {
 	.pre_btn {
 		a {
 			padding: 3.7% 0;
+			border-radius: 4px;
+			font-size: calc(52vw/12);
+			letter-spacing: 0.8px;
+		}
+	}
+	.pre_ll {
+		a {
+			padding: 3.6% 0;
 			border-radius: 4px;
 			font-size: calc(52vw/12);
 			letter-spacing: 0.8px;
