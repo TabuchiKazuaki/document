@@ -443,6 +443,22 @@ header .h_m02 {
   max-width: 716px;
   margin: 50px 0 0;
 }
+.contents .c_bbtn a {
+  display: block;
+  background: none;
+  padding: 24px 0;
+  text-align: center;
+  border: 4px solid #ddaa00;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #ddaa00;
+}
+.contents .c_bbtn a:hover {
+  opacity: 1;
+  background: #ddaa00;
+  color: #000;
+}
 .contents .c_fouth {
   padding: 60px 0 40px;
   font-size: 43px;
@@ -1378,6 +1394,17 @@ footer small {
     max-width: 100%;
     margin: 7% 0 0;
   }
+  .contents .c_bbtn a {
+    padding: 3.6% 0;
+    border: 3px solid #ddaa00;
+    border-radius: 5px;
+    font-size: calc(48vw/12);
+  }
+  .contents .c_bbtn a:hover {
+    opacity: 0.8;
+    background: none;
+    color: #ddaa00;
+  }
   .contents .c_fouth {
     padding: 8.8% 0 6%;
     font-size: calc(68vw/12);
@@ -2038,6 +2065,12 @@ footer small {
   .contents .banner_p {
     max-width: 100%;
     margin: 6% 0 0;
+  }
+  .contents .c_bbtn a {
+    padding: 3.6% 0;
+    border: 2px solid #ddaa00;
+    border-radius: 4px;
+    font-size: calc(50vw/12);
   }
   .contents .c_fouth {
     padding: 8.8% 0 6%;
