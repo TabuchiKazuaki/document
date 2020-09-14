@@ -524,6 +524,22 @@ header {
 		line-height: 1.65;
 		text-shadow: 0.3px 0.3px 0 #000;
 	}
+	.bb_item {
+		display: inline-block;
+		background: #f0163a;
+		padding: 5px 12px;
+		margin: 32px -15px 0 32px;
+		font-weight: bold;
+		font-size: 20px;
+		letter-spacing: 2px;
+		border-radius: 4px;
+		color: #fff;
+		white-space: nowrap;
+		line-height: 1;
+		.cll {
+			color: #ddaa00;
+		}
+	}
 
 	.b_black {
 		display: inline-block;
@@ -537,7 +553,7 @@ header {
 		color: #fff;
 		white-space: nowrap;
 		line-height: 1;
-		span {
+		.cll {
 			color: #ddaa00;
 		}
 	}
@@ -1731,6 +1747,15 @@ footer {
 				line-height: 0.8;
 			}
 		}
+		.bb_item {
+			display: inline-block;
+			padding: 1% 1.9%;
+			margin: 5% 3% 0 5%;
+			font-size: calc(31vw/12);
+			letter-spacing: 1.1px;
+			border-radius: 4px;
+			line-height: 1;
+		}
 		.b_black {
 			display: inline-block;
 			padding: 1% 1.9%;
@@ -2520,13 +2545,22 @@ footer {
 			}
 		}
 
+		.bb_item {
+			display: inline-block;
+			padding: 1% 1.9%;
+			margin: 5% 3% 0 5%;
+			font-size: calc(33vw/12);
+			letter-spacing: 0.5px;
+			border-radius: 3px;
+			line-height: 1;
+		}
 		.b_black {
 			display: inline-block;
 			padding: 1% 1.9%;
 			margin: 5% 0 0 5%;
 			font-size: calc(33vw/12);
 			letter-spacing: 0.5px;
-			border-radius: 4px;
+			border-radius: 3px;
 			line-height: 1;
 		}
 

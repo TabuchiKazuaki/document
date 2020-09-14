@@ -559,6 +559,22 @@ header .h_line .h_bh span {
   line-height: 1.65;
   text-shadow: 0.3px 0.3px 0 #000;
 }
+.contents .bb_item {
+  display: inline-block;
+  background: #f0163a;
+  padding: 5px 12px;
+  margin: 32px -15px 0 32px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  color: #fff;
+  white-space: nowrap;
+  line-height: 1;
+}
+.contents .bb_item .cll {
+  color: #ddaa00;
+}
 .contents .b_black {
   display: inline-block;
   background: #000;
@@ -572,7 +588,7 @@ header .h_line .h_bh span {
   white-space: nowrap;
   line-height: 1;
 }
-.contents .b_black span {
+.contents .b_black .cll {
   color: #ddaa00;
 }
 .contents .date {
@@ -1783,6 +1799,15 @@ footer small {
     padding: 0 0 0.8%;
     line-height: 0.8;
   }
+  .contents .bb_item {
+    display: inline-block;
+    padding: 1% 1.9%;
+    margin: 5% 3% 0 5%;
+    font-size: calc(31vw/12);
+    letter-spacing: 1.1px;
+    border-radius: 4px;
+    line-height: 1;
+  }
   .contents .b_black {
     display: inline-block;
     padding: 1% 1.9%;
@@ -2521,13 +2546,22 @@ footer small {
     padding: 0 0 0.8%;
     line-height: 0.8;
   }
+  .contents .bb_item {
+    display: inline-block;
+    padding: 1% 1.9%;
+    margin: 5% 3% 0 5%;
+    font-size: calc(33vw/12);
+    letter-spacing: 0.5px;
+    border-radius: 3px;
+    line-height: 1;
+  }
   .contents .b_black {
     display: inline-block;
     padding: 1% 1.9%;
     margin: 5% 0 0 5%;
     font-size: calc(33vw/12);
     letter-spacing: 0.5px;
-    border-radius: 4px;
+    border-radius: 3px;
     line-height: 1;
   }
   .contents .date {
