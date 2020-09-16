@@ -1025,6 +1025,18 @@ header {
 				height: 22px;
 			}
 		}
+		.ctw_hm {
+			&:before {
+				content: '';
+				background: #e7901f;
+			}
+		}
+		.ctw_hl {
+			&:before {
+				content: '';
+				background: #d34646;
+			}
+		}
 		.t_i {
 			display: flex;
 			flex-flow: row wrap;
