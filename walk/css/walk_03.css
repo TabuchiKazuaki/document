@@ -1042,7 +1042,6 @@ header .h_line .h_bh span {
 .contents .c_twenty .ctw_h {
   position: relative;
   padding: 1px 0 0 30px;
-  margin: 27px 0 0 0;
   font-size: 25px;
   text-align: left;
   color: #000;
@@ -2046,7 +2045,6 @@ footer small {
   }
   .contents .c_twenty .ctw_h {
     padding: 0.4% 0 0 4.5%;
-    margin: 3% 0 0 4.2%;
     font-size: calc(41vw/12);
   }
   .contents .c_twenty .ctw_h:before {
@@ -2760,6 +2758,16 @@ footer small {
   .contents .tw_bt {
     margin: 10% 0 0;
     padding: 6% 0 0;
+  }
+  .contents .c_twenty .ctw_h {
+    padding: 0.4% 0 0 4.5%;
+    font-size: calc(41vw/12);
+  }
+  .contents .c_twenty .ctw_h:before {
+    top: 22%;
+    background-size: 100% 100%;
+    width: 3%;
+    height: 67%;
   }
   .contents .c_twenty .t_i {
     margin: 5% 0 0;
