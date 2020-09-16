@@ -1039,6 +1039,25 @@ header .h_line .h_bh span {
   padding: 40px 0 0;
   border-top: 1px solid #606060;
 }
+.contents .c_twenty .ctw_h {
+  position: relative;
+  padding: 1px 0 0 30px;
+  margin: 27px 0 0 0;
+  font-size: 25px;
+  text-align: left;
+  color: #000;
+}
+.contents .c_twenty .ctw_h:before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 0;
+  background: #499eda;
+  background-size: 22px 22px;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+}
 .contents .c_twenty .t_i {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2025,6 +2044,17 @@ footer small {
     margin: 11% 0 0;
     padding: 7% 0 0;
   }
+  .contents .c_twenty .ctw_h {
+    padding: 0.4% 0 0 4.5%;
+    margin: 3% 0 0 4.2%;
+    font-size: calc(41vw/12);
+  }
+  .contents .c_twenty .ctw_h:before {
+    top: 22%;
+    background-size: 100% 100%;
+    width: 3%;
+    height: 62%;
+  }
   .contents .c_twenty .t_i {
     margin: 5% 0 0;
   }
@@ -2584,7 +2614,7 @@ footer small {
     top: 22%;
     background-size: 100% 100%;
     width: 3%;
-    height: 62%;
+    height: 67%;
   }
   .contents .date .rbagg {
     display: inline-block;
