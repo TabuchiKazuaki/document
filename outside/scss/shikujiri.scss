@@ -282,6 +282,25 @@ header {
 			border-radius: 50%;
 		}
 	}
+	.c_pt {
+		position: relative;
+		padding: 0 0 0 28px;
+		margin: 23px 0 0 32px;
+		font-size: 24px;
+		line-height: 1.4;
+		letter-spacing: 1.5px;
+		color: #fffefe;
+		&:before {
+			content: '';
+			position: absolute;
+			top: 3px;
+			left: 0;
+			background: #fffefe;
+			width: 22px;
+			height: 22px;
+			border-radius: 50%;
+		}
+	}
 
 	.c_list {
 		overflow: hidden;
@@ -678,6 +697,20 @@ footer {
 			}
 		}
 
+		.c_pt {
+			padding: 0 0 0 4.2%;
+			margin: 4.5% 0 0 5%;
+			font-size: calc(37vw/12);
+			letter-spacing: 0.8px;
+
+			&:before {
+				top: 9%;
+				left: 0;
+				width: 3.2%;
+				height: 36.368%;
+			}
+		}
+
 		.c_list {
 			overflow: hidden;
 			margin: 5% 0 0;
@@ -983,6 +1016,20 @@ footer {
 				left: 0;
 				width: 3.2%;
 				height: 92.368%;
+			}
+		}
+
+		.c_pt {
+			padding: 0 0 0 4.2%;
+			margin: 4.5% 0 0 5%;
+			font-size: calc(39vw/12);
+			letter-spacing: -0.5px;
+
+			&:before {
+				top: 9%;
+				left: 0;
+				width: 3.2%;
+				height: 36.368%;
 			}
 		}
 
