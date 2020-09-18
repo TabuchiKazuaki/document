@@ -71,6 +71,10 @@ img  { width: 100%; height: auto;}
 	text-align: center;
 	color: #606060;
 }
+.banner_t {
+	margin: 20px 0 0;
+	line-height: 0;
+}
 .pre_btn {
 	a {
 		display: block;
@@ -470,11 +474,21 @@ header {
 	.h_m02 {
 		max-width: 630px;
 	}
+	.h_date {
+		background: #000;
+		padding: 25px 0 0;
+		font-size: 20px;
+		font-weight: bold;
+		letter-spacing: 1.5px;
+		text-align: center;
+		color: #fff;
+
+	}
 }
 
 .time {
 	background: #000;
-	padding: 58px 0 82px;
+	padding: 85px 0 82px;
 	text-align: center;
 	.wrap {
 		max-width: 680px;
@@ -526,6 +540,12 @@ header {
 			padding: 0 22px;
 			font-size: 25px;
 			letter-spacing: 2px;
+		}
+		.cc_ball {
+			position: absolute;
+			top: -67px;
+			right: -6px;
+			width: 145px;
 		}
 		.cc_list {
 			li {
@@ -1450,7 +1470,7 @@ footer {
 
 	.pre_btn {
 		a {
-			padding: 3.7% 0;
+			padding: 3.8% 0;
 			border-radius: 5px;
 			font-size: calc(50vw/12);
 			letter-spacing: 1.1px;
@@ -1461,6 +1481,16 @@ footer {
 		margin: 6.5% 0 0;
 		font-size: calc(28vw/12);
 		line-height: 1.4;
+	}
+
+	.cbh_img {
+		width: 97.7%;
+		margin: 2% auto 0;
+		line-height: 0;
+	}
+
+	.banner_t {
+		margin: 7% 0 0;
 	}
 
 
@@ -1686,10 +1716,16 @@ footer {
 			width: 80.8%;
 			margin: 0 auto 0;
 		}
+
+		.h_date {
+			padding: 3% 0 0;
+			font-size: calc(34vw/12);
+			letter-spacing: 1.3px;
+		}
 	}
 
 	.time {
-		padding: 7% 0 0;
+		padding: 11% 0 11%;
 		.wrap {
 			max-width: 100%;
 			margin: 0 auto;
@@ -1717,7 +1753,7 @@ footer {
 		}
 		.conditions {
 			padding: 5.5% 5.1% 7%;
-			border: 1.5px solid #fff;
+			border: 2px solid #fff;
 			border-radius: 10px;
 			.cc_h {
 				position: absolute;
@@ -1728,6 +1764,13 @@ footer {
 				padding: 0 3.1%;
 				font-size: calc(39vw/12);
 				letter-spacing: 2px;
+			}
+			.cc_ball {
+				position: absolute;
+				top: -14%;
+				right: -1%;
+				width: 21%;
+				max-width: 145px;
 			}
 			.cc_list {
 				li {
@@ -1970,8 +2013,8 @@ footer {
 		}
 
 		.p_img {
-			width: 62.8%;
-			padding: 2.8% 0 0;
+			width: 53.6%;
+			padding: 11.8% 0 0;
 		}
 
 		.m_lot {
@@ -2169,11 +2212,10 @@ footer {
 	}
 
 	aside {
-		padding: 0 0 4%;
-
+		padding: 0;
 		.wrap {
-			padding: 0;
-			margin: 0 4.5% 0;
+			padding: 2% 0 8%;
+			margin: 4% 4.5% 0;
 		}
 		.f_d {
 			dt {
@@ -2571,10 +2613,15 @@ footer {
 		.h_m {
 			width: 82.8%;
 		}
+		.h_date {
+			padding: 3% 0 0;
+			font-size: calc(36vw/12);
+			letter-spacing: 0.8px;
+		}
 	}
 
 	.time {
-		padding: 7% 0 0;
+		padding: 11% 0 11%;
 		.wrap {
 			max-width: 100%;
 			margin: 0 auto;
@@ -2602,7 +2649,7 @@ footer {
 		}
 		.conditions {
 			padding: 5.5% 5.1% 7%;
-			border: 2px solid #fff;
+			border: 1.5px solid #fff;
 			border-radius: 18px;
 			.cc_h {
 				position: absolute;
@@ -2613,6 +2660,11 @@ footer {
 				padding: 0 3.1%;
 				font-size: calc(39vw/12);
 				letter-spacing: 2px;
+			}
+			.cc_ball {
+				top: -14%;
+				right: -1%;
+				width: 22%;
 			}
 			.cc_list {
 				li {
@@ -2837,12 +2889,11 @@ footer {
 		}
 
 		.p_img {
-			width: 62.8%;
-			padding: 2.8% 0 0;
+			width: 53.6%;
+			padding: 11.8% 0 0;
 		}
 
 		.m_lot {
-			padding: 4.5% 2.4% 6%;
 			margin: 6% 0 0;
 			border-radius: 4px;
 			.ml_h {
@@ -3036,11 +3087,11 @@ footer {
 	}
 
 	aside {
-		padding: 0 0 4%;
+		padding: 0;
 
 		.wrap {
-			padding: 0 0 0;
-			margin: 0 4% 0;
+			padding: 2% 0 8%;
+			margin: 4% 4.5% 0;
 		}
 		.f_d {
 			dt {
