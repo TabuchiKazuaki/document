@@ -91,6 +91,7 @@ img {
 }
 
 .rde {
+  text-align: center;
   color: #606060;
 }
 
@@ -886,14 +887,12 @@ header .h_m02 {
   color: #ababab;
 }
 .contents .p_img {
-  max-width: 427px;
-  padding: 10px 0 0;
+  max-width: 362px;
+  padding: 81px 0 0;
   line-height: 0;
   margin: 0 auto;
 }
 .contents .m_lot {
-  background: #1a1a1a;
-  padding: 30px 15px 40px;
   margin: 40px 0 0;
   border-radius: 8px;
   -webkit-box-sizing: border-box;
@@ -940,7 +939,7 @@ header .h_m02 {
   border-radius: 8px;
 }
 .contents .m_box li {
-  background: #1a1a1a;
+  background: #efefef;
   float: left;
   width: 47.5%;
   max-width: 321px;
@@ -973,13 +972,14 @@ header .h_m02 {
   font-weight: normal;
   line-height: 1.5;
   letter-spacing: 1.4px;
-  color: #ababab;
+  color: #666;
 }
 .contents .m_box li .c_it .h_ss {
   display: block;
   font-size: 27px;
   font-weight: bold;
-  color: #fff;
+  text-shadow: 0.3px 0.3px 0 #666;
+  color: #666;
 }
 .contents .m_box li .c_it .clr {
   color: #e6c300;
@@ -1256,12 +1256,15 @@ header .h_m02 {
   font-size: 34px;
   font-weight: bold;
   letter-spacing: 1.3px;
-  color: #fff;
+  color: #000;
 }
 
+aside {
+  background: #000;
+}
 aside .wrap {
   max-width: 680px;
-  padding: 0 0 60px;
+  padding: 10px 0 60px;
   margin: 90px auto 0;
 }
 aside .f_d dt {
