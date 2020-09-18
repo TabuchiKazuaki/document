@@ -96,7 +96,7 @@ img {
 }
 
 .banner_t {
-  margin: 40px 0 0;
+  margin: 60px 0 0;
   line-height: 0;
 }
 
@@ -275,7 +275,7 @@ img {
   line-height: 0;
 }
 .cp_item .cph {
-  margin: 44px 0 0;
+  margin: 40px 0 0;
   font-size: 44px;
   font-weight: bold;
   text-shadow: 0.3px 0.3px 0 #ddaa00;
@@ -321,7 +321,7 @@ img {
   font-size: 51px;
   margin: 54px 0 0;
   letter-spacing: -0.5px;
-  text-shadow: 0.5px 0.5px 0 #000;
+  text-shadow: 0.4px 0.4px 0 #000;
   white-space: nowrap;
 }
 .cp_item .cph_04 .cl {
@@ -383,7 +383,7 @@ img {
 }
 .cp_item .cph_fig {
   max-width: 680px;
-  margin: 52px auto 0;
+  margin: 60px auto 0;
   line-height: 0;
 }
 
@@ -490,6 +490,20 @@ img {
 
 .c_top_ls {
   padding: 0;
+}
+
+.m_top {
+  padding: 0 0 40px;
+  margin: 73px 0 0;
+  text-align: right;
+  white-space: nowrap;
+}
+.m_top a {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  color: #000;
 }
 
 header {
@@ -1708,6 +1722,16 @@ footer small {
     padding: 0;
   }
 
+  .m_top {
+    padding: 0 0 6%;
+    margin: 9% 0 0;
+  }
+  .m_top a {
+    display: inline-block;
+    font-size: calc(46vw/12);
+    letter-spacing: 0.5px;
+  }
+
   header {
     padding: 0;
   }
@@ -2563,6 +2587,16 @@ footer small {
 
   .c_top_ls {
     padding: 0;
+  }
+
+  .m_top {
+    padding: 0 0 6%;
+    margin: 9% 0 0;
+  }
+  .m_top a {
+    display: inline-block;
+    font-size: calc(47vw/12);
+    letter-spacing: 0.2px;
   }
 
   header {

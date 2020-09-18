@@ -72,7 +72,7 @@ img  { width: 100%; height: auto;}
 	color: #606060;
 }
 .banner_t {
-	margin: 40px 0 0;
+	margin: 60px 0 0;
 	line-height: 0;
 }
 .pre_btn {
@@ -240,7 +240,7 @@ img  { width: 100%; height: auto;}
 	}
 
 	.cph {
-		margin: 44px 0 0;
+		margin: 40px 0 0;
 		font-size: 44px;
 		font-weight: bold;
 		text-shadow: 0.3px 0.3px 0 #ddaa00;
@@ -287,7 +287,7 @@ img  { width: 100%; height: auto;}
 		font-size: 51px;
 		margin: 54px 0 0;
 		letter-spacing: -0.5px;
-		text-shadow: 0.5px 0.5px 0 #000;
+		text-shadow: 0.4px 0.4px 0 #000;
 		white-space: nowrap;
 		.cl {
 			text-shadow: 0.5px 0.5px 0 #ddaa00;
@@ -344,7 +344,7 @@ img  { width: 100%; height: auto;}
 	}
 	.cph_fig {
 		max-width: 680px;
-		margin: 52px auto 0;
+		margin: 60px auto 0;
 		line-height: 0;
 	}
 }
@@ -443,6 +443,19 @@ img  { width: 100%; height: auto;}
 }
 .c_top_ls {
 	padding: 0;
+}
+.m_top {
+	padding: 0 0 40px;
+	margin: 73px 0 0;
+	text-align: right;
+	white-space: nowrap;
+	a {
+		display: inline-block;
+		font-size: 30px;
+		font-weight: bold;
+		letter-spacing: 1.3px;
+		color: #000;
+	}
 }
 
 header {
@@ -1694,6 +1707,16 @@ footer {
 		padding: 0;
 	}
 
+	.m_top {
+		padding: 0 0 6%;
+		margin: 9% 0 0;
+		a {
+			display: inline-block;
+			font-size: calc(46vw/12);
+			letter-spacing: 0.5px;
+		}
+	}
+
 	header {
 		padding: 0;
 		.h_l {
@@ -2594,6 +2617,16 @@ footer {
 	}
 	.c_top_ls {
 		padding: 0;
+	}
+
+	.m_top {
+		padding: 0 0 6%;
+		margin: 9% 0 0;
+		a {
+			display: inline-block;
+			font-size: calc(47vw/12);
+			letter-spacing: 0.2px;
+		}
 	}
 
 	header {
