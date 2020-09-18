@@ -84,7 +84,7 @@ img {
 }
 
 .p_ir_t {
-  margin: 48px 0 0;
+  margin: 60px 0 0;
   font-size: 18px;
   line-height: 1.4;
   color: #ababab;
@@ -97,7 +97,7 @@ img {
 .pre_btn a {
   display: block;
   background: #ddaa00;
-  padding: 26px 0;
+  padding: 28px 0;
   border-radius: 6px;
   text-align: center;
   font-size: 32px;
@@ -192,7 +192,7 @@ img {
   position: relative;
   display: inline-block;
   padding: 0 0 0 18px;
-  margin: 36px 0 0;
+  margin: 88px 0 0;
   font-size: 48px;
   text-shadow: 0.3px 0.3px 0 #000;
   font-weight: bold;
@@ -229,6 +229,8 @@ img {
   text-shadow: 0.3px 0.3px 0 #ddaa00;
 }
 .chlr .ss {
+  display: inline-block;
+  margin: 0 2px;
   font-size: 36px;
 }
 .chlr .las {
@@ -238,7 +240,7 @@ img {
 }
 
 .cp_item li {
-  padding: 86px 0 60px;
+  padding: 86px 0 84px;
   border-bottom: 1px solid #606060;
 }
 .cp_item li:first-child {
@@ -248,8 +250,8 @@ img {
   padding: 61px 0 53px;
 }
 .cp_item .cp_n {
-  padding: 61px 0 53px !important;
-  border-bottom: none;
+  padding: 61px 0 78px !important;
+  border: none;
 }
 .cp_item .c_po1 {
   max-width: 216px;
@@ -282,6 +284,8 @@ img {
   line-height: 0.8;
 }
 .cp_item .cph .ss {
+  display: inline-block;
+  margin: 0 2px;
   font-size: 34px;
 }
 .cp_item .cph .num {
@@ -309,7 +313,7 @@ img {
 }
 .cp_item .cph_04 {
   font-size: 51px;
-  margin: 40px 0 0;
+  margin: 54px 0 0;
   letter-spacing: -0.5px;
   text-shadow: 0.5px 0.5px 0 #000;
   white-space: nowrap;
@@ -377,24 +381,81 @@ img {
   line-height: 0;
 }
 
+.cp_i_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 52px 0 0;
+}
+.cp_i_box li {
+  float: left;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 48%;
+  padding: 0;
+  margin: 4% 0 0 4%;
+  border: none;
+  line-height: 0;
+}
+.cp_i_box li:nth-child(2n+1) {
+  margin: 4% 0 0 0 !important;
+}
+.cp_i_box li:nth-child(1) {
+  margin: 0 !important;
+}
+.cp_i_box li:nth-child(2) {
+  margin: 0 0 0 4% !important;
+}
+
 .cbh {
-  padding: 0 0 52px;
-  margin: 64px 0 0;
   font-size: 47px;
   font-weight: bold;
   letter-spacing: 1.3px;
   line-height: 1.5;
-  color: #fff;
+  color: #000;
 }
 .cbh .bob {
   display: inline-block;
   border-bottom: 5px solid #ddaa00;
-  padding: 0 0 5px;
+  padding: 0 0 7px;
   line-height: 0.8;
 }
 
+.cbh07 {
+  font-size: 43px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  text-shadow: 0.3px 0.3px 0 #000;
+  line-height: 1.5;
+  color: #000;
+}
+.cbh07 .bob {
+  display: inline-block;
+  border-bottom: 5px solid #ddaa00;
+  padding: 0 0 7px;
+  line-height: 0.8;
+}
+.cbh07 .ss {
+  display: inline-block;
+  margin: 0 2px;
+  font-size: 30px;
+}
+
+.cbh_img {
+  max-width: 661px;
+  margin: 52px auto 0;
+  line-height: 0;
+}
+
 .ct_01 {
-  margin: 44px 0 0;
+  margin: 36px 0 0;
   font-size: 34px;
   font-weight: bold;
   text-shadow: 0.3px 0.3px 0 #000;
@@ -458,7 +519,7 @@ header .h_m02 {
 
 .time {
   background: #000;
-  padding: 58px 0 0;
+  padding: 58px 0 82px;
   text-align: center;
 }
 .time .wrap {
@@ -1523,7 +1584,7 @@ footer small {
   }
   .cp_item .cph_04 {
     font-size: calc(80vw/12);
-    margin: 6% 0 0;
+    margin: 7% 0 0;
     letter-spacing: -0.5px;
     text-shadow: 0.3px 0.3px 0 #000;
   }
@@ -1589,7 +1650,7 @@ footer small {
   }
 
   .ct_01 {
-    margin: 6% 0 0;
+    margin: 5% 0 0;
     font-size: calc(53vw/12);
     text-shadow: 0.3px 0.3px 0 #000;
     letter-spacing: 0.8px;
@@ -2370,7 +2431,7 @@ footer small {
   }
   .cp_item .cph_04 {
     font-size: calc(81vw/12);
-    margin: 6% 0 0;
+    margin: 5.5% 0 0;
     letter-spacing: -0.5px;
     text-shadow: 0.2px 0.2px 0 #000;
   }
@@ -2434,7 +2495,7 @@ footer small {
   }
 
   .ct_01 {
-    margin: 6% 0 0;
+    margin: 5% 0 0;
     font-size: calc(55vw/12);
     text-shadow: 0.2px 0.2px 0 #000;
     letter-spacing: -0.5px;
