@@ -313,7 +313,9 @@ header .h_a .h_main a {
   display: block;
 }
 header .h_line {
-  background: #fff4fe;
+  background: #fff9e8;
+  background: -webkit-gradient(linear, left top, right top, from(#fff9e8), color-stop(21%, #fff5f8), color-stop(29%, #fff4fc), color-stop(43%, #fcf5ff), color-stop(55%, #f1f9ff), color-stop(65%, #f0fafe), color-stop(74%, #f0fbfb), color-stop(87%, #f2fdf0), to(#f5ffe2));
+  background: linear-gradient(90deg, #fff9e8 0%, #fff5f8 21%, #fff4fc 29%, #fcf5ff 43%, #f1f9ff 55%, #f0fafe 65%, #f0fbfb 74%, #f2fdf0 87%, #f5ffe2 100%);
   padding: 41px 0 40px;
   margin: 48px 0 0;
 }
