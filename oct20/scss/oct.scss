@@ -281,7 +281,7 @@ header {
 			.h_main {
 				overflow: hidden;
 				max-width: 680px;
-				margin: 37px auto 0;
+				margin: 24px auto 0;
 				li {
 					float: left;
 					width: 22.75%;
@@ -295,7 +295,7 @@ header {
 			}
 			.h_bottom {
 				max-width: 619px;
-				margin: 20px auto 0;
+				margin: 31px auto 0;
 				line-height: 0;
 			}
 		}
@@ -1545,18 +1545,9 @@ footer {
 		}
 
 		.h_a {
-			overflow: hidden;
-			box-sizing: border-box;
-			.h_inner {
-				position: relative;
-				margin: 0 auto;
-				box-sizing: border-box;
-			}
 			.h_i {
-				position: relative;
 				max-width: 100%;
-				padding: 2% 3% 0;
-				margin: 0 auto 0;
+				padding: 2% 1.5% 0;
 
 				.h_m {
 					font-size: 29px;
@@ -1564,27 +1555,75 @@ footer {
 					text-align: center;
 					letter-spacing: 1.8px;
 				}
+
+				.h_t {
+					display: flex;
+					align-items: center;
+					margin: 15px 0 0 322px;
+					font-size: 27px;
+					font-weight: bold;
+					letter-spacing: 1.2px;
+					span {
+						display: inline-block;
+						margin: 0 0 0 3px;
+						font-size: 19px;
+
+					}
+				}
+			}
+			.h_inner {
+				position: relative;
+				padding: 56px 0 0;
+
 			}
 			.h_box {
-				position: relative;
+				overflow: hidden;
 				background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/53fa0797740310cda630aec098f8d757_69f19b4165c4f7a4e2e597fc645e66a7.png) center 0 no-repeat;
-				background-size: contain;
+				background-size: cover;
 				height: auto;
-				padding: 1% 0 10.1%;
+				padding: 0 0 3.8%;
+
+				.h_head {
+					position: absolute;
+					top: -2px;
+					left: 100px;
+					max-width: 583px;
+				}
 				.h_main {
-					margin: 13% auto 0;
+					overflow: hidden;
+					max-width: 680px;
+					margin: 3% auto 0;
+					li {
+						float: left;
+						width: 22.75%;
+						margin: 0 0 0 3%;
+						line-height: 0;
+
+						&:nth-child(1) {
+							margin: 0;
+						}
+					}
+				}
+				.h_bottom {
+					width: 83.5%;
+					margin: 8% auto 0;
 				}
 			}
 		}
+
 		.h_line {
-			padding: 5.8% 0 5.8%;
-			margin: 3% 0 0;
+			background: #fffae9;
+			padding: 32px 0 42px;
+			margin: 12px 0 0;
 			.h_bh {
-				font-size: calc(35vw/12);
-				letter-spacing: 0.5px;
+				text-align: center;
+				font-size: 23px;
+				font-weight: normal;
+				letter-spacing: 1.2px;
 				line-height: 1.6;
 				span {
-					font-size: calc(44vw/12);
+					font-size: 28px;
+					font-weight: bold;
 				}
 			}
 		}
