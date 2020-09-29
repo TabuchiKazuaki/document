@@ -410,6 +410,9 @@ img {
   border: none;
   line-height: 0;
 }
+.cp_i_box li a {
+  display: block;
+}
 .cp_i_box li:nth-child(2n+1) {
   margin: 4% 0 0 0 !important;
 }
@@ -613,6 +616,13 @@ header .h_date {
   top: -67px;
   right: -6px;
   width: 145px;
+}
+.time .conditions .cc_text {
+  margin: 0 0 20px;
+  line-height: 1.45;
+  letter-spacing: 1.2px;
+  font-size: 24px;
+  text-align: left;
 }
 .time .conditions .cc_list li {
   counter-increment: count;
@@ -1833,6 +1843,12 @@ footer small {
     width: 21%;
     max-width: 145px;
   }
+  .time .conditions .cc_text {
+    margin: 0 0 4%;
+    line-height: 1.45;
+    letter-spacing: 0.8px;
+    font-size: calc(40vw/12);
+  }
   .time .conditions .cc_list li {
     padding: 0 0 0 7.4%;
     margin: 1.5% 0 0;
@@ -2722,6 +2738,12 @@ footer small {
     top: -14%;
     right: -1%;
     width: 22%;
+  }
+  .time .conditions .cc_text {
+    margin: 0 0 4%;
+    line-height: 1.45;
+    letter-spacing: -0.2px;
+    font-size: calc(42vw/12);
   }
   .time .conditions .cc_list li {
     padding: 0 0 0 7.4%;
