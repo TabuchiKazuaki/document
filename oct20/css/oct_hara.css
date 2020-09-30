@@ -17,6 +17,8 @@ body li {
 }
 
 a {
+  -webkit-transition: .3s;
+  transition: .3s;
   text-decoration: none;
 }
 a:hover {
@@ -2035,7 +2037,7 @@ footer small {
   .contents .c_dl dt {
     width: 58%;
     margin: 0 0 0 4%;
-    font-size: calc(35vw/12);
+    font-size: calc(37vw/12);
     line-height: 1.7;
   }
   .contents .l_wrap {
