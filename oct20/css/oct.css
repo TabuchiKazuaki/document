@@ -1445,7 +1445,7 @@ footer small {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 30px auto 0;
+    margin: 4.5% auto 0;
   }
   .contents .chh02 dt {
     width: 100%;
@@ -1460,14 +1460,6 @@ footer small {
     padding: 0 0 0 4%;
     line-height: 1.2;
     white-space: nowrap;
-  }
-  .contents .c_mimg {
-    width: 66.3%;
-    margin: 8% auto 0;
-  }
-  .contents .c_bimg {
-    width: 71.5%;
-    margin: 8% auto 0;
   }
   .contents .c_dl {
     margin: 5% 0 0;
@@ -1550,6 +1542,18 @@ footer small {
     letter-spacing: 0.8px;
     border-radius: 3px;
   }
+  .contents .c_three .c_tdl dt .date_s {
+    padding: 0 0 0 10%;
+    margin: 3.5% 0 0;
+    font-size: calc(39vw/12);
+    line-height: 1;
+  }
+  .contents .c_three .c_tdl dt .date_s:before {
+    top: 10%;
+    background-size: 100% 100%;
+    width: 7.41%;
+    height: 88%;
+  }
   .contents .c_three .c_ttext {
     margin: 4% 0 0;
     font-size: calc(42vw/12);
@@ -1591,53 +1595,6 @@ footer small {
   }
   .lot .l_p {
     width: 53.4%;
-  }
-  .lot .m_list {
-    overflow: hidden;
-    max-width: 680px;
-    margin: 5% auto 0;
-  }
-  .lot .m_list li {
-    float: left;
-    width: 32.3%;
-    margin: 1.5% 0 0 1.5%;
-  }
-  .lot .m_list li:nth-child(3n+1) {
-    margin: 1.5% 0 0;
-  }
-  .lot .m_list li:nth-child(3) {
-    margin: 0 0 0 1.5%;
-  }
-  .lot .m_list li:nth-child(2) {
-    margin: 0 0 0 1.5%;
-  }
-  .lot .m_list li:first-child {
-    margin: 0;
-  }
-  .lot .llist {
-    margin: 7.5% 0 0;
-  }
-  .lot .llist li {
-    width: 32%;
-    margin: 0.5% 0 0 2%;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    line-height: 0;
-  }
-  .lot .llist li:nth-child(2) {
-    margin: 0 0 0 2%;
-  }
-  .lot .llist li:nth-child(3) {
-    margin: 0 0 0 2%;
-  }
-  .lot .llist li:nth-child(1) {
-    margin: 0;
-  }
-  .lot .llist li:nth-child(4) {
-    margin: 0.5% 0 0 0;
   }
   .lot .l_item {
     padding: 0;
@@ -2024,23 +1981,17 @@ footer small {
     line-height: 1.65;
   }
 
-  .contents .wrap {
-    max-width: 100%;
-    padding: 0 4.5%;
-    margin: 0 auto;
-  }
   .contents .chh01 {
     margin: 0.5% 0 0;
   }
   .contents .chh01 dd {
     width: 15.3%;
-    max-width: 114px;
   }
   .contents .chh01 dt {
     padding: 6% 0 0;
     margin: 0.1% 0 0 3%;
-    font-size: calc(72vw/12);
-    letter-spacing: 0.8px;
+    font-size: calc(74vw/12);
+    letter-spacing: 0.2px;
     line-height: 1.3;
   }
   .contents .chh01 dt .line {
@@ -2049,25 +2000,18 @@ footer small {
     background-position: left 0 bottom 16%;
     padding: 0 0 2% 4%;
     line-height: 1.2;
-    white-space: nowrap;
   }
   .contents .min {
     margin: 0 0 0 8%;
   }
   .contents .chh02 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 30px auto 0;
+    margin: 4.5% auto 0;
   }
   .contents .chh02 dt {
     width: 100%;
     padding: 6% 0 0;
-    font-size: calc(72vw/12);
-    letter-spacing: 0.8px;
+    font-size: calc(74vw/12);
+    letter-spacing: 0.2px;
     line-height: 1.3;
   }
   .contents .chh02 dt .line {
@@ -2076,14 +2020,6 @@ footer small {
     padding: 0 0 0 4%;
     line-height: 1.2;
     white-space: nowrap;
-  }
-  .contents .c_mimg {
-    width: 66.3%;
-    margin: 8% auto 0;
-  }
-  .contents .c_bimg {
-    width: 71.5%;
-    margin: 8% auto 0;
   }
   .contents .c_dl {
     margin: 5% 0 0;
@@ -2166,6 +2102,18 @@ footer small {
     letter-spacing: 0.8px;
     border-radius: 3px;
   }
+  .contents .c_three .c_tdl dt .date_s {
+    padding: 0 0 0 10%;
+    margin: 3.5% 0 0;
+    font-size: calc(39vw/12);
+    line-height: 1;
+  }
+  .contents .c_three .c_tdl dt .date_s:before {
+    top: 10%;
+    background-size: 100% 100%;
+    width: 7.41%;
+    height: 88%;
+  }
   .contents .c_three .c_ttext {
     margin: 4% 0 0;
     font-size: calc(42vw/12);
@@ -2206,65 +2154,19 @@ footer small {
     padding: 9% 0 4.6%;
   }
   .lot .l_p {
-    width: 55.4%;
-  }
-  .lot .m_list {
-    overflow: hidden;
-    margin: 5% auto 0;
-  }
-  .lot .m_list li {
-    float: left;
-    width: 32.3%;
-    margin: 1.5% 0 0 1.5%;
-  }
-  .lot .m_list li:nth-child(3n+1) {
-    margin: 1.5% 0 0;
-  }
-  .lot .m_list li:nth-child(3) {
-    margin: 0 0 0 1.5%;
-  }
-  .lot .m_list li:nth-child(2) {
-    margin: 0 0 0 1.5%;
-  }
-  .lot .m_list li:first-child {
-    margin: 0;
-  }
-  .lot .llist {
-    margin: 7.5% 0 0;
-  }
-  .lot .llist li {
-    width: 32%;
-    margin: 0.5% 0 0 2%;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    line-height: 0;
-  }
-  .lot .llist li:nth-child(2) {
-    margin: 0 0 0 2%;
-  }
-  .lot .llist li:nth-child(3) {
-    margin: 0 0 0 2%;
-  }
-  .lot .llist li:nth-child(1) {
-    margin: 0;
-  }
-  .lot .llist li:nth-child(4) {
-    margin: 0.5% 0 0 0;
+    width: 53.4%;
   }
   .lot .l_item {
     padding: 0;
     margin: 6.2% 0 0;
-    border-radius: 4px;
+    border-radius: 7px;
   }
   .lot .l_item li {
     float: left;
     width: 47.5%;
     padding: 0 0 5%;
     margin: 5% 0 0 5%;
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 9px 9px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
@@ -2282,20 +2184,20 @@ footer small {
     line-height: 0;
   }
   .lot .l_item li .icon img {
-    border-radius: 5px 5px 0 0;
+    border-radius: 9px 9px 0 0;
   }
   .lot .l_item li .c_it {
     margin: 7.5% 0 0;
-    font-size: calc(44vw/12);
+    font-size: calc(42vw/12);
     line-height: 1.5;
-    letter-spacing: 0.7px;
+    letter-spacing: 1.4px;
   }
   .lot .l_item li .c_it .h_ss {
     text-shadow: 0.3px 0.3px 0 #666;
-    font-size: calc(45vw/12);
+    font-size: calc(43vw/12);
   }
   .lot .l_item li .c_it .num {
-    font-size: calc(49vw/12);
+    font-size: calc(47vw/12);
   }
 
   aside {
