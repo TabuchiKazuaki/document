@@ -402,6 +402,12 @@ header .h_line .h_bh span {
 .contents .min {
   margin: 0 0 0 55px;
 }
+.contents .ma {
+  margin: 0 auto !important;
+}
+.contents .ma .line {
+  margin: 0 0 0 -20px;
+}
 .contents .chh02 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1443,6 +1449,12 @@ footer small {
   }
   .contents .min {
     margin: 0 0 0 8%;
+  }
+  .contents .ma {
+    margin: 0 auto !important;
+  }
+  .contents .ma .line {
+    margin: 0 0 0 -9% !important;
   }
   .contents .chh02 {
     display: -webkit-box;
