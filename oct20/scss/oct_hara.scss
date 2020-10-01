@@ -398,9 +398,13 @@ header {
 	}
 	.line_sho {
 		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/67e47a68cf56acd7d764fee2cfbdb85f_76057c07124bbb254f4819943e41f15a.png) left bottom no-repeat;
+		background-size: contain;
+		padding: 0 0 0 32px;
 	}
 	.line_long {
 		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/8ec7d5174ac326c198a9db1bbaef2599_b5bea1a228934135392bdea3d82c21ea.png) left bottom no-repeat;
+		background-size: contain;
+		padding: 0 0 0 32px;
 	}
 	.c_fig03 {
 		max-width: 482px;
@@ -1255,6 +1259,13 @@ footer {
 					white-space: nowrap;
 				}
 			}
+		}
+
+		.line_sho {
+			padding: 0 0 0 8%;
+		}
+		.line_long {
+			padding: 0 0 0 8%;
 		}
 		.c_dl {
 			margin: 5% 0 0;
