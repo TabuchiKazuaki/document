@@ -171,6 +171,17 @@ header .h_a .h_cau {
   letter-spacing: 1.3px;
   color: #fff;
 }
+header .h_a .h_o_cau {
+  margin: 25px 0 0;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  color: #fff;
+}
+header .h_a .h_o_cau a {
+  display: inline-block;
+  text-decoration: underline;
+  color: #fff;
+}
 
 .menu {
   background: #d2eefd;
@@ -2705,6 +2716,11 @@ footer small {
     font-size: calc(23vw/12);
     letter-spacing: 1.2px;
   }
+  header .h_a .h_o_cau {
+    margin: 3% 0 0;
+    font-size: calc(22vw/12);
+    letter-spacing: 0.3px;
+  }
 
   .menu {
     padding: 2%;
@@ -3964,6 +3980,11 @@ footer small {
     margin: 3% 0 0;
     font-size: calc(25vw/12);
     letter-spacing: 1.2px;
+  }
+  header .h_a .h_o_cau {
+    margin: 3% 0 0;
+    font-size: calc(23vw/12);
+    letter-spacing: -0.3px;
   }
 
   .menu {
