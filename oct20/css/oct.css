@@ -412,6 +412,44 @@ header .h_line .h_bh span {
   padding: 0 0 3px 16px;
   line-height: 1.4;
 }
+.contents .ch_week dd {
+  position: relative;
+  background: #ff8c26;
+  padding: 22px 0 0 16px;
+  margin: 0;
+  font-size: 30px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.1px;
+  line-height: 1.18;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  width: 114px;
+  height: 114px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  white-space: nowrap;
+}
+.contents .ch_week dd:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 5px;
+  bottom: 3px;
+  border-style: solid;
+  border-color: transparent transparent transparent #ff8c26;
+  border-width: 10px 0 10px 15.32px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.contents .ch_week dd span {
+  display: inline-block;
+  text-indent: -1.8rem;
+  -webkit-transform: skewX(-8deg);
+          transform: skewX(-8deg);
+}
 .contents .min {
   margin: 0 0 0 55px;
 }
@@ -1468,6 +1506,28 @@ footer small {
     line-height: 1.4;
     white-space: nowrap;
   }
+  .contents .ch_week dd {
+    padding: 2.8% 0 3.079% 2.45%;
+    font-size: calc(47vw/12);
+    letter-spacing: 0.8px;
+    line-height: 1.18;
+    border-radius: 50%;
+    width: 15.3%;
+    height: auto;
+  }
+  .contents .ch_week dd:after {
+    right: 3%;
+    bottom: 3.8%;
+    border-width: 10px 0 10px 15.32px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .contents .ch_week dd span {
+    display: inline-block;
+    text-indent: -1.9rem;
+    -webkit-transform: skewX(-8deg);
+            transform: skewX(-8deg);
+  }
   .contents .min {
     margin: 0 0 0 8%;
   }
@@ -2046,6 +2106,28 @@ footer small {
     background-size: 100% auto;
     background-position: left 0 bottom 16%;
     padding: 0 0 2% 4%;
+  }
+  .contents .ch_week dd {
+    padding: 2.8% 0 3.1% 1.45%;
+    font-size: calc(47vw/12);
+    letter-spacing: 0.2px;
+    line-height: 1.18;
+    border-radius: 50%;
+    width: 15.3%;
+    height: auto;
+  }
+  .contents .ch_week dd:after {
+    right: 0.5%;
+    bottom: 1.8%;
+    border-width: 6px 0 6px 11.32px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .contents .ch_week dd span {
+    display: inline-block;
+    text-indent: -1.1rem;
+    -webkit-transform: skewX(-6deg);
+            transform: skewX(-6deg);
   }
   .contents .min {
     margin: 0 0 0 8%;
