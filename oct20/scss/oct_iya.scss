@@ -1353,7 +1353,7 @@ footer {
 		}
 
 		.c01 {
-			margin: 3% 0 0 3%;
+			margin: 0 0 0 3%;
 		}
 		.c02 {
 			margin: 3% 0 0 0;
@@ -2046,7 +2046,7 @@ footer {
 			}
 		}
 		.c01 {
-			margin: 3% 0 0 3%;
+			margin: 0 0 0 3%;
 		}
 		.c02 {
 			margin: 3% 0 0 0;
@@ -2069,9 +2069,12 @@ footer {
 			}
 		}
 		.c04 {
-			margin: 3% 0 0 -1%;
+			margin: 3% 0 0 0;
 			dt {
 				margin: 0.1% 0 0 0.6%;
+				.line {
+					padding: 0 0 1% 0;
+				}
 			}
 		}
 		.ch_bot {
@@ -2084,6 +2087,7 @@ footer {
 			}
 		}
 		.ch_win {
+				width: 16%;
 			dd {
 				font-size: calc(43vw/12);
 				padding: 3.47% 0 3.47844% 1%;
