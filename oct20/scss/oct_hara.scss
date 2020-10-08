@@ -1320,7 +1320,7 @@ footer {
 					display: inline-block;
 					background-size: 100% auto;
 					background-position: left 0 bottom 16%;
-					padding: 0 0 2% 4%;
+					padding: 0 0 0 4%;
 					line-height: 1.4;
 					white-space: nowrap;
 				}
@@ -1372,7 +1372,7 @@ footer {
 			margin: 0 0 0 8%;
 		}
 		.c01 {
-			margin: 2% 0 0 14%;
+			margin: 1% 0 0 14%;
 			dd {
 				width: 16.75%;
 			}
@@ -1381,7 +1381,12 @@ footer {
 			}
 		}
 		.c02 {
-			margin: 3% 0 0 0;
+			margin: 3% 0 0 2%;
+			dt {
+				.line {
+					padding: 0 0 2% 2%;
+				}
+			}
 		}
 		.c03 {
 			margin: 3% 0 0 3%;
@@ -1986,7 +1991,7 @@ footer {
 					display: inline-block;
 					background-size: 100% auto;
 					background-position: left 0 bottom 16%;
-					padding: 0 0 2% 4%;
+					padding: 0 0 0 4%;
 				}
 			}
 		}
@@ -2016,7 +2021,7 @@ footer {
 
 
 		.c01 {
-			margin: 2% 0 0 10%;
+			margin: 1% 0 0 10%;
 			dd {
 				width: 16.75%;
 			}
@@ -2025,7 +2030,12 @@ footer {
 			}
 		}
 		.c02 {
-			margin: 3% 0 0 0;
+			margin: 3% 0 0 2%;
+			dt {
+				.line {
+					padding: 0 0 2% 2%;
+				}
+			}
 		}
 		.c03 {
 			margin: 3% 0 0 3%;
@@ -2057,7 +2067,7 @@ footer {
 		.ch_atp {
 			dd {
 				font-size: calc(43vw/12);
-				padding: 3.47% 0 3.462% 0.7%;
+				padding: 3.47% 0 3.462% 0.3%;
 				span {
 					text-indent: -0.2rem;
 				}
