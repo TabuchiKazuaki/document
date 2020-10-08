@@ -429,41 +429,21 @@ header {
 			}
 		}
 	}
-
-	.ch_week {
+	.ch_win {
 		dd {
-			position: relative;
-			background: #ff8c26;
-			padding: 22px 0 0 16px;
-			margin: -11px 0 0;
-			font-size: 30px;
-			font-family: "M PLUS Rounded 1c", sans-serif;
-			font-weight: 500;
-			letter-spacing: 1.1px;
-			line-height: 1.18;
-			border-radius: 50%;
-			text-align: center;
-			color: #fff;
-			width: 114px;
-			height: 114px;
-			box-sizing: border-box;
-			white-space: nowrap;
-			&:after{
-				content: "";
-				position: absolute;
-				width: 0;
-				height: 0;
-				right: 5px;
-				bottom: 3px;
-				border-style: solid;
-				border-color: transparent transparent transparent #ff8c26;
-				border-width: 10px 0 10px 15.32px;
-				transform: rotate(45deg);
-			}
+			font-size: 28px;
+			padding: 24px 0 0 13px;
 			span {
-				display: inline-block;
-				text-indent: -1.8rem;
-				transform: skewX(-8deg);
+				text-indent: -1.2rem;
+			}
+		}
+	}
+	.ch_atp {
+		dd {
+			font-size: 28px;
+			padding: 24px 0 0 8px;
+			span {
+				text-indent: -0.6rem;
 			}
 		}
 	}
@@ -1392,6 +1372,24 @@ footer {
 				}
 			}
 		}
+		.ch_win {
+			dd {
+				font-size: calc(42vw/12);
+				padding: 3.47% 0 3.47844% 1%;
+				span {
+					text-indent: -0.8rem;
+				}
+			}
+		}
+		.ch_atp {
+			dd {
+				font-size: calc(42vw/12);
+				padding: 3.47% 0 3.462% 1%;
+				span {
+					text-indent: -0.4rem;
+				}
+			}
+		}
 		.min {
 			margin: 0 0 0 8%;
 		}
@@ -2016,6 +2014,24 @@ footer {
 		}
 		.c04 {
 			margin: 3% 0 0 7%;
+		}
+		.ch_win {
+			dd {
+				font-size: calc(43vw/12);
+				padding: 3.47% 0 3.47844% 1%;
+				span {
+					text-indent: -0.5rem;
+				}
+			}
+		}
+		.ch_atp {
+			dd {
+				font-size: calc(43vw/12);
+				padding: 3.47% 0 3.462% 0.7%;
+				span {
+					text-indent: -0.2rem;
+				}
+			}
 		}
 		.min {
 			margin: 0 0 0 8%;
