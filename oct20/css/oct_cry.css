@@ -397,7 +397,7 @@ header .h_line .h_bh span {
   width: 114px;
 }
 .contents .chh01 dt {
-  padding: 42px 0 0;
+  padding: 32px 0 0;
   margin: 0 0 0 20px;
   font-size: 46px;
   font-family: "M PLUS Rounded 1c", sans-serif;
@@ -432,7 +432,7 @@ header .h_line .h_bh span {
   font-size: 30px;
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: 500;
-  letter-spacing: 1.1px;
+  letter-spacing: 0.5px;
   line-height: 1.18;
   border-radius: 50%;
   text-align: center;
@@ -458,7 +458,7 @@ header .h_line .h_bh span {
 }
 .contents .ch_week dd span {
   display: inline-block;
-  text-indent: -1.8rem;
+  text-indent: -0.7rem;
   -webkit-transform: skewX(-8deg);
           transform: skewX(-8deg);
 }
@@ -1492,7 +1492,7 @@ footer small {
     background-size: 100% 100%;
     border-radius: 50%;
     width: 3%;
-    height: 62%;
+    height: 73.4%;
   }
   .contents .date .rbagg {
     display: inline-block;
@@ -1972,6 +1972,41 @@ footer small {
     background-position: left 0 bottom 16%;
     padding: 0 0 2% 4%;
   }
+  .contents .ch_week dd {
+    padding: 2.8% 0 3.1% 1.45%;
+    margin: -3% 0 0;
+    font-size: calc(47vw/12);
+    letter-spacing: 0.2px;
+    line-height: 1.18;
+    border-radius: 50%;
+    width: 15.3%;
+    height: auto;
+  }
+  .contents .ch_week dd:after {
+    right: 0.5%;
+    bottom: 1.8%;
+    border-width: 6px 0 6px 11.32px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .contents .ch_week dd span {
+    display: inline-block;
+    text-indent: -1.1rem;
+    -webkit-transform: skewX(-6deg);
+            transform: skewX(-6deg);
+  }
+  .contents .c01 {
+    margin: 3% 0 0 1%;
+  }
+  .contents .c02 {
+    margin: 3% 0 0 0;
+  }
+  .contents .c03 {
+    margin: 3% 0 0 10.8%;
+  }
+  .contents .c04 {
+    margin: 3% 0 0 7%;
+  }
   .contents .min {
     margin: 0 0 0 8%;
   }
@@ -2029,7 +2064,7 @@ footer small {
     background-size: 100% 100%;
     border-radius: 50%;
     width: 3%;
-    height: 62%;
+    height: 73.4%;
   }
   .contents .date .rbagg {
     display: inline-block;

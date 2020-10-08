@@ -397,8 +397,8 @@ header .h_line .h_bh span {
   width: 114px;
 }
 .contents .chh01 dt {
-  padding: 42px 0 0;
-  margin: 0 0 0 20px;
+  padding: 32px 0 0;
+  margin: 0 0 0 10px;
   font-size: 46px;
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: 600;
@@ -412,24 +412,21 @@ header .h_line .h_bh span {
   padding: 0 0 3px 16px;
   line-height: 1.4;
 }
-.contents .min {
-  margin: 0 0 0 55px;
-}
 .contents .c01 {
   margin: 10px 0 0 59px;
 }
 .contents .c02 {
-  margin: 13px 0 0 28px;
+  margin: 13px 0 0 0;
 }
 .contents .c03 {
-  margin: 15px 0 0 68px;
+  margin: 15px 0 0 -8px;
 }
 .contents .c04 {
   margin: 15px 0 0 48px;
 }
 .contents .ch_week dd {
   position: relative;
-  background: #ff8c26;
+  background: #ff5eab;
   padding: 22px 0 0 16px;
   margin: -11px 0 0;
   font-size: 30px;
@@ -454,16 +451,33 @@ header .h_line .h_bh span {
   right: 5px;
   bottom: 3px;
   border-style: solid;
-  border-color: transparent transparent transparent #ff8c26;
+  border-color: transparent transparent transparent #ff5eab;
   border-width: 10px 0 10px 15.32px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 .contents .ch_week dd span {
   display: inline-block;
-  text-indent: -1.8rem;
+  text-indent: -1.5rem;
   -webkit-transform: skewX(-8deg);
           transform: skewX(-8deg);
+}
+.contents .ch_win dd {
+  font-size: 28px;
+  padding: 24px 0 0 13px;
+}
+.contents .ch_win dd span {
+  text-indent: -1.2rem;
+}
+.contents .ch_atp dd {
+  font-size: 28px;
+  padding: 24px 0 0 8px;
+}
+.contents .ch_atp dd span {
+  text-indent: -0.6rem;
+}
+.contents .min {
+  margin: 0 0 0 55px;
 }
 .contents .ma {
   margin: 0 auto !important;
@@ -1347,7 +1361,7 @@ footer small {
   }
   .contents .chh01 dt {
     padding: 6% 0 0;
-    margin: 0.1% 0 0 3%;
+    margin: 0.1% 0 0 1%;
     font-size: calc(72vw/12);
     letter-spacing: 0.8px;
     line-height: 1.4;
@@ -1359,18 +1373,6 @@ footer small {
     padding: 0 0 2% 4%;
     line-height: 1.4;
     white-space: nowrap;
-  }
-  .contents .c01 {
-    margin: 3% 0 0 1%;
-  }
-  .contents .c02 {
-    margin: 3% 0 0 0;
-  }
-  .contents .c03 {
-    margin: 3% 0 0 10.8%;
-  }
-  .contents .c04 {
-    margin: 3% 0 0 7%;
   }
   .contents .ch_week dd {
     padding: 2.8% 0 3.079% 2.45%;
@@ -1395,6 +1397,20 @@ footer small {
     -webkit-transform: skewX(-8deg);
             transform: skewX(-8deg);
   }
+  .contents .ch_win dd {
+    font-size: calc(42vw/12);
+    padding: 3.47% 0 3.47844% 1%;
+  }
+  .contents .ch_win dd span {
+    text-indent: -0.8rem;
+  }
+  .contents .ch_atp dd {
+    font-size: calc(42vw/12);
+    padding: 3.47% 0 3.462% 1%;
+  }
+  .contents .ch_atp dd span {
+    text-indent: -0.4rem;
+  }
   .contents .min {
     margin: 0 0 0 8%;
   }
@@ -1405,10 +1421,10 @@ footer small {
     margin: 3% 0 0 0;
   }
   .contents .c03 {
-    margin: 3% 0 0 10.8%;
+    margin: 3% 0 0 -0.2%;
   }
   .contents .c04 {
-    margin: 3% 0 0 7%;
+    margin: 3% 0 0 -1%;
   }
   .contents .ma {
     margin: 0 auto !important;
@@ -1484,7 +1500,7 @@ footer small {
     background-size: 100% 100%;
     border-radius: 50%;
     width: 3%;
-    height: 62%;
+    height: 73.4%;
   }
   .contents .date .rbagg {
     display: inline-block;
@@ -1954,7 +1970,7 @@ footer small {
   }
   .contents .chh01 dt {
     padding: 6% 0 0;
-    margin: 0.1% 0 0 3%;
+    margin: 0.1% 0 0 1%;
     font-size: calc(74vw/12);
     letter-spacing: 0.2px;
     line-height: 1.4;
@@ -1965,8 +1981,28 @@ footer small {
     background-position: left 0 bottom 16%;
     padding: 0 0 2% 4%;
   }
-  .contents .min {
-    margin: 0 0 0 8%;
+  .contents .ch_week dd {
+    padding: 2.8% 0 3.1% 1.45%;
+    margin: -3% 0 0;
+    font-size: calc(47vw/12);
+    letter-spacing: 0.2px;
+    line-height: 1.18;
+    border-radius: 50%;
+    width: 15.3%;
+    height: auto;
+  }
+  .contents .ch_week dd:after {
+    right: 0.5%;
+    bottom: 1.8%;
+    border-width: 6px 0 6px 11.32px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .contents .ch_week dd span {
+    display: inline-block;
+    text-indent: -1.1rem;
+    -webkit-transform: skewX(-6deg);
+            transform: skewX(-6deg);
   }
   .contents .c01 {
     margin: 2% 0 0 10%;
@@ -1975,10 +2011,24 @@ footer small {
     margin: 3% 0 0 0;
   }
   .contents .c03 {
-    margin: 3% 0 0 10.8%;
+    margin: 3% 0 0 -0.2%;
   }
   .contents .c04 {
-    margin: 3% 0 0 7%;
+    margin: 3% 0 0 -1%;
+  }
+  .contents .ch_win dd {
+    font-size: calc(43vw/12);
+    padding: 3.47% 0 3.47844% 1%;
+  }
+  .contents .ch_win dd span {
+    text-indent: -0.5rem;
+  }
+  .contents .ch_atp dd {
+    font-size: calc(43vw/12);
+    padding: 3.47% 0 3.462% 0.7%;
+  }
+  .contents .ch_atp dd span {
+    text-indent: -0.2rem;
   }
   .contents .chh02 {
     margin: 4.5% auto 0;
@@ -1995,6 +2045,9 @@ footer small {
     background-size: 100% auto;
     padding: 0 0 0 4%;
     white-space: nowrap;
+  }
+  .contents .min {
+    margin: 0 0 0 8%;
   }
   .contents .c_dl {
     margin: 5% 0 0;
@@ -2035,7 +2088,7 @@ footer small {
     background-size: 100% 100%;
     border-radius: 50%;
     width: 3%;
-    height: 62%;
+    height: 73.4%;
   }
   .contents .date .rbagg {
     display: inline-block;
