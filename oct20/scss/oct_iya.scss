@@ -383,7 +383,7 @@ header {
 		margin: 10px 0 0 59px;
 	}
 	.c02 {
-		margin: 13px 0 0 28px;
+		margin: 13px 0 0 -50px;
 	}
 	.c03 {
 		margin: 15px 0 0 68px;
@@ -395,7 +395,7 @@ header {
 	.ch_week {
 		dd {
 			position: relative;
-			background: #ff8c26;
+			background: #10d474;
 			padding: 22px 0 0 16px;
 			margin: -11px 0 0;
 			font-size: 30px;
@@ -418,7 +418,7 @@ header {
 				right: 5px;
 				bottom: 3px;
 				border-style: solid;
-				border-color: transparent transparent transparent #ff8c26;
+				border-color: transparent transparent transparent #10d474;
 				border-width: 10px 0 10px 15.32px;
 				transform: rotate(45deg);
 			}
@@ -426,6 +426,15 @@ header {
 				display: inline-block;
 				text-indent: -1.8rem;
 				transform: skewX(-8deg);
+			}
+		}
+	}
+	.ch_bot {
+		dd {
+			padding: 23px 0 0 6px;
+			font-size: 27px;
+			span {
+				text-indent: -0.8rem;
 			}
 		}
 	}
@@ -1323,8 +1332,8 @@ footer {
 				max-width: 114px;
 			}
 			dt {
-				padding: 6% 0 0;
-				margin: 0.1% 0 0 1%;
+				padding: 5% 0 0;
+				margin: 0.1% 0 0 2%;
 				font-size: calc(72vw/12);
 				letter-spacing: 0.8px;
 				.line {
@@ -1338,16 +1347,27 @@ footer {
 		}
 
 		.c01 {
-			margin: 3% 0 0 1%;
+			margin: 3% 0 0 3%;
 		}
 		.c02 {
 			margin: 3% 0 0 0;
+			dt {
+				.line {
+					padding: 0 0 2% 0;
+					margin: 0 0 0 -19%;
+				}
+			}
 		}
 		.c03 {
-			margin: 3% 0 0 10.8%;
+			margin: 3% 0 0 9.8%;
+			dt {
+				.line {
+					padding: 0 0 1% 6%;
+				}
+			}
 		}
 		.c04 {
-			margin: 3% 0 0 7%;
+			margin: 3% 0 0 -1%;
 		}
 		.ch_week {
 			dd {
@@ -1369,6 +1389,15 @@ footer {
 					display: inline-block;
 					text-indent: -1.9rem;
 					transform: skewX(-8deg);
+				}
+			}
+		}
+		.ch_bot {
+			dd {
+				padding: 2.8% 0 3.614% 0.45%;
+				font-size: calc(45vw/12);
+				span {
+					text-indent: -0.8rem;
 				}
 			}
 		}
@@ -1427,10 +1456,10 @@ footer {
 			padding: 0 0 0 8%;
 		}
 		.line_two {
-			padding: 0 0 0 8%;
+			padding: 0 0 0 5%;
 		}
 		.line_t_se {
-			padding: 0 0 0 8%;
+			padding: 0 0 0 5%;
 		}
 		.c_dl {
 			margin: 5% 0 0;
@@ -1968,8 +1997,8 @@ footer {
 				width: 15.3%;
 			}
 			dt {
-				padding: 6% 0 0;
-				margin: 0.1% 0 0 1%;
+				padding: 5% 0 0;
+				margin: 0.1% 0 0 2%;
 				font-size: calc(74vw/12);
 				letter-spacing: 0.2px;
 				.line {
@@ -2004,16 +2033,36 @@ footer {
 			}
 		}
 		.c01 {
-			margin: 3% 0 0 1%;
+			margin: 3% 0 0 3%;
 		}
 		.c02 {
 			margin: 3% 0 0 0;
+			dt {
+				.line {
+					padding: 0 0 2% 0;
+					margin: 0 0 0 -20%;
+				}
+			}
 		}
 		.c03 {
-			margin: 3% 0 0 10.8%;
+			margin: 3% 0 0 9.8%;
+			dt {
+				.line {
+					padding: 0 0 1% 6%;
+				}
+			}
 		}
 		.c04 {
-			margin: 3% 0 0 7%;
+			margin: 3% 0 0 -1%;
+		}
+		.ch_bot {
+			dd {
+				padding: 2.8% 0 3.614% 0.45%;
+				font-size: calc(46vw/12);
+				span {
+					text-indent: -0.8rem;
+				}
+			}
 		}
 		.ch_win {
 			dd {
