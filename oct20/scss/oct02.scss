@@ -439,10 +439,10 @@ header {
 	}
 
 	.c05 {
-		margin: 50px 0 0 -18px;
+		margin: 50px 0 0 -39px;
 		dt {
 			padding: 0;
-			margin: 0 0 0 20px;
+			margin: 0 0 0 10px;
 			font-size: 43px;
 		}
 	}
@@ -1494,7 +1494,16 @@ footer {
 			margin: 3% 0 0 10.8%;
 		}
 		.c04 {
-			margin: 3% 0 0 7%;
+			margin: 3% 0 0 2%;
+		}
+		.c05 {
+			margin: 5% 0 0 -2%;
+			dt {
+				padding: 0;
+				margin: 0;
+				font-size: calc(69vw/12);
+				white-space: nowrap;
+			}
 		}
 		.ch_week {
 			dd {
@@ -2159,15 +2168,12 @@ footer {
 			margin: 3% 0 0 10.8%;
 		}
 		.c04 {
-			margin: 3% 0 0 7%;
+			margin: 3% 0 0 2%;
 		}
-		.min {
-			margin: 0 0 0 8%;
-		}
-		.wmin {
-			margin: 0 0 0 8%;
-			dd {
-				margin: 0;
+		.c05 {
+			margin: 5% 0 0 -2%;
+			dt {
+				font-size: calc(70vw/12);
 			}
 		}
 

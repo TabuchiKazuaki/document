@@ -468,11 +468,11 @@ header .h_line .h_bh span {
   margin: 15px 0 0 48px;
 }
 .contents .c05 {
-  margin: 50px 0 0 -18px;
+  margin: 50px 0 0 -39px;
 }
 .contents .c05 dt {
   padding: 0;
-  margin: 0 0 0 20px;
+  margin: 0 0 0 10px;
   font-size: 43px;
 }
 .contents .min {
@@ -1541,7 +1541,16 @@ footer small {
     margin: 3% 0 0 10.8%;
   }
   .contents .c04 {
-    margin: 3% 0 0 7%;
+    margin: 3% 0 0 2%;
+  }
+  .contents .c05 {
+    margin: 5% 0 0 -2%;
+  }
+  .contents .c05 dt {
+    padding: 0;
+    margin: 0;
+    font-size: calc(69vw/12);
+    white-space: nowrap;
   }
   .contents .ch_week dd {
     padding: 2.8% 0 3.079% 2.45%;
@@ -2178,16 +2187,13 @@ footer small {
     margin: 3% 0 0 10.8%;
   }
   .contents .c04 {
-    margin: 3% 0 0 7%;
+    margin: 3% 0 0 2%;
   }
-  .contents .min {
-    margin: 0 0 0 8%;
+  .contents .c05 {
+    margin: 5% 0 0 -2%;
   }
-  .contents .wmin {
-    margin: 0 0 0 8%;
-  }
-  .contents .wmin dd {
-    margin: 0;
+  .contents .c05 dt {
+    font-size: calc(70vw/12);
   }
   .contents .chh02 {
     margin: 4.5% auto 0;
