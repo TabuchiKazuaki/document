@@ -83,17 +83,17 @@ img  { width: 100%; height: auto;}
 		display: block;
 		background: none;
 		padding: 26px 0;
-		border: 4px solid #77cde3;
-		border-radius: 6px;
+		border: 4px solid #f377b0;
+		border-radius: 30px;
 		text-align: center;
 		font-size: 32px;
 		font-weight: bold;
 		letter-spacing: 1.5px;
-		color: #77cde3;
+		color: #f377b0;
 		&:hover {
 			opacity: 1;
-			background: #77cde3;
-			color: #000;
+			background: #f377b0;
+			color: #fff;
 		}
 	}
 }
@@ -311,7 +311,7 @@ header {
 			position: absolute;
 			top: 7px;
 			left: 0;
-			background: #fffefe;
+			background: #000;
 			width: 22px;
 			height: 22px;
 			border-radius: 50%;
@@ -349,7 +349,7 @@ header {
 		font-size: 31px;
 		font-weight: bold;
 		letter-spacing: 1.3px;
-		color: #fff;
+		color: #000;
 	}
 }
 
@@ -426,12 +426,11 @@ aside {
 }
 
 footer {
-	background: #000;
+	background: #efefef;
 	.wrap {
 		max-width: 680px;
 		margin: 0 auto;
-		padding: 60px 0 120px;
-		border-top: 2px solid #404040;
+		padding: 40px 0 60px;
 	}
 	.copy {
 		margin: 0 0 32px;
@@ -599,10 +598,16 @@ footer {
 	.pre_btn {
 		a {
 			padding: 3.7% 0;
-			border-radius: 5px;
-			border: 3px solid #77cde3;
+			border: 3px solid #f377b0;
+			border-radius: 50px;
 			font-size: calc(50vw/12);
 			letter-spacing: 1.1px;
+
+			&:hover {
+				opacity: 0.8;
+				background: none;
+				color: #f377b0;
+			}
 		}
 	}
 
@@ -737,6 +742,14 @@ footer {
 				height: 36.368%;
 			}
 		}
+		.c_sin {
+			&:before {
+				top: 20%;
+				left: 0;
+				width: 3.406%;
+				height: 66.77%;
+			}
+		}
 
 		.c_list {
 			overflow: hidden;
@@ -817,11 +830,10 @@ footer {
 	}
 
 	footer {
-		padding: 4% 0 3%;
+		padding: 0;
 		.wrap {
-			padding: 4% 0 5%;
+			padding: 3% 0 5%;
 			margin: 0 5%;
-			border-top: 1px solid #404040;
 		}
 		.copy {
 			margin: 0 0 6%;
@@ -939,8 +951,7 @@ footer {
 	.pre_btn {
 		a {
 			padding: 3.7% 0;
-			border-radius: 4px;
-			border: 2px solid #77cde3;
+			border: 2px solid #f377b0;
 			font-size: calc(52vw/12);
 			letter-spacing: -0.3px;
 		}
@@ -1067,6 +1078,14 @@ footer {
 
 			}
 		}
+		.c_sin {
+			&:before {
+				top: 20%;
+				left: 0;
+				width: 3.406%;
+				height: 66.77%;
+			}
+		}
 
 		.c_list {
 			overflow: hidden;
@@ -1147,11 +1166,9 @@ footer {
 	}
 
 	footer {
-		padding: 4% 0 3%;
 		.wrap {
-			padding: 4% 0 5%;
+			padding: 3% 0 6%;
 			margin: 0 5%;
-			border-top: 1px solid #404040;
 		}
 		.copy {
 			margin: 0 0 6%;
