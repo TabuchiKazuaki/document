@@ -8,7 +8,7 @@ body {
   line-height: 1;
   min-width: 320px;
   font-family: "Noto Sans JP", sans-serif !important;
-  color: #fff;
+  color: #000;
   margin: 0 auto;
   background: none;
 }
@@ -107,17 +107,17 @@ img {
   display: block;
   background: none;
   padding: 26px 0;
-  border: 4px solid #ddaa00;
+  border: 4px solid #77cde3;
   border-radius: 6px;
   text-align: center;
   font-size: 32px;
   font-weight: bold;
   letter-spacing: 1.5px;
-  color: #ddaa00;
+  color: #77cde3;
 }
 .pre_btn a:hover {
   opacity: 1;
-  background: #ddaa00;
+  background: #77cde3;
   color: #000;
 }
 
@@ -187,14 +187,14 @@ img {
 }
 
 .cl {
-  color: #ddaa00;
+  color: #77cde3;
 }
 
 .c_h {
   padding: 0 0 0 18px;
   font-size: 32px;
   font-weight: bold;
-  border-left: 11px solid #ddaa00;
+  border-left: 11px solid #77cde3;
   line-height: 1.3;
   letter-spacing: 1.2px;
   text-align: left;
@@ -208,10 +208,10 @@ header {
   padding: 0;
 }
 header .wrap {
-  background: #000;
+  background: #fff;
 }
 header .h_l {
-  background: #000;
+  background: #fff;
   padding: 12px 0 13px 22px;
 }
 header .h_l span {
@@ -231,31 +231,34 @@ header .h_i {
   line-height: 0;
 }
 header .h_line {
-  background: #212121;
-  padding: 38px 0 45px;
+  background: #efefef;
+  padding: 46px 0 43px;
   text-align: center;
 }
 header .h_line .h_hi {
   display: inline-block;
-  background: #ddaa00;
-  padding: 7px 30px 12px;
+  background: #f377b0;
+  padding: 10px 27px 10px;
   border-radius: 30px;
-  font-size: 29px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 700;
   font-weight: bold;
+  font-size: 29px;
   letter-spacing: 1.3px;
   white-space: nowrap;
-  color: #000;
+  color: #fff;
 }
 header .h_line .h_t {
-  margin: 34px 0 0;
+  margin: 27px 0 0;
   line-height: 1.6;
   font-size: 23px;
+  font-weight: bold;
   letter-spacing: 1.2px;
+  color: #000;
 }
 
 .contents {
-  background: #000;
-  color: #fff;
+  background: #fff;
 }
 .contents .wrap {
   max-width: 680px;
@@ -293,11 +296,13 @@ header .h_line .h_t {
 .contents .c_item .c_dl dt {
   width: 41%;
   margin: 0 0 0 4%;
+}
+.contents .c_item .c_dl dt .cdl_t {
   font-size: 24px;
   font-weight: bold;
   line-height: 1.6;
   letter-spacing: 1.3px;
-  color: #fff;
+  color: #000;
 }
 .contents .c_item .c_dl .bagg {
   display: inline-block;
@@ -306,12 +311,15 @@ header .h_line .h_t {
   margin: 0 0 12px;
   border-radius: 4px;
   line-height: 1;
+  font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, Meiryo, sans-serif !important;
+  font-weight: bold;
+  font-size: 22px;
   color: #fff;
 }
 .contents .c_item .c_dl .rank {
   font-size: 30px;
   letter-spacing: 1.2px;
-  color: #ddaa00;
+  color: #77cde3;
 }
 .contents .c_title {
   position: relative;
@@ -320,14 +328,14 @@ header .h_line .h_t {
   font-size: 24px;
   line-height: 1.3;
   letter-spacing: 1.5px;
-  color: #fffefe;
+  color: #000;
 }
 .contents .c_title:before {
   content: '';
   position: absolute;
   top: 6px;
   left: 0;
-  background: #fffefe;
+  background: #000;
   width: 22px;
   height: 22px;
   border-radius: 50%;
@@ -416,7 +424,7 @@ aside .f_d dd .f_item li {
   font-size: 20px;
 }
 aside .f_d dd a {
-  color: #ddaa00;
+  color: #77cde3;
   text-decoration: underline;
 }
 aside .f_d dd a:hover {
@@ -623,7 +631,7 @@ footer small {
   .pre_btn a {
     padding: 3.7% 0;
     border-radius: 5px;
-    border: 3px solid #ddaa00;
+    border: 3px solid #77cde3;
     font-size: calc(50vw/12);
     letter-spacing: 1.1px;
   }
@@ -632,7 +640,7 @@ footer small {
     padding: 0 0 0 3%;
     font-size: calc(51vw/12);
     letter-spacing: 0.8px;
-    border-left: 8px solid #ddaa00;
+    border-left: 8px solid #77cde3;
     line-height: 1.3;
   }
 
@@ -719,6 +727,7 @@ footer small {
     display: inline-block;
     padding: 0.8% 3.5% 1.5%;
     margin: 0 0 4%;
+    font-size: calc(35vw/12);
     border-radius: 3px;
   }
   .contents .c_item .c_dl .rank {
@@ -732,12 +741,10 @@ footer small {
     letter-spacing: 0.8px;
   }
   .contents .c_title:before {
-    content: '';
-    position: absolute;
-    top: 5%;
+    top: 18%;
     left: 0;
-    width: 3.2%;
-    height: 92.368%;
+    width: 3.3%;
+    height: 73.368%;
   }
   .contents .c_pt {
     padding: 0 0 0 4.2%;
@@ -949,7 +956,7 @@ footer small {
   .pre_btn a {
     padding: 3.7% 0;
     border-radius: 4px;
-    border: 2px solid #ddaa00;
+    border: 2px solid #77cde3;
     font-size: calc(52vw/12);
     letter-spacing: -0.3px;
   }
@@ -958,7 +965,7 @@ footer small {
     padding: 0 0 0 3%;
     font-size: calc(54vw/12);
     letter-spacing: -0.3px;
-    border-left: 5.5px solid #ddaa00;
+    border-left: 5.5px solid #77cde3;
     line-height: 1.3;
   }
 
@@ -1037,6 +1044,7 @@ footer small {
     display: inline-block;
     padding: 0.8% 3.5% 1.5%;
     margin: 0 0 4%;
+    font-size: calc(36vw/12);
     border-radius: 2.5px;
   }
   .contents .c_item .c_dl .rank {
