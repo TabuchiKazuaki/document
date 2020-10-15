@@ -322,6 +322,12 @@ header .h_line .h_t {
   letter-spacing: 1.2px;
   color: #77cde3;
 }
+.contents .c_item .c_text {
+  margin: 20px 0 0;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #000;
+}
 .contents .c_title {
   position: relative;
   padding: 0 0 0 28px;
@@ -745,6 +751,11 @@ footer small {
     font-size: calc(47vw/12);
     letter-spacing: 0.8px;
   }
+  .contents .c_item .c_text {
+    margin: 3% 0 0;
+    font-size: calc(41vw/12);
+    line-height: 1.4;
+  }
   .contents .c_title {
     padding: 0 0 0 4.2%;
     margin: 4.5% 0 0 5%;
@@ -1067,6 +1078,11 @@ footer small {
   .contents .c_item .c_dl .rank {
     font-size: calc(49vw/12);
     letter-spacing: -0.5px;
+  }
+  .contents .c_item .c_text {
+    margin: 3% 0 0;
+    font-size: calc(43vw/12);
+    line-height: 1.4;
   }
   .contents .c_title {
     padding: 0 0 0 4.2%;
