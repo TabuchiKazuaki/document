@@ -326,6 +326,7 @@ header .h_line .h_t {
   padding: 0 0 0 28px;
   margin: 23px 0 0 32px;
   font-size: 24px;
+  font-weight: bold;
   line-height: 1.3;
   letter-spacing: 1.5px;
   color: #000;
@@ -719,6 +720,12 @@ footer small {
   .contents .c_item .c_dl dt {
     width: 41%;
     margin: 0 0 0 4%;
+  }
+  .contents .c_item .c_dl dt {
+    width: 41%;
+    margin: 0 0 0 4%;
+  }
+  .contents .c_item .c_dl dt .cdl_t {
     font-size: calc(37vw/12);
     letter-spacing: 0.8px;
     line-height: 1.6;
@@ -1036,6 +1043,8 @@ footer small {
   .contents .c_item .c_dl dt {
     width: 41%;
     margin: 0 0 0 4%;
+  }
+  .contents .c_item .c_dl dt .cdl_t {
     font-size: calc(39vw/12);
     letter-spacing: -0.3px;
     line-height: 1.6;
