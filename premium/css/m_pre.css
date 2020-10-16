@@ -456,6 +456,11 @@ header .header_wrap .h_time {
   letter-spacing: 1.3px;
   color: #ddaa00;
 }
+.contents .c_btn a:hover {
+  opacity: 1;
+  background: #ddaa00;
+  color: #000;
+}
 .contents .c_more {
   margin: 30px 0 0;
   text-align: right;
@@ -756,6 +761,11 @@ footer small {
     border-radius: 5px;
     font-size: calc(46vw/12);
     letter-spacing: 1.3px;
+  }
+  .contents .c_btn a:hover {
+    opacity: 0.8;
+    background: none;
+    color: #ddaa00;
   }
   .contents .c_more {
     margin: 2% 0 0;

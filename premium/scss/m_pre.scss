@@ -442,6 +442,12 @@ header {
 			font-weight: bold;
 			letter-spacing: 1.3px;
 			color: #ddaa00;
+
+			&:hover {
+				opacity: 1;
+				background: #ddaa00;
+				color: #000;
+			}
 		}
 	}
 	.c_more {
@@ -751,6 +757,12 @@ footer {
 				border-radius: 5px;
 				font-size: calc(46vw/12);
 				letter-spacing: 1.3px;
+
+				&:hover {
+					opacity: 0.8;
+					background: none;
+					color: #ddaa00;
+				}
 			}
 		}
 		.c_more {
