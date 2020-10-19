@@ -97,6 +97,18 @@ img  { width: 100%; height: auto;}
 		}
 	}
 }
+.pre_no {
+	display: block;
+	background: none;
+	padding: 22px 0;
+	border: 4px solid #666;
+	border-radius: 8px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	color: #666;
+}
 .bn {
 	border: none !important;
 }
@@ -620,6 +632,13 @@ footer {
 			}
 		}
 	}
+	.pre_no {
+		padding: 3.2% 0;
+		border: 3px solid #666;
+		border-radius: 7px;
+		font-size: calc(50vw/12);
+		letter-spacing: 1.1px;
+	}
 
 	.c_h {
 		padding: 0 0 0 3.5%;
@@ -974,6 +993,14 @@ footer {
 			font-size: calc(52vw/12);
 			letter-spacing: -0.3px;
 		}
+	}
+
+	.pre_no {
+		padding: 3.2% 0;
+		border: 2px solid #666;
+		border-radius: 6px;
+		font-size: calc(50vw/12);
+		letter-spacing: 0.6px;
 	}
 
 	.c_h {
