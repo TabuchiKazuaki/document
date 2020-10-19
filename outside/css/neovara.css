@@ -103,12 +103,30 @@ img {
   height: 33px;
 }
 
-.pre_btn a {
+.pre_btn_ls a {
   display: block;
   background: none;
   padding: 26px 0;
   border: 4px solid #f377b0;
   border-radius: 50px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #f377b0;
+}
+.pre_btn_ls a:hover {
+  opacity: 1;
+  background: #f377b0;
+  color: #fff;
+}
+
+.pre_btn a {
+  display: block;
+  background: none;
+  padding: 26px 0;
+  border: 4px solid #f377b0;
+  border-radius: 8px;
   text-align: center;
   font-size: 32px;
   font-weight: bold;
@@ -126,7 +144,7 @@ img {
   background: none;
   padding: 22px 0;
   border: 4px solid #999;
-  border-radius: 50px;
+  border-radius: 8px;
   text-align: center;
   font-size: 32px;
   font-weight: bold;
@@ -650,10 +668,23 @@ footer small {
     margin: 5% auto 0;
   }
 
-  .pre_btn a {
+  .pre_btn_ls a {
     padding: 3.7% 0;
     border: 3px solid #f377b0;
     border-radius: 50px;
+    font-size: calc(50vw/12);
+    letter-spacing: 1.1px;
+  }
+  .pre_btn_ls a:hover {
+    opacity: 0.8;
+    background: none;
+    color: #f377b0;
+  }
+
+  .pre_btn a {
+    padding: 3.7% 0;
+    border: 3px solid #f377b0;
+    border-radius: 6px;
     font-size: calc(50vw/12);
     letter-spacing: 1.1px;
   }
@@ -666,7 +697,7 @@ footer small {
   .pre_no {
     padding: 3.2% 0;
     border: 3px solid #999;
-    border-radius: 50px;
+    border-radius: 6px;
     font-size: calc(50vw/12);
     letter-spacing: 1.1px;
   }
@@ -1007,9 +1038,17 @@ footer small {
     margin: 0 auto;
   }
 
+  .pre_btn_ls a {
+    padding: 3.7% 0;
+    border: 2px solid #f377b0;
+    font-size: calc(52vw/12);
+    letter-spacing: -0.3px;
+  }
+
   .pre_btn a {
     padding: 3.7% 0;
     border: 2px solid #f377b0;
+    border-radius: 5px;
     font-size: calc(52vw/12);
     letter-spacing: -0.3px;
   }
@@ -1017,6 +1056,7 @@ footer small {
   .pre_no {
     padding: 3.2% 0;
     border: 2px solid #999;
+    border-radius: 5px;
     font-size: calc(50vw/12);
     letter-spacing: 0.6px;
   }
