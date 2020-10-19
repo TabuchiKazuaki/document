@@ -183,6 +183,7 @@ header .header_wrap .h_time {
   font-weight: bold;
   text-align: center;
   letter-spacing: 1.4px;
+  white-space: nowrap;
 }
 .information .date span {
   font-size: 35px;
@@ -886,7 +887,7 @@ footer small {
   }
   .information .date {
     font-size: calc(44vw/12);
-    letter-spacing: 1.4px;
+    letter-spacing: 0.8px;
   }
   .information .date span {
     font-size: calc(48vw/12);
@@ -1381,7 +1382,7 @@ footer small {
   }
   .information .date {
     font-size: calc(45vw/12);
-    letter-spacing: 1;
+    letter-spacing: 0.4px;
     white-space: nowrap;
   }
   .information .date span {
