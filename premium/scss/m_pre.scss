@@ -387,14 +387,13 @@ header {
 		}
 	}
 	.c_present {
-		overflow: hidden;
+		display: flex;
+		align-items: center;
 		dd {
-			float: left;
 			width: 52%;
 			line-height: 0;
 		}
 		dt {
-			float: left;
 			width: 44%;
 			padding: 0 0 0 3%;
 			.pop {
