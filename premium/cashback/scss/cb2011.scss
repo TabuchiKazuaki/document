@@ -43,6 +43,10 @@ img  { width: 100%; height: auto;}
 	font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif !important;
 }
 
+.fr {
+	font-family: 'M PLUS 1p', sans-serif!important;
+}
+
 .pc {
 	display: block;
 }
@@ -167,8 +171,13 @@ img  { width: 100%; height: auto;}
 		font-size: 25px;
 		line-height: 1.8;
 		letter-spacing: 1.3px;
-		color: #fff;
+		color: #000;
 	}
+}
+
+.wrap {
+	max-width: 715px;
+	margin: 0 auto;
 }
 
 header {
@@ -201,7 +210,7 @@ header {
 
 .time {
 	background: #000;
-	padding: 60px 0 0;
+	padding: 60px 65px;
 	text-align: center;
 	.wrap {
 		max-width: 680px;
@@ -297,26 +306,13 @@ header {
 			font-size: 17px;
 		}
 	}
-}
-
-
-.contents {
-	background: #000;
-	.wrap {
-		max-width: 680px;
-		margin: 0 auto;
-	}
-	.ewrap {
-		max-width: 680px;
-		margin: 0 auto;
-	}
 	.c_hh {
 		padding: 60px 0 0;
 		font-size: 46px;
 		font-weight: bold;
 		letter-spacing: 3px;
 		text-align: center;
-		line-height: 1.75;
+		line-height: 1.5;
 
 		.sec {
 			position: relative;
@@ -348,17 +344,22 @@ header {
 		.chbb {
 			display: inline-block;
 			border-bottom: 5px solid #ddaa00;
-			line-height: 1.1;
+			line-height: 1.2;
+		}
+
+
+		.ss {
+			font-size: 32px;
 		}
 	}
 	.c_box {
-		background: #202121;
-		padding: 61px 0 56px;
-		margin: 40px auto 0;
+		background: #1a1a1a;
+		padding: 51px 18px 56px;
+		margin: 67px auto 0;
 		border-radius: 8px;
 		max-width: 768px;
 		.cb_text{
-			margin: 69px 0 0;
+			margin: 51px 0 0;
 			text-align: center;
 			font-size: 17px;
 			line-height: 1.4;
@@ -418,12 +419,12 @@ header {
 		}
 
 		.c_it {
-			margin: 25px 0 0;
+			margin: 0;
 			text-align: center;
 			font-size: 27px;
 			line-height: 1.3;
 			letter-spacing: 1.4px;
-			font-weight: normal;
+			font-weight: bold;
 			.clr {
 				color: #ddaa00;
 			}
@@ -433,8 +434,9 @@ header {
 		}
 
 		.pic {
-			margin: 55px auto 0;
+			margin: 68px auto 0;
 			max-width: 644px;
+			line-height: 0;
 		}
 		.copy_c {
 			max-width: 644px;
@@ -481,6 +483,153 @@ header {
 			}
 		}
 	}
+}
+
+.whats {
+	background: #fff;
+	padding: 62px 0 0;
+	text-align: center;
+	color: #000;
+	.w_h {
+		max-width: 541px;
+		margin: 0 0 0 126px;
+		line-height: 0;
+	}
+	.w_t {
+		margin: 49px 0 0;
+		font-size: 26px;
+		font-weight: bold;
+		line-height: 1.4;
+	}
+	.w_tse {
+		margin: 30px 0 0;
+		font-size: 26px;
+		font-weight: bold;
+		line-height: 1.4;
+	}
+	.w_head {
+		position: relative;
+		display: inline-block;
+		padding: 0 72px;
+		margin: 45px 0 0;
+		font-size: 48px;
+		font-weight: bold;
+		text-shadow: 0.3px 0.3px 0 #000;
+		line-height: 1.3;
+		.cl {
+			display: inline-block;
+			margin: 0 5px;
+			text-shadow: 0.3px 0.3px 0 #ddaa00;
+		}
+		.ss {
+			font-size: 35px;
+		}
+
+		&:before {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/fdd7ca9bf22e7134c61f8792db40ac8c_3cde0b9a8122a779bab8874c28599a0c.png) 0 0 no-repeat;
+			background-size: 82px 82px;
+			width: 82px;
+			height: 82px;
+		}
+		&:after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/95362beedfebe5b4193ecc259335b7fc_0e9394640980f1c5c46d05791db254eb.png) 0 0 no-repeat;
+			background-size: 82px 82px;
+			width: 82px;
+			height: 82px;
+		}
+	}
+	.w_fig {
+		display: block;
+		max-width: 680px;
+		margin: 40px auto 0;
+		line-height: 0;
+	}
+	.w_mt {
+		margin: 50px 0 0;
+		font-size: 34px;
+		font-weight: bold;
+		letter-spacing: 1.3px;
+	}
+	.w_img {
+		max-width: 497px;
+		margin: 66px auto 0;
+		line-height: 0;
+	}
+
+	.m_box {
+		overflow: hidden;
+		padding: 0 0;
+		margin: 40px 0 0 0;
+		border-radius: 8px;
+		li {
+			background: #1a1a1a;
+			float: left;
+			width: 47.5%;
+			max-width: 321px;
+			padding: 0 0 35px;
+			margin: 5% 0 0 5.55%;
+			border-radius: 9px;
+			box-sizing: border-box;
+			&:first-child {
+				margin: 0;
+			}
+			&:nth-child(2) {
+				margin: 0 0 0 5.55%;
+			}
+			&:nth-child(3) {
+				margin: 5% 0 0 0;
+			}
+			.icon {
+				margin: 0 auto;
+				line-height: 0;
+				img {
+					border-radius: 9px 9px 0 0;
+				}
+			}
+
+			.c_it {
+				margin: 25px 0 0;
+				text-align: center;
+				font-size: 27px;
+				font-weight: normal;
+				line-height: 1.5;
+				letter-spacing: 1.4px;
+				color: #ababab;
+				.h_ss {
+					display: block;
+					font-size: 27px;
+					font-weight: bold;
+					color: #fff;
+				}
+				.clr {
+					color: #e6c300;
+				}
+				.num {
+					font-size: 29px;
+				}
+			}
+		}
+	}
+}
+
+
+.contents {
+	background: #fff;
+	color: #000;
+
+	.ewrap {
+		max-width: 680px;
+		margin: 0 auto;
+	}
+
 
 	.c_tri {
 		padding: 60px 0 60px;
@@ -592,7 +741,7 @@ header {
 				line-height: 1.75;
 				font-weight: bold;
 				text-align: left;
-				color: #fff;
+				color: #000;
 				.bagg {
 					display: inline-block;
 					background: #f0163a;
@@ -602,7 +751,7 @@ header {
 					font-size: 22px;
 					letter-spacing: 2px;
 					border-radius: 4px;
-					color: #fff;
+					color: #000;
 					line-height: 1;
 				}
 			}
@@ -741,60 +890,6 @@ header {
 
 		}
 	}
-	.m_box {
-		overflow: hidden;
-		padding: 0 0;
-		margin: 40px 0 0 0;
-		border-radius: 8px;
-		li {
-			background: #1a1a1a;
-			float: left;
-			width: 47.5%;
-			max-width: 321px;
-			padding: 0 0 35px;
-			margin: 5% 0 0 5.55%;
-			border-radius: 9px;
-			box-sizing: border-box;
-			&:first-child {
-				margin: 0;
-			}
-			&:nth-child(2) {
-				margin: 0 0 0 5.55%;
-			}
-			&:nth-child(3) {
-				margin: 5% 0 0 0;
-			}
-			.icon {
-				margin: 0 auto;
-				line-height: 0;
-				img {
-					border-radius: 9px 9px 0 0;
-				}
-			}
-
-			.c_it {
-				margin: 25px 0 0;
-				text-align: center;
-				font-size: 27px;
-				font-weight: normal;
-				line-height: 1.5;
-				letter-spacing: 1.4px;
-				color: #ababab;
-				.h_ss {
-					display: block;
-					font-size: 27px;
-					font-weight: bold;
-					color: #fff;
-				}
-				.clr {
-					color: #e6c300;
-				}
-				.num {
-					font-size: 29px;
-				}
-			}
-		}
-	}
 }
 
 .p_h {
@@ -805,7 +900,7 @@ header {
 	letter-spacing: 1.2px;
 	line-height: 1.3;
 	text-align: left;
-	color: #fff;
+	color: #000;
 }
 
 .p_sin {
@@ -1412,7 +1507,7 @@ footer {
 			padding: 8.2% 0 0;
 			font-size: calc(71vw/12);
 			letter-spacing: 3px;
-			line-height: 1.65;
+			line-height: 1.5;
 
 			.sec {
 				position: relative;
@@ -1509,7 +1604,7 @@ footer {
 				}
 
 				.c_it {
-					margin: 5.5% 0 0;
+					margin: 0 0 0;
 					font-size: calc(42vw/12);
 					line-height: 1.35;
 					letter-spacing: 1.4px;
@@ -1748,44 +1843,6 @@ footer {
 		}
 		.m_list {
 			margin: 5.5% auto 0;
-		}
-		.m_box {
-			padding: 0 0;
-			margin: 6% 0 0 0;
-			border-radius: 3px;
-			li {
-				width: 47.5%;
-				padding: 0 0 4.8%;
-				margin: 5% 0 0 5%;
-				border-radius: 7px;
-				box-sizing: border-box;
-				&:first-child {
-					margin: 0;
-				}
-				&:nth-child(2) {
-					margin: 0 0 0 5%;
-				}
-				&:nth-child(3) {
-					margin: 5% 0 0 0;
-				}
-				.icon {
-					margin: 0 auto;
-					line-height: 0;
-					img {
-						border-radius: 7px 7px 0 0;
-					}
-				}
-
-				.c_it {
-					margin: 8% 0 0;
-					font-size: calc(43vw/12);
-					line-height: 1.5;
-					letter-spacing: 1.2px;
-					.h_ss {
-						font-size: calc(49vw/12);
-					}
-				}
-			}
 		}
 	}
 
@@ -2235,7 +2292,7 @@ footer {
 			padding: 8.2% 0 0;
 			font-size: calc(73vw/12);
 			letter-spacing: 0.6px;
-			line-height: 1.8;
+			line-height: 1.4;
 
 			.sec {
 				position: relative;
@@ -2334,7 +2391,7 @@ footer {
 				}
 
 				.c_it {
-					margin: 5.2% 0 0;
+					margin: 0;
 					font-size: calc(41vw/12);
 					line-height: 1.35;
 					letter-spacing: 1.4px;
@@ -2558,44 +2615,6 @@ footer {
 		}
 		.m_list {
 			margin: 5.5% auto 0;
-		}
-		.m_box {
-			padding: 0 0;
-			margin: 6% 0 0 0;
-			border-radius: 3px;
-			li {
-				width: 47.5%;
-				padding: 0 0 4.8%;
-				margin: 5% 0 0 5%;
-				border-radius: 5px;
-				box-sizing: border-box;
-				&:first-child {
-					margin: 0;
-				}
-				&:nth-child(2) {
-					margin: 0 0 0 5%;
-				}
-				&:nth-child(3) {
-					margin: 5% 0 0 0;
-				}
-				.icon {
-					margin: 0 auto;
-					line-height: 0;
-					img {
-						border-radius: 5px 5px 0 0;
-					}
-				}
-
-				.c_it {
-					margin: 8% 0 0;
-					font-size: calc(45vw/12);
-					line-height: 1.5;
-					letter-spacing: 0.5px;
-					.h_ss {
-						font-size: calc(51vw/12);
-					}
-				}
-			}
 		}
 	}
 
