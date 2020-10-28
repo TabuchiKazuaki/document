@@ -444,6 +444,13 @@ header {
 	.c05 {
 		margin: 50px 0 0 -28px;
 	}
+	.c13 {
+		margin: 20px 0 0 -34px;
+		dt {
+			margin: 0;
+			font-size: 39px;
+		}
+	}
 
 	.min {
 		margin: 0 0 0 55px;
@@ -1478,7 +1485,7 @@ footer {
 					display: inline-block;
 					background-size: 100% auto;
 					background-position: left 0 bottom 16%;
-					padding: 0 0 2% 4%;
+					padding: 0 0 0 4%;
 					line-height: 1.4;
 					white-space: nowrap;
 				}
@@ -1500,6 +1507,16 @@ footer {
 			margin: 5% 0 0 -2%;
 			dt {
 				margin: 0 0 0 0.5%;
+			}
+		}
+		.c13 {
+			margin: 4% 0 0 -2% !important;
+			dt {
+				margin: 0;
+				font-size: calc(62vw/12) !important;
+			}
+			.line  {
+				padding: 0 0 0 1% !important;
 			}
 		}
 		.ch_week {
@@ -2128,7 +2145,7 @@ footer {
 					display: inline-block;
 					background-size: 100% auto;
 					background-position: left 0 bottom 16%;
-					padding: 0 0 2% 4%;
+					padding: 0 0 0 4%;
 				}
 			}
 		}
@@ -2171,6 +2188,17 @@ footer {
 			margin: 5% 0 0 -2%;
 			dt {
 				margin: 0 0 0 0.5%;
+			}
+		}
+
+		.c13 {
+			margin: 4% 0 0 -2% !important;
+			dt {
+				margin: 0;
+				font-size: calc(63vw/12) !important;
+			}
+			.line  {
+				padding: 0 0 0 1% !important;
 			}
 		}
 

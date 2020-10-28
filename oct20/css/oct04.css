@@ -472,6 +472,13 @@ header .h_line .h_bh span {
 .contents .c05 {
   margin: 50px 0 0 -28px;
 }
+.contents .c13 {
+  margin: 20px 0 0 -34px;
+}
+.contents .c13 dt {
+  margin: 0;
+  font-size: 39px;
+}
 .contents .min {
   margin: 0 0 0 55px;
 }
@@ -1526,7 +1533,7 @@ footer small {
     display: inline-block;
     background-size: 100% auto;
     background-position: left 0 bottom 16%;
-    padding: 0 0 2% 4%;
+    padding: 0 0 0 4%;
     line-height: 1.4;
     white-space: nowrap;
   }
@@ -1547,6 +1554,16 @@ footer small {
   }
   .contents .c05 dt {
     margin: 0 0 0 0.5%;
+  }
+  .contents .c13 {
+    margin: 4% 0 0 -2% !important;
+  }
+  .contents .c13 dt {
+    margin: 0;
+    font-size: calc(62vw/12) !important;
+  }
+  .contents .c13 .line {
+    padding: 0 0 0 1% !important;
   }
   .contents .ch_week dd {
     padding: 2.8% 0 3.079% 2.45%;
@@ -2148,7 +2165,7 @@ footer small {
     display: inline-block;
     background-size: 100% auto;
     background-position: left 0 bottom 16%;
-    padding: 0 0 2% 4%;
+    padding: 0 0 0 4%;
   }
   .contents .ch_week dd {
     padding: 2.8% 0 3.1% 1.45%;
@@ -2190,6 +2207,16 @@ footer small {
   }
   .contents .c05 dt {
     margin: 0 0 0 0.5%;
+  }
+  .contents .c13 {
+    margin: 4% 0 0 -2% !important;
+  }
+  .contents .c13 dt {
+    margin: 0;
+    font-size: calc(63vw/12) !important;
+  }
+  .contents .c13 .line {
+    padding: 0 0 0 1% !important;
   }
   .contents .chh02 {
     margin: 4.5% auto 0;
