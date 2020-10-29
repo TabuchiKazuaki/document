@@ -502,6 +502,23 @@ header .h_line .h_bh span {
 .contents .c08 dt .line {
   padding: 0;
 }
+.contents .c11 {
+  margin: 40px 0 0 -59px;
+}
+.contents .c11 dt {
+  font-size: 42px;
+}
+.contents .c11 dd {
+  padding: 21px 0 0 15px;
+  letter-spacing: -0.5px;
+}
+.contents .c11 dd .sl {
+  font-size: 23px;
+  letter-spacing: -1.3px;
+  text-indent: 0.5rem;
+  -webkit-transform: skewX(0deg);
+          transform: skewX(0deg);
+}
 .contents .ch_win dd {
   font-size: 28px;
   padding: 24px 0 0 13px;
@@ -1526,6 +1543,24 @@ footer small {
   .contents .c08 dt .line {
     padding: 0;
   }
+  .contents .c11 {
+    margin: 6.5% 0 0 -2%;
+  }
+  .contents .c11 dt {
+    padding: 3% 0 0;
+    font-size: calc(65vw/12);
+  }
+  .contents .c11 dd {
+    padding: 3.1% 0 2.662% 1.45%;
+    letter-spacing: -0.8px;
+  }
+  .contents .c11 dd .sl {
+    font-size: calc(36vw/12);
+    letter-spacing: -1.3px;
+    text-indent: 0rem;
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+  }
   .contents .min {
     margin: 0 0 0 8%;
   }
@@ -2189,6 +2224,24 @@ footer small {
   }
   .contents .c08 dt .line {
     padding: 0;
+  }
+  .contents .c11 {
+    margin: 6.5% 0 0 -2%;
+  }
+  .contents .c11 dt {
+    padding: 3% 0 0;
+    font-size: calc(65vw/12);
+  }
+  .contents .c11 dd {
+    padding: 3.1% 0 2.662% 0.45%;
+    letter-spacing: -1.2px;
+  }
+  .contents .c11 dd .sl {
+    font-size: calc(37vw/12);
+    letter-spacing: -0.8px;
+    text-indent: 0.8rem;
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
   }
   .contents .chh02 {
     margin: 4.5% auto 0;
