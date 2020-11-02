@@ -454,6 +454,9 @@ header .h_line .h_bh span {
 .contents .c21 {
   margin: 30px 0 0 16px;
 }
+.contents .c21 dd {
+  font-size: 28px !important;
+}
 .contents .ch_week dd {
   position: relative;
   background: #10d474;
@@ -1482,7 +1485,7 @@ footer small {
     margin: 3% 0 0 3%;
   }
   .contents .c21 dd {
-    font-size: calc(43vw/12);
+    font-size: calc(43vw/12) !important;
     letter-spacing: -0.2px;
   }
   .contents .ch_week dd {
@@ -2175,7 +2178,7 @@ footer small {
     margin: 3% 0 0 3%;
   }
   .contents .c21 dd {
-    font-size: calc(43vw/12);
+    font-size: calc(43vw/12) !important;
     letter-spacing: -0.5px;
   }
   .contents .ch_bot dd {
