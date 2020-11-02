@@ -460,6 +460,15 @@ header .h_line .h_bh span {
 .contents .c11 dt .line {
   padding: 0 0 0 2px;
 }
+.contents .c12 {
+  margin: 14px 0 0 -24px;
+}
+.contents .c12 dt {
+  padding: 5px 0 0;
+}
+.contents .c12 dt .line {
+  padding: 0 0 0 2px;
+}
 .contents .ch_week dd {
   position: relative;
   background: #ff5eab;
@@ -1520,6 +1529,12 @@ footer small {
   .contents .c11 dt .line .line_sho {
     padding: 0 0 0 3%;
   }
+  .contents .c12 {
+    margin: 5% 0 0 -2%;
+  }
+  .contents .c12 dt .line {
+    padding: 0 !important;
+  }
   .contents .ma {
     margin: 0 auto !important;
   }
@@ -2175,6 +2190,12 @@ footer small {
   }
   .contents .c11 dt .line .line_sho {
     padding: 0 0 0 3%;
+  }
+  .contents .c12 {
+    margin: 5% 0 0 -2%;
+  }
+  .contents .c12 dt .line {
+    padding: 0 !important;
   }
   .contents .ch_win dd {
     width: 15.2%;
