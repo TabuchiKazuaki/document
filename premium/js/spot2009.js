@@ -5,7 +5,7 @@ $(function() {
 function countDown() {
 	var now = new Date();
 
-	var ts01 = new Date("2020/07/09 23:59");
+	var ts01 = new Date("2020/11/09 23:59");
 	if (now.getTime() > ts01.getTime()) {
 		var time = new Date();
 		var end = new Date("2020/09/26 23:59");
@@ -27,10 +27,10 @@ function countDown() {
 	if (now.getTime() > bef.getTime()) {
 		$('.t_box').show();
 	}
-	var aft = new Date("2020/09/26 23:59");
-	if (now.getTime() > aft.getTime()) {
-		$('.t_box').hide();
-	}
+	// var aft = new Date("2020/09/26 23:59");
+	// if (now.getTime() > aft.getTime()) {
+	// 	$('.t_box').hide();
+	// }
 }
 
 
