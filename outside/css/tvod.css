@@ -7,10 +7,10 @@
 body {
   line-height: 1;
   min-width: 320px;
-  font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif !important;
-  color: #000;
+  font-family: "Noto Sans JP", sans-serif !important;
+  color: #fff;
   margin: 0 auto;
-  background: #fff;
+  background: none;
 }
 body li {
   list-style: none;
@@ -24,6 +24,11 @@ a {
 a:hover {
   text-decoration: none;
   opacity: .8;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 .fl {
@@ -212,22 +217,39 @@ header {
   background: #000;
 }
 header .logo {
-  max-width: 151px;
+  max-width: 140px;
   line-height: 0;
   padding: 12px 0 13px 24px;
 }
 header .h_h {
-  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/400967/02ea243c31fd7c87982c3befb260d3f4_bd5fb972a363f0de4b00ed6bbeb3eb10.png) center center no-repeat;
-  height: 228px;
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/b110ba168710b35eb542339931f10c54_6ffdb5216e8a730afae5e45c6cee6ee0.jpg) center center repeat;
+  height: 516px;
+  padding: 19px 0 0;
+  margin: 0 auto 0;
   text-align: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 header .h_h h2 {
-  max-width: 536px;
-  padding: 19px 0 0;
-  margin: 0 auto;
+  max-width: 601px;
+  margin: 0 auto 0;
   line-height: 0;
+}
+header .h_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 724px;
+  margin: 53px auto 0;
+}
+header .h_item li {
+  margin: 0 0 0 8px;
+}
+header .h_item li:first-child {
+  margin: 0;
 }
 
 .info {
@@ -243,30 +265,98 @@ header .h_h h2 {
 }
 
 .contents {
-  background: #fff;
+  background: #000;
+  text-align: center;
+}
+.contents .c_box {
+  padding: 0 0 40px;
+  border-bottom: 1px solid #606060;
+}
+.contents .c_date {
+  display: inline-block;
+  background: #f3f3f3;
+  padding: 11px 41px;
+  margin: 56px 0 0;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  color: #000;
+}
+.contents .chh {
+  max-width: 655px;
+  margin: 32px auto 0;
+  line-height: 0;
+}
+.contents .chh_se {
+  max-width: 655px;
+  margin: 0 auto 0;
+  line-height: 0;
 }
 .contents .c_h {
-  border-left: 6px solid #3a2;
+  border-left: 6px solid #ddaa00;
   padding: 0 0 0 18px;
-  line-height: 1.4;
-  font-size: 32px;
+  line-height: 1.3;
+  font-size: 40px;
+  text-align: left;
 }
 .contents .c_h span {
   letter-spacing: 1.3px;
   font-size: 36px;
 }
-.contents .ch100 {
-  margin: 62px 0 0;
+.contents .ch_date {
+  position: relative;
+  padding: 0 0 0 34px;
+  margin: 25px 0 0 27px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.3;
+  text-align: left;
+}
+.contents .ch_date:before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 0;
+  border-radius: 50%;
+  background: #ddaa00;
+  background-size: 22px 22px;
+  width: 22px;
+  height: 22px;
 }
 .contents .c_t {
-  margin: 30px 0 0 24px;
-  font-size: 22px;
+  margin: 26px 0 0 0;
+  font-size: 26px;
+  text-align: left;
   line-height: 1.4;
-  color: #666;
+  color: #ababab;
 }
 .contents figure {
   margin: 37px 0 0;
   line-height: 0;
+}
+.contents .t_top {
+  margin: 85px 0 77px;
+  text-align: right;
+  white-space: nowrap;
+}
+.contents .t_top a {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  color: #fff;
+}
+.contents .cb_item {
+  max-width: 624px;
+  margin: 14px auto 0;
+}
+.contents .cb_item li {
+  padding: 60px 0 0;
+}
+.contents .cb_item li:nth-child(1) {
+  padding: 0;
 }
 .contents .c_dl {
   display: -webkit-box;
@@ -275,42 +365,77 @@ header .h_h h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 41px 0 0;
 }
 .contents .c_dl dd {
-  max-width: 143px;
-  width: 19%;
+  max-width: 288px;
+  width: 49%;
   line-height: 0;
 }
 .contents .c_dl dt {
-  width: 78%;
-  margin: 0 0 0 3%;
-}
-.contents .c_dl dt span {
-  display: block;
+  width: 45%;
+  margin: 0 0 0 6%;
+  font-size: 29px;
   font-weight: bold;
-  font-size: 23px;
-  letter-spacing: 1.2px;
+  line-height: 1.5;
+  text-align: left;
 }
-.contents .c_dl dt .cd_h {
-  padding: 0 0 11px;
-  margin: 10px 0 0;
+.contents .c_dl dt .dl_date {
+  position: relative;
+  padding: 0 0 0 28px;
+  margin: 15px 0 0 0;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 1.3;
+  letter-spacing: 1.3px;
+  text-align: left;
+}
+.contents .c_dl dt .dl_date:before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 0;
+  border-radius: 50%;
+  background: #ddaa00;
+  background-size: 22px 22px;
+  width: 22px;
+  height: 22px;
+}
+.contents .more {
+  margin: 54px 0 0;
   font-size: 34px;
-  border-bottom: 1px solid #ababab;
-  letter-spacing: 1.4px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1.8px;
+  line-height: 1.4;
+  color: #ddaa00;
 }
-.contents .c_dl dt .cd_t {
-  margin: 18px 0 0;
-  font-size: 23px;
-  letter-spacing: 1.2px;
-  color: #606060;
+.contents .more .num {
+  font-size: 49px;
+}
+.contents .more .big {
+  font-size: 48px;
+}
+.contents .more .sec {
+  display: block;
+  font-size: 24px;
+  letter-spacing: 1.4px;
+  color: #fff;
+}
+.contents .c_bh {
+  max-width: 530px;
+  margin: 53px auto 0;
+  line-height: 0;
+}
+.contents .c_b_list {
+  max-width: 750px;
+  margin: 0 auto;
 }
 .contents .c_btn {
-  margin: 47px 0 50px;
+  margin: 47px 0 0;
 }
 .contents .c_btn a {
   display: block;
-  background: #3a2;
+  background: #ddaa00;
   padding: 22px 0;
   text-align: center;
   border-radius: 6px;
@@ -325,7 +450,7 @@ header .h_h h2 {
 .contents .c_back a {
   font-size: 30px;
   font-weight: bold;
-  color: #3a2;
+  color: #ddaa00;
 }
 
 .cb .wrap {
@@ -353,23 +478,22 @@ header .h_h h2 {
 .cb .a_btn a {
   display: block;
   padding: 20px 0;
-  border: 2px solid #3a2;
+  border: 2px solid #ddaa00;
   border-radius: 6px;
   font-size: 26px;
   letter-spacing: 1.8px;
   text-align: center;
   font-weight: bold;
-  color: #3a2;
+  color: #ddaa00;
 }
 .cb .a_btn a:hover {
-  background: #3a2;
+  background: #ddaa00;
   opacity: 1;
   color: #fff;
 }
 
 footer {
-  background: #efefef;
-  margin: 40px 0 0;
+  background: #000;
 }
 footer .wrap {
   padding: 57px 0 50px;
@@ -406,7 +530,7 @@ footer .copy li {
   width: 100%;
   margin: 5px 0 0 0;
   line-height: 1.3;
-  font-size: 16px;
+  font-size: 26px;
   color: #666;
 }
 footer small {
@@ -531,10 +655,10 @@ footer small {
 
   header .logo {
     padding: 1.28% 0 1.35% 2.7%;
-    width: 21%;
+    width: 18.8%;
   }
   header .h_h {
-    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/400967/8e85679a2ed63b14ed8813b5652cdafa_2211a7c2a3691b06b5aafc5d8c4c6ec2.png) center center no-repeat;
+    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/c66be66c2a1b37e8dec79f0013b0b155_6f3aa8cb8bb4074c0d5d875190918bd3.jpg) center center no-repeat;
     background-size: cover;
     height: auto;
     padding: 2.2% 0 7%;
@@ -556,7 +680,7 @@ footer small {
   }
 
   .contents .c_h {
-    border-left: 4.5px solid #3a2;
+    border-left: 4.5px solid #ddaa00;
     padding: 0 0 0 2.6%;
     line-height: 1.4;
     font-size: calc(50vw/12);
@@ -602,7 +726,7 @@ footer small {
     letter-spacing: 1.2px;
   }
   .contents .c_btn {
-    margin: 7% 0 7.2%;
+    margin: 7% 0 0;
   }
   .contents .c_btn a {
     padding: 3.1% 0;
@@ -633,7 +757,7 @@ footer small {
   }
   .cb .a_btn a {
     padding: 3.5% 0;
-    border: 1.5px solid #3a2;
+    border: 1.5px solid #ddaa00;
     border-radius: 5px;
     font-size: calc(41vw/12);
     letter-spacing: 1.6px;
@@ -641,7 +765,7 @@ footer small {
   .cb .a_btn a:hover {
     background: none;
     opacity: .8;
-    color: #3a2;
+    color: #ddaa00;
   }
 
   footer {
@@ -752,7 +876,7 @@ footer small {
 
   header .logo {
     padding: 1.28% 0 1.35% 2.7%;
-    width: 21%;
+    width: 19.2%;
   }
   header .h_h {
     background-size: cover;
@@ -766,7 +890,7 @@ footer small {
   }
 
   .contents .c_h {
-    border-left: 3px solid #3a2;
+    border-left: 3px solid #ddaa00;
     padding: 0 0 0 2.3%;
     line-height: 1.4;
     font-size: calc(52vw/12);
@@ -812,7 +936,7 @@ footer small {
     letter-spacing: 1.2px;
   }
   .contents .c_btn {
-    margin: 7% 0 7.2%;
+    margin: 7% 0 0;
   }
   .contents .c_btn a {
     padding: 3.1% 0;
@@ -843,7 +967,7 @@ footer small {
   }
   .cb .a_btn a {
     padding: 3.5% 0;
-    border: 1px solid #3a2;
+    border: 1px solid #ddaa00;
     border-radius: 3px;
     font-size: calc(47vw/12);
     letter-spacing: 1.5px;
