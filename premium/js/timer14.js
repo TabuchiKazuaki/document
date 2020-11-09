@@ -27,12 +27,13 @@ function countDown() {
 	var bef = new Date("2020/08/01 00:00");
 	if (now.getTime() > bef.getTime()) {
 		$('.t_box').show();
+		$('.timer').show();
 		$('.timer').hide();
-		$("#day").hide();
 	}
 	var bef = new Date("2020/11/21 00:00");
 	if (now.getTime() > bef.getTime()) {
-		$('.timer').show();
+		$("#day").hide();
+		$(".tdd").hide();
 	}
 	var aft = new Date("2020/11/21 23:59");
 	if (now.getTime() > aft.getTime()) {
