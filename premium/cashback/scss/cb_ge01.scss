@@ -352,6 +352,14 @@ header {
 			font-size: 25px;
 			letter-spacing: 2px;
 		}
+		.cc_le {
+			margin: 0 0 25px;
+			text-align: left;
+			letter-spacing: 1.2px;
+			line-height: 1.4;
+			font-weight: normal;
+			font-size: 20px;
+		}
 		.cc_list {
 			li {
 				counter-increment: count;
@@ -1618,6 +1626,12 @@ footer {
 				width: 21%;
 				max-width: 145px;
 			}
+			.cc_le {
+				margin: 0 0 4%;
+				letter-spacing: 0.8px;
+				line-height: 1.4;
+				font-size: calc(32vw/12);
+			}
 			.cc_list {
 				li {
 					padding: 0 0 0 7.4%;
@@ -2540,6 +2554,12 @@ footer {
 				right: -1%;
 				width: 21%;
 				max-width: 145px;
+			}
+			.cc_le {
+				margin: 0 0 4%;
+				letter-spacing: 0.3px;
+				line-height: 1.4;
+				font-size: calc(34vw/12);
 			}
 			.cc_list {
 				li {
