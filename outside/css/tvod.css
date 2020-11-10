@@ -442,10 +442,11 @@ header .h_item li:first-child {
 .contents .c_btn a {
   display: block;
   background: #ddaa00;
-  padding: 22px 0;
+  padding: 28px 0;
   text-align: center;
   border-radius: 6px;
   font-size: 30px;
+  font-weight: bold;
   letter-spacing: 2px;
   color: #000;
 }
@@ -463,7 +464,7 @@ footer {
   background: #000;
 }
 footer .wrap {
-  padding: 57px 0 50px;
+  padding: 78px 0 60px;
 }
 footer .f_list {
   overflow: hidden;
@@ -500,7 +501,7 @@ footer .copy li {
   margin: 5px 0 0 0;
   line-height: 1.5;
   font-size: 26px;
-  color: #666;
+  color: #ababab;
 }
 footer .copy li:after {
   content: '/';
@@ -798,16 +799,13 @@ footer small {
   }
   .contents .c_btn {
     max-width: 100%;
-    margin: 7% 4.5% 0;
+    margin: 8% 4.5% 0;
   }
   .contents .c_btn a {
-    display: block;
-    background: #ddaa00;
-    padding: 22px 0;
-    text-align: center;
-    border-radius: 6px;
-    font-size: 30px;
-    letter-spacing: 2px;
+    padding: 4.2% 0;
+    border-radius: 5px;
+    font-size: calc(48vw/12);
+    letter-spacing: 1.5px;
   }
   .contents .c_back {
     margin: 10px 0 70px;
@@ -820,7 +818,7 @@ footer small {
   }
 
   footer {
-    padding: 6% 0 3%;
+    padding: 10% 0 3%;
   }
   footer .wrap {
     padding: 0 0 5%;
@@ -990,13 +988,13 @@ footer small {
     letter-spacing: 1.2px;
   }
   .contents .c_btn {
-    margin: 7% 0 0;
+    margin: 8% 4.5% 0;
   }
   .contents .c_btn a {
-    padding: 3.1% 0;
+    padding: 4.2% 0;
     border-radius: 4px;
-    font-size: calc(49vw/12);
-    letter-spacing: 2px;
+    font-size: calc(50vw/12);
+    letter-spacing: 1px;
   }
   .contents .c_back {
     margin: 2% 0 7%;

@@ -402,10 +402,11 @@ header {
 		a {
 			display: block;
 			background: #ddaa00;
-			padding: 22px 0;
+			padding: 28px 0;
 			text-align: center;
 			border-radius: 6px;
 			font-size: 30px;
+			font-weight: bold;
 			letter-spacing: 2px;
 			color: #000;
 		}
@@ -424,7 +425,7 @@ header {
 footer {
 	background: #000;
 	.wrap {
-		padding: 57px 0 50px;
+		padding: 78px 0 60px;
 	}
 
 	.f_list {
@@ -461,7 +462,7 @@ footer {
 			margin: 5px 0 0 0;
 			line-height: 1.5;
 			font-size: 26px;
-			color: #666;
+			color: #ababab;
 
 			&:after {
 				content: '/';
@@ -754,15 +755,12 @@ footer {
 
 		.c_btn {
 			max-width: 100%;
-			margin: 7% 4.5% 0;
+			margin: 8% 4.5% 0;
 			a {
-				display: block;
-				background: #ddaa00;
-				padding: 22px 0;
-				text-align: center;
-				border-radius: 6px;
-				font-size: 30px;
-				letter-spacing: 2px;
+				padding: 4.2% 0;
+				border-radius: 5px;
+				font-size: calc(48vw/12);
+				letter-spacing: 1.5px;
 			}
 		}
 		.c_back{
@@ -777,7 +775,7 @@ footer {
 	}
 
 	footer {
-		padding: 6% 0 3%;
+		padding: 10% 0 3%;
 
 		.wrap {
 			padding: 0 0 5%;
@@ -946,12 +944,12 @@ footer {
 			}
 		}
 		.c_btn {
-			margin: 7% 0 0;
+			margin: 8% 4.5% 0;
 			a {
-				padding: 3.1% 0;
+				padding: 4.2% 0;
 				border-radius: 4px;
-				font-size: calc(49vw/12);
-				letter-spacing: 2px;
+				font-size: calc(50vw/12);
+				letter-spacing: 1px;
 			}
 		}
 		.c_back{
