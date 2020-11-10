@@ -257,18 +257,6 @@ header .h_item li:first-child {
   margin: 0;
 }
 
-.info {
-  background: #eeeeee;
-  padding: 42px 0;
-  text-align: center;
-}
-.info .i_h {
-  font-size: 24px;
-  font-weight: normal;
-  letter-spacing: 1.3px;
-  color: #606060;
-}
-
 .contents {
   background: #000;
   text-align: center;
@@ -449,15 +437,6 @@ header .h_item li:first-child {
   font-weight: bold;
   letter-spacing: 2px;
   color: #000;
-}
-.contents .c_back {
-  margin: 10px 0 70px;
-  text-align: right;
-}
-.contents .c_back a {
-  font-size: 30px;
-  font-weight: bold;
-  color: #ddaa00;
 }
 
 footer {
@@ -662,16 +641,6 @@ footer small {
     margin: 0 0 0 1.2%;
   }
 
-  .info {
-    padding: 5.7% 0;
-  }
-  .info .i_h {
-    font-size: calc(38vw/12);
-    font-weight: bold;
-    letter-spacing: 1.3px;
-    color: #606060;
-  }
-
   .contents .c_box {
     padding: 0 0 6%;
   }
@@ -786,7 +755,7 @@ footer small {
     font-size: calc(75vw/12);
   }
   .contents .more .sec {
-    font-size: calc(48vw/12);
+    font-size: calc(37vw/12);
     letter-spacing: 0.8px;
   }
   .contents .c_bh {
@@ -806,15 +775,6 @@ footer small {
     border-radius: 5px;
     font-size: calc(48vw/12);
     letter-spacing: 1.5px;
-  }
-  .contents .c_back {
-    margin: 10px 0 70px;
-    text-align: right;
-  }
-  .contents .c_back a {
-    font-size: 30px;
-    font-weight: bold;
-    color: #ddaa00;
   }
 
   footer {
@@ -928,105 +888,165 @@ footer small {
 
   header .logo {
     padding: 1.28% 0 1.35% 2.7%;
-    width: 19.2%;
+    width: 18.8%;
   }
   header .h_h {
+    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/c66be66c2a1b37e8dec79f0013b0b155_6f3aa8cb8bb4074c0d5d875190918bd3.jpg) center center no-repeat;
     background-size: cover;
-    height: auto;
-    padding: 2.2% 0 7%;
+    padding: 2.2% 0 3%;
+    margin: 0 auto 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   header .h_h h2 {
-    width: 75%;
-    padding: 0;
-    margin: 0 auto;
+    width: 80.7%;
+  }
+  header .h_item {
+    max-width: 100%;
+    margin: 7% 2% 0;
+  }
+  header .h_item li {
+    margin: 0 0 0 1.2%;
   }
 
+  .contents .c_box {
+    padding: 0 0 6%;
+  }
+  .contents .c_date {
+    display: inline-block;
+    padding: 1.8% 6%;
+    margin: 7.5% 0 0;
+    border-radius: 30px;
+    font-size: calc(38vw/12);
+    letter-spacing: 0.8px;
+  }
+  .contents .chh {
+    width: 98.5%;
+    margin: 3.5% auto 0;
+  }
+  .contents .chh_se {
+    width: 98.5%;
+    margin: 0 auto 0;
+  }
   .contents .c_h {
-    border-left: 3px solid #ddaa00;
-    padding: 0 0 0 2.3%;
-    line-height: 1.4;
-    font-size: calc(52vw/12);
+    border-left: 5.5px solid #ddaa00;
+    padding: 0 0 0 3%;
+    line-height: 1.3;
+    font-size: calc(58vw/12);
   }
   .contents .c_h span {
-    letter-spacing: 1.3px;
-    font-size: calc(54vw/12);
+    letter-spacing: 0.8px;
+    font-size: calc(60vw/12);
   }
-  .contents .ch100 {
-    margin: 9% 0 0;
+  .contents .ch_date {
+    padding: 0 0 0 5%;
+    margin: 4.5% 0 0 4.5%;
+    font-size: calc(38vw/12);
+    line-height: 1.3;
+  }
+  .contents .ch_date:before {
+    top: 20%;
+    background-size: 100% 100%;
+    width: 3.39%;
+    height: 74%;
   }
   .contents .c_t {
-    margin: 4.4% 0 0 3.3%;
-    font-size: calc(37vw/12);
-    line-height: 1.45;
+    margin: 4.5% 0 0 0;
+    font-size: calc(43vw/12);
+    line-height: 1.4;
   }
   .contents figure {
-    margin: 5.1% 0 0;
+    margin: 5.5% 0 0;
+    line-height: 0;
+  }
+  .contents .t_top {
+    margin: 13% 0 11%;
+  }
+  .contents .t_top a {
+    display: inline-block;
+    font-size: calc(46vw/12);
+    letter-spacing: 0.6px;
+  }
+  .contents .cb_item {
+    max-width: 100%;
+    margin: 3% 5.5% 0;
+  }
+  .contents .cb_item li {
+    padding: 8% 0 0;
   }
   .contents .c_dl {
-    margin: 5.6% 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contents .c_dl dd {
-    width: 22%;
+    width: 48%;
+    line-height: 0;
   }
   .contents .c_dl dt {
-    width: 75%;
-    margin: 0 0 0 3%;
+    width: 46%;
+    margin: 0 0 0 6%;
+    font-size: calc(45vw/12);
+    letter-spacing: 0.8px;
+    line-height: 1.5;
   }
-  .contents .c_dl dt span {
+  .contents .c_dl dt .dl_date {
+    padding: 0 0 0 11%;
+    margin: 5.5% 0 0 0;
+    font-size: calc(36vw/12);
+    line-height: 1.3;
+    letter-spacing: 0.8px;
+  }
+  .contents .c_dl dt .dl_date:before {
+    content: '';
+    position: absolute;
+    top: 18%;
+    border-radius: 50%;
+    background: #ddaa00;
+    background-size: 100% 100%;
+    width: 7.905%;
+    height: 78.9%;
+  }
+  .contents .more {
+    margin: 7.5% 0 0;
+    font-size: calc(55vw/12);
+    letter-spacing: 0.8px;
+    line-height: 1.4;
+  }
+  .contents .more .num {
+    font-size: calc(79vw/12);
+  }
+  .contents .more .big {
+    font-size: calc(77vw/12);
+  }
+  .contents .more .sec {
     font-size: calc(38vw/12);
-    letter-spacing: 1.2px;
+    letter-spacing: 0.8px;
   }
-  .contents .c_dl dt .cd_h {
-    padding: 0 0 2.2%;
-    margin: 2% 0 0;
-    font-size: calc(54vw/12);
-    letter-spacing: 1.4px;
+  .contents .c_bh {
+    width: 80.2%;
+    margin: 8% auto 0;
   }
-  .contents .c_dl dt .cd_t {
-    margin: 3.6% 0 0;
-    font-size: calc(38vw/12);
-    letter-spacing: 1.2px;
+  .contents .c_b_list {
+    max-width: 750px;
+    margin: 0 auto;
   }
   .contents .c_btn {
+    max-width: 100%;
     margin: 8% 4.5% 0;
   }
   .contents .c_btn a {
     padding: 4.2% 0;
     border-radius: 4px;
     font-size: calc(50vw/12);
-    letter-spacing: 1px;
-  }
-  .contents .c_back {
-    margin: 2% 0 7%;
-  }
-  .contents .c_back a {
-    font-size: calc(47vw/12);
-  }
-
-  .cb .wrap {
-    padding: 5.5% 10% 6%;
-  }
-  .cb figure {
-    width: 55%;
-  }
-  .cb .a_text {
-    margin: 3.5% 0 0;
-    font-size: calc(47vw/12);
-    letter-spacing: 1.4px;
-  }
-  .cb .a_btn {
-    margin: 5.8% 0 0;
-  }
-  .cb .a_btn a {
-    padding: 3.5% 0;
-    border: 1px solid #ddaa00;
-    border-radius: 3px;
-    font-size: calc(47vw/12);
-    letter-spacing: 1.5px;
+    letter-spacing: 0.8px;
   }
 
   footer {
-    padding: 6% 0 3%;
+    padding: 10% 0 3%;
   }
   footer .wrap {
     padding: 0 0 5%;
@@ -1036,10 +1056,10 @@ footer small {
     margin: 0 0 6%;
   }
   footer .copy li {
-    padding: 0 2.5% 0 0;
+    padding: 0 3.5% 0 0;
     margin: 1% 0 0 0;
     line-height: 1.5;
-    font-size: calc(42vw/12);
+    font-size: calc(40vw/12);
   }
   footer .copy li:after {
     padding: 0 2% 0 0;
@@ -1052,7 +1072,7 @@ footer small {
   }
   footer .f_list li a {
     padding: 0 12px 0 0;
-    font-size: calc(27vw/12);
+    font-size: calc(25vw/12);
     white-space: nowrap;
   }
   footer .f_list li:after {
@@ -1066,7 +1086,7 @@ footer small {
   }
   footer small {
     margin: 5% 0 0;
-    font-size: calc(28vw/12);
+    font-size: calc(26vw/12);
     letter-spacing: 1.3px;
   }
 }
