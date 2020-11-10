@@ -253,7 +253,7 @@ header {
 		line-height: 0;
 	}
 	.c_h {
-		border-left: 6px solid #ddaa00;
+		border-left: 11px solid #ddaa00;
 		padding: 0 0 0 18px;
 		line-height: 1.3;
 		font-size: 40px;
@@ -416,47 +416,6 @@ header {
 	}
 }
 
-
-.cb {
-	.wrap {
-		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/463346/3517790a59412e1b865e4b03e5f42652_d459ab1abba4f465e5d442f8c76dd22a.png) center center repeat;
-		background-size: cover;
-		max-width: 750px;
-		padding: 42px 76px 50px;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-	figure {
-		max-width: 336px;
-		line-height: 0;
-	}
-	.a_text {
-		margin: 23px 0 0;
-		font-size: 28px;
-		letter-spacing: 1.4px;
-		color: #fff;
-	}
-	.a_btn {
-		margin: 32px 0 0;
-		a {
-			display: block;
-			padding: 20px 0;
-			border: 2px solid #ddaa00;
-			border-radius: 6px;
-			font-size: 26px;
-			letter-spacing: 1.8px;
-			text-align: center;
-			font-weight: bold;
-			color: #ddaa00;
-			&:hover {
-				background: #ddaa00;
-				opacity: 1;
-				color: #fff;
-			}
-		}
-	}
-}
-
 footer {
 	background: #000;
 	.wrap {
@@ -491,11 +450,21 @@ footer {
 	.copy {
 		margin: 0 0 40px;
 		li {
-			width: 100%;
+			display: inline-block;
+			position: relative;
+			padding: 0 23px 0 0;
 			margin: 5px 0 0 0;
-			line-height: 1.3;
+			line-height: 1.5;
 			font-size: 26px;
 			color: #666;
+
+			&:after {
+				content: '/';
+				position: absolute;
+				top: 0;
+				right: 0;
+				padding: 0 3px 0 0;
+			}
 		}
 	}
 	small {
@@ -606,7 +575,6 @@ footer {
 		}
 	}
 
-
 	header {
 		.logo {
 			padding: 1.28% 0 1.35% 2.7%;
@@ -616,11 +584,21 @@ footer {
 			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/c66be66c2a1b37e8dec79f0013b0b155_6f3aa8cb8bb4074c0d5d875190918bd3.jpg) center center no-repeat;
 			background-size: cover;
 			height: auto;
-			padding: 2.2% 0 7%;
+			padding: 2.2% 0 3%;
+			margin: 0 auto 0;
+			text-align: center;
+			box-sizing: border-box;
 			h2 {
-				width: 74%;
+				width: 78.7%;
 				padding: 0;
 				margin: 0 auto;
+			}
+		}
+		.h_item {
+			max-width: 100%;
+			margin: 7% 2% 0;
+			li {
+				margin: 0 0 0 1.2%;
 			}
 		}
 	}
@@ -636,112 +614,178 @@ footer {
 	}
 
 	.contents {
+		.c_box {
+			padding: 0 0 6%;
+		}
+		.c_date {
+			display: inline-block;
+			padding: 1.8% 6%;
+			margin: 7.5% 0 0;
+			border-radius: 30px;
+			font-size: calc(38vw/12);
+			letter-spacing: 1.2px;
+		}
+		.chh {
+			width: 96.5%;
+			margin: 4.5% auto 0;
+		}
+		.chh_se {
+			width: 96.5%;
+			margin: 0 auto 0;
+		}
 		.c_h {
-			border-left: 4.5px solid #ddaa00;
-			padding: 0 0 0 2.6%;
-			line-height: 1.4;
-			font-size: calc(50vw/12);
+			border-left: 9px solid #ddaa00;
+			padding: 0 0 0 3%;
+			line-height: 1.3;
+			font-size: calc(56vw/12);
 			span {
 				letter-spacing: 1.3px;
-				font-size: calc(52vw/12);
+				font-size: calc(58vw/12);
 			}
 		}
-		.ch100 {
-			margin: 10% 0 0;
+		.ch_date {
+			padding: 0 0 0 5%;
+			margin: 4.5% 0 0 4.5%;
+			font-size: calc(38vw/12);
+			line-height: 1.3;
+			&:before {
+				top: 22%;
+				background-size: 100% 100%;
+				width: 3.39%;
+				height: 71%;
+			}
 		}
+
 		.c_t {
-			margin: 4.4% 0 0 3.3%;
-			font-size: calc(35vw/12);
+			margin: 4.5% 0 0 0;
+			font-size: calc(41vw/12);
 			line-height: 1.4;
 		}
 		figure {
-			margin: 5.1% 0 0;
+			margin: 37px 0 0;
+			line-height: 0;
+		}
+		.t_top {
+			margin: 13% 0 11%;
+			a {
+				display: inline-block;
+				font-size: calc(44vw/12);
+				letter-spacing: 1.3px;
+			}
+		}
+
+		.cb_item {
+			max-width: 100%;
+			margin: 3% 5.5% 0;
+			li {
+				padding: 8% 0 0;
+			}
 		}
 		.c_dl {
-			margin: 5.6% 0 0;
+			display: flex;
+			align-items: center;
+
 			dd {
-				width: 22%;
+				width: 48%;
+				line-height: 0;
 			}
 			dt {
-				width: 75%;
-				margin: 0 0 0 3%;
-				span {
+				width: 46%;
+				margin: 0 0 0 6%;
+				font-size: calc(43vw/12);
+				letter-spacing: 0.8px;
+				line-height: 1.5;
+
+				.dl_date {
+					padding: 0 0 0 11%;
+					margin: 5.5% 0 0 0;
 					font-size: calc(36vw/12);
-					letter-spacing: 1.2px;
-				}
-				.cd_h {
-					padding: 0 0 2.2%;
-					margin: 2% 0 0;
-					font-size: calc(52vw/12);
-					letter-spacing: 1.4px;
-				}
-				.cd_t {
-					margin: 3.6% 0 0;
-					font-size: calc(36vw/12);
-					letter-spacing: 1.2px;
+					line-height: 1.3;
+					letter-spacing: 0.8px;
+					&:before {
+						content: '';
+						position: absolute;
+						top: 18%;
+						border-radius: 50%;
+						background: #ddaa00;
+						background-size: 100% 100%;
+						width: 7.905%;
+						height: 75.9%;
+
+					}
 				}
 			}
 		}
+		.more {
+			margin: 7.5% 0 0;
+			font-size: calc(53vw/12);
+			letter-spacing: 1.3px;
+			line-height: 1.4;
+			.num {
+				font-size: calc(77vw/12);
+			}
+			.big {
+				font-size: calc(75vw/12);
+			}
+			.sec {
+				font-size: calc(48vw/12);
+				letter-spacing: 0.8px;
+			}
+		}
+		.c_bh {
+			width: 78.2%;
+			margin: 8% auto 0 ;
+		}
+		.c_b_list {
+			max-width: 750px;
+			margin: 0 auto;
+		}
+
+
+
 		.c_btn {
-			margin: 7% 0 0;
+			margin: 47px 0 0;
 			a {
-				padding: 3.1% 0;
-				border-radius: 5px;
-				font-size: calc(47vw/12);
+				display: block;
+				background: #ddaa00;
+				padding: 22px 0;
+				text-align: center;
+				border-radius: 6px;
+				font-size: 30px;
 				letter-spacing: 2px;
+				color: #fff;
 			}
 		}
 		.c_back{
-			margin: 2% 0 8%;
+			margin: 10px 0 70px;
+			text-align: right;
 			a {
-				font-size: calc(47vw/12);
-			}
-		}
-	}
-
-	.cb {
-		.wrap {
-			padding: 6.4% 10% 6%;
-		}
-		figure {
-			width: 55%;
-		}
-		.a_text {
-			margin: 3.5% 0 0;
-			font-size: calc(43vw/12);
-			letter-spacing: 1.4px;
-		}
-		.a_btn {
-			margin: 6.2% 0 0;
-			a {
-				padding: 3.5% 0;
-				border: 1.5px solid #ddaa00;
-				border-radius: 5px;
-				font-size: calc(41vw/12);
-				letter-spacing: 1.6px;
-				&:hover {
-					background: none;
-					opacity: .8;
-					color: #ddaa00;
-				}
+				font-size: 30px;
+				font-weight: bold;
+				color: #ddaa00;
 			}
 		}
 	}
 
 	footer {
 		padding: 6% 0 3%;
-		margin: 6% 0 0;
 
 		.wrap {
 			padding: 0 0 5%;
 			margin: 0 5%;
 		}
+
 		.copy {
 			margin: 0 0 6%;
 			li {
-				margin: 0.7% 0 0 0;
-				line-height: 1.3;
-				font-size: calc(24vw/12);
+				padding: 0 2.5% 0 0;
+				margin: 1% 0 0 0;
+				line-height: 1.5;
+				font-size: calc(40vw/12);
+
+				&:after {
+					padding: 0 2% 0 0;
+				}
 			}
 		}
 		.f_list {
@@ -944,9 +988,14 @@ footer {
 		.copy {
 			margin: 0 0 6%;
 			li {
-				margin: 0.7% 0 0 0;
-				line-height: 1.3;
-				font-size: calc(26vw/12);
+				padding: 0 2.5% 0 0;
+				margin: 1% 0 0 0;
+				line-height: 1.5;
+				font-size: calc(40vw/12);
+
+				&:after {
+					padding: 0 2% 0 0;
+				}
 			}
 		}
 		.f_list {
