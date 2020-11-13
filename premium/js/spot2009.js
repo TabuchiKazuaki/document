@@ -27,10 +27,10 @@ function countDown() {
 	if (now.getTime() > bef.getTime()) {
 		$('.t_box').show();
 	}
-	// var aft = new Date("2020/09/26 23:59");
-	// if (now.getTime() > aft.getTime()) {
-	// 	$('.t_box').hide();
-	// }
+	var aft = new Date("2020/09/26 23:59");
+	if (now.getTime() > aft.getTime()) {
+		$('.t_box').hide();
+	}
 }
 
 
