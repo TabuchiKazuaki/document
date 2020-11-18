@@ -273,7 +273,7 @@ header {
 	.c_box {
 		background: #460718;
 		padding: 59px 0 0;
-		margin: 54px 0 0;
+		margin: 21px 0 0;
 
 		.cb_inner {
 			padding: 32px 35px 55px;
@@ -323,6 +323,14 @@ header {
 				font-size: 32px;
 			}
 		}
+	}
+
+	.c_cau {
+		padding: 19px 33px 0 0;
+		font-size: 18px;
+		text-align: right;
+		letter-spacing: 1.4px;
+		color: #fefefe;
 	}
 }
 
@@ -767,7 +775,7 @@ footer {
 
 		.c_box {
 			padding: 7.8% 0 0;
-			margin: 7.5% 0 0;
+			margin: 4% 0 0;
 
 			.cb_inner {
 				padding: 4.2% 4.5% 6.8%;
@@ -805,6 +813,11 @@ footer {
 					font-size: calc(50vw/12);
 				}
 			}
+		}
+		.c_cau {
+			padding: 3% 4.5% 0 0;
+			font-size: calc(28vw/12);
+			letter-spacing: 0.9px;
 		}
 	}
 
@@ -1027,12 +1040,7 @@ footer {
 
 
 @media screen and (max-width: 480px) {
-	.c_h {
-		padding: 0 0 0 3%;
-		font-size: calc(54vw/12);
-		border-left: 5.5px solid #ddaa00;
-		line-height: 1.3;
-	}
+
 	.line_w {
 		max-width: 100%;
 		width: 100%;
@@ -1194,7 +1202,7 @@ footer {
 
 		.c_box {
 			padding: 7.8% 0 0;
-			margin: 7.5% 0 0;
+			margin: 4% 0 0;
 
 			.cb_inner {
 				padding: 4.2% 4.5% 6.8%;
@@ -1228,6 +1236,11 @@ footer {
 					font-size: calc(50vw/12);
 				}
 			}
+		}
+		.c_cau {
+			padding: 3% 4.5% 0 0;
+			font-size: calc(30vw/12);
+			letter-spacing: 0.4px;
 		}
 	}
 
