@@ -30,7 +30,7 @@ img {
   height: auto;
 }
 
-.octfix {
+.th_fix {
   background: #1e030c;
   z-index: 10001;
   position: fixed;
@@ -41,14 +41,14 @@ img {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.octfix .wrap {
+.th_fix .wrap {
   max-width: 768px;
   padding: 27px 0 25px;
   margin: 0 auto;
   -webkit-box-shadow: 0px -3px 3px rgba(24, 2, 10, 0.3);
           box-shadow: 0px -3px 3px rgba(24, 2, 10, 0.3);
 }
-.octfix .sf_list {
+.th_fix .sf_list {
   overflow: hidden;
   max-width: 708px;
   padding: 0;
@@ -61,7 +61,7 @@ img {
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
 }
-.octfix .sf_list li {
+.th_fix .sf_list li {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -81,39 +81,39 @@ img {
   border: 3px solid #f1d365;
   box-sizing: border-box;
 }
-.octfix .sf_list li figure {
+.th_fix .sf_list li figure {
   margin: 0 auto;
   line-height: 0;
 }
-.octfix .sf_list li a {
+.th_fix .sf_list li a {
   display: block;
   padding: 26px 0;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.octfix .sf_list li:nth-child(1) {
+.th_fix .sf_list li:nth-child(1) {
   margin: 0;
 }
-.octfix .sf_list li:nth-child(1) figure {
+.th_fix .sf_list li:nth-child(1) figure {
   width: 187px;
 }
-.octfix .sf_list li:nth-child(1) a {
+.th_fix .sf_list li:nth-child(1) a {
   padding: 20px 23px;
 }
-.octfix .sf_list li:nth-child(2) figure {
+.th_fix .sf_list li:nth-child(2) figure {
   width: 190px;
 }
-.octfix .sf_list li:nth-child(2) a {
+.th_fix .sf_list li:nth-child(2) a {
   padding: 25px 7px;
 }
-.octfix .sf_list li:nth-child(3) figure {
+.th_fix .sf_list li:nth-child(3) figure {
   width: 170px;
 }
-.octfix .sf_list li:nth-child(3) a {
+.th_fix .sf_list li:nth-child(3) a {
   padding: 16px 20px;
 }
-.octfix .sf_list .active {
+.th_fix .sf_list .active {
   background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/121ffe4de3d65a1c5f6a53624f68d0e1_e06ab1674bd6794d22e50399efe4abf2.png) center center no-repeat;
   border: none !important;
 }
