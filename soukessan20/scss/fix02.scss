@@ -1,0 +1,330 @@
+*{margin: 0; padding:0;}
+body { line-height: 1; min-width: 320px; font-family: 'Noto Sans JP', sans-serif!important; color: #000; margin: 0 auto; background: none;
+	li {
+		list-style: none;
+	}
+}
+a {
+	transition: .3s;
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+		opacity: .8;
+	}
+}
+img  { width: 100%; height: auto;}
+
+
+
+
+.th_fix {
+	background: #290730;
+	z-index: 10001;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	.wrap {
+		max-width: 768px;
+		padding: 27px 0 25px;
+		margin: 0 auto;
+		box-shadow: 0px -3px 3px rgba(0, 0, 0, 0.4);
+	}
+
+	.sf_list {
+		overflow: hidden;
+		max-width: 730px;
+		padding: 0;
+		margin: 0 auto;
+		display: flex;
+		flex-flow: row wrap;
+		li {
+			justify-content: flex-end;
+			box-sizing: border-box;
+			display: flex;
+			align-items: center;
+			width: 125px;
+			height: 91px;
+			margin: 0 0 0 3.1%;
+			text-align: center;
+			border-radius: 4px;
+			border: 3px solid #f1d365;
+			box-sizing: border-box;
+			figure {
+				margin: 0 auto;
+				line-height: 0;
+			}
+			a {
+				display: block;
+				padding: 26px 0;
+				margin: 0 auto;
+				box-sizing: border-box;
+			}
+
+
+			&:nth-child(1) {
+				margin: 0;
+				figure {
+					width: 87px;
+				}
+				a {
+					padding: 20px 13px;
+				}
+			}
+			&:nth-child(2) {
+				figure {
+					width: 101px;
+				}
+				a {
+					padding: 32px 8px;
+				}
+			}
+			&:nth-child(3) {
+				figure {
+					width: 84px;
+				}
+				a {
+					padding: 17px 18px;
+				}
+			}
+
+			&:nth-child(4) {
+				figure {
+					width: 107px;
+				}
+				a {
+					padding: 31px 6px;
+				}
+			}
+
+			&:nth-child(5) {
+				figure {
+					width: 104px;
+				}
+				a {
+					padding: 17px 8px;
+				}
+			}
+		}
+		.active {
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/bdca13f37d6785d982e1e9063f731a48_ffcfc4a16e0e77b46e68892766a2552a.png) center center no-repeat;
+			border: none !important;
+		}
+	}
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+	.th_fix {
+		.wrap {
+			max-width: 100%;
+			padding: 4.2% 3% 3.5%;
+			margin: 0 auto;
+			box-shadow: 0px -3px 3px rgba(0, 0, 0, 0.4);
+		}
+
+		.sf_list {
+			display: flex;
+			flex-flow: row wrap;
+			max-width: 100%;
+			li {
+				width: 18%;
+				height: auto;
+				margin: 0 0 0 2.5%;
+				border-radius: 3px;
+				border: 2px solid #f1d365;
+				a {
+					padding: 11.26% 0;
+				}
+
+				&:nth-child(1) {
+					margin: 0;
+					figure {
+						width: 100%;
+						max-width: 87px;
+					}
+					a {
+						padding: 22.26% 14%;
+					}
+				}
+				&:nth-child(2) {
+					figure {
+						width: 100%;
+						max-width: 101px;
+					}
+					a {
+						padding: 26.26% 9.5%;
+					}
+				}
+				&:nth-child(3) {
+					figure {
+						width: 100%;
+						max-width: 84px;
+					}
+					a {
+						padding: 13.5% 16%;
+					}
+				}
+				&:nth-child(4) {
+					figure {
+						width: 100%;
+						max-width: 107px;
+					}
+					a {
+						padding: 25.5% 8%;
+					}
+				}
+				&:nth-child(5) {
+					figure {
+						width: 100%;
+						max-width: 104px;
+					}
+					a {
+						padding: 13.5% 8%;
+					}
+				}
+			}
+			.active {
+				border: none !important;
+				background-size: cover;
+			}
+			.at01 {
+				figure {
+					margin: 0 16%;
+				}
+			}
+			.at02 {
+				figure {
+					margin: 0 11.22%;
+				}
+			}
+			.at03 {
+				figure {
+					margin: 0 17.4%;
+				}
+			}
+			.at04 {
+				figure {
+					margin: 0 8.4%;
+				}
+			}
+			.at05 {
+				figure {
+					margin: 0 9.4%;
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+
+	.th_fix {
+		.wrap {
+			max-width: 100%;
+			padding: 4.2% 3% 3.5%;
+			margin: 0 auto;
+			box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.4);
+		}
+
+		.sf_list {
+			display: flex;
+			flex-flow: row wrap;
+			max-width: 100%;
+			li {
+				width: 18%;
+				height: auto;
+				margin: 0 0 0 2.5%;
+				border-radius: 3px;
+				border: 2px solid #f1d365;
+				a {
+					padding: 11.26% 0;
+				}
+
+				&:nth-child(1) {
+					margin: 0;
+					figure {
+						width: 100%;
+						max-width: 87px;
+					}
+					a {
+						padding: 22.26% 14%;
+					}
+				}
+				&:nth-child(2) {
+					figure {
+						width: 100%;
+						max-width: 101px;
+					}
+					a {
+						padding: 26.26% 9.5%;
+					}
+				}
+				&:nth-child(3) {
+					figure {
+						width: 100%;
+						max-width: 84px;
+					}
+					a {
+						padding: 13.5% 16%;
+					}
+				}
+				&:nth-child(4) {
+					figure {
+						width: 100%;
+						max-width: 107px;
+					}
+					a {
+						padding: 25.5% 8%;
+					}
+				}
+				&:nth-child(5) {
+					figure {
+						width: 100%;
+						max-width: 104px;
+					}
+					a {
+						padding: 13.5% 8%;
+					}
+				}
+			}
+			.active {
+				border: none !important;
+				background-size: cover;
+			}
+			.at01 {
+				figure {
+					margin: 0 16%;
+				}
+			}
+			.at02 {
+				figure {
+					margin: 0 11.22%;
+				}
+			}
+			.at03 {
+				figure {
+					margin: 0 14.4%;
+				}
+			}
+			.at04 {
+				figure {
+					margin: 0 6.4%;
+				}
+			}
+			.at05 {
+				figure {
+					margin: 0 7.4%;
+				}
+			}
+		}
+	}
+}
+
