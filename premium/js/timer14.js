@@ -6,7 +6,7 @@ $(function() {
 function countDown() {
 	var now = new Date();
 
-	var ts01 = new Date("2020/10/09 23:59");
+	var ts01 = new Date("2020/10/08 23:59");
 	if (now.getTime() > ts01.getTime()) {
 		var time = new Date();
 		var end = new Date("2020/11/28 23:59");
