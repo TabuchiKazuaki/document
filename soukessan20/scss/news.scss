@@ -206,7 +206,7 @@ header {
 	text-align: center;
 
 	.h_head {
-		font-size: 25px;
+		font-size: 20px;
 		font-weight: bold;
 		letter-spacing: 1.6px;
 
@@ -248,9 +248,24 @@ header {
 	letter-spacing: 1.5px;
 	text-align: center;
 	color: #fff;
-
 	span {
 		font-size: 80px;
+	}
+}
+
+.c_hh_fi {
+	span {
+		font-size: 64px;
+	}
+}
+.c_hh_se {
+	span {
+		font-size: 51px;
+	}
+}
+.c_hh_th {
+	span {
+		font-size: 45px;
 	}
 }
 .c_hh_no {
@@ -742,7 +757,7 @@ footer {
 		padding: 2.5% 0;
 
 		.h_head {
-			font-size: calc(39vw/12);
+			font-size: calc(33vw/12);
 			letter-spacing: 1.2px;
 		}
 	}
@@ -778,6 +793,21 @@ footer {
 
 		span {
 			font-size: calc(127vw/12);
+		}
+	}
+	.c_hh_fi {
+		span {
+			font-size: calc(87vw/12);
+		}
+	}
+	.c_hh_se {
+		span {
+			font-size: calc(67vw/12);
+		}
+	}
+	.c_hh_th {
+		span {
+			font-size: calc(55vw/12);
 		}
 	}
 	.c_hh_no {
@@ -1188,7 +1218,7 @@ footer {
 		padding: 2.5% 0;
 
 		.h_head {
-			font-size: calc(41vw/12);
+			font-size: calc(33vw/12);
 			letter-spacing: 0.5px;
 		}
 	}
