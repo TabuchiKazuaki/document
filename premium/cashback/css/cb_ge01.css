@@ -17,7 +17,6 @@ body li {
 }
 
 a {
-  -webkit-transition: .3s;
   transition: .3s;
   text-decoration: none;
 }
@@ -194,12 +193,8 @@ img {
 }
 
 .c_ldl {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin: 55px 0 0;
 }
 .c_ldl dd {
@@ -238,8 +233,7 @@ header .h_a {
   background-size: cover;
   height: 444px;
   margin: 0 auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 header .h_wrap {
   position: relative;
@@ -326,9 +320,7 @@ header .h_m {
 }
 .time .t_box .timer {
   display: block;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin: 35px 0 0;
   font-size: 23px;
   font-weight: bold;
@@ -348,8 +340,7 @@ header .h_m {
   letter-spacing: 2.3px;
   line-height: 1;
   color: #ddaa00;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .time .t_box .timer i {
   font-style: inherit;
@@ -744,8 +735,7 @@ header .h_m {
   padding: 0 0 35px;
   margin: 5% 0 0 5.55%;
   border-radius: 9px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .whats .m_box li:first-child {
   margin: 0;
@@ -833,7 +823,6 @@ header .h_m {
   font-size: 36px;
 }
 .w_fe .line {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, transparent), color-stop(80%, #ddaa00));
   background: linear-gradient(transparent 80%, #ddaa00 80%);
 }
 
@@ -910,12 +899,8 @@ header .h_m {
   display: block;
 }
 .contents .c_three .c_tdl {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 .contents .c_three .c_tdl dd {
   width: 53%;
@@ -1049,12 +1034,8 @@ header .h_m {
 }
 
 .saison {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin: 51px 0 0;
 }
 .saison a {
@@ -1063,8 +1044,7 @@ header .h_m {
 .saison dd {
   border: 2px solid #565656;
   max-width: 378px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .saison dt {
   margin: 0 0 0 28px;
@@ -1083,21 +1063,13 @@ header .h_m {
 }
 
 .e_item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  flex-flow: row wrap;
   margin: 48px 0 0;
 }
 .e_item li {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  justify-content: flex-end;
+  box-sizing: border-box;
   width: 25%;
   line-height: 0;
 }
@@ -1869,7 +1841,6 @@ footer small {
     font-size: calc(55vw/12);
   }
   .w_fe .line {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, transparent), color-stop(80%, #ddaa00));
     background: linear-gradient(transparent 80%, #ddaa00 80%);
   }
 
@@ -2370,8 +2341,8 @@ footer small {
     letter-spacing: 0.3px;
   }
   .time .cc_t {
-    letter-spacing: 1.5px;
-    font-size: calc(32vw/12);
+    letter-spacing: 0.5px;
+    font-size: calc(30vw/12);
   }
   .time .t_inner {
     padding: 6% 2.4% 7.5%;
@@ -2790,7 +2761,6 @@ footer small {
     font-size: calc(57vw/12);
   }
   .w_fe .line {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, transparent), color-stop(80%, #ddaa00));
     background: linear-gradient(transparent 80%, #ddaa00 80%);
   }
 
