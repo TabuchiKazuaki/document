@@ -285,19 +285,29 @@ header .h_m {
   color: #fff;
 }
 .c_hh span {
-  font-size: 80px;
+  font-size: 32px;
 }
 
+.c_hh_fi {
+  padding: 25px 0 18px;
+}
 .c_hh_fi span {
-  font-size: 64px;
+  font-size: 32px;
 }
 
 .c_hh_se span {
-  font-size: 51px;
+  font-size: 40px;
 }
 
 .c_hh_th span {
   font-size: 45px;
+}
+
+.c_hh_fo {
+  padding: 25px 0 18px;
+}
+.c_hh_fo span {
+  font-size: 40px;
 }
 
 .c_hh_no {
@@ -817,16 +827,22 @@ footer small {
     font-size: calc(127vw/12);
   }
 
+  .c_hh_fi {
+    padding: 4% 0 2.5%;
+  }
   .c_hh_fi span {
-    font-size: calc(89vw/12);
+    font-size: calc(42vw/12);
   }
 
   .c_hh_se span {
-    font-size: calc(72vw/12);
+    font-size: calc(49vw/12);
   }
 
-  .c_hh_th span {
-    font-size: calc(64vw/12);
+  .c_hh_fo {
+    padding: 4% 0 2.5%;
+  }
+  .c_hh_fo span {
+    font-size: calc(49vw/12);
   }
 
   .c_hh_no {
@@ -1263,12 +1279,22 @@ footer small {
     font-size: calc(130vw/12);
   }
 
+  .c_hh_fi {
+    padding: 4% 0 2.5%;
+  }
   .c_hh_fi span {
-    font-size: calc(90vw/12);
+    font-size: calc(44vw/12);
   }
 
   .c_hh_se span {
-    font-size: calc(74vw/12);
+    font-size: calc(51vw/12);
+  }
+
+  .c_hh_fo {
+    padding: 4% 0 2.5%;
+  }
+  .c_hh_fo span {
+    font-size: calc(51vw/12);
   }
 
   .c_hh_th span {
