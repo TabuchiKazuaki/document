@@ -116,6 +116,19 @@ img {
   color: #000;
 }
 
+.c_no_btn {
+  display: block;
+  background: #2b030e;
+  background-size: 100% auto;
+  padding: 28px 0;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #ababab;
+}
+
 .c_top {
   padding: 0 0 30px;
   margin: 40px 0 0;
@@ -740,6 +753,13 @@ footer small {
     letter-spacing: 0.8px;
   }
 
+  .c_no_btn {
+    padding: 3.9% 0;
+    border-radius: 4px;
+    font-size: calc(50vw/12);
+    letter-spacing: 0.8px;
+  }
+
   .c_top {
     padding: 0 0 3%;
     margin: 6% 0 0;
@@ -1180,6 +1200,13 @@ footer small {
   }
 
   .pre_btn a {
+    padding: 3.7% 0;
+    border-radius: 4px;
+    font-size: calc(52vw/12);
+    letter-spacing: 0.8px;
+  }
+
+  .c_no_btn {
     padding: 3.7% 0;
     border-radius: 4px;
     font-size: calc(52vw/12);
