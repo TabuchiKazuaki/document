@@ -322,6 +322,21 @@ header .h_t {
   max-width: 680px;
   margin: 0 auto;
 }
+.time .t_wrap {
+  max-width: 715px;
+  margin: 0 auto;
+}
+.time .t_box {
+  background: #1a1a1a;
+  padding: 46px 20px 61px;
+  border-radius: 6px;
+}
+.time .w_fig {
+  display: block;
+  max-width: 680px;
+  margin: 47px auto 0;
+  line-height: 0;
+}
 .time .t_date {
   font-size: 20px;
   font-weight: bold;
@@ -659,12 +674,6 @@ header .h_t {
   background-size: 82px 82px;
   width: 82px;
   height: 82px;
-}
-.whats .w_fig {
-  display: block;
-  max-width: 680px;
-  margin: 40px auto 0;
-  line-height: 0;
 }
 .whats .w_mt {
   margin: 50px 0 0;
@@ -1366,6 +1375,10 @@ footer small {
   .time {
     padding: 6.5% 0 8%;
   }
+  .time .t_wrap {
+    max-width: 100%;
+    margin: 0 2.5%;
+  }
   .time .wrap {
     max-width: 100%;
     margin: 0 auto;
@@ -1373,6 +1386,14 @@ footer small {
   .time .t_date {
     font-size: calc(32vw/12);
     letter-spacing: 4px;
+  }
+  .time .t_box {
+    padding: 6.5% 2.5% 7.8%;
+    border-radius: 5px;
+  }
+  .time .w_fig {
+    max-width: 100%;
+    margin: 6.4% auto 0;
   }
   .time .c_box {
     padding: 7% 2.5% 9%;
@@ -1672,10 +1693,6 @@ footer small {
     background-size: 100% 100%;
     width: 13.4%;
     height: 66.13%;
-  }
-  .whats .w_fig {
-    max-width: 680px;
-    margin: 6% auto 0;
   }
   .whats .w_mt {
     margin: 7% 0 0;
@@ -2251,6 +2268,9 @@ footer small {
   .time {
     padding: 6.5% 0 8%;
   }
+  .time .t_wrap {
+    margin: 0 2.5%;
+  }
   .time .wrap {
     max-width: 100%;
     margin: 0 auto;
@@ -2258,6 +2278,13 @@ footer small {
   .time .t_date {
     font-size: calc(34vw/12);
     letter-spacing: 4px;
+  }
+  .time .t_box {
+    padding: 6.5% 2.5% 7.8%;
+    border-radius: 4px;
+  }
+  .time .w_fig {
+    margin: 6.4% auto 0;
   }
   .time .c_box {
     padding: 7% 2.5% 9%;
@@ -2555,9 +2582,6 @@ footer small {
     background-size: 100% 100%;
     width: 13.4%;
     height: 66.13%;
-  }
-  .whats .w_fig {
-    margin: 6% auto 0;
   }
   .whats .w_mt {
     margin: 7% 0 0;

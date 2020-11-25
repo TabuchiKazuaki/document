@@ -285,6 +285,22 @@ header {
 		max-width: 680px;
 		margin: 0 auto;
 	}
+	.t_wrap {
+		max-width: 715px;
+		margin: 0 auto;
+	}
+	.t_box {
+		background: #1a1a1a;
+		padding: 46px 20px 61px;
+		border-radius: 6px;
+	}
+	.w_fig {
+		display: block;
+		max-width: 680px;
+		margin: 47px auto 0;
+		line-height: 0;
+	}
+
 	.t_date {
 		font-size: 20px;
 		font-weight: bold;
@@ -629,12 +645,7 @@ header {
 			height: 82px;
 		}
 	}
-	.w_fig {
-		display: block;
-		max-width: 680px;
-		margin: 40px auto 0;
-		line-height: 0;
-	}
+
 	.w_mt {
 		margin: 50px 0 0;
 		font-size: 34px;
@@ -1335,6 +1346,10 @@ footer {
 
 	.time {
 		padding: 6.5% 0 8%;
+		.t_wrap {
+			max-width: 100%;
+			margin: 0 2.5%;
+		}
 		.wrap {
 			max-width: 100%;
 			margin: 0 auto;
@@ -1342,6 +1357,14 @@ footer {
 		.t_date {
 			font-size: calc(32vw/12);
 			letter-spacing: 4px;
+		}
+		.t_box {
+			padding: 6.5% 2.5% 7.8%;
+			border-radius: 5px;
+		}
+		.w_fig {
+			max-width: 100%;
+			margin: 6.4% auto 0;
 		}
 		.c_box {
 			padding: 7% 2.5% 9%;
@@ -1659,10 +1682,7 @@ footer {
 				height: 66.13%;
 			}
 		}
-		.w_fig {
-			max-width: 680px;
-			margin: 6% auto 0;
-		}
+
 		.w_mt {
 			margin: 7% 0 0;
 			font-size: calc(53vw/12);
@@ -2251,6 +2271,9 @@ footer {
 	}
 	.time {
 		padding: 6.5% 0 8%;
+		.t_wrap {
+			margin: 0 2.5%;
+		}
 		.wrap {
 			max-width: 100%;
 			margin: 0 auto;
@@ -2258,6 +2281,13 @@ footer {
 		.t_date {
 			font-size: calc(34vw/12);
 			letter-spacing: 4px;
+		}
+		.t_box {
+			padding: 6.5% 2.5% 7.8%;
+			border-radius: 4px;
+		}
+		.w_fig {
+			margin: 6.4% auto 0;
 		}
 		.c_box {
 			padding: 7% 2.5% 9%;
@@ -2571,9 +2601,6 @@ footer {
 				width: 13.4%;
 				height: 66.13%;
 			}
-		}
-		.w_fig {
-			margin: 6% auto 0;
 		}
 		.w_mt {
 			margin: 7% 0 0;
