@@ -429,6 +429,12 @@ header .h_t {
   letter-spacing: 1.2px;
   font-size: 17px;
 }
+.time .c_date {
+  margin: 20px 0 0;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+}
 .time .c_box {
   background: #1a1a1a;
   padding: 51px 18px 56px;
@@ -1423,6 +1429,11 @@ footer small {
     margin: 7% auto 0;
     width: 97.1%;
   }
+  .time .c_date {
+    margin: 3.5% 0 0;
+    font-size: calc(29vw/12);
+    letter-spacing: 0.8px;
+  }
   .time .c_box .cb_text {
     margin: 8% 0 0;
     font-size: calc(26vw/12);
@@ -2313,6 +2324,10 @@ footer small {
   .time .c_box .pic {
     margin: 7% auto 0;
     width: 98.5%;
+  }
+  .time .c_date {
+    font-size: calc(29vw/12);
+    letter-spacing: 0.8px;
   }
   .time .c_box .cb_text {
     margin: 8% 0 0;
