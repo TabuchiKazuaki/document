@@ -529,6 +529,12 @@ header {
 				.sin {
 					padding: 25px 0 0;
 				}
+				.sin_mid {
+					padding: 30px 0 0;
+					.ml {
+						font-size: 33px;
+					}
+				}
 
 				&:nth-child(3n+1) {
 					margin: 25px 0 0 0;
@@ -1048,6 +1054,13 @@ footer {
 						margin: 0 0 0 3.5%;
 					}
 				}
+				.sin_mid {
+					padding: 14.3% 0 10.165% !important;
+					.ml {
+						font-size: calc(52vw/12) !important;
+					}
+				}
+
 				.active {
 					a {
 						opacity: 0.8;
@@ -1489,6 +1502,12 @@ footer {
 					}
 					&:nth-child(3) {
 						margin: 0 0 0 3.5%;
+					}
+				}
+				.sin_mid {
+					padding: 14.3% 0 11.01% !important;
+					.ml {
+						font-size: calc(52vw/12) !important;
 					}
 				}
 			}
