@@ -555,7 +555,8 @@ header {
 		color: #ababab;
 	}
 	.ch_text {
-		margin: 47px 0 0;
+		max-width: 680px;
+		margin: 47px auto 0;
 		font-size: 26px;
 		text-align: left;
 		line-height: 1.4;
@@ -1040,6 +1041,7 @@ footer {
 			font-size: calc(41vw/12);
 		}
 		.ch_text {
+			max-width: 100%;
 			margin: 7.5% 5.8% 0;
 			font-size: calc(41vw/12);
 			line-height: 1.4;
