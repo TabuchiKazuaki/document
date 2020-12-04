@@ -341,10 +341,10 @@ header {
 			padding: 11px 18px 12px;
 		}
 		.a02 {
-			padding: 15px 53px 14px;
+			padding: 12px 53px 10px;
 		}
 		.a03 {
-			padding: 14px 46.5px 15px;
+			padding: 12px 46.5px 11px;
 		}
 	}
 }
@@ -1028,11 +1028,15 @@ footer {
 
 
 		.deploy {
+			display: flex;
+			flex-flow: row wrap;
 			max-width: 100%;
 			padding: 0 4%;
 			margin: 6.5% auto 0;
 			box-sizing: border-box;
 			li {
+				justify-content: flex-end;
+				box-sizing: border-box;
 				margin: 0 0 0 3.05%;
 				line-height: 1.5;
 				max-width: 216px;
@@ -1060,7 +1064,7 @@ footer {
 					border: solid #ddb601 3px;
 					letter-spacing: 1.5px;
 					border-radius: 4px;
-					line-height: 1.3;
+					line-height: 1.4;
 					text-shadow: 0.2px 0.2px 0 #ddb601;
 					box-sizing: border-box;
 
@@ -1101,7 +1105,7 @@ footer {
 				padding: 1.55% 7.2% 2%;
 			}
 			.a03 {
-				padding: 1.55% 6.2% 1.75%;
+				padding: 1.55% 6.2% 2.1%;
 			}
 		}
 

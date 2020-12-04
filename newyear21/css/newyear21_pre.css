@@ -370,10 +370,10 @@ header .h_a .h_m {
   padding: 11px 18px 12px;
 }
 .daily .deploy .a02 {
-  padding: 15px 53px 14px;
+  padding: 12px 53px 10px;
 }
 .daily .deploy .a03 {
-  padding: 14px 46.5px 15px;
+  padding: 12px 46.5px 11px;
 }
 
 .line {
@@ -1044,6 +1044,13 @@ footer small {
     font-size: calc(44vw/12);
   }
   .daily .deploy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
     max-width: 100%;
     padding: 0 4%;
     margin: 6.5% auto 0;
@@ -1051,12 +1058,16 @@ footer small {
             box-sizing: border-box;
   }
   .daily .deploy li {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin: 0 0 0 3.05%;
     line-height: 1.5;
     max-width: 216px;
     width: 31.3%;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
   }
   .daily .deploy li:nth-child(1) a {
     padding: 3.2% 14.655% 6.2%;
@@ -1073,7 +1084,7 @@ footer small {
     border: solid #ddb601 3px;
     letter-spacing: 1.5px;
     border-radius: 4px;
-    line-height: 1.3;
+    line-height: 1.4;
     text-shadow: 0.2px 0.2px 0 #ddb601;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -1111,7 +1122,7 @@ footer small {
     padding: 1.55% 7.2% 2%;
   }
   .daily .deploy .a03 {
-    padding: 1.55% 6.2% 1.75%;
+    padding: 1.55% 6.2% 2.1%;
   }
 
   .line {
