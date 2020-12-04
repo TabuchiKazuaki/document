@@ -319,13 +319,14 @@ header .h_a .h_m {
   padding: 11px 20px 12px;
 }
 .daily .deploy li:nth-child(2) a {
-  padding: 11px 47.5px 12px;
+  padding: 8px 47.5px 12px;
 }
 .daily .deploy li:nth-child(3) a {
   padding: 8px 44px 9px;
 }
 .daily .deploy li a {
   display: inline-block;
+  height: 107px;
   padding: 7px 45px 8px;
   border: solid #ddb601 4px;
   letter-spacing: 2.5px;
@@ -334,6 +335,8 @@ header .h_a .h_m {
   line-height: 1.3;
   text-shadow: 0.2px 0.2px 0 #ddb601;
   color: #ddb601;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .daily .deploy li .sec {
   font-size: 23px;
