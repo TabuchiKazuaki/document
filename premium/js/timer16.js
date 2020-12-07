@@ -29,8 +29,8 @@ function countDown() {
 		$('.t_box').show();
 		$('.timer').show();
 	}
-	var bef = new Date("2020/12/13 00:00");
-	if (now.getTime() > bef.getTime()) {
+	var bef02 = new Date("2020/12/13 00:00");
+	if (now.getTime() > bef02.getTime()) {
 		$("#day").hide();
 		$(".tdd").hide();
 	}
