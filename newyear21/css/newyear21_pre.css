@@ -1683,7 +1683,6 @@ footer small {
   .daily .deploy li {
     margin: 0 0 0 3.05%;
     line-height: 1.5;
-    max-width: 216px;
     width: 31.3%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -1698,27 +1697,25 @@ footer small {
     padding: 3.5% 23.4% 5.5%;
   }
   .daily .deploy li a {
-    max-width: 216px;
-    height: auto;
-    border: solid #ddb601 3px;
+    border: solid #ddb601 1.5px;
     letter-spacing: 1.5px;
-    border-radius: 4px;
+    border-radius: 3px;
     line-height: 1.4;
-    text-shadow: 0.2px 0.2px 0 #ddb601;
+    text-shadow: 0.1px 0.1px 0 #ddb601;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
   .daily .deploy li .sec {
-    font-size: calc(34vw/12);
+    font-size: calc(36vw/12);
     letter-spacing: -1.4px;
   }
   .daily .deploy li .sin {
-    font-size: calc(47vw/12);
+    font-size: calc(49vw/12);
   }
   .daily .deploy li .sin .num {
     display: inline-block;
     margin: 0 0.5%;
-    font-size: calc(60vw/12);
+    font-size: calc(62vw/12);
   }
   .daily .deploy .active {
     background: #fedd30;
@@ -1732,7 +1729,7 @@ footer small {
     letter-spacing: -0.5px;
   }
   .daily .deploy .active .sec {
-    text-shadow: 0.2px 0.2px 0 #000;
+    text-shadow: 0.1px 0.1px 0 #000;
   }
   .daily .deploy .a01 {
     padding: 1.7% 0 0.85%;
