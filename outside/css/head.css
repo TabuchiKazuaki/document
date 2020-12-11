@@ -1,0 +1,27 @@
+.h_l {
+  padding: 12px 0 13px 22px;
+}
+.h_l span {
+  display: inline-block;
+  max-width: 140px;
+  line-height: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .h_l {
+    padding: 1.3% 0 1.3% 2.2%;
+  }
+  .h_l span {
+    display: inline-block;
+    max-width: 18.8%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .h_l {
+    padding: 1.3% 0 1.3% 2.2%;
+  }
+  .h_l span {
+    display: inline-block;
+    max-width: 19.2%;
+  }
+}
