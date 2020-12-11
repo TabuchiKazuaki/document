@@ -18,7 +18,7 @@ img  { width: 100%; height: auto;}
 
 
 .fixed {
-	background: rgba(0,0,0,.7);
+	background: rgba(0,0,0,.75);
 	z-index: 10001;
 	position: fixed;
 	right: 0;
@@ -27,6 +27,7 @@ img  { width: 100%; height: auto;}
 	text-align: center;
 	box-sizing: border-box;
 	.wrap {
+		background: none;
 		padding: 27px 0 27px;
 	}
 	.trial_btn {
