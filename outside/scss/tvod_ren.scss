@@ -65,6 +65,30 @@ img  { width: 100%; height: auto;}
 		}
 	}
 }
+
+.pre_btn_sec {
+	a {
+		display: block;
+		background: none;
+		padding: 26px 0;
+		border-radius: 6px;
+		border: 3px solid #ddaa00;
+		text-align: center;
+		font-size: 32px;
+		font-weight: bold;
+		letter-spacing: 1.5px;
+		color: #ddaa00;
+
+		&:hover  {
+			opacity: 1;
+			background: #ddaa00;
+			color: #000;
+		}
+		span {
+			font-size: 34px;
+		}
+	}
+}
 .pre_bb {
 	max-width: 680px;
 	margin: 55px auto 0;
@@ -222,7 +246,7 @@ header {
 		padding: 12px 0 13px 24px;
 	}
 	.h_h {
-		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/4eb6f565a30eaf5233360336c252cab3_1158ba30b935495e5ac09d75ac658c91.png) center center no-repeat;
+		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/64dca7f714fc80df5e565cf8575838ae_8a6afaf92fa897f9b9b9aedc1a1442ed.jpg) center center no-repeat;
 		height: 423px;
 		padding: 123px 0 0;
 		margin: 0 auto 0;
@@ -242,6 +266,12 @@ header {
 	.wrap {
 		padding: 0 0 56px;
 	}
+	.c_tt {
+		padding: 63px 0 0;
+		font-size: 28px;
+		letter-spacing: 1.3px;
+		color: #fff;
+	}
 	.bn {
 		display: inline-block;
 		background: #ddaa00;
@@ -255,8 +285,104 @@ header {
 			font-size: 35px;
 		}
 	}
+
+	.c_head {
+		margin: 40px 0 0;
+		font-size: 40px;
+		letter-spacing: 2.2px;
+		line-height: 1.4;
+		text-shadow: 0.3px 0.3px 0 #fff;
+		.ss {
+			font-size: 32px;
+		}
+		.ll {
+			font-size: 54px;
+		}
+		.cl {
+			text-shadow: 0.3px 0.3px 0 #ddaa00;
+		}
+		.num {
+			font-size: 54px;
+			letter-spacing: 2.5px;
+		}
+		.ls {
+			display: inline-block;
+			margin: 0 0 0 3px;
+			font-size: 37px;
+		}
+	}
+	.c_head_se {
+		margin: 30px 0 0;
+		font-size: 56px;
+		letter-spacing: 2.2px;
+		line-height: 1.4;
+		text-shadow: 0.3px 0.3px 0 #fff;
+		.num {
+			font-size: 59px;
+		}
+		.md {
+			font-size: 48px;
+		}
+		.ss {
+			font-size: 32px;
+		}
+		.cl {
+			text-shadow: 0.3px 0.3px 0 #ddaa00;
+		}
+	}
+	.c_list {
+		overflow: hidden;
+		padding: 50px 20px 50px;
+		border-bottom: 1px solid #606060;
+		li {
+			float: left;
+			width: 46%;
+			margin: 0 0 0 50px;
+			a {
+				display: block;
+			}
+
+			&:first-child {
+				margin: 0;
+			}
+		}
+		&:first-of-type {
+			padding: 35px 20px 50px;
+		}
+	}
+	.c_more {
+		margin: 50px 0 0;
+		font-size: 30px;
+		font-weight: bold;
+		line-height: 1.3;
+		color: #fff;
+	}
+	.c_cau {
+		margin: 22px 0 0;
+		text-align: center;
+		font-size: 18px;
+		letter-spacing: 1.2px;
+		color: #cecece;
+	}
+
+	.c_box {
+		margin: 58px 0 0;
+		padding: 50px 0 0;
+		border-top: 1px solid #606060;
+		.cb_t {
+			font-size: 24px;
+			letter-spacing: 1.2px;
+		}
+		.cb_img {
+			max-width: 675px;
+			margin: 58px auto 0;
+			line-height: 0;
+		}
+	}
+
+
 	.ch_fig {
-		max-width: 526px;
+		max-width: 569px;
 		margin: 45px auto 0;
 		line-height: 0;
 	}
@@ -269,12 +395,17 @@ header {
 		line-height: 0;
 	}
 	.p_text {
-		margin: 18px 0 0;
+		margin: 45px 0 0;
 		letter-spacing: 1px;
-		line-height: 1.75;
-		text-align: left;
-		font-size: 23px;
+		line-height: 1.35;
+		text-align: center;
+		font-size: 30px;
+		font-weight: bold;
 		color: #fff;
+
+		span {
+			font-size: 24px;
+		}
 	}
 
 
@@ -553,11 +684,12 @@ header {
 
 
 aside {
+	background: #000;
 	text-align: left;
 	.wrap {
 		max-width: 680px;
 		padding: 0 0 60px;
-		margin: 90px auto 0;
+		margin: 0 auto 0;
 	}
 	.f_d {
 		dt {
@@ -844,7 +976,7 @@ footer {
 			width: 18.8%;
 		}
 		.h_h {
-			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/29d0a63f11a27d508aeecce7e63c959a_964e126cb5d41ace3a751b0f8fd38104.png) center center no-repeat;
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/c0f445a73d985d8d2afbe4672a51b6fe_c33928375a9abeb5e0ea18d47184b3cd.jpg) center center no-repeat;
 			background-size: cover;
 			height: auto;
 			padding: 15% 0 17.5%;
@@ -872,6 +1004,11 @@ footer {
 		text-align: center;
 		.wrap {
 			padding: 0 4.5% 7.5%;
+		}
+		.c_tt {
+			font-size: 28px;
+			letter-spacing: 1.3px;
+			color: #fff;
 		}
 		.bn {
 			display: inline-block;
