@@ -1292,7 +1292,7 @@ footer {
 				dt {
 					width: 40%;
 					margin: 0 0 0 4%;
-					font-size: 24px;
+					font-size: calc(38vw/12);
 					line-height: 1.5;
 
 					.r_ba {
@@ -1316,7 +1316,6 @@ footer {
 			li {
 				&:first-child {
 					padding: 6.5% 0 6.5%;
-					border-top: 1px solid #606060;
 				}
 			}
 			.r_rdl {
@@ -1972,6 +1971,56 @@ footer {
 					border-radius: 3px;
 					font-size: calc(33vw/12);
 					letter-spacing: 0.6px;
+				}
+			}
+		}
+		.r_item {
+			li {
+				padding: 6.5% 0 6.5%;
+				&:first-child {
+					padding: 0 0 6.5%;
+				}
+			}
+
+			.r_dl {
+				dd {
+					width: 56%;
+				}
+				dt {
+					width: 40%;
+					margin: 0 0 0 4%;
+					font-size: calc(40vw/12);
+					line-height: 1.5;
+
+					.r_ba {
+						display: inline-block;
+						padding: 1.5% 3.2% 3.3%;
+						margin: 0 0 4%;
+						font-size: calc(54vw/12);
+						.ra {
+							display: inline-block;
+							margin: 0 0 0 3.5%;
+							font-size: calc(41vw/12);
+						}
+					}
+				}
+			}
+		}
+		.l_row {
+			padding: 0;
+
+			li {
+				&:first-child {
+					padding: 6.5% 0 6.5%;
+				}
+			}
+			.r_rdl {
+				dd {
+					width: 47%;
+				}
+				dt {
+					width: 49%;
+					margin: 0 0 0 4%;
 				}
 			}
 		}
