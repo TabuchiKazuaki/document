@@ -362,6 +362,11 @@ header .h_h h2 {
 .contents .c_head_se .cl {
   text-shadow: 0.3px 0.3px 0 #ddaa00;
 }
+.contents .c_head_se .ls {
+  display: inline-block;
+  margin: 0 0 0 7px;
+  font-size: 57px;
+}
 .contents .c_list {
   overflow: hidden;
   padding: 50px 20px 50px;
@@ -948,6 +953,11 @@ footer small {
   .contents .c_head_se .cl {
     text-shadow: 0.3px 0.3px 0 #ddaa00;
   }
+  .contents .c_head_se .ls {
+    display: inline-block;
+    margin: 0 0 0 0.6%;
+    font-size: calc(89vw/12);
+  }
   .contents .c_list {
     padding: 7% 3.5%;
   }
@@ -1393,6 +1403,11 @@ footer small {
   }
   .contents .c_head_se .cl {
     text-shadow: 0.2px 0.2px 0 #ddaa00;
+  }
+  .contents .c_head_se .ls {
+    display: inline-block;
+    margin: 0 0 0 0.6%;
+    font-size: calc(90vw/12);
   }
   .contents .c_list {
     padding: 6.5% 3.5%;
