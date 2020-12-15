@@ -407,9 +407,30 @@ header {
 		font-size: 30px;
 		font-weight: bold;
 		color: #fff;
-
-		span {
+	}
+	.pt_dl {
+		padding: 0 32px;
+		margin: 15px 0 0;
+		line-height: 1.4;
+		text-align: left;
+		dt {
+			text-align: center;
+			font-weight: bold;
 			font-size: 24px;
+		}
+		dd {
+			position: relative;
+			padding: 0 0 0 2.5rem;
+			margin: 8px 0 0;
+			font-size: 17px;
+
+			&:before {
+				content: '※';
+				position: absolute;
+				top: 0;
+				left: 0;
+				padding: 0 0 0 1rem;
+			}
 		}
 	}
 
@@ -989,8 +1010,22 @@ footer {
 			letter-spacing: 0.7px;
 			line-height: 1.5;
 			font-size: calc(51vw/12);
-			span {
-				font-size: calc(37vw/12);
+		}
+		.pt_dl {
+			padding: 0 5%;
+			margin: 2.5% 0 0;
+			line-height: 1.4;
+			dt {
+				font-size: calc(38vw/12);
+			}
+			dd {
+				padding: 0 0 0 2.5rem;
+				margin: 1.5% 0 0;
+				font-size: calc(27vw/12);
+
+				&:before {
+					padding: 0 0 0 1rem;
+				}
 			}
 		}
 
@@ -1446,6 +1481,24 @@ footer {
 			font-size: calc(53vw/12);
 			span {
 				font-size: calc(39vw/12);
+			}
+		}
+
+		.pt_dl {
+			padding: 0 1%;
+			margin: 2.5% 0 0;
+			line-height: 1.4;
+			dt {
+				font-size: calc(40vw/12);
+			}
+			dd {
+				padding: 0 0 0 1.9rem;
+				margin: 1.5% 0 0;
+				font-size: calc(29vw/12);
+
+				&:before {
+					padding: 0 0 0 1rem;
+				}
 			}
 		}
 
