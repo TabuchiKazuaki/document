@@ -411,7 +411,7 @@ header {
 
 	.l_i {
 		background: #fff;
-		padding: 50px 18px 60px;
+		padding: 50px 18px 0;
 		border-radius: 6px;
 
 		.l_date {
@@ -456,7 +456,7 @@ header {
 		}
 	}
 	.r_item {
-		padding: 52px 0 0;
+		padding: 0;
 		li {
 			padding: 46px 0 46px;
 			border-top: 1px solid #606060;
@@ -503,7 +503,6 @@ header {
 		a {
 			display: block;
 		}
-
 	}
 	.l_row {
 		padding: 0;
@@ -1233,11 +1232,26 @@ footer {
 		.wrap {
 			max-width: 100%;
 			padding: 0 2.5%;
+
 			.l_h {
 				padding: 4% 0 0;
 				font-size: calc(66vw/12);
-				letter-spacing: 1.2px;
-				line-height: 1;
+				letter-spacing: 0.9px;
+
+				.img {
+					display: inline-block;
+					width: 51.9%;
+					margin: 0 auto 3.4%;
+				}
+				.num {
+					font-size: calc(68vw/12);
+				}
+			}
+			.lh_ss {
+				font-size: calc(54vw/12);
+				.num {
+					font-size: calc(58vw/12);
+				}
 			}
 		}
 
@@ -1261,16 +1275,62 @@ footer {
 			li {
 				margin: 0 0 0 3.5%;
 			}
-			.free {
-				&:before {
-					display: inline-block;
-					top: 2.5%;
-					left: 27%;
-					background: #f0163a;
-					padding: 1.8% 3.6%;
-					border-radius: 5px;
-					font-size: calc(31vw/12);
-					letter-spacing: 1.2px;
+		}
+		.r_item {
+			li {
+				padding: 6.5% 0 6.5%;
+				&:first-child {
+					padding: 0 0 6.5%;
+				}
+			}
+
+			.r_dl {
+				dd {
+					width: 56%;
+				}
+				dt {
+					width: 40%;
+					margin: 0 0 0 4%;
+					font-size: 24px;
+					line-height: 1.5;
+
+					.r_ba {
+						display: inline-block;
+						background: #f80000;
+						padding: 4px 9px 10px;
+						margin: 0 0 15px;
+						font-weight: bold;
+						font-size: 32px;
+						line-height: 1;
+						color: #fff;
+						.ra {
+							display: inline-block;
+							margin: 0 0 0 3px;
+							font-size: 25px;
+						}
+					}
+				}
+			}
+			a {
+				display: block;
+			}
+		}
+		.l_row {
+			padding: 0;
+
+			li {
+				&:first-child {
+					padding: 46px 0 46px;
+					border-top: 1px solid #606060;
+				}
+			}
+			.r_rdl {
+				dd {
+					width: 47%;
+				}
+				dt {
+					width: 49%;
+					margin: 0 0 0 4%;
 				}
 			}
 		}
@@ -1869,8 +1929,22 @@ footer {
 			.l_h {
 				padding: 4% 0 0;
 				font-size: calc(68vw/12);
-				letter-spacing: 0.6px;
-				line-height: 1;
+				letter-spacing: 0.5px;
+
+				.img {
+					display: inline-block;
+					width: 53.9%;
+					margin: 0 auto 3.4%;
+				}
+				.num {
+					font-size: calc(70vw/12);
+				}
+			}
+			.lh_ss {
+				font-size: calc(56vw/12);
+				.num {
+					font-size: calc(60vw/12);
+				}
 			}
 		}
 

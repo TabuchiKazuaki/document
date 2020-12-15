@@ -435,7 +435,7 @@ header .h_a .h_m {
 }
 .line .l_i {
   background: #fff;
-  padding: 50px 18px 60px;
+  padding: 50px 18px 0;
   border-radius: 6px;
 }
 .line .l_i .l_date {
@@ -482,7 +482,7 @@ header .h_a .h_m {
   color: #fff;
 }
 .line .r_item {
-  padding: 52px 0 0;
+  padding: 0;
 }
 .line .r_item li {
   padding: 46px 0 46px;
@@ -1246,8 +1246,21 @@ footer small {
   .line .wrap .l_h {
     padding: 4% 0 0;
     font-size: calc(66vw/12);
-    letter-spacing: 1.2px;
-    line-height: 1;
+    letter-spacing: 0.9px;
+  }
+  .line .wrap .l_h .img {
+    display: inline-block;
+    width: 51.9%;
+    margin: 0 auto 3.4%;
+  }
+  .line .wrap .l_h .num {
+    font-size: calc(68vw/12);
+  }
+  .line .wrap .lh_ss {
+    font-size: calc(54vw/12);
+  }
+  .line .wrap .lh_ss .num {
+    font-size: calc(58vw/12);
   }
   .line .l_i {
     padding: 7% 2.5% 8%;
@@ -1273,15 +1286,52 @@ footer small {
   .line .l_item li {
     margin: 0 0 0 3.5%;
   }
-  .line .l_item .free:before {
+  .line .r_item li {
+    padding: 6.5% 0 6.5%;
+  }
+  .line .r_item li:first-child {
+    padding: 0 0 6.5%;
+  }
+  .line .r_item .r_dl dd {
+    width: 56%;
+  }
+  .line .r_item .r_dl dt {
+    width: 40%;
+    margin: 0 0 0 4%;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  .line .r_item .r_dl dt .r_ba {
     display: inline-block;
-    top: 2.5%;
-    left: 27%;
-    background: #f0163a;
-    padding: 1.8% 3.6%;
-    border-radius: 5px;
-    font-size: calc(31vw/12);
-    letter-spacing: 1.2px;
+    background: #f80000;
+    padding: 4px 9px 10px;
+    margin: 0 0 15px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1;
+    color: #fff;
+  }
+  .line .r_item .r_dl dt .r_ba .ra {
+    display: inline-block;
+    margin: 0 0 0 3px;
+    font-size: 25px;
+  }
+  .line .r_item a {
+    display: block;
+  }
+  .line .l_row {
+    padding: 0;
+  }
+  .line .l_row li:first-child {
+    padding: 46px 0 46px;
+    border-top: 1px solid #606060;
+  }
+  .line .l_row .r_rdl dd {
+    width: 47%;
+  }
+  .line .l_row .r_rdl dt {
+    width: 49%;
+    margin: 0 0 0 4%;
   }
   .line .l_more {
     margin: 7% 0 0;
@@ -1850,8 +1900,21 @@ footer small {
   .line .wrap .l_h {
     padding: 4% 0 0;
     font-size: calc(68vw/12);
-    letter-spacing: 0.6px;
-    line-height: 1;
+    letter-spacing: 0.5px;
+  }
+  .line .wrap .l_h .img {
+    display: inline-block;
+    width: 53.9%;
+    margin: 0 auto 3.4%;
+  }
+  .line .wrap .l_h .num {
+    font-size: calc(70vw/12);
+  }
+  .line .wrap .lh_ss {
+    font-size: calc(56vw/12);
+  }
+  .line .wrap .lh_ss .num {
+    font-size: calc(60vw/12);
   }
   .line .l_i {
     padding: 7% 2.5% 8%;
