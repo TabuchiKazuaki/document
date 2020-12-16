@@ -8,7 +8,9 @@ function countDown() {
 	var bef02 = new Date("2020/10/01 23:59");
 	if (now.getTime() > bef02.getTime()) {
 		$(".h_be").show();
-		$(".h_a").hide();
+		$(".h_a").();
+		$(".bt01be").hide();
+		$(".bt01be").show();
 	}
 	var aft = new Date("2021/01/01 00:00");
 	if (now.getTime() > aft.getTime()) {
