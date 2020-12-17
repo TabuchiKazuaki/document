@@ -640,24 +640,92 @@ header .h_a .h_m {
   border-radius: 50%;
 }
 .contents .c_bagg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 32px 0 0;
 }
 .contents .c_bagg li {
+  display: inline-block;
+  margin: 0 0 0 15px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.1px;
+  white-space: nowrap;
+  color: #fff;
+}
+.contents .c_bagg li:first-child {
+  margin: 0;
+}
+.contents .c_bagg .new {
+  display: inline-block;
+  background: #f68f09;
+  padding: 5px 8px;
+  margin: 0 0 0 15px;
+  border-radius: 4px;
+}
+.contents .c_bagg .pop {
+  display: inline-block;
+  background: #e20dea;
+  padding: 5px 8px;
+  margin: 0 0 0 15px;
+  border-radius: 4px;
+}
+.contents .c_bagg .ppv {
+  display: inline-block;
+  background: #00c791;
+  padding: 5px 8px;
+  margin: 0 0 0 15px;
+  border-radius: 4px;
+}
+.contents .c_bagg .ny {
+  display: inline-block;
+  background: #e20dea;
+  padding: 5px 8px;
+  margin: 0 0 0 15px;
+  border-radius: 4px;
+}
+.contents .c_bagg .doc {
+  display: inline-block;
+  background: #7300e9;
+  padding: 5px 8px;
+  margin: 0 0 0 15px;
+  border-radius: 4px;
+}
+.contents .c_bagg .ori {
+  display: inline-block;
+  background: #3c33f4;
+  padding: 5px 8px;
+  margin: 0 0 0 15px;
+  border-radius: 4px;
+}
+.contents .c_bagg .dbg {
   display: inline-block;
   background: #f01639;
   padding: 5px 8px;
   margin: 0 0 0 15px;
   border-radius: 4px;
   font-size: 20px;
-  font-weight: bold;
-  letter-spacing: 1.3px;
   color: #fff;
 }
-.contents .c_bagg li:first-child {
-  margin: 0;
+.contents .c_bagg .txt {
+  margin: 0 0 0 15px;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  color: #f01639;
 }
 .contents .c_bagg .pr {
+  display: inline-block;
   background: #000;
+  padding: 5px 8px;
+  margin: 0 0 0 15px;
+  border-radius: 4px;
+  font-size: 20px;
+  letter-spacing: 1.1px;
+  color: #fff;
 }
 .contents .c_bagg .pr .cl {
   color: #ddaa00;
