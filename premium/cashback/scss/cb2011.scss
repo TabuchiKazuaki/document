@@ -211,16 +211,18 @@ header {
 
 .tb {
 	margin: 48px auto 0;
-	border: solid 1px #5f5f5f;
-	border-spacing: 0;
-	border-radius: 8px;
+	border: 1px solid #5f5f5f;
 	border-collapse: separate;
+	border-radius: 5px;
+	border-spacing: 0;
 
 	th {
 		background: #1f2020;
 		line-height: 1;
 		font-weight: normal;
+		border-right: 1px solid #5f5f5f;
 		box-sizing: border-box;
+
 		.pr {
 			max-width: 159px;
 			margin: 0 auto;
@@ -233,7 +235,7 @@ header {
 			box-sizing: border-box;
 			text-align: left;
 			font-size: 19px;
-			letter-spacing: 1.4px;
+			letter-spacing: 1.3px;
 		}
 		&:nth-child(2) {
 			width: 190px;
@@ -261,9 +263,11 @@ header {
 	}
 	.f_lb {
 		border-radius: 0 0 0 6px;
+		border-bottom: none;
 	}
 	.f_rb {
 		border-radius: 0 0 6px 0;
+		border-bottom: none;
 	}
 	.ll {
 		font-size: 24px!important;
@@ -281,10 +285,14 @@ header {
 
 		&:nth-child(2) {
 			padding: 20px 0;
+			border-right: 1px solid #5f5f5f;
 		}
 		&:nth-child(3) {
 			padding: 20px 0;
 		}
+	}
+	.b_no {
+		border-bottom: none!important;
 	}
 	.line {
 		img {
@@ -293,7 +301,7 @@ header {
 		}
 	}
 	th, td {
-		border: solid 1px #5f5f5f;
+		border-bottom: 1px solid #5f5f5f;
 	}
 }
 
@@ -1829,7 +1837,7 @@ footer {
 				padding: 4% 0 4% 3.8%;
 				box-sizing: border-box;
 				font-size: calc(31vw/12);
-				letter-spacing: 1.4px;
+				letter-spacing: 1.1px;
 			}
 			&:nth-child(2) {
 				max-width: 190px;
@@ -1913,9 +1921,6 @@ footer {
 			margin: 0 auto;
 			padding: 0 2.5%;
 		}
-
-
-
 
 		.c_three {
 			margin: 9.45% 0 0;
@@ -2752,21 +2757,22 @@ footer {
 		margin: 6.5% auto 0;
 		border-radius: 4px;
 
+
 		th {
 			.pr {
 				width: 88.2%;
 			}
 
 			&:nth-child(1) {
-				width: 45%;
+				width: 47%;
 				padding: 4% 0 4% 3.8%;
 				box-sizing: border-box;
 				font-size: calc(32vw/12);
-				letter-spacing: 0.7px;
+				letter-spacing: 0.3px;
 			}
 			&:nth-child(2) {
 				max-width: 190px;
-				width: 27.5%;
+				width: 26.5%;
 				max-height: 100%;
 				padding: 3% 0;
 				line-height: 1.4;
@@ -2775,7 +2781,7 @@ footer {
 			}
 			&:nth-child(3) {
 				max-width: 190px;
-				width: 27.5%;
+				width: 26.5%;
 				padding: 3% 0 3% 0;
 				line-height: 0.5;
 				font-size: calc(34vw/12);
@@ -2817,6 +2823,7 @@ footer {
 		.line {
 			img {
 				width: 16%;
+				padding: 0 0 4%;
 			}
 		}
 	}

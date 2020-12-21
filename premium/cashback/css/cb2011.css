@@ -250,15 +250,16 @@ header .h_m {
 
 .tb {
   margin: 48px auto 0;
-  border: solid 1px #5f5f5f;
-  border-spacing: 0;
-  border-radius: 8px;
+  border: 1px solid #5f5f5f;
   border-collapse: separate;
+  border-radius: 5px;
+  border-spacing: 0;
 }
 .tb th {
   background: #1f2020;
   line-height: 1;
   font-weight: normal;
+  border-right: 1px solid #5f5f5f;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -274,7 +275,7 @@ header .h_m {
           box-sizing: border-box;
   text-align: left;
   font-size: 19px;
-  letter-spacing: 1.4px;
+  letter-spacing: 1.3px;
 }
 .tb th:nth-child(2) {
   width: 190px;
@@ -302,9 +303,11 @@ header .h_m {
 }
 .tb .f_lb {
   border-radius: 0 0 0 6px;
+  border-bottom: none;
 }
 .tb .f_rb {
   border-radius: 0 0 6px 0;
+  border-bottom: none;
 }
 .tb .ll {
   font-size: 24px !important;
@@ -322,16 +325,20 @@ header .h_m {
 }
 .tb td:nth-child(2) {
   padding: 20px 0;
+  border-right: 1px solid #5f5f5f;
 }
 .tb td:nth-child(3) {
   padding: 20px 0;
+}
+.tb .b_no {
+  border-bottom: none !important;
 }
 .tb .line img {
   max-width: 26px;
   line-height: 0;
 }
 .tb th, .tb td {
-  border: solid 1px #5f5f5f;
+  border-bottom: 1px solid #5f5f5f;
 }
 
 .c_hh {
@@ -1845,7 +1852,7 @@ footer small {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     font-size: calc(31vw/12);
-    letter-spacing: 1.4px;
+    letter-spacing: 1.1px;
   }
   .tb th:nth-child(2) {
     max-width: 190px;
@@ -2738,16 +2745,16 @@ footer small {
     width: 88.2%;
   }
   .tb th:nth-child(1) {
-    width: 45%;
+    width: 47%;
     padding: 4% 0 4% 3.8%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     font-size: calc(32vw/12);
-    letter-spacing: 0.7px;
+    letter-spacing: 0.3px;
   }
   .tb th:nth-child(2) {
     max-width: 190px;
-    width: 27.5%;
+    width: 26.5%;
     max-height: 100%;
     padding: 3% 0;
     line-height: 1.4;
@@ -2757,7 +2764,7 @@ footer small {
   }
   .tb th:nth-child(3) {
     max-width: 190px;
-    width: 27.5%;
+    width: 26.5%;
     padding: 3% 0 3% 0;
     line-height: 0.5;
     font-size: calc(34vw/12);
@@ -2794,6 +2801,7 @@ footer small {
   }
   .tb .line img {
     width: 16%;
+    padding: 0 0 4%;
   }
 
   .c_hh {
