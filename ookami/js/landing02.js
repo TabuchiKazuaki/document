@@ -99,6 +99,44 @@ $(document).ready(function() {
 		  $(activeTab).fadeIn();
 		  return false;
 	});
+	$(".tab_content09").hide();//全ての.tab_contentを非表示
+	$("ul.thumb09 li:first a").addClass("active").show();//tabs内最初のliに.activeを追加
+	$(".tab_content09:first").show();//最初の.tab_contentを表示
+	//タブクリック時
+	$("ul.thumb09 li").click(function() {
+		  $("ul.thumb09 li a").removeClass("active");//.activeを外す
+		  $(this).children('a').addClass("active");//クリックタブに.activeを追加
+		  $(".tab_content09").hide();
+		  var activeTab = $(this).find("a").attr("href");
+		  $(activeTab).fadeIn();
+		  return false;
+	});
+
+	$(".tab_content10").hide();//全ての.tab_contentを非表示
+	$("ul.thumb10 li:first a").addClass("active").show();//tabs内最初のliに.activeを追加
+	$(".tab_content10:first").show();//最初の.tab_contentを表示
+	//タブクリック時
+	$("ul.thumb10 li").click(function() {
+		  $("ul.thumb10 li a").removeClass("active");//.activeを外す
+		  $(this).children('a').addClass("active");//クリックタブに.activeを追加
+		  $(".tab_content10").hide();
+		  var activeTab = $(this).find("a").attr("href");
+		  $(activeTab).fadeIn();
+		  return false;
+	});
+
+	$(".tab_content11").hide();//全ての.tab_contentを非表示
+	$("ul.thumb11 li:first a").addClass("active").show();//tabs内最初のliに.activeを追加
+	$(".tab_content11:first").show();//最初の.tab_contentを表示
+	//タブクリック時
+	$("ul.thumb11 li").click(function() {
+		  $("ul.thumb11 li a").removeClass("active");//.activeを外す
+		  $(this).children('a').addClass("active");//クリックタブに.activeを追加
+		  $(".tab_content11").hide();
+		  var activeTab = $(this).find("a").attr("href");
+		  $(activeTab).fadeIn();
+		  return false;
+	});
 
 
 	var now = new Date();
