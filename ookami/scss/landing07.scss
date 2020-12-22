@@ -123,9 +123,11 @@ header {
 		margin: 0 auto;
 	}
 	.j_wrap {
-		background: #000;
-		margin: 0 auto;
+		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/383672/8f6535501fd8d7c8ebed2457cb624b68_1eb152f33508af8f9ea4d84182c48111.jpg) center center no-repeat;
 		background-size: cover;
+		max-width: 1920px;
+		height: 410px;
+		margin: 0 auto;
 		box-sizing: border-box;
 	}
 	.header_logo {
@@ -140,6 +142,20 @@ header {
 		line-height: 0;
 
 	}
+}
+.nbagg {
+	display: inline-block;
+	background: #ec2840;
+	padding: 3px 10px;
+	margin: 0 8px 0 0;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: bold;
+	vertical-align: bottom;
+	letter-spacing: 2px;
+	text-align: center;
+	line-height: 1.2;
+	color: #fff;
 }
 .contents {
 	background: #fff;
@@ -194,8 +210,8 @@ header {
 			line-height: 1.2;
 			color: #fff;
 		}
-
 	}
+
 	dl {
 		padding: 33px 0 0;
 		dt {
@@ -219,6 +235,7 @@ header {
 		line-height: 0;
 	}
 	.large {
+		margin: 25px 0 0;
 	}
 	.thumb {
 		// overflow: hidden;
@@ -539,6 +556,10 @@ footer {
 			padding: 5.2% 0;
 		}
 		.j_wrap {
+			background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/383672/c8b30d008c2c531c36409ac7128c800b_b6f8a6733de0bb39693ec8bd51f97192.jpg) center center no-repeat;
+			background-size: cover;
+			padding: 27.5% 0 27.5%;
+			max-height: 412px;
 			height: auto;
 		}
 		.header_logo {
@@ -548,6 +569,13 @@ footer {
 		.h_t {
 			margin: 0 auto;
 		}
+	}
+	.nbagg {
+		padding: 0.3% 1.5% 0.4%;
+		margin: 0 2% 0 0;
+		border-radius: 3px;
+		font-size: calc(25vw/12);
+		letter-spacing: 1.5px;
 	}
 	.contents {
 		padding: 4% 0 5.3%;
@@ -559,7 +587,7 @@ footer {
 		}
 		.c_t {
 			font-size: calc(38vw/12);
-			letter-spacing: 1.2px;
+			letter-spacing: 0.8px;
 			line-height: 1.25;
 			.num {
 				font-size: calc(42vw/12);
@@ -873,6 +901,10 @@ footer {
 		.wrap {
 		}
 		.j_wrap {
+			background-size: cover;
+			padding: 28% 0 27.5%;
+			max-height: 412px;
+			height: auto;
 		}
 		.header_logo {
 			width: 19.2%;
@@ -882,12 +914,19 @@ footer {
 			margin: 0 auto;
 		}
 	}
+	.nbagg {
+		padding: 0.6% 1.5% 0.6%;
+		margin: 0 2% 0 0;
+		border-radius: 3px;
+		font-size: calc(25vw/12);
+		letter-spacing: 1.5px;
+	}
 	.contents {
 		padding: 4% 0 5.3%;
 		.c_t {
 			font-size: calc(39vw/12);
-			letter-spacing: 1.2px;
-			line-height: 1.25;
+			letter-spacing: 0.5px;
+			line-height: 1.3;
 			.num {
 				font-size: calc(44vw/12);
 			}
