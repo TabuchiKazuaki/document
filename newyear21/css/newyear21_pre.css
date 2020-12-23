@@ -504,6 +504,8 @@ header .h_a .h_m {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  width: 105%;
+  margin: 10px 0 0 -2.5% !important;
 }
 .line .r_list li {
   -webkit-box-pack: end;
@@ -1648,6 +1650,10 @@ footer small {
   }
   .line .thrid_i {
     padding: 7% 2.5% 7.5% !important;
+  }
+  .line .r_list {
+    width: 105%;
+    margin: 1.8% 0 0 -2.5% !important;
   }
   .line .r_list li {
     width: 30.6%;
