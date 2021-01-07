@@ -18,6 +18,11 @@
 		.blog-item--index0 {
 			padding: 0 0 40px !important;
 		}
+		.blog-list__item {
+			&:last-of-type {
+				padding: 0;
+			}
+		}
 
 		.blog-item__img {
 			margin: 20px 0 0;
@@ -48,6 +53,11 @@
 		}
 		.blog-item--index0 {
 			padding: 0 0 8% !important;
+		}
+		.blog-list__item {
+			&:last-of-type {
+				padding: 0;
+			}
 		}
 
 		.blog-item__img {
