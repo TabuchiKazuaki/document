@@ -6,6 +6,14 @@ body[data-page-num="4151938"] {
 	}
 }
 
+body[data-page-type="blog"] {
+	.blog-title__text {
+		.u-txt-clr {
+			white-space : normal;
+		}
+	}
+}
+
 @media screen and (max-width: 768px) {
 	body[data-page-num="4151938"] {
 		.blog-title__text {
@@ -22,10 +30,10 @@ body[data-page-num="4151938"] {
 		.blog-list--grid .blog-item {
 			padding: 40px 0;
 		}
-		.blog-item--index0 {
-			padding: 0 0 40px !important;
-		}
 		.blog-list__item {
+			&:first-of-type {
+				padding: 0 0 40px !important;
+			}
 			&:last-of-type {
 				padding: 40px 0 20px;
 			}
@@ -58,10 +66,10 @@ body[data-page-num="4151938"] {
 		.blog-list--grid .blog-item {
 			padding: 8% 0;
 		}
-		.blog-item--index0 {
-			padding: 0 0 8% !important;
-		}
 		.blog-list__item {
+			&:first-of-type {
+				padding: 0 0 8% !important;
+			}
 			&:last-of-type {
 				padding: 8% 0 2.4%;
 			}
