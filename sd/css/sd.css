@@ -568,7 +568,7 @@ header .h_a .h_m {
 }
 
 .cp {
-  padding: 0 0 70px;
+  padding: 60px 0 70px;
 }
 .cp .wrap {
   max-width: 680px;
@@ -584,40 +584,6 @@ header .h_a .h_m {
   text-align: left;
   font-weight: bold;
   color: #000;
-}
-
-.o_box {
-  max-width: 680px;
-  margin: 0 auto;
-}
-.o_box .o_h {
-  padding: 0 0 0 17px;
-  margin: 80px 0 0;
-  font-size: 30px;
-  border-left: 11px solid #ddaa00;
-  line-height: 1.3;
-  text-align: left;
-}
-.o_box .o_img {
-  line-height: 0;
-}
-.o_box .o_text {
-  margin: 50px 0 0;
-  font-size: 24px;
-  letter-spacing: 1.3px;
-}
-
-.other {
-  background: #fff;
-  padding: 0 0 55px;
-}
-.other .wrap {
-  max-width: 680px;
-  margin: 0 auto;
-}
-.other .o_fig {
-  margin: 60px 0 0;
-  line-height: 0;
 }
 
 .t_top {
@@ -1280,32 +1246,19 @@ footer small {
     padding: 8% 0 10.5%;
   }
 
-  .o_box {
-    max-width: 100%;
-    margin: 0 4.5%;
+  .cp {
+    padding: 8% 0 8%;
   }
-  .o_box .o_h {
-    padding: 0 0 0 2.5%;
-    margin: 11% 0 0;
-    font-size: calc(47vw/12);
-    border-left: 9px solid #ddaa00;
-    line-height: 1.3;
-  }
-  .o_box .o_text {
-    margin: 7% 0 0;
-    font-size: calc(36vw/12);
-    letter-spacing: 1.3px;
+  .cp .wrap {
+    padding: 0 4.5%;
   }
 
-  .other {
-    padding: 0 0 7.5%;
-  }
-  .other .wrap {
-    max-width: 100%;
-    margin: 0 4.5%;
-  }
-  .other .o_fig {
-    margin: 7.5% 0 0;
+  .cp_h {
+    padding: 0 0 0 3%;
+    font-size: calc(49vw/12);
+    border-left: 8px solid #f80000;
+    letter-spacing: 0.8px;
+    line-height: 1.3;
   }
 
   .t_top {
@@ -1803,32 +1756,19 @@ footer small {
     letter-spacing: 0.9px;
   }
 
-  .o_box {
-    max-width: 100%;
-    margin: 0 4.5%;
+  .cp {
+    padding: 7% 0 8%;
   }
-  .o_box .o_h {
-    padding: 0 0 0 2.5%;
-    margin: 11% 0 0;
-    font-size: calc(47vw/12);
-    border-left: 9px solid #ddaa00;
-    line-height: 1.3;
-  }
-  .o_box .o_text {
-    margin: 7% 0 0;
-    font-size: calc(36vw/12);
-    letter-spacing: 1.3px;
+  .cp .wrap {
+    padding: 0 4.5%;
   }
 
-  .other {
-    padding: 0 0 7.5%;
-  }
-  .other .wrap {
-    max-width: 100%;
-    margin: 0 4.5%;
-  }
-  .other .o_fig {
-    margin: 7.5% 0 0;
+  .cp_h {
+    padding: 0 0 0 3%;
+    font-size: calc(51vw/12);
+    border-left: 5.5px solid #f80000;
+    letter-spacing: 0.4px;
+    line-height: 1.3;
   }
 
   .t_top {
