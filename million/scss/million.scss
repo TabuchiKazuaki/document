@@ -1738,10 +1738,19 @@ footer {
 
 
 	.h_text {
-		padding: 2.5% 0 1.4%;
+		padding: 1% 0 1.1%;
 		.h_head {
-			font-size: calc(56vw/12);
+			font-size: calc(50vw/12);
 			letter-spacing: 1.2px;
+
+			.num {
+				display: inline-block;
+				margin: 0 0.3%;
+				font-size: calc(53vw/12);
+			}
+			.ls {
+				font-size: calc(38vw/12);
+			}
 		}
 	}
 
@@ -2512,6 +2521,23 @@ footer {
 			padding: 7.9% 0 8.1%;
 			.h_m {
 				width: 70.5%;
+			}
+		}
+	}
+
+	.h_text {
+		padding: 1% 0 1.1%;
+		.h_head {
+			font-size: calc(52vw/12);
+			letter-spacing: 0.6px;
+
+			.num {
+				display: inline-block;
+				margin: 0 0.3%;
+				font-size: calc(55vw/12);
+			}
+			.ls {
+				font-size: calc(40vw/12);
 			}
 		}
 	}
