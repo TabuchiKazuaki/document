@@ -427,6 +427,7 @@ header .h_a .h_m {
   letter-spacing: 1.8px;
   font-size: 32px;
   font-weight: bold;
+  white-space: nowrap;
 }
 .c_first:before {
   content: '';
@@ -708,6 +709,7 @@ header .h_a .h_m {
   float: left;
   width: 23.8%;
   margin: 1.5% 0 0 1.5%;
+  line-height: 0;
 }
 .contents .pre_item li:nth-child(4n+1) {
   margin: 1.5% 0 0 0;
