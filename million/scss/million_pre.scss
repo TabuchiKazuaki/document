@@ -498,14 +498,14 @@ header {
 
 	.c_head {
 		margin: 40px 0 0;
-		font-size: 64px;
+		font-size: 32px;
 		font-weight: 800;
 		letter-spacing: 3.2px;
 		.num {
-			font-size: 70px;
+			font-size: 34px;
 		}
 		.ls {
-			font-size: 70px;
+			font-size: 34px;
 		}
 	}
 	.c_item {
@@ -653,6 +653,12 @@ header {
 		max-width: 492px;
 		margin: 0 auto;
 	}
+	.pre_r3 {
+		margin: 50px 0 0px;
+		font-size: 31.5px;
+		font-weight: 700;
+		letter-spacing: 1.3px;
+	}
 	.pre_h {
 		margin: 36px 0 0px;
 		font-size: 40px;
@@ -729,9 +735,12 @@ header {
 			font-weight: 700;
 		}
 		.co_t {
-			font-size: 25px;
+			margin: 25px 0 0;
+			font-size: 20px;
+			font-weight: bold;
 			letter-spacing: 1.3px;
-			line-height: 1.2;
+			text-align: left;
+			line-height: 1.3;
 		}
 		.cc_list {
 			margin: 30px 0 0;
@@ -1441,9 +1450,10 @@ footer {
 				font-weight: 700;
 			}
 			.co_t {
-				font-size: calc(40vw/12);
+				margin: 4% 0 0;
+				font-size: calc(32vw/12);
 				letter-spacing: 0.8px;
-				line-height: 1.2;
+				line-height: 1.3;
 			}
 			.cc_list {
 				margin: 5% 0 0;
@@ -2468,9 +2478,10 @@ footer {
 				font-weight: 700;
 			}
 			.co_t {
-				font-size: calc(42vw/12);
-				letter-spacing: 0.6px;
-				line-height: 1.2;
+				margin: 4% 0 0;
+				font-size: calc(34vw/12);
+				letter-spacing: 0.4px;
+				line-height: 1.3;
 			}
 			.cc_list {
 				margin: 5% 0 0;
