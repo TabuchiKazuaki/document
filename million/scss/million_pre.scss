@@ -666,6 +666,31 @@ header {
 		font-weight: 700;
 		letter-spacing: 1.3px;
 	}
+	.pre_item_04 {
+		overflow: hidden;
+		margin: 45px 0 40px;
+		li {
+			float: left;
+			width: 23.8%;
+			margin: 1.5% 0 0 1.5%;
+			line-height: 0;
+			&:nth-child(4n+1) {
+				margin: 1.5% 0 0 0;
+			}
+			&:nth-child(4) {
+				margin: 0 0 0 1.5%;
+			}
+			&:nth-child(3) {
+				margin: 0 0 0 1.5%;
+			}
+			&:nth-child(2) {
+				margin: 0 0 0 1.5%;
+			}
+			&:nth-child(1) {
+				margin: 0;
+			}
+		}
+	}
 	.pre_item {
 		overflow: hidden;
 		margin: 45px 0 40px;
@@ -2078,6 +2103,9 @@ footer {
 			font-weight: 700;
 			letter-spacing: 0.9px;
 		}
+		.pre_item_04 {
+			margin: 6.5% 0 3%;
+		}
 		.pre_item {
 			margin: 6.5% 0 3%;
 		}
@@ -2998,6 +3026,9 @@ footer {
 			font-size: calc(64vw/12);
 			font-weight: 700;
 			letter-spacing: 0.6px;
+		}
+		.pre_item_04 {
+			margin: 6.2% 0 2.8%;
 		}
 		.pre_item {
 			margin: 6.2% 0 2.8%;
