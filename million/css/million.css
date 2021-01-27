@@ -701,6 +701,31 @@ header .h_a .h_m {
   font-weight: 700;
   letter-spacing: 1.3px;
 }
+.contents .pre_item_04 {
+  overflow: hidden;
+  margin: 45px 0 40px;
+}
+.contents .pre_item_04 li {
+  float: left;
+  width: 23.8%;
+  margin: 1.5% 0 0 1.5%;
+  line-height: 0;
+}
+.contents .pre_item_04 li:nth-child(4n+1) {
+  margin: 1.5% 0 0 0;
+}
+.contents .pre_item_04 li:nth-child(4) {
+  margin: 0 0 0 1.5%;
+}
+.contents .pre_item_04 li:nth-child(3) {
+  margin: 0 0 0 1.5%;
+}
+.contents .pre_item_04 li:nth-child(2) {
+  margin: 0 0 0 1.5%;
+}
+.contents .pre_item_04 li:nth-child(1) {
+  margin: 0;
+}
 .contents .pre_item {
   overflow: hidden;
   margin: 45px 0 40px;
@@ -2072,6 +2097,9 @@ footer small {
     font-weight: 700;
     letter-spacing: 0.9px;
   }
+  .contents .pre_item_04 {
+    margin: 6.5% 0 3%;
+  }
   .contents .pre_item {
     margin: 6.5% 0 3%;
   }
@@ -2943,6 +2971,9 @@ footer small {
     font-size: calc(64vw/12);
     font-weight: 700;
     letter-spacing: 0.6px;
+  }
+  .contents .pre_item_04 {
+    margin: 6.2% 0 2.8%;
   }
   .contents .pre_item {
     margin: 6.2% 0 2.8%;
