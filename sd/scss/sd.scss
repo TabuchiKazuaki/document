@@ -218,6 +218,22 @@ img  { width: 100%; height: auto;}
 		color: #000;
 	}
 }
+.cp_btn02 {
+	a {
+		display: block;
+		background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/26e718fe5605c6d2e28abfe3dcc54342_67d7bf7c9b7875fe378ccc6d38ea2859.png) center top repeat-y;
+		background-size: 100% auto;
+		padding: 28px 0;
+		border-radius: 6px;
+		text-align: center;
+		font-size: 32px;
+		font-weight: bold;
+		letter-spacing: 1.5px;
+		color: #fff;
+	}
+}
+
+
 
 
 header {
@@ -808,7 +824,16 @@ footer {
 	.cp_btn {
 		a {
 			padding: 3.9% 0 4.2%;
-			border-radius: 4px;
+			border-radius: 5px;
+			font-size: calc(50vw/12);
+			letter-spacing: 0.8px;
+		}
+	}
+
+	.cp_btn02 {
+		a {
+			padding: 3.9% 0 4.2%;
+			border-radius: 5px;
 			font-size: calc(50vw/12);
 			letter-spacing: 0.8px;
 		}
@@ -1491,6 +1516,15 @@ footer {
 	}
 
 	.cp_btn {
+		a {
+			padding: 3.7% 0 4%;
+			border-radius: 4px;
+			font-size: calc(52vw/12);
+			letter-spacing: 0.8px;
+		}
+	}
+
+	.cp_btn02 {
 		a {
 			padding: 3.7% 0 4%;
 			border-radius: 4px;
